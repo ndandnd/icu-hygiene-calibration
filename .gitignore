@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+replay_outputs/
+
+# Full publication documents belong in the separate preprint deposit.
+/paper/
+/manuscript_v2.pdf
+/supplement_v2.pdf
+/execution_records/**/supplement_before.tex
+/execution_records/**/supplement_phase1.tex
+/execution_records/**/supplement_before_topical_cleanup.tex
+/execution_records/**/*.diff

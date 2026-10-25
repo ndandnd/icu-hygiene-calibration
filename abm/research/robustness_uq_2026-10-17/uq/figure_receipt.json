@@ -1,0 +1,10 @@
+{
+  "scope": "Presentation only; no new estimates or experiments",
+  "files": {
+    "plot_results.py": "41d82e4c2c285c959dfc4ee68fcc9915a939edb58b7527ec48cb6b2d6e65fb01",
+    "uncertainty_contraction.png": "20e5065b3b0f22baef5b1f667c8602636554faaab25854ab41913a7b575c8778",
+    "uncertainty_contraction.svg": "9361ec890cba72d4f5d7082b989c98965214e8a46c8893e146550bc1d1b70576",
+    "run_001/results.json": "19a9732b4a96d04dee8f5b6f6536556eca8e98b7f795a864739fb3efe3f52de0"
+  },
+  "visual_check": "All bars, values, labels, legend and footnote visually inspected; no overlap or cropping."
+}

@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-10T04:06:09.347004+00:00",
+  "files": {
+    "METHODS.md": "f5a91c57b5a46f3fbd8a0b18de2bbf57f3a15cef66f8d8537ca0f28a44323274",
+    "analyze_saved.py": "ea643367f5d4bf6d8a1fdead22039f4bd390b1da6fbcf7d44e96c97750e430fa",
+    "config.json": "1c0c35e5a3ba6162056a1c3e9c6be652ba8c5c25dac7362f61d129e05adb26ff",
+    "input_manifest.json": "6ca7830f8783e618714e9dbe81cbe8341582a442b9d1dc30416f8c894daaff0b",
+    "test_analyze_saved.py": "a64d9a07610476c75cfec6f74195e752adc208218de09c1d01c31a68034c69b1"
+  },
+  "identity_sha256": "9ef86ef81700b85788e42e7184e84110b769f8e631e7b5660555563f4c4ce525",
+  "old_outcomes_already_available": true,
+  "schema_version": 1,
+  "scope": "prospective_derived_saved_data_analysis"
+}

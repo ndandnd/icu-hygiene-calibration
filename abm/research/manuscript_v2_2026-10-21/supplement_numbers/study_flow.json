@@ -1,0 +1,114 @@
+[
+ [
+  1,
+  "Antecedent exploration (before 8 Oct)",
+  "Select p for each profile at a baseline of 3.0 per 1,000 patient-days",
+  "Interpolation within the lowest-p increasing adjacent bracket (archived method \"lowest_p_increasing_adjacent_bracket\"); no fallback or extrapolation",
+  "27 conditions x 64 paired seeds (1,728 records)",
+  "Clustered p = .07602 [.07346, .07873], imperfect p = .07484 [.07243, .07785] (retrospective conditional 95%); independent: no point selection"
+ ],
+ [
+  2,
+  "Independent-profile calibration grid (8 Oct)",
+  "Select p for the independent profile",
+  "Declared bracket/interpolation rule on a baseline-only grid, p = .15 fallback",
+  "3 probabilities (.13497, .15, .165) x 128 seeds (384 baseline-only records)",
+  "p = .14328 [.14004, .14792] (retrospective conditional 95%; no failed pooled draws)"
+ ],
+ [
+  3,
+  "Original-workflow holdout confirmation (8 Oct)",
+  "Prevented fraction F for completion 90% to 95% at the fixed selected p",
+  "Fixed from steps 1-2; policy outcomes never select p",
+  "3 profiles x 512 fresh paired seeds (1,536 paired jobs)",
+  "Control 2.83/2.69/2.80; F 67.6/55.9/27.0%; contrasts 11.7, 40.6, 28.9 pp, all exclude 0 (98.333%); all six baseline-matching checks failed"
+ ],
+ [
+  4,
+  "Environmental comparison (8 Oct)",
+  "Does disabling hand-site exchange change F? (independent profile)",
+  "Three fixed earlier probabilities (.0810, .1080, .1350); no fitting",
+  "6 conditions x 512 paired seeds (3,072 paired jobs)",
+  "Full minus disabled F: -10.2 [-22.4, 2.4], -11.7 [-20.7, -2.7], -14.3 [-21.1, -7.5] pp (98.333%)"
+ ],
+ [
+  5,
+  "Rare-transmission coefficient, original workflow (8-10 Oct)",
+  "Limit of F as p -> 0 from transmission-free histories",
+  "None (p = 0 backgrounds)",
+  "256 transmission-free backgrounds; 22-row extended surface",
+  "F* = 75.1/53.6/28.0%; extended surface in Table S5"
+ ],
+ [
+  6,
+  "Inherited-clock baseline sweep (10-11 Oct)",
+  "Can the inherited per-contact washing clock reach the target?",
+  "Baseline only at p = .15, .30, .60, 1",
+  "12 conditions x 128 seeds (1,536 baseline-only records)",
+  "No sampled match to the 2.7-3.3 band"
+ ],
+ [
+  7,
+  "Local p-sensitivity (10-11 Oct)",
+  "Is F locally sensitive to p? (clustered, imperfect)",
+  "0.75, 1 and 1.25 x the fixed p",
+  "6 conditions x 256 fresh paired seeds (1,536 paired jobs)",
+  "F 60.5/55.3/53.6% (clustered) and 28.9/29.8/32.7% (imperfect); four contrasts unresolved"
+ ],
+ [
+  8,
+  "Opportunity-rule and matched-surface follow-up (11-12 Oct)",
+  "Opportunity rule, surface disabling and an independent upper probability",
+  "Lowest exact target hit or lowest increasing adjacent bracket, interpolation within that bracket; no fallback, extrapolation or reselection",
+  "5,760 records: 19-condition grid x 128 (2,432), 2 x 512 selected-clock pairs, 512 p = 1 pairs, 3 x 512 surface-disabled pairs, 256 independent-upper pairs",
+  "Selected p .283/.345; both target checks failed (3.09, 2.85); six-contrast family: +16.3, +37.0, +9.7, -4.5, +0.6, +4.7 pp (99.167%)"
+ ],
+ [
+  9,
+  "Common-baseline secondary analysis (16-17 Oct, post hoc)",
+  "F at a common baseline of 3.0",
+  "Log-log interpolation between center and 1.25 x center; no new runs",
+  "No new runs; 256 seed-matched pairs per bracket",
+  "F* 66.7 [62.1, 71.2], 55.0 [50.7, 59.4], 30.0 [23.6, 36.6]%; contrasts 11.7, 36.7, 25.0 pp exclude 0 (98.333%)"
+ ],
+ [
+  10,
+  "Alternative-workflow robustness (17-21 Oct)",
+  "Do the profile contrasts persist with vacancy cleaning plus empty-bed-only isolation?",
+  "Lowest positive increasing adjacent bracket, log-log interpolation on a 0.5/1/2/4 x p grid",
+  "Grid 4 x 3 x 128 (1,536 baseline-only records); holdout 3 x 512 fresh paired seeds (1,536 paired jobs)",
+  "p .16511/.08063/.07614; control 2.90/2.62/2.63; F 76.5/53.7/27.3%; contrasts 22.8, 49.2, 26.4 pp exclude 0; clustered and imperfect baselines below 2.7"
+ ],
+ [
+  11,
+  "Synthetic measurement UQ (17 Oct)",
+  "Does a two-opportunity survival assay narrow the predicted benefit?",
+  "Not applicable (known synthetic truths)",
+  "12,000 synthetic assay experiments (4 truths x 3 sample sizes x 1,000)",
+  "At 8,000 per assay, continuous k = 2 widths 25.0 -> 6.3, 25.0 -> 1.1, 11.5 -> 5.7 and 11.5 -> 6.7 pp; not ICU data"
+ ],
+ [
+  12,
+  "Mathematical extension (17 Oct)",
+  "Identification of the policy response from bridge survival features",
+  "Not applicable (analytic)",
+  "Analytic; 229 exact rational assertion groups",
+  "Identification criterion and sharp bounds; two-opportunity clustering effect changes sign at e ~ .9235"
+ ],
+ [
+  13,
+  "Rare-transmission coefficient, alternative workflow (21 Oct)",
+  "p -> 0 limit under the alternative workflow, paired with the original on the same backgrounds",
+  "None (p = 0 backgrounds)",
+  "256 backgrounds, full 22-row surface (budget rule resolved to the full surface)",
+  "$F^*$ 75.18/53.65/27.99\\% versus 75.13/53.65/27.99\\% on the same seeds; all 22 rows within 0.3 pp; all three prespecified reproduction checks held"
+ ],
+ [
+  14,
+  "These addenda (21-22 Oct)",
+  "Baseline-mismatch elasticity, selection propagation, route labels",
+  "Not applicable",
+  "No new runs; 9,472 archived records re-read",
+  "See ADDENDA.md sections 1-3"
+ ]
+]

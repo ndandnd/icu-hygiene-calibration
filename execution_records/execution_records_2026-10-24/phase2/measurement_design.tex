@@ -1,0 +1,27 @@
+\paragraph{Study objective and status.} The study assessed how an independently measured
+two-opportunity survival probability $q_2$ narrows the predicted hygiene benefit
+beyond one-opportunity survival $q_1$, when mean completion is known. This is a
+synthetic controlled-assay experiment with known truths, not ICU data. Its
+protocol was saved on 17 October 2026 before any assay outcome was drawn; the
+analytic predictions were known when the design was chosen, so it is a method
+demonstration rather than an empirical test. It is separate from every ICU
+simulation and its intervals are never merged with ICU Monte Carlo intervals.
+
+\paragraph{Frozen design.} Baseline completion $h_0=.90$ is known without error.
+The candidate family is the grid $\rho=i/40$ ($i=0,\dots,40$) by $e=j/100$
+($j=0,\dots,100$), 4,141 stationary Markov laws (Section~\ref{sec:s-hygiene}),
+including the reducible $\rho=1$ chain with its stationary mixture and $e=0$
+(all $q_k=1$, $F=0$). Four known truths lie on the grid: independent (0, 1),
+clustered (.5, 1), imperfect (0, .8) and combined (.5, .8). Separate controlled
+assays estimate $q_1$ and $q_2$: each replicate initializes contamination
+independently of a newly stationary completion process, clearing trials are
+independent given completion, and survival is recorded as Bernoulli; success
+counts were drawn directly as independent Binomial$(n,q_1)$ and
+Binomial$(n,q_2)$ counts, which is distributionally identical. Sample sizes were
+$n=500$, 2,000 and 8,000 replicates per assay, with 1,000 repeated experiments per
+truth and sample size (12,000 in all; PCG64 generator, seed sequence
+[2026101703, truth index, $n$]); there was no data-dependent enlargement. Held-out
+targets were policy completion $h_1=.925$, .95 and .975, each for bridges of $k=2$
+and $k=6$ opportunities: $F=1-q_k(h_1)/q_k(h_0)$ with $\rho$ and $e$ fixed under
+the intervention. No assay at a policy $h$ was used.
+

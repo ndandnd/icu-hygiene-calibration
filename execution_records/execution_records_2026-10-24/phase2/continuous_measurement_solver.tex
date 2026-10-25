@@ -1,0 +1,19 @@
+\paragraph{Continuous $k=2$ bounds (post hoc sensitivity).} The finite grid
+understates interval widths for $k=2$. A post hoc analysis of the same saved
+measurements, with no new draws, removed the grid restriction for the
+.90$\to$.95 two-opportunity target. At fixed $e$ the survival ratio is a ratio of
+affine functions of $\rho$, so its extremes over $\rho$ occur at feasible
+endpoints; the assay constraints give a single interval of feasible $e$, and on
+each clipped $\rho$ boundary prevention is nondecreasing in $e$, so the global
+extremes are attained at the smallest and largest feasible $e$ (the proof holds
+for $0<h_0<h_1<1$ in this family). The solver used 60-digit decimal interval
+arithmetic with directed rounding (24,000 confidence sets; zero unresolved
+decisions; enclosures of width at most $10^{-58}$), and an independent 100-digit
+implementation verified all 47,684 feasible extrema and all 158 empty-set
+decisions. The certificate is for optimization given the supplied assay limits,
+which are floating-point Clopper--Pearson quantiles widened outward by
+$3\times10^{-12}$; the whole statistical pipeline is not formally machine
+certified. A documented verification-only repair allowed $10^{-90}$ scalar
+comparison error after roundoff near an exact point-valued certificate; the
+solver and outputs were unchanged.
+

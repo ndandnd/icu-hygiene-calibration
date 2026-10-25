@@ -1,0 +1,164 @@
+{
+  "status": "all_checks_passed",
+  "assertion_groups": 229,
+  "scope": "Exact constructed stationary-bridge examples; no clinical data, no ICU validation, no novelty claim.",
+  "python": "3.12.2 (v3.12.2:6abddd9f6a, Feb  6 2024, 17:02:06) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "sympy": "1.13.3",
+  "script_sha256": "52e8a9856b9aa436de5283b09979f62904138e17012a79f7d11ca2526f02b2e3",
+  "interaction": [
+    {
+      "efficacy": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "rho": [
+        0,
+        {
+          "exact": "1/2",
+          "decimal": 0.5
+        },
+        1
+      ],
+      "F": [
+        {
+          "exact": "13/49",
+          "decimal": 0.2653061224489796
+        },
+        {
+          "exact": "43/134",
+          "decimal": 0.3208955223880597
+        },
+        {
+          "exact": "6/17",
+          "decimal": 0.35294117647058826
+        }
+      ],
+      "ratio_derivative_numerator": {
+        "exact": "-73/78125",
+        "decimal": -0.0009344
+      }
+    },
+    {
+      "efficacy": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "rho": [
+        0,
+        {
+          "exact": "1/2",
+          "decimal": 0.5
+        },
+        1
+      ],
+      "F": [
+        {
+          "exact": "3/4",
+          "decimal": 0.75
+        },
+        {
+          "exact": "23/44",
+          "decimal": 0.5227272727272727
+        },
+        {
+          "exact": "1/2",
+          "decimal": 0.5
+        }
+      ],
+      "ratio_derivative_numerator": {
+        "exact": "1/4000",
+        "decimal": 0.00025
+      }
+    }
+  ],
+  "clearing_threshold_e": 0.9235280887098128,
+  "same_baseline_raw_mean_counterexample": [
+    {
+      "A": [
+        {
+          "exact": "11/42",
+          "decimal": 0.2619047619047619
+        },
+        {
+          "exact": "3/28",
+          "decimal": 0.10714285714285714
+        },
+        {
+          "exact": "1/2",
+          "decimal": 0.5
+        },
+        {
+          "exact": "11/84",
+          "decimal": 0.13095238095238096
+        }
+      ],
+      "K0": {
+        "exact": "1111/40000",
+        "decimal": 0.027775
+      },
+      "K1": {
+        "exact": "180451/13440000",
+        "decimal": 0.01342641369047619
+      },
+      "F": {
+        "exact": "192845/373296",
+        "decimal": 0.5166007672195791
+      }
+    },
+    {
+      "A": [
+        {
+          "exact": "5/21",
+          "decimal": 0.23809523809523808
+        },
+        {
+          "exact": "11/28",
+          "decimal": 0.39285714285714285
+        },
+        {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        {
+          "exact": "31/84",
+          "decimal": 0.36904761904761907
+        }
+      ],
+      "K0": {
+        "exact": "1111/40000",
+        "decimal": 0.027775
+      },
+      "K1": {
+        "exact": "173231/13440000",
+        "decimal": 0.012889211309523809
+      },
+      "F": {
+        "exact": "200065/373296",
+        "decimal": 0.5359419870558484
+      }
+    }
+  ],
+  "sharp_weighted_mean_examples": [
+    {
+      "support": [
+        2,
+        6
+      ],
+      "weighted_mean": {
+        "exact": "4",
+        "decimal": 4.0
+      },
+      "F_bounds": [
+        {
+          "exact": "111/128",
+          "decimal": 0.8671875
+        },
+        {
+          "exact": "15/16",
+          "decimal": 0.9375
+        }
+      ]
+    }
+  ]
+}

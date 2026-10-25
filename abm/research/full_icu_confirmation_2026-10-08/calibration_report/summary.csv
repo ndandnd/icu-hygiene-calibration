@@ -1,0 +1,4 @@
+scenario,p,rho,e,h0,h1,n,baseline_rate,policy_rate,count_prevented_fraction,rate_prevented_fraction,mean_prevented,absolute_prevented_rate,prediction
+independent_calibration_p0,0.13496571354322734,0.0,1.0,0.9,0.9,128,2.310557745062087,2.310557745062087,0.0,0.0,0.0,0.0,0.0
+independent_calibration_p1,0.15,0.0,1.0,0.9,0.9,128,3.5579016826905994,3.5579016826905994,0.0,0.0,0.0,0.0,0.0
+independent_calibration_p2,0.165,0.0,1.0,0.9,0.9,128,5.02702923481411,5.02702923481411,0.0,0.0,0.0,0.0,0.0

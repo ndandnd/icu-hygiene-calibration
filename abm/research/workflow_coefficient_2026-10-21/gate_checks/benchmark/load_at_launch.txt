@@ -1,0 +1,14 @@
+Thu Oct 22 03:23:46 EDT 2026
+ 3:23  up 98 days, 2 mins, 13 users, load averages: 35.04 20.60 12.17
+ %CPU COMMAND
+ 83.5 /Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python code/hetdur4h.py --start 207360 --stop 414720 --out results/
+ 82.8 /Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python code/hetdur4h.py --start 0 --stop 207360 --out results/hetdu
+ 82.6 /Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -c from multiprocessing.spawn import spawn_main; spawn_main(
+ 81.6 /Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -c from multiprocessing.spawn import spawn_main; spawn_main(
+ 81.6 /Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -c from multiprocessing.spawn import spawn_main; spawn_main(
+ 80.9 /Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python code/hetdur4h.py --start 622080 --stop 829440 --out results/
+ 78.3 /Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python code/hetdur4h.py --start 414720 --stop 622080 --out results/
+ 78.2 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+ 75.6 /Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python addenda_analysis.py
+ 50.7 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+ 25.0 claude

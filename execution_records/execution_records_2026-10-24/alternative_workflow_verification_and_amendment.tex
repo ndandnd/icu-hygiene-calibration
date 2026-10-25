@@ -1,0 +1,65 @@
+\subsection{Verification}\label{sec:s-alt-verification}
+The headline numbers come from the cluster analyzer's output, produced in the
+pinned runtime (Linux, Python 3.12.3, NumPy 1.26.4). After collection an
+independent scientific reviewer made the checks in Table~\ref{tab:alt-verif}.
+\begin{table}[htbp]\centering\footnotesize
+\caption{Post-collection verification of the alternative-workflow study.}\label{tab:alt-verif}
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{>{\raggedright\arraybackslash}p{.22\linewidth}>{\raggedright\arraybackslash}p{.70\linewidth}}\toprule
+Check & Result\\\midrule
+Transport & All 3,583 collected files match their SHA-256 receipts.\\
+Frozen inputs & 71 of 71 hash checks pass; the derived policy freeze binds the selection, the policy configuration and all 1,536 grid record hashes.\\
+Records & 1,536 grid records and 1,536 policy pairs checked twice (unmodified frozen loader and an independent pass): complete scenario-by-seed products, 0 failures, one runtime throughout; counter conservation, route histograms and site mass balance hold.\\
+Selection replay & The frozen code, run cross-platform, reproduces all 636 numeric fields bitwise; the blind reimplementation gives identical counts and brackets and $p$ within 0--3 units in the last place (summation order only).\\
+Analysis replay & The frozen code, run cross-platform, reproduces all 139 numeric fields bitwise, and the output file hash matches the cluster's once the runtime descriptor is restored; blind point estimates agree within $2\times10^{-15}$, and the blind multinomial variant reproduces the cluster's bootstrap weight-stream hash with intervals within $4\times10^{-15}$.\\
+Routes and counters & Re-tallied from the raw policy records; identical to the blind tallies.\\
+Frozen analyzer, local runtime & Refused in both stages (pinned Python 3.12.3/NumPy 1.26.4 required); the gate was not bypassed.\\
+\bottomrule\end{tabular}
+\end{adjustbox}
+\end{table}
+These checks are cross-platform, not exact-runtime: both local replays ran on
+macOS arm64 with Python 3.12.2 and NumPy 1.26.4, evaluating but not enforcing the
+runtime pins, and no second analysis run was made in the pinned runtime after
+collection. The production analysis itself ran in the pinned runtime. Full
+records were not re-simulated except for the five full-horizon spot checks
+below. These are automated and delegated checks, not external peer review.
+
+\subsection{Provenance and the execution amendment}\label{sec:s-alt-provenance}
+A separate provenance review recomputed every check from the collected files and
+the frozen tree, and accepted the study with caveats about evidence class and
+wording.
+\begin{itemize}
+\item \emph{Freeze chain.} The original freeze, the amended freeze and the
+derived policy freeze recompute exactly; no frozen scientific file changed.
+\item \emph{Execution amendment.} The first replay probe failed after 5 seconds
+in the launcher's executable-identity guard, before any model ran, because the
+compute host's Python binary differed from the login host's. The two dependent
+jobs were cancelled with zero elapsed time and no record existed. One documented
+amendment, written between 20:41 and 20:48 UTC, changed only provenance and
+runtime gates in five files (15 scientific functions are AST-identical); the
+first scientific record appeared at 20:53 UTC. It anchored both production banks
+to the successful compute-probe receipt, restricted execution to one compute
+host and allowed exactly one replacement probe, which passed. The amendment
+review was not blind and took about 12 minutes; its acceptability rests on the
+independent hash and AST recomputation.
+\item \emph{Runtime.} All 3,072 records come from one compute-host Python build
+and package set (Linux, Python 3.12.3, NumPy 1.26.4, Mesa 1.2.1), equal to the
+passing probe. The login-host and compute-host binaries differ, as the amendment
+permits; no simulation, selection or analysis ran under the login-host binary.
+\item \emph{Cross-platform spot check.} Five production records (two grid, three
+policy, one per profile at the selected $p$) were re-simulated with the frozen
+code on macOS (Python 3.12.2) and were byte-identical to the cluster records
+after removal of runtime fields. This covers 5 of 3,072 records and is not an
+exact-runtime replay.
+\item \emph{Seeds.} Seeds are a fixed function of labels, mutually disjoint
+across grid, policy and probe, and none of the 643 appears among 4,400 seeds of
+locally archived prior studies (banks held only on the cluster were not checked).
+\item \emph{Order and restarts.} Selection was queued with a scheduler dependency
+before any outcome existed and used only the complete grid bank; policy and
+analysis were dispatched by the selection job. There is no evidence of any
+restart, but this is inferred from files (progress receipts, logs and lock
+times), because no terminal scheduler accounting was collected.
+\item \emph{Compute.} 167.5 of 768 allowed worker-hours (66.4 grid, 101.05
+policy), peak concurrency 16, no overlap between phases.
+\end{itemize}
+

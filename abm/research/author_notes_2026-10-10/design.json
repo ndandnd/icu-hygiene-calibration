@@ -1,0 +1,21 @@
+{
+  "bootstrap_draws": 50000,
+  "bootstrap_seed": 20261010,
+  "clock_jobs": 1536,
+  "coefficient_background_replays": 256,
+  "coefficient_pairs": 22,
+  "interpretation": "New follow-up after old outcomes, not retrospective registration.",
+  "interval_levels": {
+    "clock_rate_family": 0.9958333333333333,
+    "descriptive": 0.95,
+    "sensitivity_contrast_family": 0.9875
+  },
+  "no_selection_or_grid_extension": true,
+  "sampled_clock_target_band": [
+    2.7,
+    3.3
+  ],
+  "schema_version": 1,
+  "sensitivity_pairs": 1536,
+  "study": "author_notes_2026-10-10"
+}

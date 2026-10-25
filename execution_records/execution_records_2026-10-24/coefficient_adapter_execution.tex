@@ -1,0 +1,42 @@
+\paragraph{Implementation and gates.} A new adapter composes the frozen bridge
+background hooks with the frozen workflow-variant relocation and clearing rules
+without editing either file.
+\begin{itemize}
+\item \emph{Gate 1 (reproduction): passed.} With the alternative rules switched
+off, the adapter reproduced archived original-workflow records bitwise on 8
+seeds (4 originally produced locally and 4 on the cluster; 4 in bank A and 4 in
+bank B): identical ordered bridge-event hashes and relative error 0 in every
+$K$. Two of these seeds also matched all 22 surface pairs bitwise. The
+independent reviewer reproduced two further seeds with a separately written
+script, including every field of the archived record and all 22 pairs.
+\item \emph{Gate 2 (rule semantics): passed.} Fourteen unit tests passed (no
+swaps; moves only into empty isolation beds in the frozen bed order; deferral
+when none is empty; clearing at discharge and relocation; unchanged random-number
+state), and an opt-in full-horizon test passed. The reviewer stepped the adapter
+and the frozen alternative-workflow model in lockstep for all 378,432 ticks on two seeds:
+patient positions, flags, counters and the final random-number state never
+diverged, across 19 relocations and 10,845 deferral ticks.
+\item \emph{Gate 3 (independent code review): approve with minor notes.} The
+notes concerned operational recovery after abnormal termination (a runner that
+could hang if a worker were killed, and a possible spurious failure file after a
+forced kill), the wording of prediction 1 against rounded published values, the
+two possible readings of the prediction-3 comparator, and cosmetic issues. None
+affects a coefficient, an event stream or a summary statistic. The review also
+verified atomic, resumable record writing, absence of state carry-over when a
+worker process is reused, and the bootstrap and delta computations.
+\item \emph{Budget rule.} The protocol capped local compute at 80 CPU-hours with
+at most 10 concurrent simulation processes, with a fallback (primary profiles on
+256 seeds, full surface on bank A only) if the full surface was projected above
+the cap. A 3-seed benchmark projected 15.7 CPU-hours, so the full 22-pair surface
+ran on all 256 seeds. Actual cost was 14.3 CPU-hours (10 workers, 1~h~46~min
+wall); 256 of 256 records completed, with no failure and no seed replacement.
+\item \emph{Determinism and recomputation.} The three benchmark seeds were
+recomputed in the batch and their scientific fields were identical to the
+benchmark records. A separate recomputation of all 22 limits directly from the
+raw records of both workflows agreed with the study summary to every printed
+digit.
+\item \emph{Disclosure.} Before launch, the implementing agent saw the 3-seed
+benchmark outcomes while testing the summary script. Nothing in the protocol,
+settings or code changed afterwards, and the budget decision was mechanical.
+\end{itemize}
+

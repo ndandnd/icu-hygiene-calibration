@@ -1,0 +1,99 @@
+{
+  "canonical_write_authorized": false,
+  "clinical_validation": false,
+  "files": [
+    {
+      "bytes": 1226,
+      "path": "INPUTS.json",
+      "sha256": "9077ad20a077b83e3900ec874bc1fb668b9e42e3453ffdd89ff66aa8fe6ce4b0"
+    },
+    {
+      "bytes": 4861,
+      "path": "README.md",
+      "sha256": "4409073f1f5d19a7bae599756e479835e6db9c30d58f1d567ec949db80f7d92d"
+    },
+    {
+      "bytes": 27954,
+      "path": "build_documents.py",
+      "sha256": "cfc8b81e2dcc874e45c177f25601a0500ad22b6d2c0682e6c76a33e25230a645"
+    },
+    {
+      "bytes": 191422,
+      "path": "input/assets/weekly_control.png",
+      "sha256": "6b3d8449e26fd83287bc6b6920fef63e6f2dfdef2282d3cd0e1952b8e2343487"
+    },
+    {
+      "bytes": 101862,
+      "path": "input/base/manuscript.tex",
+      "sha256": "3b5130d331aff9a43303f7c29d4de86b50e8c2b05d16ec1aa279ba404e612914"
+    },
+    {
+      "bytes": 31950,
+      "path": "input/base/supplement.tex",
+      "sha256": "0c369712db85abad0f79ea89de53f9589b37b68cc84151de69323cdefb98927f"
+    },
+    {
+      "bytes": 33102,
+      "path": "input/evidence/full_analysis_arithmetic_acceptance_projection.json",
+      "sha256": "5b0f7182f68386e84373f5ea5e71444d04c224aaaab77a6b13351d460fd16ec5"
+    },
+    {
+      "bytes": 5137,
+      "path": "input/evidence/scientific_review.json",
+      "sha256": "d654c5a0d217c0966f930906abc7e8d303ec41e6d44f808d75ca0f23a0f7b6ab"
+    },
+    {
+      "bytes": 10286,
+      "path": "input/evidence/selector_arithmetic_acceptance_projection.json",
+      "sha256": "348f9cce94ef4759a49ce7ee6015964e257fdd32050bcc351ab60ad9355344c1"
+    },
+    {
+      "bytes": 653679,
+      "path": "input/report.json",
+      "sha256": "9189e84179ca027e54ec03d2214137cfe55889ebaf11b9bd6276e0c56510f30f"
+    },
+    {
+      "bytes": 272427,
+      "path": "input/selection.json",
+      "sha256": "13ecd228596a82994e1ae859d4c6bead6d0c275be54c23d02e41cb5ceddf7705"
+    },
+    {
+      "bytes": 11394,
+      "path": "reconstruct.py",
+      "sha256": "f3b0716c8157f07c691c7c94413cdac2eed6643a590f67b3eb8ee5ccae2b3363"
+    }
+  ],
+  "identity_sha256": "091c98d983bf20d4e35395b4886887843240c4a7c7e084084208149fe872b5ef",
+  "kind": "bound_rule_surface_document_source_bundle",
+  "outputs": {
+    "SOURCE_MANIFEST.json": {
+      "bytes": 29996,
+      "sha256": "6570282557d73e44905104744242025d8a5059f8eca7f82eb86b3d322c87f5f2"
+    },
+    "figures/weekly_control.png": {
+      "bytes": 191422,
+      "sha256": "6b3d8449e26fd83287bc6b6920fef63e6f2dfdef2282d3cd0e1952b8e2343487"
+    },
+    "manuscript.tex": {
+      "bytes": 108658,
+      "sha256": "ce185a003244d71735f2b7f0ce231c6e0013e0b9419728bbcc77253fc8c71331"
+    },
+    "manuscript.tex.diff": {
+      "bytes": 14871,
+      "sha256": "9c4eef5c0566d42a9c4eb58452a1d9ad0bb53269fa14cd018feb62c7a6ddcd9a"
+    },
+    "supplement.tex": {
+      "bytes": 45434,
+      "sha256": "3255ef3ef85b285e7017004cae30205e60af75c36c9c41a80211837ce73a8f6c"
+    },
+    "supplement.tex.diff": {
+      "bytes": 14762,
+      "sha256": "6a1c8efb5967413f9a2f62d12876e31eb29eaa0a46e3fd68e1879d075635863f"
+    }
+  },
+  "pdf_compilation_included": false,
+  "schema_version": 1,
+  "scope": "Exact source reconstruction only; later exact replay, source/PDF and final release acceptances remain distinct.",
+  "source_revision": "candidate_v3_with_public_scientific_projections",
+  "statistics_recomputed": false
+}

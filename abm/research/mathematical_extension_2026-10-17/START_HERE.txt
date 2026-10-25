@@ -1,0 +1,75 @@
+Research extension prepared 17 October 2026
+
+Purpose
+Respond to the request to strengthen the mathematics and assess feasible
+robustness/UQ work and specialist-journal readiness. This is a working research
+package, separate from the accepted ICU results and current manuscript.
+
+Concrete results
+1. A necessary and sufficient linear-algebra criterion for identification of
+   a specified coefficient-level policy response from observed bridge features.
+2. Sharp response bounds given incomplete bridge information. Under independent
+   completion, the baseline survival-weighted mean identifies local response,
+   but generally not a finite intervention. Raw and weighted means differ.
+3. Under stationary first-order Markov completion and constant independent
+   clearing, h,q1,q2 identify efficacy e and persistence rho (interior case).
+4. A joint-mechanism interaction: for two opportunities and completion .90 to
+   .95, clustering lowers prevention at e=1 but raises it at e=.8. The direction
+   changes at e approximately .923528. This is an isolated-bridge result, not
+   a newly measured full-ICU effect.
+
+Files
+- review_math.md: statements, proofs, sharp bounds and counterexamples.
+- review_inference.md: measurement identification, interaction and UQ scope.
+- review_robustness.md: bounded structural-test proposal and venue assessment.
+- check_extension.py / verification.json: exact rational checks, 229 passed
+  assertion groups; actual runtime and script hash recorded.
+- plot_interaction.py / interaction.png / interaction.svg: constructed exact
+  two-opportunity response curves. PNG visually inspected after generation.
+
+Independent review
+Two separately delegated mathematical/inferential reviews produced the proofs
+and inspected the independent checker. Finite checks support the examples;
+the analytic arguments establish the general statements. These are internal
+checks, not external peer review. Standard tools are not claimed as new theory.
+The application still needs a focused novelty comparison and a demonstration
+that the proposed information helps predict withheld interventions.
+
+Priority judgment
+A reputable specialist-journal paper is a realistic objective. The existing
+study has a defensible core. Before submission, prioritize one bounded workflow
+robustness study and a useful mathematical/measurement result, instead of a
+large undirected grid or more replication of unchanged conditions. A clinical
+trial is not a prerequisite for a clearly scoped methodological paper.
+
+The structural design in review_robustness.md is a proposal, not a frozen
+protocol or cluster allocation. Its combined alternative tests robustness to
+a bundle of rules; it cannot separate each rule's effect. Any future run needs
+an explicit question, fixed workload, baseline-only selection, fresh evaluation
+and source freeze, while respecting current project-priority constraints.
+
+Uncertainty interpretation
+Monte Carlo intervals quantify simulation sampling. Parameter-range and
+structural envelopes quantify sensitivity to their declared sets. They become
+probabilistic uncertainty statements only with justified distributions or
+joint confidence sets. Synthetic inputs here are not clinical observations.
+
+Preservation
+No cluster job, frozen source, accepted result, manuscript, automation or
+external destination was changed. No new study was submitted or monitored.
+Current manuscript SHA256 remains:
+887e5125332cb4636ca3e8c059d014f3bba540d77c660c0958a4765a9667303e
+
+Relevant standard mathematical sources (not a novelty review)
+Boyd and Vandenberghe, Convex Optimization:
+https://web.stanford.edu/~boyd/cvxbook/
+Bertsimas and Popescu, Optimal Inequalities in Probability Theory:
+A Convex Optimization Approach, SIAM J. Optimization 15(3), 780-804 (2005):
+https://doi.org/10.1137/S1052623401399903
+
+Journal scope checks, 17 October 2026
+https://www.keaipublishing.com/en/journals/infectious-disease-modelling/
+https://link.springer.com/journal/11538/aims-and-scope
+https://shop.elsevier.com/journals/journal-of-theoretical-biology/0022-5193
+Fit assessments are judgments, not rankings, acceptance predictions or claims
+about how a particular faculty hiring committee will evaluate the paper.

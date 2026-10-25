@@ -1,0 +1,10 @@
+Debris of an earlier attempt (2026-10-21 ~21:53-21:57 local), moved here on
+2026-10-22 before any gate or benchmark evidence was produced.
+- records/manifest.json, records/batch.log, records/.run.lock: a 3-seed
+  benchmark launched into records/ under adapter sha256 423815c9...; it was
+  interrupted after ~86 s with no seed completed (batch.log: done=0,
+  interrupted=True). Machine load average at launch was 64.7 (load_at_launch.txt).
+- gate1/interrupted_20261021/empty_logs: seven gate-1 logs from the same
+  attempt, all 0 bytes (stdout/stderr were not captured); no gate-1 result JSON
+  was ever written.
+No result from that attempt is used. records/ is left empty for the batch.

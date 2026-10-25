@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "method": "100-digit independent scalar formulas and alternative rational numerator for prevention",
+  "decimal_working_precision": 100,
+  "defined_sets_checked": 23842,
+  "empty_sets_checked": 158,
+  "scalar_verification_tolerance": "1.0e-90",
+  "extremum_certificate_checks": 47684,
+  "max_difference_from_decimal_certificate_midpoint": "1.63279898400663611675661573389332177152870162177615514823697866716397105581657121142907692169038754e-59",
+  "floating_outputs_enclose_scalar_extrema": true,
+  "coverage_checked_against_exact_decimal_truth_parameters": true,
+  "python": "3.12.2 (v3.12.2:6abddd9f6a, Feb  6 2024, 17:02:06) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "mpmath": "1.3.0",
+  "verifier_sha256": "ba46143eb11bd7edf8212a6923e0550c6bc635a6ef0ac2c85c8b2f83e828d5b3",
+  "source_receipt_sha256": "c078c4dd78a9139ceff26930c1630c1911fa47540ff7412916dbb86678254154",
+  "limitation": "Does not certify inherited beta quantiles; it verifies continuous optimization for supplied widened numeric limits."
+}

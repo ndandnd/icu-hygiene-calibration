@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"path\":\"$PROJECT_ROOT/abm/manuscript/manuscript.tex\",\"mainDocument\":\"$PROJECT_ROOT/abm/manuscript/manuscript.tex\",\"kind\":\"success\",\"message\":\"The current source compiled successfully with the desktop editor's compiler.\"}"
+    }
+  ],
+  "isError": false
+}

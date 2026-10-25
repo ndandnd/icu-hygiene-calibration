@@ -1,0 +1,7 @@
+{
+  "source": "abm/research/referee_perspective_2026-10-24/worker_robustness/results.json",
+  "source_sha256": "8e53ff3c691deeee5355ad6d7462af66756aa5d378cad8e392b5b4acd703d32d",
+  "output_sha256": "89b34fb7717c2fa960e556362a478cfea2a0fe0f4a829e69641e67c843611b24",
+  "rounding": "nominal nearest2decimal percent; bound endpoints outward2decimal percent using exact rational stored results",
+  "kind": "conditional structural bounds; not confidence intervals"
+}

@@ -1,0 +1,35 @@
+{
+  "all_three_cluster_runtime_and_replay_digests_equal": true,
+  "cluster_nodes_checked": 3,
+  "cluster_runtime": {
+    "Mesa": "1.2.1",
+    "networkx": "3.7",
+    "numpy": "1.26.4",
+    "pandas": "3.0.6",
+    "platform": "Linux-6.8.0-142-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]"
+  },
+  "local_runtime": {
+    "Mesa": "1.2.1",
+    "networkx": "3.7",
+    "numpy": "1.26.4",
+    "pandas": "3.0.6",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "python": "3.12.2 (v3.12.2:6abddd9f6a, Feb  6 2024, 17:02:06) [Clang 13.0.0 (clang-1300.0.29.30)]"
+  },
+  "max_rss_bytes_cluster_probe": 93261824,
+  "max_rss_bytes_local": 97386496,
+  "schema_version": 1,
+  "scope": "Three one-day warmup and one-day observation paired checks, one for each profile. Identical complete numerical payload digests across local ARM and three cluster CPU nodes. This is a short implementation check, not statistical model validation. Private scheduler receipts are retained outside the public repository.",
+  "short_replay_sha256": "499a79abc6f8d42586ce2e648ee67b9d8ff89c9fb944dc76135ed7a0b0e5d886",
+  "sources": {
+    "research/full_icu_calibration_2026-10-07/run.py": "bf144e5723d897d595de0eab2b1529b0f88aeb61d46d1005b73749bf7bddd6ee",
+    "research/full_icu_response_2026-10-08/PROTOCOL.md": "401251f3bea22f055afe3203c57233c571f53f85b96aa5f3a69295c982757a14",
+    "research/full_icu_response_2026-10-08/instrumented_model.py": "5dcbe23b392694c1baffa7cd2475588ab12d8a3333778c17e73e0b5e6131888b",
+    "research/full_icu_response_2026-10-08/run.py": "1835a6c939e43f8763176c1977128a36cce65b1d3ad28d19ef355d7eb0c9f517",
+    "src/CPEmodel.py": "5659a207818cdc8f1dcd40dd41b2900fa9d02a302a92b9dc6c5f6b376213ff53",
+    "src/agents.py": "bb4d52252f2c4d4fba599245fa1abc07254afe12fc2165e692ad1279504fc656",
+    "src/routes.py": "48c1ce8440cf71a82996afd92ede83b1237744db56b439bd9163ce7b60f0dcd5"
+  },
+  "status": "passed"
+}

@@ -1,0 +1,97 @@
+{
+  "builder_sha256": "070da4f8b6103d37966d63f667a1bb8549d465c76a9da8f6d59f4082d405f8dd",
+  "confidence": {
+    "bridge": "95% asymptotic normal/delta",
+    "descriptive": 0.95,
+    "matching_gate": 0.9916666666666667,
+    "primary_family": 0.9833333333333333
+  },
+  "counts": {
+    "environment_seeds_per_condition": 512,
+    "holdout_seeds_per_profile": 512,
+    "p0_backgrounds": 256
+  },
+  "derived_table_rows": 9,
+  "deterministic_presentation_formula": "R_h_leading = 1000*p^2*reported_mean_K_h/reported_mean_p0_observation_patient_days; point only",
+  "estimands": {
+    "bridge": "1-K1/K0 at p=0; stationary q2 comparator; positive-p measured holdout F",
+    "environment": "Fixed-p full minus disabled relative response; absolute paired rate/count prevention",
+    "holdout": "Measured pooled R0/R1 and 1-R1/R0 at locked p"
+  },
+  "estimates_recomputed": false,
+  "finite_p_error_certified": false,
+  "interpolation": false,
+  "is_synthetic_fixture": false,
+  "minimum_font_pt_at_6p5_inch_width": 8.04375,
+  "native_compilation": "Not performed by builder; standalone TeX provided for independent compilation/QA",
+  "native_minimum_font_pt": 11,
+  "native_renderer": {
+    "path": "research/full_icu_calibration_2026-10-07/figures/build_baseline_response.py",
+    "sha256": "b647c99116fd5cb9ed9d4411b4dcfe3d95654a537ad013d5769f54fc55a676a8"
+  },
+  "outputs_sha256": {
+    "bridge_limit_comparison.pdf": "79dcadee34cee23461b999128d1417f6a8451eb5ace24eca465984ce001ca706",
+    "bridge_limit_comparison.png": "0881b07688742fa4b7e87b02eca166717197b1eba7d215fa4ead3ed80fde25b5",
+    "bridge_limit_comparison.tex": "1c0efe990f4efcb2171871d66218722c00e21a62d1f0944e765293857eeb0511",
+    "bridge_limit_comparison_standalone.tex": "df28256626901935a670f50823bd273f72a0bba0ca8157ef2cd84bef6a52c8d4",
+    "environment_estimands.pdf": "a7a1cc8f62fdcf8f2e8d2520825d752db97a4d124dcf65e0570917440eca0870",
+    "environment_estimands.png": "7f6e2a7d3aa3e0e7f60681df0b0c9e0a30342472e9c476ff64450341fa424f72",
+    "environment_estimands.tex": "007acc996460ddc71b2394f1e94d2bb05af1c19c647116584e7b0c0113873b83",
+    "environment_estimands_standalone.tex": "c6c4644fed7f36cddb3bb6916e3be21d0ed03517224475e84b3db4f4f126965b",
+    "holdout_rates_and_prevention.pdf": "c92088543e40430464ac4ff7a12f2a42e4497f5492818b2d13d973828d7d53ac",
+    "holdout_rates_and_prevention.png": "182c3fe6377d7105eed3fd450dd43929c616c33dab9c654c9c0f1b6079e9faed",
+    "holdout_rates_and_prevention.tex": "8c52e5105ab79e4771cc1e79e86bcc7d327e134c2036ab06777c9816f51c3a50",
+    "holdout_rates_and_prevention_standalone.tex": "40242521ff317e33a6dc60778159c2d9ce7d77ec5f03e6462444f6987d70a98f",
+    "leading_rate_comparison.csv": "21007db9704ec9040f47c2b43d0f17cb0703d4050d388944158568a76defe181",
+    "leading_rate_comparison.tex": "65345eb89e330369a22afb297d994b252bf49151571f23f8133dcb227d8e6828"
+  },
+  "schema_version": 1,
+  "simulations_run": false,
+  "sources": {
+    "analysis_freeze": {
+      "path": "research/full_icu_confirmation_2026-10-08/analyze_freeze.json",
+      "sha256": "dc5ae5c86dc07bb744ae4f0f9f1a9529c85890ec690267d78610c95800cec039"
+    },
+    "bridge_binding": {
+      "path": "research/full_icu_confirmation_2026-10-08/bridge/aggregate_report/binding.json",
+      "sha256": "cc7666774221d0df0fe30a61bed8c7ed1ff5c469aedaaf6594560d8102f71611"
+    },
+    "bridge_config": {
+      "path": "research/full_icu_confirmation_2026-10-08/bridge/configs/bridge_all.json",
+      "sha256": "8e9f0f431ded41e2e2d35a60414851798572ce6a3a6784cc65edad14d582015c"
+    },
+    "bridge_freeze": {
+      "path": "research/full_icu_confirmation_2026-10-08/freeze_bridge.json",
+      "sha256": "c5cc0c3f0e7dfa509a51b5473624dff799c04804132eec3fed9e6c9e19693e11"
+    },
+    "bridge_report": {
+      "path": "research/full_icu_confirmation_2026-10-08/bridge/aggregate_report/summary.json",
+      "sha256": "46318f3aa337c489cb9e977b02f7d9e582a76069e24506d75a68677ad7abac4a"
+    },
+    "environment_design": {
+      "path": "research/full_icu_confirmation_2026-10-08/configs/environment_all.json",
+      "sha256": "9a5b10ff9a380ff5a1b1b1ff86cd78214663ec256210d7aab7adac35de226be7"
+    },
+    "environment_freeze": {
+      "path": "research/full_icu_confirmation_2026-10-08/freeze.json",
+      "sha256": "86b7041db70c8b4cc5fb68a32123df099bc4e81ab698770999ce85985637bc81"
+    },
+    "environment_report": {
+      "path": "research/full_icu_confirmation_2026-10-08/environment_report/report.json",
+      "sha256": "b5dfdd412e4d8df99ca4557694739436b8eb601ec9b3de3f223cce553fa3e264"
+    },
+    "holdout_design": {
+      "path": "research/full_icu_confirmation_2026-10-08/configs/holdout_all.json",
+      "sha256": "a99ea9789122a91622fe84ea04fd50558f669a68201c2f5245b656f19933680f"
+    },
+    "holdout_freeze": {
+      "path": "research/full_icu_confirmation_2026-10-08/freeze_holdout.json",
+      "sha256": "056fccdf9effe797ea15cf2805094d221cf15d9dd575256fb6e77bc1cff2d827"
+    },
+    "holdout_report": {
+      "path": "research/full_icu_confirmation_2026-10-08/holdout_report/report.json",
+      "sha256": "7653258323d436c52deb0962f404f7dfd8c37bc8f83e026741927b5b7bf8b6ce"
+    }
+  },
+  "status": "complete_render"
+}

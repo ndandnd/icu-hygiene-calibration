@@ -1,0 +1,97 @@
+{
+  "adapter_sha256": "939aabd55a64ce59f1c9111052cdd36b7545fbc848578b48eef1dbb37d2e8c67",
+  "checks": {
+    "all_moves_shared_to_isolation": true,
+    "discharge_clears_equal_discharges": true,
+    "executed_full_horizon": true,
+    "moves_equal_relocations": true,
+    "no_dirty_clears": true,
+    "no_move_into_occupied": true,
+    "no_move_out_of_isolation": true,
+    "no_occupied_destination_attempt": true,
+    "relocation_clears_equal_relocations": true,
+    "relocations_occurred": true,
+    "swaps_zero": true
+  },
+  "counters_observation": {
+    "audit.moves": 4,
+    "audit.moves_from_isolation_bed": 0,
+    "audit.moves_into_isolation_bed": 4,
+    "audit.moves_into_occupied_bed": 0,
+    "audit.moves_shared_to_isolation": 4,
+    "audit.swaps": 0,
+    "environment_events.dirty_discharge_clear": 0,
+    "environment_events.dirty_relocation_clear": 0,
+    "environment_events.discharge_clear": 316,
+    "environment_events.relocation_clear": 4,
+    "workflow_events.isolation_deferred_no_empty_bed": 50,
+    "workflow_events.isolation_relocation": 4,
+    "workflow_events.occupied_destination_rejected": 0
+  },
+  "counters_total": {
+    "audit.moves": 13,
+    "audit.moves_from_isolation_bed": 0,
+    "audit.moves_into_isolation_bed": 13,
+    "audit.moves_into_occupied_bed": 0,
+    "audit.moves_shared_to_isolation": 13,
+    "audit.swaps": 0,
+    "environment_events.dirty_discharge_clear": 0,
+    "environment_events.dirty_relocation_clear": 0,
+    "environment_events.discharge_clear": 793,
+    "environment_events.relocation_clear": 13,
+    "workflow_events.isolation_deferred_no_empty_bed": 3193,
+    "workflow_events.isolation_relocation": 13,
+    "workflow_events.occupied_destination_rejected": 0
+  },
+  "cpu_seconds": 162.829038,
+  "deferral_patient_days_total": 1.2318672839506173,
+  "discharged_patients": 793,
+  "ordered_bridge_events_sha256": "5314694383c8d8960fdd3750a3fd5a1dedce354405b82b7d5070339e2ae3a113",
+  "original_mode_audit_same_seed_from_gate1": {
+    "alternative": false,
+    "counters_observation": {
+      "audit.moves": 18,
+      "audit.moves_from_isolation_bed": 9,
+      "audit.moves_into_isolation_bed": 9,
+      "audit.moves_into_occupied_bed": 9,
+      "audit.moves_shared_to_isolation": 9,
+      "audit.swaps": 9
+    },
+    "counters_total": {
+      "audit.moves": 26,
+      "audit.moves_from_isolation_bed": 13,
+      "audit.moves_into_isolation_bed": 13,
+      "audit.moves_into_occupied_bed": 13,
+      "audit.moves_shared_to_isolation": 13,
+      "audit.swaps": 13
+    },
+    "name": "original_swap_isolation",
+    "patient_contacts_by_period_status_bed": {
+      "observation|carrier|isolation_bed": 23509,
+      "observation|carrier|shared_bed": 9,
+      "observation|susceptible|isolation_bed": 74047,
+      "observation|susceptible|shared_bed": 68555,
+      "warmup|carrier|isolation_bed": 21502,
+      "warmup|carrier|shared_bed": 4,
+      "warmup|susceptible|isolation_bed": 134278,
+      "warmup|susceptible|shared_bed": 110339
+    }
+  },
+  "primary_K": {
+    "iid_imperfect": [
+      649.6980839035939,
+      467.829155157617
+    ],
+    "iid_perfect": [
+      77.5366230426969,
+      19.241306425689316
+    ],
+    "persistent_perfect": [
+      571.4575281030109,
+      264.8699736888198
+    ]
+  },
+  "seed": 3308159835,
+  "test": "full_horizon_no_swap",
+  "wall_seconds": 396.7138617504388
+}

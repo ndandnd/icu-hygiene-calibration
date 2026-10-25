@@ -1,0 +1,756 @@
+{
+  "scope": "Post-hoc continuous-domain k=2 sensitivity; no new draws; h0=.90,h1=.95",
+  "conditional_coverage": "Exact confidence-set projection theorem over continuous stationary Markov rho/e; numeric optimization is outward-certified for supplied widened assay limits. CP quantiles themselves are inherited numeric inputs.",
+  "guard_on_assay_limits": "0.000000000003",
+  "largest_decimal_extremum_enclosure_width": "1.00E-58",
+  "largest_outward_float_padding": "1.665328953177996291566157482E-16",
+  "maximum_decimal_precision": 60,
+  "unresolved_total": 0,
+  "grid_endpoint_enclosure_checks": 47654,
+  "cases": [
+    {
+      "truth": "independent",
+      "n_per_assay": 500,
+      "information_sets": {
+        "q1_only": {
+          "certified_empty": 7,
+          "unresolved": 0,
+          "covered": 983,
+          "total": 1000,
+          "coverage": 0.983,
+          "continuous_width": {
+            "defined": 993,
+            "undefined": 7,
+            "quantiles_10_50_90": [
+              0.2515773820368351,
+              0.25709491017887776,
+              0.2662050312810726
+            ]
+          },
+          "grid_width": {
+            "defined": 993,
+            "undefined": 7,
+            "quantiles_10_50_90": [
+              0.2504995504046358,
+              0.2544638428727308,
+              0.2622249388753056
+            ]
+          },
+          "median_width_increase_among_both_defined": 0.001166117220232854,
+          "maximum_width_increase_among_both_defined": 0.051511862863190205,
+          "grid_empty_continuous_nonempty": 0
+        },
+        "q1_and_q2": {
+          "certified_empty": 15,
+          "unresolved": 0,
+          "covered": 972,
+          "total": 1000,
+          "coverage": 0.972,
+          "continuous_width": {
+            "defined": 985,
+            "undefined": 15,
+            "quantiles_10_50_90": [
+              0.1323347565434082,
+              0.19277759888427215,
+              0.22830922188559527
+            ]
+          },
+          "grid_width": {
+            "defined": 985,
+            "undefined": 15,
+            "quantiles_10_50_90": [
+              0.1320602641205283,
+              0.18222676657004278,
+              0.21913245903150713
+            ]
+          },
+          "median_width_increase_among_both_defined": 0.0086906952658663,
+          "maximum_width_increase_among_both_defined": 0.061093698643909455,
+          "grid_empty_continuous_nonempty": 0
+        }
+      }
+    },
+    {
+      "truth": "independent",
+      "n_per_assay": 2000,
+      "information_sets": {
+        "q1_only": {
+          "certified_empty": 11,
+          "unresolved": 0,
+          "covered": 974,
+          "total": 1000,
+          "coverage": 0.974,
+          "continuous_width": {
+            "defined": 989,
+            "undefined": 11,
+            "quantiles_10_50_90": [
+              0.2502554741354103,
+              0.25158298413954017,
+              0.2538530048541035
+            ]
+          },
+          "grid_width": {
+            "defined": 989,
+            "undefined": 11,
+            "quantiles_10_50_90": [
+              0.25,
+              0.2504995504046358,
+              0.25199282582702276
+            ]
+          },
+          "median_width_increase_among_both_defined": 0.0005373566167746202,
+          "maximum_width_increase_among_both_defined": 0.047802166555251546,
+          "grid_empty_continuous_nonempty": 0
+        },
+        "q1_and_q2": {
+          "certified_empty": 16,
+          "unresolved": 0,
+          "covered": 963,
+          "total": 1000,
+          "coverage": 0.963,
+          "continuous_width": {
+            "defined": 984,
+            "undefined": 16,
+            "quantiles_10_50_90": [
+              0.06641116919908686,
+              0.11495606388707535,
+              0.14719196327197284
+            ]
+          },
+          "grid_width": {
+            "defined": 984,
+            "undefined": 16,
+            "quantiles_10_50_90": [
+              0.05102040816326525,
+              0.0919276070094801,
+              0.1359490951342227
+            ]
+          },
+          "median_width_increase_among_both_defined": 0.014907571778350504,
+          "maximum_width_increase_among_both_defined": 0.0730929976908532,
+          "grid_empty_continuous_nonempty": 0
+        }
+      }
+    },
+    {
+      "truth": "independent",
+      "n_per_assay": 8000,
+      "information_sets": {
+        "q1_only": {
+          "certified_empty": 6,
+          "unresolved": 0,
+          "covered": 982,
+          "total": 1000,
+          "coverage": 0.982,
+          "continuous_width": {
+            "defined": 994,
+            "undefined": 6,
+            "quantiles_10_50_90": [
+              0.250075763091092,
+              0.2503720788821214,
+              0.25081647005116253
+            ]
+          },
+          "grid_width": {
+            "defined": 994,
+            "undefined": 6,
+            "quantiles_10_50_90": [
+              0.25,
+              0.25,
+              0.2504995504046358
+            ]
+          },
+          "median_width_increase_among_both_defined": 0.00022807326432322528,
+          "maximum_width_increase_among_both_defined": 0.0484499024261516,
+          "grid_empty_continuous_nonempty": 0
+        },
+        "q1_and_q2": {
+          "certified_empty": 22,
+          "unresolved": 0,
+          "covered": 952,
+          "total": 1000,
+          "coverage": 0.952,
+          "continuous_width": {
+            "defined": 978,
+            "undefined": 22,
+            "quantiles_10_50_90": [
+              0.032244778143677634,
+              0.0626643325359525,
+              0.0880458873292832
+            ]
+          },
+          "grid_width": {
+            "defined": 974,
+            "undefined": 26,
+            "quantiles_10_50_90": [
+              0.0,
+              0.05102040816326525,
+              0.05102040816326525
+            ]
+          },
+          "median_width_increase_among_both_defined": 0.02192446694909367,
+          "maximum_width_increase_among_both_defined": 0.08655997100776791,
+          "grid_empty_continuous_nonempty": 4
+        }
+      }
+    },
+    {
+      "truth": "clustered",
+      "n_per_assay": 500,
+      "information_sets": {
+        "q1_only": {
+          "certified_empty": 14,
+          "unresolved": 0,
+          "covered": 986,
+          "total": 1000,
+          "coverage": 0.986,
+          "continuous_width": {
+            "defined": 986,
+            "undefined": 14,
+            "quantiles_10_50_90": [
+              0.2515773820368351,
+              0.25709491017887776,
+              0.2662050312810726
+            ]
+          },
+          "grid_width": {
+            "defined": 986,
+            "undefined": 14,
+            "quantiles_10_50_90": [
+              0.2504995504046358,
+              0.2544638428727308,
+              0.2622249388753056
+            ]
+          },
+          "median_width_increase_among_both_defined": 0.001166117220232854,
+          "maximum_width_increase_among_both_defined": 0.02752628600314755,
+          "grid_empty_continuous_nonempty": 0
+        },
+        "q1_and_q2": {
+          "certified_empty": 14,
+          "unresolved": 0,
+          "covered": 966,
+          "total": 1000,
+          "coverage": 0.966,
+          "continuous_width": {
+            "defined": 986,
+            "undefined": 14,
+            "quantiles_10_50_90": [
+              0.03794115206499654,
+              0.05678955608227812,
+              0.0870163007771822
+            ]
+          },
+          "grid_width": {
+            "defined": 986,
+            "undefined": 14,
+            "quantiles_10_50_90": [
+              0.035640226105672246,
+              0.05260983254913487,
+              0.07823732767260694
+            ]
+          },
+          "median_width_increase_among_both_defined": 0.004107899283204264,
+          "maximum_width_increase_among_both_defined": 0.02320138879702116,
+          "grid_empty_continuous_nonempty": 0
+        }
+      }
+    },
+    {
+      "truth": "clustered",
+      "n_per_assay": 2000,
+      "information_sets": {
+        "q1_only": {
+          "certified_empty": 10,
+          "unresolved": 0,
+          "covered": 990,
+          "total": 1000,
+          "coverage": 0.99,
+          "continuous_width": {
+            "defined": 990,
+            "undefined": 10,
+            "quantiles_10_50_90": [
+              0.2503473400274318,
+              0.25158298413954017,
+              0.2538530048541035
+            ]
+          },
+          "grid_width": {
+            "defined": 990,
+            "undefined": 10,
+            "quantiles_10_50_90": [
+              0.25,
+              0.2504995504046358,
+              0.25199282582702276
+            ]
+          },
+          "median_width_increase_among_both_defined": 0.000602266633421944,
+          "maximum_width_increase_among_both_defined": 0.047802166555251546,
+          "grid_empty_continuous_nonempty": 0
+        },
+        "q1_and_q2": {
+          "certified_empty": 10,
+          "unresolved": 0,
+          "covered": 980,
+          "total": 1000,
+          "coverage": 0.98,
+          "continuous_width": {
+            "defined": 990,
+            "undefined": 10,
+            "quantiles_10_50_90": [
+              0.020108911394924878,
+              0.024481527731069153,
+              0.03036538138627567
+            ]
+          },
+          "grid_width": {
+            "defined": 990,
+            "undefined": 10,
+            "quantiles_10_50_90": [
+              0.017923089844001927,
+              0.02156334231805923,
+              0.0267828548677298
+            ]
+          },
+          "median_width_increase_among_both_defined": 0.0028295163969860315,
+          "maximum_width_increase_among_both_defined": 0.00885769307760198,
+          "grid_empty_continuous_nonempty": 0
+        }
+      }
+    },
+    {
+      "truth": "clustered",
+      "n_per_assay": 8000,
+      "information_sets": {
+        "q1_only": {
+          "certified_empty": 15,
+          "unresolved": 0,
+          "covered": 985,
+          "total": 1000,
+          "coverage": 0.985,
+          "continuous_width": {
+            "defined": 985,
+            "undefined": 15,
+            "quantiles_10_50_90": [
+              0.25005505600896305,
+              0.25034776185947955,
+              0.25089120484854766
+            ]
+          },
+          "grid_width": {
+            "defined": 985,
+            "undefined": 15,
+            "quantiles_10_50_90": [
+              0.25,
+              0.25,
+              0.2504995504046358
+            ]
+          },
+          "median_width_increase_among_both_defined": 0.0002384670182277726,
+          "maximum_width_increase_among_both_defined": 0.0484499024261516,
+          "grid_empty_continuous_nonempty": 0
+        },
+        "q1_and_q2": {
+          "certified_empty": 15,
+          "unresolved": 0,
+          "covered": 970,
+          "total": 1000,
+          "coverage": 0.97,
+          "continuous_width": {
+            "defined": 985,
+            "undefined": 15,
+            "quantiles_10_50_90": [
+              0.010085844418852496,
+              0.011313106567750975,
+              0.012672504819924924
+            ]
+          },
+          "grid_width": {
+            "defined": 985,
+            "undefined": 15,
+            "quantiles_10_50_90": [
+              0.007675038854884297,
+              0.009050388035387047,
+              0.01065105729674265
+            ]
+          },
+          "median_width_increase_among_both_defined": 0.002579048008842344,
+          "maximum_width_increase_among_both_defined": 0.0055095254720402,
+          "grid_empty_continuous_nonempty": 0
+        }
+      }
+    },
+    {
+      "truth": "imperfect",
+      "n_per_assay": 500,
+      "information_sets": {
+        "q1_only": {
+          "certified_empty": 0,
+          "unresolved": 0,
+          "covered": 990,
+          "total": 1000,
+          "coverage": 0.99,
+          "continuous_width": {
+            "defined": 1000,
+            "undefined": 0,
+            "quantiles_10_50_90": [
+              0.18377411807021513,
+              0.19015298240186376,
+              0.19136305208610235
+            ]
+          },
+          "grid_width": {
+            "defined": 1000,
+            "undefined": 0,
+            "quantiles_10_50_90": [
+              0.17307012138697342,
+              0.18039940091694584,
+              0.18382251120084503
+            ]
+          },
+          "median_width_increase_among_both_defined": 0.010506927938991772,
+          "maximum_width_increase_among_both_defined": 0.017265567637423707,
+          "grid_empty_continuous_nonempty": 0
+        },
+        "q1_and_q2": {
+          "certified_empty": 1,
+          "unresolved": 0,
+          "covered": 982,
+          "total": 1000,
+          "coverage": 0.982,
+          "continuous_width": {
+            "defined": 999,
+            "undefined": 1,
+            "quantiles_10_50_90": [
+              0.13200773805304358,
+              0.18348617490274347,
+              0.1909242254069301
+            ]
+          },
+          "grid_width": {
+            "defined": 998,
+            "undefined": 2,
+            "quantiles_10_50_90": [
+              0.12188613824263805,
+              0.1713752580395359,
+              0.18160762676774178
+            ]
+          },
+          "median_width_increase_among_both_defined": 0.01152536903310579,
+          "maximum_width_increase_among_both_defined": 0.027769070347650388,
+          "grid_empty_continuous_nonempty": 1
+        }
+      }
+    },
+    {
+      "truth": "imperfect",
+      "n_per_assay": 2000,
+      "information_sets": {
+        "q1_only": {
+          "certified_empty": 0,
+          "unresolved": 0,
+          "covered": 989,
+          "total": 1000,
+          "coverage": 0.989,
+          "continuous_width": {
+            "defined": 1000,
+            "undefined": 0,
+            "quantiles_10_50_90": [
+              0.1388347048910787,
+              0.14056247920493534,
+              0.14106358401148705
+            ]
+          },
+          "grid_width": {
+            "defined": 1000,
+            "undefined": 0,
+            "quantiles_10_50_90": [
+              0.12689567094262777,
+              0.1299568119917479,
+              0.13066266818821126
+            ]
+          },
+          "median_width_increase_among_both_defined": 0.010651096459502823,
+          "maximum_width_increase_among_both_defined": 0.02099846977991221,
+          "grid_empty_continuous_nonempty": 0
+        },
+        "q1_and_q2": {
+          "certified_empty": 1,
+          "unresolved": 0,
+          "covered": 970,
+          "total": 1000,
+          "coverage": 0.97,
+          "continuous_width": {
+            "defined": 999,
+            "undefined": 1,
+            "quantiles_10_50_90": [
+              0.06527161835573574,
+              0.10506689575589656,
+              0.11994374409487256
+            ]
+          },
+          "grid_width": {
+            "defined": 997,
+            "undefined": 3,
+            "quantiles_10_50_90": [
+              0.0489885416974567,
+              0.08952113775292858,
+              0.10593965276450568
+            ]
+          },
+          "median_width_increase_among_both_defined": 0.015046060004722528,
+          "maximum_width_increase_among_both_defined": 0.03384930717085122,
+          "grid_empty_continuous_nonempty": 2
+        }
+      }
+    },
+    {
+      "truth": "imperfect",
+      "n_per_assay": 8000,
+      "information_sets": {
+        "q1_only": {
+          "certified_empty": 0,
+          "unresolved": 0,
+          "covered": 989,
+          "total": 1000,
+          "coverage": 0.989,
+          "continuous_width": {
+            "defined": 1000,
+            "undefined": 0,
+            "quantiles_10_50_90": [
+              0.11406145066067001,
+              0.11448750630377919,
+              0.11460621759416487
+            ]
+          },
+          "grid_width": {
+            "defined": 1000,
+            "undefined": 0,
+            "quantiles_10_50_90": [
+              0.09826570563091896,
+              0.10832381689219073,
+              0.10908783205111494
+            ]
+          },
+          "median_width_increase_among_both_defined": 0.005704456761440935,
+          "maximum_width_increase_among_both_defined": 0.016441793159886586,
+          "grid_empty_continuous_nonempty": 0
+        },
+        "q1_and_q2": {
+          "certified_empty": 1,
+          "unresolved": 0,
+          "covered": 975,
+          "total": 1000,
+          "coverage": 0.975,
+          "continuous_width": {
+            "defined": 999,
+            "undefined": 1,
+            "quantiles_10_50_90": [
+              0.035179808840762564,
+              0.05711815976900475,
+              0.0671377342815183
+            ]
+          },
+          "grid_width": {
+            "defined": 991,
+            "undefined": 9,
+            "quantiles_10_50_90": [
+              0.01080606323767408,
+              0.0353876590473754,
+              0.05463073386367212
+            ]
+          },
+          "median_width_increase_among_both_defined": 0.018193990064342414,
+          "maximum_width_increase_among_both_defined": 0.03425957251685602,
+          "grid_empty_continuous_nonempty": 8
+        }
+      }
+    },
+    {
+      "truth": "combined",
+      "n_per_assay": 500,
+      "information_sets": {
+        "q1_only": {
+          "certified_empty": 0,
+          "unresolved": 0,
+          "covered": 1000,
+          "total": 1000,
+          "coverage": 1.0,
+          "continuous_width": {
+            "defined": 1000,
+            "undefined": 0,
+            "quantiles_10_50_90": [
+              0.18441814146781163,
+              0.19011115063387002,
+              0.1913586069935385
+            ]
+          },
+          "grid_width": {
+            "defined": 1000,
+            "undefined": 0,
+            "quantiles_10_50_90": [
+              0.17307012138697342,
+              0.18039940091694584,
+              0.18382251120084503
+            ]
+          },
+          "median_width_increase_among_both_defined": 0.010506927938991772,
+          "maximum_width_increase_among_both_defined": 0.017265567637423707,
+          "grid_empty_continuous_nonempty": 0
+        },
+        "q1_and_q2": {
+          "certified_empty": 0,
+          "unresolved": 0,
+          "covered": 998,
+          "total": 1000,
+          "coverage": 0.998,
+          "continuous_width": {
+            "defined": 1000,
+            "undefined": 0,
+            "quantiles_10_50_90": [
+              0.1809880655482231,
+              0.1896854321656871,
+              0.1913586069935385
+            ]
+          },
+          "grid_width": {
+            "defined": 1000,
+            "undefined": 0,
+            "quantiles_10_50_90": [
+              0.16837871172499363,
+              0.18039940091694584,
+              0.18382251120084503
+            ]
+          },
+          "median_width_increase_among_both_defined": 0.010687533351905198,
+          "maximum_width_increase_among_both_defined": 0.02985591617610739,
+          "grid_empty_continuous_nonempty": 0
+        }
+      }
+    },
+    {
+      "truth": "combined",
+      "n_per_assay": 2000,
+      "information_sets": {
+        "q1_only": {
+          "certified_empty": 0,
+          "unresolved": 0,
+          "covered": 1000,
+          "total": 1000,
+          "coverage": 1.0,
+          "continuous_width": {
+            "defined": 1000,
+            "undefined": 0,
+            "quantiles_10_50_90": [
+              0.1390197827578244,
+              0.14065140659850656,
+              0.141073713895425
+            ]
+          },
+          "grid_width": {
+            "defined": 1000,
+            "undefined": 0,
+            "quantiles_10_50_90": [
+              0.12867592795842409,
+              0.1299568119917479,
+              0.13066266818821126
+            ]
+          },
+          "median_width_increase_among_both_defined": 0.010605667213187425,
+          "maximum_width_increase_among_both_defined": 0.02099846977991221,
+          "grid_empty_continuous_nonempty": 0
+        },
+        "q1_and_q2": {
+          "certified_empty": 0,
+          "unresolved": 0,
+          "covered": 998,
+          "total": 1000,
+          "coverage": 0.998,
+          "continuous_width": {
+            "defined": 1000,
+            "undefined": 0,
+            "quantiles_10_50_90": [
+              0.11268597312551905,
+              0.12983552130227882,
+              0.13629706882459108
+            ]
+          },
+          "grid_width": {
+            "defined": 1000,
+            "undefined": 0,
+            "quantiles_10_50_90": [
+              0.09442710436168533,
+              0.11241665103239429,
+              0.12030694867263658
+            ]
+          },
+          "median_width_increase_among_both_defined": 0.01655359195706975,
+          "maximum_width_increase_among_both_defined": 0.03910938136026859,
+          "grid_empty_continuous_nonempty": 0
+        }
+      }
+    },
+    {
+      "truth": "combined",
+      "n_per_assay": 8000,
+      "information_sets": {
+        "q1_only": {
+          "certified_empty": 0,
+          "unresolved": 0,
+          "covered": 1000,
+          "total": 1000,
+          "coverage": 1.0,
+          "continuous_width": {
+            "defined": 1000,
+            "undefined": 0,
+            "quantiles_10_50_90": [
+              0.11406206981786454,
+              0.11448750630377919,
+              0.11460688319130397
+            ]
+          },
+          "grid_width": {
+            "defined": 1000,
+            "undefined": 0,
+            "quantiles_10_50_90": [
+              0.09826570563091896,
+              0.10832381689219073,
+              0.10908783205111494
+            ]
+          },
+          "median_width_increase_among_both_defined": 0.005704456761440935,
+          "maximum_width_increase_among_both_defined": 0.016441793159886586,
+          "grid_empty_continuous_nonempty": 0
+        },
+        "q1_and_q2": {
+          "certified_empty": 0,
+          "unresolved": 0,
+          "covered": 998,
+          "total": 1000,
+          "coverage": 0.998,
+          "continuous_width": {
+            "defined": 1000,
+            "undefined": 0,
+            "quantiles_10_50_90": [
+              0.062323014605880495,
+              0.06689445052155549,
+              0.07197465621559843
+            ]
+          },
+          "grid_width": {
+            "defined": 1000,
+            "undefined": 0,
+            "quantiles_10_50_90": [
+              0.0356220874325085,
+              0.04913474089695802,
+              0.05873144757798632
+            ]
+          },
+          "median_width_increase_among_both_defined": 0.014323271698812035,
+          "maximum_width_increase_among_both_defined": 0.034388353612685774,
+          "grid_empty_continuous_nonempty": 0
+        }
+      }
+    }
+  ]
+}

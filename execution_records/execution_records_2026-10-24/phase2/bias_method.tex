@@ -1,0 +1,21 @@
+\paragraph{Baseline-mismatch estimator.} The change in $F$ associated with adjusting
+the control rate $B$ from its observed value to 3.0 was estimated using the slope
+$\beta_B=\mathrm dF/\mathrm d\ln B$ (percentage points of $F$ per unit of
+natural-log baseline) was estimated from seed-paired original-workflow
+conditions that vary $p$ and report both $B$ and $F$
+(Table~\ref{tab:slope-inputs}); a 10\% higher baseline changes $F$ by
+$\ln(1.1)\beta_B\approx0.095\beta_B$. The implied bias of an observed $F$ is
+$F(B_{\mathrm{obs}})-F(3.0)\approx\beta_B\ln(B_{\mathrm{obs}}/3)$; a positive
+value means the observed $F$ is higher than it would be at 3.0. Intervals are
+percentile 95\% intervals from 20,000 whole-seed bootstrap draws (seed 20261021),
+with one random stream per seed bank so that conditions sharing seeds share
+draws. The original holdout was resampled in four 128-seed strata so that its
+overlap with the independent upper seeds is exact; its recomputed $F$ intervals
+differ from the published 200,000-draw intervals by at most 0.12 percentage
+points. All point values reproduce the archived reports (52 of 52 checks). An
+independent verifier, without reusing the addenda code, reproduced all 149 integer
+counts, 510 of 515 point estimates and all 199 interval endpoints within Monte
+Carlo tolerance; the five exceptions all came from Monte Carlo half-widths taken
+from one-decimal intervals, which are recomputed here from the unrounded archived
+intervals (Section~\ref{sec:s-selprop}).
+

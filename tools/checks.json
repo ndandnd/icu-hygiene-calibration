@@ -1,0 +1,100 @@
+{
+  "passed": true,
+  "arithmetic": "exact fractions; complete binary-history enumeration",
+  "counts": {
+    "local_derivative": 144,
+    "small_e_coefficient": 600,
+    "perfect_clearing_strict_sign": 450,
+    "spectrum_identity": 315,
+    "degenerate_zero": 150
+  },
+  "total": 1659,
+  "mixture_counterexamples": [
+    {
+      "spectrum": {
+        "0": 1,
+        "2": 1
+      },
+      "rho": {
+        "exact": "1/2",
+        "decimal": 0.5
+      },
+      "F_independent": {
+        "exact": "3/404",
+        "decimal": 0.007425742574257425
+      },
+      "F_clustered": {
+        "exact": "23/844",
+        "decimal": 0.027251184834123223
+      },
+      "D_at_e_1": {
+        "exact": "845/42622",
+        "decimal": 0.019825442259865798
+      }
+    },
+    {
+      "spectrum": {
+        "1": 1,
+        "6": 10000
+      },
+      "rho": {
+        "exact": "1/2",
+        "decimal": 0.5
+      },
+      "F_independent": {
+        "exact": "383/704",
+        "decimal": 0.5440340909090909
+      },
+      "F_clustered": {
+        "exact": "6233403/10327744",
+        "decimal": 0.6035590154054942
+      },
+      "D_at_e_1": {
+        "exact": "1690585/28401296",
+        "decimal": 0.059524924496403266
+      }
+    },
+    {
+      "spectrum": {
+        "2": 1,
+        "6": 10000
+      },
+      "rho": {
+        "exact": "1/100",
+        "decimal": 0.01
+      },
+      "F_independent": {
+        "exact": "111/128",
+        "decimal": 0.8671875
+      },
+      "F_clustered": {
+        "exact": "1468055794537/1682319331136",
+        "decimal": 0.8726380107311037
+      },
+      "D_at_e_1": {
+        "exact": "18338999135/3364638662272",
+        "decimal": 0.00545051073110372
+      }
+    }
+  ],
+  "all_e_counterexample_numerator_coefficients": [
+    {
+      "exact": "17/200",
+      "decimal": 0.085
+    },
+    {
+      "exact": "-171/2000",
+      "decimal": -0.0855
+    },
+    {
+      "exact": "171/4000",
+      "decimal": 0.04275
+    }
+  ],
+  "all_e_counterexample_discriminant": {
+    "exact": "-28899/4000000",
+    "decimal": -0.00722475
+  },
+  "source_sha256": {},
+  "check_script_sha256": "472e47c33019e0b8aff488fc564602289141a64c85f98c2551164b82d1570541"
+}

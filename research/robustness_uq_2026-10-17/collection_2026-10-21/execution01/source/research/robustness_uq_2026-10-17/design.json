@@ -1,0 +1,49 @@
+{
+  "bootstrap_draws": 20000,
+  "bootstrap_seed": 20261017,
+  "contrast_interval_level": 0.9833333333333333,
+  "grid_multipliers": [
+    0.5,
+    1,
+    2,
+    4
+  ],
+  "grid_records": 1536,
+  "grid_seed_count": 128,
+  "maximum_policy_pairs": 1536,
+  "policy_seed_count": 512,
+  "policy_uncertainty": "conditional on selected p; calibration bootstrap reported separately; interpolation-model error excluded",
+  "primary_contrasts": [
+    "independent-clustered",
+    "independent-imperfect",
+    "clustered-imperfect"
+  ],
+  "profiles": {
+    "clustered": {
+      "e": 1.0,
+      "p": 0.07602158239372622,
+      "rho": 0.5
+    },
+    "imperfect": {
+      "e": 0.8,
+      "p": 0.07483995991409355,
+      "rho": 0.0
+    },
+    "independent": {
+      "e": 1.0,
+      "p": 0.14327558866543832,
+      "rho": 0.0
+    }
+  },
+  "schema_version": 1,
+  "selection": "lowest exact target hit, else lowest-p adjacent positive increasing bracket; log rate against log p; no fallback or extrapolation",
+  "stopping": "fixed workload only; preserve missing bracket, undefined draws and failed target checks",
+  "study": "robustness_uq_2026-10-17",
+  "target_band": [
+    2.7,
+    3.3
+  ],
+  "target_checks": "descriptive; not equivalence",
+  "target_rate": 3.0,
+  "workflow": "clean bedside site on vacancy by discharge/relocation; isolate only into empty isolation bed; no occupant swaps"
+}

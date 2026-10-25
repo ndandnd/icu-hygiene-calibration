@@ -1,0 +1,12 @@
+\paragraph{Confidence sets.} Each assay has a two-sided exact Clopper--Pearson
+interval \citep{clopper1934} with marginal coverage at least 97.5\%, so the joint
+set has coverage at least 95\% by the union bound (independence of the assays is
+not required). The $q_1$-only set keeps candidates whose $q_1$ lies in its
+interval; the joint set additionally requires $q_2$ in its interval, using the
+same $q_1$ interval so that sets are nested. Projecting a set onto a target gives
+its minimum and maximum $F$, exact over the finite grid (membership tolerance
+$2\times10^{-12}$, which can only widen a set). Because all six targets are
+functions of the same parameters, inclusion of the true grid point guarantees
+simultaneous coverage of all six. An empty set is retained as an undefined
+interval and counted as a coverage failure; no nearest model is substituted.
+

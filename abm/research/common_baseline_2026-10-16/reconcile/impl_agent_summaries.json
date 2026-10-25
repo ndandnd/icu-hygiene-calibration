@@ -1,0 +1,196 @@
+{
+ "aa28673d5ead3dbf2": {
+  "reproduction_gate_passed": true,
+  "reproduction_details": "The gate passed: all 14 checks are within 1e-12 relative error, with a maximum of 3.2e-15 (imperfect_center). Each check compared pooled control rate, policy rate and F, plus the bank-A and bank-B values of all three, against the archived report.\n\nRecomputed vs archived (control / policy / F), maximum relative error in brackets:\n- independent_center_matched256: 2.7774095830621777 vs 2.7774095830621772; 0.9361505695100685 vs 0.936150569510068; 0.662941117788636 vs 0.662941117788636 [6.7e-16]\n- independent_upper: 7.2892694651264 vs 7.289269465126397; 2.1128574788890813 vs 2.1128574788890795; 0.7101413949645442 vs 0.7101413949645443 [8.4e-16]\n- clustered_low: 1.29583280064701 / 0.5121585519358797 / 0.604764942143648 [7.4e-16]\n- clustered_center: 2.6300002857133533 vs 2.6300002857133524; 1.174368487999469 vs 1.1743684879994676; 0.5534721063039973 vs 0.5534721063039977 [1.1e-15]\n- clustered_high: 5.029452510233013 vs 5.029452510233017; 2.334475900000605 vs 2.3344759000006072; 0.5358389615468405 vs 0.5358389615468404 [9.5e-16]\n- imperfect_low: 1.2529369109094248 / 0.8908942529811464 / 0.28895521775752886 [1.5e-15]\n- imperfect_center: 2.8086095367576225 vs 2.8086095367576243; 1.9723604621045394 vs 1.97236046210454; 0.2977448675968267 vs 0.29774486759682695 [3.2e-15]\n- imperfect_high: 5.9276264243071 / 3.9899267289601847 / 0.3268930186627642 [1.6e-15]\n- old_full_independent_target_candidate (512 seeds): 2.8285153555584333 vs 2.828515355558436; 0.9170477721067953 vs 0.9170477721067961; 0.6757847645038707 [9.7e-16]\n- old_full_persistent_target_candidate (clustered, 512): 2.685686886807539 vs 2.685686886807541; 1.185154895469799; 0.5587144200273524 vs 0.5587144200273528 [8.3e-16]\n- old_full_imperfect_target_candidate (512): 2.8014439155168063 vs 2.8014439155168085; 2.0463105332728797 vs 2.0463105332728793; 0.26955149023735525 vs 0.26955149023735603 [2.9e-15]\n- The same three 512-seed conditions were also checked against the original holdout report (pooled values and its two_bank_diagnostics A/B values): all pass, maximum 2.5e-15.\n\nAcquisition and policy counts match the rule-surface report exactly, and patient-days agree to about 1e-16 relative error. Scenario dicts equal the archived ones. Each record's own acquired_per_1000_patient_days equals 1000*acquired/patient_days, and its 56 daily blocks sum to the period counter.\n\nSHA256 checks, all with zero mismatches:\n1. Independent upper:\n   - 256/256 records match the rule-surface report new_bank_bindings.independent_upper.input_sha256.\n   - 256/256 match received/collection_manifest.json member_sha256.\n   - manifest.json and study_binding.json match the report bindings.\n   - configs/independent_upper.json matches the rule-surface freeze.json and the collection member hash.\n2. Old holdout:\n   - 1536/1536 records match old_input_index.json records.\n   - 1536/1536 match the holdout report banks[*].completed_records_sha256.\n   - The completed/ inventory equals the index.\n   - The two site manifests, holdout_all.json config, seedbook and holdout report match the index.\n   - old_input_index.json sha (ebb389d9...) matches the rule-surface report and freeze.\n3. Sensitivity:\n   - 1536/1536 records match the replay report input_sha256.\n   - 1536/1536 match SHA256_MANIFEST.json.\n   - manifest.json matches the report and SHA256_MANIFEST; study_binding.json matches SHA256_MANIFEST.\n   - SHA256_MANIFEST.json matches collection_receipt.json.\n   - configs/sensitivity.json matches the report config_sha256 and the author_notes freeze.json; the seedbook matches freeze.json.",
+  "bank_definitions": "Independent module:\n- Seed list: rule_surface_followup_2026-10-11/configs/independent_upper.json seeds (256). These equal old_input_index.json independent_upper_comparison_seeds, which equal holdout ordered banks A[:128] + B[:128] (seedbook seed_blocks.holdout, the same as old_input_index ordered_statistical_banks).\n- Bank A = positions 0-127 (core of old bank A). Bank B = positions 128-255 (core of old bank B).\n- Lower bracket (matched-256 center): the independent_target_candidate records of the original holdout at those 256 seeds, from holdout_cluster plus holdout_local, reordered to the upper seed order. This matches rule-surface analyze.py, where core = rows 0..127 and 256..383 of the old A+B order and data[core,7] = old values.\n- Verified by reproducing the archived bank A/B control, policy and F for both brackets to 1e-12 or better.\n\nSensitivity module:\n- Seed list: abm/research/author_notes_2026-10-10/configs/sensitivity.json seeds (256), equal to seedbook.json['sensitivity'] A+B.\n- Bank A = positions 0-127, bank B = positions 128-255. All six conditions are resampled with one synchronized weight vector, so clustered and imperfect move together.\n- Verified against the archived A/B values of all six conditions.\n\nS3 old 512-seed holdout:\n- Seed list: full_icu_confirmation_2026-10-08 configs/holdout_all.json (512), equal to seed_blocks.holdout A+B.\n- Convention used: the original holdout's two-bank convention, banks A and B of 256 each. The three profile centers are resampled synchronously, independently of the upper-bracket streams.\n- Verified against the rule-surface old_full_* banks and the holdout report two_bank_diagnostics.\n- Two other conventions exist in the archive and were run as descriptive checks only. The archived holdout primary intervals used unstratified 512-seed resampling. The rule-surface reanalysis used four 128-seed strata. Both change the S3 F* interval bounds by less than 0.1 percentage points.\n\nBootstrap:\n- numpy default_rng(20261016), 50,000 draws, chunk size 1000.\n- Stream order: independent module, then sensitivity module, then the S3 old-512 stream, then the two S3 alternative-convention streams. The alternatives are drawn last, so they do not affect the primary draws.\n- Resampling: whole seeds with replacement within each bank, via rng.integers converted to per-seed multiplicities. Rates are ratios of summed counts over summed patient-days.\n- Percentiles: np.quantile, linear method.\n- Weight-stream SHA256 values are recorded in results.json.",
+  "primary": [
+   {
+    "profile": "independent",
+    "B_lo": 2.7774095830621777,
+    "B_hi": 7.2892694651264,
+    "F_lo": 0.662941117788636,
+    "F_hi": 0.7101413949645442,
+    "p_lo": 0.14327558866543832,
+    "p_hi": 0.1790944858317979,
+    "w": 0.07989929228746605,
+    "p_star": 0.14585295853664723,
+    "F_star": 0.666979622900112,
+    "ci95_lo": 0.6219764954914013,
+    "ci95_hi": 0.7125645356409193,
+    "frac_extrapolated": 0.04706,
+    "undefined_draws": 0
+   },
+   {
+    "profile": "clustered",
+    "B_lo": 2.6300002857133533,
+    "B_hi": 5.029452510233013,
+    "F_lo": 0.5534721063039973,
+    "F_hi": 0.5358389615468405,
+    "p_lo": 0.07602158239372622,
+    "p_hi": 0.09502697799215779,
+    "w": 0.20302763513828972,
+    "p_star": 0.07954489556537958,
+    "F_star": 0.5499471289475637,
+    "ci95_lo": 0.5075367471686368,
+    "ci95_hi": 0.5942974824758933,
+    "frac_extrapolated": 0.00046,
+    "undefined_draws": 0
+   },
+   {
+    "profile": "imperfect",
+    "B_lo": 2.8086095367576225,
+    "B_hi": 5.9276264243071,
+    "F_lo": 0.2977448675968267,
+    "F_hi": 0.3268930186627642,
+    "p_lo": 0.07483995991409355,
+    "p_hi": 0.09354994989261693,
+    "w": 0.08825776463614794,
+    "p_star": 0.07632847883503949,
+    "F_star": 0.3003674227677823,
+    "ci95_lo": 0.23617921406514208,
+    "ci95_hi": 0.36560447423067843,
+    "frac_extrapolated": 0.03896,
+    "undefined_draws": 0
+   }
+  ],
+  "contrasts": [
+   {
+    "pair": "independent-clustered",
+    "estimate": 0.11703249395254833,
+    "ci_lo": 0.04015037258010251,
+    "ci_hi": 0.19363514880647945,
+    "level": 0.9833333333333333,
+    "resolved": true
+   },
+   {
+    "pair": "independent-imperfect",
+    "estimate": 0.36661220013232976,
+    "ci_lo": 0.2700661163697322,
+    "ci_hi": 0.46345728986271656,
+    "level": 0.9833333333333333,
+    "resolved": true
+   },
+   {
+    "pair": "clustered-imperfect",
+    "estimate": 0.24957970617978142,
+    "ci_lo": 0.1537753909877827,
+    "ci_hi": 0.34454658880582906,
+    "level": 0.9833333333333333,
+    "resolved": true
+   }
+  ],
+  "sensitivity": "All of these are descriptive and none changes the primary result. Unless stated otherwise, they reuse the primary bootstrap draws, and every S analysis had 0 undefined draws.\n\nS1 (arithmetic interpolation of F in ln B, same w):\n- Independent 66.67% (95% CI 62.04 to 71.26), 0.03 pp below primary.\n- Clustered 54.99% (50.73 to 59.37), 0.01 pp below primary.\n- Imperfect 30.03% (23.54 to 36.55), 0.005 pp below primary.\n\nS2 (exact quadratic in ln p through low, center and high for ln B and ln P, evaluated where B = 3; clustered and imperfect only):\n- Root rule: take the real root inside [ln p_low, ln p_high]; if there are two, take the one nearest the same draw's log-linear primary root. At the point estimate there was exactly one root in range, and no draw had two.\n- Clustered: F* 54.79% (49.82 to 59.71), p* 0.0797451, 0.21 pp below primary.\n- Imperfect: F* 29.97% (22.84 to 36.69), p* 0.0764313, 0.07 pp below primary.\n- The curvature effect is small, which supports the local log-linear assumption.\n\nS3 (original 512-seed holdout center as lower bracket, two A/B banks of 256, resampled independently of the same upper brackets):\n- Independent: B_lo 2.8285, F_lo 67.58%, w 0.0622, F* 67.80% (64.73 to 70.83), 2.98% of draws extrapolate, +1.11 pp vs primary.\n- Clustered: B_lo 2.6857, F_lo 55.87%, w 0.1764, F* 55.48% (52.21 to 58.74), 0% extrapolate, +0.48 pp.\n- Imperfect: B_lo 2.8014, F_lo 26.96%, w 0.0914, F* 27.50% (23.01 to 32.06), 0.35% extrapolate, -2.54 pp.\n- Pairwise differences at 98.333% (descriptive; all three intervals exclude zero): independent-clustered 12.33 pp (6.73 to 17.89); independent-imperfect 40.30 pp (33.59 to 47.00); clustered-imperfect 27.98 pp (21.05 to 34.81).\n- Under the alternative resampling conventions the bounds move by less than 0.1 pp. Unstratified 512: independent 64.78 to 70.81, clustered 52.23 to 58.74, imperfect 22.99 to 32.02. Four 128-seed strata: independent 64.74 to 70.82, clustered 52.29 to 58.74, imperfect 22.95 to 32.13.\n\nS4 (primary estimator at B* = 2.7 and 3.3):\n- At B* = 2.7 the point estimate itself extrapolates for independent (w = -0.0293) and imperfect (w = -0.0528), because their B_lo is above 2.7. 72.2% and 84.3% of draws extrapolate respectively; for clustered (w = 0.0405) 26.1% do.\n  - F*: independent 66.14% (60.99 to 71.31), clustered 55.28% (50.27 to 60.51), imperfect 29.62% (22.15 to 37.13).\n  - Contrasts at 98.333% (descriptive; all exclude zero): independent-clustered 10.87 pp (1.88 to 19.69); independent-imperfect 36.53 pp (25.36 to 47.68); clustered-imperfect 25.66 pp (14.50 to 36.81).\n- At B* = 3.3 no point estimate extrapolates; draws extrapolate 0.004%, 0% and 0% of the time.\n  - Weights: independent w = 0.1787, clustered 0.3500, imperfect 0.2159.\n  - F*: independent 67.19% (63.24 to 71.22), clustered 54.74% (51.03 to 58.57), imperfect 30.41% (24.84 to 36.12).\n  - Contrasts (descriptive; all exclude zero): independent-clustered 12.45 pp (5.72 to 19.26); independent-imperfect 36.78 pp (28.36 to 45.22); clustered-imperfect 24.32 pp (16.04 to 32.53).\n\nSanity check on model inputs: across every bracket pair, the S2 triples and the S3 pairs, model_kwargs differ only in prob_transmission, and scenario dicts differ only in id and p. Matched pairs were compared seed by seed; unmatched pairs were compared excluding seed. No other differences were found.\n\nBootstrap mechanics check: per-condition 95% intervals from these draws match the archived intervals to within 0.0008 on F bounds and within 0.013 on rate bounds.",
+  "script_path": "$PROJECT_ROOT/abm/research/common_baseline_2026-10-16/impl_b/analyze.py",
+  "results_path": "$PROJECT_ROOT/abm/research/common_baseline_2026-10-16/impl_b/results.json",
+  "caveats": [
+   "This analysis is post hoc and secondary. It was declared after all baseline-matching gates had failed, and those six original and two fresh gates remain unchanged.",
+   "Primary extrapolation share: in 4.7% of draws (independent) and 3.9% (imperfect), B_lo is at or above 3.0. The 95% intervals for B_lo are 2.53 to 3.04 and 2.60 to 3.02, so in those draws the formula extrapolates slightly. For clustered the share is 0.05%. There were no undefined draws and no draw with a zero count in any module.",
+   "Execution platforms differ within bracket pairs. 64 of the 256 independent lower-bracket records, and 64 of each 512-seed holdout condition, were run locally on macOS arm64 with Python 3.12.2. All upper-bracket and sensitivity records ran on Linux with Python 3.12.3. model_kwargs are identical, but common-random-number pairing across platforms is assumed, not verified here. If it fails, only the efficiency gain from pairing is lost; the bootstrap is not biased.",
+   "In S3 the independent upper bracket's 256 seeds are a subset of the 512 old holdout seeds, but the protocol has them resampled independently. The two brackets are therefore not truly independent there.",
+   "The S3 lower-bracket resampling convention (two banks of 256) was my choice; the protocol did not fix it. The unstratified 512 and four-strata 128 alternatives change the bounds by less than 0.1 pp.",
+   "Seed-set dependence: the independent primary estimate is 66.7%, while the protocol's rough figure was about 68%. The difference comes from the seed set: using the 512-seed center (S3) gives 67.8%. For imperfect, S3 gives 27.5% against 30.0% for the primary.",
+   "At B* = 2.7 (S4), the independent and imperfect point estimates extrapolate (w < 0), and most draws do as well (72% and 84%).",
+   "S2 depends on the stated root rule (in range, nearest to the log-linear root). No draw had two in-range roots or none.",
+   "Intervals reflect Monte Carlo uncertainty only and condition on the simulated p values. They exclude selection, structural and clinical-input uncertainty.",
+   "Only the three primary pairwise contrasts use the word 'resolved'. S3 and S4 contrasts are descriptive; their intervals are said to exclude zero.",
+   "Cross-implementation agreement with impl_a (point estimates to 1e-10, intervals to 0.5 pp) has not been checked here. impl_a was not opened. D1 was not done.",
+   "Run log: $PROJECT_ROOT/abm/research/common_baseline_2026-10-16/impl_b/run.log. The script SHA256 is d6b69c83c1134837bc6e954a34e7fecd62c6a2b5133a9090f61fb289a9c37e8f and is recorded in results.json. Runtime was about 76 s with numpy 1.26.4 under Python 3.12.2."
+  ]
+ },
+ "ab4570438bb1d22c1": {
+  "reproduction_gate_passed": true,
+  "reproduction_details": "The gate passed for all 11 input conditions and for the 3 cross-checks against the original holdout report. The largest relative error across control rate, policy rate, F and the per-bank A/B values was 4.3e-16, against a tolerance of 1e-12.\n\nRecomputed values matched the archived ones:\n- independent_center_matched256: B=2.777410, P=0.936151, F=0.662941, max rel err 0. Bank A/B values also match; acquisition counts match exactly.\n- independent_upper: B=7.289269, P=2.112857, F=0.710141, max rel err 0. Bank A/B values match.\n- clustered_low: B=1.295833, F=0.604765, max rel err 1.8e-16.\n- clustered_center: B=2.630000, P=1.174368, F=0.553472, max rel err 0.\n- clustered_high: B=5.029453, P=2.334476, F=0.535839, max rel err 2.1e-16.\n- imperfect_low: B=1.252937, F=0.288955, max rel err 4.1e-16.\n- imperfect_center: B=2.808610, P=1.972360, F=0.297745, max rel err 0.\n- imperfect_high: B=5.927626, P=3.989927, F=0.326893, max rel err 4.0e-16.\n- The six sensitivity conditions above also match their archived bank A and B values (n=128 each).\n- S3 inputs from the rule-surface report, with bank A/B values (n=256 each): old_full_independent B=2.828515, F=0.675785; old_full_persistent (the clustered profile) B=2.685687, F=0.558714; old_full_imperfect B=2.801444, F=0.269551. Max rel err 4.3e-16. Counts and patient-days match exactly.\n- The same 3 S3 inputs match the original holdout report as well (max rel err 2.0e-16).\n\nSHA256 checks found 0 mismatches. Bulk listings:\n- 256 independent_upper records against the rule-surface report's new_bank_bindings.independent_upper.input_sha256.\n- 1,536 holdout records against old_input_index.json records.\n- The same 1,536 holdout records against the original holdout report's banks[].completed_records_sha256.\n- 2 holdout manifests against old_input_index.json.\n- 1,536 sensitivity records against the sensitivity report's input_sha256.\n- The same 1,536 sensitivity records against the collection's SHA256_MANIFEST.json.\n\nSingle-file checks:\n- The rule-surface report.json against RELEASE.json report_sha256.\n- The sensitivity report.json against replay_receipt.json.\n- 7 files listed in the rule-surface freeze.json: old_input_index, seedbook, configs/independent_upper.json, design.json, analyze.py, holdout_all.json and the holdout seedbook.\n- 3 files listed in the author_notes freeze.json: configs/sensitivity.json, seedbook.json and analyze_positive.py.\n- The holdout report, seedbook and config against old_input_index.json.\n- The independent_upper manifest and study_binding against the rule-surface report.\n- The sensitivity manifest against both its report and SHA256_MANIFEST, and its study_binding against SHA256_MANIFEST.\n\nField semantics were checked on every record:\n- arms.baseline.h is 0.9 and arms.policy.h is 0.95.\n- observation.days is 56 and ticks is 145152.\n- acquired_per_1000_patient_days equals 1000*acquired_colonizations/patient_days.\n- The 56 daily blocks add up to the observation totals.\n- status is complete and there are 2 distinct trajectories.\n\nSanity check on model_kwargs: in every bracket pair (primary, S2 low vs center, and S3), the only difference is prob_transmission, plus seed in the unmatched S3 pairs. Within each condition, nothing differs except seed. Scenario fields differ only in id and p. The clustered and imperfect sensitivity centers use exactly the same p as the holdout centers, and independent upper p divided by center p is exactly 1.25.",
+  "bank_definitions": "Independent module (rule-surface), 256 shared seeds:\n- The seed axis is the seed list in abm/research/rule_surface_followup_2026-10-11/configs/independent_upper.json. The script confirms it equals all of these:\n  - old_input_index.json independent_upper_comparison_seeds;\n  - the rule-surface seedbook.json independent_upper A+B;\n  - abm/research/full_icu_confirmation_2026-10-08/seedbook.json seed_blocks.holdout A[:128] + B[:128].\n- Bank A is positions 0-127 (the first 128 seeds of holdout bank A, the \"A-core\" stratum). Bank B is positions 128-255 (the \"B-core\" stratum).\n- This matches the rule-surface analyze.py convention: core = list(range(128)) + list(range(256,384)) of the holdout config seeds. Positions are numbered from 0.\n- Lower bracket (the matched-256 center): the holdout independent_target_candidate records for those seeds. They were found by (scenario, seed) through old_input_index.json record_metadata across holdout_cluster and holdout_local.\n- Upper bracket: the 256 independent_upper records.\n\nSensitivity module, 256 seeds:\n- The seed axis is abm/research/author_notes_2026-10-10/configs/sensitivity.json seeds, which equals seedbook.json sensitivity A+B.\n- Bank A is positions 0-127 and bank B is positions 128-255. This is the same as analyze_positive.py.\n- All six conditions share this seed axis, so they are resampled together.\n\nS3 holdout, 512 seeds:\n- The seed axis is holdout_all.json seeds, which equals seed_blocks.holdout A+B.\n- Main convention: bank A is positions 0-255 and bank B is positions 256-511. Each bank is resampled separately (multinomial), and the same weights apply to all three holdout profiles.\n- Variant: one unstratified 512-seed multinomial. This is how the archived holdout report computed its main intervals; its two-bank diagnostics used A/B 256.\n- Not run: the rule-surface four-stratum convention (core and remainder, 128 each).\n\nBootstrap: one numpy default_rng(20261016). Each bank gets multinomial(n_bank, uniform, size=50000), drawn in this order:\n1. independent A (128)\n2. independent B (128)\n3. sensitivity A (128)\n4. sensitivity B (128)\n5. holdout A (256)\n6. holdout B (256)\n7. holdout pooled (512)\n\nWeight-stream SHA256 hashes are recorded in results.json.",
+  "primary": [
+   {
+    "profile": "independent",
+    "B_lo": 2.7774095830621772,
+    "B_hi": 7.289269465126397,
+    "F_lo": 0.662941117788636,
+    "F_hi": 0.7101413949645443,
+    "w": 0.0798992922874663,
+    "p_lo": 0.14327558866543832,
+    "p_hi": 0.1790944858317979,
+    "p_star": 0.14585295853664723,
+    "F_star": 0.6669796229001121,
+    "ci95_lo": 0.6214520402555535,
+    "ci95_hi": 0.7121033885147751,
+    "frac_extrapolated": 0.04534,
+    "undefined_draws": 0
+   },
+   {
+    "profile": "clustered",
+    "B_lo": 2.6300002857133524,
+    "B_hi": 5.029452510233017,
+    "F_lo": 0.5534721063039977,
+    "F_hi": 0.5358389615468404,
+    "w": 0.20302763513828995,
+    "p_lo": 0.07602158239372622,
+    "p_hi": 0.09502697799215779,
+    "p_star": 0.07954489556537958,
+    "F_star": 0.5499471289475639,
+    "ci95_lo": 0.5073212739664438,
+    "ci95_hi": 0.5937061547529298,
+    "frac_extrapolated": 0.00042,
+    "undefined_draws": 0
+   },
+   {
+    "profile": "imperfect",
+    "B_lo": 2.8086095367576243,
+    "B_hi": 5.9276264243071,
+    "F_lo": 0.29774486759682695,
+    "F_hi": 0.32689301866276455,
+    "w": 0.08825776463614712,
+    "p_lo": 0.07483995991409355,
+    "p_hi": 0.09354994989261693,
+    "p_star": 0.07632847883503945,
+    "F_star": 0.3003674227677826,
+    "ci95_lo": 0.23627699429891968,
+    "ci95_hi": 0.36617687693016676,
+    "frac_extrapolated": 0.03844,
+    "undefined_draws": 0
+   }
+  ],
+  "contrasts": [
+   {
+    "pair": "independent-clustered",
+    "estimate": 0.11703249395254822,
+    "ci_lo": 0.039555870886223456,
+    "ci_hi": 0.19248649458825104,
+    "level": 0.9833333333333333,
+    "resolved": true
+   },
+   {
+    "pair": "independent-imperfect",
+    "estimate": 0.36661220013232954,
+    "ci_lo": 0.26834325779779206,
+    "ci_hi": 0.46201512083339635,
+    "level": 0.9833333333333333,
+    "resolved": true
+   },
+   {
+    "pair": "clustered-imperfect",
+    "estimate": 0.2495797061797813,
+    "ci_lo": 0.1530045965664515,
+    "ci_hi": 0.34501694290366586,
+    "level": 0.9833333333333333,
+    "resolved": true
+   }
+  ],
+  "sensitivity": "Primary results for reference (B*=3): independent 66.70% (95% CI 62.15-71.21), clustered 54.99% (50.73-59.37), imperfect 30.04% (23.63-36.62). All three contrasts are resolved at 98.333%: independent minus clustered +11.70 pp (3.96 to 19.25), independent minus imperfect +36.66 pp (26.83 to 46.20), clustered minus imperfect +24.96 pp (15.30 to 34.50). There were 0 undefined draws and 0 draws where B_hi <= B_lo.\n\nS1 (F linear in ln B, same w) changes F* by at most 0.03 pp:\n- independent 66.67% (61.98-71.21)\n- clustered 54.99% (50.70-59.32)\n- imperfect 30.03% (23.54-36.61)\n- Contrasts, all resolved: +11.68 pp [3.84, 19.29], +36.64 pp [26.70, 46.27], +24.96 pp [15.27, 34.51].\n\nS2 (quadratic in ln p through low/center/high, solved at B=3; the root nearest the same draw's log-linear p* is used):\n- clustered 54.79% (49.79-59.66), p*=0.079745, 0.21 pp below primary. ln B curvature coefficient is 0.871.\n- imperfect 29.97% (22.89-36.75), p*=0.076431, 0.07 pp below primary. Curvature coefficient is 1.060.\n- In both profiles: 0 undefined draws, 0 draws with no real root, 0 roots outside [p_low, p_high], 0 roots on a decreasing branch.\n- Clustered minus imperfect: +24.82 pp [14.40, 35.39] at 98.333%, resolved.\n- An independent polyfit/np.roots check agreed to 1e-15.\n\nS3 (original 512-seed holdout center as the lower bracket, resampled independently of the upper bracket; main convention is A/B 256 stratified):\n- independent 67.80% (64.76-70.83), w=0.0622, p*=0.145277, extrapolated in 2.93% of draws\n- clustered 55.48% (52.24-58.73), w=0.1764, p*=0.079074, extrapolated in 0.004%\n- imperfect 27.50% (22.96-32.13), w=0.0914, p*=0.076381, extrapolated in 0.40%\n- 0 undefined draws.\n- Contrasts at 98.333%, all resolved: independent minus clustered +12.33 pp [6.77, 17.88], independent minus imperfect +40.30 pp [33.56, 47.00], clustered minus imperfect +27.98 pp [20.99, 34.98].\n- Unstratified 512 variant gives the same points: independent CI 64.76-70.82, clustered 52.26-58.76, imperfect 22.95-32.06. Contrasts move by under 0.1 pp.\n- Seed dependence shows mainly in imperfect: 27.5% with the 512-seed center versus 30.0% with the 256-seed sensitivity center. Independent moves by +1.1 pp.\n\nS4 (primary estimator at the edges of the target band):\n- B*=2.7: independent 66.14% (60.93-71.25), w=-0.029, extrapolated in 71.98% of draws; clustered 55.28% (50.24-60.51), w=0.041, extrapolated in 26.18%; imperfect 29.62% (22.18-37.22), w=-0.053, extrapolated in 84.14%. Both the independent (B_lo=2.777) and imperfect (B_lo=2.809) lower brackets are above 2.7, so 2.7 is an extrapolation even at the point estimate for those two.\n- B*=2.7 contrasts, all resolved: +10.87 pp [1.80, 19.63], +36.53 pp [25.27, 47.53], +25.66 pp [14.41, 36.74].\n- B*=3.3: independent 67.19% (63.20-71.20), clustered 54.74% (50.98-58.52), imperfect 30.41% (24.83-36.14). Extrapolation is at most 0.006%.\n- B*=3.3 contrasts, all resolved: +12.45 pp [5.75, 19.10], +36.78 pp [28.18, 45.18], +24.32 pp [15.95, 32.56].",
+  "script_path": "$PROJECT_ROOT/abm/research/common_baseline_2026-10-16/impl_a/analyze.py",
+  "results_path": "$PROJECT_ROOT/abm/research/common_baseline_2026-10-16/impl_a/results.json",
+  "caveats": [
+   "This is a post hoc, secondary analysis. It does not replace or soften any failed matching gate. The intervals reflect Monte Carlo uncertainty only and are conditional on the simulated p values.",
+   "S3 independent: the protocol says the S3 lower bracket's seeds are not matched to the upper bracket, but for the independent profile all 256 upper seeds are among the 512 holdout seeds. The protocol says to resample independently, so I did, which drops that partial pairing. The S3 independent interval (64.8-70.8%) therefore has a different pairing structure from the primary interval (62.1-71.2%) and the two are not directly comparable.",
+   "S3 convention: the main S3 resamples within holdout banks A and B (256 each, from the seedbook's seed_blocks.holdout). I also ran an unstratified 512-seed variant, which is how the archived holdout report computed its main intervals; the results are nearly the same. A third convention, the rule-surface four 128-seed strata, was not run.",
+   "Undefined draws: I counted a draw as undefined for a zero control or policy count in either bracket, B_hi == B_lo, or a non-finite rate. This is slightly broader than the protocol's definition. No draw was undefined either way.",
+   "Percentile intervals use numpy.quantile with linear interpolation over all draws, including draws that extrapolate. frac_extrapolated counts draws with B_lo >= B* or B_hi <= B*.",
+   "The protocol's rough pre-analysis figure for independent was about 68%. The primary gives 66.7% because its lower bracket is the matched 256-seed center (F_lo = 66.3%). With the 512-seed holdout center, which gives 67.6%, the result is 67.8% (S3). This is a seed-subset effect, not a discrepancy.",
+   "For independent and imperfect, w is small (0.080 and 0.088), so F* sits close to the lower-bracket F. About 4.5% (independent) and 3.8% (imperfect) of draws put B_lo above 3, where the estimate extrapolates.",
+   "S2 picks the root of the ln B quadratic nearest the same draw's log-linear p*. In practice the root was always inside [p_low, p_high] and on an increasing branch.",
+   "Self-check: separate code using index resampling with a different seed (20,000 draws) reproduced the primary intervals and contrasts to within about 0.1 pp.",
+   "Files written outside impl_a: two scratch files in the session scratchpad (an inspection dump, rs_struct.txt, and the cross-check script, xcheck.py). Neither is a deliverable. Nothing else was written outside impl_a, and impl_b was never opened."
+  ]
+ }
+}

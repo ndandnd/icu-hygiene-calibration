@@ -1,0 +1,56 @@
+\paragraph{Opportunity accounting.} The model's opportunities are patient-zone
+boundary events: entry, where WHO Moment 1 falls, and exit, where Moments 4 and 5
+fall; Moments 2 and 3 inside the zone are not represented \citep{who2009}. WHO
+direct observation counts coinciding indications as one opportunity requiring one
+action; in particular a move from patient A directly to patient B, which the model
+scores as two boundary events (exit A, then entry B, with no contact between), is
+one WHO opportunity, met if either action occurs \citep[Sections II.5.6 and
+III.5]{who2009}. The WHO \emph{Guidelines} say when this merger applies: Moments 4
+and 1 typically coincide ``when moving directly from one patient to another
+without touching any surface outside the corresponding patient zones''
+\citep[Part I, Section 21.4.2, p.~102]{whoguidelines2009}; under their
+definitions of the two moments, touching a health-care-area surface between
+patients makes exit and entry separate opportunities.
+The model has no contactable surfaces outside care zones, so every model move is
+direct. On a real ward, audited compliance therefore mixes one-opportunity direct
+moves with two-opportunity indirect moves (besides Moments 2 and 3), in a
+proportion the model does not represent, and neither the per-boundary nor the
+transition definition used here maps onto an audited figure without the share of
+direct moves. Its miss probability is $(1-h)\{\rho+(1-\rho)(1-h)\}$, which
+equals $q_2$ when $e=1$ (Table~\ref{tab:who}). A WHO-style audit of direct
+transitions therefore estimates the behavioural part of $q_2$, and boundary-scored
+audits (as in some electronic systems) estimate $h$. Electronic systems differ in
+what they score: a system that credits one dispense to an exit and the next entry
+within a time window moves its score toward transition units; independent
+misclassification of events would attenuate an estimated $\rho$; shared bays
+may be harder to instrument than single rooms; and group-level systems give $h$
+without per-worker sequences. $\rho$ should therefore be estimated from raw
+per-worker event streams, not from vendor compliance scores. Under independence a
+transition compliance $c$ corresponds to per-boundary $h=1-\sqrt{1-c}$, so
+transition compliance of 90\% and 95\% corresponds to $h\approx.684$ and .776. If a
+policy were defined as transition compliance rising from 90\% to 95\% with perfect
+clearing, two-opportunity survival would fall from .10 to .05 and $F_2=50\%$ for
+every $\rho$. In the full-ICU coefficient (prespecified extension,
+Section~\ref{sec:s-coef-extension}, Table~\ref{tab:extension-transition}) this
+policy gave 52.36\% ($\rho=0$) and 52.48\% ($\rho=.5$) with perfect clearing, a
+clustering contrast of $+0.12$ percentage points, but 34.18\% and 41.62\% at
+$e=.8$ ($+7.45$ points); the per-boundary .90$\to$.95 policy gives $\mn21.5$
+and $+9.0$ points on the same backgrounds. The two policies are different
+interventions, with different per-boundary completion levels, so only the
+comparison across $\rho$ within one compliance definition is like-for-like;
+which compliance definition sets the policy target changes the forecast. Both
+definitions are real measurements: boundary-scored electronic monitoring of
+individuals records per-boundary events, whereas WHO direct observation scores a
+direct patient-to-patient move as one opportunity. Their
+correspondence here rests on model assumptions (the stationary Markov law and
+one exit and one entry draw per direct move), and WHO-style transition audits
+alone determine neither $h$ nor $e$. Elsewhere the $\rho$-dependence is
+relative to a policy that raises per-boundary completion with $\rho$ fixed. Holding instead the
+miss-to-complete probability or the mean miss-run length fixed would also change
+$F$ for the same $h_0\to h_1$. Runs of consecutive misses occur under independence
+too, with geometric lengths; models in which risk grows with consecutive misses
+can assume independent compliance with geometric run lengths \citep{chan2026}.
+Runs alone are therefore not evidence of serial dependence; the relevant
+statistic is the lag-one (and, to check the Markov law, lag-two)
+autocorrelation of unselected completion records.
+

@@ -1,0 +1,33 @@
+{
+  "canonical_install_or_publication_authorized_by_this_snapshot": false,
+  "created_utc": "2026-10-12T08:12:49.683899+00:00",
+  "exact_replay_still_running": true,
+  "identity_sha256": "49eb73b65c5e1fbaa429310265344af152085115782c94c0e4d33ba79c99378b",
+  "inputs": {
+    "input/assets/weekly_control.png": {
+      "sha256": "6b3d8449e26fd83287bc6b6920fef63e6f2dfdef2282d3cd0e1952b8e2343487",
+      "size": 191422
+    },
+    "input/base/manuscript.tex": {
+      "sha256": "3b5130d331aff9a43303f7c29d4de86b50e8c2b05d16ec1aa279ba404e612914",
+      "size": 101862
+    },
+    "input/base/supplement.tex": {
+      "sha256": "0c369712db85abad0f79ea89de53f9589b37b68cc84151de69323cdefb98927f",
+      "size": 31950
+    },
+    "input/report.json": {
+      "sha256": "9189e84179ca027e54ec03d2214137cfe55889ebaf11b9bd6276e0c56510f30f",
+      "size": 653679
+    },
+    "input/selection.json": {
+      "sha256": "13ecd228596a82994e1ae859d4c6bead6d0c275be54c23d02e41cb5ceddf7705",
+      "size": 272427
+    }
+  },
+  "kind": "preserved_provisional_document_authoring_inputs",
+  "numerical_and_scientific_report_reviews_passed": true,
+  "pdf_skill_edit_marker_expected_outputs": 3,
+  "prior_versions_preserved": true,
+  "schema_version": 1
+}

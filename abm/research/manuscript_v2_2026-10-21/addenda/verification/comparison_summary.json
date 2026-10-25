@@ -1,0 +1,107 @@
+{
+ "stats": {
+  "point": [
+   510,
+   5
+  ],
+  "interval": [
+   199,
+   0
+  ],
+  "count": [
+   149,
+   0
+  ]
+ },
+ "max_endpoint_diff_over_width": {
+  "cond_B": 0.022101483031964103,
+  "cond_F": 0.018072410416595186,
+  "slope": 0.016177234446845552,
+  "bias": 0.01983961576014805,
+  "contrast": 0.018359214129500364,
+  "route": 0.03125,
+  "selection": 0.010118644541796335
+ },
+ "discrepant": [
+  [
+   "2. Selection propagation (ADDENDA.md section 2)",
+   "original independent combined with UNROUNDED archived MC half-width",
+   "3.72",
+   "3.73"
+  ],
+  [
+   "2. Selection propagation (ADDENDA.md section 2)",
+   "original clustered combined with UNROUNDED archived MC half-width",
+   "3.96",
+   "3.95"
+  ],
+  [
+   "2. Selection propagation (ADDENDA.md section 2)",
+   "original imperfect MC half-width vs UNROUNDED archived interval",
+   "5.25",
+   "5.24"
+  ],
+  [
+   "2. Selection propagation (ADDENDA.md section 2)",
+   "alternative clustered MC half-width vs UNROUNDED archived interval",
+   "3.90",
+   "3.88"
+  ],
+  [
+   "2. Selection propagation (ADDENDA.md section 2)",
+   "alternative clustered combined with UNROUNDED archived MC half-width",
+   "4.12",
+   "4.10"
+  ]
+ ],
+ "display_only": [
+  [
+   "2. Selection propagation (ADDENDA.md section 2)",
+   "original independent MC half-width vs UNROUNDED archived interval",
+   "3.35",
+   "3.35"
+  ],
+  [
+   "2. Selection propagation (ADDENDA.md section 2)",
+   "original clustered MC half-width vs UNROUNDED archived interval",
+   "3.70",
+   "3.70"
+  ],
+  [
+   "2. Selection propagation (ADDENDA.md section 2)",
+   "original imperfect combined with UNROUNDED archived MC half-width",
+   "5.66",
+   "5.66"
+  ],
+  [
+   "2. Selection propagation (ADDENDA.md section 2)",
+   "alternative independent MC half-width vs UNROUNDED archived interval",
+   "2.30",
+   "2.30"
+  ],
+  [
+   "2. Selection propagation (ADDENDA.md section 2)",
+   "alternative independent combined with UNROUNDED archived MC half-width",
+   "2.80",
+   "2.80"
+  ],
+  [
+   "2. Selection propagation (ADDENDA.md section 2)",
+   "alternative imperfect MC half-width vs UNROUNDED archived interval",
+   "4.85",
+   "4.85"
+  ],
+  [
+   "2. Selection propagation (ADDENDA.md section 2)",
+   "alternative imperfect combined with UNROUNDED archived MC half-width",
+   "5.24",
+   "5.24"
+  ],
+  [
+   "0. Headline numbers",
+   "max abs selection shift, point slope",
+   "0.67",
+   "0.67"
+  ]
+ ]
+}

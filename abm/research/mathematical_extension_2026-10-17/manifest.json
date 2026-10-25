@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-17",
+  "scope": "Local exploratory mathematical extension; no ICU simulations or source edits",
+  "members_sha256": {
+    "START_HERE.txt": "d29e08433ed87e35191a781b4dcf3509a8d63abbda4a9c3fe438299d065d577c",
+    "check_extension.py": "52e8a9856b9aa436de5283b09979f62904138e17012a79f7d11ca2526f02b2e3",
+    "interaction.png": "9a9fdfbbc70e567e8e91a94841b09d1aed7ac76e41e47ec345a25216478354cb",
+    "interaction.svg": "9fe630efa04833d458bbe6aeb5e60023d4c6b867ef4baba3d873417faaa5bc4e",
+    "plot_interaction.py": "b0fdf689f0a0ef2f96fc53466cefa720964d7b3601697476bb588dedaad87dc8",
+    "review_inference.md": "2d93cda8ce3737e77abe194d517ad18a294e67e8abb1dda95701f6e179b415e8",
+    "review_math.md": "c78095d0d41decbd58865e05c78ba6e986104e98f28c8dc009511c42cba0670a",
+    "review_robustness.md": "76941ddc30fc42e2de70ad341b022b023618c920b443c614b3d2b34ce08aed31",
+    "verification.json": "7de6f33dd9f2d455cf0166db06005f12518c8fadf6464506770bdf9bdcdb06e6"
+  }
+}

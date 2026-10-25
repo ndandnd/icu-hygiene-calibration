@@ -1,0 +1,386 @@
+{
+  "status": "PASS",
+  "scope": "Figure 3 presentation only; no new scientific result",
+  "scientific_values_unchanged": true,
+  "tolerance": 1e-12,
+  "original_data_sources_sha256": "dedb683d020dd0db2c994780315f3082d53feb22bf345245b9758519bb7ada88",
+  "generator_sha256": "5e3264c8aa41b66aeb526e5a68be428ed1afc8d4c729851fc5938bbe854f1cea",
+  "entrypoint_sha256": "e7717110d7ea0f7a47e751d4a8676bebc321721ddb8c93a08896019ccba4736b",
+  "python": "3.12.2",
+  "numpy": "1.26.4",
+  "matplotlib": "3.9.2",
+  "figure": {
+    "inputs": [
+      {
+        "path": "$PROJECT_ROOT/research/author_notes_2026-10-10/analysis_2026-10-11/bridge_pooled/coefficient_pairs.csv",
+        "sha256": "67f103a98c82d3d79e480885121ebaea714b4ed4bb6aa8737d7444c99cfb7980",
+        "role": "pooled 256-background p=0 coefficients, original workflow (Table S5 source)"
+      },
+      {
+        "path": "$PROJECT_ROOT/abm/manuscript/supplement.tex",
+        "sha256": "3255ef3ef85b285e7017004cae30205e60af75c36c9c41a80211837ce73a8f6c",
+        "role": "Table S5 text, parsed for cross-check only"
+      },
+      {
+        "path": "$PROJECT_ROOT/abm/research/mathematical_extension_2026-10-17/verification.json",
+        "sha256": "7de6f33dd9f2d455cf0166db06005f12518c8fadf6464506770bdf9bdcdb06e6",
+        "role": "math extension: exact isolated two-opportunity values and clearing_threshold_e (sign change of the rho effect)"
+      },
+      {
+        "path": "$PROJECT_ROOT/abm/research/mathematical_extension_2026-10-17/plot_interaction.py",
+        "sha256": "b0fdf689f0a0ef2f96fc53466cefa720964d7b3601697476bb588dedaad87dc8",
+        "role": "math extension: isolated two-opportunity prevention formula"
+      },
+      {
+        "path": "$PROJECT_ROOT/abm/research/manuscript_v2_2026-10-21/reviews_round1/analysis/round1_numbers.json",
+        "sha256": "c4a23e0a673a23711f3e453cb3194c6e4e66aa35d685df1bcbfd0569170a7e0b",
+        "role": "round-1 analysis: renewal comparator F_geo for the 22 surface rows (renewal_comparator.rows), cross-checked against the closed form here"
+      },
+      {
+        "path": "$PROJECT_ROOT/abm/research/workflow_coefficient_2026-10-21/summary.json",
+        "sha256": "6cd2ff7e768f6ba375e3f5c835af0d3d81dad4de5a86ba32170871476579bad2",
+        "role": "alternative-workflow p=0 coefficients, same 256 backgrounds (checked; plotted in fig_surface_diff)"
+      }
+    ],
+    "values": {
+      "alternative_workflow_check": {
+        "path": "$PROJECT_ROOT/abm/research/workflow_coefficient_2026-10-21/summary.json",
+        "n_seeds": 256,
+        "banks": [
+          "A",
+          "B"
+        ],
+        "values": {
+          "h0.9_to_0.95_rho0_e1": {
+            "F_star_pct": 75.18307656646151,
+            "ci95_pct": [
+              75.182678787611,
+              75.18347379067151
+            ],
+            "original_F_star_pct": 75.13188958001933
+          },
+          "h0.9_to_0.95_rho0.25_e1": {
+            "F_star_pct": 56.734689420547426,
+            "ci95_pct": [
+              56.73292903169099,
+              56.736460834774086
+            ],
+            "original_F_star_pct": 56.7293229125738
+          },
+          "h0.9_to_0.95_rho0.5_e1": {
+            "F_star_pct": 53.651518268918366,
+            "ci95_pct": [
+              53.64966328299534,
+              53.65340292286971
+            ],
+            "original_F_star_pct": 53.647154016624185
+          },
+          "h0.9_to_0.95_rho0.75_e1": {
+            "F_star_pct": 52.64203290537597,
+            "ci95_pct": [
+              52.64033194443641,
+              52.64377550170207
+            ],
+            "original_F_star_pct": 52.63602933229799
+          },
+          "h0.9_to_0.95_rho0_e0.9": {
+            "F_star_pct": 42.60519971891771,
+            "ci95_pct": [
+              42.60344762982674,
+              42.60695398670875
+            ],
+            "original_F_star_pct": 42.60427288539464
+          },
+          "h0.9_to_0.95_rho0.25_e0.9": {
+            "F_star_pct": 45.50374225131123,
+            "ci95_pct": [
+              45.50028996594715,
+              45.507218609701816
+            ],
+            "original_F_star_pct": 45.50994644229417
+          },
+          "h0.9_to_0.95_rho0.5_e0.9": {
+            "F_star_pct": 47.54995052806614,
+            "ci95_pct": [
+              47.545769580135826,
+              47.55418663679466
+            ],
+            "original_F_star_pct": 47.55273078901288
+          },
+          "h0.9_to_0.95_rho0.75_e0.9": {
+            "F_star_pct": 49.60825547658223,
+            "ci95_pct": [
+              49.60444500865723,
+              49.61216408512765
+            ],
+            "original_F_star_pct": 49.60366131254472
+          },
+          "h0.9_to_0.95_rho0_e0.8": {
+            "F_star_pct": 27.986142674933102,
+            "ci95_pct": [
+              27.983354653600962,
+              27.98893669883236
+            ],
+            "original_F_star_pct": 27.993873605327813
+          },
+          "h0.9_to_0.95_rho0.25_e0.8": {
+            "F_star_pct": 32.4761321295753,
+            "ci95_pct": [
+              32.47137843204308,
+              32.48093949075754
+            ],
+            "original_F_star_pct": 32.488285299649036
+          },
+          "h0.9_to_0.95_rho0.5_e0.8": {
+            "F_star_pct": 37.00264245986278,
+            "ci95_pct": [
+              36.99569551127853,
+              37.00969603796099
+            ],
+            "original_F_star_pct": 37.01178998171072
+          },
+          "h0.9_to_0.95_rho0.75_e0.8": {
+            "F_star_pct": 42.64148329440884,
+            "ci95_pct": [
+              42.63348648596475,
+              42.64971421388496
+            ],
+            "original_F_star_pct": 42.6376074074874
+          },
+          "h0.9_to_0.95_rho0_e0.6": {
+            "F_star_pct": 14.92132601682188,
+            "ci95_pct": [
+              14.917807738526179,
+              14.924907675089628
+            ],
+            "original_F_star_pct": 14.926770025455127
+          },
+          "h0.9_to_0.95_rho0.25_e0.6": {
+            "F_star_pct": 17.184713353879346,
+            "ci95_pct": [
+              17.179897448097908,
+              17.189604077085143
+            ],
+            "original_F_star_pct": 17.19051265094863
+          },
+          "h0.9_to_0.95_rho0.5_e0.6": {
+            "F_star_pct": 20.53323392079005,
+            "ci95_pct": [
+              20.525966210322228,
+              20.540609898056882
+            ],
+            "original_F_star_pct": 20.53524593586732
+          },
+          "h0.9_to_0.95_rho0.75_e0.6": {
+            "F_star_pct": 27.070442309879372,
+            "ci95_pct": [
+              27.059061576693693,
+              27.08208246281685
+            ],
+            "original_F_star_pct": 27.05754893050044
+          }
+        },
+        "max_abs_difference_pp_plotted_rows": 0.05118698644216435,
+        "max_abs_difference_pp_all_22_rows": 0.27159708539039595
+      },
+      "display_semantics": {
+        "marker_encodes": "Probability e that a completed wash clears contamination",
+        "markers": {
+          "1.0": "o",
+          "0.9": "s",
+          "0.8": "^",
+          "0.6": "D"
+        },
+        "profile_labels": {
+          "independent": "A",
+          "clustered": "B",
+          "imperfect": "C"
+        },
+        "profile_ovals": false,
+        "line_encodes": "ICU calculation or approximation, not efficacy",
+        "context": "Intervention, workflow, limit and A/B/C definitions stated in caption",
+        "printed_width_mm": 165
+      },
+      "surface_h0.90_to_0.95_original": {
+        "e=1.0": {
+          "rho=0.0": {
+            "F_star_pct": 75.13188958001933,
+            "ci95_pct": [
+              75.09641502898351,
+              75.16736413105517
+            ],
+            "q2_isolated_pct": 74.99999999999994,
+            "F_geo_pct": 75.18796992481197
+          },
+          "rho=0.25": {
+            "F_star_pct": 56.7293229125738,
+            "ci95_pct": [
+              56.72150476309709,
+              56.73714106205051
+            ],
+            "q2_isolated_pct": 55.7692307692307,
+            "F_geo_pct": 56.876695098463045
+          },
+          "rho=0.5": {
+            "F_star_pct": 53.647154016624185,
+            "ci95_pct": [
+              53.64299214711035,
+              53.65131588613803
+            ],
+            "q2_isolated_pct": 52.272727272727224,
+            "F_geo_pct": 54.04345438857945
+          },
+          "rho=0.75": {
+            "F_star_pct": 52.63602933229799,
+            "ci95_pct": [
+              52.6335009862038,
+              52.638557678392175
+            ],
+            "q2_isolated_pct": 50.80645161290318,
+            "F_geo_pct": 53.06505797782029
+          }
+        },
+        "e=0.9": {
+          "rho=0.0": {
+            "F_star_pct": 42.60427288539464,
+            "ci95_pct": [
+              42.59851038150706,
+              42.61003538928223
+            ],
+            "q2_isolated_pct": 41.75900277008305,
+            "F_geo_pct": 42.65584184487149
+          },
+          "rho=0.25": {
+            "F_star_pct": 45.50994644229417,
+            "ci95_pct": [
+              45.50479684775765,
+              45.51509603683069
+            ],
+            "q2_isolated_pct": 43.59180855959498,
+            "F_geo_pct": 45.772558412930856
+          },
+          "rho=0.5": {
+            "F_star_pct": 47.55273078901288,
+            "ci95_pct": [
+              47.54742074473058,
+              47.55804083329517
+            ],
+            "q2_isolated_pct": 44.50379048931767,
+            "F_geo_pct": 48.242286899491994
+          },
+          "rho=0.75": {
+            "F_star_pct": 49.60366131254472,
+            "ci95_pct": [
+              49.59896400899295,
+              49.608358616096496
+            ],
+            "q2_isolated_pct": 45.04957312035247,
+            "F_geo_pct": 50.47495268100533
+          }
+        },
+        "e=0.8": {
+          "rho=0.0": {
+            "F_star_pct": 27.993873605327813,
+            "ci95_pct": [
+              27.990612344801374,
+              27.99713486585425
+            ],
+            "q2_isolated_pct": 26.530612244897924,
+            "F_geo_pct": 28.15217767922107
+          },
+          "rho=0.25": {
+            "F_star_pct": 32.488285299649036,
+            "ci95_pct": [
+              32.48308422564954,
+              32.49348637364853
+            ],
+            "q2_isolated_pct": 29.741379310344797,
+            "F_geo_pct": 32.92945085010746
+          },
+          "rho=0.5": {
+            "F_star_pct": 37.01178998171072,
+            "ci95_pct": [
+              37.00399860976497,
+              37.01958135365647
+            ],
+            "q2_isolated_pct": 32.08955223880595,
+            "F_geo_pct": 38.118801276695976
+          },
+          "rho=0.75": {
+            "F_star_pct": 42.6376074074874,
+            "ci95_pct": [
+              42.62817920902997,
+              42.64703560594482
+            ],
+            "q2_isolated_pct": 33.881578947368396,
+            "F_geo_pct": 44.386885310271865
+          }
+        },
+        "e=0.6": {
+          "rho=0.0": {
+            "F_star_pct": 14.926770025455127,
+            "ci95_pct": [
+              14.922915259864187,
+              14.930624791046068
+            ],
+            "q2_isolated_pct": 12.618147448015105,
+            "F_geo_pct": 15.480490060133867
+          },
+          "rho=0.25": {
+            "F_star_pct": 17.19051265094863,
+            "ci95_pct": [
+              17.185156362913716,
+              17.195868938983548
+            ],
+            "q2_isolated_pct": 13.893946290395975,
+            "F_geo_pct": 18.02600595206425
+          },
+          "rho=0.5": {
+            "F_star_pct": 20.53524593586732,
+            "ci95_pct": [
+              20.526949821347454,
+              20.543542050387185
+            ],
+            "q2_isolated_pct": 15.079016681299374,
+            "F_geo_pct": 22.04222404287516
+          },
+          "rho=0.75": {
+            "F_star_pct": 27.05754893050044,
+            "ci95_pct": [
+              27.04414530885871,
+              27.070952552142174
+            ],
+            "q2_isolated_pct": 16.182704535820235,
+            "F_geo_pct": 29.837749295470395
+          }
+        }
+      },
+      "profiles": {
+        "independent": {
+          "rho": 0.0,
+          "e": 1.0,
+          "F_star_pct_original": 75.13188958001933
+        },
+        "clustered": {
+          "rho": 0.5,
+          "e": 1.0,
+          "F_star_pct_original": 53.647154016624185
+        },
+        "imperfect": {
+          "rho": 0.0,
+          "e": 0.8,
+          "F_star_pct_original": 27.993873605327813
+        }
+      },
+      "max_pointwise_ci95_halfwidth_pct_original": 0.03547455103581898,
+      "isolated_sign_change_threshold_e": 0.9235280887098128,
+      "isolated_curve_exact_checks": 6,
+      "renewal_comparator_rows_checked": 22
+    }
+  },
+  "outputs": {
+    "fig_surface.pdf": "e2300654ed1b0e0aedebaddc002fc2b7544eba7a3b60ec70957d2a25dbd94be8",
+    "fig_surface.png": "34be940ebe16a8f38a2d5f2ecbe9f7a8cdbb70a0af21dfbddbe325672ac82761"
+  },
+  "workflow_difference_figures_unchanged": true
+}

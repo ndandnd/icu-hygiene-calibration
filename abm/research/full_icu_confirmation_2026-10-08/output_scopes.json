@@ -1,0 +1,27 @@
+{
+  "analysis_namespaces": {
+    "calibration": "research/full_icu_confirmation_2026-10-08/calibration_report",
+    "environment": "research/full_icu_confirmation_2026-10-08/environment_report",
+    "holdout": "research/full_icu_confirmation_2026-10-08/holdout_report"
+  },
+  "backend": "research/full_icu_response_2026-10-08/run.py",
+  "backend_metadata_note": "Backend bank study label is historical; new-study wrapper must bind protocol/config/seedbook/output scope before reporting.",
+  "banks": {
+    "calibration_cluster": "results/full_icu_confirmation_2026-10-08/calibration_cluster",
+    "calibration_local": "results/full_icu_confirmation_2026-10-08/calibration_local",
+    "environment_cluster": "results/full_icu_confirmation_2026-10-08/environment_cluster",
+    "environment_local": "results/full_icu_confirmation_2026-10-08/environment_local",
+    "holdout_cluster": "results/full_icu_confirmation_2026-10-08/holdout_cluster",
+    "holdout_local": "results/full_icu_confirmation_2026-10-08/holdout_local"
+  },
+  "counts": {
+    "calibration_baseline_jobs": 384,
+    "environment_paired_jobs": 3072,
+    "holdout_paired_jobs": 1536,
+    "primary_paired_jobs": 4608
+  },
+  "no_simulation_in_builder": true,
+  "results_root": "results/full_icu_confirmation_2026-10-08",
+  "schema_version": 1,
+  "study": "full_icu_confirmation_2026-10-08"
+}

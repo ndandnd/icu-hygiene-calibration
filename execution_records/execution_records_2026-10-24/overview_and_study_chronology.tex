@@ -1,0 +1,67 @@
+\section*{Overview}
+This supplement documents the model, the mathematics and every simulation study
+behind the main text. All results come from a synthetic agent-based ICU model.
+All intervals describe Monte Carlo uncertainty within that fixed model; they
+exclude clinical-input and structural uncertainty and, unless stated,
+calibration-selection and interpolation uncertainty. Nothing here is clinical
+evidence or a validated description of clinical practice.
+Table~\ref{tab:flow} lists the studies in the order they were done, with the
+section that reports each. ``Prespecified'' means that the protocol was saved
+before that study's outcomes existed; several studies were designed after
+earlier results were known, and each section says which comparisons are post
+hoc.
+
+The model is synthetic and has no clinical
+validation. Carrier screening is ideal and immediate; the .6 isolation
+multiplier has no recovered clinical source; lengths of stay are geometric;
+bedside sites are binary, with no natural decay; the outcome is colonization,
+not infection; a single transmission probability governs every exchange. The
+leading-order limit is a fixed-horizon $p\to0$ quantity without a finite-$p$
+error bound, and route labels are descriptive, not causal.
+
+\emph{Supplement sections.} Model and contact process:
+Section~\ref{sec:s-model}; hygiene laws and WHO opportunity accounting:
+Section~\ref{sec:s-hygiene}; proofs, the remainder structure and the condition for
+the sign reversal: Section~\ref{sec:s-proofs}; leading-order coefficients, the
+renewal comparator and the alternative-workflow coefficient study:
+Section~\ref{sec:s-coefficient}; calibration, matching checks and the
+baseline-mismatch sensitivity analysis: Section~\ref{sec:s-calibration}; common-baseline
+interpolation: Section~\ref{sec:s-common}; alternative-workflow study and
+face-validity quantities: Section~\ref{sec:s-alternative}; source and route labels:
+Section~\ref{sec:s-routes}; environment: Section~\ref{sec:s-environment}; opportunity
+rule: Section~\ref{sec:s-clock}; measurement study and its ICU projection
+through the computed coefficient grid: Section~\ref{sec:s-uq}; stability: Section~\ref{sec:s-stability}. The
+round-1 revision (22 October 2026) added analyses of existing records and closed
+forms only (study 15); all are post hoc, and their script and outputs are archived
+with the revision notes. Study 16 is a separately prespecified coefficient
+extension (23 October), reported in Section~\ref{sec:s-coef-extension}. A post hoc
+worker-reweighting analysis (24 October) and directional-transfer interpretation
+appear in Section~\ref{sec:s-directional}.
+
+{\footnotesize\setlength{\tabcolsep}{3pt}
+\begin{longtable}{>{\raggedleft\arraybackslash}p{.03\linewidth}>{\raggedright\arraybackslash}p{.21\linewidth}>{\raggedright\arraybackslash}p{.26\linewidth}>{\raggedright\arraybackslash}p{.31\linewidth}>{\raggedright\arraybackslash}p{.06\linewidth}}
+\caption{Study flow. Counts are archived records or paired jobs (a paired job holds both branches and is one record). Percentages are prevented fractions for completion .90$\to$.95; contrasts in percentage points.}\label{tab:flow}\\
+\toprule
+\# & Study & Design and size & Outcome & Sec.\\\midrule\endfirsthead
+\# & Study & Design and size & Outcome & Sec.\\\midrule\endhead
+1 & Antecedent exploration (before 8 Oct) & 27 conditions $\times$ 64 paired seeds (1,728 records); lowest increasing bracket, linear interpolation & Clustered $p=.07602$, imperfect $p=.07484$; no independent point selection & \ref{sec:s-calibration}\\
+2 & Independent calibration grid (8 Oct) & 3 probabilities $\times$ 128 seeds (384 baseline-only records) & $p=.14328$ [.14004, .14792] & \ref{sec:s-calibration}\\
+3 & Original-workflow holdout (8 Oct) & 3 profiles $\times$ 512 fresh paired seeds (1,536 paired jobs); fixed $p$ & Control 2.83/2.69/2.80; $F$ 67.6/55.9/27.0\%; contrasts 11.7, 40.6, 28.9 (98.333\%, all exclude 0); six matching checks failed & \ref{sec:s-gates}, \ref{sec:s-alternative}\\
+4 & Environmental comparison (8 Oct) & 6 conditions $\times$ 512 paired seeds (3,072 paired jobs), independent profile & Full minus disabled $F$: $\mn$10.2, $\mn$11.7, $\mn$14.3 (98.333\%) & \ref{sec:s-environment}\\
+5 & Leading-order coefficient, original workflow (8--10 Oct) & 256 transmission-free backgrounds; 22-pair surface & $F^*$ 75.1/53.6/28.0\% & \ref{sec:s-coefficient}\\
+6 & Inherited-clock sweep (10--11 Oct) & 12 conditions $\times$ 128 seeds (1,536 baseline-only records) & No sampled match to 2.7--3.3 & \ref{sec:s-clock}\\
+7 & Local $p$-sensitivity (10--11 Oct) & 6 conditions $\times$ 256 fresh paired seeds (1,536 paired jobs) & $F$ 60.5/55.3/53.6\% (clustered), 28.9/29.8/32.7\% (imperfect); four contrasts unresolved & \ref{sec:s-clock}\\
+8 & Opportunity-rule and surface follow-up (11--12 Oct) & 5,760 records: 19-condition grid (2,432), 2$\times$512 selected-clock pairs, 512 $p=1$ pairs, 3$\times$512 surface-disabled pairs, 256 upper pairs & Selected $p$ .283/.345; both target checks failed; six contrasts $+$16.3, $+$37.0, $+$9.7, $\mn$4.5, $+$0.6, $+$4.7 (99.167\%) & \ref{sec:s-clock}, \ref{sec:s-environment}\\
+9 & Common-baseline analysis (16--17 Oct, post hoc) & No new runs; 256 seed-matched pairs per bracket & $F_{\mathrm{cb}}$ 66.7/55.0/30.0\%; contrasts 11.7, 36.7, 25.0 (98.333\%) & \ref{sec:s-common}\\
+10 & Alternative-workflow study (17--21 Oct, prespecified) & Grid 4$\times$3$\times$128 (1,536 baseline-only records); holdout 3$\times$512 fresh paired seeds & $p$ .16511/.08063/.07614; control 2.90/2.62/2.63; $F$ 76.5/53.7/27.3\%; contrasts 22.8, 49.2, 26.4 (98.333\%, all exclude 0) & \ref{sec:s-alternative}\\
+11 & Measurement study (17 Oct, prespecified) & 12,000 synthetic assay experiments & $k=2$ widths at 8,000 per assay: 25.0$\to$6.3, 25.0$\to$1.1, 11.4$\to$5.7, 11.4$\to$6.7 (continuous projection, post hoc) & \ref{sec:s-uq}\\
+12 & Mathematical extension (17 Oct) & Analytic; 229 exact assertion groups & Identification criterion, sharp bounds, $(h,q_1,q_2)$ identification, sign change at $e^*\approx.9235$ & \ref{sec:s-proofs}\\
+13 & Leading-order coefficient, alternative workflow (21--22 Oct, prespecified) & 256 backgrounds (same seeds as study 5); full 22-pair surface & $F^*$ 75.18/53.65/27.99\% against 75.13/53.65/27.99\% on the same seeds; all 22 rows within 0.3 pp; all three prespecified predictions held & \ref{sec:s-coefficient}\\
+14 & Addenda (21--22 Oct, post hoc) & No new runs; 9,472 archived records re-read & Elasticity bias bound, selection propagation, route tables & \ref{sec:s-calibration}, \ref{sec:s-routes}\\
+15 & Round-1 re-analyses (22 Oct, post hoc) & No new runs; 3,072 paired holdout records and 512 coefficient records re-read; closed forms & Source-status falls; face validity; alternative half-windows; renewal comparator (22 rows within 2.8 pp); surrogate ICU projection, superseded by study 16 & \ref{sec:s-coefficient}, \ref{sec:s-alternative}, \ref{sec:s-routes}, \ref{sec:s-uq}\\
+
+16 & Coefficient extension (23 Oct, prespecified) & 256 original-workflow backgrounds; 182 profile pairs, including 22 archived replay pairs; 54.89 CPU-hours against 48.87 projected & Predictions 1 and 3 held: crossing .934; transition-defined policy contrast $+0.12$ pp at $e=1$ ($+7.45$ pp at $e=.8$). Predictions 2 and 4 failed: 70$\to$80\%, $e=.8$ contrast $+0.25$ pp (predicted $<0$); renewal error 4.32 pp ($>3.5$). Interpolated ICU projection of study 11 & \ref{sec:s-coef-extension}, \ref{sec:s-uq}\\
+\bottomrule
+\end{longtable}
+}
+

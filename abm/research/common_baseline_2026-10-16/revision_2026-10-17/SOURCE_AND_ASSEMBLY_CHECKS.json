@@ -1,0 +1,15 @@
+{
+  "all_original_figure_blocks_unchanged": 4,
+  "appendix_proofs_and_leading_rate_tables_unchanged": true,
+  "standalone_pdfs_and_supplement_unchanged": true,
+  "citations_resolve": true,
+  "duplicate_labels": false,
+  "refs_resolve": true,
+  "all_statistical_review_input_hashes_match": true,
+  "result_assembly_byte_exact_replay": true,
+  "source_sha256": "887e5125332cb4636ca3e8c059d014f3bba540d77c660c0958a4765a9667303e",
+  "source_before_sha256": "ce185a003244d71735f2b7f0ce231c6e0013e0b9419728bbcc77253fc8c71331",
+  "source_diff_sha256": "1d623729374a694c62f8096dc347e8a99835d7d077fd06ceb2bb9072a67691d9",
+  "pdf_visual_qa_performed": false,
+  "pdf_visual_qa_limitation": "Native compilation exposes diagnostics only; no separate compiler/export was used per open-document instruction."
+}

@@ -1,0 +1,13 @@
+Each paired job runs 90 warmup days, then copies the complete ICU state into a
+control branch (completion .90) and a policy branch (.95), each observed for 56
+days with the same $p$ and all other inputs fixed. The branches start with the
+same patients, hands, sites, completion memory and random-generator state, but
+acquisitions can change screening, isolation and later contacts and can separate
+the random-number sequences, so the branches do not keep identical event
+histories; no variance reduction is claimed. With acquired-carrier counts
+$C_0,C_1$ and patient-days $D_0,D_1$ pooled over seeds, $R_j=1000C_j/D_j$ and the
+fraction prevented is $F=1-R_1/R_0$ ($F$ is undefined if $C_0=0$). Absolute rate
+decreases $R_0-R_1$ and mean paired count decreases per 56-day run are reported
+beside $F$: a larger fraction prevented can accompany fewer patients protected
+when the starting burden is smaller.
+

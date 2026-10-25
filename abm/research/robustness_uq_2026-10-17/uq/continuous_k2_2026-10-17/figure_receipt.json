@@ -1,0 +1,9 @@
+{
+  "scope": "Presentation of saved results only",
+  "files": {
+    "plot_results.py": "d30a575575c924adc158a4fb6eaca3d3ef342ac24bf1a5b735d9142459816c09",
+    "continuous_uncertainty.png": "42170b0f7e09d589f10a31835585245f0febc3cca22c0160008f3b557145b898",
+    "continuous_uncertainty.svg": "0ce5c97989e5f413c4775f7d82980addf2fdfde3a20d648f3f7ab8f2dddbf09d",
+    "run_001/results.json": "c10e34b2cd49b5fd5336d589669925bab0fa5c7c54754a225d0ef985bb3eefe2"
+  }
+}

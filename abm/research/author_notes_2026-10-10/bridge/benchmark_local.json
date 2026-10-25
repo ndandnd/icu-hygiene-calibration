@@ -1,0 +1,19 @@
+{
+  "arm_count": 44,
+  "description": "Tiny implementation benchmark; no study seed/horizon executed",
+  "elapsed_seconds": 1.3513891668990254,
+  "event_counts": {
+    "environment": 9626,
+    "opportunity": 9653,
+    "patient": 4755,
+    "reset": 68
+  },
+  "extrapolation_note": "Tiny cold-run extrapolation, not a full-horizon timing guarantee.",
+  "ordered_bridge_events_sha256": "9b68418b0bcbcc2f60a9c21b95e79385452a9bc2d5674bfc0e4edd259bef99fa",
+  "pair_count": 22,
+  "peak_rss_native_units": 127778816,
+  "projected_256_seed_cpu_hours": 8.878626826526597,
+  "projected_full_seed_seconds": 124.85568974803027,
+  "seconds_per_tick": 0.0003299289958249574,
+  "ticks": 4096
+}

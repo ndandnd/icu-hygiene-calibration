@@ -1,0 +1,1029 @@
+{
+  "cohorts": [
+    {
+      "cohort": "pooled64",
+      "historical_site_composition_fixed": false,
+      "int64LE_weight_stream_sha256": "3b0f267dea6d5211aeb5262c98a8169505ac5a13b1a792b43597b3fc7fcf3adc",
+      "n_whole_seed_worlds": 64,
+      "profiles": {
+        "imperfect": {
+          "bootstrap": {
+            "conditional_on_defined_draws": false,
+            "conditional_valid_draw_interval95": [
+              0.0724291838364654,
+              0.07785016843205887
+            ],
+            "defined_draws": 50000,
+            "draws": 50000,
+            "exact_hit_draws": 0,
+            "failed_draws": 0,
+            "fallback_draws": 0,
+            "fallback_inclusive_interval95": null,
+            "fallback_note": "Original exploratory rule has no fallback; undefined draws remain undefined. The separate later confirmation rule used a 0.15 fallback and is not substituted here.",
+            "missing_bracket_draws": 0,
+            "nonmonotone_draws": 0,
+            "selected_pair_counts": {
+              "imperfect_low100|imperfect_low125": 50000
+            },
+            "unconditional_interval95": [
+              0.0724291838364654,
+              0.07785016843205887
+            ],
+            "undefined_policy_rate_draws": 0
+          },
+          "curve_points": [
+            {
+              "baseline_rate": 0.7527591103903956,
+              "p": 0.050327735093881894,
+              "policy_rate": 0.6005440643249421,
+              "scenario_id": "imperfect_low075"
+            },
+            {
+              "baseline_rate": 1.9719813072972778,
+              "p": 0.06710364679184253,
+              "policy_rate": 1.3530389083162844,
+              "scenario_id": "imperfect_low100"
+            },
+            {
+              "baseline_rate": 4.201202195866453,
+              "p": 0.08387955848980316,
+              "policy_rate": 3.039632846020025,
+              "scenario_id": "imperfect_low125"
+            }
+          ],
+          "point": {
+            "exact_hits": [],
+            "fallback_used": false,
+            "increasing_brackets": [
+              [
+                "imperfect_low100",
+                "imperfect_low125"
+              ]
+            ],
+            "interpolation_weights": [
+              0.5388439530716242,
+              0.46115604692837575
+            ],
+            "method": "lowest_p_increasing_adjacent_bracket",
+            "nonmonotone": false,
+            "p": 0.07483995991409355,
+            "selected_pair": [
+              "imperfect_low100",
+              "imperfect_low125"
+            ],
+            "status": "defined"
+          }
+        },
+        "independent": {
+          "bootstrap": {
+            "conditional_on_defined_draws": true,
+            "conditional_valid_draw_interval95": [
+              0.131790051501861,
+              0.13496130776082838
+            ],
+            "defined_draws": 478,
+            "draws": 50000,
+            "exact_hit_draws": 0,
+            "failed_draws": 49522,
+            "fallback_draws": 0,
+            "fallback_inclusive_interval95": null,
+            "fallback_note": "Original exploratory rule has no fallback; undefined draws remain undefined. The separate later confirmation rule used a 0.15 fallback and is not substituted here.",
+            "missing_bracket_draws": 49522,
+            "nonmonotone_draws": 72,
+            "selected_pair_counts": {
+              "independent_low100|independent_low125": 478
+            },
+            "unconditional_interval95": null,
+            "undefined_policy_rate_draws": 0
+          },
+          "curve_points": [
+            {
+              "baseline_rate": 0.5620894628996053,
+              "p": 0.08097942812593639,
+              "policy_rate": 0.12383947670941116,
+              "scenario_id": "independent_low075"
+            },
+            {
+              "baseline_rate": 1.0002357735360805,
+              "p": 0.10797257083458187,
+              "policy_rate": 0.49542224027714027,
+              "scenario_id": "independent_low100"
+            },
+            {
+              "baseline_rate": 2.4672050351727983,
+              "p": 0.13496571354322734,
+              "policy_rate": 0.7529130291800458,
+              "scenario_id": "independent_low125"
+            }
+          ],
+          "point": {
+            "exact_hits": [],
+            "fallback_used": false,
+            "increasing_brackets": [],
+            "nonmonotone": false,
+            "p": null,
+            "reason": "no_increasing_bracket_or_exact_hit",
+            "status": "undefined"
+          }
+        },
+        "persistent": {
+          "bootstrap": {
+            "conditional_on_defined_draws": false,
+            "conditional_valid_draw_interval95": [
+              0.07346494499849307,
+              0.07872820338472875
+            ],
+            "defined_draws": 50000,
+            "draws": 50000,
+            "exact_hit_draws": 0,
+            "failed_draws": 0,
+            "fallback_draws": 0,
+            "fallback_inclusive_interval95": null,
+            "fallback_note": "Original exploratory rule has no fallback; undefined draws remain undefined. The separate later confirmation rule used a 0.15 fallback and is not substituted here.",
+            "missing_bracket_draws": 0,
+            "nonmonotone_draws": 0,
+            "selected_pair_counts": {
+              "persistent_low075|persistent_low100": 1,
+              "persistent_low100|persistent_low125": 49999
+            },
+            "unconditional_interval95": [
+              0.07346494499849307,
+              0.07872820338472875
+            ],
+            "undefined_policy_rate_draws": 0
+          },
+          "curve_points": [
+            {
+              "baseline_rate": 0.8001928683560348,
+              "p": 0.05188989403796505,
+              "policy_rate": 0.42874683732123886,
+              "scenario_id": "persistent_low075"
+            },
+            {
+              "baseline_rate": 2.11525165278205,
+              "p": 0.0691865253839534,
+              "policy_rate": 0.8195970978294431,
+              "scenario_id": "persistent_low100"
+            },
+            {
+              "baseline_rate": 4.35417460162078,
+              "p": 0.08648315672994175,
+              "policy_rate": 1.7432287318917248,
+              "scenario_id": "persistent_low125"
+            }
+          ],
+          "point": {
+            "exact_hits": [],
+            "fallback_used": false,
+            "increasing_brackets": [
+              [
+                "persistent_low100",
+                "persistent_low125"
+              ]
+            ],
+            "interpolation_weights": [
+              0.6048330525725124,
+              0.3951669474274876
+            ],
+            "method": "lowest_p_increasing_adjacent_bracket",
+            "nonmonotone": false,
+            "p": 0.07602158239372621,
+            "selected_pair": [
+              "persistent_low100",
+              "persistent_low125"
+            ],
+            "status": "defined"
+          }
+        }
+      },
+      "seeds": [
+        811001,
+        811002,
+        811003,
+        811004,
+        811005,
+        811006,
+        811007,
+        811008,
+        811009,
+        811010,
+        811011,
+        811012,
+        811013,
+        811014,
+        811015,
+        811016,
+        811017,
+        811018,
+        811019,
+        811020,
+        811021,
+        811022,
+        811023,
+        811024,
+        811025,
+        811026,
+        811027,
+        811028,
+        811029,
+        811030,
+        811031,
+        811032,
+        811033,
+        811034,
+        811035,
+        811036,
+        811037,
+        811038,
+        811039,
+        811040,
+        811041,
+        811042,
+        811043,
+        811044,
+        811045,
+        811046,
+        811047,
+        811048,
+        811049,
+        811050,
+        811051,
+        811052,
+        811053,
+        811054,
+        811055,
+        811056,
+        811057,
+        811058,
+        811059,
+        811060,
+        811061,
+        811062,
+        811063,
+        811064
+      ],
+      "stream_seed_sequence": [
+        20261011,
+        1101,
+        0
+      ]
+    },
+    {
+      "cohort": "historical_local32",
+      "historical_site_composition_fixed": false,
+      "int64LE_weight_stream_sha256": "617c4ad5380b846148d2ff27fb79179a10cc00b47620863ec5a747f1c95838be",
+      "n_whole_seed_worlds": 32,
+      "profiles": {
+        "imperfect": {
+          "bootstrap": {
+            "conditional_on_defined_draws": true,
+            "conditional_valid_draw_interval95": [
+              0.07205941252503842,
+              0.0808707958346057
+            ],
+            "defined_draws": 49642,
+            "draws": 50000,
+            "exact_hit_draws": 0,
+            "failed_draws": 358,
+            "fallback_draws": 0,
+            "fallback_inclusive_interval95": null,
+            "fallback_note": "Original exploratory rule has no fallback; undefined draws remain undefined. The separate later confirmation rule used a 0.15 fallback and is not substituted here.",
+            "missing_bracket_draws": 358,
+            "nonmonotone_draws": 0,
+            "selected_pair_counts": {
+              "imperfect_low100|imperfect_low125": 49642
+            },
+            "unconditional_interval95": null,
+            "undefined_policy_rate_draws": 0
+          },
+          "curve_points": [
+            {
+              "baseline_rate": 0.8005899644403597,
+              "p": 0.050327735093881894,
+              "policy_rate": 0.6292648175455359,
+              "scenario_id": "imperfect_low075"
+            },
+            {
+              "baseline_rate": 1.9244383037614772,
+              "p": 0.06710364679184253,
+              "policy_rate": 1.1624516728648722,
+              "scenario_id": "imperfect_low100"
+            },
+            {
+              "baseline_rate": 4.058836216258859,
+              "p": 0.08387955848980316,
+              "policy_rate": 3.1260691241268908,
+              "scenario_id": "imperfect_low125"
+            }
+          ],
+          "point": {
+            "exact_hits": [],
+            "fallback_used": false,
+            "increasing_brackets": [
+              [
+                "imperfect_low100",
+                "imperfect_low125"
+              ]
+            ],
+            "interpolation_weights": [
+              0.4960819208354421,
+              0.5039180791645579
+            ],
+            "method": "lowest_p_increasing_adjacent_bracket",
+            "nonmonotone": false,
+            "p": 0.07555733199091308,
+            "selected_pair": [
+              "imperfect_low100",
+              "imperfect_low125"
+            ],
+            "status": "defined"
+          }
+        },
+        "independent": {
+          "bootstrap": {
+            "conditional_on_defined_draws": true,
+            "conditional_valid_draw_interval95": [
+              0.13181250772098646,
+              0.13484378688245743
+            ],
+            "defined_draws": 279,
+            "draws": 50000,
+            "exact_hit_draws": 0,
+            "failed_draws": 49721,
+            "fallback_draws": 0,
+            "fallback_inclusive_interval95": null,
+            "fallback_note": "Original exploratory rule has no fallback; undefined draws remain undefined. The separate later confirmation rule used a 0.15 fallback and is not substituted here.",
+            "missing_bracket_draws": 49721,
+            "nonmonotone_draws": 7992,
+            "selected_pair_counts": {
+              "independent_low100|independent_low125": 279
+            },
+            "unconditional_interval95": null,
+            "undefined_policy_rate_draws": 0
+          },
+          "curve_points": [
+            {
+              "baseline_rate": 0.6096591862994738,
+              "p": 0.08097942812593639,
+              "policy_rate": 0.15243550229023387,
+              "scenario_id": "independent_low075"
+            },
+            {
+              "baseline_rate": 0.7813678012763574,
+              "p": 0.10797257083458187,
+              "policy_rate": 0.4955325452793303,
+              "scenario_id": "independent_low100"
+            },
+            {
+              "baseline_rate": 2.3631591395573817,
+              "p": 0.13496571354322734,
+              "policy_rate": 0.8198491770569691,
+              "scenario_id": "independent_low125"
+            }
+          ],
+          "point": {
+            "exact_hits": [],
+            "fallback_used": false,
+            "increasing_brackets": [],
+            "nonmonotone": false,
+            "p": null,
+            "reason": "no_increasing_bracket_or_exact_hit",
+            "status": "undefined"
+          }
+        },
+        "persistent": {
+          "bootstrap": {
+            "conditional_on_defined_draws": true,
+            "conditional_valid_draw_interval95": [
+              0.07342043542497641,
+              0.08058033862413749
+            ],
+            "defined_draws": 49993,
+            "draws": 50000,
+            "exact_hit_draws": 0,
+            "failed_draws": 7,
+            "fallback_draws": 0,
+            "fallback_inclusive_interval95": null,
+            "fallback_note": "Original exploratory rule has no fallback; undefined draws remain undefined. The separate later confirmation rule used a 0.15 fallback and is not substituted here.",
+            "missing_bracket_draws": 7,
+            "nonmonotone_draws": 0,
+            "selected_pair_counts": {
+              "persistent_low075|persistent_low100": 16,
+              "persistent_low100|persistent_low125": 49977
+            },
+            "unconditional_interval95": null,
+            "undefined_policy_rate_draws": 0
+          },
+          "curve_points": [
+            {
+              "baseline_rate": 0.7622524135346387,
+              "p": 0.05188989403796505,
+              "policy_rate": 0.4954813974313474,
+              "scenario_id": "persistent_low075"
+            },
+            {
+              "baseline_rate": 1.9251259177820068,
+              "p": 0.0691865253839534,
+              "policy_rate": 0.7053386777388599,
+              "scenario_id": "persistent_low100"
+            },
+            {
+              "baseline_rate": 4.32619414440317,
+              "p": 0.08648315672994175,
+              "policy_rate": 1.5813574585412244,
+              "scenario_id": "persistent_low125"
+            }
+          ],
+          "point": {
+            "exact_hits": [],
+            "fallback_used": false,
+            "increasing_brackets": [
+              [
+                "persistent_low100",
+                "persistent_low125"
+              ]
+            ],
+            "interpolation_weights": [
+              0.5523350522485653,
+              0.4476649477514347
+            ],
+            "method": "lowest_p_increasing_adjacent_bracket",
+            "nonmonotone": false,
+            "p": 0.0769296209517311,
+            "selected_pair": [
+              "persistent_low100",
+              "persistent_low125"
+            ],
+            "status": "defined"
+          }
+        }
+      },
+      "seeds": [
+        811001,
+        811002,
+        811003,
+        811004,
+        811005,
+        811006,
+        811007,
+        811008,
+        811009,
+        811010,
+        811011,
+        811012,
+        811013,
+        811014,
+        811015,
+        811016,
+        811017,
+        811018,
+        811019,
+        811020,
+        811021,
+        811022,
+        811023,
+        811024,
+        811025,
+        811026,
+        811027,
+        811028,
+        811029,
+        811030,
+        811031,
+        811032
+      ],
+      "stream_seed_sequence": [
+        20261011,
+        1101,
+        1
+      ]
+    },
+    {
+      "cohort": "historical_cluster32",
+      "historical_site_composition_fixed": false,
+      "int64LE_weight_stream_sha256": "442617ffa36a6295edb6fd59d2584d86a9eea4c7d2c6f6f219cd18b25126dcde",
+      "n_whole_seed_worlds": 32,
+      "profiles": {
+        "imperfect": {
+          "bootstrap": {
+            "conditional_on_defined_draws": true,
+            "conditional_valid_draw_interval95": [
+              0.07071543787341393,
+              0.07789255430246725
+            ],
+            "defined_draws": 49997,
+            "draws": 50000,
+            "exact_hit_draws": 0,
+            "failed_draws": 3,
+            "fallback_draws": 0,
+            "fallback_inclusive_interval95": null,
+            "fallback_note": "Original exploratory rule has no fallback; undefined draws remain undefined. The separate later confirmation rule used a 0.15 fallback and is not substituted here.",
+            "missing_bracket_draws": 3,
+            "nonmonotone_draws": 0,
+            "selected_pair_counts": {
+              "imperfect_low075|imperfect_low100": 32,
+              "imperfect_low100|imperfect_low125": 49965
+            },
+            "unconditional_interval95": null,
+            "undefined_policy_rate_draws": 0
+          },
+          "curve_points": [
+            {
+              "baseline_rate": 0.7049506997597152,
+              "p": 0.050327735093881894,
+              "policy_rate": 0.5718345748171304,
+              "scenario_id": "imperfect_low075"
+            },
+            {
+              "baseline_rate": 2.0195198940445933,
+              "p": 0.06710364679184253,
+              "policy_rate": 1.5436321691702988,
+              "scenario_id": "imperfect_low100"
+            },
+            {
+              "baseline_rate": 4.343530856156533,
+              "p": 0.08387955848980316,
+              "policy_rate": 2.9532340871928406,
+              "scenario_id": "imperfect_low125"
+            }
+          ],
+          "point": {
+            "exact_hits": [],
+            "fallback_used": false,
+            "increasing_brackets": [
+              [
+                "imperfect_low100",
+                "imperfect_low125"
+              ]
+            ],
+            "interpolation_weights": [
+              0.5781086569985894,
+              0.4218913430014107
+            ],
+            "method": "lowest_p_increasing_adjacent_bracket",
+            "nonmonotone": false,
+            "p": 0.07418125870816822,
+            "selected_pair": [
+              "imperfect_low100",
+              "imperfect_low125"
+            ],
+            "status": "defined"
+          }
+        },
+        "independent": {
+          "bootstrap": {
+            "conditional_on_defined_draws": true,
+            "conditional_valid_draw_interval95": [
+              0.12828680486951652,
+              0.13484770430167847
+            ],
+            "defined_draws": 5842,
+            "draws": 50000,
+            "exact_hit_draws": 0,
+            "failed_draws": 44158,
+            "fallback_draws": 0,
+            "fallback_inclusive_interval95": null,
+            "fallback_note": "Original exploratory rule has no fallback; undefined draws remain undefined. The separate later confirmation rule used a 0.15 fallback and is not substituted here.",
+            "missing_bracket_draws": 44158,
+            "nonmonotone_draws": 141,
+            "selected_pair_counts": {
+              "independent_low100|independent_low125": 5842
+            },
+            "unconditional_interval95": null,
+            "undefined_policy_rate_draws": 0
+          },
+          "curve_points": [
+            {
+              "baseline_rate": 0.5145095985550325,
+              "p": 0.08097942812593639,
+              "policy_rate": 0.09525008549356634,
+              "scenario_id": "independent_low075"
+            },
+            {
+              "baseline_rate": 1.218974210070168,
+              "p": 0.10797257083458187,
+              "policy_rate": 0.49531198437156626,
+              "scenario_id": "independent_low100"
+            },
+            {
+              "baseline_rate": 2.571185888363094,
+              "p": 0.13496571354322734,
+              "policy_rate": 0.6860131763316542,
+              "scenario_id": "independent_low125"
+            }
+          ],
+          "point": {
+            "exact_hits": [],
+            "fallback_used": false,
+            "increasing_brackets": [],
+            "nonmonotone": false,
+            "p": null,
+            "reason": "no_increasing_bracket_or_exact_hit",
+            "status": "undefined"
+          }
+        },
+        "persistent": {
+          "bootstrap": {
+            "conditional_on_defined_draws": true,
+            "conditional_valid_draw_interval95": [
+              0.07097222477223755,
+              0.0794220640352642
+            ],
+            "defined_draws": 49987,
+            "draws": 50000,
+            "exact_hit_draws": 0,
+            "failed_draws": 13,
+            "fallback_draws": 0,
+            "fallback_inclusive_interval95": null,
+            "fallback_note": "Original exploratory rule has no fallback; undefined draws remain undefined. The separate later confirmation rule used a 0.15 fallback and is not substituted here.",
+            "missing_bracket_draws": 13,
+            "nonmonotone_draws": 1,
+            "selected_pair_counts": {
+              "persistent_low075|persistent_low100": 262,
+              "persistent_low100|persistent_low125": 49725
+            },
+            "unconditional_interval95": null,
+            "undefined_policy_rate_draws": 0
+          },
+          "curve_points": [
+            {
+              "baseline_rate": 0.8381170040086137,
+              "p": 0.05188989403796505,
+              "policy_rate": 0.3620232149003781,
+              "scenario_id": "persistent_low075"
+            },
+            {
+              "baseline_rate": 2.3052909968284316,
+              "p": 0.0691865253839534,
+              "policy_rate": 0.9338218399126827,
+              "scenario_id": "persistent_low100"
+            },
+            {
+              "baseline_rate": 4.382147263184895,
+              "p": 0.08648315672994175,
+              "policy_rate": 1.9050860829904301,
+              "scenario_id": "persistent_low125"
+            }
+          ],
+          "point": {
+            "exact_hits": [],
+            "fallback_used": false,
+            "increasing_brackets": [
+              [
+                "persistent_low100",
+                "persistent_low125"
+              ]
+            ],
+            "interpolation_weights": [
+              0.6654997197324914,
+              0.33450028026750855
+            ],
+            "method": "lowest_p_increasing_adjacent_bracket",
+            "nonmonotone": false,
+            "p": 0.07497225341687028,
+            "selected_pair": [
+              "persistent_low100",
+              "persistent_low125"
+            ],
+            "status": "defined"
+          }
+        }
+      },
+      "seeds": [
+        811033,
+        811034,
+        811035,
+        811036,
+        811037,
+        811038,
+        811039,
+        811040,
+        811041,
+        811042,
+        811043,
+        811044,
+        811045,
+        811046,
+        811047,
+        811048,
+        811049,
+        811050,
+        811051,
+        811052,
+        811053,
+        811054,
+        811055,
+        811056,
+        811057,
+        811058,
+        811059,
+        811060,
+        811061,
+        811062,
+        811063,
+        811064
+      ],
+      "stream_seed_sequence": [
+        20261011,
+        1101,
+        2
+      ]
+    },
+    {
+      "cohort": "site_stratified32plus32",
+      "historical_site_composition_fixed": true,
+      "int64LE_weight_stream_sha256": "49b221ee274bc670a25e586921b1e3d44699be158f8979893b8d8bd672322bcd",
+      "n_whole_seed_worlds": 64,
+      "profiles": {
+        "imperfect": {
+          "bootstrap": {
+            "conditional_on_defined_draws": true,
+            "conditional_valid_draw_interval95": [
+              0.07238755444058717,
+              0.07785036638338717
+            ],
+            "defined_draws": 49999,
+            "draws": 50000,
+            "exact_hit_draws": 0,
+            "failed_draws": 1,
+            "fallback_draws": 0,
+            "fallback_inclusive_interval95": null,
+            "fallback_note": "Original exploratory rule has no fallback; undefined draws remain undefined. The separate later confirmation rule used a 0.15 fallback and is not substituted here.",
+            "missing_bracket_draws": 1,
+            "nonmonotone_draws": 0,
+            "selected_pair_counts": {
+              "imperfect_low100|imperfect_low125": 49999
+            },
+            "unconditional_interval95": null,
+            "undefined_policy_rate_draws": 0
+          },
+          "curve_points": [
+            {
+              "baseline_rate": 0.7527591103903956,
+              "p": 0.050327735093881894,
+              "policy_rate": 0.6005440643249421,
+              "scenario_id": "imperfect_low075"
+            },
+            {
+              "baseline_rate": 1.9719813072972778,
+              "p": 0.06710364679184253,
+              "policy_rate": 1.3530389083162844,
+              "scenario_id": "imperfect_low100"
+            },
+            {
+              "baseline_rate": 4.201202195866453,
+              "p": 0.08387955848980316,
+              "policy_rate": 3.039632846020025,
+              "scenario_id": "imperfect_low125"
+            }
+          ],
+          "point": {
+            "exact_hits": [],
+            "fallback_used": false,
+            "increasing_brackets": [
+              [
+                "imperfect_low100",
+                "imperfect_low125"
+              ]
+            ],
+            "interpolation_weights": [
+              0.5388439530716242,
+              0.46115604692837575
+            ],
+            "method": "lowest_p_increasing_adjacent_bracket",
+            "nonmonotone": false,
+            "p": 0.07483995991409355,
+            "selected_pair": [
+              "imperfect_low100",
+              "imperfect_low125"
+            ],
+            "status": "defined"
+          }
+        },
+        "independent": {
+          "bootstrap": {
+            "conditional_on_defined_draws": true,
+            "conditional_valid_draw_interval95": [
+              0.1319601905722235,
+              0.13496075045599754
+            ],
+            "defined_draws": 509,
+            "draws": 50000,
+            "exact_hit_draws": 0,
+            "failed_draws": 49491,
+            "fallback_draws": 0,
+            "fallback_inclusive_interval95": null,
+            "fallback_note": "Original exploratory rule has no fallback; undefined draws remain undefined. The separate later confirmation rule used a 0.15 fallback and is not substituted here.",
+            "missing_bracket_draws": 49491,
+            "nonmonotone_draws": 66,
+            "selected_pair_counts": {
+              "independent_low100|independent_low125": 509
+            },
+            "unconditional_interval95": null,
+            "undefined_policy_rate_draws": 0
+          },
+          "curve_points": [
+            {
+              "baseline_rate": 0.5620894628996053,
+              "p": 0.08097942812593639,
+              "policy_rate": 0.12383947670941116,
+              "scenario_id": "independent_low075"
+            },
+            {
+              "baseline_rate": 1.0002357735360805,
+              "p": 0.10797257083458187,
+              "policy_rate": 0.49542224027714027,
+              "scenario_id": "independent_low100"
+            },
+            {
+              "baseline_rate": 2.4672050351727983,
+              "p": 0.13496571354322734,
+              "policy_rate": 0.7529130291800458,
+              "scenario_id": "independent_low125"
+            }
+          ],
+          "point": {
+            "exact_hits": [],
+            "fallback_used": false,
+            "increasing_brackets": [],
+            "nonmonotone": false,
+            "p": null,
+            "reason": "no_increasing_bracket_or_exact_hit",
+            "status": "undefined"
+          }
+        },
+        "persistent": {
+          "bootstrap": {
+            "conditional_on_defined_draws": false,
+            "conditional_valid_draw_interval95": [
+              0.07350154897512318,
+              0.07868672187341112
+            ],
+            "defined_draws": 50000,
+            "draws": 50000,
+            "exact_hit_draws": 0,
+            "failed_draws": 0,
+            "fallback_draws": 0,
+            "fallback_inclusive_interval95": null,
+            "fallback_note": "Original exploratory rule has no fallback; undefined draws remain undefined. The separate later confirmation rule used a 0.15 fallback and is not substituted here.",
+            "missing_bracket_draws": 0,
+            "nonmonotone_draws": 0,
+            "selected_pair_counts": {
+              "persistent_low075|persistent_low100": 2,
+              "persistent_low100|persistent_low125": 49998
+            },
+            "unconditional_interval95": [
+              0.07350154897512318,
+              0.07868672187341112
+            ],
+            "undefined_policy_rate_draws": 0
+          },
+          "curve_points": [
+            {
+              "baseline_rate": 0.8001928683560348,
+              "p": 0.05188989403796505,
+              "policy_rate": 0.42874683732123886,
+              "scenario_id": "persistent_low075"
+            },
+            {
+              "baseline_rate": 2.11525165278205,
+              "p": 0.0691865253839534,
+              "policy_rate": 0.8195970978294431,
+              "scenario_id": "persistent_low100"
+            },
+            {
+              "baseline_rate": 4.35417460162078,
+              "p": 0.08648315672994175,
+              "policy_rate": 1.7432287318917248,
+              "scenario_id": "persistent_low125"
+            }
+          ],
+          "point": {
+            "exact_hits": [],
+            "fallback_used": false,
+            "increasing_brackets": [
+              [
+                "persistent_low100",
+                "persistent_low125"
+              ]
+            ],
+            "interpolation_weights": [
+              0.6048330525725124,
+              0.3951669474274876
+            ],
+            "method": "lowest_p_increasing_adjacent_bracket",
+            "nonmonotone": false,
+            "p": 0.07602158239372621,
+            "selected_pair": [
+              "persistent_low100",
+              "persistent_low125"
+            ],
+            "status": "defined"
+          }
+        }
+      },
+      "seeds": [
+        811001,
+        811002,
+        811003,
+        811004,
+        811005,
+        811006,
+        811007,
+        811008,
+        811009,
+        811010,
+        811011,
+        811012,
+        811013,
+        811014,
+        811015,
+        811016,
+        811017,
+        811018,
+        811019,
+        811020,
+        811021,
+        811022,
+        811023,
+        811024,
+        811025,
+        811026,
+        811027,
+        811028,
+        811029,
+        811030,
+        811031,
+        811032,
+        811033,
+        811034,
+        811035,
+        811036,
+        811037,
+        811038,
+        811039,
+        811040,
+        811041,
+        811042,
+        811043,
+        811044,
+        811045,
+        811046,
+        811047,
+        811048,
+        811049,
+        811050,
+        811051,
+        811052,
+        811053,
+        811054,
+        811055,
+        811056,
+        811057,
+        811058,
+        811059,
+        811060,
+        811061,
+        811062,
+        811063,
+        811064
+      ],
+      "stream_seed_sequence": [
+        20261011,
+        1101,
+        3
+      ]
+    }
+  ],
+  "config": {
+    "bootstrap_draws": 50000,
+    "bootstrap_seed": 20261011,
+    "chunk_size": 256,
+    "cohorts": [
+      "pooled64",
+      "historical_local32",
+      "historical_cluster32",
+      "site_stratified32plus32"
+    ],
+    "confidence_level": 0.95,
+    "schema_version": 1,
+    "scope": "Retrospective extension of a fixed pilot-chosen grid; not a prospective calibration study. No fallback or extrapolation in the original exploratory selection rule.",
+    "stream_ordinal": 1101,
+    "target_rate_per_1000_patient_days": 3.0
+  },
+  "kind": "retrospective_fixed_exploratory_grid_selection_uncertainty",
+  "schema_version": 1,
+  "scope": {
+    "cohort_note": "The old 27-condition design has 32 historical local and 32 historical cluster seeds, not confirmation A/B statistical banks. Pooled64 reproduces the original pooled sampling structure; stratified32plus32 is a separately labeled diagnostic preserving historical site sizes. Both site subsets are reported, without a causal interpretation of site differences.",
+    "confirmation_A_B_bank_diagnostic": false,
+    "fallback": "No fallback in original exploratory rule. Failed draws are retained, and unconditional intervals are unavailable when any draw fails.",
+    "fixed_grid_pilot_selection_uncertainty_included": false,
+    "local_linearity_error_included": false,
+    "observation_days": 56,
+    "simulation_rerun": false,
+    "target": 3.0,
+    "warmup_days": 90,
+    "whole_seed_joint_resampling": true
+  },
+  "status": "pass"
+}

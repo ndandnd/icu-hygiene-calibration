@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "not_blind": true,
+  "method": "Explicit completion-word probabilities, direct per-experiment extrema, exact binomial CI tail identities, and fixed-seed redraw",
+  "all_12000_experiment_seeds_and_counts_reproduced": true,
+  "projected_endpoint_comparisons": 285924,
+  "max_prediction_discrepancy": 2.4424906541753444e-15,
+  "max_binomial_tail_identity_error": 4.909267437014364e-15,
+  "prediction_tolerance": 2e-12,
+  "binomial_tail_tolerance": 2e-10,
+  "python": "3.12.2 (v3.12.2:6abddd9f6a, Feb  6 2024, 17:02:06) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "verifier_sha256": "454cc5b08ec0347aa0bd63a50c7b2601330e6dc59abd8021eb4ae6b2985ced27",
+  "input_receipt_sha256": "a74bad768554dd52743b672cc25a0b628d8bf73afee983841c3cdadf958f3e09"
+}

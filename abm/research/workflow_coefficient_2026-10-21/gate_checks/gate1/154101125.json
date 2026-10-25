@@ -1,0 +1,145 @@
+{
+  "adapter_sha256": "939aabd55a64ce59f1c9111052cdd36b7545fbc848578b48eef1dbb37d2e8c67",
+  "archived_config_sha256": "36ba375bf3a9344719051318279484348e2b5d89d441942c1035d167fe93b52e",
+  "archived_record": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_02/completed/154101125.json",
+  "archived_record_sha256": "b3e7091956dcb031e8c2010b034a9e833de1213c8a70ec47f37e6eb6724982a1",
+  "bank": "A",
+  "cpu_seconds": 154.246696,
+  "exact_field_equal": {
+    "event_counts": true,
+    "executed_ticks": true,
+    "model_kwargs": true,
+    "observation_admissions": true,
+    "observation_imported_colonizations": true,
+    "observation_patient_days": true,
+    "observation_susceptible_patient_days": true,
+    "ordered_bridge_events_sha256": true,
+    "seed": true,
+    "status": true,
+    "total_admissions": true,
+    "total_imported_colonizations": true
+  },
+  "frozen_sha256": {
+    "research/full_icu_confirmation_2026-10-08/bridge/background.py": "4613669a9ffd9fbf749bcc5d27bb1e62844590a49ddfb23eda579b11c3e0ca04",
+    "research/full_icu_confirmation_2026-10-08/bridge/coefficient.py": "da9b21c5c95ea208b08ef577e2305a151ee7173c139b0e17cefcdf20a4c52898",
+    "research/full_icu_confirmation_2026-10-08/bridge/configs/bridge_all.json": "8e9f0f431ded41e2e2d35a60414851798572ce6a3a6784cc65edad14d582015c",
+    "research/full_icu_confirmation_2026-10-08/bridge/run.py": "9a0959a91007425abf9cf270d3be2142209d7e2f92dbe27f5ebc6bbb2025526b",
+    "research/full_icu_confirmation_2026-10-08/bridge/seedbook.json": "7f38db102597f653b70f35560a5aeebe1b01231be49b4802bd7bb209991a518c",
+    "research/full_icu_response_2026-10-08/instrumented_model.py": "5dcbe23b392694c1baffa7cd2475588ab12d8a3333778c17e73e0b5e6131888b",
+    "research/robustness_uq_2026-10-17/workflow_variant.py": "a1037d7cfa83889e6da010671cfa54ade6c599a8de4c45f34113744aa693ef74",
+    "src/CPEmodel.py": "5659a207818cdc8f1dcd40dd41b2900fa9d02a302a92b9dc6c5f6b376213ff53",
+    "src/agents.py": "bb4d52252f2c4d4fba599245fa1abc07254afe12fc2165e692ad1279504fc656",
+    "src/routes.py": "48c1ce8440cf71a82996afd92ede83b1237744db56b439bd9163ce7b60f0dcd5"
+  },
+  "frozen_simulate_elapsed_seconds": 493.6509837079793,
+  "gate": "gate1_original_mode_reproduction",
+  "gate_script_sha256": "6aff1d0e2f2b9d442eb66313465fca3ccb96c878d58b3eb4d00a945b81560f02",
+  "load_average_after": [
+    48.626953125,
+    49.56201171875,
+    32.68408203125
+  ],
+  "load_average_before": [
+    35.1962890625,
+    20.87451171875,
+    12.31494140625
+  ],
+  "max_K_relative_error": 0.0,
+  "ordered_bridge_events_sha256": {
+    "archived": "734d46c171a303a945c4bea9a27c1d28900f5b7f6d6fb77cf3abdbced12d3e1d",
+    "new": "734d46c171a303a945c4bea9a27c1d28900f5b7f6d6fb77cf3abdbced12d3e1d"
+  },
+  "partition_config": "research/full_icu_confirmation_2026-10-08/bridge/configs/cluster_part_02.json",
+  "pass": true,
+  "profiles": {
+    "iid_imperfect": {
+      "baseline": {
+        "K_archived": 475.1257349616472,
+        "K_from_warmup_relative_error": 0.0,
+        "K_new": 475.1257349616472,
+        "K_relative_error": 0.0,
+        "arm_result_bitwise_equal": true
+      },
+      "policy": {
+        "K_archived": 342.22920352283205,
+        "K_from_warmup_relative_error": 0.0,
+        "K_new": 342.22920352283205,
+        "K_relative_error": 0.0,
+        "arm_result_bitwise_equal": true
+      }
+    },
+    "iid_perfect": {
+      "baseline": {
+        "K_archived": 56.76134928143912,
+        "K_from_warmup_relative_error": 0.0,
+        "K_new": 56.76134928143912,
+        "K_relative_error": 0.0,
+        "arm_result_bitwise_equal": true
+      },
+      "policy": {
+        "K_archived": 14.087425921727313,
+        "K_from_warmup_relative_error": 0.0,
+        "K_new": 14.087425921727313,
+        "K_relative_error": 0.0,
+        "arm_result_bitwise_equal": true
+      }
+    },
+    "persistent_perfect": {
+      "baseline": {
+        "K_archived": 416.7718431729356,
+        "K_from_warmup_relative_error": 0.0,
+        "K_new": 416.7718431729356,
+        "K_relative_error": 0.0,
+        "arm_result_bitwise_equal": true
+      },
+      "policy": {
+        "K_archived": 193.22842003592845,
+        "K_from_warmup_relative_error": 0.0,
+        "K_new": 193.22842003592845,
+        "K_relative_error": 0.0,
+        "arm_result_bitwise_equal": true
+      }
+    }
+  },
+  "profiles_bitwise_equal": true,
+  "runtime": {
+    "dont_write_bytecode": true,
+    "executable": "$PROJECT_ROOT/abm/.venv/bin/python",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "python": "3.12.2 (v3.12.2:6abddd9f6a, Feb  6 2024, 17:02:06) [Clang 13.0.0 (clang-1300.0.29.30)]"
+  },
+  "seed": 154101125,
+  "site": "cluster",
+  "surface_attached": false,
+  "wall_seconds": 493.6536759166047,
+  "workflow": {
+    "alternative": false,
+    "counters_observation": {
+      "audit.moves": 9,
+      "audit.moves_from_isolation_bed": 4,
+      "audit.moves_into_isolation_bed": 5,
+      "audit.moves_into_occupied_bed": 4,
+      "audit.moves_shared_to_isolation": 5,
+      "audit.swaps": 4
+    },
+    "counters_total": {
+      "audit.moves": 25,
+      "audit.moves_from_isolation_bed": 12,
+      "audit.moves_into_isolation_bed": 13,
+      "audit.moves_into_occupied_bed": 12,
+      "audit.moves_shared_to_isolation": 13,
+      "audit.swaps": 12
+    },
+    "name": "original_swap_isolation",
+    "patient_contacts_by_period_status_bed": {
+      "observation|carrier|isolation_bed": 14279,
+      "observation|carrier|shared_bed": 5,
+      "observation|susceptible|isolation_bed": 82636,
+      "observation|susceptible|shared_bed": 68346,
+      "warmup|carrier|isolation_bed": 20325,
+      "warmup|carrier|shared_bed": 8,
+      "warmup|susceptible|isolation_bed": 135459,
+      "warmup|susceptible|shared_bed": 109877
+    }
+  }
+}

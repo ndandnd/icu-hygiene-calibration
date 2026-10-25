@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-10-23T17:18:31.637007+00:00",
+  "scope": "O12 mathematical integration and review preservation; no new simulation",
+  "numerical_summary_sha256": "ab0444c387806d61b24e927c0aeb161382327f7b4b26973b2b9681152b1f1c8b",
+  "outputs": {
+    "abm/research/manuscript_v2_2026-10-21/manuscript_v2.tex": "8cdda8b35bb2986acda7a3a00f126fd269703cdfe6c4bba19fa6ba8bfa785bd4",
+    "abm/research/manuscript_v2_2026-10-21/supplement_v2.tex": "788b6b39d8cabd0c3c372d901e580a10b4af544808760f48b122669552b6377d",
+    "abm/research/manuscript_v2_2026-10-21/manuscript_v2.pdf": "96e5cf8ed157994b357091f0b74c41573c0d71f22d5722cc655ea435dd78e77d",
+    "abm/research/manuscript_v2_2026-10-21/supplement_v2.pdf": "349e2719ea6e930224126572478489ca642f8a1860fcb549fa894123edfe3520"
+  },
+  "independent_proof_checks": 1659,
+  "native_compilation": "PASS for both sources",
+  "visual_qa": "PASS: all17 main and63 supplement pages",
+  "visual_receipt_sha256": "25f0183a1a6e99992e24f72b04452dda4ce5e64cadd7835fd90a093efb2fa1d0",
+  "prior_release_preserved": "release_2026-10-23_01",
+  "current_release": "release_2026-10-23_02",
+  "numerical_outcomes_changed": false,
+  "finite_p_reversal_established": false,
+  "o3_owner_thread": "01a0fe87-9161-70c0-a21f-4f3d39104d6e",
+  "o3_authorization": "Human selected cluster first with limited local fallback; verified in message01a169b6-d1b1-71c3-b106-7e535c76adfe",
+  "older_open_manuscript_sha256": "887e5125332cb4636ca3e8c059d014f3bba540d77c660c0958a4765a9667303e",
+  "git_mutations_by_this_chat": false
+}

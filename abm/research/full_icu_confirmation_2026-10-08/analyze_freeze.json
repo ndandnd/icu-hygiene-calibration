@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-10-08T14:53:07.057505+00:00",
+  "files": {
+    "research/full_icu_calibration_2026-10-07/run.py": "bf144e5723d897d595de0eab2b1529b0f88aeb61d46d1005b73749bf7bddd6ee",
+    "research/full_icu_confirmation_2026-10-08/analyze.py": "fa10a347258704c975a02ec3e002aaa95f0d2b53da2d5717e29f213bb2539fa0",
+    "research/full_icu_confirmation_2026-10-08/analyze_benchmark.json": "5daef656d77b2ff00b1ac111813c5fcfd7d61708cdd94bb071f232d322719177",
+    "research/full_icu_confirmation_2026-10-08/analyze_preparation.md": "1d2ea1946601473a2580823cce1c3da0f8bdc9df003a0ed4b3c2ad8d92644531",
+    "research/full_icu_confirmation_2026-10-08/build_design.py": "26ceac171e7acf59dc5a9e960951379dcc7c8d734fc4813e0d1ff2808e86a0d1",
+    "research/full_icu_confirmation_2026-10-08/test_analyze.py": "1904d95f4c8a936bd23cbfc8becc76ccb71470e16903ad33247c71f1f39c35de",
+    "research/full_icu_response_2026-10-08/run.py": "1835a6c939e43f8763176c1977128a36cce65b1d3ad28d19ef355d7eb0c9f517"
+  },
+  "identity_sha256": "a2e654276f98fb3d42145331fa771a33ac112dd61f550c977c4db76e9beb875f",
+  "schema_version": 1,
+  "scope": "confirmation_analyzer_before_outcome_analysis",
+  "software_at_preparation": {
+    "numpy": "1.26.4",
+    "python": "3.12.2 (v3.12.2:6abddd9f6a, Feb  6 2024, 17:02:06) [Clang 13.0.0 (clang-1300.0.29.30)]"
+  },
+  "study": "full_icu_confirmation_2026-10-08",
+  "validation": {
+    "bootstrap_draws": 200000,
+    "bootstrap_seed": 2026100817,
+    "completed_confirmation_outcome_files_opened": 0,
+    "coverage_note": "Percentile bootstrap coverage approximate; no undefined-draw filtering.",
+    "production_headers_verified": true,
+    "synthetic_tests_passed": 12
+  }
+}

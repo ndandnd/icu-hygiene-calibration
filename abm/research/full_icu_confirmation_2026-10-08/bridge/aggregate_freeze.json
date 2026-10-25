@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-10-08T15:18:31.441606+00:00",
+  "files": {
+    "research/full_icu_confirmation_2026-10-08/bridge/AGGREGATION_REVIEW.md": "160e7a39a17f412e42808aa0928fa284b323ce3865fe119d2d43a629f3968a0e",
+    "research/full_icu_confirmation_2026-10-08/bridge/aggregate.py": "1c4820f28d86e439a38d6836bdc9761ed440a8580547995a79c628cfa29ce8d9",
+    "research/full_icu_confirmation_2026-10-08/bridge/background.py": "4613669a9ffd9fbf749bcc5d27bb1e62844590a49ddfb23eda579b11c3e0ca04",
+    "research/full_icu_confirmation_2026-10-08/bridge/coefficient.py": "da9b21c5c95ea208b08ef577e2305a151ee7173c139b0e17cefcdf20a4c52898",
+    "research/full_icu_confirmation_2026-10-08/bridge/run.py": "9a0959a91007425abf9cf270d3be2142209d7e2f92dbe27f5ebc6bbb2025526b",
+    "research/full_icu_confirmation_2026-10-08/bridge/test_aggregate.py": "dae8215dc01b9a2868cb9e7477f3b6e0cdc3cdd1b378f87b47ada45ef453576b",
+    "research/full_icu_confirmation_2026-10-08/bridge/test_bridge.py": "daba499efab467d714093cf06f9d76efd60ce1dbcea17dda9643bdeaf30bbb09",
+    "research/full_icu_confirmation_2026-10-08/freeze_bridge.json": "c5cc0c3f0e7dfa509a51b5473624dff799c04804132eec3fed9e6c9e19693e11"
+  },
+  "identity_sha256": "f24251464e055d056b2760dc093ee48c1eab423188b226d2c05f5bb5604bc797",
+  "schema_version": 1,
+  "scope": "bridge_aggregation_before_outcome_analysis",
+  "study": "full_icu_confirmation_2026-10-08",
+  "validation": {
+    "completed_full_batch_outcomes_opened": 0,
+    "intervals": "descriptive 95% normal/delta Monte Carlo intervals; no clinical-input uncertainty",
+    "synthetic_tests_passed": 5
+  }
+}

@@ -1,0 +1,52 @@
+\paragraph{Route-label results (descriptive).}
+\begin{itemize}
+\item \emph{Original workflow, independent misses.} Carry-over accounted for 450
+of 2,375 control acquisitions (18.9\%) and fell only 29.1\% [17.8, 39.0] under
+the policy, whereas the patient, current-stay own-zone and other-zone labels
+fell 78.3\%, 75.3\% and 76.7\%. The carry-over share therefore rose to 41.4\% of
+policy acquisitions. Excluding carry-over-labelled acquisitions, the count fell
+76.6\%; all labels together fell 67.6\%. This is a descriptive count rather than a
+counterfactual estimate, because each acquisition also seeds later ones.
+\item \emph{Alternative workflow.} Carry-over control counts were 65, 22 and 16
+(against 450, 75 and 62 in the original workflow). The current-stay own-zone
+share of independent-profile control acquisitions was 39.0\% (38.9\% in the
+original workflow) and that label fell 77.6\% under the policy.
+\item \emph{Hygiene response of zero-opportunity final steps.} Current-stay own-zone pickups occur almost entirely with
+zero intervening opportunities (0--6 per arm otherwise), yet this label fell by
+22.4\% to 77.6\%, within 6.3 percentage points of the patient-pickup label in
+every profile and workflow (largest gap: original, imperfect clearing), with
+overlapping intervals. Such a site can only have been contaminated during the
+stay by a hand arriving from elsewhere, and that hand crossed hygiene
+opportunities on the way. The carry-over label had the smallest response, which
+is consistent with a chain containing no hygiene opportunity at all (for example
+a carrier contaminating its own bedside site and the next occupant picking it
+up); the labels do not record the donor, so this is not shown directly.
+Acquisition from prior room occupants is a recognised clinical concern
+\citep{mitchell2015}; the model's binary sites are not calibrated to it.
+\item \emph{The earlier pooled metric.} The 17 October manuscript reported
+``site pickup with no intervening opportunity'' (own-zone 0 plus carry-over 0):
+57.8\% of independent-profile control acquisitions and 71.0\% of policy
+acquisitions in the original workflow. That metric mixes two labels that behaved
+very differently; the whole rise in its share came from carry-over
+(18.9\%$\to$41.4\%), while the current-stay share fell. It is not a
+hygiene-insensitive share. Likewise the earlier surface-label fractions of
+control acquisitions (72.3\%, 39.6\% and 37.6\% in the three profiles) equal
+own-zone plus other-zone plus carry-over in Table~\ref{tab:routes-orig}.
+\end{itemize}
+
+\paragraph{Caveats.} The labels describe realized paths, not causal route
+fractions or attributable shares. In the original workflow a patient swapped
+into a carrier's former bed was not admitted to that bed, so pickups of the
+carrier's contamination are labelled own-zone current stay, not carry-over. Under
+the alternative rules any remaining carry-over must have been deposited while
+the bed stood empty, because moving in does not trigger cleaning. The original
+and alternative counts come from different $p$, different seeds and different
+studies; no between-workflow difference here has a declared estimand or
+interval, and the design cannot attribute any difference to vacancy cleaning or
+to the isolation rule. Why carry-over mattered most for independent misses is an
+untested hypothesis: that profile needs a larger $p$ to reach the target (.143
+against about .076), and a route through an initially clean site needs four
+transmission events rather than two, so its weight relative to hand bridges
+scales roughly with $p^2$, about 3.5 times larger for the independent profile at
+the original probabilities.
+

@@ -1,0 +1,106 @@
+{
+ "reloc": 4.91796875,
+ "defer": 1.1011073736496915,
+ "shared_carrier": 0.7049747522726706,
+ "pd_orig": 1640.3636233482832,
+ "pd_alt": 1640.0202154465665,
+ "pd_diff": -0.3434079017167786,
+ "pd_diff_ci": [
+  -0.6504153309632257,
+  -0.03640047247033146
+ ],
+ "bmax": 0.0015453680336507958,
+ "n_identical": 0,
+ "estar": "0.9235280887",
+ "F6": [
+  98.4375,
+  60.376478180824705,
+  60.3430543396034
+ ],
+ "gate1": [
+  [
+   154101125,
+   "A",
+   "cluster",
+   false
+  ],
+  [
+   2050894151,
+   "B",
+   "cluster",
+   false
+  ],
+  [
+   2312492055,
+   "A",
+   "cluster",
+   true
+  ],
+  [
+   3080160514,
+   "A",
+   "local",
+   false
+  ],
+  [
+   321283226,
+   "B",
+   "local",
+   false
+  ],
+  [
+   3308159835,
+   "B",
+   "local",
+   false
+  ],
+  [
+   4018965857,
+   "A",
+   "cluster",
+   false
+  ],
+  [
+   4166954880,
+   "B",
+   "local",
+   true
+  ]
+ ],
+ "undefined": [
+  [
+   "original",
+   "clustered",
+   "own_current_pos",
+   53
+  ],
+  [
+   "alternative",
+   "clustered",
+   "own_current_pos",
+   56
+  ],
+  [
+   "original",
+   "clustered",
+   "carry_over_pos",
+   7417
+  ]
+ ],
+ "mc_halfwidths": {
+  "original/independent": 3.353,
+  "original/clustered": 3.695,
+  "original/imperfect": 5.245,
+  "alternative/independent": 2.297,
+  "alternative/clustered": 3.876,
+  "alternative/imperfect": 4.851
+ },
+ "combined": {
+  "original/independent": 3.726,
+  "original/clustered": 3.952,
+  "original/imperfect": 5.656,
+  "alternative/independent": 2.801,
+  "alternative/clustered": 4.096,
+  "alternative/imperfect": 5.242
+ }
+}

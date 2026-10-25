@@ -1,0 +1,5134 @@
+{
+  "old_source_sha256": {
+    "research/full_icu_confirmation_2026-10-08/bridge/PROTOCOL.md": "4c9c3d759e5ec3c544a5863d361b290e9d9c2ec18cee3a16f2ad508c270a8eaa",
+    "research/full_icu_confirmation_2026-10-08/bridge/background.py": "4613669a9ffd9fbf749bcc5d27bb1e62844590a49ddfb23eda579b11c3e0ca04",
+    "research/full_icu_confirmation_2026-10-08/bridge/coefficient.py": "da9b21c5c95ea208b08ef577e2305a151ee7173c139b0e17cefcdf20a4c52898",
+    "research/full_icu_confirmation_2026-10-08/bridge/configs/bridge_all.json": "8e9f0f431ded41e2e2d35a60414851798572ce6a3a6784cc65edad14d582015c",
+    "research/full_icu_confirmation_2026-10-08/bridge/run.py": "9a0959a91007425abf9cf270d3be2142209d7e2f92dbe27f5ebc6bbb2025526b",
+    "research/full_icu_confirmation_2026-10-08/bridge/seedbook.json": "7f38db102597f653b70f35560a5aeebe1b01231be49b4802bd7bb209991a518c"
+  },
+  "schema_version": 1,
+  "seeds": [
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 450.6186144377358,
+          "policy": 324.4699507579972
+        },
+        "iid_perfect": {
+          "baseline": 53.768402950021894,
+          "policy": 13.342526097358883
+        },
+        "persistent_perfect": {
+          "baseline": 396.0707469822485,
+          "policy": 183.60232621975874
+        }
+      },
+      "ordered_bridge_events_sha256": "2a598515a8dc7a57608a0155d7142587f00c676b5436c16b26548290b5cb61ea",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_00/completed/3080160514.json",
+      "seed": 3080160514,
+      "sha256": "027450ecbc31b4431198436cb6649932217030f891c5f81592db648e445939c8"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 724.1185649173126,
+          "policy": 521.2620700060806
+        },
+        "iid_perfect": {
+          "baseline": 86.33976468695204,
+          "policy": 21.424005267148406
+        },
+        "persistent_perfect": {
+          "baseline": 639.7253591923499,
+          "policy": 296.34305187605736
+        }
+      },
+      "ordered_bridge_events_sha256": "d6e098066a5d9a613b15d0609cf8705ed04a07bc2e8d58789907e26071ce5c49",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_01/completed/2227400462.json",
+      "seed": 2227400462,
+      "sha256": "aca59aca5cefccba42fd61daa034385f9b4292ab767e132501dd4312267750b4"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 255.30074822088346,
+          "policy": 183.89982143114682
+        },
+        "iid_perfect": {
+          "baseline": 30.507142503057736,
+          "policy": 7.571787206123906
+        },
+        "persistent_perfect": {
+          "baseline": 224.1767362780399,
+          "policy": 103.90937201435369
+        }
+      },
+      "ordered_bridge_events_sha256": "db2d5958485275632844549b26baadd9f8f6ef77d7789bf5e6dae52b3be306d4",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_02/completed/180162207.json",
+      "seed": 180162207,
+      "sha256": "0560a2a95582f2892baf862c11063c7f2eb17061beea813cb77f48bfd07fcdff"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 545.7951938278217,
+          "policy": 393.11733718686
+        },
+        "iid_perfect": {
+          "baseline": 65.19197843694646,
+          "policy": 16.17928691119351
+        },
+        "persistent_perfect": {
+          "baseline": 478.5368307753757,
+          "policy": 221.89710241424697
+        }
+      },
+      "ordered_bridge_events_sha256": "70e8a446e58d9f82303b87dc634cb2a01ec034bd6669faf5a5441189acfa1be0",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_03/completed/1495738275.json",
+      "seed": 1495738275,
+      "sha256": "9f8d93edcd35760616b158caf574270508239e583645ba4b0d5986536fdcd8d5"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 486.7429849293476,
+          "policy": 350.3938571029498
+        },
+        "iid_perfect": {
+          "baseline": 58.041695533226125,
+          "policy": 14.402409678614147
+        },
+        "persistent_perfect": {
+          "baseline": 429.9565972793914,
+          "policy": 199.1576075303855
+        }
+      },
+      "ordered_bridge_events_sha256": "abedca4a26bf9701383f5746757f3b867497c35c32047c9b157ecf4ed149f3cf",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_04/completed/1035905592.json",
+      "seed": 1035905592,
+      "sha256": "ac26c4cc1d3a3afe24f202373c8b112bd4ab8d87d6c0dc19169254008d1d1d5c"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 247.22296520475092,
+          "policy": 178.0493286021323
+        },
+        "iid_perfect": {
+          "baseline": 29.521964389913528,
+          "policy": 7.326616691813583
+        },
+        "persistent_perfect": {
+          "baseline": 217.15793594304375,
+          "policy": 100.67147428361307
+        }
+      },
+      "ordered_bridge_events_sha256": "d16906f3f77b13b371b16694f1f3228b01d2c624da0ab6efd4211d36ceded7cb",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_05/completed/3455552711.json",
+      "seed": 3455552711,
+      "sha256": "81c9e97415e09fb2aed3ca1acfcf2befa8443d500c4e4f4c30e586968e4778dc"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 504.6432204297499,
+          "policy": 363.6390437697645
+        },
+        "iid_perfect": {
+          "baseline": 60.36794516039725,
+          "policy": 14.9846903958695
+        },
+        "persistent_perfect": {
+          "baseline": 440.5677577278908,
+          "policy": 204.38371060178642
+        }
+      },
+      "ordered_bridge_events_sha256": "aecf287d2c46526f14533d0390a0bb99ccad89e565c357a4b9a9ac18fbc165f2",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_00/completed/3418904916.json",
+      "seed": 3418904916,
+      "sha256": "f7b3ecba957d8b44f6a42a56fc1be5521998c77276bc14f72d5298e6eae96fda"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 522.1000214863742,
+          "policy": 375.97575128975456
+        },
+        "iid_perfect": {
+          "baseline": 62.322859216812965,
+          "policy": 15.466263958343157
+        },
+        "persistent_perfect": {
+          "baseline": 458.9028250154481,
+          "policy": 212.72182170501415
+        }
+      },
+      "ordered_bridge_events_sha256": "a8731362f795d93551fe395d50d49155df790c6d654c350257a40cf0c8686710",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_01/completed/3419330505.json",
+      "seed": 3419330505,
+      "sha256": "b7d806f7f685d5b082684f9aab4a3491147364cdb219bdc32ce03bc80c443705"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 350.64552166366866,
+          "policy": 252.320599904299
+        },
+        "iid_perfect": {
+          "baseline": 41.750351933675965,
+          "policy": 10.35782878774841
+        },
+        "persistent_perfect": {
+          "baseline": 310.4286932073594,
+          "policy": 143.77205872132558
+        }
+      },
+      "ordered_bridge_events_sha256": "4b367bde284d9cb2d36c78fa0cd5366b6ade7c3d0190724798fc9b9bbf12cf8e",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_02/completed/47626425.json",
+      "seed": 47626425,
+      "sha256": "a53431ad9c11b1a7e7549cc24b7fb27bab26cbc3e0cb6fd6f74deb7b6017af79"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 669.0115567668698,
+          "policy": 481.837990348384
+        },
+        "iid_perfect": {
+          "baseline": 79.90311323552739,
+          "policy": 19.830505911684796
+        },
+        "persistent_perfect": {
+          "baseline": 587.9173411045981,
+          "policy": 272.49322487124147
+        }
+      },
+      "ordered_bridge_events_sha256": "44a11cb483303fd61811bcb03a552164753887c9d4b11059fdd700521656bce9",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_03/completed/3676137026.json",
+      "seed": 3676137026,
+      "sha256": "eb99dd62f1596e8742c1023cbc343d876b586a2c8db96e0786fa2fad85572c8b"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 258.49169769861504,
+          "policy": 186.17488202984433
+        },
+        "iid_perfect": {
+          "baseline": 30.873381154123322,
+          "policy": 7.6621786886545715
+        },
+        "persistent_perfect": {
+          "baseline": 227.01284686134758,
+          "policy": 105.23374331236533
+        }
+      },
+      "ordered_bridge_events_sha256": "6af1ad83762a862eba2b8e1434967976ca1c53fff2da2c7294c9c05cfac8a8bb",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_04/completed/4292538734.json",
+      "seed": 4292538734,
+      "sha256": "9d8a12c759664bca4d6606def322f70c8b2425009d91bc9e769e0141350b034b"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 385.5506683955287,
+          "policy": 277.6221370237526
+        },
+        "iid_perfect": {
+          "baseline": 46.013361855444224,
+          "policy": 11.41865946768541
+        },
+        "persistent_perfect": {
+          "baseline": 339.48809423713146,
+          "policy": 157.31673896776286
+        }
+      },
+      "ordered_bridge_events_sha256": "8c6346e82970444814d4fb4cdea4eaecb355c7eb876e2d12bf752bc358726250",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_05/completed/941949298.json",
+      "seed": 941949298,
+      "sha256": "642ddd1528e769b0b8c4982a0ee071a95920d5a63621c29b29d31ae6f19479b9"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 364.8358480377087,
+          "policy": 262.6069500352118
+        },
+        "iid_perfect": {
+          "baseline": 43.48485762999963,
+          "policy": 10.789555057030169
+        },
+        "persistent_perfect": {
+          "baseline": 322.2666444207975,
+          "policy": 149.3042069664849
+        }
+      },
+      "ordered_bridge_events_sha256": "bdd525e070a3c895d064ee02255a482a0f0843bb11179936f0ad4917e96948b8",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_00/completed/280274639.json",
+      "seed": 280274639,
+      "sha256": "848751124473b605f52434c4f880fa7aece2d37c7c35eeaa1e021454fd320ae6"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 719.842320722145,
+          "policy": 518.8217820439452
+        },
+        "iid_perfect": {
+          "baseline": 86.90119973086884,
+          "policy": 22.32018823525286
+        },
+        "persistent_perfect": {
+          "baseline": 630.6548323777125,
+          "policy": 292.99612174954655
+        }
+      },
+      "ordered_bridge_events_sha256": "6a691dc84078bc072b78d755c262b60638feefcbca9426e519e5683c702073ca",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_01/completed/2901039311.json",
+      "seed": 2901039311,
+      "sha256": "18920dd1caaa33ee6673290fae4c7e2f0f939b3c7f7ca71a32e00b42b47c4db1"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 581.7261270245089,
+          "policy": 418.582427900803
+        },
+        "iid_perfect": {
+          "baseline": 69.25517127630168,
+          "policy": 17.181346920040326
+        },
+        "persistent_perfect": {
+          "baseline": 515.3787788838335,
+          "policy": 238.68797491291198
+        }
+      },
+      "ordered_bridge_events_sha256": "34f7bf334d695a8b1bf18a6e7840728be49bbec5d8bd980b521282baa4c7f43d",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_02/completed/471532907.json",
+      "seed": 471532907,
+      "sha256": "609dae4e1a8935a3bab6b7824580e48d1ec4b18a186ef0c36976426a8b2bfbf6"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 504.4291502267809,
+          "policy": 363.24529754049786
+        },
+        "iid_perfect": {
+          "baseline": 60.20252877820675,
+          "policy": 14.939406941855564
+        },
+        "persistent_perfect": {
+          "baseline": 442.64879736951787,
+          "policy": 205.2590533350723
+        }
+      },
+      "ordered_bridge_events_sha256": "ad3a9a0cb0284ffadf51ef000c9f5d12700274c1b4b52307341858da69ea6303",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_03/completed/1558567445.json",
+      "seed": 1558567445,
+      "sha256": "be644ff27eb3e00d9a7d5720c50309d2683e1d87c5a270bd3007e2a4461e4ae6"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 343.8526164184303,
+          "policy": 247.48163766111443
+        },
+        "iid_perfect": {
+          "baseline": 40.97101304122343,
+          "policy": 10.165418200880698
+        },
+        "persistent_perfect": {
+          "baseline": 303.9160270605175,
+          "policy": 140.79023762804187
+        }
+      },
+      "ordered_bridge_events_sha256": "6f4ded2118469b34d66764239212a4491833558dc277107fa460cbff54eefd13",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_00/completed/4018965857.json",
+      "seed": 4018965857,
+      "sha256": "6b44984a82d0d261024e36efffd2a2586c9a82eb853b469445b0abd05bfaf1c6"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 817.9191433835973,
+          "policy": 589.0895477224302
+        },
+        "iid_perfect": {
+          "baseline": 97.67611688088543,
+          "policy": 24.240492932382203
+        },
+        "persistent_perfect": {
+          "baseline": 717.0258308522997,
+          "policy": 332.511456955242
+        }
+      },
+      "ordered_bridge_events_sha256": "c0de3df45f3f0dfcdcfc382f6fe129df1579eacd5275d83c226998993c6299d1",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_01/completed/2312492055.json",
+      "seed": 2312492055,
+      "sha256": "30138efd0d9d22f864ea5e3b0f654d98b44d74105fd36f85e66e420f5f2dde92"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 331.5320725552689,
+          "policy": 238.78780447408826
+        },
+        "iid_perfect": {
+          "baseline": 39.602405580106925,
+          "policy": 9.828780982587375
+        },
+        "persistent_perfect": {
+          "baseline": 291.1701358921561,
+          "policy": 134.9652345105823
+        }
+      },
+      "ordered_bridge_events_sha256": "0630bd958517bfb97bdf8bf333d393ee1d73e1edf1efc8d7b4c2bc22f970d144",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_02/completed/2823947714.json",
+      "seed": 2823947714,
+      "sha256": "5fbb2115ed51c8e0e6abc5a640eeeeb6a911867e83333fc1418f3ed00d1be864"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 315.3118935729389,
+          "policy": 227.11033345976585
+        },
+        "iid_perfect": {
+          "baseline": 37.66885862619252,
+          "policy": 9.349060201447312
+        },
+        "persistent_perfect": {
+          "baseline": 276.95098681213454,
+          "policy": 128.3798352775969
+        }
+      },
+      "ordered_bridge_events_sha256": "b4dcb15ffb1564f4988e8e42337a6ac53d20c64c7509893a870663e5a47ae734",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_03/completed/3700155048.json",
+      "seed": 3700155048,
+      "sha256": "e294b53b95cb479bcc1591f43a8b12cc6b4d2daa4aed593da019914d3a6a9f25"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 256.58946302699763,
+          "policy": 184.77182289502147
+        },
+        "iid_perfect": {
+          "baseline": 30.62749164354679,
+          "policy": 7.600610850575208
+        },
+        "persistent_perfect": {
+          "baseline": 225.73014369062082,
+          "policy": 104.61791564022037
+        }
+      },
+      "ordered_bridge_events_sha256": "5ab5b1bbde4ae0993962768242db41a2cb50671d4daa627763a157c60485c25c",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_04/completed/2218752046.json",
+      "seed": 2218752046,
+      "sha256": "a302485efb3618830e862f12778099b9834ca575205215a8039870e8a8d44103"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 302.17182349078087,
+          "policy": 217.48233048575506
+        },
+        "iid_perfect": {
+          "baseline": 36.00376725942944,
+          "policy": 8.932922218891104
+        },
+        "persistent_perfect": {
+          "baseline": 267.09500963429724,
+          "policy": 123.72877134687128
+        }
+      },
+      "ordered_bridge_events_sha256": "dd02bffe0e0e0e2efb3691c1a6e49020d2f3938091b63da96c1eb0cbb8fc1ff0",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_05/completed/3064366491.json",
+      "seed": 3064366491,
+      "sha256": "7af9b40f4721c77840b81532d47a1db96248fa4dce9869adfdebce444d5af1e1"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 416.1651038449227,
+          "policy": 299.7540806666149
+        },
+        "iid_perfect": {
+          "baseline": 49.7109762706759,
+          "policy": 12.337289352034286
+        },
+        "persistent_perfect": {
+          "baseline": 364.84687211324456,
+          "policy": 169.17636200438378
+        }
+      },
+      "ordered_bridge_events_sha256": "5da66b90dda0bf227e9cdcc355651441a1c215b9b9fecf450f2d8fb1890568b3",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_06/completed/2839731214.json",
+      "seed": 2839731214,
+      "sha256": "d879d9aa310a8fc53e47cc422e8c0138f02bfac2ab543f290ccc1ea5aab03325"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 329.4996973748025,
+          "policy": 237.2714637034218
+        },
+        "iid_perfect": {
+          "baseline": 39.32589046054558,
+          "policy": 9.75900437556913
+        },
+        "persistent_perfect": {
+          "baseline": 289.5469829730757,
+          "policy": 134.22863795437112
+        }
+      },
+      "ordered_bridge_events_sha256": "a7810d2d161f9201a27de0d63c149925b5a83df4881829912802926e4beebe9b",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_07/completed/352126466.json",
+      "seed": 352126466,
+      "sha256": "4a99edffc6663559c6b1a6b61fa7ce1b6d85933a1f5e889e4428614a389cb793"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 315.49064301863103,
+          "policy": 227.1738997824865
+        },
+        "iid_perfect": {
+          "baseline": 37.64889934238194,
+          "policy": 9.342718711723547
+        },
+        "persistent_perfect": {
+          "baseline": 277.43796630850073,
+          "policy": 128.6063651706703
+        }
+      },
+      "ordered_bridge_events_sha256": "b4eeac4e2fdcb69748fe5c86c84bc24b0b940f01bf737556509111f919349ca7",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_08/completed/3156136716.json",
+      "seed": 3156136716,
+      "sha256": "9707bf0fa4ca235c65e8d8b65d59fbb35e1b04f6cea787a506459bd4fe3c25fe"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 435.33459249502187,
+          "policy": 313.4969005676022
+        },
+        "iid_perfect": {
+          "baseline": 51.96585656053313,
+          "policy": 12.895964825904892
+        },
+        "persistent_perfect": {
+          "baseline": 382.548915068122,
+          "policy": 177.32721336602393
+        }
+      },
+      "ordered_bridge_events_sha256": "7d0468944627206f329ee886f44da86844636ce6cc0c637b59336d44fe465125",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_09/completed/2915128366.json",
+      "seed": 2915128366,
+      "sha256": "88a707d6e50982b465b924684852d07317cb6780d2539d00179d61a84b258447"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 377.9025618186894,
+          "policy": 272.199040365185
+        },
+        "iid_perfect": {
+          "baseline": 45.15054971841575,
+          "policy": 11.206105745795059
+        },
+        "persistent_perfect": {
+          "baseline": 331.8802740797882,
+          "policy": 153.84096350073472
+        }
+      },
+      "ordered_bridge_events_sha256": "3b1be9f27c233b5724a6a6c8943ea4e70d33837737b72d35f217ae279807288b",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_10/completed/2992128574.json",
+      "seed": 2992128574,
+      "sha256": "9901370ca9f7de9d650345738a8b22772a4e8710086c6bfcf612d2f8ff6940ee"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 684.3653496599486,
+          "policy": 492.6700568755942
+        },
+        "iid_perfect": {
+          "baseline": 81.60167287370541,
+          "policy": 20.24784690176124
+        },
+        "persistent_perfect": {
+          "baseline": 603.0719544240037,
+          "policy": 279.47512846367306
+        }
+      },
+      "ordered_bridge_events_sha256": "59b6311d0c79406a655286426e74d6685aacbcad7cdc476dc90158eefbd6132a",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_11/completed/3571466468.json",
+      "seed": 3571466468,
+      "sha256": "0bdc29c81611bcdd6e2913821fdefd83eec3f3d868b6767902f7f8cdc152b60d"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 478.2304456571625,
+          "policy": 344.256994551603
+        },
+        "iid_perfect": {
+          "baseline": 57.01369406415187,
+          "policy": 14.146620571776902
+        },
+        "persistent_perfect": {
+          "baseline": 421.594637502505,
+          "policy": 195.37103294082726
+        }
+      },
+      "ordered_bridge_events_sha256": "5ce9c24de7e03fc1544cbdae4db8bd5f0f732b6846b1e1d3629720d94fbcd896",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_12/completed/3487938606.json",
+      "seed": 3487938606,
+      "sha256": "0d36550106e93a4fa1219762983d16c0d3b66e36f364d164680d4c7304861556"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 275.63836625660673,
+          "policy": 198.48480788244711
+        },
+        "iid_perfect": {
+          "baseline": 32.900899381742626,
+          "policy": 8.16486838526214
+        },
+        "persistent_perfect": {
+          "baseline": 242.7121158803434,
+          "policy": 112.47285564861151
+        }
+      },
+      "ordered_bridge_events_sha256": "6103c6515a39df6f5371a666832ec27540b4dad3c227458831c79eac6974be70",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_13/completed/3173173596.json",
+      "seed": 3173173596,
+      "sha256": "3a5f0887b6e15973e3e01b248550ba74ee7a56598af57cfcbcd4a9272852a6a8"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 460.102032502086,
+          "policy": 331.2036504402301
+        },
+        "iid_perfect": {
+          "baseline": 54.85193065263826,
+          "policy": 13.610261828370293
+        },
+        "persistent_perfect": {
+          "baseline": 405.9642294495865,
+          "policy": 188.10052492789836
+        }
+      },
+      "ordered_bridge_events_sha256": "1b4931e97e71e1a08f100649df1b3e15f5653008fbacfd883e40f38a497ae45f",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_14/completed/358721686.json",
+      "seed": 358721686,
+      "sha256": "310fae0133938f25da5c4feeaf580a510c4598bc1619ba70ba3c65e3ef9babbf"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 405.9707417100811,
+          "policy": 292.1072848767484
+        },
+        "iid_perfect": {
+          "baseline": 48.33043773797357,
+          "policy": 11.990367125568172
+        },
+        "persistent_perfect": {
+          "baseline": 360.23093291592943,
+          "policy": 166.78484862756767
+        }
+      },
+      "ordered_bridge_events_sha256": "6e9685a4b07f80dc3fb84408ba0d40ed20d644fe09dca0ea320dfeb3b36558a1",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_15/completed/2782980141.json",
+      "seed": 2782980141,
+      "sha256": "630ae7ac8100f7fb4df448f23ebb3c7461302a3321a95d6ded2246f3171c941e"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 231.08847255445008,
+          "policy": 166.52196505158966
+        },
+        "iid_perfect": {
+          "baseline": 27.647396027458875,
+          "policy": 6.8628843929451095
+        },
+        "persistent_perfect": {
+          "baseline": 201.97474245548815,
+          "policy": 93.68050851006227
+        }
+      },
+      "ordered_bridge_events_sha256": "3328f9f85852873c6c7dc7fccaa2fa543bbdbcc727d301802c1c59b0dc51aedb",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_16/completed/2242716336.json",
+      "seed": 2242716336,
+      "sha256": "68367c9b09ddbc15cf1db4c8842eec04e133c611a5c360df8573622cddf76d81"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 459.0955177795044,
+          "policy": 330.5177835747431
+        },
+        "iid_perfect": {
+          "baseline": 54.75164776766883,
+          "policy": 13.585848029566131
+        },
+        "persistent_perfect": {
+          "baseline": 404.54609928555016,
+          "policy": 187.46070708526403
+        }
+      },
+      "ordered_bridge_events_sha256": "af150a7d203af6ffb73d917da1573a6617e739e0777b50ecd7eb9072c5fd48e6",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_17/completed/798893451.json",
+      "seed": 798893451,
+      "sha256": "5beef854f984e62eaf87430fc0929c23452720fe56ec04cb74299b333d3e96b3"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 363.99878377314496,
+          "policy": 261.98318293600806
+        },
+        "iid_perfect": {
+          "baseline": 43.37518977106136,
+          "policy": 10.762147993650952
+        },
+        "persistent_perfect": {
+          "baseline": 322.02971004733627,
+          "policy": 149.14954662728073
+        }
+      },
+      "ordered_bridge_events_sha256": "ad835003c1cbf9c5d33f3cb374286b1e59a4a7aa2fba9ee8b49dceb3aeaa7554",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_18/completed/444840986.json",
+      "seed": 444840986,
+      "sha256": "92ed409e9cbfe44290e98d33deebb6939190cbbdb0170f78d8f04bb57b0d73fc"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 497.4157778638211,
+          "policy": 358.15550072766405
+        },
+        "iid_perfect": {
+          "baseline": 59.34804597063258,
+          "policy": 14.727070526381338
+        },
+        "persistent_perfect": {
+          "baseline": 437.4273766145452,
+          "policy": 202.7618066114059
+        }
+      },
+      "ordered_bridge_events_sha256": "7502060d9bc88fe44573f84742bfc64775605c80ae55976021f29350c4df1421",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_19/completed/669801663.json",
+      "seed": 669801663,
+      "sha256": "3f66ef57e29557910a3774e5ceef6f9ed80b054a6e534c0b2694c291d702ea5b"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 306.17916022889324,
+          "policy": 220.5392761301576
+        },
+        "iid_perfect": {
+          "baseline": 36.57459270538445,
+          "policy": 9.077055860336571
+        },
+        "persistent_perfect": {
+          "baseline": 268.31291311420273,
+          "policy": 124.4138229503256
+        }
+      },
+      "ordered_bridge_events_sha256": "cd61361c586efd933815d1755614317860c89b5b17ac5036aebb80bc6641a895",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_20/completed/3969716433.json",
+      "seed": 3969716433,
+      "sha256": "9540a1b53e4005444b0cf615e4645e0b1a12f634a894a406ea736b7e5fa32c25"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 235.07548333164507,
+          "policy": 169.3310480190049
+        },
+        "iid_perfect": {
+          "baseline": 28.088857292029843,
+          "policy": 6.9714737832000155
+        },
+        "persistent_perfect": {
+          "baseline": 206.1806571189312,
+          "policy": 95.58944571683936
+        }
+      },
+      "ordered_bridge_events_sha256": "f73a2c30fc9389f84caf5fb3f050bb238b57b777cc6892ac78d90a7ff2a750a9",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_21/completed/3746146822.json",
+      "seed": 3746146822,
+      "sha256": "a4c0c2dce02349ac3be68104fbec5b6bd5bd906f25b512802d511f4413b6cf7d"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 513.617311736884,
+          "policy": 369.75036453024336
+        },
+        "iid_perfect": {
+          "baseline": 61.242397446489385,
+          "policy": 15.196088370192335
+        },
+        "persistent_perfect": {
+          "baseline": 452.6324269048903,
+          "policy": 209.76640464088572
+        }
+      },
+      "ordered_bridge_events_sha256": "6839c2357039ceac819749477d2c433674d494975a6fddb17f801844176b1496",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_22/completed/2809292458.json",
+      "seed": 2809292458,
+      "sha256": "591a7a79b8eaddae35755630acd5a1778043a1846a6370f7a80668db7724bb12"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 402.25384390995646,
+          "policy": 289.6745821128771
+        },
+        "iid_perfect": {
+          "baseline": 48.01890938822791,
+          "policy": 11.916607678309793
+        },
+        "persistent_perfect": {
+          "baseline": 353.78612653461084,
+          "policy": 163.9700471912479
+        }
+      },
+      "ordered_bridge_events_sha256": "b2329c9eaa466e3339846f4c8d712270c903b6572d325a613d81196a00fe3e44",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_23/completed/429111580.json",
+      "seed": 429111580,
+      "sha256": "c217104002556d18d1da86363b4b0fa04dc6ee0a1992cb3294da81cbb9667d23"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 536.6280748702027,
+          "policy": 386.4340390849356
+        },
+        "iid_perfect": {
+          "baseline": 64.05327687746005,
+          "policy": 15.89549182008666
+        },
+        "persistent_perfect": {
+          "baseline": 471.7189862362715,
+          "policy": 218.6518052976236
+        }
+      },
+      "ordered_bridge_events_sha256": "8f4bc5049803261ae864de89ea396df7e05209ef7a584d0a56fdceadbb7bf247",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_24/completed/1106639804.json",
+      "seed": 1106639804,
+      "sha256": "e490979fb7f44c119a41e22c7edb7dd655e8f1a1be1fb19da5639150e83be132"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 701.6067034471395,
+          "policy": 505.2151904030694
+        },
+        "iid_perfect": {
+          "baseline": 83.73751486164205,
+          "policy": 20.780329407124093
+        },
+        "persistent_perfect": {
+          "baseline": 617.2805049939891,
+          "policy": 286.08534567665026
+        }
+      },
+      "ordered_bridge_events_sha256": "750bfb018b67267dbdb07f9944dde34cab9835a0724e78cca0ad31980600c3e5",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_25/completed/3080446727.json",
+      "seed": 3080446727,
+      "sha256": "752452dab6754ebc19f003bbb355c6061850fe1a3e5d2fd1b8d40eda2a661b55"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 399.00539251215605,
+          "policy": 287.85044093483395
+        },
+        "iid_perfect": {
+          "baseline": 49.3645428968938,
+          "policy": 13.753312729229837
+        },
+        "persistent_perfect": {
+          "baseline": 351.2289516836323,
+          "policy": 163.87208367263952
+        }
+      },
+      "ordered_bridge_events_sha256": "38653eb65e8fe3456a729083aee5dd81a0e0e9c004b4aa03627c33fa21dfe836",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_26/completed/1852426014.json",
+      "seed": 1852426014,
+      "sha256": "5a280b79af2b650cfa68cf856e791efc04c378adfb123a89ba72dd4968ab2ef1"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 414.3789865812992,
+          "policy": 298.174212828876
+        },
+        "iid_perfect": {
+          "baseline": 49.33599274149485,
+          "policy": 12.239745534306019
+        },
+        "persistent_perfect": {
+          "baseline": 367.006582674222,
+          "policy": 169.97330803596378
+        }
+      },
+      "ordered_bridge_events_sha256": "e1097ff3ca9c77f6d46222dfc60fb4e756b49bbaeb4c9562f0967d577846ec9b",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_27/completed/1370965843.json",
+      "seed": 1370965843,
+      "sha256": "8569c9df5db6ea3124946a9206a568aaa963635cd962e6a943ef1ddf936724d7"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 232.26574334747605,
+          "policy": 167.2635455867015
+        },
+        "iid_perfect": {
+          "baseline": 27.72812527493128,
+          "policy": 6.881203782670359
+        },
+        "persistent_perfect": {
+          "baseline": 204.19401513986745,
+          "policy": 94.64527568481383
+        }
+      },
+      "ordered_bridge_events_sha256": "d060aff5c067a01c17040e8c67df584202bd455ed8f1d4e7682dab4a1aa322d6",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_28/completed/2960648589.json",
+      "seed": 2960648589,
+      "sha256": "f1361f476c94548530184240885e9a3bfbe3404ea5969a449ab3734598bf2ef0"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 608.2874918177687,
+          "policy": 438.05513921690965
+        },
+        "iid_perfect": {
+          "baseline": 72.6197091668166,
+          "policy": 18.02185525538784
+        },
+        "persistent_perfect": {
+          "baseline": 534.5428421641767,
+          "policy": 247.8064718707184
+        }
+      },
+      "ordered_bridge_events_sha256": "61d202d078c8268ecb292453220b82ac2932f0b263a855032ce30282c2609195",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_29/completed/1142269035.json",
+      "seed": 1142269035,
+      "sha256": "ade4e7523a413e5f32fb665a0c0ce53dcfe1b7bcfb9809b92df641f089a2645c"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 549.8806044799649,
+          "policy": 396.1082092097001
+        },
+        "iid_perfect": {
+          "baseline": 65.70891598642868,
+          "policy": 16.308492625365666
+        },
+        "persistent_perfect": {
+          "baseline": 481.68653134124736,
+          "policy": 223.38125431474717
+        }
+      },
+      "ordered_bridge_events_sha256": "0a5ea61b9ba04294350fddb82f772c6b42d05e2b0dadc00b4391416663ca4976",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_30/completed/1208350335.json",
+      "seed": 1208350335,
+      "sha256": "995ad2b81185a184a471114b75e73bd799ec14d8e4213d14c916badf2facc5ef"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 575.5505841298632,
+          "policy": 414.5774390723056
+        },
+        "iid_perfect": {
+          "baseline": 68.76851724316158,
+          "policy": 17.067833598292843
+        },
+        "persistent_perfect": {
+          "baseline": 504.99978708331764,
+          "policy": 234.11743463933394
+        }
+      },
+      "ordered_bridge_events_sha256": "ded90857f678a16960334062683f921caf937e62bdd162e2ac5e8a4ef3938417",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_31/completed/2713199674.json",
+      "seed": 2713199674,
+      "sha256": "5fd55dc80a2c8b0280ed90bda70fd9edbe1a4f2f35e29955e643d3a8dea92493"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 697.5754943923889,
+          "policy": 502.2688077575303
+        },
+        "iid_perfect": {
+          "baseline": 83.22175572169866,
+          "policy": 20.650908312716467
+        },
+        "persistent_perfect": {
+          "baseline": 613.1576422099566,
+          "policy": 284.2543476469192
+        }
+      },
+      "ordered_bridge_events_sha256": "68a64822bdef32473472335dd2a1ec6112bbb94bca40790094e5c9fc63fb9786",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_00/completed/225304928.json",
+      "seed": 225304928,
+      "sha256": "8415d26e391db6732593e5f7ef6d4fb538db29dbac929a7bdb055eed8bb750a0"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 582.8358917753875,
+          "policy": 419.7405567080806
+        },
+        "iid_perfect": {
+          "baseline": 69.58298519326397,
+          "policy": 17.267998517722173
+        },
+        "persistent_perfect": {
+          "baseline": 511.6542868703672,
+          "policy": 237.2045205620193
+        }
+      },
+      "ordered_bridge_events_sha256": "3180f84eb6349a374ea49a3e7ce218b2298cb3c4bd48cc86c044de10d4afd3e1",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_01/completed/185354858.json",
+      "seed": 185354858,
+      "sha256": "02d4fa0874c9067eff1843503f6f6a26402a17629c67b3351455a127159d96fa"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 475.1257349616472,
+          "policy": 342.22920352283205
+        },
+        "iid_perfect": {
+          "baseline": 56.76134928143912,
+          "policy": 14.087425921727313
+        },
+        "persistent_perfect": {
+          "baseline": 416.7718431729356,
+          "policy": 193.22842003592845
+        }
+      },
+      "ordered_bridge_events_sha256": "734d46c171a303a945c4bea9a27c1d28900f5b7f6d6fb77cf3abdbced12d3e1d",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_02/completed/154101125.json",
+      "seed": 154101125,
+      "sha256": "b3e7091956dcb031e8c2010b034a9e833de1213c8a70ec47f37e6eb6724982a1"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 353.33451347096354,
+          "policy": 254.23196118424175
+        },
+        "iid_perfect": {
+          "baseline": 42.05885175839182,
+          "policy": 10.434106663946842
+        },
+        "persistent_perfect": {
+          "baseline": 313.1517976814456,
+          "policy": 145.02091829154142
+        }
+      },
+      "ordered_bridge_events_sha256": "b634204fb292299bc6baa7698a208025f8f092f28ab44fa7ed7d3d829dba6e3b",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_03/completed/727318136.json",
+      "seed": 727318136,
+      "sha256": "1ce9fa45299d706872b0a0615bd6231268b0569c93f61844a6d4b36176c68428"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 447.5099486498992,
+          "policy": 322.23853405348945
+        },
+        "iid_perfect": {
+          "baseline": 53.408600813266744,
+          "policy": 13.253878626727234
+        },
+        "persistent_perfect": {
+          "baseline": 393.90083482589245,
+          "policy": 182.558177206011
+        }
+      },
+      "ordered_bridge_events_sha256": "ddcb2d8d8316e7568ce508ff8aecb2d9a3cea567212eec25da1d5c02b137b467",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_04/completed/2647508120.json",
+      "seed": 2647508120,
+      "sha256": "63b9c83e6ab6ea289fa9d454147f40f77542c07fc5787d8aa6da14e0c32ddf99"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 556.3597941633534,
+          "policy": 400.535376943241
+        },
+        "iid_perfect": {
+          "baseline": 66.35122803974829,
+          "policy": 16.464279054584082
+        },
+        "persistent_perfect": {
+          "baseline": 490.37420600278847,
+          "policy": 227.2477586439728
+        }
+      },
+      "ordered_bridge_events_sha256": "2f4221b9d0f5ad16ca0bbe31be333c67b681d087ab4213052a64d296a482ec3b",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_05/completed/1015647637.json",
+      "seed": 1015647637,
+      "sha256": "1adf8ef27da3f37aae43df4557f8bfad5f767c4a30c4b97a14f9b2e064d4fef8"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 530.1202794862555,
+          "policy": 381.70269570337723
+        },
+        "iid_perfect": {
+          "baseline": 63.2581348569166,
+          "policy": 15.697960057094813
+        },
+        "persistent_perfect": {
+          "baseline": 467.0461037660247,
+          "policy": 216.428040557991
+        }
+      },
+      "ordered_bridge_events_sha256": "8ea6863a487fe7e521b88a23031b19847cf86c87d42cf8006bd6f8bc44ff01fb",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_06/completed/4282763852.json",
+      "seed": 4282763852,
+      "sha256": "acd37c07f71261acef081f42e8d0090fc96a507121c450f13129523675c6fb82"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 262.42933606025525,
+          "policy": 188.9309854196699
+        },
+        "iid_perfect": {
+          "baseline": 31.296434904326656,
+          "policy": 7.765721336875664
+        },
+        "persistent_perfect": {
+          "baseline": 231.12486465112823,
+          "policy": 107.11998794153277
+        }
+      },
+      "ordered_bridge_events_sha256": "76d739122f20869acb0a81c4a65d00945b66e47938468abdfdfdcaf053be728b",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_07/completed/3804238143.json",
+      "seed": 3804238143,
+      "sha256": "54391a62b6bd4937d06c36106f1fb75dbe25fd4187c2860e890f3202fe012ebb"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 242.60327789316446,
+          "policy": 174.79211171466014
+        },
+        "iid_perfect": {
+          "baseline": 29.010859634423298,
+          "policy": 7.200996573731885
+        },
+        "persistent_perfect": {
+          "baseline": 212.35063227672606,
+          "policy": 98.48507755200694
+        }
+      },
+      "ordered_bridge_events_sha256": "22d2db3eeb89238b4e6e36e3ffb739bc3802c4d69613b293e2f72d9f996c637c",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_08/completed/73230331.json",
+      "seed": 73230331,
+      "sha256": "9908ab91e8076ba8121a610bfd1c588077ca271b4c08e749be9761ff148f42fe"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 359.2104520737937,
+          "policy": 258.6577905111526
+        },
+        "iid_perfect": {
+          "baseline": 42.87251874246759,
+          "policy": 10.639382160933707
+        },
+        "persistent_perfect": {
+          "baseline": 316.2336449977641,
+          "policy": 146.57337490298872
+        }
+      },
+      "ordered_bridge_events_sha256": "40780dc7d7bccfc2c03f4da85dac1081fb5ad8dfcc1c0b841388c7d3dad444d5",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_09/completed/3003107811.json",
+      "seed": 3003107811,
+      "sha256": "ba136799b35d34eceb02923f36740d6d59ac0a9d63be3bbdb64620f7da980af0"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 611.3960892459756,
+          "policy": 440.26003974967256
+        },
+        "iid_perfect": {
+          "baseline": 72.9699914137286,
+          "policy": 18.108100216175966
+        },
+        "persistent_perfect": {
+          "baseline": 537.5579301906015,
+          "policy": 249.1781098312922
+        }
+      },
+      "ordered_bridge_events_sha256": "8bafe46277cb9eac937fb4b852ba6093aada33fbd17c18cf62e470dce0e23868",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_10/completed/3263137425.json",
+      "seed": 3263137425,
+      "sha256": "7bd49edf4e488785ba8c76379e5490a46d442a85bbb6c1feca73ad6dc1ca6b07"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 506.17915716612714,
+          "policy": 364.52959631583815
+        },
+        "iid_perfect": {
+          "baseline": 60.432528123883245,
+          "policy": 14.997421239149437
+        },
+        "persistent_perfect": {
+          "baseline": 444.67106983889704,
+          "policy": 206.1347451956228
+        }
+      },
+      "ordered_bridge_events_sha256": "75a465f6a244874a7c6e029f55ec325cb070cb6b3086265496e2eee0db2909a7",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_11/completed/1758207471.json",
+      "seed": 1758207471,
+      "sha256": "f168eac1b6a9cb1af393dd0c59f93ce664fb447f02dea34d6aef05dd117e4904"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 576.223643231649,
+          "policy": 414.80223476101
+        },
+        "iid_perfect": {
+          "baseline": 68.69740405857745,
+          "policy": 17.04561857629291
+        },
+        "persistent_perfect": {
+          "baseline": 508.0299565390225,
+          "policy": 235.4156040223933
+        }
+      },
+      "ordered_bridge_events_sha256": "c7e6d50a36251bf23431dd6756df73c571998b173111a3c45f0ead3cb7a29579",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_12/completed/12272060.json",
+      "seed": 12272060,
+      "sha256": "b0c96197180a622a50e8f9b7bbc5afcade0d41a569b97ea1d40df49dafd69bda"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 458.3282535096577,
+          "policy": 329.9399890627916
+        },
+        "iid_perfect": {
+          "baseline": 54.64709404138714,
+          "policy": 13.559586438348218
+        },
+        "persistent_perfect": {
+          "baseline": 404.20159118336426,
+          "policy": 187.29102580155777
+        }
+      },
+      "ordered_bridge_events_sha256": "0d4e266f5252393a219bd2f90aa1ccc71130e5a834672d29a1c20e63adddc63d",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_13/completed/2913512939.json",
+      "seed": 2913512939,
+      "sha256": "6133ba1dcad5792fa9ee84aa454f083b254d18c61db3f46ce16651217bdd4cd9"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 638.9944178542662,
+          "policy": 460.0203846302179
+        },
+        "iid_perfect": {
+          "baseline": 76.2011319143704,
+          "policy": 18.90816636516371
+        },
+        "persistent_perfect": {
+          "baseline": 563.3247983361937,
+          "policy": 261.0248017334586
+        }
+      },
+      "ordered_bridge_events_sha256": "a7ec991797640e9fe9b68a877b1bf0f00c6659433fd4690d6a5531630dd3f9d1",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_14/completed/794057393.json",
+      "seed": 794057393,
+      "sha256": "0d731d883772af141928e985d59e18429067e3411cc96051088482307021b88c"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 600.6973610120361,
+          "policy": 432.76377226468713
+        },
+        "iid_perfect": {
+          "baseline": 71.8085052935792,
+          "policy": 17.823112523687534
+        },
+        "persistent_perfect": {
+          "baseline": 525.6082917042199,
+          "policy": 243.76211157772408
+        }
+      },
+      "ordered_bridge_events_sha256": "3134acd1832ebab876dbd76ce2eeaea29c8fcc5212ba2f01752defde0683bbb8",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_15/completed/386250633.json",
+      "seed": 386250633,
+      "sha256": "206d475ca8173a1662088e2e54882d72aa1d4f37a17e1c826ad233f12ceab08d"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 322.45624972980784,
+          "policy": 232.29379485749018
+        },
+        "iid_perfect": {
+          "baseline": 38.54074170760579,
+          "policy": 9.5658563045347
+        },
+        "persistent_perfect": {
+          "baseline": 282.5798557989266,
+          "policy": 131.02476775319073
+        }
+      },
+      "ordered_bridge_events_sha256": "674133c71964d2bcd6b572254487615c9e04b6bed58ef884444278e0e63cdcc9",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_16/completed/2519907809.json",
+      "seed": 2519907809,
+      "sha256": "08ba23ac058fd707dc3ec3c43fdb26d47d7b1f04a4e9497385b4baa279a590ff"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 426.9805962597483,
+          "policy": 307.56179366993064
+        },
+        "iid_perfect": {
+          "baseline": 51.01660560381074,
+          "policy": 12.661884548926677
+        },
+        "persistent_perfect": {
+          "baseline": 374.4894501559355,
+          "policy": 173.6182048419042
+        }
+      },
+      "ordered_bridge_events_sha256": "fc67714c18ef7db4eda4020b55b92dc4fbd9505849b344e02fef94657461afe8",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_17/completed/1201034528.json",
+      "seed": 1201034528,
+      "sha256": "deeb06e3be31f9ad61ff082d2c43a44ff58e41b7de557b42219990f3d08d4347"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 542.5027513590172,
+          "policy": 390.59444513859273
+        },
+        "iid_perfect": {
+          "baseline": 64.72187505618746,
+          "policy": 16.060791926267648
+        },
+        "persistent_perfect": {
+          "baseline": 478.13472790767804,
+          "policy": 221.5523586805555
+        }
+      },
+      "ordered_bridge_events_sha256": "97ce5779c7833963d9edabb1d24f9b91ec32095fa6655512aff08152ca84f0eb",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_18/completed/3065001503.json",
+      "seed": 3065001503,
+      "sha256": "10f13cf683d4effc801dacf8ae1c4ceadd4465641590bf52dc79343f2f0762e4"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 503.4947772148616,
+          "policy": 362.5886997637688
+        },
+        "iid_perfect": {
+          "baseline": 60.10530831945122,
+          "policy": 14.915923192413638
+        },
+        "persistent_perfect": {
+          "baseline": 442.09546940440407,
+          "policy": 204.96371275223387
+        }
+      },
+      "ordered_bridge_events_sha256": "72d0775b3459343ebb712b4134d2628207af489878982943a5a2e8da1924749f",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_19/completed/2396993212.json",
+      "seed": 2396993212,
+      "sha256": "1f696ac5cf846130207219348c04b29cfdefaf972d8f234cb9cb7a4bee7f04b8"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 346.6945590781155,
+          "policy": 249.65565259507144
+        },
+        "iid_perfect": {
+          "baseline": 41.380897532393455,
+          "policy": 10.269113398251417
+        },
+        "persistent_perfect": {
+          "baseline": 304.85789100290225,
+          "policy": 141.30774787074307
+        }
+      },
+      "ordered_bridge_events_sha256": "47d37f05f0b01660e3783c8b75505a496b06fa2b273a08de14ebfb4031f8df3c",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_20/completed/488392187.json",
+      "seed": 488392187,
+      "sha256": "e67f1276dd4b00ec4b68f73b3bdd71cf53289f1d89fb5d392bb971421ccc5647"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 344.5333854480774,
+          "policy": 247.9575485268557
+        },
+        "iid_perfect": {
+          "baseline": 41.0447683946787,
+          "policy": 10.1835271842772
+        },
+        "persistent_perfect": {
+          "baseline": 304.77194014091793,
+          "policy": 141.16257032496983
+        }
+      },
+      "ordered_bridge_events_sha256": "c5cdd4402f73c0cec3cde2fda8565e2f577bd194778532587da6b2bb52541ae9",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_21/completed/339964967.json",
+      "seed": 339964967,
+      "sha256": "b93e969e54935cfa3469999d98a3609e39da4d01903555130a43eeab5704ac75"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 510.79884207246295,
+          "policy": 367.69990947926095
+        },
+        "iid_perfect": {
+          "baseline": 60.89347532015883,
+          "policy": 15.10910696578383
+        },
+        "persistent_perfect": {
+          "baseline": 450.32222296009786,
+          "policy": 208.69663916487474
+        }
+      },
+      "ordered_bridge_events_sha256": "30a8a40e444a4884b4b68890764c2637d42123730fc457e2726f240cf53bdfb1",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_22/completed/2193758348.json",
+      "seed": 2193758348,
+      "sha256": "8c3bddfd961cad6b70c6835ad669259ba2a2600f0fcaa9ebc51c0c0d5e7a9958"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 385.0590779767039,
+          "policy": 277.4685084244051
+        },
+        "iid_perfect": {
+          "baseline": 46.79215343694049,
+          "policy": 12.362605408739862
+        },
+        "persistent_perfect": {
+          "baseline": 340.0919585152644,
+          "policy": 158.09108895098836
+        }
+      },
+      "ordered_bridge_events_sha256": "a0dfcb336d20831e2d788ae740ab6f900606955ad09213878c67706a300de71a",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_23/completed/3041265958.json",
+      "seed": 3041265958,
+      "sha256": "ab0bbb12a7abbfdb93f7ebf037390e4db704c470e655d8e33df9e671461cd2c7"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 228.9499386277778,
+          "policy": 164.83531505401334
+        },
+        "iid_perfect": {
+          "baseline": 27.310943525920504,
+          "policy": 6.777127578479413
+        },
+        "persistent_perfect": {
+          "baseline": 201.85065627438092,
+          "policy": 93.52416335891579
+        }
+      },
+      "ordered_bridge_events_sha256": "cd1daf9c1128bc465834b0d2d8a88bd2a176b2314547827092ffb7d7b1781329",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_24/completed/33788496.json",
+      "seed": 33788496,
+      "sha256": "19e060cd7108a6f0964669ecdee2f7418b0bd4741b977aa4baf00a9598a865a1"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 239.13669500593312,
+          "policy": 172.25004014047116
+        },
+        "iid_perfect": {
+          "baseline": 28.568146149891017,
+          "policy": 7.090156921374086
+        },
+        "persistent_perfect": {
+          "baseline": 209.56791064352834,
+          "policy": 97.17822711007769
+        }
+      },
+      "ordered_bridge_events_sha256": "41367ea438a5967e762f1bb1f2a35a921bfbe358c8e1f7c24b97023af08e479a",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_25/completed/2531121767.json",
+      "seed": 2531121767,
+      "sha256": "e5f7463daed657f6f6a5865f245e1733a2ce027d51f320fc45ef83c1fe6b45cc"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 487.18921924163504,
+          "policy": 350.797112228676
+        },
+        "iid_perfect": {
+          "baseline": 58.135095932376956,
+          "policy": 14.426481009084805
+        },
+        "persistent_perfect": {
+          "baseline": 428.7569821759633,
+          "policy": 198.7234891138316
+        }
+      },
+      "ordered_bridge_events_sha256": "3a2c337e3fb057d70a301af87e3abc39e3174f60f2ed16d098e5884eedcfe300",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_26/completed/1947365091.json",
+      "seed": 1947365091,
+      "sha256": "37c5b9fc51e6de4dd700d93c1592350532e1c80a59b0b4ce75b57b626d139085"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 719.7777789830122,
+          "policy": 518.3375744299972
+        },
+        "iid_perfect": {
+          "baseline": 85.92570123857759,
+          "policy": 21.32381759213206
+        },
+        "persistent_perfect": {
+          "baseline": 632.8267414947605,
+          "policy": 293.3187476362904
+        }
+      },
+      "ordered_bridge_events_sha256": "8a056d071aa90200cefe85b2046c71b4e08b0850984593dd67b1eb7cb4781d82",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_27/completed/3945502076.json",
+      "seed": 3945502076,
+      "sha256": "9c5e79eceee9179d64ffdd295bd428c808472c50e5b4a390ca5fa835594e4837"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 836.7379844400298,
+          "policy": 602.2730891631355
+        },
+        "iid_perfect": {
+          "baseline": 99.72750087243371,
+          "policy": 24.744507249043753
+        },
+        "persistent_perfect": {
+          "baseline": 739.2458518196651,
+          "policy": 342.4505036759054
+        }
+      },
+      "ordered_bridge_events_sha256": "6593b1ad83d37d44597c5bf564df6d5e0721b4368eece567cadc91f718c98a27",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_28/completed/2135332236.json",
+      "seed": 2135332236,
+      "sha256": "f215fd3f6c71e22ab0ad27762dc24258fa8b37c316d657f9fc763eef459f3f19"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 602.3001767714605,
+          "policy": 433.52500655300616
+        },
+        "iid_perfect": {
+          "baseline": 71.77273070601262,
+          "policy": 17.807456585095625
+        },
+        "persistent_perfect": {
+          "baseline": 531.0396531245644,
+          "policy": 246.1000608114469
+        }
+      },
+      "ordered_bridge_events_sha256": "d64fda855c1d59be8e54700ad1c84f79e946dbb452bc3250f3ecacd4ce5c34fa",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_29/completed/2137944991.json",
+      "seed": 2137944991,
+      "sha256": "e27526711832be5d6cdbdd3369a8dc80d8d01c4dc68f696f75690fe784977b6c"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 652.6769893779448,
+          "policy": 470.1065586601488
+        },
+        "iid_perfect": {
+          "baseline": 77.96410606652955,
+          "policy": 19.349329581252245
+        },
+        "persistent_perfect": {
+          "baseline": 572.441822460472,
+          "policy": 265.4145203318699
+        }
+      },
+      "ordered_bridge_events_sha256": "700c6ae3440a6205d9b2cb7a4a49a2e25a25545763f53c8bbef23d10fa8ca024",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_30/completed/1032224756.json",
+      "seed": 1032224756,
+      "sha256": "fa865dbb943576e933764a4e06dbc32c7ab71c789515492cf0c9312337422781"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 453.4244725676632,
+          "policy": 326.5237772161971
+        },
+        "iid_perfect": {
+          "baseline": 54.128549335523836,
+          "policy": 13.432901678577833
+        },
+        "persistent_perfect": {
+          "baseline": 398.85111402118395,
+          "policy": 184.85472885774487
+        }
+      },
+      "ordered_bridge_events_sha256": "20a3aa59fad5a7888ebe6ab8ebc55659cab49adfc122ec47ebdb0edd6be1aeee",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_31/completed/2623710425.json",
+      "seed": 2623710425,
+      "sha256": "e63ff1635dc473fb6bc8b95e53cb80439fb25824b08a6f88fab56dc89dd63f35"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 288.5994502716841,
+          "policy": 207.74330268459357
+        },
+        "iid_perfect": {
+          "baseline": 34.40226834238534,
+          "policy": 8.535981878643952
+        },
+        "persistent_perfect": {
+          "baseline": 254.65685582546163,
+          "policy": 117.98637858949336
+        }
+      },
+      "ordered_bridge_events_sha256": "78b04a849060597039e4e966f63c45c201e515818c9e4a8026dfc261a5636df1",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_00/completed/904262135.json",
+      "seed": 904262135,
+      "sha256": "aef146a4d1aea93c48799bd503d77cd33bc4fe0c88b94a9d9b095f913eee9cb0"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 573.023394536345,
+          "policy": 412.6331749375001
+        },
+        "iid_perfect": {
+          "baseline": 68.4005567974496,
+          "policy": 16.97478008622693
+        },
+        "persistent_perfect": {
+          "baseline": 504.6108409516183,
+          "policy": 233.82990031269034
+        }
+      },
+      "ordered_bridge_events_sha256": "00025b4e862c9a80a12461df3d8a5e0f0594797cef008bf648a56b92df80de1e",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_01/completed/2202528915.json",
+      "seed": 2202528915,
+      "sha256": "4cbe87978736ec8ded64e44a7ad7e5364b228d4ab71fb520789a821d8386545f"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 498.2508602834454,
+          "policy": 358.80216574269406
+        },
+        "iid_perfect": {
+          "baseline": 59.476550584529015,
+          "policy": 14.759923458307476
+        },
+        "persistent_perfect": {
+          "baseline": 438.08589592768675,
+          "policy": 203.0475152025396
+        }
+      },
+      "ordered_bridge_events_sha256": "0a41d83f299d745510f442b7ad153a156fdcae4829311c49128037c380e6e7e9",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_02/completed/950563556.json",
+      "seed": 950563556,
+      "sha256": "a8e1a4b8fa9956991aa4d31f3a09f0a1cce19fec933eac24b8e8999582637480"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 533.2978717508146,
+          "policy": 383.9250370444757
+        },
+        "iid_perfect": {
+          "baseline": 63.598954895105926,
+          "policy": 15.781363160642526
+        },
+        "persistent_perfect": {
+          "baseline": 470.58457373779567,
+          "policy": 218.02143396438208
+        }
+      },
+      "ordered_bridge_events_sha256": "e2fc4b67b7bfc0d506e57bf4a8bec18b9c9d0b32e2e9e71863acacc38819fd2f",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_03/completed/105204075.json",
+      "seed": 105204075,
+      "sha256": "862ccd3b4e6afb76ff84fe150b0256440a3a9e20b7dcc61d48a45f0708906981"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 263.90496176073566,
+          "policy": 190.03044631332048
+        },
+        "iid_perfect": {
+          "baseline": 31.492936418445137,
+          "policy": 7.81505336014234
+        },
+        "persistent_perfect": {
+          "baseline": 231.95693892793142,
+          "policy": 107.53675962141611
+        }
+      },
+      "ordered_bridge_events_sha256": "9f2407bc7c20837dc50b333521e0a51043a0b4111dfffbd24d4e2fff86aa325d",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_04/completed/3437463901.json",
+      "seed": 3437463901,
+      "sha256": "6f31a63ca2be2f9995a8b3c43a3ca57c3c20029c0c14c76ebf1b8c2a66f6a281"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 550.8900052339391,
+          "policy": 396.7244246531184
+        },
+        "iid_perfect": {
+          "baseline": 65.76792716015295,
+          "policy": 16.321403973665554
+        },
+        "persistent_perfect": {
+          "baseline": 484.0044434920501,
+          "policy": 224.3649493664024
+        }
+      },
+      "ordered_bridge_events_sha256": "a8d1b703ce71d03dc7bae170216bb9b356af79cffd16d543b898c8ebf288280c",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_05/completed/1008740972.json",
+      "seed": 1008740972,
+      "sha256": "a3a1a76ed4657a57649b7b0172d74f07ed462d2b0d2c2a0f7f70942eb4988790"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 328.1982055771615,
+          "policy": 236.22481423221632
+        },
+        "iid_perfect": {
+          "baseline": 39.10536057916847,
+          "policy": 9.702250470243138
+        },
+        "persistent_perfect": {
+          "baseline": 289.3000094779437,
+          "policy": 134.09530363354034
+        }
+      },
+      "ordered_bridge_events_sha256": "cb7179d84db74b3c94830b53da1e82b48427f13705f578e1028b9d4c025999fb",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_06/completed/555437876.json",
+      "seed": 555437876,
+      "sha256": "0a4ceb5e3dafea54019f5acca7a62daeb4ea81c1a693a8a6bc30d24d2d02c8da"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 811.110450285488,
+          "policy": 584.0551290116124
+        },
+        "iid_perfect": {
+          "baseline": 96.79387102653737,
+          "policy": 24.01974645855817
+        },
+        "persistent_perfect": {
+          "baseline": 713.0848767651999,
+          "policy": 330.5598514163085
+        }
+      },
+      "ordered_bridge_events_sha256": "e8021d781d073aaa161fe30577bd371da9b0a07f606bc23b8435513a2333b9de",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_07/completed/4287080552.json",
+      "seed": 4287080552,
+      "sha256": "ce49ae46ac04f77317c59467846a3daf462f4c6f5ec02ec4804cc2e8e4651ab6"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 486.47452776972216,
+          "policy": 350.2378351613906
+        },
+        "iid_perfect": {
+          "baseline": 58.02954391197516,
+          "policy": 14.39992632713068
+        },
+        "persistent_perfect": {
+          "baseline": 429.08021682613355,
+          "policy": 198.8075163108619
+        }
+      },
+      "ordered_bridge_events_sha256": "ace7649a6bca4f54ff8bc9b5f996dd36f9cbfde34349ad95c14e603f2419d0b2",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_08/completed/1750403859.json",
+      "seed": 1750403859,
+      "sha256": "70c2d0e995d618efec5c13e87b0b65c085a7407fc7e805496b04237fdc426348"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 553.7736431059025,
+          "policy": 398.65095485064296
+        },
+        "iid_perfect": {
+          "baseline": 66.02140800212916,
+          "policy": 16.381428790367067
+        },
+        "persistent_perfect": {
+          "baseline": 487.6617448816959,
+          "policy": 226.02807420507497
+        }
+      },
+      "ordered_bridge_events_sha256": "dd6c39843878adf24b417b8ef1e75d213a15f313cedde7113c9aa2453e03be46",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_09/completed/3800269584.json",
+      "seed": 3800269584,
+      "sha256": "929d901ba8d18f69a3289a82aa9b27fd34a932ad393267f64b4ded7348041b90"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 540.860119190554,
+          "policy": 389.3843078653269
+        },
+        "iid_perfect": {
+          "baseline": 64.50740460198195,
+          "policy": 16.00689287073373
+        },
+        "persistent_perfect": {
+          "baseline": 476.861698078325,
+          "policy": 220.95059165705086
+        }
+      },
+      "ordered_bridge_events_sha256": "54801302541b34cf7b12529f28fc244b600453b8bd7ab9e96966da503b8eae62",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_10/completed/4274061568.json",
+      "seed": 4274061568,
+      "sha256": "7932f67f36ef5e0c04e9269d9079db228219f81b2693d1d5d9fa63b26d21c1e6"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 437.62007394999273,
+          "policy": 315.06613829565407
+        },
+        "iid_perfect": {
+          "baseline": 52.19693611190408,
+          "policy": 12.95217894538783
+        },
+        "persistent_perfect": {
+          "baseline": 385.52802260679755,
+          "policy": 178.67249628073324
+        }
+      },
+      "ordered_bridge_events_sha256": "47089e2ff4d8eade482d5adca975ba57a923f86eb57a6d42e4521ce7bb14b70e",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_11/completed/1759159684.json",
+      "seed": 1759159684,
+      "sha256": "c90741a15746e99ff8b1ef5523c6db2e597ffb22a5ca3275620f24f490722809"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 355.21163721891753,
+          "policy": 255.9008356775501
+        },
+        "iid_perfect": {
+          "baseline": 42.46349895522915,
+          "policy": 10.539796785409896
+        },
+        "persistent_perfect": {
+          "baseline": 311.3010547290554,
+          "policy": 144.33655978668583
+        }
+      },
+      "ordered_bridge_events_sha256": "5952a0365630bc9ebcc39a82a2e6ab5f350c76fa927ff325dd03ae59a75c616b",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_12/completed/1123708967.json",
+      "seed": 1123708967,
+      "sha256": "f5d01d9866ad4b65141861edd7ee875b98fd6233dd73ed26870ea9bd6318ccf1"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 933.9096234901525,
+          "policy": 672.51186034184
+        },
+        "iid_perfect": {
+          "baseline": 111.46610892745183,
+          "policy": 27.661198693890668
+        },
+        "persistent_perfect": {
+          "baseline": 820.6940906734254,
+          "policy": 380.43813543876325
+        }
+      },
+      "ordered_bridge_events_sha256": "f75ad0ea80779a31bd9899070fb3277ea938f1c0fc6b36dca85ddf9482b8f2e6",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_13/completed/1207197329.json",
+      "seed": 1207197329,
+      "sha256": "49359494d33bab5948cb0c29164750c114e68d1f3cb8c23e30abe60e44cc279a"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 449.8466032468738,
+          "policy": 323.9121420572601
+        },
+        "iid_perfect": {
+          "baseline": 53.679787823354,
+          "policy": 13.320854944720717
+        },
+        "persistent_perfect": {
+          "baseline": 395.6226540481292,
+          "policy": 183.39353449216608
+        }
+      },
+      "ordered_bridge_events_sha256": "e7da7ed12d50cc3bc3576b20d4cfa70a0006b65499dab3da61b1e9133da21d47",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_14/completed/3139949407.json",
+      "seed": 3139949407,
+      "sha256": "797348231db4ecf444d68e97a661d0819fecca41fa44b8019e334df24228d481"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 657.9563386750132,
+          "policy": 473.75140278681255
+        },
+        "iid_perfect": {
+          "baseline": 78.50607015005849,
+          "policy": 19.481300068917808
+        },
+        "persistent_perfect": {
+          "baseline": 578.8650309011321,
+          "policy": 268.31325718743324
+        }
+      },
+      "ordered_bridge_events_sha256": "03956680d064e44a41b3e316e06ce7c0a2c59c893a41d83b0127a55f9fbec140",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_15/completed/449738929.json",
+      "seed": 449738929,
+      "sha256": "2ef1ae3dc17c6012f1ec86d5474f9be5474e2ed1b4bcf745696dd75c7b3c045a"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 283.9079195560939,
+          "policy": 204.3573696460173
+        },
+        "iid_perfect": {
+          "baseline": 33.83811364727474,
+          "policy": 8.395871979074649
+        },
+        "persistent_perfect": {
+          "baseline": 250.54275582884338,
+          "policy": 116.09264715867448
+        }
+      },
+      "ordered_bridge_events_sha256": "4aebb5413f68f5f790e3ab9af3884b62f81013833b0edefa99ce53ebfffa123a",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_16/completed/2701320094.json",
+      "seed": 2701320094,
+      "sha256": "ba14e38f251ae7a9ecb17970fcb5d8e8b9991487158ca42e2cd5f6fb4835f49e"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 468.2606269795049,
+          "policy": 337.33728557184764
+        },
+        "iid_perfect": {
+          "baseline": 55.96423595650352,
+          "policy": 13.889943208481984
+        },
+        "persistent_perfect": {
+          "baseline": 409.5827209290609,
+          "policy": 189.9721531729134
+        }
+      },
+      "ordered_bridge_events_sha256": "c512a8fc18eb7243c9b108f2f7f5f3067f08b0aa8fd45b687ea2887d39f97589",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_17/completed/4242586529.json",
+      "seed": 4242586529,
+      "sha256": "ad87d6a32520bd58a329280c69eeb09c29528efd81cdf26d8350ef3632d6006d"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 363.98463827426036,
+          "policy": 262.03907221906235
+        },
+        "iid_perfect": {
+          "baseline": 43.40547809151971,
+          "policy": 10.77034924866555
+        },
+        "persistent_perfect": {
+          "baseline": 320.75611801796515,
+          "policy": 148.63646367769704
+        }
+      },
+      "ordered_bridge_events_sha256": "e81953746f68d0473e9e7cf8dd6e3c419eb8ccdaa2472609b6158fcaba9d287d",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_18/completed/2549030736.json",
+      "seed": 2549030736,
+      "sha256": "7ba2aedd8a90d55b9b03ccf8228957cd49de83f7905f33baf62239d876690f1d"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 371.50539159769477,
+          "policy": 267.3919346947529
+        },
+        "iid_perfect": {
+          "baseline": 44.268877622726016,
+          "policy": 10.983683174473098
+        },
+        "persistent_perfect": {
+          "baseline": 328.1245521992955,
+          "policy": 152.0141256857873
+        }
+      },
+      "ordered_bridge_events_sha256": "c27b75de52418f9ec1164ace0ca8ab13b74a54247d2d1f130901ae47f8e3405a",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_19/completed/92655631.json",
+      "seed": 92655631,
+      "sha256": "f5b057bd5ff052b4f9eef91776740a2560c5b322ad8f734ce0592f8e2ea59076"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 379.4458440711196,
+          "policy": 273.15522389043144
+        },
+        "iid_perfect": {
+          "baseline": 45.23984205009204,
+          "policy": 11.225196603309774
+        },
+        "persistent_perfect": {
+          "baseline": 334.4097586469485,
+          "policy": 154.96791720103388
+        }
+      },
+      "ordered_bridge_events_sha256": "b54ec239ad2dc9c8e5f3e151ebeebfc3162f2706f14bcf70e73ae9fe1a8fa77d",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_20/completed/2562077897.json",
+      "seed": 2562077897,
+      "sha256": "78be5f771b9bebae9a9e42063ed875defe88d575ba1556268c31efd2a04d6ac9"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 392.1577577131459,
+          "policy": 282.2969007897993
+        },
+        "iid_perfect": {
+          "baseline": 46.74982705295799,
+          "policy": 11.5996941109446
+        },
+        "persistent_perfect": {
+          "baseline": 345.61201361561126,
+          "policy": 160.17504772667417
+        }
+      },
+      "ordered_bridge_events_sha256": "2eb8affb7463e471c37eb80a248f96707aef8edd5b66201b3cf9f37651a20512",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_21/completed/777447772.json",
+      "seed": 777447772,
+      "sha256": "2c799fc6f21fe8b21bd65167d011805b516cda53bf290f71f97474d95a119032"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 435.3898040097855,
+          "policy": 313.3387478922125
+        },
+        "iid_perfect": {
+          "baseline": 51.85874860354462,
+          "policy": 12.866022067633608
+        },
+        "persistent_perfect": {
+          "baseline": 384.6390956128601,
+          "policy": 178.2109941335393
+        }
+      },
+      "ordered_bridge_events_sha256": "d43e52daa72e13ff1f932b427f8588744649dd1093b32a1360c1e83c4201b177",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_22/completed/3634685749.json",
+      "seed": 3634685749,
+      "sha256": "ef312b50f2383f92a2d48cd9cb29ae5c2ceac987194a44941e04892072ef60aa"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 303.72728505048,
+          "policy": 218.62992700117468
+        },
+        "iid_perfect": {
+          "baseline": 36.21098945642731,
+          "policy": 8.98523950981843
+        },
+        "persistent_perfect": {
+          "baseline": 268.6667266896083,
+          "policy": 124.42439401138058
+        }
+      },
+      "ordered_bridge_events_sha256": "5209445f61a36e5bed66c69bda68a77da9f4ddf62c22f3c86a810a10571d3ed7",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_23/completed/3567931273.json",
+      "seed": 3567931273,
+      "sha256": "785b1d15308c89c535f4cf24653cfd040487ab271a7c38b29f7013b9d52ca1d6"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 547.1720971202378,
+          "policy": 393.7956455624616
+        },
+        "iid_perfect": {
+          "baseline": 65.18143910881132,
+          "policy": 16.171722727678812
+        },
+        "persistent_perfect": {
+          "baseline": 483.4472680234304,
+          "policy": 223.98086478040344
+        }
+      },
+      "ordered_bridge_events_sha256": "71a090315fefaad8a5179e3c32babecd0868db6c395d091d71b0694618b31916",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_24/completed/4232662237.json",
+      "seed": 4232662237,
+      "sha256": "c9fec3d5948777741486f00b36b419de180e6fc2c81ab41615929b415e847de1"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 392.3682329745891,
+          "policy": 282.50890426057975
+        },
+        "iid_perfect": {
+          "baseline": 46.81233136930355,
+          "policy": 11.616421674670683
+        },
+        "persistent_perfect": {
+          "baseline": 345.5005533430876,
+          "policy": 160.11468336001735
+        }
+      },
+      "ordered_bridge_events_sha256": "4692ca817a3a345289166e22ed43d835432c62578d7de044866dd37c156e648f",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_25/completed/1876116425.json",
+      "seed": 1876116425,
+      "sha256": "8d7626a94a66f83792cd43e58572080291a83eacc51d05a940496b756e59c382"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 821.4710594573925,
+          "policy": 591.6750291988153
+        },
+        "iid_perfect": {
+          "baseline": 98.12786877811504,
+          "policy": 24.353911645309246
+        },
+        "persistent_perfect": {
+          "baseline": 721.3828560080756,
+          "policy": 334.3936521031891
+        }
+      },
+      "ordered_bridge_events_sha256": "fb54faf5316ecc628cc404774d12b4a6e6e5a05c3cc121a3e579f53169cc0292",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_26/completed/4211809382.json",
+      "seed": 4211809382,
+      "sha256": "b4dae273df0a2d4e9542110099e8514b72904b32fd31e2864db8e3ea4e415c6d"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 261.763597119095,
+          "policy": 188.53464038946728
+        },
+        "iid_perfect": {
+          "baseline": 31.26259333830078,
+          "policy": 7.7585835685975795
+        },
+        "persistent_perfect": {
+          "baseline": 229.44121517220606,
+          "policy": 106.3968189686016
+        }
+      },
+      "ordered_bridge_events_sha256": "09216db940fb7cf227c0f41b54a88a6848c7681a006c4e8f70af8969d8886f10",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_27/completed/362170346.json",
+      "seed": 362170346,
+      "sha256": "6f9e0bde20a3a800b96d911cfcf008e3e8265f6b901c3bdce952fde72f1fe110"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 824.0634710350682,
+          "policy": 593.0500053890651
+        },
+        "iid_perfect": {
+          "baseline": 98.15462036960191,
+          "policy": 24.352210151672114
+        },
+        "persistent_perfect": {
+          "baseline": 728.405167956988,
+          "policy": 337.465720328873
+        }
+      },
+      "ordered_bridge_events_sha256": "6c034fe1dd175aaf60d880ededc431df3ae399611a6bd5a88b1aef44ee4473bb",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_28/completed/2762996786.json",
+      "seed": 2762996786,
+      "sha256": "8bed382af59161a1482ccc6489079832217af21b53bd133e03331cc9014b82f0"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 117.56317440138298,
+          "policy": 84.62304741686444
+        },
+        "iid_perfect": {
+          "baseline": 14.014179517828204,
+          "policy": 3.477319219441927
+        },
+        "persistent_perfect": {
+          "baseline": 103.8886948290195,
+          "policy": 48.12275414914692
+        }
+      },
+      "ordered_bridge_events_sha256": "862a92f95a1ee261ae2f04f9cdc1f40c0234564c8738bdfc0cabf9069c412835",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_29/completed/219760872.json",
+      "seed": 219760872,
+      "sha256": "84fb03755eb059edc37c0546930fd6cc9ecf659b78f491b20f5bf92107828931"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 810.5339577858855,
+          "policy": 583.9138608498833
+        },
+        "iid_perfect": {
+          "baseline": 96.88177834551647,
+          "policy": 24.04616495355085
+        },
+        "persistent_perfect": {
+          "baseline": 709.7409531207662,
+          "policy": 329.1321648135652
+        }
+      },
+      "ordered_bridge_events_sha256": "468eddad83b103ab3d8e30e2378539c021249fa89edb4ebf221abb7cca55d308",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_30/completed/1865844660.json",
+      "seed": 1865844660,
+      "sha256": "fda57d4d0c09bd9b985e4cf2b3512d3802a7908060b9ed3a5d6f62f765f9cdd9"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 518.9968072522265,
+          "policy": 373.75450932188875
+        },
+        "iid_perfect": {
+          "baseline": 61.96305030335601,
+          "policy": 15.377398116480455
+        },
+        "persistent_perfect": {
+          "baseline": 456.4974918416407,
+          "policy": 211.55595004782933
+        }
+      },
+      "ordered_bridge_events_sha256": "29a9ac0c396004afb1ef2551579a9ef9a8c70c2809721401ccd08c917d7790e7",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_31/completed/1645402252.json",
+      "seed": 1645402252,
+      "sha256": "c0f062d3d84d0de70fe1a4a20a6978987bda9da3894c37e8f2f86ee459934f97"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 664.8442908185176,
+          "policy": 478.7718453126413
+        },
+        "iid_perfect": {
+          "baseline": 79.36439545021624,
+          "policy": 19.695441592208518
+        },
+        "persistent_perfect": {
+          "baseline": 584.4563346692803,
+          "policy": 270.918973715353
+        }
+      },
+      "ordered_bridge_events_sha256": "b0e90848954529cac749ae3ba0b9b199b29055b9bd30828d85dedc7d2a3e111e",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_00/completed/2578534490.json",
+      "seed": 2578534490,
+      "sha256": "786d19d1066bcb1b7934db86f38ada0c365b7aa166927b35efd47c4929684848"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 739.3520684212303,
+          "policy": 532.3865459074051
+        },
+        "iid_perfect": {
+          "baseline": 88.23534710206954,
+          "policy": 21.896193282189163
+        },
+        "persistent_perfect": {
+          "baseline": 650.4647073140303,
+          "policy": 301.4722336534774
+        }
+      },
+      "ordered_bridge_events_sha256": "aaba2cd6e791ffc9843921aafa427ce1ef3dab5f3c37dcebd2519571f75fcb40",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_01/completed/1069374994.json",
+      "seed": 1069374994,
+      "sha256": "06bb1aa7b42813bb2c106483be95ed70bd79a4b2823ff93b71037b2dfbafaa4e"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 591.309387303616,
+          "policy": 425.5930979409147
+        },
+        "iid_perfect": {
+          "baseline": 70.45232970508242,
+          "policy": 17.479605097182457
+        },
+        "persistent_perfect": {
+          "baseline": 521.5445691000026,
+          "policy": 241.7006330313931
+        }
+      },
+      "ordered_bridge_events_sha256": "23f16c05382fd3d5c622cde69b057a11bb9236cf8cc398cedc73072107b30ec3",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_02/completed/1325132100.json",
+      "seed": 1325132100,
+      "sha256": "1f1f42c39ebc1cd7c35287a9a501008b0f9c4c53a9de73191932caed035a2134"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 491.2788696152144,
+          "policy": 353.9060079463693
+        },
+        "iid_perfect": {
+          "baseline": 58.71174154247474,
+          "policy": 14.571952848006609
+        },
+        "persistent_perfect": {
+          "baseline": 430.17393485702075,
+          "policy": 199.49069589578448
+        }
+      },
+      "ordered_bridge_events_sha256": "17e5e9d7b8eb820ba8d09689f8dd5ec76e2e97b9b25bdf349bae7b6a6f9fe75e",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_03/completed/1138846313.json",
+      "seed": 1138846313,
+      "sha256": "a1b3a017ae0ff1edff1e3765481777ba61ef296b1cd7006790a237948dabd2da"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 708.5817348354138,
+          "policy": 510.07814158562644
+        },
+        "iid_perfect": {
+          "baseline": 84.47629268809567,
+          "policy": 20.960829450828975
+        },
+        "persistent_perfect": {
+          "baseline": 624.6051742990977,
+          "policy": 289.4612931287019
+        }
+      },
+      "ordered_bridge_events_sha256": "655488c3997806b9e7d95c190727d68bc3009ca9ad5e9b43589a2840c7176dad",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_04/completed/3314505786.json",
+      "seed": 3314505786,
+      "sha256": "cc8c29bb6636c04e65dc83b66fa09e96704331111fb1502a2770d71a529ac90f"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 234.82631959463183,
+          "policy": 169.17195778564158
+        },
+        "iid_perfect": {
+          "baseline": 28.067077454828727,
+          "policy": 6.966142786653237
+        },
+        "persistent_perfect": {
+          "baseline": 205.40262395391488,
+          "policy": 95.27009155856098
+        }
+      },
+      "ordered_bridge_events_sha256": "0f51616264b4797f38acbb3b5781ea1f26af9d933eb5d2c86fbac49a088625a4",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_05/completed/3402550030.json",
+      "seed": 3402550030,
+      "sha256": "0e7941a0baf5bf0c3290fce086fc1309ccdb18be5b026bfd30628540855ac6da"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 393.88149954735695,
+          "policy": 283.69446365859653
+        },
+        "iid_perfect": {
+          "baseline": 47.05291577537293,
+          "policy": 11.678101043746707
+        },
+        "persistent_perfect": {
+          "baseline": 346.42779020124595,
+          "policy": 160.54045908079047
+        }
+      },
+      "ordered_bridge_events_sha256": "842038b6173d4fdf16a7e53f4fa18ba50ddad75a3c039409a8cb8c6299ff81f1",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_06/completed/1565648316.json",
+      "seed": 1565648316,
+      "sha256": "fe461195f77ce7af62e8f039b762e679a6f60993f9e64845b104ce75e6f19e40"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 521.6412330572812,
+          "policy": 375.58125242369607
+        },
+        "iid_perfect": {
+          "baseline": 62.23709702075117,
+          "policy": 15.444320678179974
+        },
+        "persistent_perfect": {
+          "baseline": 459.7179828756495,
+          "policy": 213.0214970492603
+        }
+      },
+      "ordered_bridge_events_sha256": "b9c7f14b753ffcca3d130a376c1c58ac156facd27e3f245a6b7c3bdc1ec8bfa2",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_07/completed/2164156308.json",
+      "seed": 2164156308,
+      "sha256": "e7d0a4fb8f39601fbd7154e544e63e0900b299169ba3e474d002ba192dbf5002"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 359.7054056985714,
+          "policy": 259.0108673510738
+        },
+        "iid_perfect": {
+          "baseline": 42.92808158082598,
+          "policy": 10.652983245304757
+        },
+        "persistent_perfect": {
+          "baseline": 316.70522141985845,
+          "policy": 146.76561226243894
+        }
+      },
+      "ordered_bridge_events_sha256": "4a383c38f944ce9970d86029706b8fa91ba21c4d062b8747925fb4ff48ee78da",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_08/completed/2684734189.json",
+      "seed": 2684734189,
+      "sha256": "3bc742456ebafc333d31ab93f752e106f35aae135a91582214fad0762cd2c21f"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 477.329998041968,
+          "policy": 344.0016343849022
+        },
+        "iid_perfect": {
+          "baseline": 57.8527844583061,
+          "policy": 15.108663030823497
+        },
+        "persistent_perfect": {
+          "baseline": 420.0245019529304,
+          "policy": 195.2068892554654
+        }
+      },
+      "ordered_bridge_events_sha256": "dad4926c9d44f8aa2b9074ec448c651b7575f779810667620c49230cbf97a099",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_09/completed/4285704295.json",
+      "seed": 4285704295,
+      "sha256": "3b05a31070df97123b1329a8dfda485b3112fea387ae2111a42148c85f29d908"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 817.561678691622,
+          "policy": 588.7008881471455
+        },
+        "iid_perfect": {
+          "baseline": 97.56184913214246,
+          "policy": 24.210172603499142
+        },
+        "persistent_perfect": {
+          "baseline": 718.5486661896355,
+          "policy": 333.0966746149287
+        }
+      },
+      "ordered_bridge_events_sha256": "68133115dfe26af90b590553e291aa2e6b4eab09224e84a76f4d98f31dc7fda5",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_10/completed/2260910504.json",
+      "seed": 2260910504,
+      "sha256": "b225a9605d542212952cf2634761b0711eab07368ead01a147f7b24560dcfe47"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 294.01983781547494,
+          "policy": 211.68259397088983
+        },
+        "iid_perfect": {
+          "baseline": 35.067597389620616,
+          "policy": 8.701541591333523
+        },
+        "persistent_perfect": {
+          "baseline": 258.69370045051494,
+          "policy": 119.91221196089819
+        }
+      },
+      "ordered_bridge_events_sha256": "5a87a54be0b8eaad3e3decc2801d13137d0194881024266cef6f0d0d8abc3caa",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_11/completed/2163029846.json",
+      "seed": 2163029846,
+      "sha256": "0772386da1a8de32eaca63c99ec201e1ae66c8db89a8eb804b1ce813b8b84411"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 381.25186728935944,
+          "policy": 274.470958848804
+        },
+        "iid_perfect": {
+          "baseline": 45.46507410322309,
+          "policy": 11.281421546652986
+        },
+        "persistent_perfect": {
+          "baseline": 335.8591552657627,
+          "policy": 155.65800601178165
+        }
+      },
+      "ordered_bridge_events_sha256": "19e5129ff4c0df9d7ebc013ea78fd5bc9ce385f5ef2947c770ab04e6477b461d",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_12/completed/1249808995.json",
+      "seed": 1249808995,
+      "sha256": "36504d9f3e029b2c7c8d17ba04d8bc13aded1091b2e7228fe25e8b1fc75c8256"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 370.03041581125757,
+          "policy": 266.5250604254322
+        },
+        "iid_perfect": {
+          "baseline": 44.20270040397611,
+          "policy": 10.970399962080107
+        },
+        "persistent_perfect": {
+          "baseline": 324.70515285438495,
+          "policy": 150.53722963674286
+        }
+      },
+      "ordered_bridge_events_sha256": "e6edf4bf1923bcefcda09252c421451fcbba663eead7ffcde1fabc3d3039a1f4",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_13/completed/1250133205.json",
+      "seed": 1250133205,
+      "sha256": "0ce628f53beba44902d94a3fdf3193956d19e035f548e69b4d5922d3a05eb308"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 398.549628825999,
+          "policy": 287.0363827754083
+        },
+        "iid_perfect": {
+          "baseline": 47.59649940095363,
+          "policy": 11.812502292751091
+        },
+        "persistent_perfect": {
+          "baseline": 350.4096566876697,
+          "policy": 162.3955126598513
+        }
+      },
+      "ordered_bridge_events_sha256": "632f63315b174a807636d49bb8e2749890eeae028c32eb62db2eab825fb9bcda",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_14/completed/1085116563.json",
+      "seed": 1085116563,
+      "sha256": "25d13a6853ec9d86fb8f1426a8ad7a0007c896ed9fc0ae24f6e80e5c1cb429ac"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 250.6108941673192,
+          "policy": 180.43036038771442
+        },
+        "iid_perfect": {
+          "baseline": 29.89369958972557,
+          "policy": 7.417948488977302
+        },
+        "persistent_perfect": {
+          "baseline": 220.8336796077177,
+          "policy": 102.34214420189679
+        }
+      },
+      "ordered_bridge_events_sha256": "e1d7d7eaea45d06528330cbf7d57950a7239f4a3bd334988993566919c06cfdd",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_15/completed/1709383664.json",
+      "seed": 1709383664,
+      "sha256": "e4cb0661a3d3592382404f57739fd2fcfec539255655a787282a3cbe7479c10c"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 424.7434617583522,
+          "policy": 305.93191653511485
+        },
+        "iid_perfect": {
+          "baseline": 50.73328840323978,
+          "policy": 12.590860345981689
+        },
+        "persistent_perfect": {
+          "baseline": 372.1688893288764,
+          "policy": 172.5980465827043
+        }
+      },
+      "ordered_bridge_events_sha256": "e0859a615be387891269f6a7e32a057d7d25400bbb0f50786d2f2bf9f11130bc",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_04/completed/1820087184.json",
+      "seed": 1820087184,
+      "sha256": "d52e034651e293f6420cc382b3de33f1b36f5a263f1c7d0fbe90dd1e8b4bd364"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 606.9737828495792,
+          "policy": 436.9918557325114
+        },
+        "iid_perfect": {
+          "baseline": 72.3954327844471,
+          "policy": 17.964189859177914
+        },
+        "persistent_perfect": {
+          "baseline": 534.7063717461185,
+          "policy": 247.79452020111313
+        }
+      },
+      "ordered_bridge_events_sha256": "33cf542205a5745837da4ff0131f6f9a5f04bae69be2c14d20eb136d8a972f94",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_05/completed/1493676754.json",
+      "seed": 1493676754,
+      "sha256": "ff105085c337d93a27d85d62264240c266746af46e094488bb9a7130897b6dad"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 798.2497904128337,
+          "policy": 574.7088095392422
+        },
+        "iid_perfect": {
+          "baseline": 95.20913396643999,
+          "policy": 23.624978458643223
+        },
+        "persistent_perfect": {
+          "baseline": 702.5828560021547,
+          "policy": 325.64760716286185
+        }
+      },
+      "ordered_bridge_events_sha256": "1131de6af7adaff355194c4345c531daf5850f8fcb9615e983f552ae7da1ff4e",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_00/completed/3308159835.json",
+      "seed": 3308159835,
+      "sha256": "71974712c7accb78995b63101e92eef4da1590f7fe0b0e9dd739b7b8dc02c0f9"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 332.08786600337174,
+          "policy": 239.014635802077
+        },
+        "iid_perfect": {
+          "baseline": 39.5678841239899,
+          "policy": 9.817176452022371
+        },
+        "persistent_perfect": {
+          "baseline": 293.3536065389097,
+          "policy": 135.90766263380704
+        }
+      },
+      "ordered_bridge_events_sha256": "43461bc3ec13f0d544b3baed2f747e65e492f168a5e30e832a7c4da043ac8f77",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_01/completed/3336667376.json",
+      "seed": 3336667376,
+      "sha256": "35d90b929256a9791cfda04a404b18b087e8261f73141fec711d02d3f6d7b72c"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 422.4857767676924,
+          "policy": 304.1558207580687
+        },
+        "iid_perfect": {
+          "baseline": 50.38408963278764,
+          "policy": 12.502127668400957
+        },
+        "persistent_perfect": {
+          "baseline": 372.45159944193074,
+          "policy": 172.57987769663194
+        }
+      },
+      "ordered_bridge_events_sha256": "8341f2a0915b92012c78efae090493487dace6f65c60700392b80c7690aaf1a1",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_02/completed/3757445328.json",
+      "seed": 3757445328,
+      "sha256": "5fdd699629fd27c3f6f02591665de8d243f55ceff2c904a37e68283c91463254"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 332.8054437310716,
+          "policy": 239.72656736101567
+        },
+        "iid_perfect": {
+          "baseline": 39.76687713750481,
+          "policy": 9.869960469153394
+        },
+        "persistent_perfect": {
+          "baseline": 292.0770564713087,
+          "policy": 135.40174069531884
+        }
+      },
+      "ordered_bridge_events_sha256": "bb9d28b5806c6a2b38860c64df4152090b879f65658fc032b1d521641a9b4dfd",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_03/completed/1348691919.json",
+      "seed": 1348691919,
+      "sha256": "0efdd4211ed16a3a9c72d697623b9b4ee93601e111529500fd19a9b947c60a2e"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 356.41728149731614,
+          "policy": 256.59265331361087
+        },
+        "iid_perfect": {
+          "baseline": 42.50596600469497,
+          "policy": 10.547327510070314
+        },
+        "persistent_perfect": {
+          "baseline": 314.25800979935724,
+          "policy": 145.6189120395728
+        }
+      },
+      "ordered_bridge_events_sha256": "e9147381538fda4f47685e27bc20762867cbe76d33ed3af088f9d753e06416c6",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_04/completed/633196958.json",
+      "seed": 633196958,
+      "sha256": "b6dbaa3585ec24ad346efb66922cfd1f77f05d95d015df31fc40ce7377f458f8"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 517.732126777541,
+          "policy": 372.7894954483393
+        },
+        "iid_perfect": {
+          "baseline": 61.77255277749586,
+          "policy": 15.328603731342158
+        },
+        "persistent_perfect": {
+          "baseline": 454.9801992125619,
+          "policy": 210.9295690596638
+        }
+      },
+      "ordered_bridge_events_sha256": "953d2e017aded3c45037e8a906412d2be4d4bf54aa461a1e96e440ac62089ee7",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_05/completed/345574018.json",
+      "seed": 345574018,
+      "sha256": "862d2d42bbf474d4894dcedd58fe7bd61af53a8f8cc2729cd1da6366f3b36a7e"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 268.3723700049614,
+          "policy": 193.2084711238064
+        },
+        "iid_perfect": {
+          "baseline": 32.00498561211635,
+          "policy": 7.941554126977952
+        },
+        "persistent_perfect": {
+          "baseline": 236.34855149684768,
+          "policy": 109.54050387721807
+        }
+      },
+      "ordered_bridge_events_sha256": "2feeb0d0a7d6e448a1e355923070f5d981f106cacbc2a1cf42fd026146f23977",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_00/completed/4166954880.json",
+      "seed": 4166954880,
+      "sha256": "f02f1a7cbd2fe5681939443636cf28968ad1aa4de1cbf74256d432bb39958cf8"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 600.5601113486155,
+          "policy": 432.3817171250443
+        },
+        "iid_perfect": {
+          "baseline": 71.63761122389673,
+          "policy": 17.776496425955365
+        },
+        "persistent_perfect": {
+          "baseline": 529.0954747890031,
+          "policy": 245.19769515111554
+        }
+      },
+      "ordered_bridge_events_sha256": "b45c8be1a5166b405798e4f6831c8aa46387336b4a979efa250111d94f118993",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_01/completed/321283226.json",
+      "seed": 321283226,
+      "sha256": "db8c7fdd238d755e096ff58057543ef9c2232f958cc4454719ab631f0c527275"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 478.4449506144374,
+          "policy": 344.49744085971747
+        },
+        "iid_perfect": {
+          "baseline": 57.09050194057246,
+          "policy": 14.167245093462794
+        },
+        "persistent_perfect": {
+          "baseline": 421.4206417443435,
+          "policy": 195.27956614517106
+        }
+      },
+      "ordered_bridge_events_sha256": "5cfa37f03c335a4bdc8a9ed2e8d8a9fc13f7e85f8361f8dc0577bacce9716b80",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_02/completed/2665262911.json",
+      "seed": 2665262911,
+      "sha256": "f58b2ba1eca6499b3a3c4f6d3624b2111e577122ea5fbc569f712e115884c546"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 270.95362115011466,
+          "policy": 195.3731236271538
+        },
+        "iid_perfect": {
+          "baseline": 33.206652882482,
+          "policy": 8.991886539572088
+        },
+        "persistent_perfect": {
+          "baseline": 238.41056261826054,
+          "policy": 111.05223222819995
+        }
+      },
+      "ordered_bridge_events_sha256": "002a1aee471934477a4216b30ce61567771280a639fbbe51dd7b609f338817a4",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_03/completed/2823513032.json",
+      "seed": 2823513032,
+      "sha256": "42a5904a186ebea811ee7a6dfe74d17dac8bc2596d964bca6c5cc52fe92ca618"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 344.68946633632834,
+          "policy": 248.06707499836358
+        },
+        "iid_perfect": {
+          "baseline": 41.060196191483755,
+          "policy": 10.18719367929064
+        },
+        "persistent_perfect": {
+          "baseline": 304.75913502223875,
+          "policy": 141.18258401033998
+        }
+      },
+      "ordered_bridge_events_sha256": "12726f58dc2f3a5684a7f9bb2113d12118ecffda494ea5b941fea680fbdba6f1",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_04/completed/709035523.json",
+      "seed": 709035523,
+      "sha256": "1f0d2ecf2c2ece6c8ba739db177157c852d3acefa2dfe8a1fcab1330d51458aa"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 288.67962588747713,
+          "policy": 207.82752850630257
+        },
+        "iid_perfect": {
+          "baseline": 34.42690677501885,
+          "policy": 8.542545934076065
+        },
+        "persistent_perfect": {
+          "baseline": 254.33210124892437,
+          "policy": 117.86256758228616
+        }
+      },
+      "ordered_bridge_events_sha256": "5295b762043d5cacb4ce70f1b0deac4fd203750e4a179ba31517fb9b25cfaa57",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_05/completed/2975399711.json",
+      "seed": 2975399711,
+      "sha256": "7e23c20e74b5af78eca3d6a9ff33f7b50d2fa9d28699601dada28b2f3f773c0a"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 466.40947953302816,
+          "policy": 335.813651904376
+        },
+        "iid_perfect": {
+          "baseline": 55.64594573236435,
+          "policy": 13.808608864273946
+        },
+        "persistent_perfect": {
+          "baseline": 411.0832226483067,
+          "policy": 190.46848574539067
+        }
+      },
+      "ordered_bridge_events_sha256": "d00c3e914e0cd64656a2f92d6c2ce5dc229c88c13a2c367127db338be35a7e85",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_00/completed/157176067.json",
+      "seed": 157176067,
+      "sha256": "9ef0afe45f712e361b690f31a746bd99571810472cabb188f46a50534ad03229"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 263.0457732059106,
+          "policy": 189.29028545477018
+        },
+        "iid_perfect": {
+          "baseline": 31.325832626306404,
+          "policy": 7.771902799363786
+        },
+        "persistent_perfect": {
+          "baseline": 232.97918873918832,
+          "policy": 107.8921697731513
+        }
+      },
+      "ordered_bridge_events_sha256": "a1bd84dce418779216fbd7f60d136d97d0dc941a605e8f8bc1e6b8511026c8c2",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_local/part_01/completed/1130785396.json",
+      "seed": 1130785396,
+      "sha256": "ca8bca6c6f306fba583deb9cd2f31acabb462b8a4cb719cac72334b0bceaa4a6"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 674.037838111293,
+          "policy": 485.3598877393319
+        },
+        "iid_perfect": {
+          "baseline": 80.43712649136586,
+          "policy": 19.96064629156882
+        },
+        "persistent_perfect": {
+          "baseline": 592.4304053974525,
+          "policy": 274.62403034763395
+        }
+      },
+      "ordered_bridge_events_sha256": "ff1b2e6493c12d4018a70a3c9bf508a649c0308b874c5c38b2da92d5fa53ba3a",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_16/completed/1549584811.json",
+      "seed": 1549584811,
+      "sha256": "63c43370c8bd08d275cdd1c4733122dd7c4abef6578b30ed9b2dd709e4992164"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 415.6787748434862,
+          "policy": 299.2424947887258
+        },
+        "iid_perfect": {
+          "baseline": 49.56044048212918,
+          "policy": 12.297206787535453
+        },
+        "persistent_perfect": {
+          "baseline": 366.11569778816016,
+          "policy": 169.69018424524808
+        }
+      },
+      "ordered_bridge_events_sha256": "353327c45a9f5b3efa6e47504e28d229ea59319894220bb1aaa56320b0a9911a",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_17/completed/3822100036.json",
+      "seed": 3822100036,
+      "sha256": "333dcaffad261132e60950098f1e86a1533633342b80f97c37915002078eb109"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 593.0457666902435,
+          "policy": 427.1819299745872
+        },
+        "iid_perfect": {
+          "baseline": 70.85692292771,
+          "policy": 17.585961110451336
+        },
+        "persistent_perfect": {
+          "baseline": 519.9297188503414,
+          "policy": 241.08885852042636
+        }
+      },
+      "ordered_bridge_events_sha256": "231653d4881b463ba85a4803f92b434c27b20e3236e4d27ac4f51cf9e6194d82",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_18/completed/2743899629.json",
+      "seed": 2743899629,
+      "sha256": "23d4ac855632a3fcf32b0308307d799cf017bc0988080851e03eeb1589873832"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 555.1174602843223,
+          "policy": 399.55197818565347
+        },
+        "iid_perfect": {
+          "baseline": 66.15152256894385,
+          "policy": 16.413174396144736
+        },
+        "persistent_perfect": {
+          "baseline": 490.27371390111176,
+          "policy": 227.1340901017272
+        }
+      },
+      "ordered_bridge_events_sha256": "7b32ffc9863a94da7505f8c21d346e7f69355632bf8a685aaab620ee402ddcdf",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_19/completed/1899372153.json",
+      "seed": 1899372153,
+      "sha256": "d9db782d7ddc400c7de080781a12193868bd9f9b0adbd1dac59f5f915a6626fd"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 522.2870163602182,
+          "policy": 376.08502580376245
+        },
+        "iid_perfect": {
+          "baseline": 62.331069089761684,
+          "policy": 15.467901793647274
+        },
+        "persistent_perfect": {
+          "baseline": 459.38528541220023,
+          "policy": 212.93531181404663
+        }
+      },
+      "ordered_bridge_events_sha256": "661e066fe9f06e73aa52638424fc52b1a462e2df3b36cd935636e703afea48eb",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_20/completed/1745831017.json",
+      "seed": 1745831017,
+      "sha256": "dc31202ea2bf38446c111a7926a7203d15752a28821aae31bbf0a66ce212b8e0"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 608.7764541389453,
+          "policy": 438.8298015528276
+        },
+        "iid_perfect": {
+          "baseline": 73.63461950409896,
+          "policy": 19.027521209549832
+        },
+        "persistent_perfect": {
+          "baseline": 533.2055182952889,
+          "policy": 247.79910972335458
+        }
+      },
+      "ordered_bridge_events_sha256": "1d8fc60e39df57b2592da00eadeeefc775297e226d2e9fad97fb6ebd6c58cbd8",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_21/completed/3377006866.json",
+      "seed": 3377006866,
+      "sha256": "26b79476b249c21c6cd9ee3eb07f1e5503bb43a25447ed139624c94e3d5e1d89"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 838.371539913907,
+          "policy": 603.5817947042871
+        },
+        "iid_perfect": {
+          "baseline": 99.98992020652359,
+          "policy": 24.811245107860618
+        },
+        "persistent_perfect": {
+          "baseline": 738.5256358423692,
+          "policy": 342.2430946601657
+        }
+      },
+      "ordered_bridge_events_sha256": "a5c4f2460368573d8ec735ebb55c7e577f0f89f3e413e537836b858254fde220",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_22/completed/356396587.json",
+      "seed": 356396587,
+      "sha256": "2d133c9c2153026e0ee08bacd50a7a429361c3e18954446d4ee557ba8ac3804b"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 461.2119292617906,
+          "policy": 332.0122663037961
+        },
+        "iid_perfect": {
+          "baseline": 54.99170273272297,
+          "policy": 13.645244763372272
+        },
+        "persistent_perfect": {
+          "baseline": 407.0333264604442,
+          "policy": 188.5848003852927
+        }
+      },
+      "ordered_bridge_events_sha256": "31a8ccaa16c5a23292c024929a996ee53ba7ef719b56df2ccb00c4e1e74de23f",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_23/completed/2936853358.json",
+      "seed": 2936853358,
+      "sha256": "5556881a9c01ffb6a444188b5b79ec61d52158b8ca9fa072ae2e6c30bc96ab84"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 688.1575491088845,
+          "policy": 495.5871872563021
+        },
+        "iid_perfect": {
+          "baseline": 82.1660433387462,
+          "policy": 20.391411319239456
+        },
+        "persistent_perfect": {
+          "baseline": 604.8603125640122,
+          "policy": 280.36038961523326
+        }
+      },
+      "ordered_bridge_events_sha256": "2f94910bf7e293312d90f2afe2539ec59889a2261241fd06133055bc31dc2a41",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_24/completed/1896049654.json",
+      "seed": 1896049654,
+      "sha256": "4812f638b265bd247329efb74f6125e894a718063420972c9627ddf514674327"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 478.5187198512195,
+          "policy": 344.5938603607477
+        },
+        "iid_perfect": {
+          "baseline": 57.12142450702735,
+          "policy": 14.175479358542326
+        },
+        "persistent_perfect": {
+          "baseline": 420.42211934831334,
+          "policy": 194.91899252610767
+        }
+      },
+      "ordered_bridge_events_sha256": "6929ae60eadbd479a573c9408c96010c2656be6ae3968223b6cf9251774f1d04",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_25/completed/3341426189.json",
+      "seed": 3341426189,
+      "sha256": "cbaadac757e4f22753b5104d1dc5fc9b7453c3c12b91dd5bc2186fb541e3582c"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 540.7726773063081,
+          "policy": 389.55551618610815
+        },
+        "iid_perfect": {
+          "baseline": 64.62793244985988,
+          "policy": 16.04052870093746
+        },
+        "persistent_perfect": {
+          "baseline": 473.9507988475926,
+          "policy": 219.74923220911654
+        }
+      },
+      "ordered_bridge_events_sha256": "7cb02979d61607f78a92b1c9233b297a5b410a4e358afc1a6716b51892943717",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_26/completed/2922070131.json",
+      "seed": 2922070131,
+      "sha256": "4f810d0050226e2845673e3cab86a43366fd7cb5f85f2efac9b4143ccf7e2b8a"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 610.6219587849822,
+          "policy": 439.57207603363054
+        },
+        "iid_perfect": {
+          "baseline": 72.80491601007579,
+          "policy": 18.065081090669945
+        },
+        "persistent_perfect": {
+          "baseline": 538.5090184119024,
+          "policy": 249.52554288207892
+        }
+      },
+      "ordered_bridge_events_sha256": "c13b2712fcea399b2759f63a75ba73d5b941a7648e8c5f6f0fd876f6d2965db9",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_27/completed/4023155246.json",
+      "seed": 4023155246,
+      "sha256": "37b92b1952a00d876ec22540ae5054c50d9a14ac579f8d6fa0e749118d1ae9bd"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 496.1237231310267,
+          "policy": 357.23078587938545
+        },
+        "iid_perfect": {
+          "baseline": 59.197475533951255,
+          "policy": 14.68983405922926
+        },
+        "persistent_perfect": {
+          "baseline": 436.1891914359147,
+          "policy": 202.20396215748016
+        }
+      },
+      "ordered_bridge_events_sha256": "648e975e20cdb6c0cea8881064736c17599606d5da2627d011a3472ab3f4cb50",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_28/completed/1339480500.json",
+      "seed": 1339480500,
+      "sha256": "750a7e549f734984e851807748ddcb2fcd3788e6089ba0bdb222eb1282219c68"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 388.6253842276257,
+          "policy": 279.77233799260904
+        },
+        "iid_perfect": {
+          "baseline": 46.34271409549791,
+          "policy": 11.499244910820739
+        },
+        "persistent_perfect": {
+          "baseline": 342.6629518933613,
+          "policy": 158.78242449591772
+        }
+      },
+      "ordered_bridge_events_sha256": "9258a8e80466940bd26f9a2d2478dfaa71e292ccab79cc532a7f43935101cf05",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_29/completed/3697569235.json",
+      "seed": 3697569235,
+      "sha256": "a856ce766f486994ea7166c41178bfa86afb29310dff2a5da82404f7d265a388"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 495.94159903782105,
+          "policy": 357.10895659443725
+        },
+        "iid_perfect": {
+          "baseline": 59.19279911677391,
+          "policy": 14.689675666142243
+        },
+        "persistent_perfect": {
+          "baseline": 437.22988832693125,
+          "policy": 202.57392362562103
+        }
+      },
+      "ordered_bridge_events_sha256": "fecff3dc4a50de83c17e4598c46614903f82b4d7526dc9205b46d5c38e87b2f7",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_30/completed/806392210.json",
+      "seed": 806392210,
+      "sha256": "52406c54b006b6ee19acf80c7206041080cbac7b39644270f2f7dbd9dbfda0c4"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 665.0659632289829,
+          "policy": 479.1089702494071
+        },
+        "iid_perfect": {
+          "baseline": 79.50061307270123,
+          "policy": 19.73281848477279
+        },
+        "persistent_perfect": {
+          "baseline": 583.6945903137715,
+          "policy": 270.56555103670627
+        }
+      },
+      "ordered_bridge_events_sha256": "4b17e4796ca7aff2755fc6998850bdc82861f56ad44016f4f6e1e4e88df96477",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_31/completed/3388117688.json",
+      "seed": 3388117688,
+      "sha256": "3586fa58c32874d045429f44390b64cf2c04532b5ddc06d58c38c7623f8b384d"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 197.92658094324523,
+          "policy": 142.67121768036378
+        },
+        "iid_perfect": {
+          "baseline": 23.706644572344917,
+          "policy": 5.885490075508673
+        },
+        "persistent_perfect": {
+          "baseline": 172.51489372147566,
+          "policy": 80.03372312644014
+        }
+      },
+      "ordered_bridge_events_sha256": "3f554acc5ed97cb3e6bff1e22c66fb3f7dd56f89b18145d5b6136f62086e9014",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_00/completed/2050894151.json",
+      "seed": 2050894151,
+      "sha256": "73749e67a9b8f1d4315b5517e5324e0648670e4a93bd93b2bf3f85ad722eeacd"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 495.45842219956677,
+          "policy": 356.5817916489595
+        },
+        "iid_perfect": {
+          "baseline": 59.027062816447234,
+          "policy": 14.645126148577848
+        },
+        "persistent_perfect": {
+          "baseline": 438.1647759156534,
+          "policy": 202.9640982677153
+        }
+      },
+      "ordered_bridge_events_sha256": "3926de24fd202f5b2601617bf5ebca00b09950f8d381ad3ca1dc1bbf993b5529",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_01/completed/1048757070.json",
+      "seed": 1048757070,
+      "sha256": "79e150006841cf40b44020795bd1938849328ee85bfa9599848c1f0ad325153e"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 375.5864884003264,
+          "policy": 270.472460151804
+        },
+        "iid_perfect": {
+          "baseline": 44.83407129272551,
+          "policy": 11.126110706321263
+        },
+        "persistent_perfect": {
+          "baseline": 329.8700068966926,
+          "policy": 152.93270346394246
+        }
+      },
+      "ordered_bridge_events_sha256": "04e46cb579218a1f1ca5e69986c3cdfd71626afe8e76fb4b1fc6cb5b6aa621ed",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_02/completed/2808073843.json",
+      "seed": 2808073843,
+      "sha256": "5bbded3849eccabd323f9635924368d9cde4d41c212b88500344f035390b7fcc"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 725.5143547872202,
+          "policy": 522.5175338287705
+        },
+        "iid_perfect": {
+          "baseline": 86.63166108204435,
+          "policy": 21.49934815968231
+        },
+        "persistent_perfect": {
+          "baseline": 636.5235432646717,
+          "policy": 295.1306302826026
+        }
+      },
+      "ordered_bridge_events_sha256": "cf840dec7d2d342862602dc5e490d564def11029a6ebdf60e36a7cf2697d8fc7",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_03/completed/1381494783.json",
+      "seed": 1381494783,
+      "sha256": "e15710d976aed5daa16892b364950230cdd1d52a44bfe6e2d8491205f60d2cda"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 347.9727542848284,
+          "policy": 250.70942043085867
+        },
+        "iid_perfect": {
+          "baseline": 41.605894029523064,
+          "policy": 10.326905900716211
+        },
+        "persistent_perfect": {
+          "baseline": 304.2093640663036,
+          "policy": 141.09918884916985
+        }
+      },
+      "ordered_bridge_events_sha256": "498abf0d79dd9022e4c363f4abd8578b53ce4b3077d03ac979b54718530c44a8",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_04/completed/1126876129.json",
+      "seed": 1126876129,
+      "sha256": "d397572b4e6e1aeed3f8d547a1602d2930c9733cf2b50690b6c838a6f756ff49"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 833.3304723140548,
+          "policy": 599.7967693681746
+        },
+        "iid_perfect": {
+          "baseline": 99.3167769888651,
+          "policy": 24.64284981619373
+        },
+        "persistent_perfect": {
+          "baseline": 737.3910362196415,
+          "policy": 341.50128666021845
+        }
+      },
+      "ordered_bridge_events_sha256": "5cdc3177fb6655b7ffa9f12979921842fed532762aeb584e45d7f69fd5afef65",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_05/completed/4068839893.json",
+      "seed": 4068839893,
+      "sha256": "a7afe5e8e63c120c592d52c4e5b33438b88b562cf26e9cbf5a3d8e1c0e7d0fb0"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 311.3916243715117,
+          "policy": 224.27599739411824
+        },
+        "iid_perfect": {
+          "baseline": 37.18954057664197,
+          "policy": 9.229560608897389
+        },
+        "persistent_perfect": {
+          "baseline": 273.2129781483397,
+          "policy": 126.67667603985508
+        }
+      },
+      "ordered_bridge_events_sha256": "b44c4923bdb24f7077560b04ddf9256bc917f0fc445ac031f22213c8135222db",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_06/completed/3164988645.json",
+      "seed": 3164988645,
+      "sha256": "7e3a228dc78f8d8be3dee63dd8c4627914b43b9dc506c06eebc54cb659a9a130"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 554.4698303820352,
+          "policy": 399.3080071221246
+        },
+        "iid_perfect": {
+          "baseline": 66.20883659282376,
+          "policy": 16.431670551623025
+        },
+        "persistent_perfect": {
+          "baseline": 488.0667787350814,
+          "policy": 226.16106066413292
+        }
+      },
+      "ordered_bridge_events_sha256": "1f7c8ec12091fa0133c027ffc5621a0360b2df477349f49e91fd431e98a0ef4b",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_07/completed/2422393802.json",
+      "seed": 2422393802,
+      "sha256": "10e407aeb2c315c9eaf6bfbeeece5d76c7f23ef1204b1fd85236dd72ab9df0a6"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 305.40682595946276,
+          "policy": 219.90876894143202
+        },
+        "iid_perfect": {
+          "baseline": 36.44218550124638,
+          "policy": 9.043126635957309
+        },
+        "persistent_perfect": {
+          "baseline": 268.5045795587342,
+          "policy": 124.46887256460215
+        }
+      },
+      "ordered_bridge_events_sha256": "eaa47250376252508308ecb3923995e8e254edcc968c7b181940893eab90b84c",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_08/completed/4119949910.json",
+      "seed": 4119949910,
+      "sha256": "a98c183d934a8a699b22ca72094dc2f164469d79b7bbeb544c2412cc6a9c1777"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 234.10016811237352,
+          "policy": 168.55729099359678
+        },
+        "iid_perfect": {
+          "baseline": 27.93054917680327,
+          "policy": 6.9309067742820325
+        },
+        "persistent_perfect": {
+          "baseline": 206.06812270463598,
+          "policy": 95.49784955046296
+        }
+      },
+      "ordered_bridge_events_sha256": "2b0b9e702c6f4f4245f80542e1805b5aa778f197e055e16f130a9798d6e35a99",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_09/completed/1510380295.json",
+      "seed": 1510380295,
+      "sha256": "87e09e8da1507828e31debc0957815440e1519c359f0feae6fcbdbdf1148478d"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 123.2869523003129,
+          "policy": 88.73775911471003
+        },
+        "iid_perfect": {
+          "baseline": 14.693155978431164,
+          "policy": 3.6456800285632602
+        },
+        "persistent_perfect": {
+          "baseline": 109.00056658160871,
+          "policy": 50.49925005921432
+        }
+      },
+      "ordered_bridge_events_sha256": "8c781d1ea15223f6d73508a48f2b98b8c01bc1aef0e09e63555db9283243184f",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_10/completed/1796393987.json",
+      "seed": 1796393987,
+      "sha256": "b98a4056d2ea09da315accebdc8a4ad782670eb5bda77058eae05c13718ecc99"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 405.0057951484524,
+          "policy": 291.7306983027378
+        },
+        "iid_perfect": {
+          "baseline": 48.38753758589734,
+          "policy": 12.009173823771567
+        },
+        "persistent_perfect": {
+          "baseline": 355.05343666665476,
+          "policy": 164.62281771215459
+        }
+      },
+      "ordered_bridge_events_sha256": "c0feef659747b2f4897cd5a2fd5d54e8eb61365f544b6af7706e8bb3d5ab5d39",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_11/completed/776368590.json",
+      "seed": 776368590,
+      "sha256": "d99b799f0affd462e641339a3691acb58204f0fcc023e4532833b7bbbc922321"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 468.5000841562366,
+          "policy": 337.25981050931006
+        },
+        "iid_perfect": {
+          "baseline": 55.867169503829025,
+          "policy": 13.862926740249097
+        },
+        "persistent_perfect": {
+          "baseline": 414.0207522799463,
+          "policy": 191.76673803637306
+        }
+      },
+      "ordered_bridge_events_sha256": "4716538cfcbaa9a7a8b324ab3745d9f4bced86a89826d1f7c17a096afaf3b8c3",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_12/completed/914295961.json",
+      "seed": 914295961,
+      "sha256": "1388487038d192f82fad0f7711b9dffa47df64c3a1b43d88cf7624270289adc2"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 547.5200120562918,
+          "policy": 394.09214846307117
+        },
+        "iid_perfect": {
+          "baseline": 65.2480560720311,
+          "policy": 16.188937928335136
+        },
+        "persistent_perfect": {
+          "baseline": 483.12223386286394,
+          "policy": 223.87415717391437
+        }
+      },
+      "ordered_bridge_events_sha256": "348b1ab436306300232f106af6bb38432f17e7ca56d2dde9b015adc6563c0713",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_13/completed/302718379.json",
+      "seed": 302718379,
+      "sha256": "f9b8c3ff205ee10093d79fbe0818dfdd23dbc0e9dce6600fd35ceaa9bb5cd2ba"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 770.5340490040168,
+          "policy": 554.8946671955608
+        },
+        "iid_perfect": {
+          "baseline": 91.98571090578501,
+          "policy": 22.827639137589603
+        },
+        "persistent_perfect": {
+          "baseline": 676.9274549668193,
+          "policy": 313.8090166516582
+        }
+      },
+      "ordered_bridge_events_sha256": "f4584f81751f6fc49eca4633bfb389d20623ab6314a3502a55844562a972fcc2",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_14/completed/3967112578.json",
+      "seed": 3967112578,
+      "sha256": "5fb500a290d5392e4397f2287ebfdb0a55cfb6e17109d3d0ca9665820d62bb16"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 391.5875823976897,
+          "policy": 282.09492603742075
+        },
+        "iid_perfect": {
+          "baseline": 46.810428959691414,
+          "policy": 11.61891777106783
+        },
+        "persistent_perfect": {
+          "baseline": 343.82356092155646,
+          "policy": 159.35990838734162
+        }
+      },
+      "ordered_bridge_events_sha256": "a02b17c0f8ad329456d9d0021e51e5891fc7d18bb4d7978e1c6d9c8a938c0898",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_15/completed/645121550.json",
+      "seed": 645121550,
+      "sha256": "73fdd597cd0b95c31086f7f78c6fbe738519597d0dc65a313475abf8bf7c8abc"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 672.728970993151,
+          "policy": 484.1344370758457
+        },
+        "iid_perfect": {
+          "baseline": 80.12907847541605,
+          "policy": 19.88017978866542
+        },
+        "persistent_perfect": {
+          "baseline": 595.1985388429619,
+          "policy": 275.6838436654533
+        }
+      },
+      "ordered_bridge_events_sha256": "c4aa603a7f3a3cb06b28c864bb5261d0723bab3e13999d88e2a496f3086ab457",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_16/completed/2216431173.json",
+      "seed": 2216431173,
+      "sha256": "35f7ea972e7e1c22f92019d96e6787fce2b6b3a8f7b65cbefaeca145fc6443af"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 471.03224420655056,
+          "policy": 339.1916060729848
+        },
+        "iid_perfect": {
+          "baseline": 56.22071334337461,
+          "policy": 13.951712310126014
+        },
+        "persistent_perfect": {
+          "baseline": 413.9251309016573,
+          "policy": 191.88854542875703
+        }
+      },
+      "ordered_bridge_events_sha256": "41e4f73638248190835f9fc9f544365b18fdf25af9382f8104ec866066d72308",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_17/completed/174357226.json",
+      "seed": 174357226,
+      "sha256": "8c1e0243a85c6ec66f9cc74b92e3f5c2873087863d906706502601f842f13af1"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 728.3631262191672,
+          "policy": 524.3595019564456
+        },
+        "iid_perfect": {
+          "baseline": 86.86420852955767,
+          "policy": 21.55443977077078
+        },
+        "persistent_perfect": {
+          "baseline": 642.3797247316257,
+          "policy": 297.6398447944548
+        }
+      },
+      "ordered_bridge_events_sha256": "13b0fbf03894999b104867f665deae754b4a9cc0c2032f0c7f6422175a85e534",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_18/completed/1130118332.json",
+      "seed": 1130118332,
+      "sha256": "5c91e6df03a3b2dfd38ab5ce6c7517d8e6bb83464d32fcbf20a3d076343bd7b7"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 554.1461894610012,
+          "policy": 398.86387837279227
+        },
+        "iid_perfect": {
+          "baseline": 66.04766241848874,
+          "policy": 16.38800008309697
+        },
+        "persistent_perfect": {
+          "baseline": 489.79492101551824,
+          "policy": 226.87516268212582
+        }
+      },
+      "ordered_bridge_events_sha256": "d977d1b070aea2d5be3240c94a08669cad65c7228313b33c34a0defdf2c9e79c",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_19/completed/1504722667.json",
+      "seed": 1504722667,
+      "sha256": "b2ec71cc5909e1e4b9ef005a7fccbfd3afb9960111d01e27395a463156060db7"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 433.3970354952242,
+          "policy": 312.12104007371937
+        },
+        "iid_perfect": {
+          "baseline": 51.74558543544609,
+          "policy": 12.841623032776122
+        },
+        "persistent_perfect": {
+          "baseline": 380.61514937252076,
+          "policy": 176.45349187158504
+        }
+      },
+      "ordered_bridge_events_sha256": "cc19578a64ca78609059be3892bc6925a79da9707d39d02de8f88b8e458c5248",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_20/completed/2595460791.json",
+      "seed": 2595460791,
+      "sha256": "a474b954ba0a7e2750253ed1141294023da7abee505f34c5919dcfa718e433f9"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 645.842691298872,
+          "policy": 465.13707714299926
+        },
+        "iid_perfect": {
+          "baseline": 77.83755448921933,
+          "policy": 20.06397722426334
+        },
+        "persistent_perfect": {
+          "baseline": 569.6381174123883,
+          "policy": 264.530659047695
+        }
+      },
+      "ordered_bridge_events_sha256": "98fa0bb0b3c156bd6d6a69ca2e61c8413cbbfb3ecdc64cdce52ec5e94c194a9f",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_21/completed/1960698463.json",
+      "seed": 1960698463,
+      "sha256": "b6c0d6f0f2f656ad43ea1f347c5a110106a720650b71d6fe81f926dee6ce3263"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 310.2879883717783,
+          "policy": 223.51577143299676
+        },
+        "iid_perfect": {
+          "baseline": 37.076800815642635,
+          "policy": 9.202114937343453
+        },
+        "persistent_perfect": {
+          "baseline": 271.72267411107003,
+          "policy": 126.01759846883195
+        }
+      },
+      "ordered_bridge_events_sha256": "6c49090c819494d39dcdb2b70cdef877213490aeff182b05036812eb3e103fd1",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_22/completed/1970811512.json",
+      "seed": 1970811512,
+      "sha256": "b248e0ea8f0ebc47fbe61e01d875297303cb23c9004efed55c94d7c7a1371860"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 974.7796613508091,
+          "policy": 702.0627620107738
+        },
+        "iid_perfect": {
+          "baseline": 116.42086018122623,
+          "policy": 28.89335450342993
+        },
+        "persistent_perfect": {
+          "baseline": 856.2580862066901,
+          "policy": 396.8988612178389
+        }
+      },
+      "ordered_bridge_events_sha256": "a84e94855238cf4572661c24f35e35a46cb7d566759a55036072402c65f7d13f",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_23/completed/2708656953.json",
+      "seed": 2708656953,
+      "sha256": "ac9d3da7b080afc1e494df2cef08b35a055492256a447a78a141b207735ee6f5"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 297.2083251261879,
+          "policy": 213.95506397765345
+        },
+        "iid_perfect": {
+          "baseline": 35.43949426719174,
+          "policy": 8.793778527075789
+        },
+        "persistent_perfect": {
+          "baseline": 262.30528919938536,
+          "policy": 121.5266427374114
+        }
+      },
+      "ordered_bridge_events_sha256": "55cc8cc6299cf4fc80f93b304c9aa7d5b8f006feca657848a3bffad92abe08a9",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_24/completed/2041392906.json",
+      "seed": 2041392906,
+      "sha256": "ac2310c29f87d03296e00e459b72e53e78c2a150815f9ede4b4507b94f4bc0e3"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 437.4587158083199,
+          "policy": 314.8629770559695
+        },
+        "iid_perfect": {
+          "baseline": 52.1280459281455,
+          "policy": 12.933623961393243
+        },
+        "persistent_perfect": {
+          "baseline": 386.3689331093098,
+          "policy": 179.01041404471016
+        }
+      },
+      "ordered_bridge_events_sha256": "52eec09ffdb7226d4584d0159aef4728bfb872d93cb5cbbc004819c710d8f98f",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_25/completed/92763815.json",
+      "seed": 92763815,
+      "sha256": "f9f33b57c5b853c1ceac6e971c3d32d16574df677693d33f7c4fb89b440994fb"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 605.97459568303,
+          "policy": 436.331274184629
+        },
+        "iid_perfect": {
+          "baseline": 72.30690380056815,
+          "policy": 17.942986526400336
+        },
+        "persistent_perfect": {
+          "baseline": 533.0712662736961,
+          "policy": 247.07606192212606
+        }
+      },
+      "ordered_bridge_events_sha256": "6de2fccaf50593ce00584896c1b8949fd9d63bdb1482185317a9e3695cee1c64",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_26/completed/4281722561.json",
+      "seed": 4281722561,
+      "sha256": "c20e8511da1c73b28f12fb403cf67f16e6da1d46b7496d40c6a2d7f5982eaf98"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 490.39897556215504,
+          "policy": 353.0805735129466
+        },
+        "iid_perfect": {
+          "baseline": 58.49663740478978,
+          "policy": 14.515311073076525
+        },
+        "persistent_perfect": {
+          "baseline": 431.4994062247391,
+          "policy": 199.99764515653672
+        }
+      },
+      "ordered_bridge_events_sha256": "5df7a89af7fcdc4a4b453b3f632ee633c60c249312d0ec956ccad834901d04e7",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_27/completed/2023177736.json",
+      "seed": 2023177736,
+      "sha256": "59e727ba82b46b4cc406c0064fee5a8ad2429104f296b1fda243811b36b9ec64"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 208.8622839824319,
+          "policy": 150.42771099913423
+        },
+        "iid_perfect": {
+          "baseline": 24.943340799346295,
+          "policy": 6.190334120102564
+        },
+        "persistent_perfect": {
+          "baseline": 183.31973238596646,
+          "policy": 84.99012292677645
+        }
+      },
+      "ordered_bridge_events_sha256": "3f7779672029b31916bf7675fe36ff6702b213b94f9a2d0cbec51a194cc9dba2",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_28/completed/2281838134.json",
+      "seed": 2281838134,
+      "sha256": "2ba35b69e1191fa311c8b5337f0adc743261ef5dfff41d5f43424c556d9ae021"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 545.7220945588374,
+          "policy": 393.0241350623132
+        },
+        "iid_perfect": {
+          "baseline": 65.16295796247125,
+          "policy": 16.17161884449867
+        },
+        "persistent_perfect": {
+          "baseline": 479.128464632483,
+          "policy": 222.13432286249306
+        }
+      },
+      "ordered_bridge_events_sha256": "d8fe18f207d815137b182df20d5c5715ce8750e779f2ec23af54638ab1981253",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_29/completed/4094666577.json",
+      "seed": 4094666577,
+      "sha256": "cc5ffa48727ac81c5369198546a53917b3a7b1a934f401e32c16d9aba865734f"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 501.2197299812055,
+          "policy": 360.74220548380794
+        },
+        "iid_perfect": {
+          "baseline": 59.717483717576044,
+          "policy": 14.816381546745365
+        },
+        "persistent_perfect": {
+          "baseline": 442.6572813079492,
+          "policy": 205.09464090173392
+        }
+      },
+      "ordered_bridge_events_sha256": "020ff91330a98d52cce534704bea2c15c638a03be07fcd3c94aee1dd4e4729bb",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_30/completed/2181923412.json",
+      "seed": 2181923412,
+      "sha256": "e779e1aa237defd1822c2d600ccfbcd2b1bb094a06ee6d211b442e90c94f9d23"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 258.5977427260319,
+          "policy": 186.3594002316605
+        },
+        "iid_perfect": {
+          "baseline": 30.94710948557891,
+          "policy": 7.682237263241833
+        },
+        "persistent_perfect": {
+          "baseline": 225.85215797473015,
+          "policy": 104.76071391125593
+        }
+      },
+      "ordered_bridge_events_sha256": "872454764df0d69a3e830dcfc050e6bbb9181eff240068e94c4f6a3f6c109032",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_31/completed/2270386251.json",
+      "seed": 2270386251,
+      "sha256": "5c05e28645e590a83c355f417a706944cc90bf7b3e7d836da9275683dfa58be6"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 101.43443804633623,
+          "policy": 73.0629106432311
+        },
+        "iid_perfect": {
+          "baseline": 12.118272110709086,
+          "policy": 3.0076046832247783
+        },
+        "persistent_perfect": {
+          "baseline": 88.99439769155956,
+          "policy": 41.25679539804684
+        }
+      },
+      "ordered_bridge_events_sha256": "074c36b0d5cf1a0b7efb9f951bff92eace9a781e01f5fd94900895121c2f72ba",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_00/completed/2099362074.json",
+      "seed": 2099362074,
+      "sha256": "c3b10ace9041dcdb9fd5916890727a3382c1a37828d9a47b25e84939dbb45592"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 296.8960014590147,
+          "policy": 213.7843704371926
+        },
+        "iid_perfect": {
+          "baseline": 35.42985613089626,
+          "policy": 8.7920555629713
+        },
+        "persistent_perfect": {
+          "baseline": 261.092995351499,
+          "policy": 121.01877013089099
+        }
+      },
+      "ordered_bridge_events_sha256": "311fa73ca8c6b61187ee48ead2896d4997de4332fd6723d80abf556b5e98d04d",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_01/completed/84082603.json",
+      "seed": 84082603,
+      "sha256": "3ca1c24405993ef2acb3164b2e9218abb7c10432323b2b486ddeb5fba63357cd"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 241.17521822061875,
+          "policy": 173.7412413714839
+        },
+        "iid_perfect": {
+          "baseline": 28.827802045682855,
+          "policy": 7.15520572926153
+        },
+        "persistent_perfect": {
+          "baseline": 211.3812254823271,
+          "policy": 98.00673858533452
+        }
+      },
+      "ordered_bridge_events_sha256": "93dbb307ffc8d36ebe566d8867154fde996ecda1982530cd76a3ae00f35dc091",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_02/completed/2309484264.json",
+      "seed": 2309484264,
+      "sha256": "d7ba3decb3a65630906c5214b927b17e9d241d0111bb6cff2dd7610c70ecdacc"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 540.0602145318428,
+          "policy": 388.76480886957836
+        },
+        "iid_perfect": {
+          "baseline": 64.38172531968354,
+          "policy": 15.974595021051618
+        },
+        "persistent_perfect": {
+          "baseline": 475.97222675274674,
+          "policy": 220.595916179212
+        }
+      },
+      "ordered_bridge_events_sha256": "ea678b3f4ad2a80d496688cc2658c2b90250b789b3855ff602c1a6773d2ca698",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_03/completed/158137827.json",
+      "seed": 158137827,
+      "sha256": "25093915f4eef5cbdc4649b82af50145c19e3f09020b43f0787fdf3110771b77"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 629.9426401178305,
+          "policy": 453.8077190586278
+        },
+        "iid_perfect": {
+          "baseline": 75.2953148634864,
+          "policy": 18.688502871957848
+        },
+        "persistent_perfect": {
+          "baseline": 552.0142095569577,
+          "policy": 255.94767087224943
+        }
+      },
+      "ordered_bridge_events_sha256": "40c3435c8604f3dde5278d3fc1738a84397204f57afb7e78afa1c1b2bdda3afb",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_04/completed/691092503.json",
+      "seed": 691092503,
+      "sha256": "1d039ab18162cc42e11a619d58ac5b46d73d7543d67dd0119ddf6294b99531ce"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 231.5306043852087,
+          "policy": 166.78398693102397
+        },
+        "iid_perfect": {
+          "baseline": 27.666684582947543,
+          "policy": 6.866641223093098
+        },
+        "persistent_perfect": {
+          "baseline": 202.73308625808556,
+          "policy": 94.02362971365486
+        }
+      },
+      "ordered_bridge_events_sha256": "df9cd0bd9ba5cc5275e6a37523608c6b94f575c44b801d6af302c4e2141d6b90",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_05/completed/1030108092.json",
+      "seed": 1030108092,
+      "sha256": "6b84667b88515a0335fe234f5d582a63948d652678e0347fee24df4a88c9a97c"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 615.7956325290573,
+          "policy": 443.36906691454124
+        },
+        "iid_perfect": {
+          "baseline": 73.46766396599442,
+          "policy": 18.23107052381526
+        },
+        "persistent_perfect": {
+          "baseline": 542.6511871644219,
+          "policy": 251.45903725589906
+        }
+      },
+      "ordered_bridge_events_sha256": "f8c2057a9cc7338eececfd5e556002ac1d006a874955c90f03acda44de7fb335",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_06/completed/1195350199.json",
+      "seed": 1195350199,
+      "sha256": "d9d8d58dc24ac6a6280dd340382ecc1b9f49ed83fca25b469ef7cf605a66684b"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 391.85977278296053,
+          "policy": 282.1339347995799
+        },
+        "iid_perfect": {
+          "baseline": 46.750229164921336,
+          "policy": 11.601134587187499
+        },
+        "persistent_perfect": {
+          "baseline": 345.3569704931398,
+          "policy": 160.0316373478209
+        }
+      },
+      "ordered_bridge_events_sha256": "975d95558db8b832bef9be960bcc69aa8dc890ee361e653caab365cf84764790",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_07/completed/596081777.json",
+      "seed": 596081777,
+      "sha256": "98da84b090a0227daf1513fb4d5d80e6fb89cb473ce9ce4c20931227e6bf6767"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 510.0870212026009,
+          "policy": 367.27547960198604
+        },
+        "iid_perfect": {
+          "baseline": 60.861471700347664,
+          "policy": 15.102828155304488
+        },
+        "persistent_perfect": {
+          "baseline": 448.97230101297487,
+          "policy": 208.07809720055212
+        }
+      },
+      "ordered_bridge_events_sha256": "a8dc28894919658e58db09c8566a05c0ad8218e8109a463b6cb250405b79ca20",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_08/completed/2139155452.json",
+      "seed": 2139155452,
+      "sha256": "2108a1e1323b9973419e704348706db3fc84db106d8c237bdebdda200d19b2b0"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 375.04842025244824,
+          "policy": 270.22323244820547
+        },
+        "iid_perfect": {
+          "baseline": 44.85220263665783,
+          "policy": 11.133164438317888
+        },
+        "persistent_perfect": {
+          "baseline": 328.3380391181156,
+          "policy": 152.25591879370546
+        }
+      },
+      "ordered_bridge_events_sha256": "19c98996e98955f1ab6652b78ec3b73b2f942dabfd48095e24c0e221a381e5e2",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_09/completed/2775702123.json",
+      "seed": 2775702123,
+      "sha256": "8b34979c0df0eed10065014347c356580a33d32e9645d5a4a602699255b14b89"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 351.5649821413139,
+          "policy": 253.3426331272494
+        },
+        "iid_perfect": {
+          "baseline": 42.06102910641799,
+          "policy": 10.440625956318303
+        },
+        "persistent_perfect": {
+          "baseline": 306.78583530635876,
+          "policy": 142.32528979030135
+        }
+      },
+      "ordered_bridge_events_sha256": "b5d96da37d892b1022eb2e0104c610277436cd3fe6e2c06781a15b2718bdcb08",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_10/completed/2368044317.json",
+      "seed": 2368044317,
+      "sha256": "e832396fa659cff98eb3bd821fc148da57d3ab50d146cc98d6bc3cac57d682e6"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 316.7338216784632,
+          "policy": 228.1150061827541
+        },
+        "iid_perfect": {
+          "baseline": 37.821349054162354,
+          "policy": 9.386124736689759
+        },
+        "persistent_perfect": {
+          "baseline": 277.84801986163853,
+          "policy": 128.83203510470574
+        }
+      },
+      "ordered_bridge_events_sha256": "786e7d3485f5d028ff4cb51f288d1c1fcbe3e8cd9af1a2f7ccfcbc429b23100e",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_11/completed/3862308333.json",
+      "seed": 3862308333,
+      "sha256": "debc3fd97506180295d24aea599821c10c4777d799c6062345bc312c088ce589"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 109.53530092044804,
+          "policy": 78.9220229841447
+        },
+        "iid_perfect": {
+          "baseline": 13.099671775818871,
+          "policy": 3.251566416896986
+        },
+        "persistent_perfect": {
+          "baseline": 95.83541824346099,
+          "policy": 44.4413303024895
+        }
+      },
+      "ordered_bridge_events_sha256": "e14a3e76e97c6f934a519a8320b34bd5c0557180acc3ee35e18a94099e26f4de",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_12/completed/2375004056.json",
+      "seed": 2375004056,
+      "sha256": "2bf3098b7aafe6f0c063a44da24007dd09129c0aac597396050814d5afe65856"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 560.1215080409833,
+          "policy": 403.36624256723263
+        },
+        "iid_perfect": {
+          "baseline": 66.8684453460631,
+          "policy": 16.594557310598717
+        },
+        "persistent_perfect": {
+          "baseline": 492.38379805063494,
+          "policy": 228.22328929794523
+        }
+      },
+      "ordered_bridge_events_sha256": "a52d06e8a8e971f4c68ea6a9c52ed568264458a39125a5e633c2c82739acf2fe",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_13/completed/1929859058.json",
+      "seed": 1929859058,
+      "sha256": "2255f4d463b2460b4db9943253eca253705f025a926bd063f37348a3b8c555d2"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 491.0581312642662,
+          "policy": 353.50596598375694
+        },
+        "iid_perfect": {
+          "baseline": 58.54969655079486,
+          "policy": 14.527847823941269
+        },
+        "persistent_perfect": {
+          "baseline": 432.7655380809563,
+          "policy": 200.55832222531893
+        }
+      },
+      "ordered_bridge_events_sha256": "4f2f160fc5d4f83c55c19cc575e15513361fe4cb1203bc1fcccf23a7fba4c92a",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_14/completed/858692766.json",
+      "seed": 858692766,
+      "sha256": "06c9552458f964a68e39a29e69e7453fecae2165d84dcaed1361712d1ede67bd"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 82.23279990150553,
+          "policy": 59.16280908511877
+        },
+        "iid_perfect": {
+          "baseline": 9.785288902588547,
+          "policy": 2.4274699062149057
+        },
+        "persistent_perfect": {
+          "baseline": 72.94164610675675,
+          "policy": 33.78195541297381
+        }
+      },
+      "ordered_bridge_events_sha256": "71c68e643bf7867d419d74896e3637046b393b50c508941435c454a34fde4247",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_15/completed/2276634655.json",
+      "seed": 2276634655,
+      "sha256": "bf4f721fa564f1b66804d849f1526c755954f1614214f4980a1c594324d9a435"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 575.179857848178,
+          "policy": 414.0734680159207
+        },
+        "iid_perfect": {
+          "baseline": 68.5850309054229,
+          "policy": 17.018046991436552
+        },
+        "persistent_perfect": {
+          "baseline": 506.89877769648547,
+          "policy": 234.8990228614276
+        }
+      },
+      "ordered_bridge_events_sha256": "fe858a06378565272d6749e09cfc72de3b60a2b4ddfae5b4f2243a5b71b28acf",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_16/completed/3433939905.json",
+      "seed": 3433939905,
+      "sha256": "a946ce4dbe1451d9c811f34996466029efd57e3de4ac53eeec2ca7079c2c34c6"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 538.600332439122,
+          "policy": 387.79321824696274
+        },
+        "iid_perfect": {
+          "baseline": 64.25529024227949,
+          "policy": 15.944714970105828
+        },
+        "persistent_perfect": {
+          "baseline": 474.1775435225034,
+          "policy": 219.75079006992993
+        }
+      },
+      "ordered_bridge_events_sha256": "228642e143206aa8b5566ed34890c5853ccbbb066bf960f349f0306474190793",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_17/completed/2744602729.json",
+      "seed": 2744602729,
+      "sha256": "661974d8920a419d8169c32436aa95db0499d6b3d557e69566891ea4d14c61d5"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 370.1413898014182,
+          "policy": 266.46050006761
+        },
+        "iid_perfect": {
+          "baseline": 44.131604877886424,
+          "policy": 10.950209095945764
+        },
+        "persistent_perfect": {
+          "baseline": 326.1163271739422,
+          "policy": 151.1307270333968
+        }
+      },
+      "ordered_bridge_events_sha256": "d469b2ab424d9de453240bb978d602722309353ae3add54f912d19628c4ec60b",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_18/completed/3341905537.json",
+      "seed": 3341905537,
+      "sha256": "fa07dab1cdaafd361943b9207a24bf272f967f8551a11f0fab754150f1ad4e4a"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 239.5602841999357,
+          "policy": 172.3945022631003
+        },
+        "iid_perfect": {
+          "baseline": 28.527519750629697,
+          "policy": 7.077417869300522
+        },
+        "persistent_perfect": {
+          "baseline": 211.80459891247455,
+          "policy": 98.11654592488082
+        }
+      },
+      "ordered_bridge_events_sha256": "385fefd654303936481629a57f87da4ef813a6fb3b99eb6d51166565b46a28b1",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_19/completed/304569463.json",
+      "seed": 304569463,
+      "sha256": "20a2bc9bb90ffd8b5ae5f70e1fc2545ede922c563c76dbf19d088d1c97dba850"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 577.7715908342919,
+          "policy": 415.8688046748371
+        },
+        "iid_perfect": {
+          "baseline": 68.85560897176207,
+          "policy": 17.084153919075295
+        },
+        "persistent_perfect": {
+          "baseline": 509.8429130291465,
+          "policy": 236.240486354263
+        }
+      },
+      "ordered_bridge_events_sha256": "eaadc32d3a47a1b50a9001d7c1e15b0b112485cbf8da0bcb6d5a8ddcf27ac5d4",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_20/completed/2903756078.json",
+      "seed": 2903756078,
+      "sha256": "65c837195639d4b7fd1129bb44d98a85c12e941e4a95d4c7576d3c80fb8bb8d1"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 533.8978949477747,
+          "policy": 384.3798295800991
+        },
+        "iid_perfect": {
+          "baseline": 63.677585924462015,
+          "policy": 15.80083497916824
+        },
+        "persistent_perfect": {
+          "baseline": 470.1878006964896,
+          "policy": 217.91173441025919
+        }
+      },
+      "ordered_bridge_events_sha256": "41125301cdf8a66cca8dd1dc3007dbaaa7b34708eb889a2bcce3909601d88937",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_21/completed/2506772665.json",
+      "seed": 2506772665,
+      "sha256": "a43884247a06c79db1da59b82b001f4466bfc29dd0fa7ec661c3803367f47c41"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 297.7251119260083,
+          "policy": 214.444413070009
+        },
+        "iid_perfect": {
+          "baseline": 35.56534498889222,
+          "policy": 8.826772638218866
+        },
+        "persistent_perfect": {
+          "baseline": 261.19809109359693,
+          "policy": 121.10910383281981
+        }
+      },
+      "ordered_bridge_events_sha256": "cf581ea339f9ccefba76eae8b346282df95c4abd0df5b9adbb06fe41bb244ca6",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_22/completed/1814401656.json",
+      "seed": 1814401656,
+      "sha256": "51b7f92e0af2bd7ae93621da8e09622a34d141a161fdeb039396f96d68dc5a44"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 671.0707194315728,
+          "policy": 483.308430777256
+        },
+        "iid_perfect": {
+          "baseline": 80.13367443635565,
+          "policy": 19.88692699719707
+        },
+        "persistent_perfect": {
+          "baseline": 588.96835660731,
+          "policy": 273.0611042613565
+        }
+      },
+      "ordered_bridge_events_sha256": "182621eb028bc1edd02442ddf5208a47848a08348065d5fdbe42280f51d1ccb0",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_23/completed/1240254811.json",
+      "seed": 1240254811,
+      "sha256": "e91a4c749f725cb6f8e85535a866ed10aa578a754a11f24d5b95f52136b605d0"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 295.57072539183264,
+          "policy": 212.8160914633542
+        },
+        "iid_perfect": {
+          "baseline": 35.26470779844487,
+          "policy": 8.750907864817586
+        },
+        "persistent_perfect": {
+          "baseline": 260.1920942511515,
+          "policy": 120.58672085069094
+        }
+      },
+      "ordered_bridge_events_sha256": "61d5a275f87562985c38cde70e77f423d4cfa61d94a985c251f9a94deb20a31e",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_24/completed/3393192579.json",
+      "seed": 3393192579,
+      "sha256": "10ebfd94243288c14cf6928eee6dacfd445d2aee3e82e90ebe1252a39294763b"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 560.6815154561245,
+          "policy": 403.62623595738637
+        },
+        "iid_perfect": {
+          "baseline": 66.86213688790436,
+          "policy": 16.591225857743137
+        },
+        "persistent_perfect": {
+          "baseline": 495.18484814110116,
+          "policy": 229.37932667941155
+        }
+      },
+      "ordered_bridge_events_sha256": "335833f686fa4b5ae8aa70266548ab3dba06dd9c983104f9ea27d74782ea50fd",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_25/completed/2378762641.json",
+      "seed": 2378762641,
+      "sha256": "98f618e5405c4c486ef6a7acb0d3e8a3fbdf6fe4f4829a1ee6d80706f6026591"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 231.48745106100506,
+          "policy": 166.88404373767835
+        },
+        "iid_perfect": {
+          "baseline": 28.458333589948996,
+          "policy": 7.812518848234789
+        },
+        "persistent_perfect": {
+          "baseline": 204.6438362708303,
+          "policy": 95.34011668340891
+        }
+      },
+      "ordered_bridge_events_sha256": "fc1a2575b43ef6e2aaffe6e1d6fc8c7d67867721afbc21fd33d09a4ff71bda72",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_26/completed/3654055038.json",
+      "seed": 3654055038,
+      "sha256": "45859a4327825d428af4e4f44e9859bf5ff81aa28867e8e8d00eed65efd9d938"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 575.6399620484717,
+          "policy": 414.3752655362886
+        },
+        "iid_perfect": {
+          "baseline": 68.62662749848089,
+          "policy": 17.028141132851932
+        },
+        "persistent_perfect": {
+          "baseline": 507.8159972921877,
+          "policy": 235.29250141235144
+        }
+      },
+      "ordered_bridge_events_sha256": "1c6043c1283bd5c4f5440dfd9d1bf04ca4a1443eedeff65c32b5b4f85548d56b",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_27/completed/4040138474.json",
+      "seed": 4040138474,
+      "sha256": "8e8ff463d8534bc20d68b734809b05be3a55010bc49f9dc1ba5271cb252eb3c7"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 449.8183285963463,
+          "policy": 324.02575640875517
+        },
+        "iid_perfect": {
+          "baseline": 53.75070095806793,
+          "policy": 13.34051625508872
+        },
+        "persistent_perfect": {
+          "baseline": 394.1716163388704,
+          "policy": 182.77337842544398
+        }
+      },
+      "ordered_bridge_events_sha256": "81d2dba2865226d2a270d580d957fb39b2f746d51575e890e41fdc3f9c95eaf6",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_28/completed/576264056.json",
+      "seed": 576264056,
+      "sha256": "116decf5f1fae3bb175899b24366438dc833fae457c6e28701fa584b77efe98d"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 389.2250997762335,
+          "policy": 280.29624557804755
+        },
+        "iid_perfect": {
+          "baseline": 46.466060428777006,
+          "policy": 11.531330440096239
+        },
+        "persistent_perfect": {
+          "baseline": 342.2061323247309,
+          "policy": 158.6070444561093
+        }
+      },
+      "ordered_bridge_events_sha256": "83fa17351dc768e5f1c7660aa46bc7c79e6c156941bb6e2ece540e5ae7e31a75",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_29/completed/1601652064.json",
+      "seed": 1601652064,
+      "sha256": "5a69f7b829eba161d3e9d1e0a44f2a998eded7477c00a2fc4d4b210369f7c60c"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 577.2215410346971,
+          "policy": 415.81280798773724
+        },
+        "iid_perfect": {
+          "baseline": 68.98098449856046,
+          "policy": 17.120719410729933
+        },
+        "persistent_perfect": {
+          "baseline": 505.46687757250464,
+          "policy": 234.40744123978703
+        }
+      },
+      "ordered_bridge_events_sha256": "4e886012dc61797182d0c53b12722e9c8b070125c419eb5adba4dbeadb3d797b",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_30/completed/74799026.json",
+      "seed": 74799026,
+      "sha256": "2eaf96543fc6e6fced2d0bd3feacd32b17e53b60ba86a7c08b7c98841d27ef41"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 592.8576762441699,
+          "policy": 426.7591370453492
+        },
+        "iid_perfect": {
+          "baseline": 70.66978744245527,
+          "policy": 17.534666795673193
+        },
+        "persistent_perfect": {
+          "baseline": 522.8362387653883,
+          "policy": 242.27490177157878
+        }
+      },
+      "ordered_bridge_events_sha256": "441a94a8edd1b2a51bf595e159ff88eedc17087825a48cd166a53f104d5d09cd",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_31/completed/133648510.json",
+      "seed": 133648510,
+      "sha256": "1d794f021be23e93c8bf5407d39d0b3c51f77d83ca21e790cf4973dd6ed0b6e8"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 666.090812905604,
+          "policy": 479.5257466131602
+        },
+        "iid_perfect": {
+          "baseline": 79.42902468237301,
+          "policy": 19.70893330379672
+        },
+        "persistent_perfect": {
+          "baseline": 586.6763732464109,
+          "policy": 271.91507989059147
+        }
+      },
+      "ordered_bridge_events_sha256": "a65c8b5e50ecfa574bc216f1c8361f98e2b5aeb232a9ff9a6330f18c97bb99f4",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_00/completed/1599389270.json",
+      "seed": 1599389270,
+      "sha256": "8eae3e0d853437533b99914c9235eb5a8627cc33171c8d7632e9b044e18a8f3f"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 347.0096823254453,
+          "policy": 249.7324691888706
+        },
+        "iid_perfect": {
+          "baseline": 41.33414126983581,
+          "policy": 10.255090003930086
+        },
+        "persistent_perfect": {
+          "baseline": 306.9377793911097,
+          "policy": 142.1672331572435
+        }
+      },
+      "ordered_bridge_events_sha256": "4f10a9a96bb712048cb39a5a5d838a738d4a97be1eb958d562fb5e718041d7be",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_01/completed/2116928025.json",
+      "seed": 2116928025,
+      "sha256": "0f2c5a7e5f0c8b36e44c5101b08cf7a0fb21bf044507e9128e6fb807005f8eb1"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 284.95843765304005,
+          "policy": 205.08736620495034
+        },
+        "iid_perfect": {
+          "baseline": 33.94691643533939,
+          "policy": 8.422324084342225
+        },
+        "persistent_perfect": {
+          "baseline": 251.57543529556708,
+          "policy": 116.57303860813951
+        }
+      },
+      "ordered_bridge_events_sha256": "a87f85466e65583de0f09fcb58de189c8f97c0e52eba87aac212c66e33c61ee2",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_02/completed/4148050969.json",
+      "seed": 4148050969,
+      "sha256": "3216ddb4bd7aea486dcbd2d0827560d5c5e8410575f021f990aa5addd855b54b"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 555.1406652959238,
+          "policy": 399.61989675055094
+        },
+        "iid_perfect": {
+          "baseline": 66.18537805338892,
+          "policy": 16.42256294631205
+        },
+        "persistent_perfect": {
+          "baseline": 489.99037776697276,
+          "policy": 227.02624616899948
+        }
+      },
+      "ordered_bridge_events_sha256": "0b993b3c4f2eb5c88b57a9084e74f4e92278d27aa4229cca1014744ca4f5a26d",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_03/completed/4003264109.json",
+      "seed": 4003264109,
+      "sha256": "2d06f21470864becd91438959bbf625a866212220666182217a3685ea8fdcf62"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 322.61449009049716,
+          "policy": 232.30906982735777
+        },
+        "iid_perfect": {
+          "baseline": 38.504091607504904,
+          "policy": 9.555165012567574
+        },
+        "persistent_perfect": {
+          "baseline": 283.894082558107,
+          "policy": 131.56551972423156
+        }
+      },
+      "ordered_bridge_events_sha256": "c78988610ed7194ecaba20c5f48360a9d15e9233c276f2d41685c51430a98292",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_04/completed/3663756229.json",
+      "seed": 3663756229,
+      "sha256": "10d0a48842e0022f39913e43e7d61762747170a061e6b6ee89a81ef84ab66357"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 661.8273571575858,
+          "policy": 476.41610194268435
+        },
+        "iid_perfect": {
+          "baseline": 78.90791476778887,
+          "policy": 19.579676988577628
+        },
+        "persistent_perfect": {
+          "baseline": 584.7704746575723,
+          "policy": 270.8609518390825
+        }
+      },
+      "ordered_bridge_events_sha256": "90e4ab0772ee94511b61fa5caa7a886a5b68f31db659c46c2265996759c9929b",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_05/completed/2483307921.json",
+      "seed": 2483307921,
+      "sha256": "cb9d54c859a675b25251c4003361a90fa3258ef8636467e26443becb5a8b9060"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 691.1720772856825,
+          "policy": 497.5098994569253
+        },
+        "iid_perfect": {
+          "baseline": 82.38200329778141,
+          "policy": 20.440687548436934
+        },
+        "persistent_perfect": {
+          "baseline": 609.990462453176,
+          "policy": 282.6437746658812
+        }
+      },
+      "ordered_bridge_events_sha256": "fa5396946621094cfbd95aec57e0015c3d28bf35ba03ca8d5e30d2608501de49",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_06/completed/4045776082.json",
+      "seed": 4045776082,
+      "sha256": "c82e7ae7ef3ce49725d7476c823a5cd84496f29cd5dc4f63a94194d113a58e2d"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 735.8263764917963,
+          "policy": 529.8400518701461
+        },
+        "iid_perfect": {
+          "baseline": 87.81336810315375,
+          "policy": 21.79158969156635
+        },
+        "persistent_perfect": {
+          "baseline": 647.6503331653272,
+          "policy": 300.15198495431787
+        }
+      },
+      "ordered_bridge_events_sha256": "faf2c7c7fb0f2a0cc3df1fbe77d16c8a9f34e6bf250251f2a3a769601b5c5ace",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_07/completed/1799879451.json",
+      "seed": 1799879451,
+      "sha256": "feee6797fae75a5fc47f1f81bd138895445100c2225be57d010989af2b4d4024"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 514.4306577448498,
+          "policy": 370.4169481149267
+        },
+        "iid_perfect": {
+          "baseline": 61.38515209058645,
+          "policy": 15.23283560741142
+        },
+        "persistent_perfect": {
+          "baseline": 452.3446462319287,
+          "policy": 209.67664279024405
+        }
+      },
+      "ordered_bridge_events_sha256": "40c590a205148b2f52d0a1ea7803f25a064d7fa2b08c039608682cc048e40100",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_08/completed/3122155687.json",
+      "seed": 3122155687,
+      "sha256": "135bf17372dfab5a32a76c69912b1186b01c4f69e150a6dc810667726e855c24"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 431.7563940552445,
+          "policy": 310.7692456964679
+        },
+        "iid_perfect": {
+          "baseline": 51.452032907975436,
+          "policy": 12.765901410866238
+        },
+        "persistent_perfect": {
+          "baseline": 380.84434214210665,
+          "policy": 176.48022521532042
+        }
+      },
+      "ordered_bridge_events_sha256": "81f8129e65d95405ab5095db68acec5613eb1381a058bb0267b9bbe1581dce10",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_09/completed/1362335237.json",
+      "seed": 1362335237,
+      "sha256": "e8d10a65f60d83f634d3cea320395d258034d039a9a54d581e3c08b8ccaa4cbe"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 506.49427613895,
+          "policy": 364.5735099724796
+        },
+        "iid_perfect": {
+          "baseline": 60.365182369025796,
+          "policy": 14.977613141674041
+        },
+        "persistent_perfect": {
+          "baseline": 446.81791083358917,
+          "policy": 207.04934655521726
+        }
+      },
+      "ordered_bridge_events_sha256": "1c23b61040a9e47677006ceb25c55422452ca03bae76875dcebfec7590ebfc89",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_10/completed/3977611700.json",
+      "seed": 3977611700,
+      "sha256": "7624a0220162da606a6f24cab49d6bdf278d64363ab5cc03c01eb1d0aac8d34e"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 274.7858739336027,
+          "policy": 197.89939906098743
+        },
+        "iid_perfect": {
+          "baseline": 32.8088419896461,
+          "policy": 8.142024056569143
+        },
+        "persistent_perfect": {
+          "baseline": 240.9851146157237,
+          "policy": 111.743040881195
+        }
+      },
+      "ordered_bridge_events_sha256": "746221945ad80b86c21fba4b16e3385b9d5323cdc1bfaad63b545450dc4aa937",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_11/completed/850782782.json",
+      "seed": 850782782,
+      "sha256": "c4886f8d03767e7f711e37ad656751a350a46e705e262c0c02ddf20e5481eaeb"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 555.6129913590419,
+          "policy": 400.2105588340535
+        },
+        "iid_perfect": {
+          "baseline": 66.38461753952036,
+          "policy": 16.47618970187207
+        },
+        "persistent_perfect": {
+          "baseline": 487.619414546472,
+          "policy": 226.0551212510387
+        }
+      },
+      "ordered_bridge_events_sha256": "dca7c16f808e8c3fcff6a3a384de72d4dafa8621914f1517e90856f9d2e407c8",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_12/completed/1156073250.json",
+      "seed": 1156073250,
+      "sha256": "8650ab05327c08a8ab4280fa98c3c36995fc48c991f96eb9f5b0b52f4ed84b5f"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 236.58257789094236,
+          "policy": 170.32545816349966
+        },
+        "iid_perfect": {
+          "baseline": 28.213226061622315,
+          "policy": 7.000552040880546
+        },
+        "persistent_perfect": {
+          "baseline": 208.12555834750566,
+          "policy": 96.47795458680902
+        }
+      },
+      "ordered_bridge_events_sha256": "2f94e20bbecb7c340c5d991e263db7e6eb8275403c92395b37817cdcb8453aec",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_13/completed/741020260.json",
+      "seed": 741020260,
+      "sha256": "219691dd331bea56b5f1507874bb48bfcd3a63c67f234cd45d376a26d8774ee4"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 592.9976785661333,
+          "policy": 426.94954801287344
+        },
+        "iid_perfect": {
+          "baseline": 70.73851658657281,
+          "policy": 17.553285818428495
+        },
+        "persistent_perfect": {
+          "baseline": 522.0631281755116,
+          "policy": 241.95636401483327
+        }
+      },
+      "ordered_bridge_events_sha256": "a7a5148aad1c03f0ca15b5fc69dd79e1699966b4bc91675ceace1fbf25ca5c4a",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_14/completed/4119999613.json",
+      "seed": 4119999613,
+      "sha256": "0d16ec40809916dcc0d7339d741efd2611b74f45b58f942e840da9507f7e5386"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 261.62882529146964,
+          "policy": 188.36750671027383
+        },
+        "iid_perfect": {
+          "baseline": 31.209234600937634,
+          "policy": 7.744369837105513
+        },
+        "persistent_perfect": {
+          "baseline": 230.33618994972417,
+          "policy": 106.75798040642724
+        }
+      },
+      "ordered_bridge_events_sha256": "42040c2e7721214c5b84624eb54bfc2ec0a85bbd32bbc26b302f881fba9d874a",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_15/completed/803444160.json",
+      "seed": 803444160,
+      "sha256": "66a931dc26e422b6f9ea8576cb485543a25b8d525b872174ae80cb1fb7acd182"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 515.7415343485019,
+          "policy": 371.81780960637
+        },
+        "iid_perfect": {
+          "baseline": 62.52410087664332,
+          "policy": 16.270319662254877
+        },
+        "persistent_perfect": {
+          "baseline": 451.96752372307884,
+          "policy": 210.11062797730716
+        }
+      },
+      "ordered_bridge_events_sha256": "c9d880483ddfd84116174de17d8fa31c6922947140ccc16f9c4d2c6f98d57ac4",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_16/completed/1278500320.json",
+      "seed": 1278500320,
+      "sha256": "056e41daa58ae8a68a746842221f3fc05723a99fd4bec63f400cb63930570ba3"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 556.8825240030073,
+          "policy": 400.92634031991986
+        },
+        "iid_perfect": {
+          "baseline": 66.41611782391159,
+          "policy": 16.480193571367472
+        },
+        "persistent_perfect": {
+          "baseline": 490.2498272743075,
+          "policy": 227.24627315133523
+        }
+      },
+      "ordered_bridge_events_sha256": "24fc80c6750aab7f32a2bb14f89dde56577a942accf10c710ef2e98a695d6024",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_17/completed/224341883.json",
+      "seed": 224341883,
+      "sha256": "2881c3bdef9ceff6a300c7cfe4a5e7737eac0f6c6e806c74f71ecbc2b3628f14"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 357.9756394601943,
+          "policy": 257.72361182292053
+        },
+        "iid_perfect": {
+          "baseline": 42.69702995990748,
+          "policy": 10.594893634420831
+        },
+        "persistent_perfect": {
+          "baseline": 315.51902650964325,
+          "policy": 146.19862469093016
+        }
+      },
+      "ordered_bridge_events_sha256": "e5a6c507f8aea2b73175c676fcd006738173f5c6ee65576f4e1b2ce6f393eea8",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_18/completed/3107590556.json",
+      "seed": 3107590556,
+      "sha256": "21e43966de89d95c7eca2bc51e4b652b9d0de0b108e33f9c49c207c1c46219ee"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 699.7923236905244,
+          "policy": 504.0742978890474
+        },
+        "iid_perfect": {
+          "baseline": 83.60477319894679,
+          "policy": 20.749396670375152
+        },
+        "persistent_perfect": {
+          "baseline": 612.6344147587042,
+          "policy": 284.1558426806123
+        }
+      },
+      "ordered_bridge_events_sha256": "d0797e0d965998f3f652d4782da6458fa01210d17395c1b6c1d3051d147e0475",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_19/completed/2674212161.json",
+      "seed": 2674212161,
+      "sha256": "327ea3687b43a3cdd37f185700f8ffa8d7978acc245efaa41e66c3c67598da11"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 507.8709214673818,
+          "policy": 365.7484972646119
+        },
+        "iid_perfect": {
+          "baseline": 60.639196729255275,
+          "policy": 15.049031988676854
+        },
+        "persistent_perfect": {
+          "baseline": 446.632078612847,
+          "policy": 207.00753550997092
+        }
+      },
+      "ordered_bridge_events_sha256": "36c15b80788ee166ac1371e003eee9aee7f224c43b017050d939af1345ebdb8d",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_20/completed/2875945215.json",
+      "seed": 2875945215,
+      "sha256": "94d19f4532b9d74279016bc98d5c82ca06e84e6c2a294e6f9d2f71f2de94bd1e"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 598.7380631060469,
+          "policy": 430.9904307685053
+        },
+        "iid_perfect": {
+          "baseline": 71.36890376722693,
+          "policy": 17.708037290841432
+        },
+        "persistent_perfect": {
+          "baseline": 527.946397005361,
+          "policy": 244.66089979846026
+        }
+      },
+      "ordered_bridge_events_sha256": "15a38be237d8cdef8eacb2c7650301863e13b7697533f3de109365528675efcb",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_21/completed/2370896922.json",
+      "seed": 2370896922,
+      "sha256": "4d2da3b79184345f717ac95cbc938fd737f514ba2b89f4b408ff4fbf3c985be5"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 292.70452068617436,
+          "policy": 210.65384821940924
+        },
+        "iid_perfect": {
+          "baseline": 34.86666578432747,
+          "policy": 8.650504971129111
+        },
+        "persistent_perfect": {
+          "baseline": 258.715268936888,
+          "policy": 119.8503323526104
+        }
+      },
+      "ordered_bridge_events_sha256": "7bd37beb90f69e1f24aab2286dbb00598c085c338f1144956acb23885bbf08ac",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_22/completed/2150232545.json",
+      "seed": 2150232545,
+      "sha256": "108a662cd51466033ca4233287a42eb2bc3ebd3f0784eaf3fa462396f36e7829"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 620.7629652603705,
+          "policy": 447.05313799183284
+        },
+        "iid_perfect": {
+          "baseline": 74.11683807171528,
+          "policy": 18.393600546985745
+        },
+        "persistent_perfect": {
+          "baseline": 545.5448956680931,
+          "policy": 252.8864556752772
+        }
+      },
+      "ordered_bridge_events_sha256": "5d017e050cc6ddbaaada731d27faf927991f0e843ccc6a69c50ae501df23526c",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_23/completed/2905542342.json",
+      "seed": 2905542342,
+      "sha256": "e0e4ed921636212c250f2f302d7ba852c52f4c435b531b4b5f8b72ded7a41819"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 130.2363265680801,
+          "policy": 93.73815486923984
+        },
+        "iid_perfect": {
+          "baseline": 15.520404709757416,
+          "policy": 3.850907096241093
+        },
+        "persistent_perfect": {
+          "baseline": 115.13024499492873,
+          "policy": 53.32961887960675
+        }
+      },
+      "ordered_bridge_events_sha256": "79220e1a928234e40cc8d172fcc27a9bc54c31d95a65f2c2b06da64584ab0b2c",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_24/completed/401325199.json",
+      "seed": 401325199,
+      "sha256": "755fb15883b41536433e273d77cfbf13d571dbd3effdf2e45400012a4f29b440"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 483.55486205469543,
+          "policy": 348.0387055001658
+        },
+        "iid_perfect": {
+          "baseline": 57.62030637640252,
+          "policy": 14.296356756267778
+        },
+        "persistent_perfect": {
+          "baseline": 426.91098951760955,
+          "policy": 197.8109816295841
+        }
+      },
+      "ordered_bridge_events_sha256": "35964f9307cb26b869f827998a1391757779e3b5c51614d0bfe47869ad5bb9d4",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_25/completed/745105096.json",
+      "seed": 745105096,
+      "sha256": "10e37ec1ffaa63917247214b775f29297a1e80baba789b64402ae9e2ad73a373"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 285.7877135921457,
+          "policy": 205.72295244289444
+        },
+        "iid_perfect": {
+          "baseline": 34.06758720322024,
+          "policy": 8.452891435316014
+        },
+        "persistent_perfect": {
+          "baseline": 251.8893062060745,
+          "policy": 116.73479674427055
+        }
+      },
+      "ordered_bridge_events_sha256": "ec31825293ce8eb50cf5672e970c7ce393623ebb0614a5e71d55f046a7d75499",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_26/completed/2099342701.json",
+      "seed": 2099342701,
+      "sha256": "f8aecca80d6967d8cc5fa13db7a3bd8e6840f63a465732296063ca188d04c12f"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 434.89910186224,
+          "policy": 313.0816170085855
+        },
+        "iid_perfect": {
+          "baseline": 51.85525970941396,
+          "policy": 12.866778497914908
+        },
+        "persistent_perfect": {
+          "baseline": 383.17321515738024,
+          "policy": 177.57395653239598
+        }
+      },
+      "ordered_bridge_events_sha256": "e14215abeda1a56826f2b448aa85a9d0ca51a6d45b01b388213c50d5da4ccacc",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_27/completed/2844216254.json",
+      "seed": 2844216254,
+      "sha256": "a7b03e41c6151c15aabb10dc27b22a0157e24c7439b395be410ca186ee642374"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 310.4823718960366,
+          "policy": 223.50228227571503
+        },
+        "iid_perfect": {
+          "baseline": 37.0135001535441,
+          "policy": 9.183908280178768
+        },
+        "persistent_perfect": {
+          "baseline": 273.8210843306316,
+          "policy": 126.87814504874379
+        }
+      },
+      "ordered_bridge_events_sha256": "b7a5908bada57f86c7d4ff7cdfdeeae1e1efe418d3322221e543a7339c02798b",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_28/completed/1810051166.json",
+      "seed": 1810051166,
+      "sha256": "a4cdd7e8d22a461cd395391ee87e2bfff390f432a08967d9178ef7c791ddcac2"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 518.6329497998797,
+          "policy": 373.5774714531217
+        },
+        "iid_perfect": {
+          "baseline": 61.96183268918584,
+          "policy": 15.378079250215054
+        },
+        "persistent_perfect": {
+          "baseline": 454.3851778348232,
+          "policy": 210.72503310175998
+        }
+      },
+      "ordered_bridge_events_sha256": "b972d21404395731c6b3e1c2f65c8860106dc29b8a3eb437af65a046c719ea6f",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_29/completed/469881696.json",
+      "seed": 469881696,
+      "sha256": "db6dd8f1875633ed44d39822aae6fdeb6351851ef6e9f04de26b3797755ae88e"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 620.2770406758691,
+          "policy": 446.5793592019048
+        },
+        "iid_perfect": {
+          "baseline": 73.98875794456798,
+          "policy": 18.35979461037206
+        },
+        "persistent_perfect": {
+          "baseline": 546.4497905024677,
+          "policy": 253.22240424128964
+        }
+      },
+      "ordered_bridge_events_sha256": "772c98adbb2ed762f6d0c36def229eece6a3f885c28a81cbf6a87d122260e927",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_30/completed/4178763170.json",
+      "seed": 4178763170,
+      "sha256": "72df4104459cf6cf9ba7b5e74cffc03016fd2e668642fcf573f47e6db9376219"
+    },
+    {
+      "K": {
+        "iid_imperfect": {
+          "baseline": 199.1718648914434,
+          "policy": 143.4363585769306
+        },
+        "iid_perfect": {
+          "baseline": 23.78114250759768,
+          "policy": 5.90184515772426
+        },
+        "persistent_perfect": {
+          "baseline": 175.16699607091078,
+          "policy": 81.17933075531833
+        }
+      },
+      "ordered_bridge_events_sha256": "ca2bc03a1799721c8c74b70978278109ce753142cb0440b0f040683271319889",
+      "path": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_31/completed/52212223.json",
+      "seed": 52212223,
+      "sha256": "6d4eb97883dc298354f6e42eaa854c8be69985a05914e171973b04f02474795c"
+    }
+  ],
+  "study": "full_icu_confirmation_2026-10-08_bridge"
+}

@@ -1,0 +1,9 @@
+{
+  "banks": {
+    "clock_boundary": "results/rule_surface_followup_2026-10-11/clock_boundary",
+    "clock_grid": "results/rule_surface_followup_2026-10-11/clock_grid",
+    "clock_policy": "results/rule_surface_followup_2026-10-11/clock_policy",
+    "independent_upper": "results/rule_surface_followup_2026-10-11/independent_upper",
+    "surfaces_off": "results/rule_surface_followup_2026-10-11/surfaces_off"
+  }
+}

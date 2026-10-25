@@ -1,0 +1,983 @@
+{
+  "D1_passive_routes": {
+    "D1_original_summary_reproduced_exactly": true,
+    "all_daily_and_observation_counter_checks_passed": true,
+    "arm_record_count": 3072,
+    "record_count": 1536,
+    "summary": [
+      {
+        "arm": "baseline",
+        "clears": 860160,
+        "depositions": 44878,
+        "dirty_clears": 44878,
+        "env": 1717,
+        "env0": 1373,
+        "other": 344,
+        "other0": 0,
+        "own": 923,
+        "own0": 923,
+        "patient": 658,
+        "patient0": 0,
+        "profile": "Independent",
+        "readm": 450,
+        "readm0": 450,
+        "site_zero_opportunity_fraction": 0.5781052631578948,
+        "total": 2375
+      },
+      {
+        "arm": "policy",
+        "clears": 860160,
+        "depositions": 39579,
+        "dirty_clears": 39579,
+        "env": 627,
+        "env0": 547,
+        "other": 80,
+        "other0": 0,
+        "own": 228,
+        "own0": 228,
+        "patient": 143,
+        "patient0": 0,
+        "profile": "Independent",
+        "readm": 319,
+        "readm0": 319,
+        "site_zero_opportunity_fraction": 0.7103896103896103,
+        "total": 770
+      },
+      {
+        "arm": "baseline",
+        "clears": 860160,
+        "depositions": 19241,
+        "dirty_clears": 19241,
+        "env": 894,
+        "env0": 563,
+        "other": 324,
+        "other0": 0,
+        "own": 495,
+        "own0": 489,
+        "patient": 1361,
+        "patient0": 0,
+        "profile": "Clustered misses",
+        "readm": 75,
+        "readm0": 74,
+        "site_zero_opportunity_fraction": 0.24966740576496674,
+        "total": 2255
+      },
+      {
+        "arm": "policy",
+        "clears": 860160,
+        "depositions": 16063,
+        "dirty_clears": 16063,
+        "env": 405,
+        "env0": 275,
+        "other": 130,
+        "other0": 0,
+        "own": 222,
+        "own0": 222,
+        "patient": 590,
+        "patient0": 0,
+        "profile": "Clustered misses",
+        "readm": 53,
+        "readm0": 53,
+        "site_zero_opportunity_fraction": 0.27638190954773867,
+        "total": 995
+      },
+      {
+        "arm": "baseline",
+        "clears": 860160,
+        "depositions": 19189,
+        "dirty_clears": 19189,
+        "env": 885,
+        "env0": 554,
+        "other": 331,
+        "other0": 0,
+        "own": 492,
+        "own0": 492,
+        "patient": 1467,
+        "patient0": 0,
+        "profile": "Imperfect clearing",
+        "readm": 62,
+        "readm0": 62,
+        "site_zero_opportunity_fraction": 0.23554421768707484,
+        "total": 2352
+      },
+      {
+        "arm": "policy",
+        "clears": 860160,
+        "depositions": 17696,
+        "dirty_clears": 17696,
+        "env": 671,
+        "env0": 440,
+        "other": 231,
+        "other0": 0,
+        "own": 382,
+        "own0": 382,
+        "patient": 1047,
+        "patient0": 0,
+        "profile": "Imperfect clearing",
+        "readm": 58,
+        "readm0": 58,
+        "site_zero_opportunity_fraction": 0.2561117578579744,
+        "total": 1718
+      }
+    ]
+  },
+  "allowed_claims": [
+    "Log-rate interpolation to a baseline target of3 gives conditional post hoc prevention66.7/55.0/30.0%.",
+    "All three secondary adjusted Monte Carlo intervals exclude zero conditional on endpoints and interpolation.",
+    "The mechanism-dependent spread persists under this interpolation-based adjustment."
+  ],
+  "cluster_operations": 0,
+  "contrasts": {
+    "family_size": 3,
+    "level": 0.9833333333333333,
+    "pairs": [
+      {
+        "ci_hi": 0.19248649458825104,
+        "ci_lo": 0.039555870886223456,
+        "estimate": 0.11703249395254822,
+        "level": 0.9833333333333333,
+        "pair": "independent-clustered",
+        "resolved": true,
+        "undefined_draws": 0
+      },
+      {
+        "ci_hi": 0.46201512083339635,
+        "ci_lo": 0.26834325779779206,
+        "estimate": 0.36661220013232954,
+        "level": 0.9833333333333333,
+        "pair": "independent-imperfect",
+        "resolved": true,
+        "undefined_draws": 0
+      },
+      {
+        "ci_hi": 0.34501694290366586,
+        "ci_lo": 0.1530045965664515,
+        "estimate": 0.2495797061797813,
+        "level": 0.9833333333333333,
+        "pair": "clustered-imperfect",
+        "resolved": true,
+        "undefined_draws": 0
+      }
+    ]
+  },
+  "date": "2026-10-17",
+  "derived_absolute_rates": {
+    "clustered": {
+      "interpretation": "Derived from target 3 and interpolated F; not new observed counts.",
+      "observed_count_at_p_star": null,
+      "policy_rate": 1.3501586131573082,
+      "rate_prevented": 1.6498413868426918,
+      "rate_prevented_ci95": [
+        1.5219638218993312,
+        1.7811184642587894
+      ],
+      "unit": "acquisitions per 1000 patient-days"
+    },
+    "imperfect": {
+      "interpretation": "Derived from target 3 and interpolated F; not new observed counts.",
+      "observed_count_at_p_star": null,
+      "policy_rate": 2.098897731696652,
+      "rate_prevented": 0.9011022683033478,
+      "rate_prevented_ci95": [
+        0.708830982896759,
+        1.0985306307905003
+      ],
+      "unit": "acquisitions per 1000 patient-days"
+    },
+    "independent": {
+      "interpretation": "Derived from target 3 and interpolated F; not new observed counts.",
+      "observed_count_at_p_star": null,
+      "policy_rate": 0.9990611312996636,
+      "rate_prevented": 2.000938868700336,
+      "rate_prevented_ci95": [
+        1.8643561207666604,
+        2.1363101655443253
+      ],
+      "unit": "acquisitions per 1000 patient-days"
+    }
+  },
+  "descriptive_sensitivity": {
+    "Linux_only_post_review": {
+      "F_star_minus_primary_percentage_points": -0.05500996483911447,
+      "bank_sizes": [
+        96,
+        96
+      ],
+      "ci95": {
+        "B_hi": [
+          6.633178125437574,
+          7.900503398437951
+        ],
+        "B_lo": [
+          2.5695643370331815,
+          3.1703075025360348
+        ],
+        "F_star": [
+          0.6132971356394827,
+          0.7204385151495447
+        ],
+        "P_hi": [
+          1.8801908440070758,
+          2.359785097380981
+        ],
+        "P_lo": [
+          0.8226885597935328,
+          1.1052270711717005
+        ],
+        "p_star": [
+          0.14118968483250213,
+          0.14823750909950967
+        ],
+        "w": [
+          -0.06572316424502007,
+          0.1525735760918757
+        ]
+      },
+      "estimates": {
+        "B_hi": 7.254256605873038,
+        "B_lo": 2.864608432076245,
+        "F_star": 0.666429523251721,
+        "P_hi": 2.1120707209030316,
+        "P_lo": 0.9623707292989946,
+        "p_star": 0.1448734454212132,
+        "w": 0.04970164714122322
+      },
+      "extrapolated_draws": 9423,
+      "interpretation": [
+        "Descriptive conditional interpolation in a selected subset; primary 256-seed results and family unchanged.",
+        "No test of platform equivalence, no clinical validation, no new simulator run at inferred p.",
+        "This additional subset was requested after outcomes were known and is not confirmatory."
+      ],
+      "n_seed_pairs": 192,
+      "undefined_draws": 0
+    },
+    "S1": {
+      "contrasts": [
+        {
+          "ci_hi": 0.19289849176727564,
+          "ci_lo": 0.03837972556381156,
+          "estimate": 0.11682029590686249,
+          "level": 0.9833333333333333,
+          "pair": "independent-clustered",
+          "resolved": true,
+          "undefined_draws": 0
+        },
+        {
+          "ci_hi": 0.4626622309663484,
+          "ci_lo": 0.26699652873746854,
+          "estimate": 0.36639496827758,
+          "level": 0.9833333333333333,
+          "pair": "independent-imperfect",
+          "resolved": true,
+          "undefined_draws": 0
+        },
+        {
+          "ci_hi": 0.3451469761380471,
+          "ci_lo": 0.15273269772352743,
+          "estimate": 0.2495746723707175,
+          "level": 0.9833333333333333,
+          "pair": "clustered-imperfect",
+          "resolved": true,
+          "undefined_draws": 0
+        }
+      ],
+      "description": "F linear in ln B between the same brackets (same w)",
+      "profiles": {
+        "clustered": {
+          "F_star": 0.5498920906239009,
+          "ci95_hi": 0.5931570218524161,
+          "ci95_lo": 0.5069796554109021,
+          "minus_primary": -5.503832366304806e-05,
+          "undefined_draws": 0,
+          "w": 0.20302763513828995
+        },
+        "imperfect": {
+          "F_star": 0.30031741825318337,
+          "ci95_hi": 0.3660645715922675,
+          "ci95_lo": 0.2354179739995192,
+          "minus_primary": -5.000451459924449e-05,
+          "undefined_draws": 0,
+          "w": 0.08825776463614712
+        },
+        "independent": {
+          "F_star": 0.6667123865307634,
+          "ci95_hi": 0.7120940520511001,
+          "ci95_lo": 0.6197948338153813,
+          "minus_primary": -0.0002672363693487778,
+          "undefined_draws": 0,
+          "w": 0.0798992922874663
+        }
+      }
+    },
+    "S2": {
+      "contrast": {
+        "ci_hi": 0.3539031684626908,
+        "ci_lo": 0.14395047900032323,
+        "estimate": 0.24820376967301694,
+        "level": 0.9833333333333333,
+        "pair": "clustered-imperfect",
+        "resolved": true,
+        "undefined_draws": 0
+      },
+      "description": "quadratic in ln p through low/center/high for ln B and ln P, evaluated at B=3",
+      "profiles": {
+        "clustered": {
+          "B": [
+            1.2958328006470092,
+            2.6300002857133524,
+            5.029452510233017
+          ],
+          "F": [
+            0.6047649421436477,
+            0.5534721063039977,
+            0.5358389615468404
+          ],
+          "F_star": 0.5478952060228126,
+          "P": [
+            0.5121585519358797,
+            1.1743684879994676,
+            2.3344759000006072
+          ],
+          "ci95_hi": 0.5965588238400766,
+          "ci95_lo": 0.49791590295270927,
+          "conditions": [
+            "clustered_low",
+            "clustered_center",
+            "clustered_high"
+          ],
+          "curvature_lnB": 0.8710721144112521,
+          "decreasing_branch_root_draws": 0,
+          "lnB_quadratic_coefs_in_lnp": [
+            13.73620740357204,
+            7.200101571577469,
+            0.8710721144112521
+          ],
+          "minus_primary": -0.002051922924751315,
+          "no_real_root_draws": 0,
+          "p": [
+            0.05701618679529467,
+            0.07602158239372622,
+            0.09502697799215779
+          ],
+          "p_star": 0.07974508346868768,
+          "root_outside_low_high": false,
+          "root_outside_low_high_draws": 0,
+          "root_rule": "root of quadratic ln B(ln p) = ln 3 nearest the primary (center-high log-linear) ln p* of the same draw",
+          "slope_at_root": 2.794357860006772,
+          "undefined_draws": 0
+        },
+        "imperfect": {
+          "B": [
+            1.2529369109094248,
+            2.8086095367576243,
+            5.9276264243071
+          ],
+          "F": [
+            0.2889552177575292,
+            0.29774486759682695,
+            0.32689301866276455
+          ],
+          "F_star": 0.29969143634979567,
+          "P": [
+            0.890894252981146,
+            1.97236046210454,
+            3.989926728960183
+          ],
+          "ci95_hi": 0.3675153428361038,
+          "ci95_lo": 0.2289301525802503,
+          "conditions": [
+            "imperfect_low",
+            "imperfect_center",
+            "imperfect_high"
+          ],
+          "curvature_lnB": 1.0599587066529783,
+          "decreasing_branch_root_draws": 0,
+          "lnB_quadratic_coefs_in_lnp": [
+            16.220657805433806,
+            8.606484522725966,
+            1.0599587066529783
+          ],
+          "minus_primary": -0.0006759864179869401,
+          "no_real_root_draws": 0,
+          "p": [
+            0.056129969935570165,
+            0.07483995991409355,
+            0.09354994989261693
+          ],
+          "p_star": 0.07643132843611418,
+          "root_outside_low_high": false,
+          "root_outside_low_high_draws": 0,
+          "root_rule": "root of quadratic ln B(ln p) = ln 3 nearest the primary (center-high log-linear) ln p* of the same draw",
+          "slope_at_root": 3.155408152415128,
+          "undefined_draws": 0
+        }
+      }
+    },
+    "S3_corrected_overlap": {
+      "contrasts": [
+        {
+          "ci": [
+            0.06817509531511694,
+            0.1783724371750465
+          ],
+          "estimate": 0.1232725380331452,
+          "level": 0.9833333333333333,
+          "pair": "independent-clustered",
+          "resolved": true
+        },
+        {
+          "ci": [
+            0.3362519967117325,
+            0.47000889642640253
+          ],
+          "estimate": 0.4030477338073776,
+          "level": 0.9833333333333333,
+          "pair": "independent-imperfect",
+          "resolved": true
+        },
+        {
+          "ci": [
+            0.2106432753548869,
+            0.35007801129028276
+          ],
+          "estimate": 0.2797751957742324,
+          "level": 0.9833333333333333,
+          "pair": "clustered-imperfect",
+          "resolved": true
+        }
+      ],
+      "explanation": "Independent upper uses 256 seeds contained in the original 512-seed lower. Resample four fixed 128-seed strata; reuse matched multiplicities for upper and corresponding lower records. Other lower profiles use these same holdout weights; sensitivity upper draws remain independent of holdout. This is a dated review sensitivity, not replacement of the declared primary analysis.",
+      "point_estimates_unchanged": true,
+      "profiles": {
+        "clustered": {
+          "F_star": 0.5547624633087089,
+          "ci95": [
+            0.5228861786915484,
+            0.5873729956516914
+          ],
+          "undefined_draws": 0
+        },
+        "imperfect": {
+          "F_star": 0.27498726753447655,
+          "ci95": [
+            0.229520544407738,
+            0.3203988217674953
+          ],
+          "undefined_draws": 0
+        },
+        "independent": {
+          "F_star": 0.6780350013418541,
+          "ci95": [
+            0.6477519033915546,
+            0.7081392046082045
+          ],
+          "undefined_draws": 0
+        }
+      }
+    },
+    "S3_original_intervals": {
+      "amendment": "review_2026-10-17/statistics/AMENDMENT_S3_2026-10-17.md",
+      "reason": "Independent upper256 is a subset of holdout lower512; old rule ignored overlap.",
+      "status": "retained_in_original_results_but_not_accepted_for_inference"
+    },
+    "S4": {
+      "contrasts": {
+        "2.7": [
+          {
+            "ci_hi": 0.19628791425351455,
+            "ci_lo": 0.01798867011386686,
+            "estimate": 0.10867726003524891,
+            "level": 0.9833333333333333,
+            "pair": "independent-clustered",
+            "resolved": true,
+            "undefined_draws": 0
+          },
+          {
+            "ci_hi": 0.475301682074153,
+            "ci_lo": 0.2526824454376896,
+            "estimate": 0.36527688444927364,
+            "level": 0.9833333333333333,
+            "pair": "independent-imperfect",
+            "resolved": true,
+            "undefined_draws": 0
+          },
+          {
+            "ci_hi": 0.3674308124351501,
+            "ci_lo": 0.14410640195538302,
+            "estimate": 0.25659962441402473,
+            "level": 0.9833333333333333,
+            "pair": "clustered-imperfect",
+            "resolved": true,
+            "undefined_draws": 0
+          }
+        ],
+        "3.3": [
+          {
+            "ci_hi": 0.19096548999350976,
+            "ci_lo": 0.05750559554369442,
+            "estimate": 0.12452818069159488,
+            "level": 0.9833333333333333,
+            "pair": "independent-clustered",
+            "resolved": true,
+            "undefined_draws": 0
+          },
+          {
+            "ci_hi": 0.4518328729659575,
+            "ci_lo": 0.281759632198798,
+            "estimate": 0.367763798251877,
+            "level": 0.9833333333333333,
+            "pair": "independent-imperfect",
+            "resolved": true,
+            "undefined_draws": 0
+          },
+          {
+            "ci_hi": 0.3255918718535618,
+            "ci_lo": 0.1595233697817777,
+            "estimate": 0.2432356175602821,
+            "level": 0.9833333333333333,
+            "pair": "clustered-imperfect",
+            "resolved": true,
+            "undefined_draws": 0
+          }
+        ]
+      },
+      "description": "primary estimator at B*=2.7 and B*=3.3",
+      "targets": {
+        "2.7": {
+          "clustered": {
+            "B_hi": 5.029452510233017,
+            "B_lo": 2.6300002857133524,
+            "F_hi": 0.5358389615468404,
+            "F_lo": 0.5534721063039977,
+            "F_star": 0.5527708720099314,
+            "F_star_boot_mean": 0.5529183718923631,
+            "P_hi": 2.3344759000006072,
+            "P_lo": 1.1743684879994676,
+            "ci95_hi": 0.6050648705926651,
+            "ci95_lo": 0.5023804547062458,
+            "frac_extrapolated": 0.2618,
+            "lower_condition": "clustered_center",
+            "n_extrapolated": 13090,
+            "nonincreasing_draws": 0,
+            "p_hi": 0.09502697799215779,
+            "p_lo": 0.07602158239372622,
+            "p_star": 0.07671200613375218,
+            "p_star_ci95": [
+              0.07448025050302058,
+              0.0786941941308153
+            ],
+            "point_extrapolated": false,
+            "profile": "clustered",
+            "undefined_draws": 0,
+            "upper_condition": "clustered_high",
+            "w": 0.040516299572759845,
+            "w_ci95": [
+              -0.09179419433589708,
+              0.15484248368049472
+            ]
+          },
+          "imperfect": {
+            "B_hi": 5.9276264243071,
+            "B_lo": 2.8086095367576243,
+            "F_hi": 0.32689301866276455,
+            "F_lo": 0.29774486759682695,
+            "F_star": 0.29617124759590663,
+            "F_star_boot_mean": 0.29642826503979103,
+            "P_hi": 3.989926728960183,
+            "P_lo": 1.97236046210454,
+            "ci95_hi": 0.3722357053828391,
+            "ci95_lo": 0.2217960869189885,
+            "frac_extrapolated": 0.8414,
+            "lower_condition": "imperfect_center",
+            "n_extrapolated": 42070,
+            "nonincreasing_draws": 0,
+            "p_hi": 0.09354994989261693,
+            "p_lo": 0.07483995991409355,
+            "p_star": 0.0739633793686333,
+            "p_star_ci95": [
+              0.07216561339939472,
+              0.07562324405765121
+            ],
+            "point_extrapolated": true,
+            "profile": "imperfect",
+            "undefined_draws": 0,
+            "upper_condition": "imperfect_high",
+            "w": -0.05279950237358162,
+            "w_ci95": [
+              -0.16307126882983777,
+              0.046659341764491734
+            ]
+          },
+          "independent": {
+            "B_hi": 7.289269465126397,
+            "B_lo": 2.7774095830621772,
+            "F_hi": 0.7101413949645443,
+            "F_lo": 0.662941117788636,
+            "F_star": 0.6614481320451803,
+            "F_star_boot_mean": 0.6615136651474851,
+            "P_hi": 2.1128574788890795,
+            "P_lo": 0.936150569510068,
+            "ci95_hi": 0.712531972783939,
+            "ci95_lo": 0.6092757738489812,
+            "frac_extrapolated": 0.71976,
+            "lower_condition": "independent_center_matched256",
+            "n_extrapolated": 35988,
+            "nonincreasing_draws": 0,
+            "p_hi": 0.1790944858317979,
+            "p_lo": 0.14327558866543832,
+            "p_star": 0.1423420316996004,
+            "p_star_ci95": [
+              0.13908706013781363,
+              0.14533759820695535
+            ],
+            "point_extrapolated": true,
+            "profile": "independent",
+            "undefined_draws": 0,
+            "upper_condition": "independent_upper",
+            "w": -0.02929564262278549,
+            "w_ci95": [
+              -0.1329632870929466,
+              0.06403649380517594
+            ]
+          }
+        },
+        "3.3": {
+          "clustered": {
+            "B_hi": 5.029452510233017,
+            "B_lo": 2.6300002857133524,
+            "F_hi": 0.5358389615468404,
+            "F_lo": 0.5534721063039977,
+            "F_star": 0.5473773868976102,
+            "F_star_boot_mean": 0.5474119702877464,
+            "P_hi": 2.3344759000006072,
+            "P_lo": 1.1743684879994676,
+            "ci95_hi": 0.5851703378821759,
+            "ci95_lo": 0.5098096016778563,
+            "frac_extrapolated": 0.0,
+            "lower_condition": "clustered_center",
+            "n_extrapolated": 0,
+            "nonincreasing_draws": 0,
+            "p_hi": 0.09502697799215779,
+            "p_lo": 0.07602158239372622,
+            "p_star": 0.08219757353667818,
+            "p_star_ci95": [
+              0.08038870132043063,
+              0.08391827951846134
+            ],
+            "point_extrapolated": false,
+            "profile": "clustered",
+            "undefined_draws": 0,
+            "upper_condition": "clustered_high",
+            "w": 0.35003702016535615,
+            "w_ci95": [
+              0.25031580031458206,
+              0.44288164730618246
+            ]
+          },
+          "imperfect": {
+            "B_hi": 5.9276264243071,
+            "B_lo": 2.8086095367576243,
+            "F_hi": 0.32689301866276455,
+            "F_lo": 0.29774486759682695,
+            "F_star": 0.30414176933732806,
+            "F_star_boot_mean": 0.30439867534959586,
+            "P_hi": 3.989926728960183,
+            "P_lo": 1.97236046210454,
+            "ci95_hi": 0.3614334370597655,
+            "ci95_lo": 0.24830089968252367,
+            "frac_extrapolated": 2e-05,
+            "lower_condition": "imperfect_center",
+            "n_extrapolated": 1,
+            "nonincreasing_draws": 0,
+            "p_hi": 0.09354994989261693,
+            "p_lo": 0.07483995991409355,
+            "p_star": 0.07853305664690981,
+            "p_star_ci95": [
+              0.07697114379053699,
+              0.08000819750828655
+            ],
+            "point_extrapolated": false,
+            "profile": "imperfect",
+            "undefined_draws": 0,
+            "upper_condition": "imperfect_high",
+            "w": 0.2158595839463893,
+            "w_ci95": [
+              0.12583213674891897,
+              0.29925638496054346
+            ]
+          },
+          "independent": {
+            "B_hi": 7.289269465126397,
+            "B_lo": 2.7774095830621772,
+            "F_hi": 0.7101413949645443,
+            "F_lo": 0.662941117788636,
+            "F_star": 0.671905567589205,
+            "F_star_boot_mean": 0.6720979145097566,
+            "P_hi": 2.1128574788890795,
+            "P_lo": 0.936150569510068,
+            "ci95_hi": 0.7120451666912069,
+            "ci95_lo": 0.6320281671295002,
+            "frac_extrapolated": 6e-05,
+            "lower_condition": "independent_center_matched256",
+            "n_extrapolated": 3,
+            "nonincreasing_draws": 0,
+            "p_hi": 0.1790944858317979,
+            "p_lo": 0.14327558866543832,
+            "p_star": 0.1491035216236893,
+            "p_star_ci95": [
+              0.14628290216693343,
+              0.15176631236652835
+            ],
+            "point_extrapolated": false,
+            "profile": "independent",
+            "undefined_draws": 0,
+            "upper_condition": "independent_upper",
+            "w": 0.1786781262276603,
+            "w_ci95": [
+              0.09309013726249615,
+              0.2580040953705788
+            ]
+          }
+        }
+      }
+    }
+  },
+  "files_sha256": {
+    "PROTOCOL.md": "04e9198c9463c29e007058d00e25458d93096c4d9832848fa76704cb211974d6",
+    "finalize_results.py": "981b91cc9802e7a6704996f7491a160fa5348f4b6cc90109d3352c82783e472a",
+    "impl_a/analyze.py": "7ae31c3d694513bb486d3c004a74f3eee469c913528a68432a08d82bfb855486",
+    "impl_a/results.json": "4af81dcaba78043b46bd375dedeb476cd044ca34aa2d7d4e6ed51dcb00cfceac",
+    "impl_b/analyze.py": "d6b69c83c1134837bc6e954a34e7fecd62c6a2b5133a9090f61fb289a9c37e8f",
+    "impl_b/results.json": "38a04329e3aa163574378f66533f619de0f4c6e0688c08c0c1a04a22622b5958",
+    "reconcile/comparison.json": "2ff7757e33483ab6c4517c33c05ef85665760644056a1793c9fe80331bbc6d20",
+    "review_2026-10-17/provenance_rules/AUDIT.json": "07c0a31a9f06fac8c1a51920bd386de4e5640fbfab006898c1454e81eea2fba7",
+    "review_2026-10-17/provenance_rules/REVIEW.md": "cf641d56ad04c088d6cc75e40f5d5af2500b75d3df8b9456f01a331cb5b37e8e",
+    "review_2026-10-17/provenance_rules/audit.py": "99dacf619c13a0551db08d626fe2ef1f9183e0489e4b9fcf93a9338086208dc1",
+    "review_2026-10-17/statistics/AMENDMENT_S3_2026-10-17.md": "e8d5b0ba1bf986a284a8da0642deb9014ebb84edd863b72e9b34f53adcf1280f",
+    "review_2026-10-17/statistics/REVIEW.md": "4cd9cd3298a5835dcbb98de2f3d5e55e2602fe1a743e286f9849eef242e28f83",
+    "review_2026-10-17/statistics/linux_subset_diagnostic.json": "858dd91c1ea543565931475122bcf8616d5a79e7466d18536a863f0e11fb6538",
+    "review_2026-10-17/statistics/linux_subset_diagnostic.py": "7e946c9b3be47ee03a86bf6660b80d1ea068a8499ea2bc8f326d770427a9b380",
+    "review_2026-10-17/statistics/recompute.py": "7d9a10ab3aa8585a4b52d7febea542907b504e4b3d317e61955efdec536d9db7",
+    "review_2026-10-17/statistics/recomputed.json": "f05e2c45857ac2ea89eaff4d716dfc24f883609d9d7141481d1355507d4021de",
+    "review_2026-10-17/statistics/review.json": "fc266880bc733b420f9212e6c944d7d20950f4388c86a32cd4ebec6ed6a2da34"
+  },
+  "input_review": {
+    "input_runtime_limitation": [
+      "Identical scientific source and package versions do not establish exact cross-platform replay or equality of marginal output distributions. Independent lower bracket uses 64 macOS and 192 Linux records, while its upper bracket is all Linux.",
+      "Same-seed resampling preserves observed joint outcomes; exact path identity across probabilities is neither expected nor required. Possible platform-dependent bias is unquantified; it is not justified to assert that only pairing efficiency could be affected."
+    ],
+    "original_implementations_comparison": {
+      "interval_tolerance_pp": 0.5,
+      "max_frac_extrapolated_abs_diff": 0.0017999999999999995,
+      "max_frac_extrapolated_abs_z": 1.7057881691894734,
+      "max_interval_bound_diff_item": "S4_3.3_contrasts:independent-imperfect.ci98.333",
+      "max_interval_bound_diff_pp": 0.18075822945814446,
+      "max_interval_bound_diff_pp_by_section": {
+        "S1": 0.057400506090665715,
+        "S2": 0.06328391667035915,
+        "S3": 0.06455954711440115,
+        "S3_contrasts": 0.16378404175743655,
+        "S3_unstratified512": 0.046217424299269116,
+        "S3_unstratified512_contrasts": 0.11414749502877686,
+        "S4_2.7": 0.09395911331051554,
+        "S4_2.7_contrasts": 0.14580903444387228,
+        "S4_3.3": 0.0479948932139429,
+        "S4_3.3_contrasts": 0.18075822945814446,
+        "primary": 0.059132772296355274,
+        "primary_contrasts": 0.17228585719401557
+      },
+      "max_point_abs_diff": 3.552713678800501e-15,
+      "max_point_abs_diff_item": "clustered.B_hi",
+      "mean_interval_bound_diff_pp": 0.05306754069478506,
+      "n_F_scale_interval_comparisons": 35,
+      "n_intervals_outside_tol": 0,
+      "n_point_comparisons": 140,
+      "n_points_outside_tol": 0,
+      "point_tolerance": 1e-10,
+      "reproduction_gate": {
+        "archived_targets_identical": true,
+        "impl_a_hash_bulk": [
+          [
+            "rule-surface freeze.json (index, seedbooks, configs, design, analysis source)",
+            7,
+            0
+          ],
+          [
+            "independent_upper records vs rule-surface report input_sha256",
+            256,
+            0
+          ],
+          [
+            "holdout manifests vs old_input_index.json",
+            2,
+            0
+          ],
+          [
+            "holdout records (1536) vs old_input_index.json",
+            1536,
+            0
+          ],
+          [
+            "holdout records (1536) vs original holdout report banks[].completed_records_sha256",
+            1536,
+            0
+          ],
+          [
+            "author_notes freeze.json (config, seedbook, analysis source)",
+            3,
+            0
+          ],
+          [
+            "sensitivity records vs sensitivity report input_sha256",
+            1536,
+            0
+          ],
+          [
+            "sensitivity records vs collection SHA256_MANIFEST.json",
+            1536,
+            0
+          ]
+        ],
+        "impl_a_hash_mismatches": 0,
+        "impl_a_n_single_file_hash_checks": 20,
+        "impl_a_passed": true,
+        "impl_a_single_file_hash_checks_all_match": true,
+        "impl_b_hash_checks_all_passed": true,
+        "impl_b_passed": true,
+        "max_rel_diff_a_vs_b_recomputed": 2.471267416064091e-15,
+        "max_rel_err_vs_archived_a": 4.326455372563074e-16,
+        "max_rel_err_vs_archived_b": 3.2209378709254417e-15,
+        "n_conditions_a": 14,
+        "n_conditions_b": 14
+      },
+      "third_recomputation_max_abs_diff": 2.6423307986078726e-14
+    },
+    "records_verified": 3328,
+    "reporting_analysis_runtime": {
+      "numpy": "1.26.4",
+      "python": "3.12.2 (v3.12.2:6abddd9f6a, Feb  6 2024, 17:02:06) [Clang 13.0.0 (clang-1300.0.29.30)]"
+    },
+    "source_maps_identical": true,
+    "third_max_contrast_interval_difference_pp": 0.1030568952974098,
+    "third_max_interval_difference_pp": 0.0577753203025444,
+    "third_max_point_difference": 5.551115123125783e-16,
+    "third_was_blind": false
+  },
+  "not_allowed_claims": [
+    "Original or fresh matching checks passed.",
+    "The true simulated baselines were established equal to3 or new simulations at p_star confirmed the estimates.",
+    "Intervals cover interpolation error, structural or clinical uncertainty, or full original calibration selection.",
+    "Platform equivalence or clinical causal effect established.",
+    "Small descriptive sensitivity changes bound model error."
+  ],
+  "previous_matching_checks": {
+    "changed": 0,
+    "failed": 8
+  },
+  "primary": {
+    "level": 0.95,
+    "profiles": {
+      "clustered": {
+        "B_hi": 5.029452510233017,
+        "B_lo": 2.6300002857133524,
+        "F_hi": 0.5358389615468404,
+        "F_lo": 0.5534721063039977,
+        "F_star": 0.5499471289475639,
+        "F_star_boot_mean": 0.5500724299583406,
+        "P_hi": 2.3344759000006072,
+        "P_lo": 1.1743684879994676,
+        "ci95_hi": 0.5937061547529298,
+        "ci95_lo": 0.5073212739664438,
+        "frac_extrapolated": 0.00042,
+        "lower_condition": "clustered_center",
+        "n_extrapolated": 21,
+        "nonincreasing_draws": 0,
+        "p_hi": 0.09502697799215779,
+        "p_lo": 0.07602158239372622,
+        "p_star": 0.07954489556537958,
+        "p_star_ci95": [
+          0.07755479752297813,
+          0.08137124585043992
+        ],
+        "point_extrapolated": false,
+        "profile": "clustered",
+        "undefined_draws": 0,
+        "upper_condition": "clustered_high",
+        "w": 0.20302763513828995,
+        "w_ci95": [
+          0.08948263288216073,
+          0.30475757101102136
+        ]
+      },
+      "imperfect": {
+        "B_hi": 5.9276264243071,
+        "B_lo": 2.8086095367576243,
+        "F_hi": 0.32689301866276455,
+        "F_lo": 0.29774486759682695,
+        "F_star": 0.3003674227677826,
+        "F_star_boot_mean": 0.3006503168159563,
+        "P_hi": 3.989926728960183,
+        "P_lo": 1.97236046210454,
+        "ci95_hi": 0.36617687693016676,
+        "ci95_lo": 0.23627699429891968,
+        "frac_extrapolated": 0.03844,
+        "lower_condition": "imperfect_center",
+        "n_extrapolated": 1922,
+        "nonincreasing_draws": 0,
+        "p_hi": 0.09354994989261693,
+        "p_lo": 0.07483995991409355,
+        "p_star": 0.07632847883503945,
+        "p_star_ci95": [
+          0.07466478908937312,
+          0.07787987569112825
+        ],
+        "point_extrapolated": false,
+        "profile": "imperfect",
+        "undefined_draws": 0,
+        "upper_condition": "imperfect_high",
+        "w": 0.08825776463614712,
+        "w_ci95": [
+          -0.010501531526113696,
+          0.1784305140111891
+        ]
+      },
+      "independent": {
+        "B_hi": 7.289269465126397,
+        "B_lo": 2.7774095830621772,
+        "F_hi": 0.7101413949645443,
+        "F_lo": 0.662941117788636,
+        "F_star": 0.6669796229001121,
+        "F_star_boot_mean": 0.6671303008736716,
+        "P_hi": 2.1128574788890795,
+        "P_lo": 0.936150569510068,
+        "ci95_hi": 0.7121033885147751,
+        "ci95_lo": 0.6214520402555535,
+        "frac_extrapolated": 0.04534,
+        "lower_condition": "independent_center_matched256",
+        "n_extrapolated": 2267,
+        "nonincreasing_draws": 0,
+        "p_hi": 0.1790944858317979,
+        "p_lo": 0.14327558866543832,
+        "p_star": 0.14585295853664723,
+        "p_star_ci95": [
+          0.14282905541755397,
+          0.14866676161614437
+        ],
+        "point_extrapolated": false,
+        "profile": "independent",
+        "undefined_draws": 0,
+        "upper_condition": "independent_upper",
+        "w": 0.0798992922874663,
+        "w_ci95": [
+          -0.013988620925475426,
+          0.16553170700280637
+        ]
+      }
+    },
+    "target": 3.0
+  },
+  "reporting_implementation": "A; B and third recomputation used for validation only",
+  "schema": "reviewed_common_baseline_results_v1",
+  "simulations_added": 0,
+  "status": "accepted_post_hoc_secondary_conditional_interpolation"
+}

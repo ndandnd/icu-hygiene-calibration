@@ -1,0 +1,4046 @@
+{
+  "background_note": "Same original 256 p=0 histories; no new epidemiological sample.",
+  "banks": {
+    "A": {
+      "observation_event_counts_by_role_total": {
+        "Dr": {
+          "opportunity": 4459294,
+          "patient": 2174897,
+          "reset": 78848,
+          "surface": 4454610
+        },
+        "Nurse": {
+          "opportunity": 37890048,
+          "patient": 18468636,
+          "reset": 215040,
+          "surface": 37839872
+        },
+        "XrayDr": {
+          "opportunity": 1189888,
+          "patient": 580955,
+          "reset": 57344,
+          "surface": 1161216
+        }
+      },
+      "observation_patient_days": {
+        "mean": 1640.6213921440972,
+        "monte_carlo_se": 0.2645690234469689,
+        "normal_approximation_95_interval": [
+          1640.102836858141,
+          1641.1399474300533
+        ]
+      },
+      "pairs": {
+        "h0.8_to_0.9_rho0.5_e1": {
+          "K0": {
+            "mean": 960.05508215307,
+            "monte_carlo_se": 29.735167855281258,
+            "normal_approximation_95_interval": [
+              901.7741531567187,
+              1018.3360111494212
+            ]
+          },
+          "K1": {
+            "mean": 411.7690819879377,
+            "monte_carlo_se": 12.756483822095538,
+            "normal_approximation_95_interval": [
+              386.7663736966304,
+              436.77179027924495
+            ]
+          },
+          "K1_over_K0": 0.4289015178842475,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.003979147403109042,
+            "monte_carlo_se": 0.0012922083586766676,
+            "normal_approximation_95_interval": [
+              0.001446419020102774,
+              0.00651187578611531
+            ]
+          },
+          "limiting_response": 0.5710984821157525,
+          "limiting_response_delta_monte_carlo_se": 3.346732743299137e-05,
+          "limiting_response_normal_95_interval": [
+            0.5710328861539838,
+            0.5711640780775212
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -548.2860001651324,
+            "monte_carlo_se": 16.97875428778073,
+            "normal_approximation_95_interval": [
+              -581.5643585691826,
+              -515.0076417610821
+            ]
+          },
+          "parameters": {
+            "e": 1.0,
+            "h0": 0.8,
+            "h1": 0.9,
+            "id": "h0.8_to_0.9_rho0.5_e1",
+            "rho": 0.5
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.0025587835667524616,
+            "monte_carlo_se": 0.0008354364913753281,
+            "normal_approximation_95_interval": [
+              0.0009213280436568185,
+              0.004196239089848105
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.5416666666666665
+        },
+        "h0.8_to_0.9_rho0_e0.8": {
+          "K0": {
+            "mean": 812.7777941866659,
+            "monte_carlo_se": 25.1959168292999,
+            "normal_approximation_95_interval": [
+              763.3937972012382,
+              862.1617911720937
+            ]
+          },
+          "K1": {
+            "mean": 467.93071392594175,
+            "monte_carlo_se": 14.506635924628352,
+            "normal_approximation_95_interval": [
+              439.49770751367015,
+              496.36372033821334
+            ]
+          },
+          "K1_over_K0": 0.5757178865770967,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.0033484416285817892,
+            "monte_carlo_se": 0.0011189270009572673,
+            "normal_approximation_95_interval": [
+              0.0011553447067055452,
+              0.005541538550458034
+            ]
+          },
+          "limiting_response": 0.42428211342290334,
+          "limiting_response_delta_monte_carlo_se": 3.999177462125766e-05,
+          "limiting_response_normal_95_interval": [
+            0.4242037295446457,
+            0.424360497301161
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -344.8470802607241,
+            "monte_carlo_se": 10.689366680511805,
+            "normal_approximation_95_interval": [
+              -365.7982389545273,
+              -323.89592156692095
+            ]
+          },
+          "parameters": {
+            "e": 0.8,
+            "h0": 0.8,
+            "h1": 0.9,
+            "id": "h0.8_to_0.9_rho0_e0.8",
+            "rho": 0.0
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.0019205102752803808,
+            "monte_carlo_se": 0.000648005918778233,
+            "normal_approximation_95_interval": [
+              0.0006504186744750442,
+              0.0031906018760857174
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.3950617283950617
+        },
+        "h0.8_to_0.9_rho0_e1": {
+          "K0": {
+            "mean": 230.03098139347722,
+            "monte_carlo_se": 7.131154143023991,
+            "normal_approximation_95_interval": [
+              216.0539192731502,
+              244.00804351380424
+            ]
+          },
+          "K1": {
+            "mean": 55.87090955992789,
+            "monte_carlo_se": 1.731391764830411,
+            "normal_approximation_95_interval": [
+              52.477381700860285,
+              59.26443741899549
+            ]
+          },
+          "K1_over_K0": 0.24288428115845168,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.0009405601958525341,
+            "monte_carlo_se": 0.00032003509497837963,
+            "normal_approximation_95_interval": [
+              0.00031329140969491,
+              0.0015678289820101581
+            ]
+          },
+          "limiting_response": 0.7571157188415483,
+          "limiting_response_delta_monte_carlo_se": 6.869756796557779e-05,
+          "limiting_response_normal_95_interval": [
+            0.7569810716083357,
+            0.7572503660747608
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -174.16007183354932,
+            "monte_carlo_se": 5.399857417707239,
+            "normal_approximation_95_interval": [
+              -184.7437923722555,
+              -163.57635129484314
+            ]
+          },
+          "parameters": {
+            "e": 1.0,
+            "h0": 0.8,
+            "h1": 0.9,
+            "id": "h0.8_to_0.9_rho0_e1",
+            "rho": 0.0
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.0002275314775314774,
+            "monte_carlo_se": 7.79913784992489e-05,
+            "normal_approximation_95_interval": [
+              7.466837567294955e-05,
+              0.0003803945793900052
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.75
+        },
+        "h0.95_to_0.99_rho0.5_e1": {
+          "K0": {
+            "mean": 190.85331370313426,
+            "monte_carlo_se": 5.912840041040631,
+            "normal_approximation_95_interval": [
+              179.26414722269462,
+              202.4424801835739
+            ]
+          },
+          "K1": {
+            "mean": 35.958459877040006,
+            "monte_carlo_se": 1.113367356451688,
+            "normal_approximation_95_interval": [
+              33.776259858394695,
+              38.14065989568532
+            ]
+          },
+          "K1_over_K0": 0.1884088841809273,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.0007903132296317729,
+            "monte_carlo_se": 0.00025877178156157786,
+            "normal_approximation_95_interval": [
+              0.00028312053777108026,
+              0.0012975059214924655
+            ]
+          },
+          "limiting_response": 0.8115911158190727,
+          "limiting_response_delta_monte_carlo_se": 8.72609879535423e-05,
+          "limiting_response_normal_95_interval": [
+            0.8114200842826838,
+            0.8117621473554617
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -154.89485382609425,
+            "monte_carlo_se": 4.799625799124965,
+            "normal_approximation_95_interval": [
+              -164.30212039237918,
+              -145.48758725980932
+            ]
+          },
+          "parameters": {
+            "e": 1.0,
+            "h0": 0.95,
+            "h1": 0.99,
+            "id": "h0.95_to_0.99_rho0.5_e1",
+            "rho": 0.5
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.000446071755607743,
+            "monte_carlo_se": 0.00014640015420458048,
+            "normal_approximation_95_interval": [
+              0.00015912745336676525,
+              0.0007330160578487208
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.8076190476190477
+        },
+        "h0.95_to_0.99_rho0_e0.8": {
+          "K0": {
+            "mean": 336.9423734656973,
+            "monte_carlo_se": 10.445774807497914,
+            "normal_approximation_95_interval": [
+              316.4686548430014,
+              357.4160920883932
+            ]
+          },
+          "K1": {
+            "mean": 249.59044850868108,
+            "monte_carlo_se": 7.737575511383484,
+            "normal_approximation_95_interval": [
+              234.42480050636945,
+              264.75609651099273
+            ]
+          },
+          "K1_over_K0": 0.7407511437088242,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.0013802445688447143,
+            "monte_carlo_se": 0.00046777509936251087,
+            "normal_approximation_95_interval": [
+              0.000463405374094193,
+              0.0022970837635952358
+            ]
+          },
+          "limiting_response": 0.2592488562911758,
+          "limiting_response_delta_monte_carlo_se": 2.1928246786433805e-05,
+          "limiting_response_normal_95_interval": [
+            0.2592058769274744,
+            0.2592918356548772
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -87.35192495701625,
+            "monte_carlo_se": 2.708212897080704,
+            "normal_approximation_95_interval": [
+              -92.66002223529443,
+              -82.04382767873807
+            ]
+          },
+          "parameters": {
+            "e": 0.8,
+            "h0": 0.95,
+            "h1": 0.99,
+            "id": "h0.95_to_0.99_rho0_e0.8",
+            "rho": 0.0
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.0010209019447453885,
+            "monte_carlo_se": 0.00034710950986532033,
+            "normal_approximation_95_interval": [
+              0.00034056730540936073,
+              0.0017012365840814163
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.24888888888888927
+        },
+        "h0.95_to_0.99_rho0_e1": {
+          "K0": {
+            "mean": 13.89390868981496,
+            "monte_carlo_se": 0.4302189183937308,
+            "normal_approximation_95_interval": [
+              13.050679609763248,
+              14.737137769866672
+            ]
+          },
+          "K1": {
+            "mean": 0.5919394054541396,
+            "monte_carlo_se": 0.02678609689698055,
+            "normal_approximation_95_interval": [
+              0.5394386555360577,
+              0.6444401553722214
+            ]
+          },
+          "K1_over_K0": 0.0426042389272405,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 5.640820400637827e-05,
+            "monte_carlo_se": 1.9373038420746814e-05,
+            "normal_approximation_95_interval": [
+              1.8437048701714516e-05,
+              9.437935931104203e-05
+            ]
+          },
+          "limiting_response": 0.9573957610727595,
+          "limiting_response_delta_monte_carlo_se": 0.0014116998820649707,
+          "limiting_response_normal_95_interval": [
+            0.9546288293039121,
+            0.9601626928416068
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -13.30196928436082,
+            "monte_carlo_se": 0.41244295639881695,
+            "normal_approximation_95_interval": [
+              -14.110357478902502,
+              -12.49358108981914
+            ]
+          },
+          "parameters": {
+            "e": 1.0,
+            "h0": 0.95,
+            "h1": 0.99,
+            "id": "h0.95_to_0.99_rho0_e1",
+            "rho": 0.0
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 2.2502531250022544e-06,
+            "monte_carlo_se": 7.733276942636906e-07,
+            "normal_approximation_95_interval": [
+              7.345308442454208e-07,
+              3.7659754057590877e-06
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.96
+        },
+        "h0.9_to_0.95_rho0.25_e0.6": {
+          "K0": {
+            "mean": 1535.0753745575632,
+            "monte_carlo_se": 47.572476754473335,
+            "normal_approximation_95_interval": [
+              1441.8333201187954,
+              1628.317428996331
+            ]
+          },
+          "K1": {
+            "mean": 1271.2067143688514,
+            "monte_carlo_se": 39.40018388822506,
+            "normal_approximation_95_interval": [
+              1193.9823539479303,
+              1348.4310747897725
+            ]
+          },
+          "K1_over_K0": 0.8281070333339406,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.0063521989902311626,
+            "monte_carlo_se": 0.002089181398405287,
+            "normal_approximation_95_interval": [
+              0.0022574034493568,
+              0.010446994531105525
+            ]
+          },
+          "limiting_response": 0.17189296666605935,
+          "limiting_response_delta_monte_carlo_se": 3.8947576831253984e-05,
+          "limiting_response_normal_95_interval": [
+            0.1718166294154701,
+            0.1719693039166486
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -263.86866018871183,
+            "monte_carlo_se": 8.172555049270974,
+            "normal_approximation_95_interval": [
+              -279.8868680852829,
+              -247.85045229214072
+            ]
+          },
+          "parameters": {
+            "e": 0.6,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0.25_e0.6",
+            "rho": 0.25
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.005401560971079475,
+            "monte_carlo_se": 0.0017851212508450756,
+            "normal_approximation_95_interval": [
+              0.001902723319423127,
+              0.008900398622735823
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.13893946290395975
+        },
+        "h0.9_to_0.95_rho0.25_e0.8": {
+          "K0": {
+            "mean": 584.3188669801102,
+            "monte_carlo_se": 18.113131303169528,
+            "normal_approximation_95_interval": [
+              548.8171296258979,
+              619.8206043343225
+            ]
+          },
+          "K1": {
+            "mean": 394.4914622321842,
+            "monte_carlo_se": 12.229352065752717,
+            "normal_approximation_95_interval": [
+              370.5219321833089,
+              418.4609922810595
+            ]
+          },
+          "K1_over_K0": 0.6751304544914042,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.0024073057634112324,
+            "monte_carlo_se": 0.0008039353678660302,
+            "normal_approximation_95_interval": [
+              0.0008315924423938133,
+              0.0039830190844286515
+            ]
+          },
+          "limiting_response": 0.3248695455085958,
+          "limiting_response_delta_monte_carlo_se": 3.7833945543164845e-05,
+          "limiting_response_normal_95_interval": [
+            0.3247953909753312,
+            0.3249437000418604
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -189.82740474792604,
+            "monte_carlo_se": 5.883840703981638,
+            "normal_approximation_95_interval": [
+              -201.35973252773005,
+              -178.29507696812203
+            ]
+          },
+          "parameters": {
+            "e": 0.8,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0.25_e0.8",
+            "rho": 0.25
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.0017446214417075234,
+            "monte_carlo_se": 0.0005867444306351527,
+            "normal_approximation_95_interval": [
+              0.0005946023576626242,
+              0.002894640525752423
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.29741379310344795
+        },
+        "h0.9_to_0.95_rho0.25_e0.9": {
+          "K0": {
+            "mean": 335.31058332300466,
+            "monte_carlo_se": 10.394231281810763,
+            "normal_approximation_95_interval": [
+              314.93789001065556,
+              355.68327663535376
+            ]
+          },
+          "K1": {
+            "mean": 182.71410468901428,
+            "monte_carlo_se": 5.663780278478958,
+            "normal_approximation_95_interval": [
+              171.6130953431955,
+              193.81511403483304
+            ]
+          },
+          "K1_over_K0": 0.5449100439308406,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.001379640106020153,
+            "monte_carlo_se": 0.0004624098793926493,
+            "normal_approximation_95_interval": [
+              0.00047331674241056043,
+              0.002285963469629746
+            ]
+          },
+          "limiting_response": 0.45508995606915936,
+          "limiting_response_delta_monte_carlo_se": 3.8480958552569795e-05,
+          "limiting_response_normal_95_interval": [
+            0.4550145333903963,
+            0.4551653787479224
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -152.5964786339904,
+            "monte_carlo_se": 4.730483293906123,
+            "normal_approximation_95_interval": [
+              -161.86822589004638,
+              -143.3247313779344
+            ]
+          },
+          "parameters": {
+            "e": 0.9,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0.25_e0.9",
+            "rho": 0.25
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.000857430038049078,
+            "monte_carlo_se": 0.0002892494795637158,
+            "normal_approximation_95_interval": [
+              0.00029050105810419504,
+              0.001424359017993961
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.4359180855959498
+        },
+        "h0.9_to_0.95_rho0.25_e1": {
+          "K0": {
+            "mean": 199.1715557422112,
+            "monte_carlo_se": 6.173789992329253,
+            "normal_approximation_95_interval": [
+              187.07092735724586,
+              211.27218412717656
+            ]
+          },
+          "K1": {
+            "mean": 86.18375319112316,
+            "monte_carlo_se": 2.6710198481642187,
+            "normal_approximation_95_interval": [
+              80.9485542887213,
+              91.41895209352502
+            ]
+          },
+          "K1_over_K0": 0.43271115129848786,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.0008191083201687361,
+            "monte_carlo_se": 0.00027490458207043414,
+            "normal_approximation_95_interval": [
+              0.0002802953393106852,
+              0.001357921301026787
+            ]
+          },
+          "limiting_response": 0.5672888487015122,
+          "limiting_response_delta_monte_carlo_se": 6.030140961300631e-05,
+          "limiting_response_normal_95_interval": [
+            0.5671706579386707,
+            0.5674070394643537
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -112.98780255108805,
+            "monte_carlo_se": 3.5028176626294605,
+            "normal_approximation_95_interval": [
+              -119.8533251698418,
+              -106.12227993233431
+            ]
+          },
+          "parameters": {
+            "e": 1.0,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0.25_e1",
+            "rho": 0.25
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.00044214142913637233,
+            "monte_carlo_se": 0.00014905510029557457,
+            "normal_approximation_95_interval": [
+              0.00014999343255704618,
+              0.0007342894257156985
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.557692307692307
+        },
+        "h0.9_to_0.95_rho0.5_e0.6": {
+          "K0": {
+            "mean": 1699.8833927456005,
+            "monte_carlo_se": 52.66239995337863,
+            "normal_approximation_95_interval": [
+              1596.6650888369784,
+              1803.1016966542227
+            ]
+          },
+          "K1": {
+            "mean": 1350.833880717205,
+            "monte_carlo_se": 41.860196734529886,
+            "normal_approximation_95_interval": [
+              1268.7878951175264,
+              1432.8798663168834
+            ]
+          },
+          "K1_over_K0": 0.7946626730292239,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.00703483841516954,
+            "monte_carlo_se": 0.002299539088210352,
+            "normal_approximation_95_interval": [
+              0.0025277418022772507,
+              0.01154193502806183
+            ]
+          },
+          "limiting_response": 0.2053373269707761,
+          "limiting_response_delta_monte_carlo_se": 6.026770850632036e-05,
+          "limiting_response_normal_95_interval": [
+            0.20521920226210372,
+            0.2054554516794485
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -349.0495120283957,
+            "monte_carlo_se": 10.802807033683273,
+            "normal_approximation_95_interval": [
+              -370.2230138144149,
+              -327.87601024237654
+            ]
+          },
+          "parameters": {
+            "e": 0.6,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0.5_e0.6",
+            "rho": 0.5
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.006066321745015454,
+            "monte_carlo_se": 0.001993283100954985,
+            "normal_approximation_95_interval": [
+              0.0021594868671436836,
+              0.009973156622887225
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.15079016681299373
+        },
+        "h0.9_to_0.95_rho0.5_e0.8": {
+          "K0": {
+            "mean": 770.6224561021772,
+            "monte_carlo_se": 23.876455038469636,
+            "normal_approximation_95_interval": [
+              723.8246042267767,
+              817.4203079775777
+            ]
+          },
+          "K1": {
+            "mean": 485.41482394227063,
+            "monte_carlo_se": 15.042921785856322,
+            "normal_approximation_95_interval": [
+              455.9306972419922,
+              514.898950642549
+            ]
+          },
+          "K1_over_K0": 0.6298996611096799,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.00318549303260482,
+            "monte_carlo_se": 0.0010453736117456449,
+            "normal_approximation_95_interval": [
+              0.0011365607535833563,
+              0.005234425311626284
+            ]
+          },
+          "limiting_response": 0.3701003388903201,
+          "limiting_response_delta_monte_carlo_se": 5.655669876041785e-05,
+          "limiting_response_normal_95_interval": [
+            0.3699894877607497,
+            0.37021119001989056
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -285.20763215990667,
+            "monte_carlo_se": 8.833703051827865,
+            "normal_approximation_95_interval": [
+              -302.5216901414893,
+              -267.89357417832406
+            ]
+          },
+          "parameters": {
+            "e": 0.8,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0.5_e0.8",
+            "rho": 0.5
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.0024525002789200934,
+            "monte_carlo_se": 0.000810042769416517,
+            "normal_approximation_95_interval": [
+              0.0008648164508637201,
+              0.004040184106976466
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.3208955223880595
+        },
+        "h0.9_to_0.95_rho0.5_e0.9": {
+          "K0": {
+            "mean": 533.926982817549,
+            "monte_carlo_se": 16.541817932626437,
+            "normal_approximation_95_interval": [
+              501.50501966960115,
+              566.3489459654968
+            ]
+          },
+          "K1": {
+            "mean": 280.03575296815865,
+            "monte_carlo_se": 8.676889684332917,
+            "normal_approximation_95_interval": [
+              263.02904918686613,
+              297.04245674945116
+            ]
+          },
+          "K1_over_K0": 0.5244832383079826,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.0022097286051875947,
+            "monte_carlo_se": 0.0007230048684282393,
+            "normal_approximation_95_interval": [
+              0.0007926390630682457,
+              0.003626818147306944
+            ]
+          },
+          "limiting_response": 0.4755167616920174,
+          "limiting_response_delta_monte_carlo_se": 3.878449288901883e-05,
+          "limiting_response_normal_95_interval": [
+            0.47544074408595494,
+            0.47559277929807986
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -253.89122984939024,
+            "monte_carlo_se": 7.864980109373425,
+            "normal_approximation_95_interval": [
+              -269.30659086376215,
+              -238.47586883501833
+            ]
+          },
+          "parameters": {
+            "e": 0.9,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0.5_e0.9",
+            "rho": 0.5
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.00158325057804979,
+            "monte_carlo_se": 0.0005204242932217417,
+            "normal_approximation_95_interval": [
+              0.0005632189633351763,
+              0.0026032821927644036
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.44503790489317674
+        },
+        "h0.9_to_0.95_rho0.5_e1": {
+          "K0": {
+            "mean": 411.7527778846716,
+            "monte_carlo_se": 12.75617384712487,
+            "normal_approximation_95_interval": [
+              386.75067714430685,
+              436.7548786250364
+            ]
+          },
+          "K1": {
+            "mean": 190.86085594696672,
+            "monte_carlo_se": 5.91298325129679,
+            "normal_approximation_95_interval": [
+              179.27140877442503,
+              202.45030311950842
+            ]
+          },
+          "K1_over_K0": 0.46353264919666237,
+          "baseline_K_by_opportunities_mean": {
+            "0": 0.0390625,
+            "1": 0.0,
+            "2": 304.0521343749708,
+            ">=3": 107.66158100967412
+          },
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.0017058557111683092,
+            "monte_carlo_se": 0.0005569576609168858,
+            "normal_approximation_95_interval": [
+              0.0006142186957712129,
+              0.0027974927265654054
+            ]
+          },
+          "limiting_response": 0.5364673508033376,
+          "limiting_response_delta_monte_carlo_se": 3.128978710297131e-05,
+          "limiting_response_normal_95_interval": [
+            0.5364060228206158,
+            0.5365286787860595
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -220.8919219377049,
+            "monte_carlo_se": 6.843216759077044,
+            "normal_approximation_95_interval": [
+              -234.30462678549588,
+              -207.4792170899139
+            ]
+          },
+          "parameters": {
+            "e": 1.0,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0.5_e1",
+            "legacy_id": "persistent_perfect",
+            "rho": 0.5
+          },
+          "policy_K_by_opportunities_mean": {
+            "0": 0.0390625,
+            "1": 0.0,
+            "2": 145.12147075254248,
+            ">=3": 45.700322694411945
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.0011854698444476596,
+            "monte_carlo_se": 0.00038815767234236687,
+            "normal_approximation_95_interval": [
+              0.0004246808066566205,
+              0.0019462588822386985
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.5227272727272723
+        },
+        "h0.9_to_0.95_rho0.75_e0.6": {
+          "K0": {
+            "mean": 2139.3042370818885,
+            "monte_carlo_se": 66.1944179509764,
+            "normal_approximation_95_interval": [
+              2009.5631778979748,
+              2269.0452962658023
+            ]
+          },
+          "K1": {
+            "mean": 1560.4767899635012,
+            "monte_carlo_se": 48.31622591130071,
+            "normal_approximation_95_interval": [
+              1465.7769871773519,
+              1655.1765927496506
+            ]
+          },
+          "K1_over_K0": 0.7294319166553257,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.008851812877394432,
+            "monte_carlo_se": 0.0028642803340987347,
+            "normal_approximation_95_interval": [
+              0.0032378234225609124,
+              0.014465802332227952
+            ]
+          },
+          "limiting_response": 0.2705680833446743,
+          "limiting_response_delta_monte_carlo_se": 9.700717400221386e-05,
+          "limiting_response_normal_95_interval": [
+            0.27037794928362996,
+            0.27075821740571865
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -578.8274471183872,
+            "monte_carlo_se": 17.879804195503322,
+            "normal_approximation_95_interval": [
+              -613.8718633415738,
+              -543.7830308952007
+            ]
+          },
+          "parameters": {
+            "e": 0.6,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0.75_e0.6",
+            "rho": 0.75
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.007854930453046787,
+            "monte_carlo_se": 0.002550595837639529,
+            "normal_approximation_95_interval": [
+              0.00285576261127331,
+              0.012854098294820263
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.16182704535820236
+        },
+        "h0.9_to_0.95_rho0.75_e0.8": {
+          "K0": {
+            "mean": 1231.5523640101164,
+            "monte_carlo_se": 38.087175694683104,
+            "normal_approximation_95_interval": [
+              1156.9014996485375,
+              1306.2032283716953
+            ]
+          },
+          "K1": {
+            "mean": 706.4590224376661,
+            "monte_carlo_se": 21.85856420053262,
+            "normal_approximation_95_interval": [
+              663.6162366046221,
+              749.3018082707101
+            ]
+          },
+          "K1_over_K0": 0.5736329555142351,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.005094374296003037,
+            "monte_carlo_se": 0.001639940816993603,
+            "normal_approximation_95_interval": [
+              0.0018800902946955749,
+              0.0083086582973105
+            ]
+          },
+          "limiting_response": 0.4263670444857649,
+          "limiting_response_delta_monte_carlo_se": 6.815640668293039e-05,
+          "limiting_response_normal_95_interval": [
+            0.42623345792866635,
+            0.42650063104286345
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -525.0933415724503,
+            "monte_carlo_se": 16.22898398232347,
+            "normal_approximation_95_interval": [
+              -556.9021501778043,
+              -493.2845329670963
+            ]
+          },
+          "parameters": {
+            "e": 0.8,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0.75_e0.8",
+            "rho": 0.75
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.0043007363402119666,
+            "monte_carlo_se": 0.0013881301177502239,
+            "normal_approximation_95_interval": [
+              0.001580001309421528,
+              0.0070214713710024055
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.33881578947368396
+        },
+        "h0.9_to_0.95_rho0.75_e0.9": {
+          "K0": {
+            "mean": 1007.5865505053437,
+            "monte_carlo_se": 31.15229183395871,
+            "normal_approximation_95_interval": [
+              946.5280585107846,
+              1068.6450424999027
+            ]
+          },
+          "K1": {
+            "mean": 507.79010454819837,
+            "monte_carlo_se": 15.703352144318561,
+            "normal_approximation_95_interval": [
+              477.011534345334,
+              538.5686747510628
+            ]
+          },
+          "K1_over_K0": 0.5039667354566434,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.004173131376382362,
+            "monte_carlo_se": 0.0013376599893664069,
+            "normal_approximation_95_interval": [
+              0.0015513177972242046,
+              0.006794944955540519
+            ]
+          },
+          "limiting_response": 0.4960332645433566,
+          "limiting_response_delta_monte_carlo_se": 3.3890091251244214e-05,
+          "limiting_response_normal_95_interval": [
+            0.4959668399645042,
+            0.49609968912220903
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -499.79644595714535,
+            "monte_carlo_se": 15.449013724074838,
+            "normal_approximation_95_interval": [
+              -530.076512856332,
+              -469.51637905795866
+            ]
+          },
+          "parameters": {
+            "e": 0.9,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0.75_e0.9",
+            "rho": 0.75
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.003459939259877963,
+            "monte_carlo_se": 0.0011106366714017314,
+            "normal_approximation_95_interval": [
+              0.0012830913839305693,
+              0.005636787135825357
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.4504957312035247
+        },
+        "h0.9_to_0.95_rho0.75_e1": {
+          "K0": {
+            "mean": 899.5702934658416,
+            "monte_carlo_se": 27.809581423511137,
+            "normal_approximation_95_interval": [
+              845.0635138757598,
+              954.0770730559234
+            ]
+          },
+          "K1": {
+            "mean": 426.0720653928243,
+            "monte_carlo_se": 13.172745436684297,
+            "normal_approximation_95_interval": [
+              400.25348433692307,
+              451.89064644872553
+            ]
+          },
+          "K1_over_K0": 0.4736395460006407,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.0037285146009716375,
+            "monte_carlo_se": 0.001192913774498025,
+            "normal_approximation_95_interval": [
+              0.0013904036029555086,
+              0.0060666255989877665
+            ]
+          },
+          "limiting_response": 0.5263604539993594,
+          "limiting_response_delta_monte_carlo_se": 1.8523750766990072e-05,
+          "limiting_response_normal_95_interval": [
+            0.526324147447856,
+            0.5263967605508627
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -473.49822807301723,
+            "monte_carlo_se": 14.636855937008068,
+            "normal_approximation_95_interval": [
+              -502.18646570955303,
+              -444.8099904364814
+            ]
+          },
+          "parameters": {
+            "e": 1.0,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0.75_e1",
+            "rho": 0.75
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.003089446650966308,
+            "monte_carlo_se": 0.0009892890050132346,
+            "normal_approximation_95_interval": [
+              0.001150440201140368,
+              0.005028453100792247
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.5080645161290318
+        },
+        "h0.9_to_0.95_rho0_e0.6": {
+          "K0": {
+            "mean": 1438.9841346064532,
+            "monte_carlo_se": 44.59895395317961,
+            "normal_approximation_95_interval": [
+              1351.5701848582212,
+              1526.3980843546851
+            ]
+          },
+          "K1": {
+            "mean": 1224.2035072162496,
+            "monte_carlo_se": 37.945203518525005,
+            "normal_approximation_95_interval": [
+              1149.8309083199406,
+              1298.5761061125586
+            ]
+          },
+          "K1_over_K0": 0.8507414903160528,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.0059507350733483295,
+            "monte_carlo_se": 0.001963711807281996,
+            "normal_approximation_95_interval": [
+              0.0021018599310756174,
+              0.009799610215621042
+            ]
+          },
+          "limiting_response": 0.14925850968394716,
+          "limiting_response_delta_monte_carlo_se": 2.8025585707173778e-05,
+          "limiting_response_normal_95_interval": [
+            0.1492035795359611,
+            0.1493134398319332
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -214.78062739020345,
+            "monte_carlo_se": 6.653893283101957,
+            "normal_approximation_95_interval": [
+              -227.8222582250833,
+              -201.7389965553236
+            ]
+          },
+          "parameters": {
+            "e": 0.6,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0_e0.6",
+            "rho": 0.0
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.005057604959069148,
+            "monte_carlo_se": 0.00167523386151044,
+            "normal_approximation_95_interval": [
+              0.001774146590508686,
+              0.00834106332762961
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.12618147448015105
+        },
+        "h0.9_to_0.95_rho0_e0.8": {
+          "K0": {
+            "mean": 467.93071392594175,
+            "monte_carlo_se": 14.506635924628352,
+            "normal_approximation_95_interval": [
+              439.49770751367015,
+              496.36372033821334
+            ]
+          },
+          "K1": {
+            "mean": 336.9423734656973,
+            "monte_carlo_se": 10.445774807497914,
+            "normal_approximation_95_interval": [
+              316.4686548430014,
+              357.4160920883932
+            ]
+          },
+          "K1_over_K0": 0.72006894063172,
+          "baseline_K_by_opportunities_mean": {
+            "0": 0.0390625,
+            "1": 0.0,
+            "2": 433.41249700005073,
+            ">=3": 34.47915442597795
+          },
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.0019205102752803812,
+            "monte_carlo_se": 0.0006480059187782332,
+            "normal_approximation_95_interval": [
+              0.0006504186744750442,
+              0.0031906018760857182
+            ]
+          },
+          "limiting_response": 0.27993105936828,
+          "limiting_response_delta_monte_carlo_se": 2.397879363455815e-05,
+          "limiting_response_normal_95_interval": [
+            0.27988406093275625,
+            0.27997805780380375
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -130.98834046024444,
+            "monte_carlo_se": 4.060882644668626,
+            "normal_approximation_95_interval": [
+              -138.94767044379495,
+              -123.02901047669394
+            ]
+          },
+          "parameters": {
+            "e": 0.8,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0_e0.8",
+            "legacy_id": "iid_imperfect",
+            "rho": 0.0
+          },
+          "policy_K_by_opportunities_mean": {
+            "0": 0.0390625,
+            "1": 0.0,
+            "2": 318.4255079999992,
+            ">=3": 18.477802965752407
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.0013802445688447143,
+            "monte_carlo_se": 0.00046777509936251087,
+            "normal_approximation_95_interval": [
+              0.000463405374094193,
+              0.0022970837635952358
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.2653061224489792
+        },
+        "h0.9_to_0.95_rho0_e0.9": {
+          "K0": {
+            "mean": 206.818856959255,
+            "monte_carlo_se": 6.411480459874482,
+            "normal_approximation_95_interval": [
+              194.252355257901,
+              219.38535866060897
+            ]
+          },
+          "K1": {
+            "mean": 118.70608276067894,
+            "monte_carlo_se": 3.6795721121185347,
+            "normal_approximation_95_interval": [
+              111.4941214209266,
+              125.91804410043127
+            ]
+          },
+          "K1_over_K0": 0.5739616034337962,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.0008452772699388534,
+            "monte_carlo_se": 0.00028787733174645113,
+            "normal_approximation_95_interval": [
+              0.0002810376997158091,
+              0.0014095168401618975
+            ]
+          },
+          "limiting_response": 0.4260383965662038,
+          "limiting_response_delta_monte_carlo_se": 4.447992291903832e-05,
+          "limiting_response_normal_95_interval": [
+            0.42595121591728247,
+            0.4261255772151251
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -88.11277419857605,
+            "monte_carlo_se": 2.7319352890469943,
+            "normal_approximation_95_interval": [
+              -93.46736736510816,
+              -82.75818103204394
+            ]
+          },
+          "parameters": {
+            "e": 0.9,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0_e0.9",
+            "rho": 0.0
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.00048425640717975543,
+            "monte_carlo_se": 0.00016552706485939658,
+            "normal_approximation_95_interval": [
+              0.00015982336005533816,
+              0.0008086894543041726
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.41759002770083054
+        },
+        "h0.9_to_0.95_rho0_e1": {
+          "K0": {
+            "mean": 55.87090955992789,
+            "monte_carlo_se": 1.731391764830411,
+            "normal_approximation_95_interval": [
+              52.477381700860285,
+              59.26443741899549
+            ]
+          },
+          "K1": {
+            "mean": 13.89390868981496,
+            "monte_carlo_se": 0.4302189183937308,
+            "normal_approximation_95_interval": [
+              13.050679609763248,
+              14.737137769866672
+            ]
+          },
+          "K1_over_K0": 0.24867876322851282,
+          "baseline_K_by_opportunities_mean": {
+            "0": 0.0390625,
+            "1": 0.0,
+            "2": 55.28220624999848,
+            ">=3": 0.5496408099241492
+          },
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.00022753147753147741,
+            "monte_carlo_se": 7.799137849924892e-05,
+            "normal_approximation_95_interval": [
+              7.466837567294955e-05,
+              0.0003803945793900053
+            ]
+          },
+          "limiting_response": 0.7513212367714872,
+          "limiting_response_delta_monte_carlo_se": 0.0002756385847422679,
+          "limiting_response_normal_95_interval": [
+            0.7507809851453924,
+            0.751861488397582
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -41.977000870112924,
+            "monte_carlo_se": 1.3015390926665562,
+            "normal_approximation_95_interval": [
+              -44.52801749173938,
+              -39.42598424848647
+            ]
+          },
+          "parameters": {
+            "e": 1.0,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0_e1",
+            "legacy_id": "iid_perfect",
+            "rho": 0.0
+          },
+          "policy_K_by_opportunities_mean": {
+            "0": 0.0390625,
+            "1": 0.0,
+            "2": 13.820551562499638,
+            ">=3": 0.03429462731598135
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 5.640820400637829e-05,
+            "monte_carlo_se": 1.9373038420746825e-05,
+            "normal_approximation_95_interval": [
+              1.8437048701714516e-05,
+              9.437935931104206e-05
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.7499999999999994
+        }
+      },
+      "raw_pairs_without_reset_by_opportunities_total": {
+        "0": 5,
+        "1": 0,
+        "10": 1512492,
+        "11": 0,
+        "12": 393847,
+        "2": 1593288,
+        "3": 0,
+        "4": 1579066,
+        "5": 0,
+        "6": 312062,
+        "7": 0,
+        "8": 1445547,
+        "9": 0,
+        ">=13": 47521271
+      },
+      "seeds_completed": 128,
+      "seeds_planned": 128,
+      "uncertainty_note": "Descriptive seed-level normal/delta Monte Carlo intervals; conditional survival integrated exactly."
+    },
+    "B": {
+      "observation_event_counts_by_role_total": {
+        "Dr": {
+          "opportunity": 4469734,
+          "patient": 2179662,
+          "reset": 78848,
+          "surface": 4465637
+        },
+        "Nurse": {
+          "opportunity": 37890048,
+          "patient": 18463130,
+          "reset": 215040,
+          "surface": 37839872
+        },
+        "XrayDr": {
+          "opportunity": 1189888,
+          "patient": 580785,
+          "reset": 57344,
+          "surface": 1161216
+        }
+      },
+      "observation_patient_days": {
+        "mean": 1640.105854552469,
+        "monte_carlo_se": 0.27192829045492695,
+        "normal_approximation_95_interval": [
+          1639.5728751031775,
+          1640.6388340017606
+        ]
+      },
+      "pairs": {
+        "h0.8_to_0.9_rho0.5_e1": {
+          "K0": {
+            "mean": 947.8738343039862,
+            "monte_carlo_se": 31.291841127669947,
+            "normal_approximation_95_interval": [
+              886.5418256937531,
+              1009.2058429142193
+            ]
+          },
+          "K1": {
+            "mean": 406.5318611218328,
+            "monte_carlo_se": 13.417754589912226,
+            "normal_approximation_95_interval": [
+              380.2330621256048,
+              432.83066011806073
+            ]
+          },
+          "K1_over_K0": 0.42888815621790516,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.004814627078896513,
+            "monte_carlo_se": 0.00146758004281931,
+            "normal_approximation_95_interval": [
+              0.0019381701949706654,
+              0.00769108396282236
+            ]
+          },
+          "limiting_response": 0.5711118437820948,
+          "limiting_response_delta_monte_carlo_se": 3.318457758365386e-05,
+          "limiting_response_normal_95_interval": [
+            0.5710468020100308,
+            0.5711768855541588
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -541.3419731821534,
+            "monte_carlo_se": 17.87415050387879,
+            "normal_approximation_95_interval": [
+              -576.3753081697558,
+              -506.308638194551
+            ]
+          },
+          "parameters": {
+            "e": 1.0,
+            "h0": 0.8,
+            "h1": 0.9,
+            "id": "h0.8_to_0.9_rho0.5_e1",
+            "rho": 0.5
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.003108244928363047,
+            "monte_carlo_se": 0.0009474458042772107,
+            "normal_approximation_95_interval": [
+              0.001251251151979714,
+              0.00496523870474638
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.5416666666666665
+        },
+        "h0.8_to_0.9_rho0_e0.8": {
+          "K0": {
+            "mean": 802.3344623740004,
+            "monte_carlo_se": 26.47330974532847,
+            "normal_approximation_95_interval": [
+              750.4467752731566,
+              854.2221494748442
+            ]
+          },
+          "K1": {
+            "mean": 461.89518387392616,
+            "monte_carlo_se": 15.23873087716725,
+            "normal_approximation_95_interval": [
+              432.02727135467836,
+              491.76309639317395
+            ]
+          },
+          "K1_over_K0": 0.5756890742387408,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.00412637421850117,
+            "monte_carlo_se": 0.0012577888906121464,
+            "normal_approximation_95_interval": [
+              0.001661107992901363,
+              0.006591640444100977
+            ]
+          },
+          "limiting_response": 0.4243109257612592,
+          "limiting_response_delta_monte_carlo_se": 3.946313289021986e-05,
+          "limiting_response_normal_95_interval": [
+            0.42423357802079437,
+            0.424388273501724
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -340.43927850007424,
+            "monte_carlo_se": 11.234656156887809,
+            "normal_approximation_95_interval": [
+              -362.4592045675743,
+              -318.41935243257416
+            ]
+          },
+          "parameters": {
+            "e": 0.8,
+            "h0": 0.8,
+            "h1": 0.9,
+            "id": "h0.8_to_0.9_rho0_e0.8",
+            "rho": 0.0
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.0023790184259124742,
+            "monte_carlo_se": 0.0007251651906067806,
+            "normal_approximation_95_interval": [
+              0.0009576946523231842,
+              0.003800342199501764
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.3950617283950617
+        },
+        "h0.8_to_0.9_rho0_e1": {
+          "K0": {
+            "mean": 227.05489798273922,
+            "monte_carlo_se": 7.489947443192963,
+            "normal_approximation_95_interval": [
+              212.37460099408102,
+              241.73519497139742
+            ]
+          },
+          "K1": {
+            "mean": 55.146567038735,
+            "monte_carlo_se": 1.8180870803853078,
+            "normal_approximation_95_interval": [
+              51.5831163611798,
+              58.7100177162902
+            ]
+          },
+          "K1_over_K0": 0.24287768081059963,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.0011700748847926262,
+            "monte_carlo_se": 0.0003566586822585914,
+            "normal_approximation_95_interval": [
+              0.0004710238675657871,
+              0.0018691259020194653
+            ]
+          },
+          "limiting_response": 0.7571223191894003,
+          "limiting_response_delta_monte_carlo_se": 5.888882331173559e-05,
+          "limiting_response_normal_95_interval": [
+            0.7570068970957093,
+            0.7572377412830913
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -171.9083309440042,
+            "monte_carlo_se": 5.6719248502224415,
+            "normal_approximation_95_interval": [
+              -183.02530365044018,
+              -160.79135823756823
+            ]
+          },
+          "parameters": {
+            "e": 1.0,
+            "h0": 0.8,
+            "h1": 0.9,
+            "id": "h0.8_to_0.9_rho0_e1",
+            "rho": 0.0
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.00028406278406278385,
+            "monte_carlo_se": 8.658715741983917e-05,
+            "normal_approximation_95_interval": [
+              0.00011435195551989907,
+              0.00045377361260566865
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.75
+        },
+        "h0.95_to_0.99_rho0.5_e1": {
+          "K0": {
+            "mean": 188.42356978595785,
+            "monte_carlo_se": 6.217848598623841,
+            "normal_approximation_95_interval": [
+              176.2365865326551,
+              200.6105530392606
+            ]
+          },
+          "K1": {
+            "mean": 35.500161541827424,
+            "monte_carlo_se": 1.170329913961716,
+            "normal_approximation_95_interval": [
+              33.20631491046246,
+              37.79400817319239
+            ]
+          },
+          "K1_over_K0": 0.18840616161849755,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.0009619114474399711,
+            "monte_carlo_se": 0.0002932069338059486,
+            "normal_approximation_95_interval": [
+              0.0003872258571803119,
+              0.0015365970376996303
+            ]
+          },
+          "limiting_response": 0.8115938383815025,
+          "limiting_response_delta_monte_carlo_se": 7.506298791275228e-05,
+          "limiting_response_normal_95_interval": [
+            0.8114467149251935,
+            0.8117409618378114
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -152.92340824413043,
+            "monte_carlo_se": 5.0476231635463344,
+            "normal_approximation_95_interval": [
+              -162.81674964468124,
+              -143.03006684357962
+            ]
+          },
+          "parameters": {
+            "e": 1.0,
+            "h0": 0.95,
+            "h1": 0.99,
+            "id": "h0.95_to_0.99_rho0.5_e1",
+            "rho": 0.5
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.0005437775334626218,
+            "monte_carlo_se": 0.00016575262066323093,
+            "normal_approximation_95_interval": [
+              0.00021890239696268916,
+              0.0008686526699625544
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.8076190476190477
+        },
+        "h0.95_to_0.99_rho0_e0.8": {
+          "K0": {
+            "mean": 332.58923775447096,
+            "monte_carlo_se": 10.97206806746663,
+            "normal_approximation_95_interval": [
+              311.08398434223636,
+              354.09449116670555
+            ]
+          },
+          "K1": {
+            "mean": 246.36215383156332,
+            "monte_carlo_se": 8.126983413289148,
+            "normal_approximation_95_interval": [
+              230.4332663415166,
+              262.29104132161007
+            ]
+          },
+          "K1_over_K0": 0.7407400055844156,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.001713639481604726,
+            "monte_carlo_se": 0.0005223463962169894,
+            "normal_approximation_95_interval": [
+              0.0006898405450194269,
+              0.002737438418190025
+            ]
+          },
+          "limiting_response": 0.25925999441558445,
+          "limiting_response_delta_monte_carlo_se": 2.0322055542465687e-05,
+          "limiting_response_normal_95_interval": [
+            0.2592201631867212,
+            0.2592998256444477
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -86.2270839229076,
+            "monte_carlo_se": 2.8450954408467832,
+            "normal_approximation_95_interval": [
+              -91.80347098696728,
+              -80.65069685884791
+            ]
+          },
+          "parameters": {
+            "e": 0.8,
+            "h0": 0.95,
+            "h1": 0.99,
+            "id": "h0.95_to_0.99_rho0_e0.8",
+            "rho": 0.0
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.0012695464436006361,
+            "monte_carlo_se": 0.0003869793015178968,
+            "normal_approximation_95_interval": [
+              0.0005110670126255585,
+              0.0020280258745757136
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.24888888888888927
+        },
+        "h0.95_to_0.99_rho0_e1": {
+          "K0": {
+            "mean": 13.714039976216712,
+            "monte_carlo_se": 0.451342380205103,
+            "normal_approximation_95_interval": [
+              12.82940891101471,
+              14.598671041418715
+            ]
+          },
+          "K1": {
+            "mean": 0.5847601958766274,
+            "monte_carlo_se": 0.024774676045834856,
+            "normal_approximation_95_interval": [
+              0.5362018308267911,
+              0.6333185609264638
+            ]
+          },
+          "K1_over_K0": 0.042639528314831775,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 7.048828235137951e-05,
+            "monte_carlo_se": 2.1486024719324e-05,
+            "normal_approximation_95_interval": [
+              2.837567390150447e-05,
+              0.00011260089080125454
+            ]
+          },
+          "limiting_response": 0.9573604716851682,
+          "limiting_response_delta_monte_carlo_se": 0.0012043823577378339,
+          "limiting_response_normal_95_interval": [
+            0.9549998822640021,
+            0.9597210611063344
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -13.129279780340084,
+            "monte_carlo_se": 0.43317542025514477,
+            "normal_approximation_95_interval": [
+              -13.978303604040168,
+              -12.280255956640001
+            ]
+          },
+          "parameters": {
+            "e": 1.0,
+            "h0": 0.95,
+            "h1": 0.99,
+            "id": "h0.95_to_0.99_rho0_e1",
+            "rho": 0.0
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 2.812781250002818e-06,
+            "monte_carlo_se": 8.573834607906123e-07,
+            "normal_approximation_95_interval": [
+              1.132309666853218e-06,
+              4.493252833152418e-06
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.96
+        },
+        "h0.9_to_0.95_rho0.25_e0.6": {
+          "K0": {
+            "mean": 1515.4885247280627,
+            "monte_carlo_se": 50.01594670923223,
+            "normal_approximation_95_interval": [
+              1417.4572691779674,
+              1613.519780278158
+            ]
+          },
+          "K1": {
+            "mean": 1254.949611884807,
+            "monte_carlo_se": 41.4136487152613,
+            "normal_approximation_95_interval": [
+              1173.7788604028947,
+              1336.1203633667192
+            ]
+          },
+          "K1_over_K0": 0.828082556487845,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.00775418533482893,
+            "monte_carlo_se": 0.0023636072865533997,
+            "normal_approximation_95_interval": [
+              0.003121515053184266,
+              0.012386855616473593
+            ]
+          },
+          "limiting_response": 0.171917443512155,
+          "limiting_response_delta_monte_carlo_se": 3.839677660849649e-05,
+          "limiting_response_normal_95_interval": [
+            0.17184218583000233,
+            0.17199270119430765
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -260.5389128432555,
+            "monte_carlo_se": 8.602534709225399,
+            "normal_approximation_95_interval": [
+              -277.3998808733373,
+              -243.67794481317372
+            ]
+          },
+          "parameters": {
+            "e": 0.6,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0.25_e0.6",
+            "rho": 0.25
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.006613714538967389,
+            "monte_carlo_se": 0.0020159724330128296,
+            "normal_approximation_95_interval": [
+              0.0026624085702622426,
+              0.010565020507672534
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.13893946290395975
+        },
+        "h0.9_to_0.95_rho0.25_e0.8": {
+          "K0": {
+            "mean": 576.8130824912594,
+            "monte_carlo_se": 19.03195066599705,
+            "normal_approximation_95_interval": [
+              539.5104591859051,
+              614.1157057966136
+            ]
+          },
+          "K1": {
+            "mean": 389.40862678955017,
+            "monte_carlo_se": 12.847315569020124,
+            "normal_approximation_95_interval": [
+              364.22788827427075,
+              414.5893653048296
+            ]
+          },
+          "K1_over_K0": 0.6751036663518307,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.0029655636445188507,
+            "monte_carlo_se": 0.0009039541275134161,
+            "normal_approximation_95_interval": [
+              0.0011938135545925552,
+              0.004737313734445146
+            ]
+          },
+          "limiting_response": 0.3248963336481693,
+          "limiting_response_delta_monte_carlo_se": 3.7279112186630184e-05,
+          "limiting_response_normal_95_interval": [
+            0.3248232665882835,
+            0.3249694007080551
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -187.4044557017092,
+            "monte_carlo_se": 6.1846902888526705,
+            "normal_approximation_95_interval": [
+              -199.52644866786042,
+              -175.28246273555797
+            ]
+          },
+          "parameters": {
+            "e": 0.8,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0.25_e0.8",
+            "rho": 0.25
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.002157447654343899,
+            "monte_carlo_se": 0.000657626659148879,
+            "normal_approximation_95_interval": [
+              0.0008684994024120965,
+              0.0034463959062757017
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.29741379310344795
+        },
+        "h0.9_to_0.95_rho0.25_e0.9": {
+          "K0": {
+            "mean": 330.99719070811716,
+            "monte_carlo_se": 10.920285837683956,
+            "normal_approximation_95_interval": [
+              309.5934304662566,
+              352.4009509499777
+            ]
+          },
+          "K1": {
+            "mean": 180.35735823970157,
+            "monte_carlo_se": 5.949452205091575,
+            "normal_approximation_95_interval": [
+              168.6964319177221,
+              192.01828456168104
+            ]
+          },
+          "K1_over_K0": 0.5448909033150855,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.0017029702794457051,
+            "monte_carlo_se": 0.0005190942423315897,
+            "normal_approximation_95_interval": [
+              0.0006855455644757893,
+              0.002720394994415621
+            ]
+          },
+          "limiting_response": 0.4551090966849145,
+          "limiting_response_delta_monte_carlo_se": 3.58540507066399e-05,
+          "limiting_response_normal_95_interval": [
+            0.4550388227455295,
+            0.45517937062429953
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -150.63983246841562,
+            "monte_carlo_se": 4.9708594778937405,
+            "normal_approximation_95_interval": [
+              -160.38271704508736,
+              -140.89694789174388
+            ]
+          },
+          "parameters": {
+            "e": 0.9,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0.25_e0.9",
+            "rho": 0.25
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.0010620230129470168,
+            "monte_carlo_se": 0.0003237226379686917,
+            "normal_approximation_95_interval": [
+              0.0004275266425283811,
+              0.0016965193833656524
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.4359180855959498
+        },
+        "h0.9_to_0.95_rho0.25_e1": {
+          "K0": {
+            "mean": 196.6082568620412,
+            "monte_carlo_se": 6.485851991219287,
+            "normal_approximation_95_interval": [
+              183.8959869592514,
+              209.32052676483102
+            ]
+          },
+          "K1": {
+            "mean": 85.07285149808344,
+            "monte_carlo_se": 2.8055745207461587,
+            "normal_approximation_95_interval": [
+              79.57392543742097,
+              90.57177755874591
+            ]
+          },
+          "K1_over_K0": 0.432702333339838,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.00101180268024476,
+            "monte_carlo_se": 0.00030841462827036425,
+            "normal_approximation_95_interval": [
+              0.0004073100088348462,
+              0.001616295351654674
+            ]
+          },
+          "limiting_response": 0.567297666660162,
+          "limiting_response_delta_monte_carlo_se": 5.2347917607359236e-05,
+          "limiting_response_normal_95_interval": [
+            0.5671950647416516,
+            0.5674002685786724
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -111.53540536395775,
+            "monte_carlo_se": 3.680310491836434,
+            "normal_approximation_95_interval": [
+              -118.74881392795716,
+              -104.32199679995834
+            ]
+          },
+          "parameters": {
+            "e": 1.0,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0.25_e1",
+            "rho": 0.25
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.0005474523261710702,
+            "monte_carlo_se": 0.0001668727598457765,
+            "normal_approximation_95_interval": [
+              0.0002203817168733483,
+              0.0008745229354687921
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.557692307692307
+        },
+        "h0.9_to_0.95_rho0.5_e0.6": {
+          "K0": {
+            "mean": 1678.2453547045002,
+            "monte_carlo_se": 55.396622551263576,
+            "normal_approximation_95_interval": [
+              1569.6679745040235,
+              1786.8227349049769
+            ]
+          },
+          "K1": {
+            "mean": 1333.5878204137834,
+            "monte_carlo_se": 44.01301424825397,
+            "normal_approximation_95_interval": [
+              1247.3223124872056,
+              1419.8533283403613
+            ]
+          },
+          "K1_over_K0": 0.7946322131477593,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.008552426957282564,
+            "monte_carlo_se": 0.002606924880058307,
+            "normal_approximation_95_interval": [
+              0.0034428541923682823,
+              0.013661999722196845
+            ]
+          },
+          "limiting_response": 0.20536778685224066,
+          "limiting_response_delta_monte_carlo_se": 5.9551410979111135e-05,
+          "limiting_response_normal_95_interval": [
+            0.2052510660867216,
+            0.20548450761775972
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -344.6575342907166,
+            "monte_carlo_se": 11.384157739343113,
+            "normal_approximation_95_interval": [
+              -366.9704834598291,
+              -322.34458512160415
+            ]
+          },
+          "parameters": {
+            "e": 0.6,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0.5_e0.6",
+            "rho": 0.5
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.007400711339095551,
+            "monte_carlo_se": 0.002255862413836736,
+            "normal_approximation_95_interval": [
+              0.002979221007975548,
+              0.011822201670215554
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.15079016681299373
+        },
+        "h0.9_to_0.95_rho0.5_e0.8": {
+          "K0": {
+            "mean": 760.7969021640937,
+            "monte_carlo_se": 25.110296247444936,
+            "normal_approximation_95_interval": [
+              711.5807215191016,
+              810.0130828090857
+            ]
+          },
+          "K1": {
+            "mean": 479.1988177032262,
+            "monte_carlo_se": 15.813178853837297,
+            "normal_approximation_95_interval": [
+              448.2049871497051,
+              510.1926482567473
+            ]
+          },
+          "K1_over_K0": 0.629864312459923,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.0038829836408660087,
+            "monte_carlo_se": 0.0011835993119606067,
+            "normal_approximation_95_interval": [
+              0.0015631289894232196,
+              0.006202838292308797
+            ]
+          },
+          "limiting_response": 0.370135687540077,
+          "limiting_response_delta_monte_carlo_se": 5.595957186764702e-05,
+          "limiting_response_normal_95_interval": [
+            0.3700260067792164,
+            0.37024536830093757
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -281.59808446086754,
+            "monte_carlo_se": 9.297271434729419,
+            "normal_approximation_95_interval": [
+              -299.8207364729372,
+              -263.3754324487979
+            ]
+          },
+          "parameters": {
+            "e": 0.8,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0.5_e0.8",
+            "rho": 0.5
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.003001802967913382,
+            "monte_carlo_se": 0.0009150004883026463,
+            "normal_approximation_95_interval": [
+              0.0012084020108401952,
+              0.004795203924986569
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.3208955223880595
+        },
+        "h0.9_to_0.95_rho0.5_e0.9": {
+          "K0": {
+            "mean": 527.1298112301777,
+            "monte_carlo_se": 17.398259715035092,
+            "normal_approximation_95_interval": [
+              493.0292221887089,
+              561.2304002716464
+            ]
+          },
+          "K1": {
+            "mean": 276.4595602875217,
+            "monte_carlo_se": 9.122996894987292,
+            "normal_approximation_95_interval": [
+              258.5784863733466,
+              294.3406342016968
+            ]
+          },
+          "K1_over_K0": 0.5244620099218829,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.0026881910037403907,
+            "monte_carlo_se": 0.0008194062393052487,
+            "normal_approximation_95_interval": [
+              0.0010821547747021031,
+              0.0042942272327786786
+            ]
+          },
+          "limiting_response": 0.47553799007811715,
+          "limiting_response_delta_monte_carlo_se": 3.7904485234423146e-05,
+          "limiting_response_normal_95_interval": [
+            0.4754636972870577,
+            0.4756122828691766
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -250.67025094265603,
+            "monte_carlo_se": 8.275308468248564,
+            "normal_approximation_95_interval": [
+              -266.88985554042324,
+              -234.45064634488884
+            ]
+          },
+          "parameters": {
+            "e": 0.9,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0.5_e0.9",
+            "rho": 0.5
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.0019319872491660875,
+            "monte_carlo_se": 0.0005889025013558006,
+            "normal_approximation_95_interval": [
+              0.0007777383465087185,
+              0.0030862361518234566
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.44503790489317674
+        },
+        "h0.9_to_0.95_rho0.5_e1": {
+          "K0": {
+            "mean": 406.51696408477943,
+            "monte_carlo_se": 13.417335707405217,
+            "normal_approximation_95_interval": [
+              380.2189860982652,
+              432.8149420712937
+            ]
+          },
+          "K1": {
+            "mean": 188.4304572766996,
+            "monte_carlo_se": 6.218042517290655,
+            "normal_approximation_95_interval": [
+              176.2430939428099,
+              200.6178206105893
+            ]
+          },
+          "K1_over_K0": 0.4635242165131448,
+          "baseline_K_by_opportunities_mean": {
+            "0": 0.0390625,
+            "1": 0.0,
+            "2": 300.10392499996857,
+            ">=3": 106.37397658478858
+          },
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.0020721632855753664,
+            "monte_carlo_se": 0.0006316305361848077,
+            "normal_approximation_95_interval": [
+              0.0008341674346531434,
+              0.0033101591364975893
+            ]
+          },
+          "limiting_response": 0.5364757834868552,
+          "limiting_response_delta_monte_carlo_se": 2.8781752569714182e-05,
+          "limiting_response_normal_95_interval": [
+            0.5364193712518186,
+            0.5365321957218918
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -218.08650680807986,
+            "monte_carlo_se": 7.19931347958567,
+            "normal_approximation_95_interval": [
+              -232.19716122806778,
+              -203.97585238809194
+            ]
+          },
+          "parameters": {
+            "e": 1.0,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0.5_e1",
+            "legacy_id": "persistent_perfect",
+            "rho": 0.5
+          },
+          "policy_K_by_opportunities_mean": {
+            "0": 0.0390625,
+            "1": 0.0,
+            "2": 143.23657450608985,
+            ">=3": 45.154820270593106
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.001442867171159957,
+            "monte_carlo_se": 0.000439810400708923,
+            "normal_approximation_95_interval": [
+              0.000580838785770468,
+              0.0023048955565494462
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.5227272727272723
+        },
+        "h0.9_to_0.95_rho0.75_e0.6": {
+          "K0": {
+            "mean": 2112.0200312705883,
+            "monte_carlo_se": 69.74215299618128,
+            "normal_approximation_95_interval": [
+              1975.3254113980731,
+              2248.7146511431038
+            ]
+          },
+          "K1": {
+            "mean": 1540.5433342852643,
+            "monte_carlo_se": 50.85678894698129,
+            "normal_approximation_95_interval": [
+              1440.864027949181,
+              1640.2226406213476
+            ]
+          },
+          "K1_over_K0": 0.7294170090605039,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.010680213693980848,
+            "monte_carlo_se": 0.0032555103881330085,
+            "normal_approximation_95_interval": [
+              0.004299413333240151,
+              0.017061014054721546
+            ]
+          },
+          "limiting_response": 0.2705829909394961,
+          "limiting_response_delta_monte_carlo_se": 9.67318635529638e-05,
+          "limiting_response_normal_95_interval": [
+            0.2703933964869323,
+            0.27077258539205995
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -571.4766969853239,
+            "monte_carlo_se": 18.88687151172437,
+            "normal_approximation_95_interval": [
+              -608.4949651483037,
+              -534.4584288223441
+            ]
+          },
+          "parameters": {
+            "e": 0.6,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0.75_e0.6",
+            "rho": 0.75
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.009503465777494047,
+            "monte_carlo_se": 0.0028968176525654005,
+            "normal_approximation_95_interval": [
+              0.0038257031784658625,
+              0.015181228376522232
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.16182704535820236
+        },
+        "h0.9_to_0.95_rho0.75_e0.8": {
+          "K0": {
+            "mean": 1215.8608050302955,
+            "monte_carlo_se": 40.15792804515291,
+            "normal_approximation_95_interval": [
+              1137.151266061796,
+              1294.5703439987951
+            ]
+          },
+          "K1": {
+            "mean": 697.4357279481491,
+            "monte_carlo_se": 23.028784961938317,
+            "normal_approximation_95_interval": [
+              652.29930942275,
+              742.5721464735482
+            ]
+          },
+          "K1_over_K0": 0.5736147798026692,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.006119534754554241,
+            "monte_carlo_se": 0.001865338047984975,
+            "normal_approximation_95_interval": [
+              0.0024634721805036905,
+              0.009775597328604793
+            ]
+          },
+          "limiting_response": 0.4263852201973308,
+          "limiting_response_delta_monte_carlo_se": 6.809432064324575e-05,
+          "limiting_response_normal_95_interval": [
+            0.42625175532887005,
+            0.4265186850657916
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -518.4250770821465,
+            "monte_carlo_se": 17.129489819616737,
+            "normal_approximation_95_interval": [
+              -551.9988771285953,
+              -484.85127703569765
+            ]
+          },
+          "parameters": {
+            "e": 0.8,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0.75_e0.8",
+            "rho": 0.75
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.005178209067121849,
+            "monte_carlo_se": 0.0015784060031905915,
+            "normal_approximation_95_interval": [
+              0.00208453330086829,
+              0.008271884833375409
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.33881578947368396
+        },
+        "h0.9_to_0.95_rho0.75_e0.9": {
+          "K0": {
+            "mean": 994.7727361539202,
+            "monte_carlo_se": 32.860323923679424,
+            "normal_approximation_95_interval": [
+              930.3665012635086,
+              1059.1789710443318
+            ]
+          },
+          "K1": {
+            "mean": 501.3256632963177,
+            "monte_carlo_se": 16.55714614857128,
+            "normal_approximation_95_interval": [
+              468.87365684511803,
+              533.7776697475174
+            ]
+          },
+          "K1_over_K0": 0.5039599951588823,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.004992505554946378,
+            "monte_carlo_se": 0.001521800421100204,
+            "normal_approximation_95_interval": [
+              0.0020097767295899787,
+              0.007975234380302778
+            ]
+          },
+          "limiting_response": 0.49604000484111765,
+          "limiting_response_delta_monte_carlo_se": 3.400440333683551e-05,
+          "limiting_response_normal_95_interval": [
+            0.4959733562105775,
+            0.49610665347165783
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -493.44707285760245,
+            "monte_carlo_se": 16.303246807722,
+            "normal_approximation_95_interval": [
+              -525.4014366007376,
+              -461.49270911446735
+            ]
+          },
+          "parameters": {
+            "e": 0.9,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0.75_e0.9",
+            "rho": 0.75
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.004145148116318258,
+            "monte_carlo_se": 0.0012635114932791878,
+            "normal_approximation_95_interval": [
+              0.0016686655894910503,
+              0.0066216306431454664
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.4504957312035247
+        },
+        "h0.9_to_0.95_rho0.75_e1": {
+          "K0": {
+            "mean": 888.1416437590786,
+            "monte_carlo_se": 29.339751972162396,
+            "normal_approximation_95_interval": [
+              830.6357298936404,
+              945.6475576245169
+            ]
+          },
+          "K1": {
+            "mean": 420.6592921773944,
+            "monte_carlo_se": 13.894706416427546,
+            "normal_approximation_95_interval": [
+              393.4256676011964,
+              447.8929167535924
+            ]
+          },
+          "K1_over_K0": 0.47363986942099107,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.0044519129832911765,
+            "monte_carlo_se": 0.00135701863084792,
+            "normal_approximation_95_interval": [
+              0.0017921564668292537,
+              0.007111669499753099
+            ]
+          },
+          "limiting_response": 0.5263601305790089,
+          "limiting_response_delta_monte_carlo_se": 1.802426876724199e-05,
+          "limiting_response_normal_95_interval": [
+            0.5263248030122251,
+            0.5263954581457927
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -467.4823515816842,
+            "monte_carlo_se": 15.445062856712736,
+            "normal_approximation_95_interval": [
+              -497.7546747808412,
+              -437.21002838252724
+            ]
+          },
+          "parameters": {
+            "e": 1.0,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0.75_e1",
+            "rho": 0.75
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.0036921822667293535,
+            "monte_carlo_se": 0.0011254398150283061,
+            "normal_approximation_95_interval": [
+              0.0014863202292738735,
+              0.005898044304184833
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.5080645161290318
+        },
+        "h0.9_to_0.95_rho0_e0.6": {
+          "K0": {
+            "mean": 1420.5953708416216,
+            "monte_carlo_se": 46.88127454084681,
+            "normal_approximation_95_interval": [
+              1328.7080727415619,
+              1512.4826689416814
+            ]
+          },
+          "K1": {
+            "mean": 1208.5331417585437,
+            "monte_carlo_se": 39.88059999129821,
+            "normal_approximation_95_interval": [
+              1130.3671657755992,
+              1286.6991177414882
+            ]
+          },
+          "K1_over_K0": 0.8507229902083637,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.007279502661108979,
+            "monte_carlo_se": 0.002218915951750544,
+            "normal_approximation_95_interval": [
+              0.0029304273956779134,
+              0.011628577926540045
+            ]
+          },
+          "limiting_response": 0.14927700979163627,
+          "limiting_response_delta_monte_carlo_se": 2.7636126451516126e-05,
+          "limiting_response_normal_95_interval": [
+            0.1492228429837913,
+            0.14933117659948125
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -212.06222908307782,
+            "monte_carlo_se": 7.000803474417502,
+            "normal_approximation_95_interval": [
+              -225.78380389293613,
+              -198.3406542732195
+            ]
+          },
+          "parameters": {
+            "e": 0.6,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0_e0.6",
+            "rho": 0.0
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.00620104936427208,
+            "monte_carlo_se": 0.0018901850844134057,
+            "normal_approximation_95_interval": [
+              0.0024962865988218045,
+              0.009905812129722354
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.12618147448015105
+        },
+        "h0.9_to_0.95_rho0_e0.8": {
+          "K0": {
+            "mean": 461.89518387392616,
+            "monte_carlo_se": 15.23873087716725,
+            "normal_approximation_95_interval": [
+              432.02727135467836,
+              491.76309639317395
+            ]
+          },
+          "K1": {
+            "mean": 332.58923775447096,
+            "monte_carlo_se": 10.97206806746663,
+            "normal_approximation_95_interval": [
+              311.08398434223636,
+              354.09449116670555
+            ]
+          },
+          "K1_over_K0": 0.7200534869513835,
+          "baseline_K_by_opportunities_mean": {
+            "0": 0.0390625,
+            "1": 0.0,
+            "2": 427.7845040000482,
+            ">=3": 34.07161737396059
+          },
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.0023790184259124747,
+            "monte_carlo_se": 0.0007251651906067807,
+            "normal_approximation_95_interval": [
+              0.0009576946523231844,
+              0.003800342199501765
+            ]
+          },
+          "limiting_response": 0.2799465130486165,
+          "limiting_response_delta_monte_carlo_se": 2.311900480820125e-05,
+          "limiting_response_normal_95_interval": [
+            0.2799011997991924,
+            0.2799918262980406
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -129.30594611945523,
+            "monte_carlo_se": 4.266681302865551,
+            "normal_approximation_95_interval": [
+              -137.66864147307172,
+              -120.94325076583876
+            ]
+          },
+          "parameters": {
+            "e": 0.8,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0_e0.8",
+            "legacy_id": "iid_imperfect",
+            "rho": 0.0
+          },
+          "policy_K_by_opportunities_mean": {
+            "0": 0.0390625,
+            "1": 0.0,
+            "2": 314.290655999997,
+            ">=3": 18.25951925452753
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.001713639481604726,
+            "monte_carlo_se": 0.0005223463962169894,
+            "normal_approximation_95_interval": [
+              0.0006898405450194269,
+              0.002737438418190025
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.2653061224489792
+        },
+        "h0.9_to_0.95_rho0_e0.9": {
+          "K0": {
+            "mean": 204.1422530732992,
+            "monte_carlo_se": 6.733958266540518,
+            "normal_approximation_95_interval": [
+              190.9436948708798,
+              217.3408112757186
+            ]
+          },
+          "K1": {
+            "mean": 117.16803450075894,
+            "monte_carlo_se": 3.864346586176791,
+            "normal_approximation_95_interval": [
+              109.59391519185243,
+              124.74215380966544
+            ]
+          },
+          "K1_over_K0": 0.5739528820556744,
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.0010520147742118775,
+            "monte_carlo_se": 0.00032067195695212005,
+            "normal_approximation_95_interval": [
+              0.0004234977385857222,
+              0.0016805318098380329
+            ]
+          },
+          "limiting_response": 0.4260471179443256,
+          "limiting_response_delta_monte_carlo_se": 3.8541135404973125e-05,
+          "limiting_response_normal_95_interval": [
+            0.42597157731893187,
+            0.4261226585697193
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -86.97421857254025,
+            "monte_carlo_se": 2.8696303530507965,
+            "normal_approximation_95_interval": [
+              -92.59869406451982,
+              -81.34974308056069
+            ]
+          },
+          "parameters": {
+            "e": 0.9,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0_e0.9",
+            "rho": 0.0
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 0.0006037664103022078,
+            "monte_carlo_se": 0.00018403824839685384,
+            "normal_approximation_95_interval": [
+              0.0002430514434443743,
+              0.0009644813771600414
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.41759002770083054
+        },
+        "h0.9_to_0.95_rho0_e1": {
+          "K0": {
+            "mean": 55.146567038735,
+            "monte_carlo_se": 1.8180870803853078,
+            "normal_approximation_95_interval": [
+              51.5831163611798,
+              58.7100177162902
+            ]
+          },
+          "K1": {
+            "mean": 13.714039976216712,
+            "monte_carlo_se": 0.451342380205103,
+            "normal_approximation_95_interval": [
+              12.82940891101471,
+              14.598671041418715
+            ]
+          },
+          "K1_over_K0": 0.24868347591943407,
+          "baseline_K_by_opportunities_mean": {
+            "0": 0.0390625,
+            "1": 0.0,
+            "2": 54.564349999998285,
+            ">=3": 0.5431545387310996
+          },
+          "baseline_K_from_warmup_pickups": {
+            "mean": 0.0002840627840627839,
+            "monte_carlo_se": 8.658715741983917e-05,
+            "normal_approximation_95_interval": [
+              0.00011435195551989913,
+              0.00045377361260566865
+            ]
+          },
+          "limiting_response": 0.7513165240805659,
+          "limiting_response_delta_monte_carlo_se": 0.0002351555154579038,
+          "limiting_response_normal_95_interval": [
+            0.7508556192702684,
+            0.7517774288908634
+          ],
+          "paired_K1_minus_K0": {
+            "mean": -41.43252706251829,
+            "monte_carlo_se": 1.3669911599933529,
+            "normal_approximation_95_interval": [
+              -44.111829736105264,
+              -38.753224388931315
+            ]
+          },
+          "parameters": {
+            "e": 1.0,
+            "h0": 0.9,
+            "h1": 0.95,
+            "id": "h0.9_to_0.95_rho0_e1",
+            "legacy_id": "iid_perfect",
+            "rho": 0.0
+          },
+          "policy_K_by_opportunities_mean": {
+            "0": 0.0390625,
+            "1": 0.0,
+            "2": 13.641087499999587,
+            ">=3": 0.03388997621772033
+          },
+          "policy_K_from_warmup_pickups": {
+            "mean": 7.048828235137953e-05,
+            "monte_carlo_se": 2.1486024719324007e-05,
+            "normal_approximation_95_interval": [
+              2.8375673901504484e-05,
+              0.00011260089080125459
+            ]
+          },
+          "stationary_q2_response_for_comparison_only": 0.7499999999999994
+        }
+      },
+      "raw_pairs_without_reset_by_opportunities_total": {
+        "0": 5,
+        "1": 0,
+        "10": 1485766,
+        "11": 0,
+        "12": 388272,
+        "2": 1565004,
+        "3": 0,
+        "4": 1551666,
+        "5": 0,
+        "6": 308623,
+        "7": 0,
+        "8": 1421780,
+        "9": 0,
+        ">=13": 46684971
+      },
+      "seeds_completed": 128,
+      "seeds_planned": 128,
+      "uncertainty_note": "Descriptive seed-level normal/delta Monte Carlo intervals; conditional survival integrated exactly."
+    }
+  },
+  "estimand": "1 - pooled mean(K1)/pooled mean(K0); all zero-coefficient seeds retained.",
+  "histogram_scope": "Unweighted pickup-to-observed-recipient pairs without worker reset, including warmup pickups; fine bins 0..12 and aggregate >=13. Weighted histograms only for six legacy arms.",
+  "interval_scope": "Pointwise descriptive 95% normal/delta intervals, with original paired seed covariance. No simultaneous directional inference over 22 pairs; no clinical-input uncertainty.",
+  "n_backgrounds": 256,
+  "n_coefficient_arms": 44,
+  "n_pairs": 22,
+  "observation_event_counts_by_role_total": {
+    "Dr": {
+      "opportunity": 8929028,
+      "patient": 4354559,
+      "reset": 157696,
+      "surface": 8920247
+    },
+    "Nurse": {
+      "opportunity": 75780096,
+      "patient": 36931766,
+      "reset": 430080,
+      "surface": 75679744
+    },
+    "XrayDr": {
+      "opportunity": 2379776,
+      "patient": 1161740,
+      "reset": 114688,
+      "surface": 2322432
+    }
+  },
+  "observation_patient_days": {
+    "mean": 1640.3636233482832,
+    "monte_carlo_se": 0.1900128656402779,
+    "normal_approximation_95_interval": [
+      1639.9911981316284,
+      1640.736048564938
+    ]
+  },
+  "pairs": {
+    "h0.8_to_0.9_rho0.5_e1": {
+      "K0": {
+        "mean": 953.9644582285281,
+        "monte_carlo_se": 21.544338755241146,
+        "normal_approximation_95_interval": [
+          911.7375542682554,
+          996.1913621888008
+        ]
+      },
+      "K1": {
+        "mean": 409.1504715548852,
+        "monte_carlo_se": 9.240230080955687,
+        "normal_approximation_95_interval": [
+          391.03962059621205,
+          427.26132251355835
+        ]
+      },
+      "K1_over_K0": 0.4288948797051207,
+      "baseline_K_from_warmup_pickups": {
+        "mean": 0.004396887241002778,
+        "monte_carlo_se": 0.000976132226892041,
+        "normal_approximation_95_interval": [
+          0.0024836680762943776,
+          0.006310106405711178
+        ]
+      },
+      "limiting_response": 0.5711051202948794,
+      "limiting_response_delta_monte_carlo_se": 2.353907165816561e-05,
+      "limiting_response_normal_95_interval": [
+        0.5710589837144293,
+        0.5711512568753294
+      ],
+      "paired_K1_minus_K0": {
+        "mean": -544.8139866736428,
+        "monte_carlo_se": 12.304156450373641,
+        "normal_approximation_95_interval": [
+          -568.9301333163752,
+          -520.6978400309105
+        ]
+      },
+      "parameters": {
+        "e": 1.0,
+        "h0": 0.8,
+        "h1": 0.9,
+        "id": "h0.8_to_0.9_rho0.5_e1",
+        "rho": 0.5
+      },
+      "policy_K_from_warmup_pickups": {
+        "mean": 0.0028335142475577543,
+        "monte_carlo_se": 0.0006305819435730413,
+        "normal_approximation_95_interval": [
+          0.0015975736381545935,
+          0.0040694548569609156
+        ]
+      },
+      "stationary_q2_response_for_comparison_only": 0.5416666666666665
+    },
+    "h0.8_to_0.9_rho0_e0.8": {
+      "K0": {
+        "mean": 807.5561282803332,
+        "monte_carlo_se": 18.24047785508785,
+        "normal_approximation_95_interval": [
+          771.804791684361,
+          843.3074648763053
+        ]
+      },
+      "K1": {
+        "mean": 464.91294889993395,
+        "monte_carlo_se": 10.500813432100909,
+        "normal_approximation_95_interval": [
+          444.33135457301614,
+          485.49454322685176
+        ]
+      },
+      "K1_over_K0": 0.575703573558351,
+      "baseline_K_from_warmup_pickups": {
+        "mean": 0.0037374079235414797,
+        "monte_carlo_se": 0.0008404299395316363,
+        "normal_approximation_95_interval": [
+          0.002090165242059473,
+          0.0053846506050234865
+        ]
+      },
+      "limiting_response": 0.424296426441649,
+      "limiting_response_delta_monte_carlo_se": 2.806951207935609e-05,
+      "limiting_response_normal_95_interval": [
+        0.42424141019797346,
+        0.42435144268532454
+      ],
+      "paired_K1_minus_K0": {
+        "mean": -342.6431793803992,
+        "monte_carlo_se": 7.739722071618732,
+        "normal_approximation_95_interval": [
+          -357.8130346407719,
+          -327.4733241200265
+        ]
+      },
+      "parameters": {
+        "e": 0.8,
+        "h0": 0.8,
+        "h1": 0.9,
+        "id": "h0.8_to_0.9_rho0_e0.8",
+        "rho": 0.0
+      },
+      "policy_K_from_warmup_pickups": {
+        "mean": 0.0021497643505964275,
+        "monte_carlo_se": 0.00048551306067911416,
+        "normal_approximation_95_interval": [
+          0.0011981587516653638,
+          0.003101369949527491
+        ]
+      },
+      "stationary_q2_response_for_comparison_only": 0.3950617283950617
+    },
+    "h0.8_to_0.9_rho0_e1": {
+      "K0": {
+        "mean": 228.54293968810822,
+        "monte_carlo_se": 5.161588502760064,
+        "normal_approximation_95_interval": [
+          218.4262262226985,
+          238.65965315351795
+        ]
+      },
+      "K1": {
+        "mean": 55.50873829933144,
+        "monte_carlo_se": 1.253046023279378,
+        "normal_approximation_95_interval": [
+          53.05276809370386,
+          57.96470850495902
+        ]
+      },
+      "K1_over_K0": 0.24288100247193822,
+      "baseline_K_from_warmup_pickups": {
+        "mean": 0.0010553175403225801,
+        "monte_carlo_se": 0.00023923521511695354,
+        "normal_approximation_95_interval": [
+          0.0005864165186933513,
+          0.001524218561951809
+        ]
+      },
+      "limiting_response": 0.7571189975280618,
+      "limiting_response_delta_monte_carlo_se": 4.520042431997134e-05,
+      "limiting_response_normal_95_interval": [
+        0.7570304046963946,
+        0.757207590359729
+      ],
+      "paired_K1_minus_K0": {
+        "mean": -173.03420138877678,
+        "monte_carlo_se": 3.908598491752046,
+        "normal_approximation_95_interval": [
+          -180.6950544326108,
+          -165.37334834494277
+        ]
+      },
+      "parameters": {
+        "e": 1.0,
+        "h0": 0.8,
+        "h1": 0.9,
+        "id": "h0.8_to_0.9_rho0_e1",
+        "rho": 0.0
+      },
+      "policy_K_from_warmup_pickups": {
+        "mean": 0.0002557971307971306,
+        "monte_carlo_se": 5.817918138856535e-05,
+        "normal_approximation_95_interval": [
+          0.00014176593527554253,
+          0.0003698283263187187
+        ]
+      },
+      "stationary_q2_response_for_comparison_only": 0.75
+    },
+    "h0.95_to_0.99_rho0.5_e1": {
+      "K0": {
+        "mean": 189.63844174454604,
+        "monte_carlo_se": 4.282456982863042,
+        "normal_approximation_95_interval": [
+          181.2448260581345,
+          198.0320574309576
+        ]
+      },
+      "K1": {
+        "mean": 35.72931070943371,
+        "monte_carlo_se": 0.8062025591801687,
+        "normal_approximation_95_interval": [
+          34.14915369344058,
+          37.30946772542684
+        ]
+      },
+      "K1_over_K0": 0.18840753162042514,
+      "baseline_K_from_warmup_pickups": {
+        "mean": 0.000876112338535872,
+        "monte_carlo_se": 0.00019522351130435694,
+        "normal_approximation_95_interval": [
+          0.0004934742563793325,
+          0.0012587504206924116
+        ]
+      },
+      "limiting_response": 0.8115924683795749,
+      "limiting_response_delta_monte_carlo_se": 5.749576837228387e-05,
+      "limiting_response_normal_95_interval": [
+        0.8114797766735652,
+        0.8117051600855846
+      ],
+      "paired_K1_minus_K0": {
+        "mean": -153.90913103511232,
+        "monte_carlo_se": 3.476344863267364,
+        "normal_approximation_95_interval": [
+          -160.72276696711634,
+          -147.0954951031083
+        ]
+      },
+      "parameters": {
+        "e": 1.0,
+        "h0": 0.95,
+        "h1": 0.99,
+        "id": "h0.95_to_0.99_rho0.5_e1",
+        "rho": 0.5
+      },
+      "policy_K_from_warmup_pickups": {
+        "mean": 0.0004949246445351824,
+        "monte_carlo_se": 0.0001103999336930619,
+        "normal_approximation_95_interval": [
+          0.0002785407744967811,
+          0.0007113085145735837
+        ]
+      },
+      "stationary_q2_response_for_comparison_only": 0.8076190476190477
+    },
+    "h0.95_to_0.99_rho0_e0.8": {
+      "K0": {
+        "mean": 334.76580561008416,
+        "monte_carlo_se": 7.560998611169188,
+        "normal_approximation_95_interval": [
+          319.94624833219257,
+          349.58536288797575
+        ]
+      },
+      "K1": {
+        "mean": 247.9763011701222,
+        "monte_carlo_se": 5.60055819800789,
+        "normal_approximation_95_interval": [
+          236.99920710202676,
+          258.9533952382177
+        ]
+      },
+      "K1_over_K0": 0.7407456108553413,
+      "baseline_K_from_warmup_pickups": {
+        "mean": 0.0015469420252247203,
+        "monte_carlo_se": 0.00035005967933615873,
+        "normal_approximation_95_interval": [
+          0.0008608250537258491,
+          0.0022330589967235913
+        ]
+      },
+      "limiting_response": 0.2592543891446587,
+      "limiting_response_delta_monte_carlo_se": 1.4934492923233243e-05,
+      "limiting_response_normal_95_interval": [
+        0.25922511753852917,
+        0.25928366075078824
+      ],
+      "paired_K1_minus_K0": {
+        "mean": -86.78950443996193,
+        "monte_carlo_se": 1.9604490029087758,
+        "normal_approximation_95_interval": [
+          -90.63198448566312,
+          -82.94702439426074
+        ]
+      },
+      "parameters": {
+        "e": 0.8,
+        "h0": 0.95,
+        "h1": 0.99,
+        "id": "h0.95_to_0.99_rho0_e0.8",
+        "rho": 0.0
+      },
+      "policy_K_from_warmup_pickups": {
+        "mean": 0.0011452241941730123,
+        "monte_carlo_se": 0.00025952874706451667,
+        "normal_approximation_95_interval": [
+          0.0006365478499265597,
+          0.001653900538419465
+        ]
+      },
+      "stationary_q2_response_for_comparison_only": 0.24888888888888927
+    },
+    "h0.95_to_0.99_rho0_e1": {
+      "K0": {
+        "mean": 13.803974333015837,
+        "monte_carlo_se": 0.31120750167387,
+        "normal_approximation_95_interval": [
+          13.194007629735053,
+          14.413941036296622
+        ]
+      },
+      "K1": {
+        "mean": 0.5883498006653834,
+        "monte_carlo_se": 0.01820893309448941,
+        "normal_approximation_95_interval": [
+          0.5526602918001842,
+          0.6240393095305827
+        ]
+      },
+      "K1_over_K0": 0.0426217686639847,
+      "baseline_K_from_warmup_pickups": {
+        "mean": 6.34482431788789e-05,
+        "monte_carlo_se": 1.444350295225889e-05,
+        "normal_approximation_95_interval": [
+          3.513897739245147e-05,
+          9.175750896530632e-05
+        ]
+      },
+      "limiting_response": 0.9573782313360153,
+      "limiting_response_delta_monte_carlo_se": 0.0009269658887204898,
+      "limiting_response_normal_95_interval": [
+        0.9555613781941231,
+        0.9591950844779075
+      ],
+      "paired_K1_minus_K0": {
+        "mean": -13.215624532350454,
+        "monte_carlo_se": 0.2985230908102424,
+        "normal_approximation_95_interval": [
+          -13.80072979033853,
+          -12.630519274362378
+        ]
+      },
+      "parameters": {
+        "e": 1.0,
+        "h0": 0.95,
+        "h1": 0.99,
+        "id": "h0.95_to_0.99_rho0_e1",
+        "rho": 0.0
+      },
+      "policy_K_from_warmup_pickups": {
+        "mean": 2.531517187502536e-06,
+        "monte_carlo_se": 5.764449336537243e-07,
+        "normal_approximation_95_interval": [
+          1.4016851175412367e-06,
+          3.6613492574638355e-06
+        ]
+      },
+      "stationary_q2_response_for_comparison_only": 0.96
+    },
+    "h0.9_to_0.95_rho0.25_e0.6": {
+      "K0": {
+        "mean": 1525.2819496428128,
+        "monte_carlo_se": 34.45125078137567,
+        "normal_approximation_95_interval": [
+          1457.7574981113166,
+          1592.806401174309
+        ]
+      },
+      "K1": {
+        "mean": 1263.0781631268292,
+        "monte_carlo_se": 28.529316709115175,
+        "normal_approximation_95_interval": [
+          1207.1607023769634,
+          1318.995623876695
+        ]
+      },
+      "K1_over_K0": 0.8280948734905137,
+      "baseline_K_from_warmup_pickups": {
+        "mean": 0.007053192162530046,
+        "monte_carlo_se": 0.0015748017052623505,
+        "normal_approximation_95_interval": [
+          0.003966580820215839,
+          0.010139803504844253
+        ]
+      },
+      "limiting_response": 0.1719051265094863,
+      "limiting_response_delta_monte_carlo_se": 2.7328000178141193e-05,
+      "limiting_response_normal_95_interval": [
+        0.17185156362913714,
+        0.17195868938983547
+      ],
+      "paired_K1_minus_K0": {
+        "mean": -262.20378651598367,
+        "monte_carlo_se": 5.922111202726658,
+        "normal_approximation_95_interval": [
+          -273.81112447332794,
+          -250.59644855863942
+        ]
+      },
+      "parameters": {
+        "e": 0.6,
+        "h0": 0.9,
+        "h1": 0.95,
+        "id": "h0.9_to_0.95_rho0.25_e0.6",
+        "rho": 0.25
+      },
+      "policy_K_from_warmup_pickups": {
+        "mean": 0.0060076377550234315,
+        "monte_carlo_se": 0.0013442591114597026,
+        "normal_approximation_95_interval": [
+          0.0033728898965624146,
+          0.008642385613484448
+        ]
+      },
+      "stationary_q2_response_for_comparison_only": 0.13893946290395975
+    },
+    "h0.9_to_0.95_rho0.25_e0.8": {
+      "K0": {
+        "mean": 580.5659747356848,
+        "monte_carlo_se": 13.113109270225435,
+        "normal_approximation_95_interval": [
+          554.8642805660429,
+          606.2676689053267
+        ]
+      },
+      "K1": {
+        "mean": 391.9500445108672,
+        "monte_carlo_se": 8.852656619807094,
+        "normal_approximation_95_interval": [
+          374.5988375360453,
+          409.3012514856891
+        ]
+      },
+      "K1_over_K0": 0.6751171470035097,
+      "baseline_K_from_warmup_pickups": {
+        "mean": 0.0026864347039650413,
+        "monte_carlo_se": 0.0006039305224874829,
+        "normal_approximation_95_interval": [
+          0.001502730879889575,
+          0.0038701385280405076
+        ]
+      },
+      "limiting_response": 0.32488285299649033,
+      "limiting_response_delta_monte_carlo_se": 2.6536091834151328e-05,
+      "limiting_response_normal_95_interval": [
+        0.3248308422564954,
+        0.3249348637364853
+      ],
+      "paired_K1_minus_K0": {
+        "mean": -188.61593022481762,
+        "monte_carlo_se": 4.260493899541497,
+        "normal_approximation_95_interval": [
+          -196.96649826791895,
+          -180.26536218171628
+        ]
+      },
+      "parameters": {
+        "e": 0.8,
+        "h0": 0.9,
+        "h1": 0.95,
+        "id": "h0.9_to_0.95_rho0.25_e0.8",
+        "rho": 0.25
+      },
+      "policy_K_from_warmup_pickups": {
+        "mean": 0.0019510345480257115,
+        "monte_carlo_se": 0.00043998981194402564,
+        "normal_approximation_95_interval": [
+          0.0010886545166154213,
+          0.002813414579436002
+        ]
+      },
+      "stationary_q2_response_for_comparison_only": 0.29741379310344795
+    },
+    "h0.9_to_0.95_rho0.25_e0.9": {
+      "K0": {
+        "mean": 333.15388701556094,
+        "monte_carlo_se": 7.52453163038774,
+        "normal_approximation_95_interval": [
+          318.40580502000097,
+          347.9019690111209
+        ]
+      },
+      "K1": {
+        "mean": 181.53573146435792,
+        "monte_carlo_se": 4.099742812838532,
+        "normal_approximation_95_interval": [
+          173.5002355511944,
+          189.57122737752144
+        ]
+      },
+      "K1_over_K0": 0.5449005355770583,
+      "baseline_K_from_warmup_pickups": {
+        "mean": 0.0015413051927329292,
+        "monte_carlo_se": 0.00034705780380050614,
+        "normal_approximation_95_interval": [
+          0.0008610718972839372,
+          0.0022215384881819214
+        ]
+      },
+      "limiting_response": 0.4550994644229417,
+      "limiting_response_delta_monte_carlo_se": 2.6273441512854926e-05,
+      "limiting_response_normal_95_interval": [
+        0.4550479684775765,
+        0.4551509603683069
+      ],
+      "paired_K1_minus_K0": {
+        "mean": -151.618155551203,
+        "monte_carlo_se": 3.4248093069157624,
+        "normal_approximation_95_interval": [
+          -158.33078179275788,
+          -144.9055293096481
+        ]
+      },
+      "parameters": {
+        "e": 0.9,
+        "h0": 0.9,
+        "h1": 0.95,
+        "id": "h0.9_to_0.95_rho0.25_e0.9",
+        "rho": 0.25
+      },
+      "policy_K_from_warmup_pickups": {
+        "mean": 0.0009597265254980474,
+        "monte_carlo_se": 0.0002167294931311548,
+        "normal_approximation_95_interval": [
+          0.0005349367189609839,
+          0.001384516332035111
+        ]
+      },
+      "stationary_q2_response_for_comparison_only": 0.4359180855959498
+    },
+    "h0.9_to_0.95_rho0.25_e1": {
+      "K0": {
+        "mean": 197.8899063021262,
+        "monte_carlo_se": 4.469152227715208,
+        "normal_approximation_95_interval": [
+          189.1303679358044,
+          206.649444668448
+        ]
+      },
+      "K1": {
+        "mean": 85.6283023446033,
+        "monte_carlo_se": 1.9333642676974285,
+        "normal_approximation_95_interval": [
+          81.83890837991633,
+          89.41769630929026
+        ]
+      },
+      "K1_over_K0": 0.432706770874262,
+      "baseline_K_from_warmup_pickups": {
+        "mean": 0.0009154555002067481,
+        "monte_carlo_se": 0.0002062573293022619,
+        "normal_approximation_95_interval": [
+          0.0005111911347743148,
+          0.0013197198656391814
+        ]
+      },
+      "limiting_response": 0.567293229125738,
+      "limiting_response_delta_monte_carlo_se": 3.988851773835167e-05,
+      "limiting_response_normal_95_interval": [
+        0.5672150476309709,
+        0.5673714106205051
+      ],
+      "paired_K1_minus_K0": {
+        "mean": -112.26160395752291,
+        "monte_carlo_se": 2.535816252670217,
+        "normal_approximation_95_interval": [
+          -117.23180381275654,
+          -107.29140410228928
+        ]
+      },
+      "parameters": {
+        "e": 1.0,
+        "h0": 0.9,
+        "h1": 0.95,
+        "id": "h0.9_to_0.95_rho0.25_e1",
+        "rho": 0.25
+      },
+      "policy_K_from_warmup_pickups": {
+        "mean": 0.0004947968776537213,
+        "monte_carlo_se": 0.00011170396527057153,
+        "normal_approximation_95_interval": [
+          0.00027585710572340113,
+          0.0007137366495840415
+        ]
+      },
+      "stationary_q2_response_for_comparison_only": 0.557692307692307
+    },
+    "h0.9_to_0.95_rho0.5_e0.6": {
+      "K0": {
+        "mean": 1689.0643737250505,
+        "monte_carlo_se": 38.14787020318987,
+        "normal_approximation_95_interval": [
+          1614.2945481267984,
+          1763.8341993233025
+        ]
+      },
+      "K1": {
+        "mean": 1342.2108505654942,
+        "monte_carlo_se": 30.315505740027444,
+        "normal_approximation_95_interval": [
+          1282.7924593150403,
+          1401.629241815948
+        ]
+      },
+      "K1_over_K0": 0.7946475406413268,
+      "baseline_K_from_warmup_pickups": {
+        "mean": 0.0077936326862260525,
+        "monte_carlo_se": 0.0017353372169028889,
+        "normal_approximation_95_interval": [
+          0.00439237174109639,
+          0.011194893631355715
+        ]
+      },
+      "limiting_response": 0.2053524593586732,
+      "limiting_response_delta_monte_carlo_se": 4.2327114897275284e-05,
+      "limiting_response_normal_95_interval": [
+        0.20526949821347454,
+        0.20543542050387184
+      ],
+      "paired_K1_minus_K0": {
+        "mean": -346.8535231595562,
+        "monte_carlo_se": 7.832774908822435,
+        "normal_approximation_95_interval": [
+          -362.20576198084814,
+          -331.5012843382642
+        ]
+      },
+      "parameters": {
+        "e": 0.6,
+        "h0": 0.9,
+        "h1": 0.95,
+        "id": "h0.9_to_0.95_rho0.5_e0.6",
+        "rho": 0.5
+      },
+      "policy_K_from_warmup_pickups": {
+        "mean": 0.006733516542055502,
+        "monte_carlo_se": 0.0015027922228208188,
+        "normal_approximation_95_interval": [
+          0.0037880437853266974,
+          0.009678989298784307
+        ]
+      },
+      "stationary_q2_response_for_comparison_only": 0.15079016681299373
+    },
+    "h0.9_to_0.95_rho0.5_e0.8": {
+      "K0": {
+        "mean": 765.7096791331355,
+        "monte_carlo_se": 17.29365775593989,
+        "normal_approximation_95_interval": [
+          731.8141099314934,
+          799.6052483347777
+        ]
+      },
+      "K1": {
+        "mean": 482.3068208227484,
+        "monte_carlo_se": 10.892998000539318,
+        "normal_approximation_95_interval": [
+          460.95654474169135,
+          503.6570969038055
+        ]
+      },
+      "K1_over_K0": 0.6298821001828928,
+      "baseline_K_from_warmup_pickups": {
+        "mean": 0.003534238336735414,
+        "monte_carlo_se": 0.0007883276393349371,
+        "normal_approximation_95_interval": [
+          0.0019891161636389374,
+          0.005079360509831891
+        ]
+      },
+      "limiting_response": 0.3701178998171072,
+      "limiting_response_delta_monte_carlo_se": 3.9751897682398534e-05,
+      "limiting_response_normal_95_interval": [
+        0.3700399860976497,
+        0.37019581353656467
+      ],
+      "paired_K1_minus_K0": {
+        "mean": -283.4028583103871,
+        "monte_carlo_se": 6.400774656876477,
+        "normal_approximation_95_interval": [
+          -295.948376637865,
+          -270.8573399829092
+        ]
+      },
+      "parameters": {
+        "e": 0.8,
+        "h0": 0.9,
+        "h1": 0.95,
+        "id": "h0.9_to_0.95_rho0.5_e0.8",
+        "rho": 0.5
+      },
+      "policy_K_from_warmup_pickups": {
+        "mean": 0.0027271516234167376,
+        "monte_carlo_se": 0.0006100659797498948,
+        "normal_approximation_95_interval": [
+          0.0015314223031069438,
+          0.003922880943726531
+        ]
+      },
+      "stationary_q2_response_for_comparison_only": 0.3208955223880595
+    },
+    "h0.9_to_0.95_rho0.5_e0.9": {
+      "K0": {
+        "mean": 530.5283970238632,
+        "monte_carlo_se": 11.981780354595813,
+        "normal_approximation_95_interval": [
+          507.0441075288555,
+          554.0126865188711
+        ]
+      },
+      "K1": {
+        "mean": 278.2476566278402,
+        "monte_carlo_se": 6.28382851615541,
+        "normal_approximation_95_interval": [
+          265.93135273617554,
+          290.5639605195048
+        ]
+      },
+      "K1_over_K0": 0.5244726921098712,
+      "baseline_K_from_warmup_pickups": {
+        "mean": 0.0024489598044639925,
+        "monte_carlo_se": 0.0005455220857499441,
+        "normal_approximation_95_interval": [
+          0.001379736516394102,
+          0.0035181830925338827
+        ]
+      },
+      "limiting_response": 0.47552730789012876,
+      "limiting_response_delta_monte_carlo_se": 2.7092062664783374e-05,
+      "limiting_response_normal_95_interval": [
+        0.4754742074473058,
+        0.47558040833295173
+      ],
+      "paired_K1_minus_K0": {
+        "mean": -252.28074039602313,
+        "monte_carlo_se": 5.697986388909007,
+        "normal_approximation_95_interval": [
+          -263.4487937182848,
+          -241.1126870737615
+        ]
+      },
+      "parameters": {
+        "e": 0.9,
+        "h0": 0.9,
+        "h1": 0.95,
+        "id": "h0.9_to_0.95_rho0.5_e0.9",
+        "rho": 0.5
+      },
+      "policy_K_from_warmup_pickups": {
+        "mean": 0.0017576189136079387,
+        "monte_carlo_se": 0.0003923335265043324,
+        "normal_approximation_95_interval": [
+          0.0009886452016594472,
+          0.0025265926255564303
+        ]
+      },
+      "stationary_q2_response_for_comparison_only": 0.44503790489317674
+    },
+    "h0.9_to_0.95_rho0.5_e1": {
+      "K0": {
+        "mean": 409.1348709847255,
+        "monte_carlo_se": 9.239971267079358,
+        "normal_approximation_95_interval": [
+          391.02452730125,
+          427.2452146682011
+        ]
+      },
+      "K1": {
+        "mean": 189.64565661183318,
+        "monte_carlo_se": 4.282576699591523,
+        "normal_approximation_95_interval": [
+          181.2518062806338,
+          198.03950694303256
+        ]
+      },
+      "K1_over_K0": 0.4635284598337582,
+      "baseline_K_by_opportunities_mean": {
+        "0": 0.0390625,
+        "1": 0.0,
+        "2": 302.0780296874697,
+        ">=3": 107.01777879723134
+      },
+      "baseline_K_from_warmup_pickups": {
+        "mean": 0.0018890094983718378,
+        "monte_carlo_se": 0.0004203879623820279,
+        "normal_approximation_95_interval": [
+          0.0010650490921030632,
+          0.0027129699046406124
+        ]
+      },
+      "limiting_response": 0.5364715401662419,
+      "limiting_response_delta_monte_carlo_se": 2.1234028131845747e-05,
+      "limiting_response_normal_95_interval": [
+        0.5364299214711035,
+        0.5365131588613803
+      ],
+      "paired_K1_minus_K0": {
+        "mean": -219.48921437289238,
+        "monte_carlo_se": 4.957410952802941,
+        "normal_approximation_95_interval": [
+          -229.20573984038614,
+          -209.7726889053986
+        ]
+      },
+      "parameters": {
+        "e": 1.0,
+        "h0": 0.9,
+        "h1": 0.95,
+        "id": "h0.9_to_0.95_rho0.5_e1",
+        "legacy_id": "persistent_perfect",
+        "rho": 0.5
+      },
+      "policy_K_by_opportunities_mean": {
+        "0": 0.0390625,
+        "1": 0.0,
+        "2": 144.17902262931617,
+        ">=3": 45.42757148250253
+      },
+      "policy_K_from_warmup_pickups": {
+        "mean": 0.0013141685078038082,
+        "monte_carlo_se": 0.00029283526695653546,
+        "normal_approximation_95_interval": [
+          0.0007402113845689988,
+          0.0018881256310386177
+        ]
+      },
+      "stationary_q2_response_for_comparison_only": 0.5227272727272723
+    },
+    "h0.9_to_0.95_rho0.75_e0.6": {
+      "K0": {
+        "mean": 2125.6621341762384,
+        "monte_carlo_se": 47.990443508232836,
+        "normal_approximation_95_interval": [
+          2031.6008649001021,
+          2219.723403452375
+        ]
+      },
+      "K1": {
+        "mean": 1550.5100621243828,
+        "monte_carlo_se": 35.011181580919036,
+        "normal_approximation_95_interval": [
+          1481.8881462257814,
+          1619.1319780229842
+        ]
+      },
+      "K1_over_K0": 0.7294245106949956,
+      "baseline_K_from_warmup_pickups": {
+        "mean": 0.00976601328568764,
+        "monte_carlo_se": 0.002164591452262255,
+        "normal_approximation_95_interval": [
+          0.005523414039253621,
+          0.01400861253212166
+        ]
+      },
+      "limiting_response": 0.2705754893050044,
+      "limiting_response_delta_monte_carlo_se": 6.838582470271286e-05,
+      "limiting_response_normal_95_interval": [
+        0.2704414530885871,
+        0.27070952552142175
+      ],
+      "paired_K1_minus_K0": {
+        "mean": -575.1520720518555,
+        "monte_carlo_se": 12.980376107661609,
+        "normal_approximation_95_interval": [
+          -600.5936092228723,
+          -549.7105348808387
+        ]
+      },
+      "parameters": {
+        "e": 0.6,
+        "h0": 0.9,
+        "h1": 0.95,
+        "id": "h0.9_to_0.95_rho0.75_e0.6",
+        "rho": 0.75
+      },
+      "policy_K_from_warmup_pickups": {
+        "mean": 0.008679198115270417,
+        "monte_carlo_se": 0.0019267413679813347,
+        "normal_approximation_95_interval": [
+          0.0049027850340270015,
+          0.012455611196513833
+        ]
+      },
+      "stationary_q2_response_for_comparison_only": 0.16182704535820236
+    },
+    "h0.9_to_0.95_rho0.75_e0.8": {
+      "K0": {
+        "mean": 1223.706584520206,
+        "monte_carlo_se": 27.62356247509278,
+        "normal_approximation_95_interval": [
+          1169.564402069024,
+          1277.848766971388
+        ]
+      },
+      "K1": {
+        "mean": 701.9473751929075,
+        "monte_carlo_se": 15.84682650049026,
+        "normal_approximation_95_interval": [
+          670.8875952519467,
+          733.0071551338684
+        ]
+      },
+      "K1_over_K0": 0.573623925925126,
+      "baseline_K_from_warmup_pickups": {
+        "mean": 0.005606954525278639,
+        "monte_carlo_se": 0.0012398408740234813,
+        "normal_approximation_95_interval": [
+          0.003176866412192616,
+          0.008037042638364663
+        ]
+      },
+      "limiting_response": 0.426376074074874,
+      "limiting_response_delta_monte_carlo_se": 4.810305335419649e-05,
+      "limiting_response_normal_95_interval": [
+        0.42628179209029976,
+        0.4264703560594482
+      ],
+      "paired_K1_minus_K0": {
+        "mean": -521.7592093272984,
+        "monte_carlo_se": 11.7769923074672,
+        "normal_approximation_95_interval": [
+          -544.8421142499342,
+          -498.67630440466274
+        ]
+      },
+      "parameters": {
+        "e": 0.8,
+        "h0": 0.9,
+        "h1": 0.95,
+        "id": "h0.9_to_0.95_rho0.75_e0.8",
+        "rho": 0.75
+      },
+      "policy_K_from_warmup_pickups": {
+        "mean": 0.0047394727036669075,
+        "monte_carlo_se": 0.0010492811381447465,
+        "normal_approximation_95_interval": [
+          0.0026828816729032043,
+          0.006796063734430611
+        ]
+      },
+      "stationary_q2_response_for_comparison_only": 0.33881578947368396
+    },
+    "h0.9_to_0.95_rho0.75_e0.9": {
+      "K0": {
+        "mean": 1001.179643329632,
+        "monte_carlo_se": 22.599058679360855,
+        "normal_approximation_95_interval": [
+          956.8854883180848,
+          1045.4737983411792
+        ]
+      },
+      "K1": {
+        "mean": 504.55788392225804,
+        "monte_carlo_se": 11.389206952960855,
+        "normal_approximation_95_interval": [
+          482.23503829445474,
+          526.8807295500613
+        ]
+      },
+      "K1_over_K0": 0.5039633868745528,
+      "baseline_K_from_warmup_pickups": {
+        "mean": 0.00458281846566437,
+        "monte_carlo_se": 0.0010114030777146458,
+        "normal_approximation_95_interval": [
+          0.0026004684333436638,
+          0.006565168497985076
+        ]
+      },
+      "limiting_response": 0.4960366131254472,
+      "limiting_response_delta_monte_carlo_se": 2.396583444780482e-05,
+      "limiting_response_normal_95_interval": [
+        0.4959896400899295,
+        0.49608358616096493
+      ],
+      "paired_K1_minus_K0": {
+        "mean": -496.62175940737393,
+        "monte_carlo_se": 11.209902679471003,
+        "normal_approximation_95_interval": [
+          -518.5931686591371,
+          -474.65035015561074
+        ]
+      },
+      "parameters": {
+        "e": 0.9,
+        "h0": 0.9,
+        "h1": 0.95,
+        "id": "h0.9_to_0.95_rho0.75_e0.9",
+        "rho": 0.75
+      },
+      "policy_K_from_warmup_pickups": {
+        "mean": 0.003802543688098111,
+        "monte_carlo_se": 0.0008397497228649049,
+        "normal_approximation_95_interval": [
+          0.0021566342312828975,
+          0.005448453144913324
+        ]
+      },
+      "stationary_q2_response_for_comparison_only": 0.4504957312035247
+    },
+    "h0.9_to_0.95_rho0.75_e1": {
+      "K0": {
+        "mean": 893.8559686124601,
+        "monte_carlo_se": 20.176084067815783,
+        "normal_approximation_95_interval": [
+          854.3108438395411,
+          933.401093385379
+        ]
+      },
+      "K1": {
+        "mean": 423.3656787851093,
+        "monte_carlo_se": 9.555906532623194,
+        "normal_approximation_95_interval": [
+          404.6361019811678,
+          442.0952555890508
+        ]
+      },
+      "K1_over_K0": 0.47363970667702016,
+      "baseline_K_from_warmup_pickups": {
+        "mean": 0.004090213792131407,
+        "monte_carlo_se": 0.000901913644204799,
+        "normal_approximation_95_interval": [
+          0.002322463049490001,
+          0.005857964534772813
+        ]
+      },
+      "limiting_response": 0.5263602933229798,
+      "limiting_response_delta_monte_carlo_se": 1.2899724970369444e-05,
+      "limiting_response_normal_95_interval": [
+        0.526335009862038,
+        0.5263855767839217
+      ],
+      "paired_K1_minus_K0": {
+        "mean": -470.49028982735075,
+        "monte_carlo_se": 10.620190742515819,
+        "normal_approximation_95_interval": [
+          -491.3058636826818,
+          -449.6747159720197
+        ]
+      },
+      "parameters": {
+        "e": 1.0,
+        "h0": 0.9,
+        "h1": 0.95,
+        "id": "h0.9_to_0.95_rho0.75_e1",
+        "rho": 0.75
+      },
+      "policy_K_from_warmup_pickups": {
+        "mean": 0.0033908144588478306,
+        "monte_carlo_se": 0.0007479851356694073,
+        "normal_approximation_95_interval": [
+          0.0019247635929357924,
+          0.0048568653247598684
+        ]
+      },
+      "stationary_q2_response_for_comparison_only": 0.5080645161290318
+    },
+    "h0.9_to_0.95_rho0_e0.6": {
+      "K0": {
+        "mean": 1429.7897527240373,
+        "monte_carlo_se": 32.29484233226221,
+        "normal_approximation_95_interval": [
+          1366.4918617528033,
+          1493.0876436952713
+        ]
+      },
+      "K1": {
+        "mean": 1216.3683244873966,
+        "monte_carlo_se": 27.474443466834764,
+        "normal_approximation_95_interval": [
+          1162.5184152924005,
+          1270.2182336823928
+        ]
+      },
+      "K1_over_K0": 0.8507322997454487,
+      "baseline_K_from_warmup_pickups": {
+        "mean": 0.006615118867228655,
+        "monte_carlo_se": 0.0014792097278356821,
+        "normal_approximation_95_interval": [
+          0.003715867800670718,
+          0.009514369933786591
+        ]
+      },
+      "limiting_response": 0.14926770025455127,
+      "limiting_response_delta_monte_carlo_se": 1.9667171382350745e-05,
+      "limiting_response_normal_95_interval": [
+        0.14922915259864186,
+        0.14930624791046068
+      ],
+      "paired_K1_minus_K0": {
+        "mean": -213.42142823664062,
+        "monte_carlo_se": 4.820495270643153,
+        "normal_approximation_95_interval": [
+          -222.8695989671012,
+          -203.97325750618003
+        ]
+      },
+      "parameters": {
+        "e": 0.6,
+        "h0": 0.9,
+        "h1": 0.95,
+        "id": "h0.9_to_0.95_rho0_e0.6",
+        "rho": 0.0
+      },
+      "policy_K_from_warmup_pickups": {
+        "mean": 0.0056293271616706135,
+        "monte_carlo_se": 0.0012608845065778672,
+        "normal_approximation_95_interval": [
+          0.0031579935287779936,
+          0.008100660794563234
+        ]
+      },
+      "stationary_q2_response_for_comparison_only": 0.12618147448015105
+    },
+    "h0.9_to_0.95_rho0_e0.8": {
+      "K0": {
+        "mean": 464.91294889993395,
+        "monte_carlo_se": 10.500813432100909,
+        "normal_approximation_95_interval": [
+          444.33135457301614,
+          485.49454322685176
+        ]
+      },
+      "K1": {
+        "mean": 334.76580561008416,
+        "monte_carlo_se": 7.560998611169188,
+        "normal_approximation_95_interval": [
+          319.94624833219257,
+          349.58536288797575
+        ]
+      },
+      "K1_over_K0": 0.7200612639467219,
+      "baseline_K_by_opportunities_mean": {
+        "0": 0.0390625,
+        "1": 0.0,
+        "2": 430.59850050004945,
+        ">=3": 34.27538589996927
+      },
+      "baseline_K_from_warmup_pickups": {
+        "mean": 0.002149764350596428,
+        "monte_carlo_se": 0.00048551306067911427,
+        "normal_approximation_95_interval": [
+          0.001198158751665364,
+          0.003101369949527492
+        ]
+      },
+      "limiting_response": 0.2799387360532781,
+      "limiting_response_delta_monte_carlo_se": 1.6639084318573568e-05,
+      "limiting_response_normal_95_interval": [
+        0.27990612344801374,
+        0.2799713486585425
+      ],
+      "paired_K1_minus_K0": {
+        "mean": -130.14714328984982,
+        "monte_carlo_se": 2.939828942934924,
+        "normal_approximation_95_interval": [
+          -135.90920801800226,
+          -124.38507856169737
+        ]
+      },
+      "parameters": {
+        "e": 0.8,
+        "h0": 0.9,
+        "h1": 0.95,
+        "id": "h0.9_to_0.95_rho0_e0.8",
+        "legacy_id": "iid_imperfect",
+        "rho": 0.0
+      },
+      "policy_K_by_opportunities_mean": {
+        "0": 0.0390625,
+        "1": 0.0,
+        "2": 316.3580819999981,
+        ">=3": 18.368661110139968
+      },
+      "policy_K_from_warmup_pickups": {
+        "mean": 0.0015469420252247203,
+        "monte_carlo_se": 0.00035005967933615873,
+        "normal_approximation_95_interval": [
+          0.0008608250537258491,
+          0.0022330589967235913
+        ]
+      },
+      "stationary_q2_response_for_comparison_only": 0.2653061224489792
+    },
+    "h0.9_to_0.95_rho0_e0.9": {
+      "K0": {
+        "mean": 205.4805550162771,
+        "monte_carlo_se": 4.64064483946447,
+        "normal_approximation_95_interval": [
+          196.38489113092675,
+          214.57621890162744
+        ]
+      },
+      "K1": {
+        "mean": 117.93705863071894,
+        "monte_carlo_se": 2.6631769434763877,
+        "normal_approximation_95_interval": [
+          112.71723182150522,
+          123.15688543993265
+        ]
+      },
+      "K1_over_K0": 0.5739572711460535,
+      "baseline_K_from_warmup_pickups": {
+        "mean": 0.0009486460220753654,
+        "monte_carlo_se": 0.00021514136112339716,
+        "normal_approximation_95_interval": [
+          0.0005269689542735071,
+          0.0013703230898772238
+        ]
+      },
+      "limiting_response": 0.42604272885394645,
+      "limiting_response_delta_monte_carlo_se": 2.9400530038706986e-05,
+      "limiting_response_normal_95_interval": [
+        0.4259851038150706,
+        0.4261003538928223
+      ],
+      "paired_K1_minus_K0": {
+        "mean": -87.54349638555816,
+        "monte_carlo_se": 1.9774839184624162,
+        "normal_approximation_95_interval": [
+          -91.4193648657445,
+          -83.66762790537182
+        ]
+      },
+      "parameters": {
+        "e": 0.9,
+        "h0": 0.9,
+        "h1": 0.95,
+        "id": "h0.9_to_0.95_rho0_e0.9",
+        "rho": 0.0
+      },
+      "policy_K_from_warmup_pickups": {
+        "mean": 0.0005440114087409816,
+        "monte_carlo_se": 0.0001235769241405077,
+        "normal_approximation_95_interval": [
+          0.00030180063742558645,
+          0.0007862221800563767
+        ]
+      },
+      "stationary_q2_response_for_comparison_only": 0.41759002770083054
+    },
+    "h0.9_to_0.95_rho0_e1": {
+      "K0": {
+        "mean": 55.50873829933144,
+        "monte_carlo_se": 1.253046023279378,
+        "normal_approximation_95_interval": [
+          53.05276809370386,
+          57.96470850495902
+        ]
+      },
+      "K1": {
+        "mean": 13.803974333015837,
+        "monte_carlo_se": 0.31120750167387,
+        "normal_approximation_95_interval": [
+          13.194007629735053,
+          14.413941036296622
+        ]
+      },
+      "K1_over_K0": 0.2486811041998066,
+      "baseline_K_by_opportunities_mean": {
+        "0": 0.0390625,
+        "1": 0.0,
+        "2": 54.92327812499838,
+        ">=3": 0.5463976743276244
+      },
+      "baseline_K_from_warmup_pickups": {
+        "mean": 0.00025579713079713066,
+        "monte_carlo_se": 5.8179181388565355e-05,
+        "normal_approximation_95_interval": [
+          0.00014176593527554258,
+          0.00036982832631871873
+        ]
+      },
+      "limiting_response": 0.7513188958001934,
+      "limiting_response_delta_monte_carlo_se": 0.00018099260732561955,
+      "limiting_response_normal_95_interval": [
+        0.7509641502898352,
+        0.7516736413105516
+      ],
+      "paired_K1_minus_K0": {
+        "mean": -41.7047639663156,
+        "monte_carlo_se": 0.942053627278488,
+        "normal_approximation_95_interval": [
+          -43.55118907578144,
+          -39.85833885684977
+        ]
+      },
+      "parameters": {
+        "e": 1.0,
+        "h0": 0.9,
+        "h1": 0.95,
+        "id": "h0.9_to_0.95_rho0_e1",
+        "legacy_id": "iid_perfect",
+        "rho": 0.0
+      },
+      "policy_K_by_opportunities_mean": {
+        "0": 0.0390625,
+        "1": 0.0,
+        "2": 13.730819531249612,
+        ">=3": 0.03409230176685084
+      },
+      "policy_K_from_warmup_pickups": {
+        "mean": 6.344824317887891e-05,
+        "monte_carlo_se": 1.4443502952258895e-05,
+        "normal_approximation_95_interval": [
+          3.513897739245148e-05,
+          9.175750896530634e-05
+        ]
+      },
+      "stationary_q2_response_for_comparison_only": 0.7499999999999994
+    }
+  },
+  "raw_pairs_without_reset_by_opportunities_total": {
+    "0": 10,
+    "1": 0,
+    "10": 2998258,
+    "11": 0,
+    "12": 782119,
+    "2": 3158292,
+    "3": 0,
+    "4": 3130732,
+    "5": 0,
+    "6": 620685,
+    "7": 0,
+    "8": 2867327,
+    "9": 0,
+    ">=13": 94206242
+  },
+  "role_count_scope": "Observation events only: total_ticks > 233280.",
+  "schema_version": 1,
+  "scientific_identity_sha256": "b751c7d527f28dfcfd85450ba666d287a84311bfe1a0427a0ab059b1359c250c",
+  "seeds_completed": 256,
+  "seeds_planned": 256,
+  "status": "complete",
+  "study": "author_notes_2026-10-10_bridge",
+  "uncertainty_note": "Descriptive seed-level normal/delta Monte Carlo intervals; conditional survival integrated exactly."
+}

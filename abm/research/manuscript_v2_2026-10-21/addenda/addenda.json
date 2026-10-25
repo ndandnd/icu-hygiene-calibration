@@ -1,0 +1,5091 @@
+{
+ "schema": "manuscript_v2_addenda/1",
+ "date": "2026-10-22",
+ "folder_date": "2026-10-21",
+ "status": "analysis-only addenda from saved records; no simulation",
+ "script": "$PROJECT_ROOT/abm/research/manuscript_v2_2026-10-21/addenda/addenda_analysis.py",
+ "script_sha256": "088b2dba383f64a5f54adabb365fee6ae14dae89d0c923c0d02de7623b8249b3",
+ "runtime": {
+  "python": "3.12.2",
+  "numpy": "1.26.4"
+ },
+ "bootstrap": {
+  "draws": 20000,
+  "seed": 20261021,
+  "streams": "SeedSequence(20261021).spawn(5): sensitivity, holdout (4 strata; upper uses cores), environment, alternative policy, alternative grid",
+  "interval": "percentile 95%"
+ },
+ "inputs": {
+  "sensitivity": {
+   "root": "$PROJECT_ROOT/research/author_notes_2026-10-10/collections/sensitivity_20261011_101348_utc/results/sensitivity",
+   "n_records": 1536,
+   "digest": "ec13d5acc4a90ad6c3ad152c6301f0d2739a2595fc4d096c07836c62e2474d8f"
+  },
+  "independent_upper": {
+   "root": "$PROJECT_ROOT/research/rule_surface_followup_2026-10-11/collections/independent_upper_20261012_0125_utc/restored/repo/results/rule_surface_followup_2026-10-11/independent_upper",
+   "n_records": 256,
+   "digest": "6c3be27da0336ed647ef9ae83165f38a410208f7de018a78e69dd99490ef17f4"
+  },
+  "holdout": {
+   "root": "$PROJECT_ROOT/abm/results/full_icu_confirmation_2026-10-08/holdout_{cluster,local}",
+   "n_records": 1536
+  },
+  "environment": {
+   "root": "$PROJECT_ROOT/abm/results/full_icu_confirmation_2026-10-08/environment_{cluster,local}",
+   "n_records": 3072
+  },
+  "alternative_policy": {
+   "root": "$PROJECT_ROOT/research/robustness_uq_2026-10-17/collection_2026-10-21/execution01/banks/policy",
+   "n_records": 1536,
+   "digest": "8c4a7d4d7556319a1902e55ab6bac321c35164b294e961fad3598d49b9e0e66d"
+  },
+  "alternative_grid": {
+   "root": "$PROJECT_ROOT/research/robustness_uq_2026-10-17/collection_2026-10-21/execution01/banks/grid",
+   "n_records": 1536,
+   "digest": "f914c063cc0c2ddd32993b2905b71a9b5e1717ff15b231de8ce1ed0568f2d3d2"
+  },
+  "other_files_sha256": {
+   "$PROJECT_ROOT/research/author_notes_2026-10-10/analysis_2026-10-11/sensitivity_replay_20261011_1015_utc/report.json": "52ed5b4a38daa590906b3d9de7db194c94af0269ae222b65de7ea2b050286f7d",
+   "$PROJECT_ROOT/abm/research/author_notes_2026-10-10/seedbook.json": "bce8951a1f6b1e92a169b9f2160f4ed946475b64a03e0b15bf3dd2917cb75606",
+   "$PROJECT_ROOT/abm/research/rule_surface_results_2026-10-12/completed_analysis/report.json": "9189e84179ca027e54ec03d2214137cfe55889ebaf11b9bd6276e0c56510f30f",
+   "$PROJECT_ROOT/abm/research/rule_surface_followup_2026-10-11/old_input_index.json": "ebb389d9bdab4b839fc94556a23a3e18baf604fc74d73c69e584a883dbdd369c",
+   "$PROJECT_ROOT/abm/research/full_icu_confirmation_2026-10-08/seedbook.json": "e06e42ae1f80739330a8d1df540453013be4da2679adb0f4515776d17cf3eabd",
+   "$PROJECT_ROOT/abm/research/full_icu_confirmation_2026-10-08/holdout_report/report.json": "7653258323d436c52deb0962f404f7dfd8c37bc8f83e026741927b5b7bf8b6ce",
+   "$PROJECT_ROOT/abm/research/full_icu_confirmation_2026-10-08/environment_report/report.json": "b5dfdd412e4d8df99ca4557694739436b8eb601ec9b3de3f223cce553fa3e264",
+   "$PROJECT_ROOT/research/robustness_uq_2026-10-17/collection_2026-10-21/local_sha256.txt": "4224905328226fa4d7596f91a6617e152947f7d651c7d656da4cedbc99ae059a",
+   "$PROJECT_ROOT/research/robustness_uq_2026-10-17/collection_2026-10-21/execution01/source/research/robustness_uq_2026-10-17/seedbook.json": "bfd4a1ebf76b38a4ac3b64d841629e18e7fa80821bdadac223608a844adc4bd6",
+   "$PROJECT_ROOT/research/robustness_uq_2026-10-17/collection_2026-10-21/execution01/source/research/robustness_uq_2026-10-17/selection.json": "1dcb9eac1f84ac24ab5fbee814fac4711e64eeb8d12beb1b653255d08ed96ecf",
+   "$PROJECT_ROOT/research/robustness_uq_2026-10-17/collection_2026-10-21/execution01/outputs/analysis.json": "063c0d95f37661de931d0b433168cdb0e178affe41b5017e7c5eb49aaec5579f",
+   "$PROJECT_ROOT/abm/research/author_notes_2026-10-10/saved_analysis/outputs/calibration.json": "783a2cc42e5aae8d6796a9dbc6e8b40dd94a061258b51be59076674dfe752507",
+   "$PROJECT_ROOT/abm/research/editorial_polish_2026-10-11/source_revision_02/input/evidence/selection_uncertainty.json": "ad537a6838a645835749df0c5bdebbb8d0be45b11ebd1ecdd333e16776f27fbe",
+   "$PROJECT_ROOT/abm/research/common_baseline_2026-10-16/results_final.json": "74ed8a3f8467b279fb4e139d798c13722752b973ae12f0742f11304bd6b6a355",
+   "$PROJECT_ROOT/abm/manuscript/supplement.tex": "3255ef3ef85b285e7017004cae30205e60af75c36c9c41a80211837ce73a8f6c"
+  }
+ },
+ "hash_checks": [
+  {
+   "label": "sensitivity records vs archived sensitivity report input_sha256",
+   "n_files": 1536,
+   "mismatches": 0,
+   "first_mismatches": []
+  },
+  {
+   "label": "independent upper records vs rule-surface report binding",
+   "n_files": 256,
+   "mismatches": 0,
+   "first_mismatches": []
+  },
+  {
+   "label": "holdout records vs archived holdout report",
+   "n_files": 1536,
+   "mismatches": 0,
+   "first_mismatches": []
+  },
+  {
+   "label": "environment records vs archived environment report",
+   "n_files": 3072,
+   "mismatches": 0,
+   "first_mismatches": []
+  },
+  {
+   "label": "alternative policy records vs collection local_sha256.txt",
+   "n_files": 1536,
+   "mismatches": 0,
+   "first_mismatches": []
+  },
+  {
+   "label": "alternative grid records vs collection local_sha256.txt",
+   "n_files": 1536,
+   "mismatches": 0,
+   "first_mismatches": []
+  }
+ ],
+ "reproduction_checks": [
+  {
+   "check": "sensitivity clustered_low F",
+   "recomputed": 0.6047649421436477,
+   "archived": 0.6047649421436476,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "sensitivity clustered_low control rate",
+   "recomputed": 1.2958328006470092,
+   "archived": 1.2958328006470092,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "sensitivity clustered_center F",
+   "recomputed": 0.5534721063039977,
+   "archived": 0.5534721063039977,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "sensitivity clustered_center control rate",
+   "recomputed": 2.6300002857133524,
+   "archived": 2.6300002857133524,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "sensitivity clustered_high F",
+   "recomputed": 0.5358389615468404,
+   "archived": 0.5358389615468404,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "sensitivity clustered_high control rate",
+   "recomputed": 5.029452510233017,
+   "archived": 5.029452510233017,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "sensitivity imperfect_low F",
+   "recomputed": 0.2889552177575292,
+   "archived": 0.2889552177575293,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "sensitivity imperfect_low control rate",
+   "recomputed": 1.2529369109094248,
+   "archived": 1.2529369109094248,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "sensitivity imperfect_center F",
+   "recomputed": 0.29774486759682695,
+   "archived": 0.29774486759682695,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "sensitivity imperfect_center control rate",
+   "recomputed": 2.8086095367576243,
+   "archived": 2.8086095367576243,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "sensitivity imperfect_high F",
+   "recomputed": 0.32689301866276455,
+   "archived": 0.32689301866276443,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "sensitivity imperfect_high control rate",
+   "recomputed": 5.9276264243071,
+   "archived": 5.9276264243071,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "independent matched center B (common baseline B_lo)",
+   "recomputed": 2.7774095830621772,
+   "archived": 2.7774095830621772,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "independent upper B (common baseline B_hi)",
+   "recomputed": 7.289269465126397,
+   "archived": 7.289269465126397,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "independent matched center F",
+   "recomputed": 0.662941117788636,
+   "archived": 0.662941117788636,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "independent upper F",
+   "recomputed": 0.7101413949645443,
+   "archived": 0.7101413949645443,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "alternative independent F",
+   "recomputed": 0.7649626879655544,
+   "archived": 0.7649626879655544,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "alternative independent control rate",
+   "recomputed": 2.90363131367903,
+   "archived": 2.90363131367903,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "alternative clustered F",
+   "recomputed": 0.5370639017232186,
+   "archived": 0.5370639017232186,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "alternative clustered control rate",
+   "recomputed": 2.621283159254916,
+   "archived": 2.621283159254916,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "alternative imperfect F",
+   "recomputed": 0.27256752758214,
+   "archived": 0.27256752758214,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "alternative imperfect control rate",
+   "recomputed": 2.626062754068722,
+   "archived": 2.626062754068722,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "original holdout independent control rate (manuscript, 2 dp)",
+   "recomputed": 2.83,
+   "archived": 2.83,
+   "tolerance": 1e-09,
+   "pass_": true
+  },
+  {
+   "check": "original holdout independent F (manuscript, 1 dp)",
+   "recomputed": 67.6,
+   "archived": 67.6,
+   "tolerance": 1e-09,
+   "pass_": true
+  },
+  {
+   "check": "original holdout clustered control rate (manuscript, 2 dp)",
+   "recomputed": 2.69,
+   "archived": 2.69,
+   "tolerance": 1e-09,
+   "pass_": true
+  },
+  {
+   "check": "original holdout clustered F (manuscript, 1 dp)",
+   "recomputed": 55.9,
+   "archived": 55.9,
+   "tolerance": 1e-09,
+   "pass_": true
+  },
+  {
+   "check": "original holdout imperfect control rate (manuscript, 2 dp)",
+   "recomputed": 2.8,
+   "archived": 2.8,
+   "tolerance": 1e-09,
+   "pass_": true
+  },
+  {
+   "check": "original holdout imperfect F (manuscript, 1 dp)",
+   "recomputed": 27.0,
+   "archived": 27.0,
+   "tolerance": 1e-09,
+   "pass_": true
+  },
+  {
+   "check": "original selection independent p vs supplement display",
+   "recomputed": 0.14328,
+   "archived": 0.14328,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "original selection independent lo vs supplement display",
+   "recomputed": 0.14004,
+   "archived": 0.14004,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "original selection independent hi vs supplement display",
+   "recomputed": 0.14792,
+   "archived": 0.14792,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "original selection clustered p vs supplement display",
+   "recomputed": 0.07602,
+   "archived": 0.07602,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "original selection clustered lo vs supplement display",
+   "recomputed": 0.07346,
+   "archived": 0.07346,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "original selection clustered hi vs supplement display",
+   "recomputed": 0.07873,
+   "archived": 0.07873,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "original selection imperfect p vs supplement display",
+   "recomputed": 0.07484,
+   "archived": 0.07484,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "original selection imperfect lo vs supplement display",
+   "recomputed": 0.07243,
+   "archived": 0.07243,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "original selection imperfect hi vs supplement display",
+   "recomputed": 0.07785,
+   "archived": 0.07785,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "alternative selection independent p vs RESULTS.md",
+   "recomputed": 0.165111,
+   "archived": 0.165111,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "alternative selection independent lo vs RESULTS.md",
+   "recomputed": 0.15999,
+   "archived": 0.15999,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "alternative selection independent hi vs RESULTS.md",
+   "recomputed": 0.17033,
+   "archived": 0.17033,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "alternative selection clustered p vs RESULTS.md",
+   "recomputed": 0.080633,
+   "archived": 0.080633,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "alternative selection clustered lo vs RESULTS.md",
+   "recomputed": 0.07801,
+   "archived": 0.07801,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "alternative selection clustered hi vs RESULTS.md",
+   "recomputed": 0.08332,
+   "archived": 0.08332,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "alternative selection imperfect p vs RESULTS.md",
+   "recomputed": 0.076144,
+   "archived": 0.076144,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "alternative selection imperfect lo vs RESULTS.md",
+   "recomputed": 0.07338,
+   "archived": 0.07338,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "alternative selection imperfect hi vs RESULTS.md",
+   "recomputed": 0.07862,
+   "archived": 0.07862,
+   "tolerance": 1e-12,
+   "pass_": true
+  },
+  {
+   "check": "route counts original independent vs verification RESULTS.md section 7",
+   "recomputed": 1.0,
+   "archived": 1.0,
+   "tolerance": 0,
+   "pass_": true
+  },
+  {
+   "check": "route counts original clustered vs verification RESULTS.md section 7",
+   "recomputed": 1.0,
+   "archived": 1.0,
+   "tolerance": 0,
+   "pass_": true
+  },
+  {
+   "check": "route counts original imperfect vs verification RESULTS.md section 7",
+   "recomputed": 1.0,
+   "archived": 1.0,
+   "tolerance": 0,
+   "pass_": true
+  },
+  {
+   "check": "route counts alternative independent vs verification RESULTS.md section 7",
+   "recomputed": 1.0,
+   "archived": 1.0,
+   "tolerance": 0,
+   "pass_": true
+  },
+  {
+   "check": "route counts alternative clustered vs verification RESULTS.md section 7",
+   "recomputed": 1.0,
+   "archived": 1.0,
+   "tolerance": 0,
+   "pass_": true
+  },
+  {
+   "check": "route counts alternative imperfect vs verification RESULTS.md section 7",
+   "recomputed": 1.0,
+   "archived": 1.0,
+   "tolerance": 0,
+   "pass_": true
+  }
+ ],
+ "conditions": {
+  "sens:clustered_low": {
+   "condition": "sensitivity clustered_low",
+   "p": 0.05701618679529467,
+   "n_seeds": 256,
+   "control_acquisitions": 544,
+   "control_patient_days": 419807.246527778,
+   "policy_acquisitions": 215,
+   "policy_patient_days": 419791.8773148148,
+   "control_rate": 1.2958328006470092,
+   "control_rate_ci95": {
+    "lo": 1.172071202175865,
+    "hi": 1.4218469421926818,
+    "level": 0.95,
+    "undefined_draws": 0
+   },
+   "policy_rate": 0.5121585519358797,
+   "F_pct": 60.47649421436477,
+   "F_pct_ci95": {
+    "lo": 53.76951010131876,
+    "hi": 66.41957207653635,
+    "level": 0.95,
+    "undefined_draws": 0
+   }
+  },
+  "sens:clustered_center": {
+   "condition": "sensitivity clustered_center",
+   "p": 0.07602158239372622,
+   "n_seeds": 256,
+   "control_acquisitions": 1104,
+   "control_patient_days": 419771.81751543225,
+   "policy_acquisitions": 493,
+   "policy_patient_days": 419800.09259259305,
+   "control_rate": 2.6300002857133524,
+   "control_rate_ci95": {
+    "lo": 2.4158600792857374,
+    "hi": 2.8489928102141016,
+    "level": 0.95,
+    "undefined_draws": 0
+   },
+   "policy_rate": 1.1743684879994676,
+   "F_pct": 55.347210630399765,
+   "F_pct_ci95": {
+    "lo": 49.909401790160885,
+    "hi": 60.36665485106736,
+    "level": 0.95,
+    "undefined_draws": 0
+   }
+  },
+  "sens:clustered_high": {
+   "condition": "sensitivity clustered_high",
+   "p": 0.09502697799215779,
+   "n_seeds": 256,
+   "control_acquisitions": 2111,
+   "control_patient_days": 419727.5937499997,
+   "policy_acquisitions": 980,
+   "policy_patient_days": 419794.438657407,
+   "control_rate": 5.029452510233017,
+   "control_rate_ci95": {
+    "lo": 4.714755628107648,
+    "hi": 5.356169865069001,
+    "level": 0.95,
+    "undefined_draws": 0
+   },
+   "policy_rate": 2.3344759000006072,
+   "F_pct": 53.58389615468404,
+   "F_pct_ci95": {
+    "lo": 48.876142618395185,
+    "hi": 57.869185272566476,
+    "level": 0.95,
+    "undefined_draws": 0
+   }
+  },
+  "sens:imperfect_low": {
+   "condition": "sensitivity imperfect_low",
+   "p": 0.056129969935570165,
+   "n_seeds": 256,
+   "control_acquisitions": 526,
+   "control_patient_days": 419813.63580246916,
+   "policy_acquisitions": 374,
+   "policy_patient_days": 419802.9101080249,
+   "control_rate": 1.2529369109094248,
+   "control_rate_ci95": {
+    "lo": 1.133899829356958,
+    "hi": 1.3721821679994586,
+    "level": 0.95,
+    "undefined_draws": 0
+   },
+   "policy_rate": 0.890894252981146,
+   "F_pct": 28.89552177575292,
+   "F_pct_ci95": {
+    "lo": 18.189112334294684,
+    "hi": 38.47304390294493,
+    "level": 0.95,
+    "undefined_draws": 0
+   }
+  },
+  "sens:imperfect_center": {
+   "condition": "sensitivity imperfect_center",
+   "p": 0.07483995991409355,
+   "n_seeds": 256,
+   "control_acquisitions": 1179,
+   "control_patient_days": 419780.6724537034,
+   "policy_acquisitions": 828,
+   "policy_patient_days": 419801.5605709875,
+   "control_rate": 2.8086095367576243,
+   "control_rate_ci95": {
+    "lo": 2.599197115530161,
+    "hi": 3.0273321373240054,
+    "level": 0.95,
+    "undefined_draws": 0
+   },
+   "policy_rate": 1.97236046210454,
+   "F_pct": 29.774486759682695,
+   "F_pct_ci95": {
+    "lo": 22.187235408616896,
+    "hi": 36.83030879570041,
+    "level": 0.95,
+    "undefined_draws": 0
+   }
+  },
+  "sens:imperfect_high": {
+   "condition": "sensitivity imperfect_high",
+   "p": 0.09354994989261693,
+   "n_seeds": 256,
+   "control_acquisitions": 2488,
+   "control_patient_days": 419729.5547839506,
+   "policy_acquisitions": 1675,
+   "policy_patient_days": 419807.2079475311,
+   "control_rate": 5.9276264243071,
+   "control_rate_ci95": {
+    "lo": 5.559067548728457,
+    "hi": 6.29861890978782,
+    "level": 0.95,
+    "undefined_draws": 0
+   },
+   "policy_rate": 3.989926728960183,
+   "F_pct": 32.68930186627645,
+   "F_pct_ci95": {
+    "lo": 27.428682714050016,
+    "hi": 37.57721383122197,
+    "level": 0.95,
+    "undefined_draws": 0
+   }
+  },
+  "ind:center_matched256": {
+   "condition": "independent center (matched 256)",
+   "p": 0.14327558866543832,
+   "n_seeds": 256,
+   "control_acquisitions": 1166,
+   "control_patient_days": 419815.6466049383,
+   "policy_acquisitions": 393,
+   "policy_patient_days": 419804.26311728416,
+   "control_rate": 2.7774095830621772,
+   "control_rate_ci95": {
+    "lo": 2.5246883094052834,
+    "hi": 3.039181554143612,
+    "level": 0.95,
+    "undefined_draws": 0
+   },
+   "policy_rate": 0.936150569510068,
+   "F_pct": 66.2941117788636,
+   "F_pct_ci95": {
+    "lo": 60.624912343559984,
+    "hi": 71.20741877122047,
+    "level": 0.95,
+    "undefined_draws": 0
+   }
+  },
+  "ind:upper": {
+   "condition": "independent upper (matched 256)",
+   "p": 0.1790944858317979,
+   "n_seeds": 256,
+   "control_acquisitions": 3060,
+   "control_patient_days": 419795.1543209878,
+   "policy_acquisitions": 887,
+   "policy_patient_days": 419810.61612654355,
+   "control_rate": 7.289269465126397,
+   "control_rate_ci95": {
+    "lo": 6.745559531686357,
+    "hi": 7.84865432398322,
+    "level": 0.95,
+    "undefined_draws": 0
+   },
+   "policy_rate": 2.1128574788890795,
+   "F_pct": 71.01413949645443,
+   "F_pct_ci95": {
+    "lo": 67.22005828679163,
+    "hi": 74.42425324649668,
+    "level": 0.95,
+    "undefined_draws": 0
+   }
+  },
+  "env:independent_low075_env1": {
+   "condition": "environment full model independent_low075_env1",
+   "p": 0.08097942812593639,
+   "n_seeds": 512,
+   "control_acquisitions": 332,
+   "control_patient_days": 839680.7692901233,
+   "policy_acquisitions": 107,
+   "policy_patient_days": 839670.6481481473,
+   "control_rate": 0.3953883572690095,
+   "control_rate_ci95": {
+    "lo": 0.34658172382601143,
+    "hi": 0.44423368640408173,
+    "level": 0.95,
+    "undefined_draws": 0
+   },
+   "policy_rate": 0.12743091620027838,
+   "F_pct": 67.77069585951958,
+   "F_pct_ci95": {
+    "lo": 60.37989344879116,
+    "hi": 74.05506751316412,
+    "level": 0.95,
+    "undefined_draws": 0
+   }
+  },
+  "env:independent_low100_env1": {
+   "condition": "environment full model independent_low100_env1",
+   "p": 0.10797257083458187,
+   "n_seeds": 512,
+   "control_acquisitions": 840,
+   "control_patient_days": 839675.7654320983,
+   "policy_acquisitions": 303,
+   "policy_patient_days": 839636.1628086418,
+   "control_rate": 1.0003861425817557,
+   "control_rate_ci95": {
+    "lo": 0.9158460486479562,
+    "hi": 1.0885681309403148,
+    "level": 0.95,
+    "undefined_draws": 0
+   },
+   "policy_rate": 0.3608705930273939,
+   "F_pct": 63.92687006878426,
+   "F_pct_ci95": {
+    "lo": 58.64236151527249,
+    "hi": 68.76159985728788,
+    "level": 0.95,
+    "undefined_draws": 0
+   }
+  },
+  "env:independent_low125_env1": {
+   "condition": "environment full model independent_low125_env1",
+   "p": 0.13496571354322734,
+   "n_seeds": 512,
+   "control_acquisitions": 1921,
+   "control_patient_days": 839723.9926697538,
+   "policy_acquisitions": 701,
+   "policy_patient_days": 839676.6469907414,
+   "control_rate": 2.287656440412665,
+   "control_rate_ci95": {
+    "lo": 2.1340084024182273,
+    "hi": 2.4437811704826466,
+    "level": 0.95,
+    "undefined_draws": 0
+   },
+   "policy_rate": 0.8348451782150487,
+   "F_pct": 63.50653168600557,
+   "F_pct_ci95": {
+    "lo": 59.40544413348381,
+    "hi": 67.36158043959207,
+    "level": 0.95,
+    "undefined_draws": 0
+   }
+  },
+  "hold:independent": {
+   "condition": "original holdout independent",
+   "p": 0.14327558866543832,
+   "n_seeds": 512,
+   "control_acquisitions": 2375,
+   "control_patient_days": 839663.1099537029,
+   "policy_acquisitions": 770,
+   "policy_patient_days": 839650.9139660486,
+   "control_rate": 2.828515355558436,
+   "control_rate_ci95": {
+    "lo": 2.654715095541265,
+    "hi": 3.004608267142263,
+    "level": 0.95,
+    "undefined_draws": 0
+   },
+   "policy_rate": 0.9170477721067961,
+   "F_pct": 67.57847645038707,
+   "F_pct_ci95": {
+    "lo": 64.04532601555755,
+    "hi": 70.80842280222652,
+    "level": 0.95,
+    "undefined_draws": 0
+   }
+  },
+  "hold:clustered": {
+   "condition": "original holdout clustered",
+   "p": 0.07602158239372622,
+   "n_seeds": 512,
+   "control_acquisitions": 2255,
+   "control_patient_days": 839636.2253086413,
+   "policy_acquisitions": 995,
+   "policy_patient_days": 839552.7064043211,
+   "control_rate": 2.685686886807541,
+   "control_rate_ci95": {
+    "lo": 2.5409871332712526,
+    "hi": 2.833055591789969,
+    "level": 0.95,
+    "undefined_draws": 0
+   },
+   "policy_rate": 1.185154895469799,
+   "F_pct": 55.871442002735286,
+   "F_pct_ci95": {
+    "lo": 52.072582252502606,
+    "hi": 59.441268447945895,
+    "level": 0.95,
+    "undefined_draws": 0
+   }
+  },
+  "hold:imperfect": {
+   "condition": "original holdout imperfect",
+   "p": 0.07483995991409355,
+   "n_seeds": 512,
+   "control_acquisitions": 2352,
+   "control_patient_days": 839567.0486111104,
+   "policy_acquisitions": 1718,
+   "policy_patient_days": 839559.7696759261,
+   "control_rate": 2.8014439155168085,
+   "control_rate_ci95": {
+    "lo": 2.6582298124761894,
+    "hi": 2.9477518158457205,
+    "level": 0.95,
+    "undefined_draws": 0
+   },
+   "policy_rate": 2.0463105332728793,
+   "F_pct": 26.955149023735594,
+   "F_pct_ci95": {
+    "lo": 21.475563561722034,
+    "hi": 32.032087504340936,
+    "level": 0.95,
+    "undefined_draws": 0
+   }
+  },
+  "alt:independent": {
+   "condition": "alternative holdout independent",
+   "p": 0.16511088524980383,
+   "n_seeds": 512,
+   "control_acquisitions": 2438,
+   "control_patient_days": 839638.2793209878,
+   "policy_acquisitions": 573,
+   "policy_patient_days": 839607.5570987653,
+   "control_rate": 2.90363131367903,
+   "control_rate_ci95": {
+    "lo": 2.7537443007964284,
+    "hi": 3.051607608028264,
+    "level": 0.95,
+    "undefined_draws": 0
+   },
+   "policy_rate": 0.6824616991061653,
+   "F_pct": 76.49626879655544,
+   "F_pct_ci95": {
+    "lo": 74.14323082080173,
+    "hi": 78.74670969319777,
+    "level": 0.95,
+    "undefined_draws": 0
+   }
+  },
+  "alt:clustered": {
+   "condition": "alternative holdout clustered",
+   "p": 0.08063303727017038,
+   "n_seeds": 512,
+   "control_acquisitions": 2201,
+   "control_patient_days": 839665.1053240738,
+   "policy_acquisitions": 1019,
+   "policy_patient_days": 839729.0925925925,
+   "control_rate": 2.621283159254916,
+   "control_rate_ci95": {
+    "lo": 2.4784338852706553,
+    "hi": 2.7652283453191004,
+    "level": 0.95,
+    "undefined_draws": 0
+   },
+   "policy_rate": 1.2134865982241057,
+   "F_pct": 53.70639017232186,
+   "F_pct_ci95": {
+    "lo": 49.699694890817746,
+    "hi": 57.474368860280194,
+    "level": 0.95,
+    "undefined_draws": 0
+   }
+  },
+  "alt:imperfect": {
+   "condition": "alternative holdout imperfect",
+   "p": 0.07614440228050331,
+   "n_seeds": 512,
+   "control_acquisitions": 2205,
+   "control_patient_days": 839660.05632716,
+   "policy_acquisitions": 1604,
+   "policy_patient_days": 839666.0231481482,
+   "control_rate": 2.626062754068722,
+   "control_rate_ci95": {
+    "lo": 2.485718524889826,
+    "hi": 2.769025427679729,
+    "level": 0.95,
+    "undefined_draws": 0
+   },
+   "policy_rate": 1.910283321916665,
+   "F_pct": 27.256752758214,
+   "F_pct_ci95": {
+    "lo": 22.19033497280565,
+    "hi": 32.0087145379418,
+    "level": 0.95,
+    "undefined_draws": 0
+   }
+  }
+ },
+ "elasticity": {
+  "definition": "beta_B = dF/dln(B) in percentage points of F per unit ln(baseline rate); beta_p = dF/dln(p); gamma = dln(B)/dln(p). Two-point slopes are finite differences between seed-paired conditions; OLS slopes are equal-weight.",
+  "slope_labels": {
+   "primary": "center to 1.25 x center (brackets 3.0)",
+   "low_center": "0.75 x center to center",
+   "ols3": "three-point OLS (0.75, 1, 1.25 x center)",
+   "env_low_mid": "environment full model, p .0810 to .1080 (separate 512-seed bank)",
+   "env_mid_high": "environment full model, p .1080 to .1350 (separate 512-seed bank)",
+   "env_ols3": "environment full model, three-point OLS (B 0.40 to 2.29; below the target region)",
+   "piecewise": "piecewise-local: low->center slope below the center, center->high slope above it (independent: center->high on both sides, no paired lower point)"
+  },
+  "slopes": {
+   "clustered": {
+    "primary": {
+     "kind": "two-point",
+     "conditions": [
+      "sensitivity clustered_center",
+      "sensitivity clustered_high"
+     ],
+     "p": [
+      0.07602158239372622,
+      0.09502697799215779
+     ],
+     "control_rates": [
+      2.6300002857133524,
+      5.029452510233017
+     ],
+     "F_pct": [
+      55.347210630399765,
+      53.58389615468404
+     ],
+     "beta_B": -2.7197910781040227,
+     "beta_p": -7.902152965347376,
+     "gamma": 2.9054264604971047,
+     "beta_B_ci95": {
+      "lo": -14.979966878903044,
+      "hi": 7.912308082793122,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "beta_p_ci95": {
+      "lo": -40.02705519467864,
+      "hi": 24.590756064015483,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "gamma_ci95": {
+      "lo": 2.5030057441831617,
+      "hi": 3.3308380963828044,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "beta_B_per_10pct": -0.25922377668429314,
+     "beta_B_per_10pct_ci95": {
+      "lo": -1.4277433366910812,
+      "hi": 0.754123506038226,
+      "level": 0.95,
+      "undefined_draws": 0
+     }
+    },
+    "low_center": {
+     "kind": "two-point",
+     "conditions": [
+      "sensitivity clustered_low",
+      "sensitivity clustered_center"
+     ],
+     "p": [
+      0.05701618679529467,
+      0.07602158239372622
+     ],
+     "control_rates": [
+      1.2958328006470092,
+      2.6300002857133524
+     ],
+     "F_pct": [
+      60.47649421436477,
+      55.347210630399765
+     ],
+     "beta_B": -7.246486941169783,
+     "beta_p": -17.829694913730638,
+     "gamma": 2.46046050430782,
+     "beta_B_ci95": {
+      "lo": -19.638035170895417,
+      "hi": 3.6213946358449625,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "beta_p_ci95": {
+      "lo": -43.96892857599458,
+      "hi": 9.650108105845401,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "gamma_ci95": {
+      "lo": 2.086668653754775,
+      "hi": 2.8439877529309228,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "beta_B_per_10pct": -0.6906639733125847,
+     "beta_B_per_10pct_ci95": {
+      "lo": -1.8717046631416994,
+      "hi": 0.34515577388480123,
+      "level": 0.95,
+      "undefined_draws": 0
+     }
+    },
+    "ols3": {
+     "kind": "three-point OLS",
+     "conditions": [
+      "sensitivity clustered_low",
+      "sensitivity clustered_center",
+      "sensitivity clustered_high"
+     ],
+     "p": [
+      0.05701618679529467,
+      0.07602158239372622,
+      0.09502697799215779
+     ],
+     "control_rates": [
+      1.2958328006470092,
+      2.6300002857133524,
+      5.029452510233017
+     ],
+     "F_pct": [
+      60.47649421436477,
+      55.347210630399765,
+      53.58389615468404
+     ],
+     "beta_B": -5.115463923305278,
+     "beta_p": -13.697672711659525,
+     "gamma": 2.6456633691961744,
+     "beta_B_ci95": {
+      "lo": -11.220869504633196,
+      "hi": 0.9287744232819939,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "beta_p_ci95": {
+      "lo": -28.935617494078823,
+      "hi": 2.358895184354471,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "gamma_ci95": {
+      "lo": 2.443078653433447,
+      "hi": 2.8541677906296066,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "beta_B_per_10pct": -0.4875557863127635,
+     "beta_B_per_10pct_ci95": {
+      "lo": -1.0694630900474564,
+      "hi": 0.08852165728066504,
+      "level": 0.95,
+      "undefined_draws": 0
+     }
+    }
+   },
+   "imperfect": {
+    "primary": {
+     "kind": "two-point",
+     "conditions": [
+      "sensitivity imperfect_center",
+      "sensitivity imperfect_high"
+     ],
+     "p": [
+      0.07483995991409355,
+      0.09354994989261693
+     ],
+     "control_rates": [
+      2.8086095367576243,
+      5.9276264243071
+     ],
+     "F_pct": [
+      29.774486759682695,
+      32.68930186627645
+     ],
+     "beta_B": 3.9023713030228095,
+     "beta_p": 13.062511058136703,
+     "gamma": 3.3473265468148488,
+     "beta_B_ci95": {
+      "lo": -8.602049885359532,
+      "hi": 15.13017079678342,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "beta_p_ci95": {
+      "lo": -26.820285418162694,
+      "hi": 53.72510192664622,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "gamma_ci95": {
+      "lo": 2.9828137780494193,
+      "hi": 3.7055668662224663,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "beta_B_per_10pct": 0.37193571055434177,
+     "beta_B_per_10pct_ci95": {
+      "lo": -0.8198629212593898,
+      "hi": 1.442059299111574,
+      "level": 0.95,
+      "undefined_draws": 0
+     }
+    },
+    "low_center": {
+     "kind": "two-point",
+     "conditions": [
+      "sensitivity imperfect_low",
+      "sensitivity imperfect_center"
+     ],
+     "p": [
+      0.056129969935570165,
+      0.07483995991409355
+     ],
+     "control_rates": [
+      1.2529369109094248,
+      2.8086095367576243
+     ],
+     "F_pct": [
+      28.89552177575292,
+      29.774486759682695
+     ],
+     "beta_B": 1.0889071410920603,
+     "beta_p": 3.055334579728116,
+     "gamma": 2.8058724793226486,
+     "beta_B_ci95": {
+      "lo": -15.676580956463457,
+      "hi": 15.863786013857641,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "beta_p_ci95": {
+      "lo": -39.88036954157543,
+      "hi": 48.60276823487785,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "gamma_ci95": {
+      "lo": 2.4161919586518286,
+      "hi": 3.212027522973074,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "beta_B_per_10pct": 0.10378393540769769,
+     "beta_B_per_10pct_ci95": {
+      "lo": -1.4941377496775885,
+      "hi": 1.511980297358107,
+      "level": 0.95,
+      "undefined_draws": 0
+     }
+    },
+    "ols3": {
+     "kind": "three-point OLS",
+     "conditions": [
+      "sensitivity imperfect_low",
+      "sensitivity imperfect_center",
+      "sensitivity imperfect_high"
+     ],
+     "p": [
+      0.056129969935570165,
+      0.07483995991409355,
+      0.09354994989261693
+     ],
+     "control_rates": [
+      1.2529369109094248,
+      2.8086095367576243,
+      5.9276264243071
+     ],
+     "F_pct": [
+      28.89552177575292,
+      29.774486759682695,
+      32.68930186627645
+     ],
+     "beta_B": 2.4229435687231735,
+     "beta_p": 7.220502111008291,
+     "gamma": 3.031235438241581,
+     "beta_B_ci95": {
+      "lo": -4.918587537985915,
+      "hi": 9.988904276058978,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "beta_p_ci95": {
+      "lo": -15.243024547190318,
+      "hi": 31.59327440132988,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "gamma_ci95": {
+      "lo": 2.827306317130345,
+      "hi": 3.2468129263979044,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "beta_B_per_10pct": 0.2309311871907384,
+     "beta_B_per_10pct_ci95": {
+      "lo": -0.4687914626287495,
+      "hi": 0.9520442625993712,
+      "level": 0.95,
+      "undefined_draws": 0
+     }
+    }
+   },
+   "independent": {
+    "primary": {
+     "kind": "two-point",
+     "conditions": [
+      "independent center (matched 256)",
+      "independent upper (matched 256)"
+     ],
+     "p": [
+      0.14327558866543832,
+      0.1790944858317979
+     ],
+     "control_rates": [
+      2.7774095830621772,
+      7.289269465126397
+     ],
+     "F_pct": [
+      66.2941117788636,
+      71.01413949645443
+     ],
+     "beta_B": 4.891805209750135,
+     "beta_p": 21.15242716982906,
+     "gamma": 4.324053445069512,
+     "beta_B_ci95": {
+      "lo": -1.9445469340776145,
+      "hi": 11.191161541930752,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "beta_p_ci95": {
+      "lo": -7.845617560501547,
+      "hi": 50.93302820337084,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "gamma_ci95": {
+      "lo": 3.8363245034770297,
+      "hi": 4.819526629200834,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "beta_B_per_10pct": 0.46623883410901884,
+     "beta_B_per_10pct_ci95": {
+      "lo": -0.18533511792488622,
+      "hi": 1.0666316187806661,
+      "level": 0.95,
+      "undefined_draws": 0
+     }
+    },
+    "env_low_mid": {
+     "kind": "two-point",
+     "conditions": [
+      "environment full model independent_low075_env1",
+      "environment full model independent_low100_env1"
+     ],
+     "p": [
+      0.08097942812593639,
+      0.10797257083458187
+     ],
+     "control_rates": [
+      0.3953883572690095,
+      1.0003861425817557
+     ],
+     "F_pct": [
+      67.77069585951958,
+      63.92687006878426
+     ],
+     "beta_B": -4.140836024122471,
+     "beta_p": -13.361367143861889,
+     "gamma": 3.2267317676974274,
+     "beta_B_ci95": {
+      "lo": -14.209516230172627,
+      "hi": 4.91322267320764,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "beta_p_ci95": {
+      "lo": -42.24472494932088,
+      "hi": 16.932595838975114,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "gamma_ci95": {
+      "lo": 2.7308798593165866,
+      "hi": 3.7436848504425106,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "beta_B_per_10pct": -0.39466382599933875,
+     "beta_B_per_10pct_ci95": {
+      "lo": -1.3543115468302265,
+      "hi": 0.46828013640210625,
+      "level": 0.95,
+      "undefined_draws": 0
+     }
+    },
+    "env_mid_high": {
+     "kind": "two-point",
+     "conditions": [
+      "environment full model independent_low100_env1",
+      "environment full model independent_low125_env1"
+     ],
+     "p": [
+      0.10797257083458187,
+      0.13496571354322734
+     ],
+     "control_rates": [
+      1.0003861425817557,
+      2.287656440412665
+     ],
+     "F_pct": [
+      63.92687006878426,
+      63.50653168600557
+     ],
+     "beta_B": -0.5081817458135603,
+     "beta_p": -1.8837128848361986,
+     "gamma": 3.7067700686897314,
+     "beta_B_ci95": {
+      "lo": -9.054389950145175,
+      "hi": 7.003384098292493,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "beta_p_ci95": {
+      "lo": -31.02194577499081,
+      "hi": 27.92357692886362,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "gamma_ci95": {
+      "lo": 3.2201866305340734,
+      "hi": 4.196669741858289,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "beta_B_per_10pct": -0.04843489356676619,
+     "beta_B_per_10pct_ci95": {
+      "lo": -0.8629755341668095,
+      "hi": 0.6674937976470076,
+      "level": 0.95,
+      "undefined_draws": 0
+     }
+    },
+    "env_ols3": {
+     "kind": "three-point OLS",
+     "conditions": [
+      "environment full model independent_low075_env1",
+      "environment full model independent_low100_env1",
+      "environment full model independent_low125_env1"
+     ],
+     "p": [
+      0.08097942812593639,
+      0.10797257083458187,
+      0.13496571354322734
+     ],
+     "control_rates": [
+      0.3953883572690095,
+      1.0003861425817557,
+      2.287656440412665
+     ],
+     "F_pct": [
+      67.77069585951958,
+      63.92687006878426,
+      63.50653168600557
+     ],
+     "beta_B": -2.463875052442631,
+     "beta_p": -8.584160210607521,
+     "gamma": 3.426532375728874,
+     "beta_B_ci95": {
+      "lo": -7.139502771479137,
+      "hi": 2.3945211300761304,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "beta_p_ci95": {
+      "lo": -24.14432327822963,
+      "hi": 8.478292505663324,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "gamma_ci95": {
+      "lo": 3.167832752223022,
+      "hi": 3.703296251735273,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "beta_B_per_10pct": -0.23483237426369769,
+     "beta_B_per_10pct_ci95": {
+      "lo": -0.6804672928631527,
+      "hi": 0.22822223945281134,
+      "level": 0.95,
+      "undefined_draws": 0
+     }
+    }
+   }
+  },
+  "consistency_with_common_baseline": {
+   "independent": {
+    "F_center_pct": 66.2941117788636,
+    "B_center": 2.7774095830621772,
+    "F_at_3_arithmetic_pct": 66.67123865307633,
+    "common_baseline_F_star_pct": 66.69796229001122,
+    "difference_pp": -0.026723636934889328
+   },
+   "clustered": {
+    "F_center_pct": 55.347210630399765,
+    "B_center": 2.6300002857133524,
+    "F_at_3_arithmetic_pct": 54.98920906239009,
+    "common_baseline_F_star_pct": 54.99471289475639,
+    "difference_pp": -0.005503832366301253
+   },
+   "imperfect": {
+    "F_center_pct": 29.774486759682695,
+    "B_center": 2.8086095367576243,
+    "F_at_3_arithmetic_pct": 30.03174182531833,
+    "common_baseline_F_star_pct": 30.036742276778263,
+    "difference_pp": -0.005000451459931554
+   }
+  }
+ },
+ "bias": {
+  "definition": "bias = F(B_obs) - F(3.0) ~= beta_B * ln(B_obs/3), in percentage points. F at 3.0 ~= F_obs - bias. Negative shortfall (B_obs < 3) with negative beta_B gives a positive bias (observed F too high), and vice versa.",
+  "interval_notes": "beta_only: shortfall fixed at its point value, slope resampled. joint: shortfall and slope both resampled (aligned draws where seeds are shared).",
+  "results": {
+   "original": {
+    "independent": {
+     "control_rate": 2.828515355558436,
+     "control_rate_ci95": {
+      "lo": 2.654715095541265,
+      "hi": 3.004608267142263,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "stated_rate": 2.83,
+     "shortfall_ln": -0.05886032401189953,
+     "shortfall_pct": -5.716154814718799,
+     "shortfall_ln_ci95": {
+      "lo": -0.12227494838091092,
+      "hi": 0.0015349104675341108,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "by_slope": {
+      "piecewise": {
+       "slope_label": "piecewise-local: low->center slope below the center, center->high slope above it (independent: center->high on both sides, no paired lower point)",
+       "bias_pp": -0.2879332396489918,
+       "bias_pp_ci95_beta_only": {
+        "lo": -0.6587153944275553,
+        "hi": 0.11445666259615407,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "bias_pp_ci95_joint": {
+        "lo": -1.0771741843144085,
+        "hi": 0.07481495499510614,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "observed_below_center": false,
+       "center_rate": 2.7774095830621772,
+       "F_observed_pct": 67.57847645038707,
+       "F_adjusted_to_3_pct": 67.86640969003606,
+       "F_adjusted_to_3_pct_ci95_joint": {
+        "lo": 64.79245422925415,
+        "hi": 70.8521676376345,
+        "level": 0.95,
+        "undefined_draws": 0
+       }
+      },
+      "primary": {
+       "slope_label": "center to 1.25 x center (brackets 3.0)",
+       "beta_B": 4.891805209750135,
+       "bias_pp": -0.2879332396489911,
+       "bias_pp_ci95_beta_only": {
+        "lo": -0.6587153944275539,
+        "hi": 0.1144566625961538,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "bias_pp_ci95_joint": {
+        "lo": -1.0771741843144071,
+        "hi": 0.07481495499510568,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "F_observed_pct": 67.57847645038707,
+       "F_observed_pct_ci95": {
+        "lo": 64.04532601555755,
+        "hi": 70.80842280222652,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "F_adjusted_to_3_pct": 67.86640969003606,
+       "F_adjusted_to_3_pct_ci95_joint": {
+        "lo": 64.79245422925415,
+        "hi": 70.8521676376345,
+        "level": 0.95,
+        "undefined_draws": 0
+       }
+      },
+      "env_low_mid": {
+       "slope_label": "environment full model, p .0810 to .1080 (separate 512-seed bank)",
+       "beta_B": -4.140836024122471,
+       "bias_pp": 0.24373095005999448,
+       "bias_pp_ci95_beta_only": {
+        "lo": -0.28919387848761324,
+        "hi": 0.8363767293603056,
+        "level": 0.95,
+        "undefined_draws": 0
+       }
+      },
+      "env_mid_high": {
+       "slope_label": "environment full model, p .1080 to .1350 (separate 512-seed bank)",
+       "beta_B": -0.5081817458135603,
+       "bias_pp": 0.029911742215518927,
+       "bias_pp_ci95_beta_only": {
+        "lo": -0.41222145720528136,
+        "hi": 0.5329443261956319,
+        "level": 0.95,
+        "undefined_draws": 0
+       }
+      },
+      "env_ols3": {
+       "slope_label": "environment full model, three-point OLS (B 0.40 to 2.29; below the target region)",
+       "beta_B": -2.463875052442631,
+       "bias_pp": 0.1450244839116092,
+       "bias_pp_ci95_beta_only": {
+        "lo": -0.1409422895696209,
+        "hi": 0.42023344641311605,
+        "level": 0.95,
+        "undefined_draws": 0
+       }
+      }
+     },
+     "transfer_assumption": false,
+     "point_range_across_slope_estimators_pp": [
+      -0.2879332396489918,
+      0.24373095005999448
+     ]
+    },
+    "clustered": {
+     "control_rate": 2.685686886807541,
+     "control_rate_ci95": {
+      "lo": 2.5409871332712526,
+      "hi": 2.833055591789969,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "stated_rate": 2.69,
+     "shortfall_ln": -0.11067576966015379,
+     "shortfall_pct": -10.477103773081964,
+     "shortfall_ln_ci95": {
+      "lo": -0.16605964839511245,
+      "hi": -0.05725644507468555,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "by_slope": {
+      "piecewise": {
+       "slope_label": "piecewise-local: low->center slope below the center, center->high slope above it (independent: center->high on both sides, no paired lower point)",
+       "bias_pp": 0.3010149708839822,
+       "bias_pp_ci95_beta_only": {
+        "lo": -0.8589608264530142,
+        "hi": 1.4899388758783205,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "bias_pp_ci95_joint": {
+        "lo": -0.8341369800294938,
+        "hi": 1.5545412269876369,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "observed_below_center": false,
+       "center_rate": 2.6300002857133524,
+       "F_observed_pct": 55.871442002735286,
+       "F_adjusted_to_3_pct": 55.5704270318513,
+       "F_adjusted_to_3_pct_ci95_joint": {
+        "lo": 51.45178072604268,
+        "hi": 59.302817681197446,
+        "level": 0.95,
+        "undefined_draws": 0
+       }
+      },
+      "primary": {
+       "slope_label": "center to 1.25 x center (brackets 3.0)",
+       "beta_B": -2.7197910781040227,
+       "bias_pp": 0.30101497088398216,
+       "bias_pp_ci95_beta_only": {
+        "lo": -0.8757007868513847,
+        "hi": 1.657919363806205,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "bias_pp_ci95_joint": {
+        "lo": -0.887285271195506,
+        "hi": 1.7845478323488724,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "F_observed_pct": 55.871442002735286,
+       "F_observed_pct_ci95": {
+        "lo": 52.072582252502606,
+        "hi": 59.441268447945895,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "F_adjusted_to_3_pct": 55.5704270318513,
+       "F_adjusted_to_3_pct_ci95_joint": {
+        "lo": 51.40571748596391,
+        "hi": 59.30680230978915,
+        "level": 0.95,
+        "undefined_draws": 0
+       }
+      },
+      "low_center": {
+       "slope_label": "0.75 x center to center",
+       "beta_B": -7.246486941169783,
+       "bias_pp": 0.8020105195462193,
+       "bias_pp_ci95_beta_only": {
+        "lo": -0.40080063856529463,
+        "hi": 2.173454657152018,
+        "level": 0.95,
+        "undefined_draws": 0
+       }
+      },
+      "ols3": {
+       "slope_label": "three-point OLS (0.75, 1, 1.25 x center)",
+       "beta_B": -5.115463923305278,
+       "bias_pp": 0.5661579068805616,
+       "bias_pp_ci95_beta_only": {
+        "lo": -0.10279282413740053,
+        "hi": 1.2418783686814276,
+        "level": 0.95,
+        "undefined_draws": 0
+       }
+      }
+     },
+     "transfer_assumption": false,
+     "point_range_across_slope_estimators_pp": [
+      0.30101497088398216,
+      0.8020105195462193
+     ]
+    },
+    "imperfect": {
+     "control_rate": 2.8014439155168085,
+     "control_rate_ci95": {
+      "lo": 2.6582298124761894,
+      "hi": 2.9477518158457205,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "stated_rate": 2.8,
+     "shortfall_ln": -0.06847732029316349,
+     "shortfall_pct": -6.618536149439713,
+     "shortfall_ln_ci95": {
+      "lo": -0.12095187144933668,
+      "hi": -0.017569505183554806,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "by_slope": {
+      "piecewise": {
+       "slope_label": "piecewise-local: low->center slope below the center, center->high slope above it (independent: center->high on both sides, no paired lower point)",
+       "bias_pp": -0.2600367504980388,
+       "bias_pp_ci95_beta_only": {
+        "lo": -1.060383295119205,
+        "hi": 0.3799627620274117,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "bias_pp_ci95_joint": {
+        "lo": -1.2060443074515772,
+        "hi": 0.39014234871583,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "observed_below_center": true,
+       "center_rate": 2.8086095367576243,
+       "F_observed_pct": 26.955149023735594,
+       "F_adjusted_to_3_pct": 27.215185774233632,
+       "F_adjusted_to_3_pct_ci95_joint": {
+        "lo": 21.851704470913646,
+        "hi": 32.227897061990085,
+        "level": 0.95,
+        "undefined_draws": 0
+       }
+      },
+      "primary": {
+       "slope_label": "center to 1.25 x center (brackets 3.0)",
+       "beta_B": 3.9023713030228095,
+       "bias_pp": -0.2672239296199427,
+       "bias_pp_ci95_beta_only": {
+        "lo": -1.0360735517416078,
+        "hi": 0.589045325177533,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "bias_pp_ci95_joint": {
+        "lo": -1.2535443115099156,
+        "hi": 0.6349445865090843,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "F_observed_pct": 26.955149023735594,
+       "F_observed_pct_ci95": {
+        "lo": 21.475563561722034,
+        "hi": 32.032087504340936,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "F_adjusted_to_3_pct": 27.222372953355535,
+       "F_adjusted_to_3_pct_ci95_joint": {
+        "lo": 21.77889249876435,
+        "hi": 32.19209643822689,
+        "level": 0.95,
+        "undefined_draws": 0
+       }
+      },
+      "low_center": {
+       "slope_label": "0.75 x center to center",
+       "beta_B": 1.0889071410920603,
+       "bias_pp": -0.07456544307007398,
+       "bias_pp_ci95_beta_only": {
+        "lo": -1.0863095559331373,
+        "hi": 1.0734902552574526,
+        "level": 0.95,
+        "undefined_draws": 0
+       }
+      },
+      "ols3": {
+       "slope_label": "three-point OLS (0.75, 1, 1.25 x center)",
+       "beta_B": 2.4229435687231735,
+       "bias_pp": -0.16591668280771732,
+       "bias_pp_ci95_beta_only": {
+        "lo": -0.6840133974894409,
+        "hi": 0.33681169422862367,
+        "level": 0.95,
+        "undefined_draws": 0
+       }
+      }
+     },
+     "transfer_assumption": false,
+     "point_range_across_slope_estimators_pp": [
+      -0.2672239296199427,
+      -0.07456544307007398
+     ]
+    }
+   },
+   "alternative": {
+    "independent": {
+     "control_rate": 2.90363131367903,
+     "control_rate_ci95": {
+      "lo": 2.7537443007964284,
+      "hi": 3.051607608028264,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "stated_rate": 2.9,
+     "shortfall_ln": -0.032650157864929294,
+     "shortfall_pct": -3.212289544032332,
+     "shortfall_ln_ci95": {
+      "lo": -0.08565073915163827,
+      "hi": 0.017056247687507888,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "by_slope": {
+      "piecewise": {
+       "slope_label": "piecewise-local: low->center slope below the center, center->high slope above it (independent: center->high on both sides, no paired lower point)",
+       "bias_pp": -0.1597182123428261,
+       "bias_pp_ci95_beta_only": {
+        "lo": -0.3653931910359663,
+        "hi": 0.06348976437339837,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "bias_pp_ci95_joint": {
+        "lo": -0.6108654570763268,
+        "hi": 0.11923366209761288,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "observed_below_center": false,
+       "center_rate": 2.7774095830621772,
+       "F_observed_pct": 76.49626879655544,
+       "F_adjusted_to_3_pct": 76.65598700889826,
+       "F_adjusted_to_3_pct_ci95_joint": {
+        "lo": 74.38221686638472,
+        "hi": 78.83778381187408,
+        "level": 0.95,
+        "undefined_draws": 0
+       }
+      },
+      "primary": {
+       "slope_label": "center to 1.25 x center (brackets 3.0)",
+       "beta_B": 4.891805209750135,
+       "bias_pp": -0.15971821234282546,
+       "bias_pp_ci95_beta_only": {
+        "lo": -0.36539319103596496,
+        "hi": 0.06348976437339812,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "bias_pp_ci95_joint": {
+        "lo": -0.6108654570763268,
+        "hi": 0.11923366209761281,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "F_observed_pct": 76.49626879655544,
+       "F_observed_pct_ci95": {
+        "lo": 74.14323082080173,
+        "hi": 78.74670969319777,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "F_adjusted_to_3_pct": 76.65598700889826,
+       "F_adjusted_to_3_pct_ci95_joint": {
+        "lo": 74.38221686638472,
+        "hi": 78.83778381187408,
+        "level": 0.95,
+        "undefined_draws": 0
+       }
+      },
+      "env_low_mid": {
+       "slope_label": "environment full model, p .0810 to .1080 (separate 512-seed bank)",
+       "beta_B": -4.140836024122471,
+       "bias_pp": 0.13519894988038486,
+       "bias_pp_ci95_beta_only": {
+        "lo": -0.16041749590577958,
+        "hi": 0.4639429480994111,
+        "level": 0.95,
+        "undefined_draws": 0
+       }
+      },
+      "env_mid_high": {
+       "slope_label": "environment full model, p .1080 to .1350 (separate 512-seed bank)",
+       "beta_B": -0.5081817458135603,
+       "bias_pp": 0.016592214224888116,
+       "bias_pp_ci95_beta_only": {
+        "lo": -0.22866159639798558,
+        "hi": 0.29562726124286925,
+        "level": 0.95,
+        "undefined_draws": 0
+       }
+      },
+      "env_ols3": {
+       "slope_label": "environment full model, three-point OLS (B 0.40 to 2.29; below the target region)",
+       "beta_B": -2.463875052442631,
+       "bias_pp": 0.08044590942171284,
+       "bias_pp_ci95_beta_only": {
+        "lo": -0.07818149290789458,
+        "hi": 0.2331058925658937,
+        "level": 0.95,
+        "undefined_draws": 0
+       }
+      }
+     },
+     "transfer_assumption": true,
+     "point_range_across_slope_estimators_pp": [
+      -0.1597182123428261,
+      0.13519894988038486
+     ]
+    },
+    "clustered": {
+     "control_rate": 2.621283159254916,
+     "control_rate_ci95": {
+      "lo": 2.4784338852706553,
+      "hi": 2.7652283453191004,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "stated_rate": 2.62,
+     "shortfall_ln": -0.13494833534534922,
+     "shortfall_pct": -12.623894691502802,
+     "shortfall_ln_ci95": {
+      "lo": -0.1909854258449588,
+      "hi": -0.08148907290150437,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "by_slope": {
+      "piecewise": {
+       "slope_label": "piecewise-local: low->center slope below the center, center->high slope above it (independent: center->high on both sides, no paired lower point)",
+       "bias_pp": 0.3820599155470086,
+       "bias_pp_ci95_beta_only": {
+        "lo": -1.0037778483485036,
+        "hi": 1.7084413903327584,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "bias_pp_ci95_joint": {
+        "lo": -0.9603265037890012,
+        "hi": 1.7673028830773891,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "observed_below_center": true,
+       "center_rate": 2.6300002857133524,
+       "F_observed_pct": 53.70639017232186,
+       "F_adjusted_to_3_pct": 53.32433025677485,
+       "F_adjusted_to_3_pct_ci95_joint": {
+        "lo": 48.88966974410162,
+        "hi": 57.31478787220652,
+        "level": 0.95,
+        "undefined_draws": 0
+       }
+      },
+      "primary": {
+       "slope_label": "center to 1.25 x center (brackets 3.0)",
+       "beta_B": -2.7197910781040227,
+       "bias_pp": 0.3670312784772706,
+       "bias_pp_ci95_beta_only": {
+        "lo": -1.0677528045124836,
+        "hi": 2.0215215938364306,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "bias_pp_ci95_joint": {
+        "lo": -1.091430890680534,
+        "hi": 2.1264004173265088,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "F_observed_pct": 53.70639017232186,
+       "F_observed_pct_ci95": {
+        "lo": 49.699694890817746,
+        "hi": 57.474368860280194,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "F_adjusted_to_3_pct": 53.33935889384459,
+       "F_adjusted_to_3_pct_ci95_joint": {
+        "lo": 48.80650017752599,
+        "hi": 57.34318775870083,
+        "level": 0.95,
+        "undefined_draws": 0
+       }
+      },
+      "low_center": {
+       "slope_label": "0.75 x center to center",
+       "beta_B": -7.246486941169783,
+       "bias_pp": 0.9779013498126738,
+       "bias_pp_ci95_beta_only": {
+        "lo": -0.48870117773585614,
+        "hi": 2.650120155765755,
+        "level": 0.95,
+        "undefined_draws": 0
+       }
+      },
+      "ols3": {
+       "slope_label": "three-point OLS (0.75, 1, 1.25 x center)",
+       "beta_B": -5.115463923305278,
+       "bias_pp": 0.6903233409692364,
+       "bias_pp_ci95_beta_only": {
+        "lo": -0.1253365623332423,
+        "hi": 1.514237660777643,
+        "level": 0.95,
+        "undefined_draws": 0
+       }
+      }
+     },
+     "transfer_assumption": true,
+     "point_range_across_slope_estimators_pp": [
+      0.3670312784772706,
+      0.9779013498126738
+     ]
+    },
+    "imperfect": {
+     "control_rate": 2.626062754068722,
+     "control_rate_ci95": {
+      "lo": 2.485718524889826,
+      "hi": 2.769025427679729,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "stated_rate": 2.63,
+     "shortfall_ln": -0.13312661586484337,
+     "shortfall_pct": -12.464574864375944,
+     "shortfall_ln_ci95": {
+      "lo": -0.1880505260896286,
+      "hi": -0.08011686153866573,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "by_slope": {
+      "piecewise": {
+       "slope_label": "piecewise-local: low->center slope below the center, center->high slope above it (independent: center->high on both sides, no paired lower point)",
+       "bias_pp": -0.3304338301126122,
+       "bias_pp_ci95_beta_only": {
+        "lo": -1.873658010575018,
+        "hi": 0.7143483791321983,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "bias_pp_ci95_joint": {
+        "lo": -1.9194111860291174,
+        "hi": 0.7611773813531129,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "observed_below_center": true,
+       "center_rate": 2.8086095367576243,
+       "F_observed_pct": 27.256752758214,
+       "F_adjusted_to_3_pct": 27.58718658832661,
+       "F_adjusted_to_3_pct_ci95_joint": {
+        "lo": 22.519493932463632,
+        "hi": 32.58979588893539,
+        "level": 0.95,
+        "undefined_draws": 0
+       }
+      },
+      "primary": {
+       "slope_label": "center to 1.25 x center (brackets 3.0)",
+       "beta_B": 3.9023713030228095,
+       "bias_pp": -0.5195094854195058,
+       "bias_pp_ci95_beta_only": {
+        "lo": -2.0142284356328592,
+        "hi": 1.1451617907384746,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "bias_pp_ci95_joint": {
+        "lo": -2.1336761173522505,
+        "hi": 1.1613233920831947,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "F_observed_pct": 27.256752758214,
+       "F_observed_pct_ci95": {
+        "lo": 22.19033497280565,
+        "hi": 32.0087145379418,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "F_adjusted_to_3_pct": 27.776262243633504,
+       "F_adjusted_to_3_pct_ci95_joint": {
+        "lo": 22.47595704648071,
+        "hi": 32.61670367383084,
+        "level": 0.95,
+        "undefined_draws": 0
+       }
+      },
+      "low_center": {
+       "slope_label": "0.75 x center to center",
+       "beta_B": 1.0889071410920603,
+       "bias_pp": -0.14496252268464752,
+       "bias_pp_ci95_beta_only": {
+        "lo": -2.1118921468289016,
+        "hi": 2.0869701710652238,
+        "level": 0.95,
+        "undefined_draws": 0
+       }
+      },
+      "ols3": {
+       "slope_label": "three-point OLS (0.75, 1, 1.25 x center)",
+       "beta_B": 2.4229435687231735,
+       "bias_pp": -0.32255827773560264,
+       "bias_pp_ci95_beta_only": {
+        "lo": -1.329789022469595,
+        "hi": 0.654794913767056,
+        "level": 0.95,
+        "undefined_draws": 0
+       }
+      }
+     },
+     "transfer_assumption": true,
+     "point_range_across_slope_estimators_pp": [
+      -0.5195094854195058,
+      -0.14496252268464752
+     ]
+    }
+   }
+  },
+  "contrast_definition": "contrast bias = bias(a) - bias(b); adjusted contrast = observed contrast - contrast bias. Post hoc and descriptive; it relies on the same local log-linearity and (alternative workflow) slope-transfer assumptions.",
+  "contrasts": {
+   "original": {
+    "independent-clustered": {
+     "observed_contrast_pp": 11.707034447651788,
+     "observed_contrast_ci95": {
+      "lo": 6.546965627672108,
+      "hi": 16.80713079564143,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "observed_contrast_ci98333": {
+      "lo": 5.382826416437204,
+      "hi": 17.841858865278265,
+      "level": 0.9833333333333333,
+      "undefined_draws": 0
+     },
+     "primary": {
+      "contrast_bias_pp": -0.5889482105329733,
+      "contrast_bias_ci95_joint": {
+       "lo": -2.29894645053397,
+       "hi": 0.6690479566752185,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "adjusted_contrast_pp": 12.29598265818476,
+      "adjusted_contrast_ci95_joint": {
+       "lo": 7.298250062096835,
+       "hi": 17.475789324040097,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "adjusted_contrast_ci98333_joint": {
+       "lo": 6.252129391542248,
+       "hi": 18.684360418666948,
+       "level": 0.9833333333333333,
+       "undefined_draws": 0
+      }
+     },
+     "piecewise": {
+      "contrast_bias_pp": -0.588948210532974,
+      "contrast_bias_ci95_joint": {
+       "lo": -2.0925016814094826,
+       "hi": 0.6175513418767374,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "adjusted_contrast_pp": 12.295982658184762,
+      "adjusted_contrast_ci95_joint": {
+       "lo": 7.318326501685061,
+       "hi": 17.461214230682796,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "adjusted_contrast_ci98333_joint": {
+       "lo": 6.2628327291378785,
+       "hi": 18.63053146947335,
+       "level": 0.9833333333333333,
+       "undefined_draws": 0
+      }
+     }
+    },
+    "independent-imperfect": {
+     "observed_contrast_pp": 40.62332742665148,
+     "observed_contrast_ci95": {
+      "lo": 34.47475466876986,
+      "hi": 47.02517975492761,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "observed_contrast_ci98333": {
+      "lo": 33.0860418294492,
+      "hi": 48.49835368897206,
+      "level": 0.9833333333333333,
+      "undefined_draws": 0
+     },
+     "primary": {
+      "contrast_bias_pp": -0.02070931002904841,
+      "contrast_bias_ci95_joint": {
+       "lo": -1.1870506441775757,
+       "hi": 1.0195905773536151,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "adjusted_contrast_pp": 40.644036736680526,
+      "adjusted_contrast_ci95_joint": {
+       "lo": 34.810548751545056,
+       "hi": 46.906396561439635,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "adjusted_contrast_ci98333_joint": {
+       "lo": 33.5258772877234,
+       "hi": 48.31683582042314,
+       "level": 0.9833333333333333,
+       "undefined_draws": 0
+      }
+     },
+     "piecewise": {
+      "contrast_bias_pp": -0.027896489150952997,
+      "contrast_bias_ci95_joint": {
+       "lo": -1.01057566780715,
+       "hi": 0.99689997584588,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "adjusted_contrast_pp": 40.65122391580243,
+      "adjusted_contrast_ci95_joint": {
+       "lo": 34.77061625265707,
+       "hi": 46.79230974673895,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "adjusted_contrast_ci98333_joint": {
+       "lo": 33.4773047379835,
+       "hi": 48.2481468919334,
+       "level": 0.9833333333333333,
+       "undefined_draws": 0
+      }
+     }
+    },
+    "clustered-imperfect": {
+     "observed_contrast_pp": 28.916292978999692,
+     "observed_contrast_ci95": {
+      "lo": 22.51076650017605,
+      "hi": 35.53384134893737,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "observed_contrast_ci98333": {
+      "lo": 21.248118885832348,
+      "hi": 36.892008784595276,
+      "level": 0.9833333333333333,
+      "undefined_draws": 0
+     },
+     "primary": {
+      "contrast_bias_pp": 0.5682389005039248,
+      "contrast_bias_ci95_joint": {
+       "lo": -0.9217582042705782,
+       "hi": 2.321238175898376,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "adjusted_contrast_pp": 28.348054078495768,
+      "adjusted_contrast_ci95_joint": {
+       "lo": 21.85044538538148,
+       "hi": 35.05844252831736,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "adjusted_contrast_ci98333_joint": {
+       "lo": 20.447769977738126,
+       "hi": 36.556104307241725,
+       "level": 0.9833333333333333,
+       "undefined_draws": 0
+      }
+     },
+     "piecewise": {
+      "contrast_bias_pp": 0.561051721382021,
+      "contrast_bias_ci95_joint": {
+       "lo": -0.7279707044015334,
+       "hi": 2.1394355903221314,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "adjusted_contrast_pp": 28.35524125761767,
+      "adjusted_contrast_ci95_joint": {
+       "lo": 21.85263495396226,
+       "hi": 34.999400739339976,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "adjusted_contrast_ci98333_joint": {
+       "lo": 20.461741521941036,
+       "hi": 36.39166667827286,
+       "level": 0.9833333333333333,
+       "undefined_draws": 0
+      }
+     }
+    }
+   },
+   "alternative": {
+    "independent-clustered": {
+     "observed_contrast_pp": 22.789878624233584,
+     "observed_contrast_ci95": {
+      "lo": 18.20081892734967,
+      "hi": 27.504214457660332,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "observed_contrast_ci98333": {
+      "lo": 17.255492031514315,
+      "hi": 28.61467151113889,
+      "level": 0.9833333333333333,
+      "undefined_draws": 0
+     },
+     "primary": {
+      "contrast_bias_pp": -0.526749490820096,
+      "contrast_bias_ci95_joint": {
+       "lo": -2.3385336881644707,
+       "hi": 0.9622659208625198,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "adjusted_contrast_pp": 23.31662811505368,
+      "adjusted_contrast_ci95_joint": {
+       "lo": 18.53057919069989,
+       "hi": 28.47992238574071,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "adjusted_contrast_ci98333_joint": {
+       "lo": 17.555902605452584,
+       "hi": 29.653489339528786,
+       "level": 0.9833333333333333,
+       "undefined_draws": 0
+      }
+     },
+     "piecewise": {
+      "contrast_bias_pp": -0.5417781278898347,
+      "contrast_bias_ci95_joint": {
+       "lo": -1.9899787641333238,
+       "hi": 0.835938812661745,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "adjusted_contrast_pp": 23.33165675212342,
+      "adjusted_contrast_ci95_joint": {
+       "lo": 18.57633728583468,
+       "hi": 28.37269733411348,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "adjusted_contrast_ci98333_joint": {
+       "lo": 17.5966072984821,
+       "hi": 29.56101766037912,
+       "level": 0.9833333333333333,
+       "undefined_draws": 0
+      }
+     }
+    },
+    "independent-imperfect": {
+     "observed_contrast_pp": 49.23951603834145,
+     "observed_contrast_ci95": {
+      "lo": 43.915144758216925,
+      "hi": 54.81008409125206,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "observed_contrast_ci98333": {
+      "lo": 42.70945584463646,
+      "hi": 56.02632563975405,
+      "level": 0.9833333333333333,
+      "undefined_draws": 0
+     },
+     "primary": {
+      "contrast_bias_pp": 0.35979127307668035,
+      "contrast_bias_ci95_joint": {
+       "lo": -1.3777618558647697,
+       "hi": 2.018252124714926,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "adjusted_contrast_pp": 48.87972476526477,
+      "adjusted_contrast_ci95_joint": {
+       "lo": 43.583101734620186,
+       "hi": 54.59991771210042,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "adjusted_contrast_ci98333_joint": {
+       "lo": 42.33140119876541,
+       "hi": 55.955240008188866,
+       "level": 0.9833333333333333,
+       "undefined_draws": 0
+      }
+     },
+     "piecewise": {
+      "contrast_bias_pp": 0.17071561776978608,
+      "contrast_bias_ci95_joint": {
+       "lo": -0.9970497072720113,
+       "hi": 1.7899832163396932,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "adjusted_contrast_pp": 49.06880042057166,
+      "adjusted_contrast_ci95_joint": {
+       "lo": 43.53029219463249,
+       "hi": 54.511482820406,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "adjusted_contrast_ci98333_joint": {
+       "lo": 42.39460714262413,
+       "hi": 55.90828868064118,
+       "level": 0.9833333333333333,
+       "undefined_draws": 0
+      }
+     }
+    },
+    "clustered-imperfect": {
+     "observed_contrast_pp": 26.449637414107862,
+     "observed_contrast_ci95": {
+      "lo": 20.12966507691652,
+      "hi": 32.862935260327845,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "observed_contrast_ci98333": {
+      "lo": 18.66825460843692,
+      "hi": 34.339352932816624,
+      "level": 0.9833333333333333,
+      "undefined_draws": 0
+     },
+     "primary": {
+      "contrast_bias_pp": 0.8865407638967764,
+      "contrast_bias_ci95_joint": {
+       "lo": -1.3190320753409583,
+       "hi": 3.2658101465258658,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "adjusted_contrast_pp": 25.563096650211087,
+      "adjusted_contrast_ci95_joint": {
+       "lo": 18.845182932414446,
+       "hi": 32.27228341212944,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "adjusted_contrast_ci98333_joint": {
+       "lo": 17.300111065795004,
+       "hi": 33.77129682146758,
+       "level": 0.9833333333333333,
+       "undefined_draws": 0
+      }
+     },
+     "piecewise": {
+      "contrast_bias_pp": 0.7124937456596208,
+      "contrast_bias_ci95_joint": {
+       "lo": -0.8774198533524348,
+       "hi": 2.8477915878420035,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "adjusted_contrast_pp": 25.73714366844824,
+      "adjusted_contrast_ci95_joint": {
+       "lo": 18.911338244208938,
+       "hi": 32.22017955672554,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "adjusted_contrast_ci98333_joint": {
+       "lo": 17.447194779895614,
+       "hi": 33.66078035936714,
+       "level": 0.9833333333333333,
+       "undefined_draws": 0
+      }
+     }
+    }
+   }
+  }
+ },
+ "selection": {
+  "definition": "implied F shift = dF/dln p x ln(p_bound/p_selected), in percentage points. Quadrature half-widths combine the archived conditional MC half-width and the selection half-width as if independent and symmetric (descriptive only).",
+  "inputs": {
+   "original": {
+    "independent": {
+     "p": 0.14327558866543832,
+     "lo": 0.1400445065638552,
+     "hi": 0.14791965542671104,
+     "source": "Supplement Table S8, pooled 128-seed row (conditional 95%; equals fallback-inclusive)",
+     "file": "$PROJECT_ROOT/abm/research/author_notes_2026-10-10/saved_analysis/outputs/calibration.json"
+    },
+    "clustered": {
+     "p": 0.07602158239372622,
+     "lo": 0.07346494499849307,
+     "hi": 0.07872820338472875,
+     "source": "Supplement Table S14, pooled64 row (conditional 95%; 0 failed draws)",
+     "file": "$PROJECT_ROOT/abm/research/editorial_polish_2026-10-11/source_revision_02/input/evidence/selection_uncertainty.json"
+    },
+    "imperfect": {
+     "p": 0.07483995991409355,
+     "lo": 0.0724291838364654,
+     "hi": 0.07785016843205887,
+     "source": "Supplement Table S14, pooled64 row (conditional 95%; 0 failed draws)",
+     "file": "$PROJECT_ROOT/abm/research/editorial_polish_2026-10-11/source_revision_02/input/evidence/selection_uncertainty.json"
+    }
+   },
+   "alternative": {
+    "independent": {
+     "p": 0.16511088524980383,
+     "lo": 0.1599921010088923,
+     "hi": 0.17032883565649126,
+     "source": "verification RESULTS.md section 3 (selection.json conditional 95%; 0 failed draws)",
+     "lower_bracket_draws": {
+      "0.14327558866543832:0.28655117733087665": 20000
+     },
+     "file": "$PROJECT_ROOT/research/robustness_uq_2026-10-17/collection_2026-10-21/execution01/source/research/robustness_uq_2026-10-17/selection.json"
+    },
+    "clustered": {
+     "p": 0.08063303727017038,
+     "lo": 0.07800995480533404,
+     "hi": 0.0833158313861914,
+     "source": "verification RESULTS.md section 3 (selection.json conditional 95%; 0 failed draws)",
+     "lower_bracket_draws": {
+      "0.03801079119686311:0.07602158239372622": 7,
+      "0.07602158239372622:0.15204316478745245": 19993
+     },
+     "file": "$PROJECT_ROOT/research/robustness_uq_2026-10-17/collection_2026-10-21/execution01/source/research/robustness_uq_2026-10-17/selection.json"
+    },
+    "imperfect": {
+     "p": 0.07614440228050331,
+     "lo": 0.07337984962308054,
+     "hi": 0.07861875273147,
+     "source": "verification RESULTS.md section 3 (selection.json conditional 95%; 0 failed draws)",
+     "lower_bracket_draws": {
+      "0.037419979957046774:0.07483995991409355": 2861,
+      "0.07483995991409355:0.1496799198281871": 17139
+     },
+     "file": "$PROJECT_ROOT/research/robustness_uq_2026-10-17/collection_2026-10-21/execution01/source/research/robustness_uq_2026-10-17/selection.json"
+    }
+   }
+  },
+  "results": {
+   "original": {
+    "independent": {
+     "p_selected": 0.14327558866543832,
+     "p_ci95": [
+      0.1400445065638552,
+      0.14791965542671104
+     ],
+     "source": "Supplement Table S8, pooled 128-seed row (conditional 95%; equals fallback-inclusive)",
+     "dlnp": [
+      -0.02280969295359314,
+      0.031899288549435675
+     ],
+     "dlnp_pct": [
+      -2.2551518592102915,
+      3.2413524205557653
+     ],
+     "dF_dlnp": 21.15242716982906,
+     "dF_dlnp_ci95": {
+      "lo": -7.845617560501547,
+      "hi": 50.93302820337084,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "dF_dlnp_source": "original workflow, center to 1.25 x center (brackets 3.0)",
+     "implied_F_shift_pp_point": [
+      -0.48248036896704205,
+      0.6747473778113002
+     ],
+     "implied_F_shift_pp_with_slope_uncertainty": [
+      -1.16176673451559,
+      1.6247273633558716
+     ],
+     "implied_F_shift_pp_envelope": [
+      -1.1617667345155887,
+      1.6247273633558716
+     ],
+     "conditional_MC_F_ci95_pct": [
+      64.1,
+      70.8
+     ],
+     "conditional_MC_half_width_pp": 3.3500000000000014,
+     "selection_half_width_pp_point": 0.6747473778113002,
+     "selection_half_width_pp_envelope": 1.6247273633558716,
+     "quadrature_half_width_pp_point": 3.4172772822618938,
+     "quadrature_half_width_pp_envelope": 3.723202788626659,
+     "transfer_assumption": false
+    },
+    "clustered": {
+     "p_selected": 0.07602158239372622,
+     "p_ci95": [
+      0.07346494499849307,
+      0.07872820338472875
+     ],
+     "source": "Supplement Table S14, pooled64 row (conditional 95%; 0 failed draws)",
+     "dlnp": [
+      -0.03420892518548944,
+      0.03498417814149305
+     ],
+     "dlnp_pct": [
+      -3.3630415399563462,
+      3.560332350074691
+     ],
+     "dF_dlnp": -7.902152965347376,
+     "dF_dlnp_ci95": {
+      "lo": -40.02705519467864,
+      "hi": 24.590756064015483,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "dF_dlnp_source": "original workflow, center to 1.25 x center (brackets 3.0)",
+     "implied_F_shift_pp_point": [
+      -0.27645032704104017,
+      0.2703241595958619
+     ],
+     "implied_F_shift_pp_with_slope_uncertainty": [
+      -1.4216652850460623,
+      1.3934965871345923
+     ],
+     "implied_F_shift_pp_envelope": [
+      -1.4003136294100123,
+      1.369282536550218
+     ],
+     "conditional_MC_F_ci95_pct": [
+      52.1,
+      59.5
+     ],
+     "conditional_MC_half_width_pp": 3.6999999999999993,
+     "selection_half_width_pp_point": 0.27645032704104017,
+     "selection_half_width_pp_envelope": 1.4003136294100123,
+     "quadrature_half_width_pp_point": 3.7103132998873685,
+     "quadrature_half_width_pp_envelope": 3.9561190908150676,
+     "transfer_assumption": false
+    },
+    "imperfect": {
+     "p_selected": 0.07483995991409355,
+     "p_ci95": [
+      0.0724291838364654,
+      0.07785016843205887
+     ],
+     "source": "Supplement Table S14, pooled64 row (conditional 95%; 0 failed draws)",
+     "dlnp": [
+      -0.03274265594839575,
+      0.03943409603936877
+     ],
+     "dlnp_pct": [
+      -3.221241807712616,
+      4.022194187998829
+     ],
+     "dF_dlnp": 13.062511058136703,
+     "dF_dlnp_ci95": {
+      "lo": -26.820285418162694,
+      "hi": 53.72510192664622,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "dF_dlnp_source": "original workflow, center to 1.25 x center (brackets 3.0)",
+     "implied_F_shift_pp_point": [
+      -0.427701305398685,
+      0.5151083155818793
+     ],
+     "implied_F_shift_pp_with_slope_uncertainty": [
+      -1.783229162584085,
+      2.1189601695451272
+     ],
+     "implied_F_shift_pp_envelope": [
+      -1.759102528176671,
+      2.118600829100243
+     ],
+     "conditional_MC_F_ci95_pct": [
+      21.6,
+      32.1
+     ],
+     "conditional_MC_half_width_pp": 5.25,
+     "selection_half_width_pp_point": 0.5151083155818793,
+     "selection_half_width_pp_envelope": 2.118600829100243,
+     "quadrature_half_width_pp_point": 5.27520962396582,
+     "quadrature_half_width_pp_envelope": 5.661357564494954,
+     "transfer_assumption": false
+    }
+   },
+   "alternative": {
+    "independent": {
+     "p_selected": 0.16511088524980383,
+     "p_ci95": [
+      0.1599921010088923,
+      0.17032883565649126
+     ],
+     "source": "verification RESULTS.md section 3 (selection.json conditional 95%; 0 failed draws)",
+     "dlnp": [
+      -0.031492834684580466,
+      0.03111361603386167
+     ],
+     "dlnp_pct": [
+      -3.100210039554374,
+      3.160270383623076
+     ],
+     "dF_dlnp": 21.15242716982906,
+     "dF_dlnp_ci95": {
+      "lo": -7.845617560501547,
+      "hi": 50.93302820337084,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "dF_dlnp_source": "original workflow, center to 1.25 x center (brackets 3.0)",
+     "implied_F_shift_pp_point": [
+      -0.6661498920370549,
+      0.6581284971462847
+     ],
+     "implied_F_shift_pp_with_slope_uncertainty": [
+      -1.604025437193834,
+      1.5847106829615276
+     ],
+     "implied_F_shift_pp_envelope": [
+      -1.6040254371938323,
+      1.5847106829615276
+     ],
+     "conditional_MC_F_ci95_pct": [
+      74.1,
+      78.7
+     ],
+     "conditional_MC_half_width_pp": 2.3000000000000043,
+     "selection_half_width_pp_point": 0.6661498920370549,
+     "selection_half_width_pp_envelope": 1.6040254371938323,
+     "quadrature_half_width_pp_point": 2.3945261908488282,
+     "quadrature_half_width_pp_envelope": 2.8040858765674215,
+     "transfer_assumption": true,
+     "sensitivity_beta_B_times_alt_gamma": {
+      "alt_grid_gamma": 3.149085837079337,
+      "alt_grid_gamma_ci95": {
+       "lo": 2.9628095265070415,
+       "hi": 3.3461262388468618,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "alt_grid_bracket": [
+       0.14327558866543832,
+       0.28655117733087665
+      ],
+      "alt_grid_rates": [
+       1.919227825203774,
+       17.025341321473924
+      ],
+      "dF_dlnp": 15.404714503775066,
+      "dF_dlnp_ci95": {
+       "lo": -6.082924280804598,
+       "hi": 35.327488955594866,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "implied_F_shift_pp_point": [
+       -0.48513812723054717,
+       0.47929637218171733
+      ]
+     }
+    },
+    "clustered": {
+     "p_selected": 0.08063303727017038,
+     "p_ci95": [
+      0.07800995480533404,
+      0.0833158313861914
+     ],
+     "source": "verification RESULTS.md section 3 (selection.json conditional 95%; 0 failed draws)",
+     "dlnp": [
+      -0.033072012963856715,
+      0.032730126551046776
+     ],
+     "dlnp_pct": [
+      -3.253111322158675,
+      3.3271649026837657
+     ],
+     "dF_dlnp": -7.902152965347376,
+     "dF_dlnp_ci95": {
+      "lo": -40.02705519467864,
+      "hi": 24.590756064015483,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "dF_dlnp_source": "original workflow, center to 1.25 x center (brackets 3.0)",
+     "implied_F_shift_pp_point": [
+      -0.25863846658154915,
+      0.2613401053123472
+     ],
+     "implied_F_shift_pp_with_slope_uncertainty": [
+      -1.3325327780791665,
+      1.3449798074251667
+     ],
+     "implied_F_shift_pp_envelope": [
+      -1.3100905819875661,
+      1.3237752883034202
+     ],
+     "conditional_MC_F_ci95_pct": [
+      49.7,
+      57.5
+     ],
+     "conditional_MC_half_width_pp": 3.8999999999999986,
+     "selection_half_width_pp_point": 0.2613401053123472,
+     "selection_half_width_pp_envelope": 1.3237752883034202,
+     "quadrature_half_width_pp_point": 3.908746429565962,
+     "quadrature_half_width_pp_envelope": 4.118541126894667,
+     "transfer_assumption": true,
+     "sensitivity_beta_B_times_alt_gamma": {
+      "alt_grid_gamma": 3.352315726058922,
+      "alt_grid_gamma_ci95": {
+       "lo": 3.1750338891692853,
+       "hi": 3.5410567477644803,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "alt_grid_bracket": [
+       0.07602158239372622,
+       0.15204316478745245
+      ],
+      "alt_grid_rates": [
+       2.462532926765288,
+       25.1495161832569
+      ],
+      "dF_dlnp": -9.117598402722864,
+      "dF_dlnp_ci95": {
+       "lo": -50.03070091735049,
+       "hi": 26.484528764779014,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "implied_F_shift_pp_point": [
+       -0.29842014956274127,
+       0.3015373325740898
+      ]
+     }
+    },
+    "imperfect": {
+     "p_selected": 0.07614440228050331,
+     "p_ci95": [
+      0.07337984962308054,
+      0.07861875273147
+     ],
+     "source": "verification RESULTS.md section 3 (selection.json conditional 95%; 0 failed draws)",
+     "dlnp": [
+      -0.0369821978843552,
+      0.031978687829154535
+     ],
+     "dlnp_pct": [
+      -3.630670902423816,
+      3.2495500350131934
+     ],
+     "dF_dlnp": 13.062511058136703,
+     "dF_dlnp_ci95": {
+      "lo": -26.820285418162694,
+      "hi": 53.72510192664622,
+      "level": 0.95,
+      "undefined_draws": 0
+     },
+     "dF_dlnp_source": "original workflow, center to 1.25 x center (brackets 3.0)",
+     "implied_F_shift_pp_point": [
+      -0.4830803688185896,
+      0.41772196339303275
+     ],
+     "implied_F_shift_pp_with_slope_uncertainty": [
+      -1.9874767471458246,
+      1.739477928042176
+     ],
+     "implied_F_shift_pp_envelope": [
+      -1.9868723508083834,
+      1.7180582631017283
+     ],
+     "conditional_MC_F_ci95_pct": [
+      22.2,
+      31.9
+     ],
+     "conditional_MC_half_width_pp": 4.85,
+     "selection_half_width_pp_point": 0.4830803688185896,
+     "selection_half_width_pp_envelope": 1.9868723508083834,
+     "quadrature_half_width_pp_point": 4.87399904008381,
+     "quadrature_half_width_pp_envelope": 5.241198502099193,
+     "transfer_assumption": true,
+     "sensitivity_beta_B_times_alt_gamma": {
+      "alt_grid_gamma": 3.4103658340063414,
+      "alt_grid_gamma_ci95": {
+       "lo": 3.242522703168532,
+       "hi": 3.584466552074845,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "alt_grid_bracket": [
+       0.07483995991409355,
+       0.1496799198281871
+      ],
+      "alt_grid_rates": [
+       2.8283189520541585,
+       30.071202547568248
+      ],
+      "dF_dlnp": 13.308513763435798,
+      "dF_dlnp_ci95": {
+       "lo": -29.36873139378691,
+       "hi": 51.6233511931587,
+       "level": 0.95,
+       "undefined_draws": 0
+      },
+      "implied_F_shift_pp_point": [
+       -0.4921780895460474,
+       0.42558880711091995
+      ]
+     }
+    }
+   }
+  },
+  "alt_grid_gamma": {
+   "independent": {
+    "B_m1": 1.919227825203774,
+    "B_m2": 17.025341321473924,
+    "p_m1": 0.14327558866543832,
+    "p_m2": 0.28655117733087665,
+    "gamma": 3.149085837079337,
+    "gamma_ci95": {
+     "lo": 2.9628095265070415,
+     "hi": 3.3461262388468618,
+     "level": 0.95,
+     "undefined_draws": 0
+    }
+   },
+   "clustered": {
+    "B_m1": 2.462532926765288,
+    "B_m2": 25.1495161832569,
+    "p_m1": 0.07602158239372622,
+    "p_m2": 0.15204316478745245,
+    "gamma": 3.352315726058922,
+    "gamma_ci95": {
+     "lo": 3.1750338891692853,
+     "hi": 3.5410567477644803,
+     "level": 0.95,
+     "undefined_draws": 0
+    }
+   },
+   "imperfect": {
+    "B_m1": 2.8283189520541585,
+    "B_m2": 30.071202547568248,
+    "p_m1": 0.07483995991409355,
+    "p_m2": 0.1496799198281871,
+    "gamma": 3.4103658340063414,
+    "gamma_ci95": {
+     "lo": 3.242522703168532,
+     "hi": 3.584466552074845,
+     "level": 0.95,
+     "undefined_draws": 0
+    }
+   }
+  }
+ },
+ "routes": {
+  "definition": "Passive labels of the pickup that began the infecting hand contamination episode. own_current = own-zone site pickup, contamination from the current stay; carry_over = own_zone_environment_pickup_after_readmission (site lineage predates the current admission); suffix _0/_pos = zero / at least one intervening hygiene opportunity. reduction = 1 - policy/control; contribution_to_F = (control rate - policy rate of label) / total control rate, which sums to F over the four labels.",
+  "results": {
+   "original": {
+    "independent": {
+     "records": 512,
+     "control_patient_days": 839663.1099537036,
+     "policy_patient_days": 839650.9139660494,
+     "patient_days_relative_difference": -1.4524858255149375e-05,
+     "labels": {
+      "patient": {
+       "control": 658,
+       "policy": 143,
+       "control_share_pct": 27.705263157894738,
+       "policy_share_pct": 18.571428571428573,
+       "reduction_count_pct": 78.26747720364742,
+       "reduction_count_pct_ci95": {
+        "lo": 74.13526719005715,
+        "hi": 82.02764976958525,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 78.26716153724927,
+       "contribution_to_F_pp": 21.68412307010948,
+       "contribution_to_F_pp_ci95": {
+        "lo": 19.648791929667656,
+        "hi": 23.760234430560892,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "own_current_0": {
+       "control": 923,
+       "policy": 228,
+       "control_share_pct": 38.863157894736844,
+       "policy_share_pct": 29.61038961038961,
+       "reduction_count_pct": 75.29794149512459,
+       "reduction_count_pct_ci95": {
+        "lo": 69.91772554622094,
+        "hi": 79.9793654357609,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 75.2975826960147,
+       "contribution_to_F_pp": 29.263018454072235,
+       "contribution_to_F_pp_ci95": {
+        "lo": 26.140746201821383,
+        "hi": 32.221847932170334,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "own_current_pos": {
+       "control": 0,
+       "policy": 0,
+       "control_share_pct": 0.0,
+       "policy_share_pct": 0.0,
+       "reduction_count_pct": null,
+       "reduction_count_pct_ci95": null,
+       "reduction_rate_pct": null,
+       "contribution_to_F_pp": 0.0,
+       "contribution_to_F_pp_ci95": {
+        "lo": 0.0,
+        "hi": 0.0,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": true
+      },
+      "own_current_all": {
+       "control": 923,
+       "policy": 228,
+       "control_share_pct": 38.863157894736844,
+       "policy_share_pct": 29.61038961038961,
+       "reduction_count_pct": 75.29794149512459,
+       "reduction_count_pct_ci95": {
+        "lo": 69.91772554622094,
+        "hi": 79.9793654357609,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 75.2975826960147,
+       "contribution_to_F_pp": 29.263018454072235,
+       "contribution_to_F_pp_ci95": {
+        "lo": 26.140746201821383,
+        "hi": 32.221847932170334,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "other_zone": {
+       "control": 344,
+       "policy": 80,
+       "control_share_pct": 14.48421052631579,
+       "policy_share_pct": 10.38961038961039,
+       "reduction_count_pct": 76.74418604651163,
+       "reduction_count_pct_ci95": {
+        "lo": 70.72463768115942,
+        "hi": 81.9672131147541,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 76.74384825420397,
+       "contribution_to_F_pp": 11.115740547135227,
+       "contribution_to_F_pp_ci95": {
+        "lo": 9.503689591017674,
+        "hi": 12.710045502398625,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "carry_over": {
+       "control": 450,
+       "policy": 319,
+       "control_share_pct": 18.94736842105263,
+       "policy_share_pct": 41.42857142857143,
+       "reduction_count_pct": 29.11111111111111,
+       "reduction_count_pct_ci95": {
+        "lo": 17.840375586854464,
+        "hi": 38.9662027833002,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 29.110081445092373,
+       "contribution_to_F_pp": 5.515594379070134,
+       "contribution_to_F_pp_ci95": {
+        "lo": 3.2097280678078284,
+        "hi": 7.753428331838704,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "carry_over_0": {
+       "control": 450,
+       "policy": 319,
+       "control_share_pct": 18.94736842105263,
+       "policy_share_pct": 41.42857142857143,
+       "reduction_count_pct": 29.11111111111111,
+       "reduction_count_pct_ci95": {
+        "lo": 17.840375586854464,
+        "hi": 38.9662027833002,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 29.110081445092373,
+       "contribution_to_F_pp": 5.515594379070134,
+       "contribution_to_F_pp_ci95": {
+        "lo": 3.2097280678078284,
+        "hi": 7.753428331838704,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "carry_over_pos": {
+       "control": 0,
+       "policy": 0,
+       "control_share_pct": 0.0,
+       "policy_share_pct": 0.0,
+       "reduction_count_pct": null,
+       "reduction_count_pct_ci95": null,
+       "reduction_rate_pct": null,
+       "contribution_to_F_pp": 0.0,
+       "contribution_to_F_pp_ci95": {
+        "lo": 0.0,
+        "hi": 0.0,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": true
+      },
+      "all_except_carry": {
+       "control": 1925,
+       "policy": 451,
+       "control_share_pct": 81.05263157894737,
+       "policy_share_pct": 58.57142857142857,
+       "reduction_count_pct": 76.57142857142857,
+       "reduction_count_pct_ci95": {
+        "lo": 73.27772988505747,
+        "hi": 79.56527892770032,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 76.57108826980662,
+       "contribution_to_F_pp": 62.06288207131694,
+       "contribution_to_F_pp_ci95": {
+        "lo": 58.901440121045674,
+        "hi": 64.99059891532319,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "paper_metric_site_0": {
+       "control": 1373,
+       "policy": 547,
+       "control_share_pct": 57.810526315789474,
+       "policy_share_pct": 71.03896103896103,
+       "reduction_count_pct": 60.160233066278224,
+       "reduction_count_pct_ci95": {
+        "lo": 54.867186066533996,
+        "hi": 64.9456667835437,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 60.159654390905416,
+       "contribution_to_F_pp": 34.77861283314237,
+       "contribution_to_F_pp_ci95": {
+        "lo": 31.063232230799457,
+        "hi": 38.26921336623793,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "all": {
+       "control": 2375,
+       "policy": 770,
+       "control_share_pct": 100.0,
+       "policy_share_pct": 100.0,
+       "reduction_count_pct": 67.57894736842105,
+       "reduction_count_pct_ci95": {
+        "lo": 64.04488170194156,
+        "hi": 70.8085818434317,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 67.57847645038709,
+       "contribution_to_F_pp": 67.57847645038709,
+       "contribution_to_F_pp_ci95": {
+        "lo": 64.04532601555755,
+        "hi": 70.80842280222653,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      }
+     }
+    },
+    "clustered": {
+     "records": 512,
+     "control_patient_days": 839636.2253086419,
+     "policy_patient_days": 839552.706404321,
+     "patient_days_relative_difference": -9.947034418411604e-05,
+     "labels": {
+      "patient": {
+       "control": 1361,
+       "policy": 590,
+       "control_share_pct": 60.354767184035474,
+       "policy_share_pct": 59.2964824120603,
+       "reduction_count_pct": 56.649522409992656,
+       "reduction_count_pct_ci95": {
+        "lo": 51.906586611464355,
+        "hi": 61.0321877751313,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 56.64520989409879,
+       "contribution_to_F_pp": 34.18808455249155,
+       "contribution_to_F_pp_ci95": {
+        "lo": 30.792629906228687,
+        "hi": 37.448188357077036,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "own_current_0": {
+       "control": 489,
+       "policy": 222,
+       "control_share_pct": 21.685144124168513,
+       "policy_share_pct": 22.311557788944725,
+       "reduction_count_pct": 54.601226993865026,
+       "reduction_count_pct_ci95": {
+        "lo": 46.63551219018157,
+        "hi": 61.77075969329489,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 54.596710713052566,
+       "contribution_to_F_pp": 11.839375405180801,
+       "contribution_to_F_pp_ci95": {
+        "lo": 9.575307808355271,
+        "hi": 14.089412648736715,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "own_current_pos": {
+       "control": 6,
+       "policy": 0,
+       "control_share_pct": 0.2660753880266075,
+       "policy_share_pct": 0.0,
+       "reduction_count_pct": 100.0,
+       "reduction_count_pct_ci95": {
+        "lo": 100.0,
+        "hi": 100.0,
+        "level": 0.95,
+        "undefined_draws": 53
+       },
+       "reduction_rate_pct": 100.0,
+       "contribution_to_F_pp": 0.2660753880266075,
+       "contribution_to_F_pp_ci95": {
+        "lo": 0.08722197993894462,
+        "hi": 0.4880212954747116,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": true
+      },
+      "own_current_all": {
+       "control": 495,
+       "policy": 222,
+       "control_share_pct": 21.951219512195124,
+       "policy_share_pct": 22.311557788944725,
+       "reduction_count_pct": 55.15151515151515,
+       "reduction_count_pct_ci95": {
+        "lo": 47.233081075870054,
+        "hi": 62.23102345697167,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 55.14705361350043,
+       "contribution_to_F_pp": 12.10545079320741,
+       "contribution_to_F_pp_ci95": {
+        "lo": 9.809011756198645,
+        "hi": 14.378395157776751,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "other_zone": {
+       "control": 324,
+       "policy": 130,
+       "control_share_pct": 14.368070953436806,
+       "policy_share_pct": 13.06532663316583,
+       "reduction_count_pct": 59.876543209876544,
+       "reduction_count_pct_ci95": {
+        "lo": 50.85309770347661,
+        "hi": 67.61015222984562,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 59.872551718784784,
+       "contribution_to_F_pp": 8.602530712588145,
+       "contribution_to_F_pp_ci95": {
+        "lo": 6.782096451933035,
+        "hi": 10.408444079363665,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "carry_over": {
+       "control": 75,
+       "policy": 53,
+       "control_share_pct": 3.3259423503325944,
+       "policy_share_pct": 5.326633165829146,
+       "reduction_count_pct": 29.333333333333332,
+       "reduction_count_pct_ci95": {
+        "lo": 0.0,
+        "hi": 51.13636363636363,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 29.326303396407404,
+       "contribution_to_F_pp": 0.9753759444481399,
+       "contribution_to_F_pp_ci95": {
+        "lo": -1.936632706006556e-05,
+        "hi": 1.9622299640865513,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "carry_over_0": {
+       "control": 74,
+       "policy": 53,
+       "control_share_pct": 3.2815964523281598,
+       "policy_share_pct": 5.326633165829146,
+       "reduction_count_pct": 28.37837837837838,
+       "reduction_count_pct_ci95": {
+        "lo": 0.0,
+        "hi": 50.0,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 28.3712534423048,
+       "contribution_to_F_pp": 0.9310300464437054,
+       "contribution_to_F_pp_ci95": {
+        "lo": -0.0005581187564691715,
+        "hi": 1.912821167905059,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "carry_over_pos": {
+       "control": 1,
+       "policy": 0,
+       "control_share_pct": 0.04434589800443459,
+       "policy_share_pct": 0.0,
+       "reduction_count_pct": 100.0,
+       "reduction_count_pct_ci95": {
+        "lo": 100.0,
+        "hi": 100.0,
+        "level": 0.95,
+        "undefined_draws": 7417
+       },
+       "reduction_rate_pct": 100.0,
+       "contribution_to_F_pp": 0.04434589800443458,
+       "contribution_to_F_pp_ci95": {
+        "lo": 0.0,
+        "hi": 0.13799448022079117,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": true
+      },
+      "all_except_carry": {
+       "control": 2180,
+       "policy": 942,
+       "control_share_pct": 96.6740576496674,
+       "policy_share_pct": 94.67336683417085,
+       "reduction_count_pct": 56.78899082568807,
+       "reduction_count_pct_ci95": {
+        "lo": 52.98436195322722,
+        "hi": 60.33395389723519,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 56.78469218414561,
+       "contribution_to_F_pp": 54.896066058287104,
+       "contribution_to_F_pp_ci95": {
+        "lo": 51.13042397454589,
+        "hi": 58.43751544301682,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "paper_metric_site_0": {
+       "control": 563,
+       "policy": 275,
+       "control_share_pct": 24.966740576496672,
+       "policy_share_pct": 27.63819095477387,
+       "reduction_count_pct": 51.15452930728242,
+       "reduction_count_pct_ci95": {
+        "lo": 43.495127585086806,
+        "hi": 58.06479326017068,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 51.14967014815854,
+       "contribution_to_F_pp": 12.770405451624502,
+       "contribution_to_F_pp_ci95": {
+        "lo": 10.353474763063232,
+        "hi": 15.19288149429614,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "all": {
+       "control": 2255,
+       "policy": 995,
+       "control_share_pct": 100.0,
+       "policy_share_pct": 100.0,
+       "reduction_count_pct": 55.87583148558759,
+       "reduction_count_pct_ci95": {
+        "lo": 52.076820008932565,
+        "hi": 59.44564820262234,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 55.87144200273525,
+       "contribution_to_F_pp": 55.87144200273525,
+       "contribution_to_F_pp_ci95": {
+        "lo": 52.07258225250261,
+        "hi": 59.44126844794591,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      }
+     }
+    },
+    "imperfect": {
+     "records": 512,
+     "control_patient_days": 839567.0486111111,
+     "policy_patient_days": 839559.7696759258,
+     "patient_days_relative_difference": -8.669867638699813e-06,
+     "labels": {
+      "patient": {
+       "control": 1467,
+       "policy": 1047,
+       "control_share_pct": 62.37244897959184,
+       "policy_share_pct": 60.94295692665891,
+       "reduction_count_pct": 28.62985685071575,
+       "reduction_count_pct_ci95": {
+        "lo": 22.59843871305496,
+        "hi": 34.253825884260664,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 28.629238075656595,
+       "contribution_to_F_pp": 17.85675691198479,
+       "contribution_to_F_pp_ci95": {
+        "lo": 13.95580831895635,
+        "hi": 21.593823959757177,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "own_current_0": {
+       "control": 492,
+       "policy": 382,
+       "control_share_pct": 20.918367346938776,
+       "policy_share_pct": 22.235157159487777,
+       "reduction_count_pct": 22.357723577235777,
+       "reduction_count_pct_ci95": {
+        "lo": 9.958461317382477,
+        "hi": 32.971063454759104,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 22.357050423139867,
+       "contribution_to_F_pp": 4.676729935452726,
+       "contribution_to_F_pp_ci95": {
+        "lo": 1.966471387918461,
+        "hi": 7.246567386580161,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "own_current_pos": {
+       "control": 0,
+       "policy": 0,
+       "control_share_pct": 0.0,
+       "policy_share_pct": 0.0,
+       "reduction_count_pct": null,
+       "reduction_count_pct_ci95": null,
+       "reduction_rate_pct": null,
+       "contribution_to_F_pp": 0.0,
+       "contribution_to_F_pp_ci95": {
+        "lo": 0.0,
+        "hi": 0.0,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": true
+      },
+      "own_current_all": {
+       "control": 492,
+       "policy": 382,
+       "control_share_pct": 20.918367346938776,
+       "policy_share_pct": 22.235157159487777,
+       "reduction_count_pct": 22.357723577235777,
+       "reduction_count_pct_ci95": {
+        "lo": 9.958461317382477,
+        "hi": 32.971063454759104,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 22.357050423139867,
+       "contribution_to_F_pp": 4.676729935452726,
+       "contribution_to_F_pp_ci95": {
+        "lo": 1.966471387918461,
+        "hi": 7.246567386580161,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "other_zone": {
+       "control": 331,
+       "policy": 231,
+       "control_share_pct": 14.07312925170068,
+       "policy_share_pct": 13.445867287543656,
+       "reduction_count_pct": 30.211480362537767,
+       "reduction_count_pct_ci95": {
+        "lo": 17.6135470268725,
+        "hi": 41.379310344827594,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 30.210875300064,
+       "contribution_to_F_pp": 4.251615529048122,
+       "contribution_to_F_pp_ci95": {
+        "lo": 2.3344620360925887,
+        "hi": 6.156773265631213,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "carry_over": {
+       "control": 62,
+       "policy": 58,
+       "control_share_pct": 2.6360544217687076,
+       "policy_share_pct": 3.3760186263096625,
+       "reduction_count_pct": 6.451612903225811,
+       "reduction_count_pct_ci95": {
+        "lo": -36.00000000000001,
+        "hi": 35.386075949366955,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 6.450801844060083,
+       "contribution_to_F_pp": 0.17004664724988328,
+       "contribution_to_F_pp_ci95": {
+        "lo": -0.7710348154609862,
+        "hi": 1.104760620808613,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "carry_over_0": {
+       "control": 62,
+       "policy": 58,
+       "control_share_pct": 2.6360544217687076,
+       "policy_share_pct": 3.3760186263096625,
+       "reduction_count_pct": 6.451612903225811,
+       "reduction_count_pct_ci95": {
+        "lo": -36.00000000000001,
+        "hi": 35.386075949366955,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 6.450801844060083,
+       "contribution_to_F_pp": 0.17004664724988328,
+       "contribution_to_F_pp_ci95": {
+        "lo": -0.7710348154609862,
+        "hi": 1.104760620808613,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "carry_over_pos": {
+       "control": 0,
+       "policy": 0,
+       "control_share_pct": 0.0,
+       "policy_share_pct": 0.0,
+       "reduction_count_pct": null,
+       "reduction_count_pct_ci95": null,
+       "reduction_rate_pct": null,
+       "contribution_to_F_pp": 0.0,
+       "contribution_to_F_pp_ci95": {
+        "lo": 0.0,
+        "hi": 0.0,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": true
+      },
+      "all_except_carry": {
+       "control": 2290,
+       "policy": 1660,
+       "control_share_pct": 97.3639455782313,
+       "policy_share_pct": 96.62398137369034,
+       "reduction_count_pct": 27.510917030567683,
+       "reduction_count_pct_ci95": {
+        "lo": 22.04650320570183,
+        "hi": 32.56105109362045,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 27.510288554364294,
+       "contribution_to_F_pp": 26.785102376485636,
+       "contribution_to_F_pp_ci95": {
+        "lo": 21.488156542094746,
+        "hi": 31.70647514532527,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "paper_metric_site_0": {
+       "control": 554,
+       "policy": 440,
+       "control_share_pct": 23.55442176870748,
+       "policy_share_pct": 25.61117578579744,
+       "reduction_count_pct": 20.57761732851986,
+       "reduction_count_pct_ci95": {
+        "lo": 8.474326037635128,
+        "hi": 30.76923076923077,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 20.576928741004576,
+       "contribution_to_F_pp": 4.846776582702609,
+       "contribution_to_F_pp_ci95": {
+        "lo": 1.9075605628751298,
+        "hi": 7.589908051056505,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "all": {
+       "control": 2352,
+       "policy": 1718,
+       "control_share_pct": 100.0,
+       "policy_share_pct": 100.0,
+       "reduction_count_pct": 26.95578231292517,
+       "reduction_count_pct_ci95": {
+        "lo": 21.474901038028356,
+        "hi": 32.031938187861236,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 26.955149023735515,
+       "contribution_to_F_pp": 26.955149023735515,
+       "contribution_to_F_pp_ci95": {
+        "lo": 21.475563561721998,
+        "hi": 32.03208750434092,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      }
+     }
+    }
+   },
+   "alternative": {
+    "independent": {
+     "records": 512,
+     "control_patient_days": 839638.2793209876,
+     "policy_patient_days": 839607.5570987654,
+     "patient_days_relative_difference": -3.65898303815726e-05,
+     "labels": {
+      "patient": {
+       "control": 824,
+       "policy": 195,
+       "control_share_pct": 33.79819524200164,
+       "policy_share_pct": 34.031413612565444,
+       "reduction_count_pct": 76.33495145631069,
+       "reduction_count_pct_ci95": {
+        "lo": 72.57683215130024,
+        "hi": 79.72194039653763,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 76.3340855245142,
+       "contribution_to_F_pp": 25.79954326177182,
+       "contribution_to_F_pp_ci95": {
+        "lo": 23.596878879044827,
+        "hi": 27.96736588145692,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "own_current_0": {
+       "control": 952,
+       "policy": 213,
+       "control_share_pct": 39.04840032813782,
+       "policy_share_pct": 37.17277486910995,
+       "reduction_count_pct": 77.62605042016807,
+       "reduction_count_pct_ci95": {
+        "lo": 73.9315372730784,
+        "hi": 80.95238095238095,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 77.62523173119229,
+       "contribution_to_F_pp": 30.311411242040624,
+       "contribution_to_F_pp_ci95": {
+        "lo": 27.784294654057135,
+        "hi": 32.777207279482575,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "own_current_pos": {
+       "control": 0,
+       "policy": 0,
+       "control_share_pct": 0.0,
+       "policy_share_pct": 0.0,
+       "reduction_count_pct": null,
+       "reduction_count_pct_ci95": null,
+       "reduction_rate_pct": null,
+       "contribution_to_F_pp": 0.0,
+       "contribution_to_F_pp_ci95": {
+        "lo": 0.0,
+        "hi": 0.0,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": true
+      },
+      "own_current_all": {
+       "control": 952,
+       "policy": 213,
+       "control_share_pct": 39.04840032813782,
+       "policy_share_pct": 37.17277486910995,
+       "reduction_count_pct": 77.62605042016807,
+       "reduction_count_pct_ci95": {
+        "lo": 73.9315372730784,
+        "hi": 80.95238095238095,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 77.62523173119229,
+       "contribution_to_F_pp": 30.311411242040624,
+       "contribution_to_F_pp_ci95": {
+        "lo": 27.784294654057135,
+        "hi": 32.777207279482575,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "other_zone": {
+       "control": 597,
+       "policy": 137,
+       "control_share_pct": 24.487284659557012,
+       "policy_share_pct": 23.909249563699827,
+       "reduction_count_pct": 77.05192629815744,
+       "reduction_count_pct_ci95": {
+        "lo": 72.9270697632631,
+        "hi": 80.9278350515464,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 77.05108660130875,
+       "contribution_to_F_pp": 18.86771890934427,
+       "contribution_to_F_pp_ci95": {
+        "lo": 17.04100601628965,
+        "hi": 20.68207188341,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "carry_over": {
+       "control": 65,
+       "policy": 28,
+       "control_share_pct": 2.6661197703035273,
+       "policy_share_pct": 4.886561954624782,
+       "reduction_count_pct": 56.92307692307692,
+       "reduction_count_pct_ci95": {
+        "lo": 34.48275862068966,
+        "hi": 73.61111111111111,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 56.92150068809401,
+       "contribution_to_F_pp": 1.5175953833987326,
+       "contribution_to_F_pp_ci95": {
+        "lo": 0.762133864875948,
+        "hi": 2.281520590698705,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "carry_over_0": {
+       "control": 65,
+       "policy": 28,
+       "control_share_pct": 2.6661197703035273,
+       "policy_share_pct": 4.886561954624782,
+       "reduction_count_pct": 56.92307692307692,
+       "reduction_count_pct_ci95": {
+        "lo": 34.48275862068966,
+        "hi": 73.61111111111111,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 56.92150068809401,
+       "contribution_to_F_pp": 1.5175953833987326,
+       "contribution_to_F_pp_ci95": {
+        "lo": 0.762133864875948,
+        "hi": 2.281520590698705,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "carry_over_pos": {
+       "control": 0,
+       "policy": 0,
+       "control_share_pct": 0.0,
+       "policy_share_pct": 0.0,
+       "reduction_count_pct": null,
+       "reduction_count_pct_ci95": null,
+       "reduction_rate_pct": null,
+       "contribution_to_F_pp": 0.0,
+       "contribution_to_F_pp_ci95": {
+        "lo": 0.0,
+        "hi": 0.0,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": true
+      },
+      "all_except_carry": {
+       "control": 2373,
+       "policy": 545,
+       "control_share_pct": 97.33388022969648,
+       "policy_share_pct": 95.11343804537522,
+       "reduction_count_pct": 77.03329119258323,
+       "reduction_count_pct_ci95": {
+        "lo": 74.72718005770193,
+        "hi": 79.25329616503826,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 77.03245081385423,
+       "contribution_to_F_pp": 74.97867341315673,
+       "contribution_to_F_pp_ci95": {
+        "lo": 72.66039204468882,
+        "hi": 77.196264329062,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "paper_metric_site_0": {
+       "control": 1017,
+       "policy": 241,
+       "control_share_pct": 41.71452009844135,
+       "policy_share_pct": 42.05933682373473,
+       "reduction_count_pct": 76.30285152409047,
+       "reduction_count_pct_ci95": {
+        "lo": 72.58718810932999,
+        "hi": 79.69038772043316,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 76.30198441771992,
+       "contribution_to_F_pp": 31.82900662543936,
+       "contribution_to_F_pp_ci95": {
+        "lo": 29.262256181704352,
+        "hi": 34.31414416695218,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "all": {
+       "control": 2438,
+       "policy": 573,
+       "control_share_pct": 100.0,
+       "policy_share_pct": 100.0,
+       "reduction_count_pct": 76.49712879409351,
+       "reduction_count_pct_ci95": {
+        "lo": 74.14230975512145,
+        "hi": 78.7479540803587,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 76.49626879655544,
+       "contribution_to_F_pp": 76.49626879655544,
+       "contribution_to_F_pp_ci95": {
+        "lo": 74.14323082080172,
+        "hi": 78.74670969319776,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      }
+     }
+    },
+    "clustered": {
+     "records": 512,
+     "control_patient_days": 839665.105324074,
+     "policy_patient_days": 839729.0925925926,
+     "patient_days_relative_difference": 7.620570166944063e-05,
+     "labels": {
+      "patient": {
+       "control": 1342,
+       "policy": 640,
+       "control_share_pct": 60.972285324852336,
+       "policy_share_pct": 62.80667320902846,
+       "reduction_count_pct": 52.30998509687035,
+       "reduction_count_pct_ci95": {
+        "lo": 47.42077923449559,
+        "hi": 56.67634252539913,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 52.31361907098911,
+       "contribution_to_F_pp": 31.89680908371985,
+       "contribution_to_F_pp_ci95": {
+        "lo": 28.47486556100998,
+        "hi": 35.10047278324993,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "own_current_0": {
+       "control": 460,
+       "policy": 229,
+       "control_share_pct": 20.899591094956836,
+       "policy_share_pct": 22.473012757605495,
+       "reduction_count_pct": 50.21739130434783,
+       "reduction_count_pct_ci95": {
+        "lo": 41.70401139679245,
+        "hi": 57.7733444123918,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 50.22118473389345,
+       "contribution_to_F_pp": 10.496022252426622,
+       "contribution_to_F_pp_ci95": {
+        "lo": 8.277060997275399,
+        "hi": 12.707522675851932,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "own_current_pos": {
+       "control": 6,
+       "policy": 1,
+       "control_share_pct": 0.2726033621081327,
+       "policy_share_pct": 0.09813542688910697,
+       "reduction_count_pct": 83.33333333333334,
+       "reduction_count_pct_ci95": {
+        "lo": 0.0,
+        "hi": 100.0,
+        "level": 0.95,
+        "undefined_draws": 56
+       },
+       "reduction_rate_pct": 83.33460333158004,
+       "contribution_to_F_pp": 0.22717293048136317,
+       "contribution_to_F_pp_ci95": {
+        "lo": 8.035966986140519e-06,
+        "hi": 0.47596949298519925,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": true
+      },
+      "own_current_all": {
+       "control": 466,
+       "policy": 230,
+       "control_share_pct": 21.172194457064972,
+       "policy_share_pct": 22.571148184494604,
+       "reduction_count_pct": 50.64377682403433,
+       "reduction_count_pct_ci95": {
+        "lo": 42.20369452020828,
+        "hi": 58.12626955162736,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 50.64753776304821,
+       "contribution_to_F_pp": 10.723195182907983,
+       "contribution_to_F_pp_ci95": {
+        "lo": 8.521258904116706,
+        "hi": 12.921667128524748,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "other_zone": {
+       "control": 371,
+       "policy": 142,
+       "control_share_pct": 16.855974557019536,
+       "policy_share_pct": 13.93523061825319,
+       "reduction_count_pct": 61.725067385444746,
+       "reduction_count_pct_ci95": {
+        "lo": 53.57119298906898,
+        "hi": 68.80235618818838,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 61.72798393128356,
+       "contribution_to_F_pp": 10.404853266018268,
+       "contribution_to_F_pp_ci95": {
+        "lo": 8.469124997348045,
+        "hi": 12.314887412628384,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "carry_over": {
+       "control": 22,
+       "policy": 7,
+       "control_share_pct": 0.9995456610631531,
+       "policy_share_pct": 0.6869479882237488,
+       "reduction_count_pct": 68.18181818181819,
+       "reduction_count_pct_ci95": {
+        "lo": 30.000000000000004,
+        "hi": 90.0,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 68.18424272392554,
+       "contribution_to_F_pp": 0.6815326396757665,
+       "contribution_to_F_pp_ci95": {
+        "lo": 0.22260450354467742,
+        "hi": 1.1612401322493746,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": true
+      },
+      "carry_over_0": {
+       "control": 22,
+       "policy": 7,
+       "control_share_pct": 0.9995456610631531,
+       "policy_share_pct": 0.6869479882237488,
+       "reduction_count_pct": 68.18181818181819,
+       "reduction_count_pct_ci95": {
+        "lo": 30.000000000000004,
+        "hi": 90.0,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 68.18424272392554,
+       "contribution_to_F_pp": 0.6815326396757665,
+       "contribution_to_F_pp_ci95": {
+        "lo": 0.22260450354467742,
+        "hi": 1.1612401322493746,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": true
+      },
+      "carry_over_pos": {
+       "control": 0,
+       "policy": 0,
+       "control_share_pct": 0.0,
+       "policy_share_pct": 0.0,
+       "reduction_count_pct": null,
+       "reduction_count_pct_ci95": null,
+       "reduction_rate_pct": null,
+       "contribution_to_F_pp": 0.0,
+       "contribution_to_F_pp_ci95": {
+        "lo": 0.0,
+        "hi": 0.0,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": true
+      },
+      "all_except_carry": {
+       "control": 2179,
+       "policy": 1012,
+       "control_share_pct": 99.00045433893685,
+       "policy_share_pct": 99.31305201177625,
+       "reduction_count_pct": 53.55667737494263,
+       "reduction_count_pct_ci95": {
+        "lo": 49.52379817513278,
+        "hi": 57.333909022682775,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 53.56021635124096,
+       "contribution_to_F_pp": 53.024857532646095,
+       "contribution_to_F_pp_ci95": {
+        "lo": 49.03842244921867,
+        "hi": 56.750373334578306,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "paper_metric_site_0": {
+       "control": 482,
+       "policy": 236,
+       "control_share_pct": 21.899136756019992,
+       "policy_share_pct": 23.159960745829245,
+       "reduction_count_pct": 51.037344398340245,
+       "reduction_count_pct_ci95": {
+        "lo": 42.731277533039645,
+        "hi": 58.3022652586493,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 51.041075347546375,
+       "contribution_to_F_pp": 11.177554892102387,
+       "contribution_to_F_pp_ci95": {
+        "lo": 8.900622386717922,
+        "hi": 13.448466693916005,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "all": {
+       "control": 2201,
+       "policy": 1019,
+       "control_share_pct": 100.0,
+       "policy_share_pct": 100.0,
+       "reduction_count_pct": 53.702862335302136,
+       "reduction_count_pct_ci95": {
+        "lo": 49.695241341612466,
+        "hi": 57.4707790106679,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 53.70639017232186,
+       "contribution_to_F_pp": 53.70639017232186,
+       "contribution_to_F_pp_ci95": {
+        "lo": 49.699694890817746,
+        "hi": 57.474368860280194,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      }
+     }
+    },
+    "imperfect": {
+     "records": 512,
+     "control_patient_days": 839660.0563271604,
+     "policy_patient_days": 839666.0231481481,
+     "patient_days_relative_difference": 7.1062341748806546e-06,
+     "labels": {
+      "patient": {
+       "control": 1404,
+       "policy": 1029,
+       "control_share_pct": 63.673469387755105,
+       "policy_share_pct": 64.15211970074813,
+       "reduction_count_pct": 26.709401709401714,
+       "reduction_count_pct_ci95": {
+        "lo": 20.331400704958746,
+        "hi": 32.50177563455572,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 26.709922525854935,
+       "contribution_to_F_pp": 17.007134342993346,
+       "contribution_to_F_pp_ci95": {
+        "lo": 12.751042578820298,
+        "hi": 21.01496580161456,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "own_current_0": {
+       "control": 438,
+       "policy": 329,
+       "control_share_pct": 19.86394557823129,
+       "policy_share_pct": 20.51122194513716,
+       "reduction_count_pct": 24.885844748858442,
+       "reduction_count_pct_ci95": {
+        "lo": 12.971595186561903,
+        "hi": 35.45666163241183,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 24.886378523842378,
+       "contribution_to_F_pp": 4.94341668636869,
+       "contribution_to_F_pp_ci95": {
+        "lo": 2.4282375699224263,
+        "hi": 7.434796223346386,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "own_current_pos": {
+       "control": 0,
+       "policy": 1,
+       "control_share_pct": 0.0,
+       "policy_share_pct": 0.06234413965087282,
+       "reduction_count_pct": null,
+       "reduction_count_pct_ci95": null,
+       "reduction_rate_pct": null,
+       "contribution_to_F_pp": -0.04535115164699879,
+       "contribution_to_F_pp_ci95": {
+        "lo": -0.14105007080295362,
+        "hi": 0.0,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": true
+      },
+      "own_current_all": {
+       "control": 438,
+       "policy": 330,
+       "control_share_pct": 19.86394557823129,
+       "policy_share_pct": 20.57356608478803,
+       "reduction_count_pct": 24.65753424657534,
+       "reduction_count_pct_ci95": {
+        "lo": 12.771195652173917,
+        "hi": 35.22012578616353,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 24.658069643975644,
+       "contribution_to_F_pp": 4.898065534721692,
+       "contribution_to_F_pp_ci95": {
+        "lo": 2.3779429461964914,
+        "hi": 7.382773742298336,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "other_zone": {
+       "control": 347,
+       "policy": 238,
+       "control_share_pct": 15.736961451247165,
+       "policy_share_pct": 14.83790523690773,
+       "reduction_count_pct": 31.41210374639769,
+       "reduction_count_pct_ci95": {
+        "lo": 18.674603477199938,
+        "hi": 42.307692307692314,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 31.41259114458648,
+       "contribution_to_F_pp": 4.943387359261455,
+       "contribution_to_F_pp_ci95": {
+        "lo": 2.7503320895324803,
+        "hi": 7.08030899215256,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "carry_over": {
+       "control": 16,
+       "policy": 7,
+       "control_share_pct": 0.7256235827664399,
+       "policy_share_pct": 0.43640897755610975,
+       "reduction_count_pct": 56.25,
+       "reduction_count_pct_ci95": {
+        "lo": 0.0,
+        "hi": 86.66666666666667,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 56.25031089553585,
+       "contribution_to_F_pp": 0.4081655212374484,
+       "contribution_to_F_pp_ci95": {
+        "lo": -1.2163103695269702e-05,
+        "hi": 0.8421976024211465,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": true
+      },
+      "carry_over_0": {
+       "control": 16,
+       "policy": 7,
+       "control_share_pct": 0.7256235827664399,
+       "policy_share_pct": 0.43640897755610975,
+       "reduction_count_pct": 56.25,
+       "reduction_count_pct_ci95": {
+        "lo": 0.0,
+        "hi": 86.66666666666667,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 56.25031089553585,
+       "contribution_to_F_pp": 0.4081655212374484,
+       "contribution_to_F_pp_ci95": {
+        "lo": -1.2163103695269702e-05,
+        "hi": 0.8421976024211465,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": true
+      },
+      "carry_over_pos": {
+       "control": 0,
+       "policy": 0,
+       "control_share_pct": 0.0,
+       "policy_share_pct": 0.0,
+       "reduction_count_pct": null,
+       "reduction_count_pct_ci95": null,
+       "reduction_rate_pct": null,
+       "contribution_to_F_pp": 0.0,
+       "contribution_to_F_pp_ci95": {
+        "lo": 0.0,
+        "hi": 0.0,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": true
+      },
+      "all_except_carry": {
+       "control": 2189,
+       "policy": 1597,
+       "control_share_pct": 99.27437641723355,
+       "policy_share_pct": 99.56359102244389,
+       "reduction_count_pct": 27.04431247144815,
+       "reduction_count_pct_ci95": {
+        "lo": 21.92405007073423,
+        "hi": 31.82637354975739,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 27.044830907964002,
+       "contribution_to_F_pp": 26.848587236976506,
+       "contribution_to_F_pp_ci95": {
+        "lo": 21.743692853993696,
+        "hi": 31.614559303025832,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "paper_metric_site_0": {
+       "control": 454,
+       "policy": 336,
+       "control_share_pct": 20.589569160997733,
+       "policy_share_pct": 20.947630922693268,
+       "reduction_count_pct": 25.991189427312776,
+       "reduction_count_pct_ci95": {
+        "lo": 14.485900741218174,
+        "hi": 36.1829352830386,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 25.99171534751441,
+       "contribution_to_F_pp": 5.351582207606143,
+       "contribution_to_F_pp_ci95": {
+        "lo": 2.8374306228845487,
+        "hi": 7.861357469227701,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      },
+      "all": {
+       "control": 2205,
+       "policy": 1604,
+       "control_share_pct": 100.0,
+       "policy_share_pct": 100.0,
+       "reduction_count_pct": 27.256235827664398,
+       "reduction_count_pct_ci95": {
+        "lo": 22.186339354672615,
+        "hi": 32.01025174616724,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "reduction_rate_pct": 27.256752758213942,
+       "contribution_to_F_pp": 27.256752758213942,
+       "contribution_to_F_pp_ci95": {
+        "lo": 22.190334972805644,
+        "hi": 32.0087145379418,
+        "level": 0.95,
+        "undefined_draws": 0
+       },
+       "small_count_flag": false
+      }
+     }
+    }
+   }
+  }
+ },
+ "compliance_range": {
+  "source": "supplement.tex Table S5 (tab:author-coefficients), parsed",
+  "rows_all": [
+   {
+    "h0": 0.8,
+    "h1": 0.9,
+    "rho": 0.5,
+    "e": 1.0,
+    "K0": 953.96,
+    "K1": 409.15,
+    "F_star_pct": 57.11,
+    "F_star_ci95": [
+     57.11,
+     57.12
+    ],
+    "q2_response_pct": 54.17
+   },
+   {
+    "h0": 0.8,
+    "h1": 0.9,
+    "rho": 0.0,
+    "e": 0.8,
+    "K0": 807.56,
+    "K1": 464.91,
+    "F_star_pct": 42.43,
+    "F_star_ci95": [
+     42.42,
+     42.44
+    ],
+    "q2_response_pct": 39.51
+   },
+   {
+    "h0": 0.8,
+    "h1": 0.9,
+    "rho": 0.0,
+    "e": 1.0,
+    "K0": 228.54,
+    "K1": 55.51,
+    "F_star_pct": 75.71,
+    "F_star_ci95": [
+     75.7,
+     75.72
+    ],
+    "q2_response_pct": 75.0
+   },
+   {
+    "h0": 0.95,
+    "h1": 0.99,
+    "rho": 0.5,
+    "e": 1.0,
+    "K0": 189.64,
+    "K1": 35.73,
+    "F_star_pct": 81.16,
+    "F_star_ci95": [
+     81.15,
+     81.17
+    ],
+    "q2_response_pct": 80.76
+   },
+   {
+    "h0": 0.95,
+    "h1": 0.99,
+    "rho": 0.0,
+    "e": 0.8,
+    "K0": 334.77,
+    "K1": 247.98,
+    "F_star_pct": 25.93,
+    "F_star_ci95": [
+     25.92,
+     25.93
+    ],
+    "q2_response_pct": 24.89
+   },
+   {
+    "h0": 0.95,
+    "h1": 0.99,
+    "rho": 0.0,
+    "e": 1.0,
+    "K0": 13.8,
+    "K1": 0.59,
+    "F_star_pct": 95.74,
+    "F_star_ci95": [
+     95.56,
+     95.92
+    ],
+    "q2_response_pct": 96.0
+   },
+   {
+    "h0": 0.9,
+    "h1": 0.95,
+    "rho": 0.25,
+    "e": 0.6,
+    "K0": 1525.28,
+    "K1": 1263.08,
+    "F_star_pct": 17.19,
+    "F_star_ci95": [
+     17.19,
+     17.2
+    ],
+    "q2_response_pct": 13.89
+   },
+   {
+    "h0": 0.9,
+    "h1": 0.95,
+    "rho": 0.25,
+    "e": 0.8,
+    "K0": 580.57,
+    "K1": 391.95,
+    "F_star_pct": 32.49,
+    "F_star_ci95": [
+     32.48,
+     32.49
+    ],
+    "q2_response_pct": 29.74
+   },
+   {
+    "h0": 0.9,
+    "h1": 0.95,
+    "rho": 0.25,
+    "e": 0.9,
+    "K0": 333.15,
+    "K1": 181.54,
+    "F_star_pct": 45.51,
+    "F_star_ci95": [
+     45.5,
+     45.52
+    ],
+    "q2_response_pct": 43.59
+   },
+   {
+    "h0": 0.9,
+    "h1": 0.95,
+    "rho": 0.25,
+    "e": 1.0,
+    "K0": 197.89,
+    "K1": 85.63,
+    "F_star_pct": 56.73,
+    "F_star_ci95": [
+     56.72,
+     56.74
+    ],
+    "q2_response_pct": 55.77
+   },
+   {
+    "h0": 0.9,
+    "h1": 0.95,
+    "rho": 0.5,
+    "e": 0.6,
+    "K0": 1689.06,
+    "K1": 1342.21,
+    "F_star_pct": 20.54,
+    "F_star_ci95": [
+     20.53,
+     20.54
+    ],
+    "q2_response_pct": 15.08
+   },
+   {
+    "h0": 0.9,
+    "h1": 0.95,
+    "rho": 0.5,
+    "e": 0.8,
+    "K0": 765.71,
+    "K1": 482.31,
+    "F_star_pct": 37.01,
+    "F_star_ci95": [
+     37.0,
+     37.02
+    ],
+    "q2_response_pct": 32.09
+   },
+   {
+    "h0": 0.9,
+    "h1": 0.95,
+    "rho": 0.5,
+    "e": 0.9,
+    "K0": 530.53,
+    "K1": 278.25,
+    "F_star_pct": 47.55,
+    "F_star_ci95": [
+     47.55,
+     47.56
+    ],
+    "q2_response_pct": 44.5
+   },
+   {
+    "h0": 0.9,
+    "h1": 0.95,
+    "rho": 0.5,
+    "e": 1.0,
+    "K0": 409.13,
+    "K1": 189.65,
+    "F_star_pct": 53.65,
+    "F_star_ci95": [
+     53.64,
+     53.65
+    ],
+    "q2_response_pct": 52.27
+   },
+   {
+    "h0": 0.9,
+    "h1": 0.95,
+    "rho": 0.75,
+    "e": 0.6,
+    "K0": 2125.66,
+    "K1": 1550.51,
+    "F_star_pct": 27.06,
+    "F_star_ci95": [
+     27.04,
+     27.07
+    ],
+    "q2_response_pct": 16.18
+   },
+   {
+    "h0": 0.9,
+    "h1": 0.95,
+    "rho": 0.75,
+    "e": 0.8,
+    "K0": 1223.71,
+    "K1": 701.95,
+    "F_star_pct": 42.64,
+    "F_star_ci95": [
+     42.63,
+     42.65
+    ],
+    "q2_response_pct": 33.88
+   },
+   {
+    "h0": 0.9,
+    "h1": 0.95,
+    "rho": 0.75,
+    "e": 0.9,
+    "K0": 1001.18,
+    "K1": 504.56,
+    "F_star_pct": 49.6,
+    "F_star_ci95": [
+     49.6,
+     49.61
+    ],
+    "q2_response_pct": 45.05
+   },
+   {
+    "h0": 0.9,
+    "h1": 0.95,
+    "rho": 0.75,
+    "e": 1.0,
+    "K0": 893.86,
+    "K1": 423.37,
+    "F_star_pct": 52.64,
+    "F_star_ci95": [
+     52.63,
+     52.64
+    ],
+    "q2_response_pct": 50.81
+   },
+   {
+    "h0": 0.9,
+    "h1": 0.95,
+    "rho": 0.0,
+    "e": 0.6,
+    "K0": 1429.79,
+    "K1": 1216.37,
+    "F_star_pct": 14.93,
+    "F_star_ci95": [
+     14.92,
+     14.93
+    ],
+    "q2_response_pct": 12.62
+   },
+   {
+    "h0": 0.9,
+    "h1": 0.95,
+    "rho": 0.0,
+    "e": 0.8,
+    "K0": 464.91,
+    "K1": 334.77,
+    "F_star_pct": 27.99,
+    "F_star_ci95": [
+     27.99,
+     28.0
+    ],
+    "q2_response_pct": 26.53
+   },
+   {
+    "h0": 0.9,
+    "h1": 0.95,
+    "rho": 0.0,
+    "e": 0.9,
+    "K0": 205.48,
+    "K1": 117.94,
+    "F_star_pct": 42.6,
+    "F_star_ci95": [
+     42.6,
+     42.61
+    ],
+    "q2_response_pct": 41.76
+   },
+   {
+    "h0": 0.9,
+    "h1": 0.95,
+    "rho": 0.0,
+    "e": 1.0,
+    "K0": 55.51,
+    "K1": 13.8,
+    "F_star_pct": 75.13,
+    "F_star_ci95": [
+     75.1,
+     75.17
+    ],
+    "q2_response_pct": 75.0
+   }
+  ],
+  "by_h_pair": [
+   {
+    "h0": 0.8,
+    "h1": 0.9,
+    "clustered": {
+     "h0": 0.8,
+     "h1": 0.9,
+     "rho": 0.5,
+     "e": 1.0,
+     "K0": 953.96,
+     "K1": 409.15,
+     "F_star_pct": 57.11,
+     "F_star_ci95": [
+      57.11,
+      57.12
+     ],
+     "q2_response_pct": 54.17
+    },
+    "imperfect": {
+     "h0": 0.8,
+     "h1": 0.9,
+     "rho": 0.0,
+     "e": 0.8,
+     "K0": 807.56,
+     "K1": 464.91,
+     "F_star_pct": 42.43,
+     "F_star_ci95": [
+      42.42,
+      42.44
+     ],
+     "q2_response_pct": 39.51
+    },
+    "independent": {
+     "h0": 0.8,
+     "h1": 0.9,
+     "rho": 0.0,
+     "e": 1.0,
+     "K0": 228.54,
+     "K1": 55.51,
+     "F_star_pct": 75.71,
+     "F_star_ci95": [
+      75.7,
+      75.72
+     ],
+     "q2_response_pct": 75.0
+    },
+    "independent_minus_clustered_pp": 18.599999999999994,
+    "independent_minus_imperfect_pp": 33.279999999999994,
+    "clustered_minus_imperfect_pp": 14.68,
+    "alternative_workflow_F_star": "PENDING: workflow_coefficient_2026-10-21"
+   },
+   {
+    "h0": 0.9,
+    "h1": 0.95,
+    "clustered": {
+     "h0": 0.9,
+     "h1": 0.95,
+     "rho": 0.5,
+     "e": 1.0,
+     "K0": 409.13,
+     "K1": 189.65,
+     "F_star_pct": 53.65,
+     "F_star_ci95": [
+      53.64,
+      53.65
+     ],
+     "q2_response_pct": 52.27
+    },
+    "imperfect": {
+     "h0": 0.9,
+     "h1": 0.95,
+     "rho": 0.0,
+     "e": 0.8,
+     "K0": 464.91,
+     "K1": 334.77,
+     "F_star_pct": 27.99,
+     "F_star_ci95": [
+      27.99,
+      28.0
+     ],
+     "q2_response_pct": 26.53
+    },
+    "independent": {
+     "h0": 0.9,
+     "h1": 0.95,
+     "rho": 0.0,
+     "e": 1.0,
+     "K0": 55.51,
+     "K1": 13.8,
+     "F_star_pct": 75.13,
+     "F_star_ci95": [
+      75.1,
+      75.17
+     ],
+     "q2_response_pct": 75.0
+    },
+    "independent_minus_clustered_pp": 21.479999999999997,
+    "independent_minus_imperfect_pp": 47.14,
+    "clustered_minus_imperfect_pp": 25.66,
+    "alternative_workflow_F_star": "PENDING: workflow_coefficient_2026-10-21"
+   },
+   {
+    "h0": 0.95,
+    "h1": 0.99,
+    "clustered": {
+     "h0": 0.95,
+     "h1": 0.99,
+     "rho": 0.5,
+     "e": 1.0,
+     "K0": 189.64,
+     "K1": 35.73,
+     "F_star_pct": 81.16,
+     "F_star_ci95": [
+      81.15,
+      81.17
+     ],
+     "q2_response_pct": 80.76
+    },
+    "imperfect": {
+     "h0": 0.95,
+     "h1": 0.99,
+     "rho": 0.0,
+     "e": 0.8,
+     "K0": 334.77,
+     "K1": 247.98,
+     "F_star_pct": 25.93,
+     "F_star_ci95": [
+      25.92,
+      25.93
+     ],
+     "q2_response_pct": 24.89
+    },
+    "independent": {
+     "h0": 0.95,
+     "h1": 0.99,
+     "rho": 0.0,
+     "e": 1.0,
+     "K0": 13.8,
+     "K1": 0.59,
+     "F_star_pct": 95.74,
+     "F_star_ci95": [
+      95.56,
+      95.92
+     ],
+     "q2_response_pct": 96.0
+    },
+    "independent_minus_clustered_pp": 14.579999999999998,
+    "independent_minus_imperfect_pp": 69.81,
+    "clustered_minus_imperfect_pp": 55.23,
+    "alternative_workflow_F_star": "PENDING: workflow_coefficient_2026-10-21"
+   }
+  ]
+ },
+ "study_flow": [
+  {
+   "step": 1,
+   "study": "Antecedent exploration (before 8 Oct)",
+   "question": "Select p for each profile at a baseline of 3.0 per 1,000 patient-days",
+   "p_selection": "Interpolation within the lowest-p increasing adjacent bracket (archived method \"lowest_p_increasing_adjacent_bracket\"); no fallback or extrapolation",
+   "n": "27 conditions x 64 paired seeds (1,728 records)",
+   "outcome": "Clustered p = .07602 [.07346, .07873], imperfect p = .07484 [.07243, .07785] (retrospective conditional 95%); independent: no point selection",
+   "source": "manuscript Methods (Calibration and fresh confirmation); supplement Table S14; editorial_polish_2026-10-11/.../selection_uncertainty.json (method field)"
+  },
+  {
+   "step": 2,
+   "study": "Independent-profile calibration grid (8 Oct)",
+   "question": "Select p for the independent profile",
+   "p_selection": "Declared bracket/interpolation rule on a baseline-only grid, p = .15 fallback",
+   "n": "3 probabilities (.13497, .15, .165) x 128 seeds (384 baseline-only records)",
+   "outcome": "p = .14328 [.14004, .14792] (retrospective conditional 95%; no failed pooled draws)",
+   "source": "manuscript Methods; supplement Table S8"
+  },
+  {
+   "step": 3,
+   "study": "Original-workflow holdout confirmation (8 Oct)",
+   "question": "Prevented fraction F for completion 90% to 95% at the fixed selected p",
+   "p_selection": "Fixed from steps 1-2; policy outcomes never select p",
+   "n": "3 profiles x 512 fresh paired seeds (1,536 paired jobs)",
+   "outcome": "Control 2.83/2.69/2.80; F 67.6/55.9/27.0%; contrasts 11.7, 40.6, 28.9 pp, all exclude 0 (98.333%); all six baseline-matching checks failed",
+   "source": "manuscript Results (Direct simulation after baseline fitting)"
+  },
+  {
+   "step": 4,
+   "study": "Environmental comparison (8 Oct)",
+   "question": "Does disabling hand-site exchange change F? (independent profile)",
+   "p_selection": "Three fixed earlier probabilities (.0810, .1080, .1350); no fitting",
+   "n": "6 conditions x 512 paired seeds (3,072 paired jobs)",
+   "outcome": "Full minus disabled F: -10.2 [-22.4, 2.4], -11.7 [-20.7, -2.7], -14.3 [-21.1, -7.5] pp (98.333%)",
+   "source": "manuscript Results (Environmental routes at three probabilities)"
+  },
+  {
+   "step": 5,
+   "study": "Rare-transmission coefficient, original workflow (8-10 Oct)",
+   "question": "Limit of F as p -> 0 from transmission-free histories",
+   "p_selection": "None (p = 0 backgrounds)",
+   "n": "256 transmission-free backgrounds; 22-row extended surface",
+   "outcome": "F* = 75.1/53.6/28.0%; extended surface in Table S5",
+   "source": "manuscript Appendix (Full ICU model coefficient); supplement Table S5"
+  },
+  {
+   "step": 6,
+   "study": "Inherited-clock baseline sweep (10-11 Oct)",
+   "question": "Can the inherited per-contact washing clock reach the target?",
+   "p_selection": "Baseline only at p = .15, .30, .60, 1",
+   "n": "12 conditions x 128 seeds (1,536 baseline-only records)",
+   "outcome": "No sampled match to the 2.7-3.3 band",
+   "source": "supplement Table S1"
+  },
+  {
+   "step": 7,
+   "study": "Local p-sensitivity (10-11 Oct)",
+   "question": "Is F locally sensitive to p? (clustered, imperfect)",
+   "p_selection": "0.75, 1 and 1.25 x the fixed p",
+   "n": "6 conditions x 256 fresh paired seeds (1,536 paired jobs)",
+   "outcome": "F 60.5/55.3/53.6% (clustered) and 28.9/29.8/32.7% (imperfect); four contrasts unresolved",
+   "source": "supplement Tables S2-S4"
+  },
+  {
+   "step": 8,
+   "study": "Opportunity-rule and matched-surface follow-up (11-12 Oct)",
+   "question": "Opportunity rule, surface disabling and an independent upper probability",
+   "p_selection": "Lowest exact target hit or lowest increasing adjacent bracket, interpolation within that bracket; no fallback, extrapolation or reselection",
+   "n": "5,760 records: 19-condition grid x 128 (2,432), 2 x 512 selected-clock pairs, 512 p = 1 pairs, 3 x 512 surface-disabled pairs, 256 independent-upper pairs",
+   "outcome": "Selected p .283/.345; both target checks failed (3.09, 2.85); six-contrast family: +16.3, +37.0, +9.7, -4.5, +0.6, +4.7 pp (99.167%)",
+   "source": "manuscript Methods; supplement Tables S15-S22"
+  },
+  {
+   "step": 9,
+   "study": "Common-baseline secondary analysis (16-17 Oct, post hoc)",
+   "question": "F at a common baseline of 3.0",
+   "p_selection": "Log-log interpolation between center and 1.25 x center; no new runs",
+   "n": "No new runs; 256 seed-matched pairs per bracket",
+   "outcome": "F* 66.7 [62.1, 71.2], 55.0 [50.7, 59.4], 30.0 [23.6, 36.6]%; contrasts 11.7, 36.7, 25.0 pp exclude 0 (98.333%)",
+   "source": "common_baseline_2026-10-16/RESULTS.md; manuscript Table (common baseline)"
+  },
+  {
+   "step": 10,
+   "study": "Alternative-workflow robustness (17-21 Oct)",
+   "question": "Do the profile contrasts persist with vacancy cleaning plus empty-bed-only isolation?",
+   "p_selection": "Lowest positive increasing adjacent bracket, log-log interpolation on a 0.5/1/2/4 x p grid",
+   "n": "Grid 4 x 3 x 128 (1,536 baseline-only records); holdout 3 x 512 fresh paired seeds (1,536 paired jobs)",
+   "outcome": "p .16511/.08063/.07614; control 2.90/2.62/2.63; F 76.5/53.7/27.3%; contrasts 22.8, 49.2, 26.4 pp exclude 0; clustered and imperfect baselines below 2.7",
+   "source": "robustness_uq_2026-10-17/verification_2026-10-21/RESULTS.md"
+  },
+  {
+   "step": 11,
+   "study": "Synthetic measurement UQ (17 Oct)",
+   "question": "Does a two-opportunity survival assay narrow the predicted benefit?",
+   "p_selection": "Not applicable (known synthetic truths)",
+   "n": "12,000 synthetic assay experiments (4 truths x 3 sample sizes x 1,000)",
+   "outcome": "At 8,000 per assay, continuous k = 2 widths 25.0 -> 6.3, 25.0 -> 1.1, 11.5 -> 5.7 and 11.5 -> 6.7 pp; not ICU data",
+   "source": "robustness_uq_2026-10-17/uq/RESULTS.md; uq/continuous_k2_2026-10-17/RESULTS.md"
+  },
+  {
+   "step": 12,
+   "study": "Mathematical extension (17 Oct)",
+   "question": "Identification of the policy response from bridge survival features",
+   "p_selection": "Not applicable (analytic)",
+   "n": "Analytic; 229 exact rational assertion groups",
+   "outcome": "Identification criterion and sharp bounds; two-opportunity clustering effect changes sign at e ~ .9235",
+   "source": "mathematical_extension_2026-10-17/START_HERE.txt"
+  },
+  {
+   "step": 13,
+   "study": "Rare-transmission coefficient, alternative workflow (21 Oct)",
+   "question": "p -> 0 limit under the alternative workflow, paired with the original on the same backgrounds",
+   "p_selection": "None (p = 0 backgrounds)",
+   "n": "256 backgrounds for the three profiles; 22-row surface on 256 or on bank A (128) per the budget rule",
+   "outcome": "[PENDING: workflow_coefficient_2026-10-21 results not yet available]",
+   "source": "workflow_coefficient_2026-10-21/PROTOCOL.md"
+  },
+  {
+   "step": 14,
+   "study": "These addenda (21-22 Oct)",
+   "question": "Baseline-mismatch elasticity, selection propagation, route labels",
+   "p_selection": "Not applicable",
+   "n": "No new runs; 9,472 archived records re-read",
+   "outcome": "See ADDENDA.md sections 1-3",
+   "source": "manuscript_v2_2026-10-21/addenda"
+  }
+ ],
+ "placeholders": {
+  "workflow_coefficient": "[PENDING: workflow_coefficient_2026-10-21 results not yet available]"
+ },
+ "elapsed_seconds": 111.0,
+ "headline": {
+  "max_abs_bias_pp_local_estimators": 0.5195094854195058,
+  "max_abs_bias_pp_any_estimator": 0.9779013498126738,
+  "joint_ci95_range_pp_local_estimators": [
+   -2.1336761173522505,
+   2.1264004173265088
+  ],
+  "archived_MC_F_half_width_pp_range": [
+   2.3000000000000043,
+   5.25
+  ],
+  "archived_MC_F_ci95_pct": {
+   "original": {
+    "independent": [
+     64.1,
+     70.8
+    ],
+    "clustered": [
+     52.1,
+     59.5
+    ],
+    "imperfect": [
+     21.6,
+     32.1
+    ]
+   },
+   "alternative": {
+    "independent": [
+     74.1,
+     78.7
+    ],
+    "clustered": [
+     49.7,
+     57.5
+    ],
+    "imperfect": [
+     22.2,
+     31.9
+    ]
+   }
+  },
+  "archived_primary_contrasts_pp": {
+   "original": [
+    11.7,
+    40.6,
+    28.9
+   ],
+   "alternative": [
+    22.8,
+    49.2,
+    26.4
+   ]
+  },
+  "all_slope_ci95_include_zero": true,
+  "max_abs_contrast_bias_pp_local": 0.8865407638967764,
+  "contrast_bias_joint_ci95_range_pp_local": [
+   -2.3385336881644707,
+   3.2658101465258658
+  ],
+  "all_adjusted_contrasts_exclude_zero_98333": true,
+  "selected_p_interval_pct_range": [
+   -3.630670902423816,
+   4.022194187998829
+  ],
+  "max_abs_selection_F_shift_pp_point_slope": 0.6747473778113002,
+  "max_abs_selection_F_shift_pp_with_slope_uncertainty": 2.1189601695451272,
+  "holdout_F_ci95_max_abs_diff_from_published_pp": 0.12443643827796791
+ },
+ "log": [
+  "manuscript_v2 addenda analysis 2026-10-22 03:27:00",
+  "python 3.12.2 numpy 1.26.4",
+  "script sha256 088b2dba383f64a5f54adabb365fee6ae14dae89d0c923c0d02de7623b8249b3",
+  "Loading and verifying inputs",
+  "  hash check sensitivity records vs archived sensitivity report input_sha256: 1536 files, 0 mismatches",
+  "  hash check independent upper records vs rule-surface report binding: 256 files, 0 mismatches",
+  "  hash check holdout records vs archived holdout report: 1536 files, 0 mismatches",
+  "  hash check environment records vs archived environment report: 3072 files, 0 mismatches",
+  "  hash check alternative policy records vs collection local_sha256.txt: 1536 files, 0 mismatches",
+  "  hash check alternative grid records vs collection local_sha256.txt: 1536 files, 0 mismatches",
+  "Building bootstrap weights",
+  "Computing condition estimates",
+  "  repro sensitivity clustered_low F: 0.6047649421 vs 0.6047649421 ok",
+  "  repro sensitivity clustered_low control rate: 1.295832801 vs 1.295832801 ok",
+  "  repro sensitivity clustered_center F: 0.5534721063 vs 0.5534721063 ok",
+  "  repro sensitivity clustered_center control rate: 2.630000286 vs 2.630000286 ok",
+  "  repro sensitivity clustered_high F: 0.5358389615 vs 0.5358389615 ok",
+  "  repro sensitivity clustered_high control rate: 5.02945251 vs 5.02945251 ok",
+  "  repro sensitivity imperfect_low F: 0.2889552178 vs 0.2889552178 ok",
+  "  repro sensitivity imperfect_low control rate: 1.252936911 vs 1.252936911 ok",
+  "  repro sensitivity imperfect_center F: 0.2977448676 vs 0.2977448676 ok",
+  "  repro sensitivity imperfect_center control rate: 2.808609537 vs 2.808609537 ok",
+  "  repro sensitivity imperfect_high F: 0.3268930187 vs 0.3268930187 ok",
+  "  repro sensitivity imperfect_high control rate: 5.927626424 vs 5.927626424 ok",
+  "  repro independent matched center B (common baseline B_lo): 2.777409583 vs 2.777409583 ok",
+  "  repro independent upper B (common baseline B_hi): 7.289269465 vs 7.289269465 ok",
+  "  repro independent matched center F: 0.6629411178 vs 0.6629411178 ok",
+  "  repro independent upper F: 0.710141395 vs 0.710141395 ok",
+  "  repro alternative independent F: 0.764962688 vs 0.764962688 ok",
+  "  repro alternative independent control rate: 2.903631314 vs 2.903631314 ok",
+  "  repro alternative clustered F: 0.5370639017 vs 0.5370639017 ok",
+  "  repro alternative clustered control rate: 2.621283159 vs 2.621283159 ok",
+  "  repro alternative imperfect F: 0.2725675276 vs 0.2725675276 ok",
+  "  repro alternative imperfect control rate: 2.626062754 vs 2.626062754 ok",
+  "  repro original holdout independent control rate (manuscript, 2 dp): 2.83 vs 2.83 ok",
+  "  repro original holdout independent F (manuscript, 1 dp): 67.6 vs 67.6 ok",
+  "  repro original holdout clustered control rate (manuscript, 2 dp): 2.69 vs 2.69 ok",
+  "  repro original holdout clustered F (manuscript, 1 dp): 55.9 vs 55.9 ok",
+  "  repro original holdout imperfect control rate (manuscript, 2 dp): 2.8 vs 2.8 ok",
+  "  repro original holdout imperfect F (manuscript, 1 dp): 27 vs 27 ok",
+  "Elasticity",
+  "Bias from baseline shortfall",
+  "Selection propagation",
+  "  repro original selection independent p vs supplement display: 0.14328 vs 0.14328 ok",
+  "  repro original selection independent lo vs supplement display: 0.14004 vs 0.14004 ok",
+  "  repro original selection independent hi vs supplement display: 0.14792 vs 0.14792 ok",
+  "  repro original selection clustered p vs supplement display: 0.07602 vs 0.07602 ok",
+  "  repro original selection clustered lo vs supplement display: 0.07346 vs 0.07346 ok",
+  "  repro original selection clustered hi vs supplement display: 0.07873 vs 0.07873 ok",
+  "  repro original selection imperfect p vs supplement display: 0.07484 vs 0.07484 ok",
+  "  repro original selection imperfect lo vs supplement display: 0.07243 vs 0.07243 ok",
+  "  repro original selection imperfect hi vs supplement display: 0.07785 vs 0.07785 ok",
+  "  repro alternative selection independent p vs RESULTS.md: 0.165111 vs 0.165111 ok",
+  "  repro alternative selection independent lo vs RESULTS.md: 0.15999 vs 0.15999 ok",
+  "  repro alternative selection independent hi vs RESULTS.md: 0.17033 vs 0.17033 ok",
+  "  repro alternative selection clustered p vs RESULTS.md: 0.080633 vs 0.080633 ok",
+  "  repro alternative selection clustered lo vs RESULTS.md: 0.07801 vs 0.07801 ok",
+  "  repro alternative selection clustered hi vs RESULTS.md: 0.08332 vs 0.08332 ok",
+  "  repro alternative selection imperfect p vs RESULTS.md: 0.076144 vs 0.076144 ok",
+  "  repro alternative selection imperfect lo vs RESULTS.md: 0.07338 vs 0.07338 ok",
+  "  repro alternative selection imperfect hi vs RESULTS.md: 0.07862 vs 0.07862 ok",
+  "Route labels",
+  "  repro route counts original independent vs verification RESULTS.md section 7: 1 vs 1 ok",
+  "  repro route counts original clustered vs verification RESULTS.md section 7: 1 vs 1 ok",
+  "  repro route counts original imperfect vs verification RESULTS.md section 7: 1 vs 1 ok",
+  "  repro route counts alternative independent vs verification RESULTS.md section 7: 1 vs 1 ok",
+  "  repro route counts alternative clustered vs verification RESULTS.md section 7: 1 vs 1 ok",
+  "  repro route counts alternative imperfect vs verification RESULTS.md section 7: 1 vs 1 ok",
+  "Compliance-range table from supplement Table S5"
+ ],
+ "reproduction_failures": 0
+}

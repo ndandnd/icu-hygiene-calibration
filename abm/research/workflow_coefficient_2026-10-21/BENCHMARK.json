@@ -1,0 +1,110 @@
+{
+ "benchmark": {
+  "concurrent_benchmark_processes": 3,
+  "mode": "alternative workflow, full 22-row surface (3 primary profile arms + 19 extra pairs = 44 coefficient arms)",
+  "note": "Run concurrently with 8 Gate 1 reruns and unrelated jobs from other sessions on a 12-core (6 performance + 6 efficiency) machine; see load averages. CPU time includes efficiency-core time, so the projection is conservative.",
+  "seeds": [
+   {
+    "bank": "B",
+    "completed_at_utc": "2026-10-22T07:33:55Z",
+    "cpu_seconds": 218.893764,
+    "frozen_simulate_elapsed_seconds": 604.8567385822535,
+    "load_average_end": [
+     44.943359375,
+     47.8408203125,
+     34.115234375
+    ],
+    "load_average_start": [
+     35.1962890625,
+     20.87451171875,
+     12.31494140625
+    ],
+    "ordered_bridge_events_sha256": "a39195d20d2293397b5991f2c1d496bed00d9389a3e693229b178a01288b69ce",
+    "record_sha256": "7df74baf35a2308b2580cd3d8b3a9ae2f766d88d60533ec14a86fec05a4f102b",
+    "seed": 1820087184,
+    "wall_seconds": 605.4022191250697
+   },
+   {
+    "bank": "A",
+    "completed_at_utc": "2026-10-22T07:33:59Z",
+    "cpu_seconds": 220.55053,
+    "frozen_simulate_elapsed_seconds": 609.1881836671382,
+    "load_average_end": [
+     46.70947265625,
+     48.15869140625,
+     34.3076171875
+    ],
+    "load_average_start": [
+     35.1962890625,
+     20.87451171875,
+     12.31494140625
+    ],
+    "ordered_bridge_events_sha256": "dfd6d32ed94918ef3c01e7251f3fd4bddad152f66897d07a7d1c1c913a5c0b6b",
+    "record_sha256": "db2d9ac163778e9d6bc90c87852e2b2733ee02c6721fb312be50a6d4b09e5926",
+    "seed": 2227400462,
+    "wall_seconds": 609.7941308328882
+   },
+   {
+    "bank": "A",
+    "completed_at_utc": "2026-10-22T07:33:59Z",
+    "cpu_seconds": 220.909864,
+    "frozen_simulate_elapsed_seconds": 609.5917276665568,
+    "load_average_end": [
+     46.70947265625,
+     48.15869140625,
+     34.3076171875
+    ],
+    "load_average_start": [
+     35.1962890625,
+     20.87451171875,
+     12.31494140625
+    ],
+    "ordered_bridge_events_sha256": "001b71e92c59960fd22b207c8a99da00f10861ab3503ac43d312b4780fd54c2d",
+    "record_sha256": "6d537bf3411ef230eb6d25fb06141b4042d07142261dea9c723c5b4f95dbed2f",
+    "seed": 3080160514,
+    "wall_seconds": 610.2060875426978
+   }
+  ]
+ },
+ "cap_cpu_hours": 80.0,
+ "decision": {
+  "meaning": "full: all 22 pairs on all 256 seeds",
+  "rationale": "projected 15.7 CPU-hours <= cap 80",
+  "surface": "full"
+ },
+ "fallback_plan_for_record": "3 primary profiles on all 256 seeds; full 22-row surface on bank A only (128 seeds).",
+ "max_concurrent_processes": 10,
+ "projection": {
+  "gate1_original_mode_22_pair_runs": [
+   {
+    "cpu_seconds": 224.272956,
+    "mode": "original workflow, 22 pairs",
+    "seed": 2312492055,
+    "wall_seconds": 615.7963412916288
+   },
+   {
+    "cpu_seconds": 218.601342,
+    "mode": "original workflow, 22 pairs",
+    "seed": 4166954880,
+    "wall_seconds": 605.5887730419636
+   }
+  ],
+  "max_cpu_seconds_per_seed": 220.909864,
+  "mean_cpu_seconds_per_seed": 220.11805266666667,
+  "mean_wall_seconds_per_seed_under_benchmark_load": 608.4674791668853,
+  "projected_cpu_hours_full_surface_256_max_based": 15.709145884444444,
+  "projected_cpu_hours_full_surface_256_mean_based": 15.652839300740741,
+  "projected_cpu_hours_used_for_decision": 15.709145884444444,
+  "projected_wall_hours_at_10_workers_if_wall_per_seed_unchanged": 4.326879851853406
+ },
+ "rule": "PROTOCOL.md: cap 80 local CPU-hours, at most 10 concurrent processes. If the full 22-row surface on 256 seeds is projected above the cap, run the 3 primary profiles on all 256 seeds and the full surface on bank A only (128 seeds).",
+ "schema_version": 1,
+ "sources": {
+  "adapter": "939aabd55a64ce59f1c9111052cdd36b7545fbc848578b48eef1dbb37d2e8c67",
+  "benchmark_py": "e92b87e2d811e8694beb35586b4d25272111fc752bbe174a4cd1a0301215e824",
+  "records_manifest_identity": "3aa2c37e5683c7e2fefb808563d0e29cb2ebda829c348b8638bbdbf1210423b5",
+  "run_batch_py": "3d58fc78593b14aedecd6456d3dc5128457718e72cf462057d16e5381fedda4a"
+ },
+ "study": "workflow_coefficient_2026-10-21",
+ "written_at_utc": "2026-10-22T07:34:30Z"
+}

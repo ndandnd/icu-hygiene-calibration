@@ -1,0 +1,38 @@
+{
+  "description": "Fixed 256 fresh p=0 backgrounds for exact finite-horizon ICU coefficient; no positive-p runs.",
+  "h0": 0.9,
+  "h1": 0.95,
+  "histogram_cap": 2,
+  "model_overrides": {
+    "prob_patient_sick": 0.03
+  },
+  "observation_ticks": 145152,
+  "opportunities": "zone_separate",
+  "profiles": [
+    {
+      "e": 1.0,
+      "id": "iid_perfect",
+      "rho": 0.0
+    },
+    {
+      "e": 1.0,
+      "id": "persistent_perfect",
+      "rho": 0.5
+    },
+    {
+      "e": 0.8,
+      "id": "iid_imperfect",
+      "rho": 0.0
+    }
+  ],
+  "seeds": [
+    3571466468,
+    1758207471,
+    1759159684,
+    2163029846,
+    776368590,
+    3862308333,
+    850782782
+  ],
+  "warmup_ticks": 233280
+}

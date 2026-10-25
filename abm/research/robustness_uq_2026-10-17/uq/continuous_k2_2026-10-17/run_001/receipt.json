@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "python": "3.12.2 (v3.12.2:6abddd9f6a, Feb  6 2024, 17:02:06) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "numpy": "1.26.4",
+  "inputs": {
+    "continuous_k2_2026-10-17/POSTHOC_PROTOCOL.md": "e64b7f55a6297604c14380de0ba5e8c0671bc7bed04207006347168023ce3765",
+    "continuous_k2_2026-10-17/run_continuous.py": "37f691f2816f1e9cd05fdc6599e2f4167fd87aa92be8f098490289898c07f2db",
+    "run_001/results.json": "19a9732b4a96d04dee8f5b6f6536556eca8e98b7f795a864739fb3efe3f52de0",
+    "run_001/raw_benchmark.npz": "b5468a0f2a6a16929cc86655cbecf8b68656570d15bdded0425b624a8191d219"
+  },
+  "outputs": {
+    "results.json": "c10e34b2cd49b5fd5336d589669925bab0fa5c7c54754a225d0ef985bb3eefe2",
+    "continuous_bounds.npz": "5e446cb3fd71643a73adb10e46fc0714461e440cd278b2880c7719585a2ee0cd",
+    "decimal_certificates.json.gz": "5e101fd1a1638fb60001468f486ae8f0f69c15edc1c1da176ed3c5fcfcf944e2"
+  },
+  "new_random_draws": 0,
+  "source_run_modified": false
+}

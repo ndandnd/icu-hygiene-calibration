@@ -1,0 +1,1282 @@
+{
+ "generated_by": "$PROJECT_ROOT/abm/research/manuscript_v2_2026-10-21/figures/make_figures.py",
+ "script_sha256": "57c46b7cb7fa1e023d7a74d343a1f15e4f8899f977e4c9d76b3643e007068c7d",
+ "python": "3.12.2",
+ "numpy": "1.26.4",
+ "matplotlib": "3.9.2",
+ "alternative_coefficient_summary": {
+  "path": "$PROJECT_ROOT/abm/research/workflow_coefficient_2026-10-21/summary.json",
+  "used": true,
+  "reason": "complete; SHA256 matches RESULTS_SHA256.txt",
+  "status": "complete",
+  "sha256": "6cd2ff7e768f6ba375e3f5c835af0d3d81dad4de5a86ba32170871476579bad2"
+ },
+ "outputs": {
+  "fig_bridge_schematic": [
+   "$PROJECT_ROOT/abm/research/manuscript_v2_2026-10-21/figures/fig_bridge_schematic.pdf",
+   "$PROJECT_ROOT/abm/research/manuscript_v2_2026-10-21/figures/fig_bridge_schematic.png"
+  ],
+  "fig_surface": [
+   "$PROJECT_ROOT/abm/research/manuscript_v2_2026-10-21/figures/fig_surface.pdf",
+   "$PROJECT_ROOT/abm/research/manuscript_v2_2026-10-21/figures/fig_surface.png",
+   "$PROJECT_ROOT/abm/research/manuscript_v2_2026-10-21/figures/fig_surface_diff.pdf",
+   "$PROJECT_ROOT/abm/research/manuscript_v2_2026-10-21/figures/fig_surface_diff.png"
+  ],
+  "fig_uq": [
+   "$PROJECT_ROOT/abm/research/manuscript_v2_2026-10-21/figures/fig_uq.pdf",
+   "$PROJECT_ROOT/abm/research/manuscript_v2_2026-10-21/figures/fig_uq.png",
+   "$PROJECT_ROOT/abm/research/manuscript_v2_2026-10-21/figures/fig_uq_k6.pdf",
+   "$PROJECT_ROOT/abm/research/manuscript_v2_2026-10-21/figures/fig_uq_k6.png"
+  ],
+  "fig_icu": [
+   "$PROJECT_ROOT/abm/research/manuscript_v2_2026-10-21/figures/fig_icu.pdf",
+   "$PROJECT_ROOT/abm/research/manuscript_v2_2026-10-21/figures/fig_icu.png"
+  ]
+ },
+ "figures": {
+  "fig_surface": {
+   "inputs": [
+    {
+     "path": "$PROJECT_ROOT/research/author_notes_2026-10-10/analysis_2026-10-11/bridge_pooled/coefficient_pairs.csv",
+     "sha256": "67f103a98c82d3d79e480885121ebaea714b4ed4bb6aa8737d7444c99cfb7980",
+     "role": "pooled 256-background p=0 coefficients, original workflow (Table S5 source)"
+    },
+    {
+     "path": "$PROJECT_ROOT/abm/manuscript/supplement.tex",
+     "sha256": "3255ef3ef85b285e7017004cae30205e60af75c36c9c41a80211837ce73a8f6c",
+     "role": "Table S5 text, parsed for cross-check only"
+    },
+    {
+     "path": "$PROJECT_ROOT/abm/research/mathematical_extension_2026-10-17/verification.json",
+     "sha256": "7de6f33dd9f2d455cf0166db06005f12518c8fadf6464506770bdf9bdcdb06e6",
+     "role": "math extension: exact isolated two-opportunity values and clearing_threshold_e (sign change of the rho effect)"
+    },
+    {
+     "path": "$PROJECT_ROOT/abm/research/mathematical_extension_2026-10-17/plot_interaction.py",
+     "sha256": "b0fdf689f0a0ef2f96fc53466cefa720964d7b3601697476bb588dedaad87dc8",
+     "role": "math extension: isolated two-opportunity prevention formula"
+    },
+    {
+     "path": "$PROJECT_ROOT/abm/research/manuscript_v2_2026-10-21/reviews_round1/analysis/round1_numbers.json",
+     "sha256": "e26c5ba23a38fd3d274fe94b96d4b60ba663c15947ffc8fcd65f90e98de0f772",
+     "role": "round-1 analysis: renewal comparator F_geo for the 22 surface rows (renewal_comparator.rows), cross-checked against the closed form here"
+    },
+    {
+     "path": "$PROJECT_ROOT/abm/research/workflow_coefficient_2026-10-21/summary.json",
+     "sha256": "6cd2ff7e768f6ba375e3f5c835af0d3d81dad4de5a86ba32170871476579bad2",
+     "role": "alternative-workflow p=0 coefficients, same 256 backgrounds (checked; plotted in fig_surface_diff)"
+    }
+   ],
+   "values": {
+    "alternative_workflow_check": {
+     "path": "$PROJECT_ROOT/abm/research/workflow_coefficient_2026-10-21/summary.json",
+     "n_seeds": 256,
+     "banks": [
+      "A",
+      "B"
+     ],
+     "values": {
+      "h0.9_to_0.95_rho0_e1": {
+       "F_star_pct": 75.18307656646151,
+       "ci95_pct": [
+        75.182678787611,
+        75.18347379067151
+       ],
+       "original_F_star_pct": 75.13188958001933
+      },
+      "h0.9_to_0.95_rho0.25_e1": {
+       "F_star_pct": 56.734689420547426,
+       "ci95_pct": [
+        56.73292903169099,
+        56.736460834774086
+       ],
+       "original_F_star_pct": 56.7293229125738
+      },
+      "h0.9_to_0.95_rho0.5_e1": {
+       "F_star_pct": 53.651518268918366,
+       "ci95_pct": [
+        53.64966328299534,
+        53.65340292286971
+       ],
+       "original_F_star_pct": 53.647154016624185
+      },
+      "h0.9_to_0.95_rho0.75_e1": {
+       "F_star_pct": 52.64203290537597,
+       "ci95_pct": [
+        52.64033194443641,
+        52.64377550170207
+       ],
+       "original_F_star_pct": 52.63602933229799
+      },
+      "h0.9_to_0.95_rho0_e0.9": {
+       "F_star_pct": 42.60519971891771,
+       "ci95_pct": [
+        42.60344762982674,
+        42.60695398670875
+       ],
+       "original_F_star_pct": 42.60427288539464
+      },
+      "h0.9_to_0.95_rho0.25_e0.9": {
+       "F_star_pct": 45.50374225131123,
+       "ci95_pct": [
+        45.50028996594715,
+        45.507218609701816
+       ],
+       "original_F_star_pct": 45.50994644229417
+      },
+      "h0.9_to_0.95_rho0.5_e0.9": {
+       "F_star_pct": 47.54995052806614,
+       "ci95_pct": [
+        47.545769580135826,
+        47.55418663679466
+       ],
+       "original_F_star_pct": 47.55273078901288
+      },
+      "h0.9_to_0.95_rho0.75_e0.9": {
+       "F_star_pct": 49.60825547658223,
+       "ci95_pct": [
+        49.60444500865723,
+        49.61216408512765
+       ],
+       "original_F_star_pct": 49.60366131254472
+      },
+      "h0.9_to_0.95_rho0_e0.8": {
+       "F_star_pct": 27.986142674933102,
+       "ci95_pct": [
+        27.983354653600962,
+        27.98893669883236
+       ],
+       "original_F_star_pct": 27.993873605327813
+      },
+      "h0.9_to_0.95_rho0.25_e0.8": {
+       "F_star_pct": 32.4761321295753,
+       "ci95_pct": [
+        32.47137843204308,
+        32.48093949075754
+       ],
+       "original_F_star_pct": 32.488285299649036
+      },
+      "h0.9_to_0.95_rho0.5_e0.8": {
+       "F_star_pct": 37.00264245986278,
+       "ci95_pct": [
+        36.99569551127853,
+        37.00969603796099
+       ],
+       "original_F_star_pct": 37.01178998171072
+      },
+      "h0.9_to_0.95_rho0.75_e0.8": {
+       "F_star_pct": 42.64148329440884,
+       "ci95_pct": [
+        42.63348648596475,
+        42.64971421388496
+       ],
+       "original_F_star_pct": 42.6376074074874
+      },
+      "h0.9_to_0.95_rho0_e0.6": {
+       "F_star_pct": 14.92132601682188,
+       "ci95_pct": [
+        14.917807738526179,
+        14.924907675089628
+       ],
+       "original_F_star_pct": 14.926770025455127
+      },
+      "h0.9_to_0.95_rho0.25_e0.6": {
+       "F_star_pct": 17.184713353879346,
+       "ci95_pct": [
+        17.179897448097908,
+        17.189604077085143
+       ],
+       "original_F_star_pct": 17.19051265094863
+      },
+      "h0.9_to_0.95_rho0.5_e0.6": {
+       "F_star_pct": 20.53323392079005,
+       "ci95_pct": [
+        20.525966210322228,
+        20.540609898056882
+       ],
+       "original_F_star_pct": 20.53524593586732
+      },
+      "h0.9_to_0.95_rho0.75_e0.6": {
+       "F_star_pct": 27.070442309879372,
+       "ci95_pct": [
+        27.059061576693693,
+        27.08208246281685
+       ],
+       "original_F_star_pct": 27.05754893050044
+      }
+     },
+     "max_abs_difference_pp_plotted_rows": 0.05118698644216435,
+     "max_abs_difference_pp_all_22_rows": 0.27159708539039595
+    },
+    "surface_h0.90_to_0.95_original": {
+     "e=1.0": {
+      "rho=0.0": {
+       "F_star_pct": 75.13188958001933,
+       "ci95_pct": [
+        75.09641502898351,
+        75.16736413105517
+       ],
+       "q2_isolated_pct": 74.99999999999994,
+       "F_geo_pct": 75.18796992481197
+      },
+      "rho=0.25": {
+       "F_star_pct": 56.7293229125738,
+       "ci95_pct": [
+        56.72150476309709,
+        56.73714106205051
+       ],
+       "q2_isolated_pct": 55.7692307692307,
+       "F_geo_pct": 56.876695098463045
+      },
+      "rho=0.5": {
+       "F_star_pct": 53.647154016624185,
+       "ci95_pct": [
+        53.64299214711035,
+        53.65131588613803
+       ],
+       "q2_isolated_pct": 52.272727272727224,
+       "F_geo_pct": 54.04345438857945
+      },
+      "rho=0.75": {
+       "F_star_pct": 52.63602933229799,
+       "ci95_pct": [
+        52.6335009862038,
+        52.638557678392175
+       ],
+       "q2_isolated_pct": 50.80645161290318,
+       "F_geo_pct": 53.06505797782029
+      }
+     },
+     "e=0.9": {
+      "rho=0.0": {
+       "F_star_pct": 42.60427288539464,
+       "ci95_pct": [
+        42.59851038150706,
+        42.61003538928223
+       ],
+       "q2_isolated_pct": 41.75900277008305,
+       "F_geo_pct": 42.65584184487149
+      },
+      "rho=0.25": {
+       "F_star_pct": 45.50994644229417,
+       "ci95_pct": [
+        45.50479684775765,
+        45.51509603683069
+       ],
+       "q2_isolated_pct": 43.59180855959498,
+       "F_geo_pct": 45.772558412930856
+      },
+      "rho=0.5": {
+       "F_star_pct": 47.55273078901288,
+       "ci95_pct": [
+        47.54742074473058,
+        47.55804083329517
+       ],
+       "q2_isolated_pct": 44.50379048931767,
+       "F_geo_pct": 48.242286899491994
+      },
+      "rho=0.75": {
+       "F_star_pct": 49.60366131254472,
+       "ci95_pct": [
+        49.59896400899295,
+        49.608358616096496
+       ],
+       "q2_isolated_pct": 45.04957312035247,
+       "F_geo_pct": 50.47495268100533
+      }
+     },
+     "e=0.8": {
+      "rho=0.0": {
+       "F_star_pct": 27.993873605327813,
+       "ci95_pct": [
+        27.990612344801374,
+        27.99713486585425
+       ],
+       "q2_isolated_pct": 26.530612244897924,
+       "F_geo_pct": 28.15217767922107
+      },
+      "rho=0.25": {
+       "F_star_pct": 32.488285299649036,
+       "ci95_pct": [
+        32.48308422564954,
+        32.49348637364853
+       ],
+       "q2_isolated_pct": 29.741379310344797,
+       "F_geo_pct": 32.92945085010746
+      },
+      "rho=0.5": {
+       "F_star_pct": 37.01178998171072,
+       "ci95_pct": [
+        37.00399860976497,
+        37.01958135365647
+       ],
+       "q2_isolated_pct": 32.08955223880595,
+       "F_geo_pct": 38.118801276695976
+      },
+      "rho=0.75": {
+       "F_star_pct": 42.6376074074874,
+       "ci95_pct": [
+        42.62817920902997,
+        42.64703560594482
+       ],
+       "q2_isolated_pct": 33.881578947368396,
+       "F_geo_pct": 44.386885310271865
+      }
+     },
+     "e=0.6": {
+      "rho=0.0": {
+       "F_star_pct": 14.926770025455127,
+       "ci95_pct": [
+        14.922915259864187,
+        14.930624791046068
+       ],
+       "q2_isolated_pct": 12.618147448015105,
+       "F_geo_pct": 15.480490060133867
+      },
+      "rho=0.25": {
+       "F_star_pct": 17.19051265094863,
+       "ci95_pct": [
+        17.185156362913716,
+        17.195868938983548
+       ],
+       "q2_isolated_pct": 13.893946290395975,
+       "F_geo_pct": 18.02600595206425
+      },
+      "rho=0.5": {
+       "F_star_pct": 20.53524593586732,
+       "ci95_pct": [
+        20.526949821347454,
+        20.543542050387185
+       ],
+       "q2_isolated_pct": 15.079016681299374,
+       "F_geo_pct": 22.04222404287516
+      },
+      "rho=0.75": {
+       "F_star_pct": 27.05754893050044,
+       "ci95_pct": [
+        27.04414530885871,
+        27.070952552142174
+       ],
+       "q2_isolated_pct": 16.182704535820235,
+       "F_geo_pct": 29.837749295470395
+      }
+     }
+    },
+    "profiles": {
+     "independent": {
+      "rho": 0.0,
+      "e": 1.0,
+      "F_star_pct_original": 75.13188958001933
+     },
+     "clustered": {
+      "rho": 0.5,
+      "e": 1.0,
+      "F_star_pct_original": 53.647154016624185
+     },
+     "imperfect": {
+      "rho": 0.0,
+      "e": 0.8,
+      "F_star_pct_original": 27.993873605327813
+     }
+    },
+    "max_pointwise_ci95_halfwidth_pct_original": 0.03547455103581898,
+    "isolated_sign_change_threshold_e": 0.9235280887098128,
+    "isolated_curve_exact_checks": 6,
+    "renewal_comparator_rows_checked": 22
+   }
+  },
+  "fig_surface_diff": {
+   "inputs": [
+    {
+     "path": "$PROJECT_ROOT/abm/research/workflow_coefficient_2026-10-21/summary.json",
+     "sha256": "6cd2ff7e768f6ba375e3f5c835af0d3d81dad4de5a86ba32170871476579bad2",
+     "role": "surface.pairs.<pair>.delta_F_alt_minus_orig (paired whole-seed bootstrap, 20,000 draws)"
+    }
+   ],
+   "values": {
+    "paired_difference_alt_minus_orig_pp": {
+     "h0.9_to_0.95_rho0_e1": {
+      "e": 1.0,
+      "rho": 0.0,
+      "delta_pp": 0.05118698644216435,
+      "paired_bootstrap95_pp": [
+       0.019211224305154543,
+       0.09014077610465518
+      ]
+     },
+     "h0.9_to_0.95_rho0.25_e1": {
+      "e": 1.0,
+      "rho": 0.25,
+      "delta_pp": 0.005366507973625367,
+      "paired_bootstrap95_pp": [
+       -0.001982382806514637,
+       0.013982225576469052
+      ]
+     },
+     "h0.9_to_0.95_rho0.5_e1": {
+      "e": 1.0,
+      "rho": 0.5,
+      "delta_pp": 0.004364252294175586,
+      "paired_bootstrap95_pp": [
+       0.0002219907134540239,
+       0.008876880281691866
+      ]
+     },
+     "h0.9_to_0.95_rho0.75_e1": {
+      "e": 1.0,
+      "rho": 0.75,
+      "delta_pp": 0.006003573077983937,
+      "paired_bootstrap95_pp": [
+       0.0033064816738689884,
+       0.008811743863309239
+      ]
+     },
+     "h0.9_to_0.95_rho0_e0.9": {
+      "e": 0.9,
+      "rho": 0.0,
+      "delta_pp": 0.0009268335230627756,
+      "paired_bootstrap95_pp": [
+       -0.0046490593214287826,
+       0.00738865974310939
+      ]
+     },
+     "h0.9_to_0.95_rho0.25_e0.9": {
+      "e": 0.9,
+      "rho": 0.25,
+      "delta_pp": -0.006204190982939117,
+      "paired_bootstrap95_pp": [
+       -0.012169598597853992,
+       -5.734231484090781e-05
+      ]
+     },
+     "h0.9_to_0.95_rho0.5_e0.9": {
+      "e": 0.9,
+      "rho": 0.5,
+      "delta_pp": -0.002780260946733115,
+      "paired_bootstrap95_pp": [
+       -0.009123541079881226,
+       0.0035900829589274744
+      ]
+     },
+     "h0.9_to_0.95_rho0.75_e0.9": {
+      "e": 0.9,
+      "rho": 0.75,
+      "delta_pp": 0.004594164037508008,
+      "paired_bootstrap95_pp": [
+       -0.0009958959580511064,
+       0.010194704106285533
+      ]
+     },
+     "h0.9_to_0.95_rho0_e0.8": {
+      "e": 0.8,
+      "rho": 0.0,
+      "delta_pp": -0.0077309303947115104,
+      "paired_bootstrap95_pp": [
+       -0.01197480992371186,
+       -0.003510884319608559
+      ]
+     },
+     "h0.9_to_0.95_rho0.25_e0.8": {
+      "e": 0.8,
+      "rho": 0.25,
+      "delta_pp": -0.012153170073736508,
+      "paired_bootstrap95_pp": [
+       -0.019045753674130916,
+       -0.00537421823240597
+      ]
+     },
+     "h0.9_to_0.95_rho0.5_e0.8": {
+      "e": 0.8,
+      "rho": 0.5,
+      "delta_pp": -0.009147521847940876,
+      "paired_bootstrap95_pp": [
+       -0.019126073345604448,
+       0.0006758585579144645
+      ]
+     },
+     "h0.9_to_0.95_rho0.75_e0.8": {
+      "e": 0.8,
+      "rho": 0.75,
+      "delta_pp": 0.0038758869214450264,
+      "paired_bootstrap95_pp": [
+       -0.007712262183958428,
+       0.015413255261046964
+      ]
+     },
+     "h0.9_to_0.95_rho0_e0.6": {
+      "e": 0.6,
+      "rho": 0.0,
+      "delta_pp": -0.005444008633248565,
+      "paired_bootstrap95_pp": [
+       -0.010436817697234424,
+       -0.000539332588771488
+      ]
+     },
+     "h0.9_to_0.95_rho0.25_e0.6": {
+      "e": 0.6,
+      "rho": 0.25,
+      "delta_pp": -0.005799297069286613,
+      "paired_bootstrap95_pp": [
+       -0.012671727689499422,
+       0.0009745615006115266
+      ]
+     },
+     "h0.9_to_0.95_rho0.5_e0.6": {
+      "e": 0.6,
+      "rho": 0.5,
+      "delta_pp": -0.0020120150772684475,
+      "paired_bootstrap95_pp": [
+       -0.012394048502845922,
+       0.008244371512119977
+      ]
+     },
+     "h0.9_to_0.95_rho0.75_e0.6": {
+      "e": 0.6,
+      "rho": 0.75,
+      "delta_pp": 0.01289337937893098,
+      "paired_bootstrap95_pp": [
+       -0.003497987795501308,
+       0.02928954561511596
+      ]
+     }
+    }
+   }
+  },
+  "fig_uq": {
+   "inputs": [
+    {
+     "path": "$PROJECT_ROOT/abm/research/robustness_uq_2026-10-17/uq/continuous_k2_2026-10-17/run_001/results.json",
+     "sha256": "c10e34b2cd49b5fd5336d589669925bab0fa5c7c54754a225d0ef985bb3eefe2",
+     "role": "continuous-domain k=2 widths (h 0.90->0.95)"
+    },
+    {
+     "path": "$PROJECT_ROOT/abm/research/robustness_uq_2026-10-17/uq/run_001/results.json",
+     "sha256": "19a9732b4a96d04dee8f5b6f6536556eca8e98b7f795a864739fb3efe3f52de0",
+     "role": "finite-grid k=6 widths at h=0.950 (grid-conditional)"
+    }
+   ],
+   "values": {
+    "widths_pct_points": {
+     "independent": {
+      "q1_only": {
+       "500": {
+        "p10": 25.15773820368351,
+        "median": 25.709491017887775,
+        "p90": 26.62050312810726,
+        "defined": 993,
+        "undefined": 7
+       },
+       "2000": {
+        "p10": 25.025547413541034,
+        "median": 25.158298413954018,
+        "p90": 25.38530048541035,
+        "defined": 989,
+        "undefined": 11
+       },
+       "8000": {
+        "p10": 25.007576309109197,
+        "median": 25.037207888212137,
+        "p90": 25.081647005116253,
+        "defined": 994,
+        "undefined": 6
+       }
+      },
+      "q1_and_q2": {
+       "500": {
+        "p10": 13.23347565434082,
+        "median": 19.277759888427216,
+        "p90": 22.830922188559526,
+        "defined": 985,
+        "undefined": 15
+       },
+       "2000": {
+        "p10": 6.641116919908686,
+        "median": 11.495606388707536,
+        "p90": 14.719196327197285,
+        "defined": 984,
+        "undefined": 16
+       },
+       "8000": {
+        "p10": 3.2244778143677633,
+        "median": 6.266433253595249,
+        "p90": 8.80458873292832,
+        "defined": 978,
+        "undefined": 22
+       }
+      }
+     },
+     "clustered": {
+      "q1_only": {
+       "500": {
+        "p10": 25.15773820368351,
+        "median": 25.709491017887775,
+        "p90": 26.62050312810726,
+        "defined": 986,
+        "undefined": 14
+       },
+       "2000": {
+        "p10": 25.034734002743182,
+        "median": 25.158298413954018,
+        "p90": 25.38530048541035,
+        "defined": 990,
+        "undefined": 10
+       },
+       "8000": {
+        "p10": 25.005505600896306,
+        "median": 25.034776185947955,
+        "p90": 25.089120484854767,
+        "defined": 985,
+        "undefined": 15
+       }
+      },
+      "q1_and_q2": {
+       "500": {
+        "p10": 3.7941152064996544,
+        "median": 5.678955608227812,
+        "p90": 8.70163007771822,
+        "defined": 986,
+        "undefined": 14
+       },
+       "2000": {
+        "p10": 2.0108911394924878,
+        "median": 2.4481527731069153,
+        "p90": 3.036538138627567,
+        "defined": 990,
+        "undefined": 10
+       },
+       "8000": {
+        "p10": 1.0085844418852496,
+        "median": 1.1313106567750975,
+        "p90": 1.2672504819924924,
+        "defined": 985,
+        "undefined": 15
+       }
+      }
+     },
+     "imperfect": {
+      "q1_only": {
+       "500": {
+        "p10": 18.377411807021513,
+        "median": 19.015298240186375,
+        "p90": 19.136305208610235,
+        "defined": 1000,
+        "undefined": 0
+       },
+       "2000": {
+        "p10": 13.883470489107868,
+        "median": 14.056247920493533,
+        "p90": 14.106358401148706,
+        "defined": 1000,
+        "undefined": 0
+       },
+       "8000": {
+        "p10": 11.406145066067001,
+        "median": 11.44875063037792,
+        "p90": 11.460621759416487,
+        "defined": 1000,
+        "undefined": 0
+       }
+      },
+      "q1_and_q2": {
+       "500": {
+        "p10": 13.200773805304358,
+        "median": 18.348617490274346,
+        "p90": 19.09242254069301,
+        "defined": 999,
+        "undefined": 1
+       },
+       "2000": {
+        "p10": 6.527161835573573,
+        "median": 10.506689575589656,
+        "p90": 11.994374409487255,
+        "defined": 999,
+        "undefined": 1
+       },
+       "8000": {
+        "p10": 3.5179808840762563,
+        "median": 5.711815976900475,
+        "p90": 6.71377342815183,
+        "defined": 999,
+        "undefined": 1
+       }
+      }
+     },
+     "combined": {
+      "q1_only": {
+       "500": {
+        "p10": 18.441814146781162,
+        "median": 19.011115063387003,
+        "p90": 19.13586069935385,
+        "defined": 1000,
+        "undefined": 0
+       },
+       "2000": {
+        "p10": 13.90197827578244,
+        "median": 14.065140659850655,
+        "p90": 14.1073713895425,
+        "defined": 1000,
+        "undefined": 0
+       },
+       "8000": {
+        "p10": 11.406206981786454,
+        "median": 11.44875063037792,
+        "p90": 11.460688319130396,
+        "defined": 1000,
+        "undefined": 0
+       }
+      },
+      "q1_and_q2": {
+       "500": {
+        "p10": 18.09880655482231,
+        "median": 18.96854321656871,
+        "p90": 19.13586069935385,
+        "defined": 1000,
+        "undefined": 0
+       },
+       "2000": {
+        "p10": 11.268597312551904,
+        "median": 12.983552130227881,
+        "p90": 13.629706882459109,
+        "defined": 1000,
+        "undefined": 0
+       },
+       "8000": {
+        "p10": 6.232301460588049,
+        "median": 6.689445052155548,
+        "p90": 7.197465621559843,
+        "defined": 1000,
+        "undefined": 0
+       }
+      }
+     }
+    },
+    "target": "prevention for completion 0.90 -> 0.95, isolated k=2 bridge, continuous (rho,e)",
+    "summary_statistic": "median width among defined intervals; band = 10th to 90th percentile over 1,000 repeated synthetic experiments per cell; empty joint sets are undefined and excluded from widths",
+    "scope": "synthetic controlled assays, known h, stationary first-order Markov completion with constant clearing; q1+q2 uses twice the total measurements"
+   }
+  },
+  "fig_uq_k6": {
+   "inputs": [
+    {
+     "path": "$PROJECT_ROOT/abm/research/robustness_uq_2026-10-17/uq/run_001/results.json",
+     "sha256": "19a9732b4a96d04dee8f5b6f6536556eca8e98b7f795a864739fb3efe3f52de0",
+     "role": "finite-grid k=6 widths at h=0.950 (grid-conditional)"
+    }
+   ],
+   "values": {
+    "widths_pct_points": {
+     "independent": {
+      "q1_only": {
+       "500": {
+        "p10": 48.437500000500044,
+        "median": 48.43750036450005,
+        "p90": 48.43750781249895,
+        "defined": 993,
+        "undefined": 7
+       },
+       "2000": {
+        "p10": 48.43750000000004,
+        "median": 48.437500000500044,
+        "p90": 48.437500032000045,
+        "defined": 989,
+        "undefined": 11
+       },
+       "8000": {
+        "p10": 48.43750000000004,
+        "median": 48.43750000000004,
+        "p90": 48.437500000500044,
+        "defined": 994,
+        "undefined": 6
+       }
+      },
+      "q1_and_q2": {
+       "500": {
+        "p10": 5.31060647187539,
+        "median": 17.063242316324466,
+        "p90": 25.52334847411618,
+        "defined": 985,
+        "undefined": 15
+       },
+       "2000": {
+        "p10": 2.392073794136218,
+        "median": 5.31060647187539,
+        "p90": 11.380710393647453,
+        "defined": 984,
+        "undefined": 16
+       },
+       "8000": {
+        "p10": 0.0,
+        "median": 2.392073794136218,
+        "p90": 2.7605950126583094,
+        "defined": 974,
+        "undefined": 26
+       }
+      }
+     },
+     "clustered": {
+      "q1_only": {
+       "500": {
+        "p10": 48.437500000500044,
+        "median": 48.43750036450005,
+        "p90": 48.43750781249895,
+        "defined": 986,
+        "undefined": 14
+       },
+       "2000": {
+        "p10": 48.43750000000004,
+        "median": 48.437500000500044,
+        "p90": 48.437500032000045,
+        "defined": 990,
+        "undefined": 10
+       },
+       "8000": {
+        "p10": 48.43750000000004,
+        "median": 48.43750000000004,
+        "p90": 48.437500000500044,
+        "defined": 985,
+        "undefined": 15
+       }
+      },
+      "q1_and_q2": {
+       "500": {
+        "p10": 15.307370114711471,
+        "median": 21.398812337346797,
+        "p90": 29.426371116543038,
+        "defined": 986,
+        "undefined": 14
+       },
+       "2000": {
+        "p10": 7.731548702937907,
+        "median": 8.803447581342061,
+        "p90": 10.774843627383191,
+        "defined": 990,
+        "undefined": 10
+       },
+       "8000": {
+        "p10": 3.2315345950491348,
+        "median": 3.6781697473847186,
+        "p90": 4.454494376167906,
+        "defined": 985,
+        "undefined": 15
+       }
+      }
+     },
+     "imperfect": {
+      "q1_only": {
+       "500": {
+        "p10": 18.619260188175744,
+        "median": 20.529705224867012,
+        "p90": 25.187778899720282,
+        "defined": 1000,
+        "undefined": 0
+       },
+       "2000": {
+        "p10": 16.128575050363164,
+        "median": 17.57531747589578,
+        "p90": 18.93975095555801,
+        "defined": 1000,
+        "undefined": 0
+       },
+       "8000": {
+        "p10": 14.926430550466952,
+        "median": 16.211436258519907,
+        "p90": 16.222304664716358,
+        "defined": 1000,
+        "undefined": 0
+       }
+      },
+      "q1_and_q2": {
+       "500": {
+        "p10": 13.297581458609697,
+        "median": 18.43045025709764,
+        "p90": 22.717037776595905,
+        "defined": 998,
+        "undefined": 2
+       },
+       "2000": {
+        "p10": 7.582877261326715,
+        "median": 10.300323552168367,
+        "p90": 11.600385815378722,
+        "defined": 997,
+        "undefined": 3
+       },
+       "8000": {
+        "p10": 2.727020986661721,
+        "median": 5.836400340305781,
+        "p90": 7.582877261326715,
+        "defined": 991,
+        "undefined": 9
+       }
+      }
+     },
+     "combined": {
+      "q1_only": {
+       "500": {
+        "p10": 18.619260188175744,
+        "median": 21.989546305798857,
+        "p90": 25.187778899720282,
+        "defined": 1000,
+        "undefined": 0
+       },
+       "2000": {
+        "p10": 16.253374139812536,
+        "median": 17.57531747589578,
+        "p90": 18.93975095555801,
+        "defined": 1000,
+        "undefined": 0
+       },
+       "8000": {
+        "p10": 14.926430550466952,
+        "median": 16.211436258519907,
+        "p90": 16.222304664716358,
+        "defined": 1000,
+        "undefined": 0
+       }
+      },
+      "q1_and_q2": {
+       "500": {
+        "p10": 14.271933079023928,
+        "median": 17.858362390643702,
+        "p90": 20.387741739831377,
+        "defined": 1000,
+        "undefined": 0
+       },
+       "2000": {
+        "p10": 11.501411001144914,
+        "median": 12.80469709678832,
+        "p90": 13.866154567422061,
+        "defined": 1000,
+        "undefined": 0
+       },
+       "8000": {
+        "p10": 6.580546532509713,
+        "median": 7.567991289202225,
+        "p90": 8.510812247005294,
+        "defined": 1000,
+        "undefined": 0
+       }
+      }
+     }
+    },
+    "target": "prevention for completion 0.90 -> 0.95, isolated k=6 bridge, h=0.950 grid target (grid-conditional)"
+   }
+  },
+  "fig_icu": {
+   "inputs": [
+    {
+     "path": "$PROJECT_ROOT/abm/research/full_icu_confirmation_2026-10-08/holdout_report/report.json",
+     "sha256": "7653258323d436c52deb0962f404f7dfd8c37bc8f83e026741927b5b7bf8b6ce",
+     "role": "original-workflow holdout report (512 pairs/profile)"
+    },
+    {
+     "path": "$PROJECT_ROOT/research/robustness_uq_2026-10-17/collection_2026-10-21/execution01/outputs/analysis.json",
+     "sha256": "063c0d95f37661de931d0b433168cdb0e178affe41b5017e7c5eb49aaec5579f",
+     "role": "alternative-workflow cluster analysis (512 pairs/profile)"
+    },
+    {
+     "path": "$PROJECT_ROOT/research/author_notes_2026-10-10/analysis_2026-10-11/bridge_pooled/coefficient_pairs.csv",
+     "sha256": "67f103a98c82d3d79e480885121ebaea714b4ed4bb6aa8737d7444c99cfb7980",
+     "role": "original-workflow p->0 limits (pooled 256 backgrounds)"
+    },
+    {
+     "path": "$PROJECT_ROOT/abm/research/robustness_uq_2026-10-17/verification_2026-10-21/RESULTS.md",
+     "sha256": "635c81679653d50a343257877c5ab0ec284d58ca191419f9320d18c9d8d40bad",
+     "role": "verified alternative-workflow report (values cross-checked)"
+    },
+    {
+     "path": "$PROJECT_ROOT/abm/research/workflow_coefficient_2026-10-21/summary.json",
+     "sha256": "6cd2ff7e768f6ba375e3f5c835af0d3d81dad4de5a86ba32170871476579bad2",
+     "role": "alternative-workflow p->0 limits (primary.paired.<profile>.alternative.limiting_response, 256 shared backgrounds)"
+    }
+   ],
+   "values": {
+    "alternative_workflow_limits": {
+     "path": "$PROJECT_ROOT/abm/research/workflow_coefficient_2026-10-21/summary.json",
+     "n_seeds": 256,
+     "values": {
+      "independent": {
+       "F": 75.18307656646151,
+       "ci95": [
+        75.182678787611,
+        75.18347379067151
+       ],
+       "finite_p_minus_limit_pp": 1.3131922300939323
+      },
+      "clustered": {
+       "F": 53.651518268918366,
+       "ci95": [
+        53.64966328299534,
+        53.65340292286971
+       ],
+       "finite_p_minus_limit_pp": 0.05487190340349457
+      },
+      "imperfect": {
+       "F": 27.986142674933102,
+       "ci95": [
+        27.983354653600962,
+        27.98893669883236
+       ],
+       "finite_p_minus_limit_pp": -0.7293899167191036
+      }
+     },
+     "comparison": "post hoc, descriptive (finite-p results were seen before the coefficient protocol was written)"
+    },
+    "values": {
+     "independent": {
+      "label": "Independent misses",
+      "original": {
+       "p": 0.14327558866543832,
+       "n": 512,
+       "F": 67.57847645038707,
+       "F95": [
+        64.10514621229042,
+        70.81145951923011
+       ],
+       "carriers": 3.134765625,
+       "carriers95": [
+        2.8359375,
+        3.44140625
+       ],
+       "control_rate": 2.828515355558436
+      },
+      "alternative": {
+       "p": 0.16511088524980383,
+       "n": 512,
+       "F": 76.49626879655544,
+       "F95": [
+        74.11776299477782,
+        78.71089465716338
+       ],
+       "carriers": 3.642578125,
+       "carriers95": [
+        3.392578125,
+        3.88671875
+       ],
+       "control_rate": 2.90363131367903
+      },
+      "limit_original": {
+       "F": 75.13188958001933,
+       "ci95": [
+        75.09641502898351,
+        75.16736413105517
+       ],
+       "q2_isolated": 74.99999999999994
+      }
+     },
+     "clustered": {
+      "label": "Clustered misses",
+      "original": {
+       "p": 0.07602158239372622,
+       "n": 512,
+       "F": 55.87144200273529,
+       "F95": [
+        52.07644953256649,
+        59.467060204084255
+       ],
+       "carriers": 2.4609375,
+       "carriers95": [
+        2.208984375,
+        2.716796875
+       ],
+       "control_rate": 2.685686886807541
+      },
+      "alternative": {
+       "p": 0.08063303727017038,
+       "n": 512,
+       "F": 53.70639017232186,
+       "F95": [
+        49.73273235232099,
+        57.48423139452314
+       ],
+       "carriers": 2.30859375,
+       "carriers95": [
+        2.0585449218750007,
+        2.560546875
+       ],
+       "control_rate": 2.621283159254916
+      },
+      "limit_original": {
+       "F": 53.647154016624185,
+       "ci95": [
+        53.64299214711035,
+        53.65131588613803
+       ],
+       "q2_isolated": 52.272727272727224
+      }
+     },
+     "imperfect": {
+      "label": "Imperfect clearing",
+      "original": {
+       "p": 0.07483995991409355,
+       "n": 512,
+       "F": 26.955149023735594,
+       "F95": [
+        21.565936085423644,
+        32.055167770011764
+       ],
+       "carriers": 1.23828125,
+       "carriers95": [
+        0.958984375,
+        1.521484375
+       ],
+       "control_rate": 2.8014439155168085
+      },
+      "alternative": {
+       "p": 0.07614440228050331,
+       "n": 512,
+       "F": 27.256752758214,
+       "F95": [
+        22.247432900760046,
+        31.949033704204844
+       ],
+       "carriers": 1.173828125,
+       "carriers95": [
+        0.92578125,
+        1.421875
+       ],
+       "control_rate": 2.626062754068722
+      },
+      "limit_original": {
+       "F": 27.993873605327813,
+       "ci95": [
+        27.990612344801374,
+        27.99713486585425
+       ],
+       "q2_isolated": 26.530612244897924
+      }
+     }
+    },
+    "definitions": {
+     "original_F": "report.json scenarios[].rate_prevented_fraction (pooled-rate based) with rate_prevented_fraction_uncertainty (95%, 200,000 whole-seed draws)",
+     "alternative_F": "analysis.json scenarios[].F = 1 - policy_rate/control_rate with F95.interval (95%, 20,000 synchronous whole-seed draws)",
+     "carriers": "mean paired count reduction per 56-day observation window (mean_prevented / mean_carriers_prevented) with 95% bootstrap intervals",
+     "limit_original": "coefficient_pairs.csv bank=pooled limiting_response (256 original-workflow p=0 backgrounds); equals summary.json primary.paired.<profile>.original",
+     "limit_alternative": "workflow_coefficient summary.json primary.paired.<profile>.alternative.limiting_response (same 256 backgrounds, alternative workflow rules)",
+     "caveat": "the two workflows' finite-p runs are separate studies with different selected p and fresh seeds; side by side is context only. Finite-p versus limit is descriptive and post hoc."
+    }
+   }
+  },
+  "fig_bridge_schematic": {
+   "inputs": [
+    {
+     "path": "$PROJECT_ROOT/abm/manuscript/manuscript.tex",
+     "sha256": "887e5125332cb4636ca3e8c059d014f3bba540d77c660c0958a4765a9667303e",
+     "role": "eq. (bridge-survival) and the two closed forms drawn in panel c"
+    }
+   ],
+   "values": {
+    "note": "Schematic only. Formulas from manuscript eq. (bridge-survival); q1/q2 values computed in closed form at h=0.90 (rho=0.5 for clustered, e=0.8 for imperfect).",
+    "q_values_h0.90": {
+     "independent": {
+      "q1": 0.1,
+      "q2": 0.010000000000000002
+     },
+     "clustered_rho0.5": {
+      "q1": 0.1,
+      "q2": 0.05500000000000001
+     },
+     "imperfect_e0.8": {
+      "q1": 0.2799999999999999,
+      "q2": 0.07839999999999996
+     }
+    }
+   }
+  }
+ },
+ "palette": {
+  "workflow": {
+   "colors": [
+    "#0072B2",
+    "#D55E00"
+   ],
+   "contrast_on_white": {
+    "#0072B2": 5.19,
+    "#D55E00": 3.87
+   },
+   "pairs": [
+    {
+     "pair": [
+      "#0072B2",
+      "#D55E00"
+     ],
+     "deltaE_oklab_x100": {
+      "normal": 31.2,
+      "protan": 21.9,
+      "deutan": 28.2,
+      "tritan": 30.9
+     },
+     "min_cvd": 21.9
+    }
+   ],
+   "worst_adjacent_cvd_deltaE": 21.9,
+   "worst_adjacent_normal_deltaE": 31.2,
+   "worst_cvd_deltaE": 21.9,
+   "worst_normal_deltaE": 31.2
+  },
+  "information_set": {
+   "colors": [
+    "#555555",
+    "#009E73"
+   ],
+   "contrast_on_white": {
+    "#555555": 7.46,
+    "#009E73": 3.42
+   },
+   "pairs": [
+    {
+     "pair": [
+      "#555555",
+      "#009E73"
+     ],
+     "deltaE_oklab_x100": {
+      "normal": 21.4,
+      "protan": 21.3,
+      "deutan": 17.1,
+      "tritan": 21.2
+     },
+     "min_cvd": 17.1
+    }
+   ],
+   "worst_adjacent_cvd_deltaE": 17.1,
+   "worst_adjacent_normal_deltaE": 21.4,
+   "worst_cvd_deltaE": 17.1,
+   "worst_normal_deltaE": 21.4
+  },
+  "clearing_e_ordinal": {
+   "colors_light_to_dark": [
+    "#8F8AC4",
+    "#6E5DAE",
+    "#523596",
+    "#36096E"
+   ],
+   "oklch": [
+    [
+     0.66,
+     0.086,
+     287.761
+    ],
+    [
+     0.532,
+     0.124,
+     291.241
+    ],
+    [
+     0.419,
+     0.151,
+     292.388
+    ],
+    [
+     0.296,
+     0.151,
+     294.745
+    ]
+   ],
+   "lightness_monotone": true,
+   "min_adjacent_dL": 0.114,
+   "hue_spread_deg": 7.0,
+   "light_end_contrast": 3.18,
+   "pass": true
+  },
+  "note": "Python re-implementation of the dataviz skill checks (Machado et al. 2009 full-severity CVD matrices; OKLab Delta E x100; WCAG contrast); the skill's validate_palette.py gave the same verdicts: workflow pair passes all categorical checks; e ramp passes the ordinal checks (one hue, monotone lightness, adjacent dL >= .06, light end >= 2:1). The information-set pair is deliberate emphasis (neutral grey reference for q1 only, green for q1+q2), so the grey's chroma-floor result does not apply; the pair passes CVD and normal-vision separation. Every series also has its own marker shape or line style."
+ }
+}

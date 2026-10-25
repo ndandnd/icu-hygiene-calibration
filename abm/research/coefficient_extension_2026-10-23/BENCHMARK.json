@@ -1,0 +1,118 @@
+{
+ "benchmark": {
+  "concurrent_benchmark_processes": 2,
+  "mode": "original workflow, kind all: 182 pairs = 364 coefficient arms (6 frozen profile arms + 358 extra arms)",
+  "note": "Shared 12-core (6 performance + 6 efficiency) machine with jobs from other sessions; see load averages. CPU time includes efficiency-core time.",
+  "seed_choice": "first local-site and first cluster-site seed (archived original records) in plan order",
+  "seeds": [
+   {
+    "archived_original_site": "local",
+    "bank": "A",
+    "coefficient_arms": 364,
+    "completed_at_utc": "2026-10-23T06:32:54Z",
+    "cpu_seconds": 685.5084919999999,
+    "frozen_simulate_elapsed_seconds": 778.8677178751677,
+    "gate_counts": {
+     "archived_duplicates_checked": 8,
+     "archived_duplicates_equal": 8,
+     "archived_pairs_equal": 22,
+     "internal_duplicates_checked": 4,
+     "internal_duplicates_equal": 4,
+     "primary_profiles_equal": 3
+    },
+    "gate_passed": true,
+    "load_average_end": [
+     15.90234375,
+     21.306640625,
+     27.98828125
+    ],
+    "load_average_start": [
+     50.47216796875,
+     48.7685546875,
+     38.513671875
+    ],
+    "process_cpu_seconds_total": 687.260288,
+    "record_sha256": "1d58a6ff9cdceb44d7c905a8725aaaca2651d65d025e3830e87a9ca6e15957f7",
+    "seed": 3080160514,
+    "started_at_utc": "2026-10-23T06:19:54Z",
+    "wall_seconds": 779.2111198334023
+   },
+   {
+    "archived_original_site": "cluster",
+    "bank": "A",
+    "coefficient_arms": 364,
+    "completed_at_utc": "2026-10-23T06:32:52Z",
+    "cpu_seconds": 684.57168,
+    "frozen_simulate_elapsed_seconds": 777.3786717914045,
+    "gate_counts": {
+     "archived_duplicates_checked": 8,
+     "archived_duplicates_equal": 8,
+     "archived_pairs_equal": 22,
+     "internal_duplicates_checked": 4,
+     "internal_duplicates_equal": 4,
+     "primary_profiles_equal": 3
+    },
+    "gate_passed": true,
+    "load_average_end": [
+     16.1552734375,
+     21.447265625,
+     28.07666015625
+    ],
+    "load_average_start": [
+     50.47216796875,
+     48.7685546875,
+     38.513671875
+    ],
+    "process_cpu_seconds_total": 686.476164,
+    "record_sha256": "ade211c86c3bbd27314700201a257abb72b2dd3f922cb94f68ccdebf749cd73b",
+    "seed": 4018965857,
+    "started_at_utc": "2026-10-23T06:19:55Z",
+    "wall_seconds": 777.7570972079411
+   }
+  ]
+ },
+ "cap_cpu_hours": 60.0,
+ "decision": {
+  "meaning": "every pair (22 archived + 160 new) on all 256 seeds",
+  "rationale": "projected 48.87 CPU-hours <= cap 60",
+  "surface": "full"
+ },
+ "fallback_plan_for_record": "fine grid on bank A only (128 seeds); everything else on all 256 seeds",
+ "max_concurrent_processes": 10,
+ "projection": {
+  "fallback_plan_cpu_hours_estimate": {
+   "label": "ESTIMATE ONLY, not used for the decision",
+   "method": "bank A 128 x max per-seed CPU (kind all) + bank B 128 x the same x 0.4081, the ratio (a/b + 100)/(a/b + 364) of a linear arm model with a/b = 82.0 arm-equivalents from the prior study",
+   "prior_arm_model": {
+    "forty_four_arm_mean_cpu_seconds": 221.4,
+    "six_arm_mean_cpu_seconds": 154.65,
+    "source": "research/workflow_coefficient_2026-10-21/gate_checks/gate1/*.json"
+   },
+   "value": 34.4088422169106
+  },
+  "max_cpu_seconds_per_seed": 687.260288,
+  "mean_cpu_seconds_per_seed": 686.868226,
+  "mean_wall_seconds_per_seed_under_benchmark_load": 778.4841085206717,
+  "per_seed_cpu_measure": "process_cpu_seconds_total (whole worker process)",
+  "projected_cpu_hours_full_plan_256_max_based": 48.87184270222222,
+  "projected_cpu_hours_full_plan_256_mean_based": 48.84396273777778,
+  "projected_cpu_hours_used_for_decision": 48.87184270222222,
+  "projected_wall_hours_at_10_workers_if_wall_per_seed_unchanged": 5.535886993924777
+ },
+ "rule": "PROTOCOL.md: Benchmark 2 seeds first. Cap: 60 local CPU-hours, at most 10 concurrent processes, run with PYTHONDONTWRITEBYTECODE=1. If the projection is above the cap, apply this fallback, fixed now: the fine grid on bank A only (128 seeds), everything else on all 256.",
+ "schema_version": 1,
+ "sources": {
+  "adapter": "939aabd55a64ce59f1c9111052cdd36b7545fbc848578b48eef1dbb37d2e8c67",
+  "benchmark_py": "beb6ba18a42038efc12688096f5fc83b14e6363d2cb1f68e96eb0d24ced76a4b",
+  "code": {
+   "research/coefficient_extension_2026-10-23/code/adapter.py": "3c1bb0ed9271daac9ed5c286ed7a959181dc0be3af291b85b79985fe33ee7683",
+   "research/coefficient_extension_2026-10-23/code/closed_forms.py": "52387de825d2ec6d1d41ce8a003b6a41441bd7086665368b3a6f063c9972038c",
+   "research/coefficient_extension_2026-10-23/code/gate.py": "a8106e34027d8d555c54b34df23c76fb2c03aa772b18b8276d4ef69dc1412b6a",
+   "research/coefficient_extension_2026-10-23/code/pairs.py": "9a8c6c52aa55f3e78ba5ab0f8648c87fa30af886db4e53259e63ab4ba58fed87",
+   "research/coefficient_extension_2026-10-23/code/run_batch.py": "7ddf272664a1d6fc7a87f73de8e4ecd15c150a3e875cf55b4d731a51d4168a8e"
+  },
+  "records_manifest_identity": "24055ceb3e14bd8875c2a217c89602c9b08e8016a6e7cc9e70b0f7ac391e658a"
+ },
+ "study": "coefficient_extension_2026-10-23",
+ "written_at_utc": "2026-10-23T06:35:20Z"
+}

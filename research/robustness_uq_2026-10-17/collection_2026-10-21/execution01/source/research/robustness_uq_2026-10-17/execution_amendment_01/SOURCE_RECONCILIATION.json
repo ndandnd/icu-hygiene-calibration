@@ -1,0 +1,47 @@
+{
+  "changed_files": {
+    "research/robustness_uq_2026-10-17/analyze.py": {
+      "amended": "2fda7ea711d139cdafba29195abdd762cb1a702c945196574a6650f04b6ab5ac",
+      "original": "c6d6ba804105fe16ce2917d690db481f1ef66d3078901fe0d5c33be8c748df65"
+    },
+    "research/robustness_uq_2026-10-17/launch.py": {
+      "amended": "2ca2c191f32977de80ed1f09fc4cfd9c2318edc7d327e90d0052581bdebbd6de",
+      "original": "62752d9c18ac442283ba0f7195f998b4167e5cf8f76104df5b24c4632868e1d0"
+    },
+    "research/robustness_uq_2026-10-17/test_analysis.py": {
+      "amended": "d4f8641e06c61407b50720f4f583d2a6975433121e396fb2e6f99ce8477c0ec0",
+      "original": "fb7be4af53f1c561226a474f61c168b88e66807d8b0a5dac84edda188e9efe00"
+    },
+    "research/robustness_uq_2026-10-17/test_launch.py": {
+      "amended": "2276feec269cf5ac8d0adbb59a791fa1d396ad32a5cab46ab1ae2203cda28747",
+      "original": "a7b9052e48e8797047527a6f744a9b9145ab48c8b84f020c2fc8b38e20dbd43e"
+    },
+    "research/robustness_uq_2026-10-17/worker.py": {
+      "amended": "eed022b3b3c69d7b3e10f6a614acf64e81257c46690cdfc1904c8f606ea46caf",
+      "original": "f64ffc3595ae5a2796bffad5bdd06c250cb02184243119f3673476698a27f5b8"
+    }
+  },
+  "extra_probe_allocation_seconds": 300,
+  "full_scientific_record_pair_ceiling": 3072,
+  "maximum_allocated_cpu_seconds": 2769000,
+  "original_freeze_identity": "0cb0393447a6096fdaaa860e24727450e40e85fd445658decb493d0ffe86c469",
+  "replacement_probe_limit": 1,
+  "scientific_records_before_repair": 0,
+  "unchanged_scientific_analysis_ast_sha256": {
+    "analyze_bank": "f4797db17fba3aab5f93b687f09e76c8971e4b2d3b609e4942b37fd8c597fca7",
+    "bootstrap_totals": "94417444ce37fa6fe0144a9c9c17bac106156cbefbb791fe7f78958aa97834ec",
+    "choose": "f783bf6d470a338940f53a787315234d000a2fd77d3ea916eb18233de819620f",
+    "estimates": "2adaf97e20b3fa55fe312f06f5051d07df2c0d6ec18afece53ccfc0cabcf1fdb",
+    "finite": "d965784c0f0d41bbe012cd62bca785d18a91fa5d292dfeb07a43867df4685188",
+    "interval": "7ff9b8fc987ea94cff7a79b5a341bb42a213fa2079a43f3d0cd687d6a06dca5d",
+    "jobs_for": "0bd4a932fe325c33a8de6f3c764f0de529610343e943fc08174148009ddef2e5",
+    "profile": "c0b23674a5733e277daf6f11cdfd93155fce445b22d714cdaf4bd49da715c6bf",
+    "reconcile": "f8adaf846d40e95329c3b44eae7cec812651b8b8210c219f274323a65a268869",
+    "select": "e8cc2bc83eceae79304f7a46a60d881fcdd5f1bab603d2a7cc3eae045dd508bc",
+    "select_values": "f38dfdb42f5d7a8bb710f065dd12f4c30ec1e6b515773e847262355733a02f80",
+    "summarize_values": "606b52f0a69d2935e3823115511ea10cc78e19b4f4388df6057fb2c28b3188e4",
+    "validate_config": "59c776d46b67316f034597086b7a45e66151a22ea692b7e4723ba0e0bf1dd4c9",
+    "validate_records": "6b56f3142ea5e4f4bb4ecb6a713744f3c968d418fc79e82aadf9db9cbdb66df0",
+    "validate_software": "01f68780238f6e6f3ebd2046289ba62c6d63553bd971e1e83573cef1f573bcf4"
+  }
+}

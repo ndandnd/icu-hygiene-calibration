@@ -1,0 +1,29 @@
+\paragraph{Result.} Under the two local estimators, each observed shortfall moves
+$F$ by at most 0.52 percentage points, with joint 95\% intervals inside
+$[\mn2.13, 2.13]$; the largest point bias under any estimator tried is 0.98
+points (alternative clustered, low-to-center slope). For comparison, the
+conditional Monte Carlo half-widths of $F$ are 2.30 to 5.24 percentage points and
+the prespecified contrasts are 11.7 to 49.2 points. Estimated point contrast biases are at most
+0.89 points (joint intervals inside $[\mn2.34, 3.27]$), and all six adjusted
+contrasts still exclude zero at 98.333\%. The direction is not resolved: every
+slope interval, for every profile and estimator, includes zero, and the point
+slopes differ in sign between profiles. These estimates depend on local
+linearity and the slope-transfer assumption below; they do not bound
+interpolation error or establish whether matched baselines would raise or lower $F$.
+The adjusted values are post hoc and descriptive and do not turn any failed check
+into a pass. They adjust the 512-seed holdout $F$, so they differ from the
+common-baseline $F_{\mathrm{cb}}$ by the seed-sample difference (256-seed center $F$ 66.3,
+55.3 and 29.8\% against holdout $F$ 67.6, 55.9 and 27.0\% at the same $p$).
+
+\paragraph{Assumptions.} (i) $F$ is locally linear in $\ln B$ between the
+observed baseline and 3.0; only three paired points exist per profile and
+curvature is unresolved. (ii) Moving $p$ is the relevant way to reach 3.0; a
+baseline difference from other causes (seeds, workflow rules, admission mix)
+need not carry the same change in $F$. (iii) For the alternative workflow the
+original-workflow slopes are transferred; no alternative-workflow
+$p$-sensitivity bank exists, and the alternative grid can check only $\gamma$.
+(iv) Intervals are Monte Carlo only and exclude interpolation-model, structural
+and clinical-input uncertainty. The environmental-comparison points lie on a
+separate 512-seed bank with baselines 0.40 to 2.29 and serve only as secondary
+slopes.
+

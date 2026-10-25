@@ -1,0 +1,277 @@
+{
+  "actual_policy_result_review": false,
+  "actual_selection_review": true,
+  "arithmetic_comparator": {
+    "abs_tol": 5e-12,
+    "rel_tol": 5e-12,
+    "scope": "Independent arithmetic floating leaves only; original producer three-output exact byte gate unchanged."
+  },
+  "auditor_sha256": "b9a59bd6ca7e33763c637515cd630fc54b81e4f9ef990b1849bd52fce393b584",
+  "bootstrap_draws": 50000,
+  "bootstrap_seed": 20261011,
+  "chunk_size": 500,
+  "compared_floating_differences": [
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "root.clustered.banks.A.increasing_brackets[0].rate_high"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "root.clustered.banks.A.increasing_brackets[0].rate_low"
+    },
+    {
+      "absolute_difference": 2.9103830456733704e-11,
+      "path": "root.clustered.grid_points[0].patient_days_total"
+    },
+    {
+      "absolute_difference": 5.551115123125783e-17,
+      "path": "root.clustered.grid_points[0].rate"
+    },
+    {
+      "absolute_difference": 1.1641532182693481e-10,
+      "path": "root.clustered.grid_points[1].patient_days_total"
+    },
+    {
+      "absolute_difference": 3.3306690738754696e-16,
+      "path": "root.clustered.grid_points[1].rate"
+    },
+    {
+      "absolute_difference": 5.820766091346741e-11,
+      "path": "root.clustered.grid_points[2].patient_days_total"
+    },
+    {
+      "absolute_difference": 3.3306690738754696e-16,
+      "path": "root.clustered.grid_points[2].rate"
+    },
+    {
+      "absolute_difference": 5.820766091346741e-11,
+      "path": "root.clustered.grid_points[3].patient_days_total"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "root.clustered.grid_points[3].rate"
+    },
+    {
+      "absolute_difference": 5.820766091346741e-11,
+      "path": "root.clustered.grid_points[4].patient_days_total"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "root.clustered.grid_points[4].rate"
+    },
+    {
+      "absolute_difference": 2.9103830456733704e-11,
+      "path": "root.clustered.grid_points[6].patient_days_total"
+    },
+    {
+      "absolute_difference": 2.9103830456733704e-11,
+      "path": "root.clustered.grid_points[7].patient_days_total"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "root.clustered.grid_points[7].rate"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "root.clustered.increasing_brackets[0].rate_low"
+    },
+    {
+      "absolute_difference": 8.881784197001252e-16,
+      "path": "root.imperfect.banks.A.increasing_brackets[0].rate_high"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "root.imperfect.banks.A.increasing_brackets[0].rate_low"
+    },
+    {
+      "absolute_difference": 8.881784197001252e-16,
+      "path": "root.imperfect.banks.B.increasing_brackets[0].rate_high"
+    },
+    {
+      "absolute_difference": 1.3322676295501878e-15,
+      "path": "root.imperfect.banks.B.increasing_brackets[0].rate_low"
+    },
+    {
+      "absolute_difference": 5.551115123125783e-17,
+      "path": "root.imperfect.banks.B.increasing_brackets[0].selected_p"
+    },
+    {
+      "absolute_difference": 5.551115123125783e-17,
+      "path": "root.imperfect.banks.B.selected_p"
+    },
+    {
+      "absolute_difference": 1.1641532182693481e-10,
+      "path": "root.imperfect.grid_points[1].patient_days_total"
+    },
+    {
+      "absolute_difference": 1.1102230246251565e-15,
+      "path": "root.imperfect.grid_points[1].rate"
+    },
+    {
+      "absolute_difference": 2.9103830456733704e-11,
+      "path": "root.imperfect.grid_points[2].patient_days_total"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "root.imperfect.grid_points[2].rate"
+    },
+    {
+      "absolute_difference": 2.9103830456733704e-11,
+      "path": "root.imperfect.grid_points[5].patient_days_total"
+    },
+    {
+      "absolute_difference": 8.881784197001252e-16,
+      "path": "root.imperfect.grid_points[5].rate"
+    },
+    {
+      "absolute_difference": 8.731149137020111e-11,
+      "path": "root.imperfect.grid_points[6].patient_days_total"
+    },
+    {
+      "absolute_difference": 2.6645352591003757e-15,
+      "path": "root.imperfect.grid_points[6].rate"
+    },
+    {
+      "absolute_difference": 2.9103830456733704e-11,
+      "path": "root.imperfect.grid_points[7].patient_days_total"
+    },
+    {
+      "absolute_difference": 1.7763568394002505e-15,
+      "path": "root.imperfect.grid_points[7].rate"
+    }
+  ],
+  "complete_omitted_field_inventory_sha256": "1b315a25f95f86366a7e0c4c990afec12cfc1e2b08c77d8e69344e359166f356",
+  "complete_omitted_pointer_inventory_sha256": "c11a263d987c1e84ccc2f3446264c9db9317ac03a5e62c6c1f2a73888a20d7b9",
+  "conditions": 19,
+  "evidence_scope": "Fresh complete-grid independent baseline-selection arithmetic and exact source/input/output/runtime closure only.",
+  "identity_sha256": "8d0dd8f2021278336ef78ce9f7b443c5d7ef41f43f5cec0d9828223ddd181b25",
+  "independent_uncertainty_review": true,
+  "kind": "public_selector_scientific_acceptance_projection",
+  "limitations": [
+    "Clustered selection had one failed resample: its unconditional 95% interval remains unavailable; its finite displayed interval is conditional on valid selection.",
+    "The independent arithmetic comparator permits relative or absolute error 5e-12 only for computed floats; frozen design constants and producer output byte equality remain exact.",
+    "No selected-policy record, policy effect, final six-contrast report, clinical validity, target matching or whole-study scientific acceptance is included."
+  ],
+  "numerical_review_identity": "37b2d52cdf12a4c87f028d1a5d246eab2bf79d36904fa737116ef98a6280ae3c",
+  "numerical_review_sha256": "b752a46d21ac315971b2222aef288aec24c4b9fd603250bf83b1562d3b90d644",
+  "omission_pointer_scope": "Named pointers remove the entire original field value. Whole-map pointers remove every nested member name and value. Sensitive control field/pointer names are represented only by hashes; exhaustive original accounting is preserved privately.",
+  "omitted_entire_map_entry_counts": {
+    "actual_thread_limits": 3,
+    "external_pins": 10,
+    "files_sha256": 24
+  },
+  "omitted_original_field_name_sha256": [],
+  "omitted_original_fields": [
+    "actual_imported_numpy_release",
+    "actual_niceness",
+    "actual_python_full",
+    "actual_runtime_pre_post_stable",
+    "actual_thread_limits",
+    "created_at_utc",
+    "execution_receipt_identity",
+    "execution_receipt_sha256",
+    "external_pins",
+    "files_sha256",
+    "identity_sha256",
+    "kind",
+    "producer_execution_receipt_sha256",
+    "request_sha256",
+    "schema_version",
+    "transfer_receipt_sha256"
+  ],
+  "omitted_original_json_pointers": [
+    "/actual_imported_numpy_release",
+    "/actual_niceness",
+    "/actual_python_full",
+    "/actual_runtime_pre_post_stable",
+    "/actual_thread_limits",
+    "/created_at_utc",
+    "/execution_receipt_identity",
+    "/execution_receipt_sha256",
+    "/external_pins",
+    "/files_sha256",
+    "/identity_sha256",
+    "/kind",
+    "/producer_execution_receipt_sha256",
+    "/request_sha256",
+    "/schema_version",
+    "/transfer_receipt_sha256"
+  ],
+  "omitted_sensitive_pointer_sha256": [],
+  "original_receipt_identity": "f59cd1db47e7ff4be6367557985942ea833fdb3d46338ba135ac0bacf8655aa5",
+  "original_receipt_kind": "complete_grid_selector_arithmetic_acceptance",
+  "original_receipt_sha256": "65676c46e371a1b6779026fa97030e26bbad3c96267a1cb0db1e19d371b4fb22",
+  "original_selector_full_runtime_recorded": false,
+  "original_top_level_field_count": 39,
+  "parent_freeze_identity": "7661d846c9665ab7a7aea0c562939c25eee9818891d14f2e6874ced4a46bad81",
+  "producer_exact_output_sha256": {
+    "research/rule_surface_followup_2026-10-11/clock_policy_freeze.json": "3536caaacd3cfec7e96c0490268b61fcd854d13770618870f3877ae76dbc75bc",
+    "research/rule_surface_followup_2026-10-11/configs/clock_policy.json": "bc11b3d55a650108722e1024d86f78cfec2d6259916e6cfcd5b662ca95d5e65b",
+    "research/rule_surface_followup_2026-10-11/selection.json": "13ecd228596a82994e1ae859d4c6bead6d0c275be54c23d02e41cb5ceddf7705"
+  },
+  "projection_notice": "Scientific fields copied exactly from the sealed original acceptance. Entire operational/control/runtime maps and fields are omitted as declared; the original private receipt remains unchanged. This is a projection, not the original receipt or a broader acceptance.",
+  "records": 2432,
+  "retained_original_fields": [
+    "actual_policy_result_review",
+    "actual_selection_review",
+    "arithmetic_comparator",
+    "auditor_sha256",
+    "bootstrap_draws",
+    "bootstrap_seed",
+    "chunk_size",
+    "compared_floating_differences",
+    "conditions",
+    "evidence_scope",
+    "independent_uncertainty_review",
+    "limitations",
+    "numerical_review_identity",
+    "numerical_review_sha256",
+    "original_selector_full_runtime_recorded",
+    "parent_freeze_identity",
+    "producer_exact_output_sha256",
+    "records",
+    "seeds",
+    "selected_profile_summaries",
+    "static_review_sha256",
+    "status",
+    "weight_stream_sha256_int64LE"
+  ],
+  "schema_version": 1,
+  "seeds": 128,
+  "selected_profile_summaries": {
+    "clustered": {
+      "conditional_on_valid_selection95": [
+        0.2743650631970731,
+        0.288086372153259
+      ],
+      "failed_draws": 1,
+      "selected_p": 0.2829153553685213,
+      "selection_method": "lowest_increasing_adjacent_bracket",
+      "unconditional95": {
+        "interval": null,
+        "level": 0.95,
+        "undefined_draws": 1
+      }
+    },
+    "imperfect": {
+      "conditional_on_valid_selection95": [
+        0.3364294541236494,
+        0.3523992182971232
+      ],
+      "failed_draws": 0,
+      "selected_p": 0.3445533851034387,
+      "selection_method": "lowest_increasing_adjacent_bracket",
+      "unconditional95": {
+        "interval": [
+          0.3364294541236494,
+          0.3523992182971232
+        ],
+        "level": 0.95,
+        "undefined_draws": 0
+      }
+    }
+  },
+  "static_review_sha256": "3a04f41d0d180f9a806fd6432dd91c9fce4363e03c31b299a2ddd885446fa148",
+  "status": "pass",
+  "weight_stream_sha256_int64LE": "5ccc203ed4937d73d41ee35c34b757932f27bb51b501d7e1fffb0723976c5195"
+}

@@ -1,0 +1,48 @@
+{
+  "baseline_selection": {
+    "exact_hit_priority": true,
+    "interpolate_p_against_pooled_rate": true,
+    "lowest_increasing_adjacent_bracket": true,
+    "no_fallback": true,
+    "no_grid_extension": true,
+    "policy_outcomes_never_select_p": true
+  },
+  "bootstrap_draws": 50000,
+  "bootstrap_seed": 20261011,
+  "interval_levels": {
+    "descriptive": 0.95,
+    "primary_six_contrast_family": 0.9916666666666667
+  },
+  "missing_primary_contrast_preserves_family_size": true,
+  "old_holdout_config_sha256": "a99ea9789122a91622fe84ea04fd50558f669a68201c2f5245b656f19933680f",
+  "old_holdout_seedbook_sha256": "e06e42ae1f80739330a8d1df540453013be4da2679adb0f4515776d17cf3eabd",
+  "old_matching_failures_are_unchanged": true,
+  "old_resampling_strata": [
+    "A_core128",
+    "A_remainder128",
+    "B_core128",
+    "B_remainder128"
+  ],
+  "planned_jobs": {
+    "clock_boundary": 512,
+    "clock_grid": 2432,
+    "clock_policy_maximum": 1024,
+    "independent_upper": 256,
+    "surfaces_off": 1536
+  },
+  "primary_contrasts": [
+    "clock_minus_zone_clustered_F",
+    "clock_minus_zone_imperfect_F",
+    "surfaces_off_minus_full_independent_F",
+    "surfaces_off_minus_full_persistent_F",
+    "surfaces_off_minus_full_imperfect_F",
+    "upper_minus_center_independent_F"
+  ],
+  "schema_version": 1,
+  "study": "rule_surface_followup_2026-10-11",
+  "target": 3.0,
+  "target_band": [
+    2.7,
+    3.3
+  ]
+}

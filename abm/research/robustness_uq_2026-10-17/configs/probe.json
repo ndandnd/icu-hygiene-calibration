@@ -1,0 +1,47 @@
+{
+  "block_days": 1,
+  "description": "Combined vacancy cleaning and empty-bed-only isolation; separately frozen robustness study.",
+  "model_overrides": {
+    "initial_environment_contaminated": false,
+    "prob_patient_sick": 0.03
+  },
+  "observation_days": 1,
+  "scenarios": [
+    {
+      "e": 1.0,
+      "environment_multiplier": 1.0,
+      "h0": 0.9,
+      "h1": 0.95,
+      "id": "independent",
+      "opportunities": "zone_separate",
+      "p": 0.14327558866543832,
+      "rho": 0.0
+    },
+    {
+      "e": 1.0,
+      "environment_multiplier": 1.0,
+      "h0": 0.9,
+      "h1": 0.95,
+      "id": "clustered",
+      "opportunities": "zone_separate",
+      "p": 0.07602158239372622,
+      "rho": 0.5
+    },
+    {
+      "e": 0.8,
+      "environment_multiplier": 1.0,
+      "h0": 0.9,
+      "h1": 0.95,
+      "id": "imperfect",
+      "opportunities": "zone_separate",
+      "p": 0.07483995991409355,
+      "rho": 0.0
+    }
+  ],
+  "seeds": [
+    2641613355,
+    1722560067,
+    25171093
+  ],
+  "warmup_days": 1
+}

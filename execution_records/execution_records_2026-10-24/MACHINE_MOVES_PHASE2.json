@@ -1,0 +1,266 @@
+{
+  "phase": "second narrative pass",
+  "before_source": "repository_records/execution_records_2026-10-24/phase2/supplement_phase1.tex",
+  "before_sha256": "4a63108c401363fa973b6fba507b19c207481828f65c94581a5868e9df9757bf",
+  "after_sha256": "49005d805e91a721d4497d8e34c2502f1ec90828cfbb46f1f45402cf66195a07",
+  "moves": [
+    {
+      "id": "navigation",
+      "phase1_start_line": 69,
+      "phase1_end_line": 73,
+      "archive": "repository_records/execution_records_2026-10-24/phase2/navigation.tex",
+      "old_sha256": "1e8b84a40ee6f35c2845be1198c80899fbc491630e7911b2740b400f5b5c5127",
+      "new_sha256": "669625b628fbac144a77c35b711693a73d24d7e758ef6b77e842fbd3c5d93b3a",
+      "characters_removed": -843
+    },
+    {
+      "id": "model_structure",
+      "phase1_start_line": 75,
+      "phase1_end_line": 94,
+      "archive": "repository_records/execution_records_2026-10-24/phase2/model_structure.tex",
+      "old_sha256": "d6c83513b4436a48f7872363022ad37635a7799e2af57086bc5dd9ea46d913e4",
+      "new_sha256": "c423e1771caaab08a0b391731be87556dcde806e4bc12fc3004855d06c3ff1da",
+      "characters_removed": 561
+    },
+    {
+      "id": "contact_introduction",
+      "phase1_start_line": 113,
+      "phase1_end_line": 116,
+      "archive": "repository_records/execution_records_2026-10-24/phase2/contact_introduction.tex",
+      "old_sha256": "98354e1bd7bf32381e2c2bdd8196fcc2395141e5e1167584d49fd47365f20429",
+      "new_sha256": "83105f6954d1d24c4492010918e70b1b8c9a56b444011cb3bd98f07af59688e5",
+      "characters_removed": 78
+    },
+    {
+      "id": "paired_design",
+      "phase1_start_line": 170,
+      "phase1_end_line": 183,
+      "archive": "repository_records/execution_records_2026-10-24/phase2/paired_design.tex",
+      "old_sha256": "1b4e73281fcd2cd69dff7b1cc9b5a43ee231294d38f2e977c007eb18a7e68490",
+      "new_sha256": "74cef1c66cfecf138c04778aa981457c4929fa6b4a53cf7c03fe57ee08e7684b",
+      "characters_removed": 253
+    },
+    {
+      "id": "profile_definitions",
+      "phase1_start_line": 235,
+      "phase1_end_line": 246,
+      "archive": "repository_records/execution_records_2026-10-24/phase2/profile_definitions.tex",
+      "old_sha256": "281670c91b7475e471667e09f787a2d1c0c7152d3fd61230260fddc0d658284c",
+      "new_sha256": "407066df6a5dc4f0a1dc29447ca5e13a9d60ebfbbb2d8d1b00e3e547a9b6e5f2",
+      "characters_removed": 304
+    },
+    {
+      "id": "opportunity_accounting",
+      "phase1_start_line": 257,
+      "phase1_end_line": 313,
+      "archive": "repository_records/execution_records_2026-10-24/phase2/opportunity_accounting.tex",
+      "old_sha256": "98096a3416493caa2129c8a88f46d164e7d30b5053bf76fd7e45d8d3625267d5",
+      "new_sha256": "13e6c437fdc02a5bed0014a29ffe7ef6b3c1e831d94eac0aa80644d4a06188da",
+      "characters_removed": 1959
+    },
+    {
+      "id": "coefficient_method",
+      "phase1_start_line": 846,
+      "phase1_end_line": 881,
+      "archive": "repository_records/execution_records_2026-10-24/phase2/coefficient_method.tex",
+      "old_sha256": "39a5d8cb9128fcefa0d50e1225183b2f682af7f076b7ad496b607ffa840df434",
+      "new_sha256": "86672c04317fdebc511165ab0c9b9d90a68b7de23e157c06eaf56eb0fcaf75ea",
+      "characters_removed": 994
+    },
+    {
+      "id": "surface_results",
+      "phase1_start_line": 922,
+      "phase1_end_line": 984,
+      "archive": "repository_records/execution_records_2026-10-24/phase2/surface_results.tex",
+      "old_sha256": "f922a3f559de28a0f61a42644ad98e1361f714941978ab2051af7b658f3d2bc7",
+      "new_sha256": "2ad7feff2963de5988ea366f32d47fb52daef0b839955beec101c49d4ff98528",
+      "characters_removed": 2181
+    },
+    {
+      "id": "coefficient_interpretation",
+      "phase1_start_line": 1162,
+      "phase1_end_line": 1175,
+      "archive": "repository_records/execution_records_2026-10-24/phase2/coefficient_interpretation.tex",
+      "old_sha256": "fc88dc1115e645a35dafad8d4a72792ce0efe33f5ae4c6691508e37aca3381f8",
+      "new_sha256": "3b566215fcba76bddff0242b889b77039b35c59e0359f0c825b5a304eed0fdb9",
+      "characters_removed": 457
+    },
+    {
+      "id": "finite_probability_comparison",
+      "phase1_start_line": 1132,
+      "phase1_end_line": 1152,
+      "archive": "repository_records/execution_records_2026-10-24/phase2/finite_probability_comparison.tex",
+      "old_sha256": "f1642de233c4433dae9287c7a3c9b109364806c18da1b97792d73ff18f787d6c",
+      "new_sha256": "c0bd411cc2ef078f6eba57ea11ad8cfd6291b25c5917e5df93ed37dd206adb60",
+      "characters_removed": 605
+    },
+    {
+      "id": "transition_policy",
+      "phase1_start_line": 1281,
+      "phase1_end_line": 1310,
+      "archive": "repository_records/execution_records_2026-10-24/phase2/transition_policy.tex",
+      "old_sha256": "7dbc9187137edc81eb2509cecd43c8233a805986e0972d0edbcb71ed7f1f308b",
+      "new_sha256": "c9fc770bac4f750fdd88a067a8b7e9f6d659ec7e4a73836f030081ea552a9483",
+      "characters_removed": 939
+    },
+    {
+      "id": "bias_method",
+      "phase1_start_line": 1461,
+      "phase1_end_line": 1482,
+      "archive": "repository_records/execution_records_2026-10-24/phase2/bias_method.tex",
+      "old_sha256": "a95e9dd4cd74513b83f9b40cdff48bec620f4c7d47518b9d499b2d4cec73a84d",
+      "new_sha256": "5291c62b521c9da87c887935ce0cc63beeb9d07c93b2b3c770616d24e0fc7eff",
+      "characters_removed": 633
+    },
+    {
+      "id": "bias_results",
+      "phase1_start_line": 1540,
+      "phase1_end_line": 1569,
+      "archive": "repository_records/execution_records_2026-10-24/phase2/bias_results.tex",
+      "old_sha256": "5cbe450759b2686b7ea2f2ae24227c787617b4e5a8f25e51f009d4853f5a999e",
+      "new_sha256": "4b055d3c0a7be62a7b50dffe7a93e7a155f54c1c81c1836740e71a3b2d13db37",
+      "characters_removed": 757
+    },
+    {
+      "id": "alternative_results",
+      "phase1_start_line": 1762,
+      "phase1_end_line": 1785,
+      "archive": "repository_records/execution_records_2026-10-24/phase2/alternative_results.tex",
+      "old_sha256": "c9b188100c2590efb3a259806c48673da8bff556abda5fe86f2a451470bb0ada",
+      "new_sha256": "5fec71870625182fa8d09b356e1bc2e5662c138c8f63a7ba5066541e9096bc21",
+      "characters_removed": 535
+    },
+    {
+      "id": "face_validity",
+      "phase1_start_line": 1800,
+      "phase1_end_line": 1814,
+      "archive": "repository_records/execution_records_2026-10-24/phase2/face_validity.tex",
+      "old_sha256": "666274da2ffe65272f6c92186041c2ab4d003ed74ec981c403098412adac65e3",
+      "new_sha256": "138cc204cc2fdc68df8c3182edb4e4585f9685212784061df147a14a459b7b6c",
+      "characters_removed": 293
+    },
+    {
+      "id": "route_interpretation",
+      "phase1_start_line": 1906,
+      "phase1_end_line": 1958,
+      "archive": "repository_records/execution_records_2026-10-24/phase2/route_interpretation.tex",
+      "old_sha256": "70cc854dd2953f2c5d701c9492edbf1d79d7b9d01ed5ea449e96e54ec3e5a3bf",
+      "new_sha256": "88bb692eb3b5d90ce23c7027b3119dbdf6673b90dc55e222e8fb1fa97e10e7a1",
+      "characters_removed": 1533
+    },
+    {
+      "id": "source_status",
+      "phase1_start_line": 1958,
+      "phase1_end_line": 1977,
+      "archive": "repository_records/execution_records_2026-10-24/phase2/source_status.tex",
+      "old_sha256": "575f031ab62bcb79c5b750e6e64aa27ecbd874aa96e3377cdbd9d8252c0e37b8",
+      "new_sha256": "610c05ab51aab675d95656f74cca4955f3ffb09046fe0ab558315b39acaa7e8b",
+      "characters_removed": 483
+    },
+    {
+      "id": "surface_disabled_results",
+      "phase1_start_line": 2057,
+      "phase1_end_line": 2077,
+      "archive": "repository_records/execution_records_2026-10-24/phase2/surface_disabled_results.tex",
+      "old_sha256": "7cbdbe160d7549cfd206cb16cf3b346f3dd1819c6845499b68958889cfc58f1a",
+      "new_sha256": "51cb31f0740840ac47316b57e377b5ab095000816f6a3c912f7f641e87377ae2",
+      "characters_removed": 538
+    },
+    {
+      "id": "stability_halves",
+      "phase1_start_line": 2570,
+      "phase1_end_line": 2584,
+      "archive": "repository_records/execution_records_2026-10-24/phase2/stability_halves.tex",
+      "old_sha256": "95996988850018af4c1fd8325f952e648da8cf5e20a6121a7e9caf7c205b9a64",
+      "new_sha256": "60221c6dadaa4dbcd7a91db9f6239bf7e267ea4fa4a8e78e7e27d1652f4c2646",
+      "characters_removed": 479
+    },
+    {
+      "id": "extension_crossing",
+      "phase1_start_line": 1219,
+      "phase1_end_line": 1245,
+      "archive": "repository_records/execution_records_2026-10-24/phase2/extension_crossing.tex",
+      "old_sha256": "6cff447e052c69d33ab331efe409822b45c7708f5ced13d868d16c4f27e32fd5",
+      "new_sha256": "3f9b876f5f5da2724462dff88d0fda07dab4f479a0a4aff06eef52757fd2290a",
+      "characters_removed": 692
+    },
+    {
+      "id": "measurement_design",
+      "phase1_start_line": 2351,
+      "phase1_end_line": 2378,
+      "archive": "repository_records/execution_records_2026-10-24/phase2/measurement_design.tex",
+      "old_sha256": "65f9550a0399bbc6603f0ed0050b3b86e4061ec15db346c0ae5f00c68a9a2f94",
+      "new_sha256": "6ddeaf858528b2c412e1d4e0444d9f573598313c7b0a9eb0045a584995587407",
+      "characters_removed": 833
+    },
+    {
+      "id": "measurement_confidence_sets",
+      "phase1_start_line": 2378,
+      "phase1_end_line": 2390,
+      "archive": "repository_records/execution_records_2026-10-24/phase2/measurement_confidence_sets.tex",
+      "old_sha256": "525ba4ec0b4dee6045e51ad35991e2e115b39415a56f74ace644ac3e9283258b",
+      "new_sha256": "6ed820dccd2c5d855ba69941d2e3dd1cc10c14a97de76c17c926d0b145b7a2e2",
+      "characters_removed": 227
+    },
+    {
+      "id": "continuous_measurement_solver",
+      "phase1_start_line": 2411,
+      "phase1_end_line": 2430,
+      "archive": "repository_records/execution_records_2026-10-24/phase2/continuous_measurement_solver.tex",
+      "old_sha256": "e4049b8ca665f83ebd00bb5cbc7ca7feaf27a3493acef690c3fd39540dc32e4b",
+      "new_sha256": "b3ab5941bec1b4512b45023b264528fa2581b42a0ce3ca7068fe39dfd3ecde14",
+      "characters_removed": 344
+    },
+    {
+      "id": "continuous_measurement_results",
+      "phase1_start_line": 2449,
+      "phase1_end_line": 2460,
+      "archive": "repository_records/execution_records_2026-10-24/phase2/continuous_measurement_results.tex",
+      "old_sha256": "95a02876b25c398f78a9505abc6aa5328f9e0a1261500da53602ffb9cf5126ca",
+      "new_sha256": "6450bcc5396b6cd9db53c4d6984c7cf5f851c5056f4550dd94eabadc366c9c81",
+      "characters_removed": 225
+    },
+    {
+      "id": "icu_measurement_projection",
+      "phase1_start_line": 2507,
+      "phase1_end_line": 2538,
+      "archive": "repository_records/execution_records_2026-10-24/phase2/icu_measurement_projection.tex",
+      "old_sha256": "38c4e77fb55dbea0efe6e537dd1e157a67fcb236c070f23433ce56587f94745d",
+      "new_sha256": "2f26fb205a707627fd531acc62890e615d334cd1e93ac35be279415e36b12c7f",
+      "characters_removed": 821
+    },
+    {
+      "id": "measurement_verification_limits",
+      "phase1_start_line": 2547,
+      "phase1_end_line": 2565,
+      "archive": "repository_records/execution_records_2026-10-24/phase2/measurement_verification_limits.tex",
+      "old_sha256": "7254a2eb3894e19252ad428c65967320b71e1e2f494fc313b441d0a910ef16f9",
+      "new_sha256": "51b70865bce3127500f58b56b53d9b179197fbeaf16546e1f957b9cbd715d73b",
+      "characters_removed": 334
+    },
+    {
+      "id": "clock_followup_results",
+      "phase1_start_line": 2273,
+      "phase1_end_line": 2291,
+      "archive": "repository_records/execution_records_2026-10-24/phase2/clock_followup_results.tex",
+      "old_sha256": "0bfe4b0681ea296e503f79b7ce817aed27fc4f2ce78983ab40008eb05e872f05",
+      "new_sha256": "2485f34badbef03e97a8d9f2c88a310278eed82b3fced7bf95a89165fd011389",
+      "characters_removed": 579
+    },
+    {
+      "id": "opportunity_intensity",
+      "phase1_start_line": 2320,
+      "phase1_end_line": 2332,
+      "archive": "repository_records/execution_records_2026-10-24/phase2/opportunity_intensity.tex",
+      "old_sha256": "70e614940d7d89bb2a695f4a8a099a77084951348dc828f656f714d0e47fc6e3",
+      "new_sha256": "24e3468c50468f24df690a99278f7bfa4dafdff1ad9b63c2b250ceb5f591baf0",
+      "characters_removed": 367
+    }
+  ],
+  "metadata": "User-confirmed title, author affiliation/correspondence and Online Resource subtitle added in final phase-2 pass; exact complete change is in phase2.diff.",
+  "topical_cleanup": {
+    "before_source": "repository_records/execution_records_2026-10-24/phase2/supplement_before_topical_cleanup.tex",
+    "before_sha256": "0db6828b955ebcc11fc342e845602111d3ed752b92eb49c311ca9d8518c9cc29",
+    "description": "Replaced administrative chronology map and duplicated navigation by a single linked topical contents table; removed reader-facing calendar dates and internal round labels; retained seed IDs, dated archive paths, protocol-precedence and benchmark-exposure caveats."
+  }
+}

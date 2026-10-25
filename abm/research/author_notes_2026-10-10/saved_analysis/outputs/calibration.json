@@ -1,0 +1,147 @@
+{
+  "analysis_freeze_identity": "9ef86ef81700b85788e42e7184e84110b769f8e631e7b5660555563f4c4ce525",
+  "bootstrap_draws": 50000,
+  "bootstrap_seed": 20261010,
+  "cohorts": {
+    "A": {
+      "conditional_selected_p_uncertainty": {
+        "bootstrap_draws": 49260,
+        "conditional_on_defined_draws": false,
+        "conditional_on_valid_exact_hit_or_bracket": true,
+        "interval95": [
+          0.13739277155710478,
+          0.15083792613820426
+        ],
+        "interval_unavailable_if_any_draw_undefined": true,
+        "undefined_bootstrap_draws": 0
+      },
+      "exact_hit_draws": 0,
+      "fallback_inclusive_selected_p_uncertainty": {
+        "bootstrap_draws": 50000,
+        "conditional_on_defined_draws": false,
+        "interval95": [
+          0.13741363999116196,
+          0.15082595136416438
+        ],
+        "interval_unavailable_if_any_draw_undefined": true,
+        "undefined_bootstrap_draws": 0
+      },
+      "n_seeds": 64,
+      "no_increasing_bracket_draws": 740,
+      "no_valid_hit_or_bracket_draws": 740,
+      "no_valid_hit_or_bracket_frequency": 0.0148,
+      "nonmonotone_draws": 200,
+      "p_grid": [
+        0.13496571354322734,
+        0.15,
+        0.165
+      ],
+      "point_baseline_rates": [
+        2.505975676880152,
+        3.4293793790629987,
+        4.936254567288054
+      ],
+      "selected_p": 0.14300911121733184,
+      "selection_method": "lowest_p_exact_hit_else_lowest_p_increasing_adjacent_bracket_else_fixed_fallback",
+      "undefined_baseline_rate_draws": 0,
+      "valid_point_bracket_or_hit": true
+    },
+    "B": {
+      "conditional_selected_p_uncertainty": {
+        "bootstrap_draws": 50000,
+        "conditional_on_defined_draws": false,
+        "conditional_on_valid_exact_hit_or_bracket": true,
+        "interval95": [
+          0.1396739951970456,
+          0.14984258059701466
+        ],
+        "interval_unavailable_if_any_draw_undefined": true,
+        "undefined_bootstrap_draws": 0
+      },
+      "exact_hit_draws": 0,
+      "fallback_inclusive_selected_p_uncertainty": {
+        "bootstrap_draws": 50000,
+        "conditional_on_defined_draws": false,
+        "interval95": [
+          0.1396739951970456,
+          0.14984258059701466
+        ],
+        "interval_unavailable_if_any_draw_undefined": true,
+        "undefined_bootstrap_draws": 0
+      },
+      "n_seeds": 64,
+      "no_increasing_bracket_draws": 0,
+      "no_valid_hit_or_bracket_draws": 0,
+      "no_valid_hit_or_bracket_frequency": 0.0,
+      "nonmonotone_draws": 112,
+      "p_grid": [
+        0.13496571354322734,
+        0.15,
+        0.165
+      ],
+      "point_baseline_rates": [
+        2.115154228507123,
+        3.686418248564133,
+        5.117812747759483
+      ],
+      "selected_p": 0.14343216133868136,
+      "selection_method": "lowest_p_exact_hit_else_lowest_p_increasing_adjacent_bracket_else_fixed_fallback",
+      "undefined_baseline_rate_draws": 0,
+      "valid_point_bracket_or_hit": true
+    },
+    "pooled": {
+      "conditional_selected_p_uncertainty": {
+        "bootstrap_draws": 50000,
+        "conditional_on_defined_draws": false,
+        "conditional_on_valid_exact_hit_or_bracket": true,
+        "interval95": [
+          0.1400445065638552,
+          0.14791965542671104
+        ],
+        "interval_unavailable_if_any_draw_undefined": true,
+        "undefined_bootstrap_draws": 0
+      },
+      "exact_hit_draws": 0,
+      "fallback_inclusive_selected_p_uncertainty": {
+        "bootstrap_draws": 50000,
+        "conditional_on_defined_draws": false,
+        "interval95": [
+          0.1400445065638552,
+          0.14791965542671104
+        ],
+        "interval_unavailable_if_any_draw_undefined": true,
+        "undefined_bootstrap_draws": 0
+      },
+      "n_seeds": 128,
+      "no_increasing_bracket_draws": 0,
+      "no_valid_hit_or_bracket_draws": 0,
+      "no_valid_hit_or_bracket_frequency": 0.0,
+      "nonmonotone_draws": 0,
+      "p_grid": [
+        0.13496571354322734,
+        0.15,
+        0.165
+      ],
+      "point_baseline_rates": [
+        2.3105577450620873,
+        3.5579016826905994,
+        5.02702923481411
+      ],
+      "selected_p": 0.14327558866543832,
+      "selection_method": "lowest_p_exact_hit_else_lowest_p_increasing_adjacent_bracket_else_fixed_fallback",
+      "undefined_baseline_rate_draws": 0,
+      "valid_point_bracket_or_hit": true
+    }
+  },
+  "descriptive_interval_level": 0.95,
+  "interpolation_verification": {
+    "confirmation": "linear p versus baseline rate",
+    "logarithmic": false,
+    "prior_refinement": "linear p versus acquisition count",
+    "prior_validation": "linear p versus acquisition count"
+  },
+  "schema_version": 1,
+  "scope": "Selection uncertainty for iid p from128 seeds per3p, separate from conditional holdout validation. Other2 profile p choices originate in older study; their uncertainty is not estimated here.",
+  "task": "calibration",
+  "uncertainty_scope": "Synthetic-model Monte Carlo uncertainty; excludes clinical-input uncertainty."
+}

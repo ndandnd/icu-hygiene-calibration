@@ -1,0 +1,4926 @@
+{
+  "analysis_freeze_identity": "9ef86ef81700b85788e42e7184e84110b769f8e631e7b5660555563f4c4ce525",
+  "bootstrap_draws": 50000,
+  "bootstrap_seed": 20261010,
+  "descriptive_interval_level": 0.95,
+  "interpretation": "Finite-horizon control trajectory; does not establish equilibrium or stationarity.",
+  "rows": [
+    {
+      "acquired_total": 128,
+      "cohort": "pooled",
+      "day_end": 7,
+      "day_start": 0,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 105204.03395061729,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 1.2166833836436646,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            0.9505742895627544,
+            1.5017748298744982
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 1
+    },
+    {
+      "acquired_total": 237,
+      "cohort": "pooled",
+      "day_end": 14,
+      "day_start": 7,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104893.29938271595,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.2594388907081346,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.8393346065929754,
+            2.7076877239622434
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 2
+    },
+    {
+      "acquired_total": 242,
+      "cohort": "pooled",
+      "day_end": 21,
+      "day_start": 14,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104897.74537037047,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.3070085934216427,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.9355171668440923,
+            2.7067840806323398
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 3
+    },
+    {
+      "acquired_total": 273,
+      "cohort": "pooled",
+      "day_end": 28,
+      "day_start": 21,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104928.72800925924,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.6017660289936004,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.2105030686375615,
+            3.0208623580468372
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 4
+    },
+    {
+      "acquired_total": 286,
+      "cohort": "pooled",
+      "day_end": 35,
+      "day_start": 28,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104949.13464506171,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.7251296636913955,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.3155370676206593,
+            3.1634609703162866
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 5
+    },
+    {
+      "acquired_total": 294,
+      "cohort": "pooled",
+      "day_end": 42,
+      "day_start": 35,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104940.56288580247,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.801585887431671,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.381553111678246,
+            3.2584277547253575
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 6
+    },
+    {
+      "acquired_total": 266,
+      "cohort": "pooled",
+      "day_end": 49,
+      "day_start": 42,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104976.67168209882,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.5338963003659387,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.143382873172221,
+            2.9440990902779225
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 7
+    },
+    {
+      "acquired_total": 308,
+      "cohort": "pooled",
+      "day_end": 56,
+      "day_start": 49,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104977.50733024695,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.933961834615372,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.5236721273688545,
+            3.363745127919054
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 8
+    },
+    {
+      "acquired_total": 308,
+      "cohort": "pooled",
+      "day_end": 63,
+      "day_start": 56,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104963.94328703701,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.9343409780036134,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.4671840084019347,
+            3.4488957885392404
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 9
+    },
+    {
+      "acquired_total": 343,
+      "cohort": "pooled",
+      "day_end": 70,
+      "day_start": 63,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104931.25771604937,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 3.268806716566571,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.8118338967395484,
+            3.7361995462033133
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 10
+    },
+    {
+      "acquired_total": 268,
+      "cohort": "pooled",
+      "day_end": 77,
+      "day_start": 70,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104951.20408950624,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.553567653892182,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.1625924454050884,
+            2.9727638414087596
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 11
+    },
+    {
+      "acquired_total": 301,
+      "cohort": "pooled",
+      "day_end": 84,
+      "day_start": 77,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104955.05902777766,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.867894151918266,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.4481664457088175,
+            3.3065065282733017
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 12
+    },
+    {
+      "acquired_total": 288,
+      "cohort": "pooled",
+      "day_end": 91,
+      "day_start": 84,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104964.83757716055,
+      "phase": "mixed",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.743775979153864,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.3624406957180413,
+            3.1441962549564884
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 13
+    },
+    {
+      "acquired_total": 270,
+      "cohort": "pooled",
+      "day_end": 98,
+      "day_start": 91,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 105003.744212963,
+      "phase": "observation",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.571336879686884,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.180882079239686,
+            2.9812845113940396
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 14
+    },
+    {
+      "acquired_total": 321,
+      "cohort": "pooled",
+      "day_end": 105,
+      "day_start": 98,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104964.175925926,
+      "phase": "observation",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 3.0581862541990716,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.6095011094354423,
+            3.5352027689119687
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 15
+    },
+    {
+      "acquired_total": 306,
+      "cohort": "pooled",
+      "day_end": 112,
+      "day_start": 105,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104962.56751543227,
+      "phase": "observation",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.9153250272294446,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.4863654506292163,
+            3.371921745959214
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 16
+    },
+    {
+      "acquired_total": 278,
+      "cohort": "pooled",
+      "day_end": 119,
+      "day_start": 112,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104950.13271604937,
+      "phase": "observation",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.648877069571225,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.239726664923448,
+            3.086714572171805
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 17
+    },
+    {
+      "acquired_total": 285,
+      "cohort": "pooled",
+      "day_end": 126,
+      "day_start": 119,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104917.94097222213,
+      "phase": "observation",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.7164086271523002,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.2968922889442953,
+            3.1556748896105984
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 18
+    },
+    {
+      "acquired_total": 327,
+      "cohort": "pooled",
+      "day_end": 133,
+      "day_start": 126,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104936.46296296304,
+      "phase": "observation",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 3.116171355188649,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.6781504058184207,
+            3.5728699141654086
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 19
+    },
+    {
+      "acquired_total": 280,
+      "cohort": "pooled",
+      "day_end": 140,
+      "day_start": 133,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104943.76967592588,
+      "phase": "observation",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.6680955035697753,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.2965496315190967,
+            3.0582594822895572
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 20
+    },
+    {
+      "acquired_total": 263,
+      "cohort": "pooled",
+      "day_end": 146,
+      "day_start": 140,
+      "days": 6,
+      "n_seeds": 512,
+      "partial_week": true,
+      "patient_days_total": 89978.73263888892,
+      "phase": "observation",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.922912918272546,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.4901477614385086,
+            3.379497531392656
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 21
+    },
+    {
+      "acquired_total": 128,
+      "cohort": "pooled",
+      "day_end": 7,
+      "day_start": 0,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 105202.14853395057,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 1.2167051888554554,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            0.9792506015601491,
+            1.4641284244523156
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 1
+    },
+    {
+      "acquired_total": 163,
+      "cohort": "pooled",
+      "day_end": 14,
+      "day_start": 7,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104918.93287037034,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 1.5535804219567322,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.2865430596316374,
+            1.830838313161036
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 2
+    },
+    {
+      "acquired_total": 223,
+      "cohort": "pooled",
+      "day_end": 21,
+      "day_start": 14,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104894.74807098768,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.125940565194784,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.7921770612332426,
+            2.4875673232332955
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 3
+    },
+    {
+      "acquired_total": 263,
+      "cohort": "pooled",
+      "day_end": 28,
+      "day_start": 21,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104912.30825617292,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.5068555288842895,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.163440300343256,
+            2.8685863040999857
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 4
+    },
+    {
+      "acquired_total": 255,
+      "cohort": "pooled",
+      "day_end": 35,
+      "day_start": 28,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104988.4012345679,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.4288397289741765,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.0856405792482553,
+            2.789682813699986
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 5
+    },
+    {
+      "acquired_total": 294,
+      "cohort": "pooled",
+      "day_end": 42,
+      "day_start": 35,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104972.61265432104,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.8007305197609362,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.41985860755617,
+            3.1923247686182545
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 6
+    },
+    {
+      "acquired_total": 242,
+      "cohort": "pooled",
+      "day_end": 49,
+      "day_start": 42,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104992.44405864205,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.3049277704673137,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.9811549383215437,
+            2.637777777723622
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 7
+    },
+    {
+      "acquired_total": 262,
+      "cohort": "pooled",
+      "day_end": 56,
+      "day_start": 49,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104974.53973765436,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.4958432840455753,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.1436754013079744,
+            2.867292053398167
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 8
+    },
+    {
+      "acquired_total": 256,
+      "cohort": "pooled",
+      "day_end": 63,
+      "day_start": 56,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 105012.05208333333,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.4378154213846686,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.086286375549359,
+            2.799256591976734
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 9
+    },
+    {
+      "acquired_total": 250,
+      "cohort": "pooled",
+      "day_end": 70,
+      "day_start": 63,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 105007.46990740737,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.3807830073464578,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.066358101228899,
+            2.714693259907724
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 10
+    },
+    {
+      "acquired_total": 261,
+      "cohort": "pooled",
+      "day_end": 77,
+      "day_start": 70,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104967.68325617298,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.4864795706982608,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.1440243733329845,
+            2.838189419453315
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 11
+    },
+    {
+      "acquired_total": 299,
+      "cohort": "pooled",
+      "day_end": 84,
+      "day_start": 77,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104948.91435185194,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.8490051740561317,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.46734082506257,
+            3.249827622605757
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 12
+    },
+    {
+      "acquired_total": 286,
+      "cohort": "pooled",
+      "day_end": 91,
+      "day_start": 84,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104959.39043209888,
+      "phase": "mixed",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.724863385949457,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.3627773131026055,
+            3.1063967419238185
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 13
+    },
+    {
+      "acquired_total": 274,
+      "cohort": "pooled",
+      "day_end": 98,
+      "day_start": 91,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104952.14120370356,
+      "phase": "observation",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.610713767794297,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.2583995611545484,
+            2.9813403057616608
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 14
+    },
+    {
+      "acquired_total": 288,
+      "cohort": "pooled",
+      "day_end": 105,
+      "day_start": 98,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104944.68248456794,
+      "phase": "observation",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.744302933522623,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.3917318281554714,
+            3.114814724641208
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 15
+    },
+    {
+      "acquired_total": 301,
+      "cohort": "pooled",
+      "day_end": 112,
+      "day_start": 105,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104981.10609567899,
+      "phase": "observation",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.8671825930817576,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.503954802429125,
+            3.249416960449194
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 16
+    },
+    {
+      "acquired_total": 286,
+      "cohort": "pooled",
+      "day_end": 119,
+      "day_start": 112,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104982.8950617283,
+      "phase": "observation",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.724253316045785,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.3618731439992615,
+            3.115023237796006
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 17
+    },
+    {
+      "acquired_total": 273,
+      "cohort": "pooled",
+      "day_end": 126,
+      "day_start": 119,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104929.49112654323,
+      "phase": "observation",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.6017471072147536,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.230359467422152,
+            2.991522832189405
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 18
+    },
+    {
+      "acquired_total": 251,
+      "cohort": "pooled",
+      "day_end": 133,
+      "day_start": 126,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104910.14737654327,
+      "phase": "observation",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.3925235668491758,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.0498914985777454,
+            2.754225297915594
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 19
+    },
+    {
+      "acquired_total": 294,
+      "cohort": "pooled",
+      "day_end": 140,
+      "day_start": 133,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104965.63310185182,
+      "phase": "observation",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.8009167506732564,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.438410651937559,
+            3.182590412563039
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 20
+    },
+    {
+      "acquired_total": 243,
+      "cohort": "pooled",
+      "day_end": 146,
+      "day_start": 140,
+      "days": 6,
+      "n_seeds": 512,
+      "partial_week": true,
+      "patient_days_total": 89965.92476851854,
+      "phase": "observation",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.701022644131505,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.3017841402385852,
+            3.1121158263817583
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 21
+    },
+    {
+      "acquired_total": 117,
+      "cohort": "pooled",
+      "day_end": 7,
+      "day_start": 0,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 105200.5798611111,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 1.1121611701614844,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            0.8936000051248829,
+            1.349236618439644
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 1
+    },
+    {
+      "acquired_total": 197,
+      "cohort": "pooled",
+      "day_end": 14,
+      "day_start": 7,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104885.93402777778,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 1.8782308783923964,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.554275557519332,
+            2.2124521093150467
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 2
+    },
+    {
+      "acquired_total": 262,
+      "cohort": "pooled",
+      "day_end": 21,
+      "day_start": 14,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104895.0227623456,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.4977352890574966,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.16439965638635,
+            2.840162707959551
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 3
+    },
+    {
+      "acquired_total": 254,
+      "cohort": "pooled",
+      "day_end": 28,
+      "day_start": 21,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104902.51929012334,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.4212955200582518,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.087865156590069,
+            2.7646111626945875
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 4
+    },
+    {
+      "acquired_total": 301,
+      "cohort": "pooled",
+      "day_end": 35,
+      "day_start": 28,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104962.02199074073,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.8677039017650863,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.486945849105766,
+            3.2585767985578697
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 5
+    },
+    {
+      "acquired_total": 314,
+      "cohort": "pooled",
+      "day_end": 42,
+      "day_start": 35,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104980.09490740733,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.991043209447931,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.5904600191390443,
+            3.4199329712292026
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 6
+    },
+    {
+      "acquired_total": 300,
+      "cohort": "pooled",
+      "day_end": 49,
+      "day_start": 42,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104977.49768518515,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.857755296279435,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.4864239587195374,
+            3.2393393215630946
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 7
+    },
+    {
+      "acquired_total": 265,
+      "cohort": "pooled",
+      "day_end": 56,
+      "day_start": 49,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 105009.96026234586,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.523570138851132,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.1804664560482783,
+            2.884992132941016
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 8
+    },
+    {
+      "acquired_total": 331,
+      "cohort": "pooled",
+      "day_end": 63,
+      "day_start": 56,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104949.53703703717,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 3.153896714029225,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.7545097422816367,
+            3.5642191444418656
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 9
+    },
+    {
+      "acquired_total": 298,
+      "cohort": "pooled",
+      "day_end": 70,
+      "day_start": 63,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104952.8645833333,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.839369856011752,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.477105434939009,
+            3.2203018033099795
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 10
+    },
+    {
+      "acquired_total": 304,
+      "cohort": "pooled",
+      "day_end": 77,
+      "day_start": 70,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104968.63233024697,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.896103276296586,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.505834731829528,
+            3.305692745254616
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 11
+    },
+    {
+      "acquired_total": 309,
+      "cohort": "pooled",
+      "day_end": 84,
+      "day_start": 77,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104952.31018518527,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.9441943627041516,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.572737730849992,
+            3.333754127325189
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 12
+    },
+    {
+      "acquired_total": 294,
+      "cohort": "pooled",
+      "day_end": 91,
+      "day_start": 84,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104934.08256172841,
+      "phase": "mixed",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.801758902566779,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.4307499328245736,
+            3.182854362728559
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 13
+    },
+    {
+      "acquired_total": 321,
+      "cohort": "pooled",
+      "day_end": 98,
+      "day_start": 91,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104942.97916666674,
+      "phase": "observation",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 3.0588039576253987,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.6681633991310005,
+            3.4589987139841627
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 14
+    },
+    {
+      "acquired_total": 331,
+      "cohort": "pooled",
+      "day_end": 105,
+      "day_start": 98,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104963.36188271598,
+      "phase": "observation",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 3.1534813106486905,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.771236627206048,
+            3.5530651706960743
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 15
+    },
+    {
+      "acquired_total": 301,
+      "cohort": "pooled",
+      "day_end": 112,
+      "day_start": 105,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104953.98996913579,
+      "phase": "observation",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.867923364214321,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.4963940490092145,
+            3.2572554997070755
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 16
+    },
+    {
+      "acquired_total": 304,
+      "cohort": "pooled",
+      "day_end": 119,
+      "day_start": 112,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104947.14583333333,
+      "phase": "observation",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.896696213947378,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.515174001091432,
+            3.2957959846398905
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 17
+    },
+    {
+      "acquired_total": 260,
+      "cohort": "pooled",
+      "day_end": 126,
+      "day_start": 119,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104907.23958333336,
+      "phase": "observation",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.4783799576907968,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.1450120818081806,
+            2.8220881089452168
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 18
+    },
+    {
+      "acquired_total": 283,
+      "cohort": "pooled",
+      "day_end": 133,
+      "day_start": 126,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104950.25848765422,
+      "phase": "observation",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.6965155119964814,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.342810762775874,
+            3.068863048432954
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 19
+    },
+    {
+      "acquired_total": 280,
+      "cohort": "pooled",
+      "day_end": 140,
+      "day_start": 133,
+      "days": 7,
+      "n_seeds": 512,
+      "partial_week": false,
+      "patient_days_total": 104960.11535493816,
+      "phase": "observation",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.6676799949498777,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.3258871276604256,
+            3.0196936061378548
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 20
+    },
+    {
+      "acquired_total": 231,
+      "cohort": "pooled",
+      "day_end": 146,
+      "day_start": 140,
+      "days": 6,
+      "n_seeds": 512,
+      "partial_week": true,
+      "patient_days_total": 89953.06018518518,
+      "phase": "observation",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.5680060191887115,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.2013904881395505,
+            2.9555769040067292
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 21
+    },
+    {
+      "acquired_total": 71,
+      "cohort": "A",
+      "day_end": 7,
+      "day_start": 0,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52581.39043209876,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 1.3502876096760166,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            0.9698071964031919,
+            1.7505279440055714
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 1
+    },
+    {
+      "acquired_total": 101,
+      "cohort": "A",
+      "day_end": 14,
+      "day_start": 7,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52431.809027777774,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 1.9263115630149505,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.4110430670373866,
+            2.49862264513933
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 2
+    },
+    {
+      "acquired_total": 127,
+      "cohort": "A",
+      "day_end": 21,
+      "day_start": 14,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52460.51543209875,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.420868322660306,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.9248007010484038,
+            2.955065402807046
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 3
+    },
+    {
+      "acquired_total": 143,
+      "cohort": "A",
+      "day_end": 28,
+      "day_start": 21,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52456.96527777778,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.726044086667338,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.116706642677905,
+            3.3747212465032046
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 4
+    },
+    {
+      "acquired_total": 139,
+      "cohort": "A",
+      "day_end": 35,
+      "day_start": 28,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52464.69675925927,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.649400617672845,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.078387576846105,
+            3.258858470832911
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 5
+    },
+    {
+      "acquired_total": 140,
+      "cohort": "A",
+      "day_end": 42,
+      "day_start": 35,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52448.996913580275,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.6692598188422307,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.134863314399657,
+            3.2418771034885596
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 6
+    },
+    {
+      "acquired_total": 126,
+      "cohort": "A",
+      "day_end": 49,
+      "day_start": 42,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52466.89853395063,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.401514164563531,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.84984493798936,
+            2.9748892581607818
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 7
+    },
+    {
+      "acquired_total": 164,
+      "cohort": "A",
+      "day_end": 56,
+      "day_start": 49,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52499.56983024691,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 3.123835119607278,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.5337554294681124,
+            3.752205840484614
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 8
+    },
+    {
+      "acquired_total": 146,
+      "cohort": "A",
+      "day_end": 63,
+      "day_start": 56,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52485.77507716049,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.7817060867513566,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.1913964763500675,
+            3.4116130169796293
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 9
+    },
+    {
+      "acquired_total": 155,
+      "cohort": "A",
+      "day_end": 70,
+      "day_start": 63,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52469.73379629632,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.954083979189942,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.4203278623035507,
+            3.5269603178449938
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 10
+    },
+    {
+      "acquired_total": 139,
+      "cohort": "A",
+      "day_end": 77,
+      "day_start": 70,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52483.334490740715,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.6484597701108883,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.075979727183938,
+            3.2776179248010155
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 11
+    },
+    {
+      "acquired_total": 144,
+      "cohort": "A",
+      "day_end": 84,
+      "day_start": 77,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52479.745370370365,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.7439157523294924,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.154090670054649,
+            3.3893274736080348
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 12
+    },
+    {
+      "acquired_total": 143,
+      "cohort": "A",
+      "day_end": 91,
+      "day_start": 84,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52506.29706790127,
+      "phase": "mixed",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.723482857971722,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.20798633606292,
+            3.276306620402868
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 13
+    },
+    {
+      "acquired_total": 135,
+      "cohort": "A",
+      "day_end": 98,
+      "day_start": 91,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52498.38078703704,
+      "phase": "observation",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.571507882264711,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.0002857400395095,
+            3.1815372192930145
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 14
+    },
+    {
+      "acquired_total": 148,
+      "cohort": "A",
+      "day_end": 105,
+      "day_start": 98,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52469.61959876544,
+      "phase": "observation",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.8206798740252785,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.2492216837702235,
+            3.4485183315151238
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 15
+    },
+    {
+      "acquired_total": 150,
+      "cohort": "A",
+      "day_end": 112,
+      "day_start": 105,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52469.66049382717,
+      "phase": "observation",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.8587949414623495,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.3062644246819914,
+            3.4481997562504922
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 16
+    },
+    {
+      "acquired_total": 159,
+      "cohort": "A",
+      "day_end": 119,
+      "day_start": 112,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52475.438271604915,
+      "phase": "observation",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 3.029988986028856,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.4395344011521494,
+            3.659149352553439
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 17
+    },
+    {
+      "acquired_total": 144,
+      "cohort": "A",
+      "day_end": 126,
+      "day_start": 119,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52450.719135802465,
+      "phase": "observation",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.745434235652008,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.1538814225037406,
+            3.3746087093085153
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 18
+    },
+    {
+      "acquired_total": 184,
+      "cohort": "A",
+      "day_end": 133,
+      "day_start": 126,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52479.20447530866,
+      "phase": "observation",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 3.5061507094028372,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.8579766494630348,
+            4.209672688675226
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 19
+    },
+    {
+      "acquired_total": 152,
+      "cohort": "A",
+      "day_end": 140,
+      "day_start": 133,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52462.64544753086,
+      "phase": "observation",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.8972995681664364,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.3446788177005944,
+            3.4884523632118087
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 20
+    },
+    {
+      "acquired_total": 120,
+      "cohort": "A",
+      "day_end": 146,
+      "day_start": 140,
+      "days": 6,
+      "n_seeds": 256,
+      "partial_week": true,
+      "patient_days_total": 44996.99768518519,
+      "phase": "observation",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.6668445934895963,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.110954617417729,
+            3.2678802846736117
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 21
+    },
+    {
+      "acquired_total": 60,
+      "cohort": "A",
+      "day_end": 7,
+      "day_start": 0,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52582.255015432114,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 1.1410693585201108,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            0.8178315068123126,
+            1.5016356550328402
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 1
+    },
+    {
+      "acquired_total": 75,
+      "cohort": "A",
+      "day_end": 14,
+      "day_start": 7,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52451.05054012343,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 1.4299046297009308,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.0682647290396297,
+            1.8118408091421176
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 2
+    },
+    {
+      "acquired_total": 128,
+      "cohort": "A",
+      "day_end": 21,
+      "day_start": 14,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52440.813271604966,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.4408469665993517,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.9260214603129187,
+            2.9943932267156472
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 3
+    },
+    {
+      "acquired_total": 140,
+      "cohort": "A",
+      "day_end": 28,
+      "day_start": 21,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52457.13927469139,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.668845498167392,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.1727074579653305,
+            3.2017331339343067
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 4
+    },
+    {
+      "acquired_total": 128,
+      "cohort": "A",
+      "day_end": 35,
+      "day_start": 28,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52477.64544753085,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.4391338237150766,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.9630505588734253,
+            2.9344463678921655
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 5
+    },
+    {
+      "acquired_total": 140,
+      "cohort": "A",
+      "day_end": 42,
+      "day_start": 35,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52461.816358024684,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.6686075648729473,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.1535719506276725,
+            3.203505124975568
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 6
+    },
+    {
+      "acquired_total": 135,
+      "cohort": "A",
+      "day_end": 49,
+      "day_start": 42,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52480.736882716046,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.572372417363308,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.096400743409994,
+            3.067210292387707
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 7
+    },
+    {
+      "acquired_total": 136,
+      "cohort": "A",
+      "day_end": 56,
+      "day_start": 49,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52480.11882716044,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.591457546959952,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.095960760427288,
+            3.1059768614380645
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 8
+    },
+    {
+      "acquired_total": 140,
+      "cohort": "A",
+      "day_end": 63,
+      "day_start": 56,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52514.85185185187,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.665912500238027,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.1710702339577934,
+            3.1800300740818668
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 9
+    },
+    {
+      "acquired_total": 133,
+      "cohort": "A",
+      "day_end": 70,
+      "day_start": 63,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52523.405478395034,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.5322044294082984,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.074657578591814,
+            3.027715911932565
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 10
+    },
+    {
+      "acquired_total": 132,
+      "cohort": "A",
+      "day_end": 77,
+      "day_start": 70,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52501.04706790126,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.5142355699931134,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.018908709659776,
+            3.0476542015757175
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 11
+    },
+    {
+      "acquired_total": 136,
+      "cohort": "A",
+      "day_end": 84,
+      "day_start": 77,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52481.521219135815,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.5913882989811596,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.0964537915555166,
+            3.106381098498259
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 12
+    },
+    {
+      "acquired_total": 143,
+      "cohort": "A",
+      "day_end": 91,
+      "day_start": 84,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52461.74807098766,
+      "phase": "mixed",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.7257955607293556,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.1743388583998198,
+            3.2978944106830634
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 13
+    },
+    {
+      "acquired_total": 128,
+      "cohort": "A",
+      "day_end": 98,
+      "day_start": 91,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52484.34760802468,
+      "phase": "observation",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.43882235054074,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.9627204858782654,
+            2.934235419896168
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 14
+    },
+    {
+      "acquired_total": 141,
+      "cohort": "A",
+      "day_end": 105,
+      "day_start": 98,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52470.854938271565,
+      "phase": "observation",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.6872060721304623,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.1912786573205745,
+            3.220209611145513
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 15
+    },
+    {
+      "acquired_total": 151,
+      "cohort": "A",
+      "day_end": 112,
+      "day_start": 105,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52482.81442901233,
+      "phase": "observation",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.877132288784568,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.343944561843141,
+            3.447697471462087
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 16
+    },
+    {
+      "acquired_total": 142,
+      "cohort": "A",
+      "day_end": 119,
+      "day_start": 112,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52493.7808641975,
+      "phase": "observation",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.7050823480853277,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.2095053730300713,
+            3.219883999179249
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 17
+    },
+    {
+      "acquired_total": 146,
+      "cohort": "A",
+      "day_end": 126,
+      "day_start": 119,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52459.85108024696,
+      "phase": "observation",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.7830807177981924,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.249349964403396,
+            3.3717877078478597
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 18
+    },
+    {
+      "acquired_total": 126,
+      "cohort": "A",
+      "day_end": 133,
+      "day_start": 126,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52446.2264660494,
+      "phase": "observation",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.4024607391261026,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.9452307968712266,
+            2.8789357449506587
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 19
+    },
+    {
+      "acquired_total": 143,
+      "cohort": "A",
+      "day_end": 140,
+      "day_start": 133,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52462.50077160493,
+      "phase": "observation",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.7257564526431812,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.2113487361191315,
+            3.2599269450716895
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 20
+    },
+    {
+      "acquired_total": 136,
+      "cohort": "A",
+      "day_end": 146,
+      "day_start": 140,
+      "days": 6,
+      "n_seeds": 256,
+      "partial_week": true,
+      "patient_days_total": 44976.22183641975,
+      "phase": "observation",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 3.023820019712577,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.423574507814076,
+            3.667140832630624
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 21
+    },
+    {
+      "acquired_total": 49,
+      "cohort": "A",
+      "day_end": 7,
+      "day_start": 0,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52578.51003086422,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 0.9319396835558179,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            0.6655344138959651,
+            1.2178299783484043
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 1
+    },
+    {
+      "acquired_total": 88,
+      "cohort": "A",
+      "day_end": 14,
+      "day_start": 7,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52425.569830246954,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 1.6785702145907504,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.2595761594145813,
+            2.134762987227775
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 2
+    },
+    {
+      "acquired_total": 127,
+      "cohort": "A",
+      "day_end": 21,
+      "day_start": 14,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52466.16473765432,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.4206076551437667,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.9631137910766294,
+            2.8977686524281108
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 3
+    },
+    {
+      "acquired_total": 114,
+      "cohort": "A",
+      "day_end": 28,
+      "day_start": 21,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52450.804783950625,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.1734652207830902,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.7529069065776408,
+            2.6304020147931317
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 4
+    },
+    {
+      "acquired_total": 145,
+      "cohort": "A",
+      "day_end": 35,
+      "day_start": 28,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52448.42862654321,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.764620481434559,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.287545323450712,
+            3.2789836501483918
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 5
+    },
+    {
+      "acquired_total": 155,
+      "cohort": "A",
+      "day_end": 42,
+      "day_start": 35,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52470.38387345681,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.9540473798288684,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.3819771032842576,
+            3.5819698289803874
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 6
+    },
+    {
+      "acquired_total": 146,
+      "cohort": "A",
+      "day_end": 49,
+      "day_start": 42,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52477.87654320987,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.7821247660389754,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.3065670015054254,
+            3.2768023849627257
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 7
+    },
+    {
+      "acquired_total": 136,
+      "cohort": "A",
+      "day_end": 56,
+      "day_start": 49,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52503.674382716046,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.5902949002893125,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.0573458269026195,
+            3.160056496344142
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 8
+    },
+    {
+      "acquired_total": 166,
+      "cohort": "A",
+      "day_end": 63,
+      "day_start": 56,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52460.74382716054,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 3.1642708030772657,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.5933646671026875,
+            3.757822604322936
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 9
+    },
+    {
+      "acquired_total": 166,
+      "cohort": "A",
+      "day_end": 70,
+      "day_start": 63,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52510.380015432136,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 3.161279730811598,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.6282167163665577,
+            3.731518055245271
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 10
+    },
+    {
+      "acquired_total": 169,
+      "cohort": "A",
+      "day_end": 77,
+      "day_start": 70,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52495.1589506173,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 3.2193444762969463,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.649363418269405,
+            3.8108314262618928
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 11
+    },
+    {
+      "acquired_total": 176,
+      "cohort": "A",
+      "day_end": 84,
+      "day_start": 77,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52455.50655864201,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 3.355224485407321,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.801817589598044,
+            3.9451025608323835
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 12
+    },
+    {
+      "acquired_total": 146,
+      "cohort": "A",
+      "day_end": 91,
+      "day_start": 84,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52462.37384259261,
+      "phase": "mixed",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.7829468875742527,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.2697804337752596,
+            3.3174612295942056
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 13
+    },
+    {
+      "acquired_total": 176,
+      "cohort": "A",
+      "day_end": 98,
+      "day_start": 91,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52487.228780864214,
+      "phase": "observation",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 3.3531966554150796,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.7817581218566025,
+            3.9424863201275318
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 14
+    },
+    {
+      "acquired_total": 179,
+      "cohort": "A",
+      "day_end": 105,
+      "day_start": 98,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52474.866512345674,
+      "phase": "observation",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 3.411156843207728,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.8388879513522363,
+            4.019398069183079
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 15
+    },
+    {
+      "acquired_total": 142,
+      "cohort": "A",
+      "day_end": 112,
+      "day_start": 105,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52480.359182098786,
+      "phase": "observation",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.7057741641455197,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.1724029559356093,
+            3.259762259252655
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 16
+    },
+    {
+      "acquired_total": 145,
+      "cohort": "A",
+      "day_end": 119,
+      "day_start": 112,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52463.85262345678,
+      "phase": "observation",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.7638077028138412,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.211276552501131,
+            3.3546280854323522
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 17
+    },
+    {
+      "acquired_total": 147,
+      "cohort": "A",
+      "day_end": 126,
+      "day_start": 119,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52468.43942901235,
+      "phase": "observation",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.8016842429416062,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.2860984268645668,
+            3.3552421796553062
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 18
+    },
+    {
+      "acquired_total": 140,
+      "cohort": "A",
+      "day_end": 133,
+      "day_start": 126,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52465.65123456792,
+      "phase": "observation",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.668412508101272,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.154846820894638,
+            3.2031615584734117
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 19
+    },
+    {
+      "acquired_total": 133,
+      "cohort": "A",
+      "day_end": 140,
+      "day_start": 133,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52460.65432098763,
+      "phase": "observation",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.535233342425,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.0594862999595196,
+            3.030024239261778
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 20
+    },
+    {
+      "acquired_total": 117,
+      "cohort": "A",
+      "day_end": 146,
+      "day_start": 140,
+      "days": 6,
+      "n_seeds": 256,
+      "partial_week": true,
+      "patient_days_total": 44976.61535493827,
+      "phase": "observation",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.6013518153084814,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.0898817802735223,
+            3.135982096225855
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 21
+    },
+    {
+      "acquired_total": 57,
+      "cohort": "B",
+      "day_end": 7,
+      "day_start": 0,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52622.64351851855,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 1.0831838955399686,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            0.7223246127369167,
+            1.4822483266320483
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 1
+    },
+    {
+      "acquired_total": 136,
+      "cohort": "B",
+      "day_end": 14,
+      "day_start": 7,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52461.490354938265,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.592377743748146,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.944216310147179,
+            3.3154262027530694
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 2
+    },
+    {
+      "acquired_total": 115,
+      "cohort": "B",
+      "day_end": 21,
+      "day_start": 14,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52437.229938271594,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.1930983031593483,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.658983645365551,
+            2.784360993409325
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 3
+    },
+    {
+      "acquired_total": 130,
+      "cohort": "B",
+      "day_end": 28,
+      "day_start": 21,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52471.762731481445,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.477523018718866,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.981587664881601,
+            3.0119563012229484
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 4
+    },
+    {
+      "acquired_total": 147,
+      "cohort": "B",
+      "day_end": 35,
+      "day_start": 28,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52484.43788580249,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.8008302255203312,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.2287331550338223,
+            3.447607188869506
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 5
+    },
+    {
+      "acquired_total": 154,
+      "cohort": "B",
+      "day_end": 42,
+      "day_start": 35,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52491.56597222222,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.9338046436163587,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.286724581321542,
+            3.640244780839969
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 6
+    },
+    {
+      "acquired_total": 140,
+      "cohort": "B",
+      "day_end": 49,
+      "day_start": 42,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52509.773148148146,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.666170345185301,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.113319773170016,
+            3.2580465212391077
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 7
+    },
+    {
+      "acquired_total": 144,
+      "cohort": "B",
+      "day_end": 56,
+      "day_start": 49,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52477.937499999956,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.7440102805107407,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.172950133133517,
+            3.352673229086456
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 8
+    },
+    {
+      "acquired_total": 162,
+      "cohort": "B",
+      "day_end": 63,
+      "day_start": 56,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52478.168209876516,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 3.086997994139422,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.380897740028258,
+            3.9069000698086143
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 9
+    },
+    {
+      "acquired_total": 188,
+      "cohort": "B",
+      "day_end": 70,
+      "day_start": 63,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52461.52391975312,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 3.583578705940205,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.878360784653309,
+            4.345185395728632
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 10
+    },
+    {
+      "acquired_total": 129,
+      "cohort": "B",
+      "day_end": 77,
+      "day_start": 70,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52467.86959876542,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.458647568244993,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.9442053992247899,
+            3.029765760876243
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 11
+    },
+    {
+      "acquired_total": 157,
+      "cohort": "B",
+      "day_end": 84,
+      "day_start": 77,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52475.31365740741,
+      "phase": "warmup",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.9918830218909593,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.401464250832085,
+            3.6207767494852523
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 12
+    },
+    {
+      "acquired_total": 145,
+      "cohort": "B",
+      "day_end": 91,
+      "day_start": 84,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52458.540509259234,
+      "phase": "mixed",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.7640875745372036,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.210932735671188,
+            3.356507442587389
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 13
+    },
+    {
+      "acquired_total": 135,
+      "cohort": "B",
+      "day_end": 98,
+      "day_start": 91,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52505.363425925956,
+      "phase": "observation",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.57116589985053,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.0557671738134755,
+            3.141682852316723
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 14
+    },
+    {
+      "acquired_total": 173,
+      "cohort": "B",
+      "day_end": 105,
+      "day_start": 98,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52494.556327160455,
+      "phase": "observation",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 3.2955798106343943,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.6103612035394907,
+            4.038723165614841
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 15
+    },
+    {
+      "acquired_total": 156,
+      "cohort": "B",
+      "day_end": 112,
+      "day_start": 105,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52492.90702160494,
+      "phase": "observation",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.971830078600787,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.3236453331144067,
+            3.695304330608932
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 16
+    },
+    {
+      "acquired_total": 119,
+      "cohort": "B",
+      "day_end": 119,
+      "day_start": 112,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52474.694444444445,
+      "phase": "observation",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.2677597508640406,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.7335981997687306,
+            2.8772784809466616
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 17
+    },
+    {
+      "acquired_total": 141,
+      "cohort": "B",
+      "day_end": 126,
+      "day_start": 119,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52467.22183641977,
+      "phase": "observation",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.6873921481797574,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.096390190515804,
+            3.316749539679184
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 18
+    },
+    {
+      "acquired_total": 143,
+      "cohort": "B",
+      "day_end": 133,
+      "day_start": 126,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52457.25848765431,
+      "phase": "observation",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.7260288494423457,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.172601507221984,
+            3.318334672708089
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 19
+    },
+    {
+      "acquired_total": 128,
+      "cohort": "B",
+      "day_end": 140,
+      "day_start": 133,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52481.124228395034,
+      "phase": "observation",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.438972142497384,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.9441905013633263,
+            2.955170916157626
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 20
+    },
+    {
+      "acquired_total": 143,
+      "cohort": "B",
+      "day_end": 146,
+      "day_start": 140,
+      "days": 6,
+      "n_seeds": 256,
+      "partial_week": true,
+      "patient_days_total": 44981.73495370372,
+      "phase": "observation",
+      "profile": "independent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 3.179068129479199,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.5342037363940157,
+            3.8691133401620577
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 21
+    },
+    {
+      "acquired_total": 68,
+      "cohort": "B",
+      "day_end": 7,
+      "day_start": 0,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52619.893518518504,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 1.2922869176097587,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            0.9504062107468499,
+            1.653528321149844
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 1
+    },
+    {
+      "acquired_total": 88,
+      "cohort": "B",
+      "day_end": 14,
+      "day_start": 7,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52467.88233024693,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 1.6772165387980476,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.2957720029613369,
+            2.096382150966946
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 2
+    },
+    {
+      "acquired_total": 95,
+      "cohort": "B",
+      "day_end": 21,
+      "day_start": 14,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52453.93479938275,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 1.8111129386830656,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.3929263749285488,
+            2.249964010109684
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 3
+    },
+    {
+      "acquired_total": 123,
+      "cohort": "B",
+      "day_end": 28,
+      "day_start": 21,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52455.16898148146,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.3448594750199616,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.886672204777688,
+            2.839787548423658
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 4
+    },
+    {
+      "acquired_total": 127,
+      "cohort": "B",
+      "day_end": 35,
+      "day_start": 28,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52510.75578703701,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.4185521251124644,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.9244043808485898,
+            2.9325382072139097
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 5
+    },
+    {
+      "acquired_total": 154,
+      "cohort": "B",
+      "day_end": 42,
+      "day_start": 35,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52510.79629629631,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.932730235722248,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.380256062474195,
+            3.522361483281738
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 6
+    },
+    {
+      "acquired_total": 107,
+      "cohort": "B",
+      "day_end": 49,
+      "day_start": 42,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52511.70717592593,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.03764085676221,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.6184936183041094,
+            2.494185127277628
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 7
+    },
+    {
+      "acquired_total": 126,
+      "cohort": "B",
+      "day_end": 56,
+      "day_start": 49,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52494.42091049382,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.4002550711977118,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.9229420766997019,
+            2.9334931670007385
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 8
+    },
+    {
+      "acquired_total": 116,
+      "cohort": "B",
+      "day_end": 63,
+      "day_start": 56,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52497.20023148151,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.2096416473356446,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.7334866121227472,
+            2.7231777462728384
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 9
+    },
+    {
+      "acquired_total": 117,
+      "cohort": "B",
+      "day_end": 70,
+      "day_start": 63,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52484.06442901235,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.2292480826870618,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.8093251324479167,
+            2.6862790187297576
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 10
+    },
+    {
+      "acquired_total": 129,
+      "cohort": "B",
+      "day_end": 77,
+      "day_start": 70,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52466.63618827158,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.458705367294668,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.019927237762425,
+            2.933856266050691
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 11
+    },
+    {
+      "acquired_total": 163,
+      "cohort": "B",
+      "day_end": 84,
+      "day_start": 77,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52467.393132716104,
+      "phase": "warmup",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 3.1066914185671854,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.534360835259347,
+            3.717498628319618
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 12
+    },
+    {
+      "acquired_total": 143,
+      "cohort": "B",
+      "day_end": 91,
+      "day_start": 84,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52497.642361111146,
+      "phase": "mixed",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.7239318485267936,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.229502285096611,
+            3.237263331243094
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 13
+    },
+    {
+      "acquired_total": 146,
+      "cohort": "B",
+      "day_end": 98,
+      "day_start": 91,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52467.79359567901,
+      "phase": "observation",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.7826594181773223,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.268727718604384,
+            3.3162741256152786
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 14
+    },
+    {
+      "acquired_total": 147,
+      "cohort": "B",
+      "day_end": 105,
+      "day_start": 98,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52473.827546296285,
+      "phase": "observation",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.801396560414918,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.3247374311041287,
+            3.314981405447894
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 15
+    },
+    {
+      "acquired_total": 150,
+      "cohort": "B",
+      "day_end": 112,
+      "day_start": 105,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52498.29166666664,
+      "phase": "observation",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.85723583068973,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.3610614697312275,
+            3.3902980229668453
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 16
+    },
+    {
+      "acquired_total": 144,
+      "cohort": "B",
+      "day_end": 119,
+      "day_start": 112,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52489.11419753085,
+      "phase": "observation",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.7434259884456944,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.2096572694631385,
+            3.3319177292764883
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 17
+    },
+    {
+      "acquired_total": 127,
+      "cohort": "B",
+      "day_end": 126,
+      "day_start": 119,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52469.640046296285,
+      "phase": "observation",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.420447327024586,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.9254114663619977,
+            2.956829417803835
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 18
+    },
+    {
+      "acquired_total": 125,
+      "cohort": "B",
+      "day_end": 133,
+      "day_start": 126,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52463.920910493835,
+      "phase": "observation",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.3825897460705705,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.8862784102576506,
+            2.9343979884719458
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 19
+    },
+    {
+      "acquired_total": 151,
+      "cohort": "B",
+      "day_end": 140,
+      "day_start": 133,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52503.13233024693,
+      "phase": "observation",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.8760188830297513,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.360900472268081,
+            3.4286827599823027
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 20
+    },
+    {
+      "acquired_total": 107,
+      "cohort": "B",
+      "day_end": 146,
+      "day_start": 140,
+      "days": 6,
+      "n_seeds": 256,
+      "partial_week": true,
+      "patient_days_total": 44989.70293209878,
+      "phase": "observation",
+      "profile": "persistent_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.3783219942903595,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.888835351645308,
+            2.911442832507636
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 21
+    },
+    {
+      "acquired_total": 68,
+      "cohort": "B",
+      "day_end": 7,
+      "day_start": 0,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52622.06983024691,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 1.292233471989236,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            0.9505445266206154,
+            1.6533354284305752
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 1
+    },
+    {
+      "acquired_total": 109,
+      "cohort": "B",
+      "day_end": 14,
+      "day_start": 7,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52460.36419753082,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.0777591171418206,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.6013086485497667,
+            2.5918691225212145
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 2
+    },
+    {
+      "acquired_total": 135,
+      "cohort": "B",
+      "day_end": 21,
+      "day_start": 14,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52428.85802469138,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.5749178045499623,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.098752658839617,
+            3.070033623626253
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 3
+    },
+    {
+      "acquired_total": 140,
+      "cohort": "B",
+      "day_end": 28,
+      "day_start": 21,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52451.714506172844,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.669121520966182,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.1916979287948037,
+            3.1835341714990686
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 4
+    },
+    {
+      "acquired_total": 156,
+      "cohort": "B",
+      "day_end": 35,
+      "day_start": 28,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52513.59336419752,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.9706594046629644,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.3986223763226016,
+            3.580587150804976
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 5
+    },
+    {
+      "acquired_total": 159,
+      "cohort": "B",
+      "day_end": 42,
+      "day_start": 35,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52509.711033950654,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 3.0280113310316454,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.474645387691019,
+            3.6174687420184073
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 6
+    },
+    {
+      "acquired_total": 154,
+      "cohort": "B",
+      "day_end": 49,
+      "day_start": 42,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52499.6211419753,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.933354501426517,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.3618444973805075,
+            3.543121707922471
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 7
+    },
+    {
+      "acquired_total": 129,
+      "cohort": "B",
+      "day_end": 56,
+      "day_start": 49,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52506.28587962961,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.4568486960919658,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.0189702941769845,
+            2.915758713493352
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 8
+    },
+    {
+      "acquired_total": 165,
+      "cohort": "B",
+      "day_end": 63,
+      "day_start": 56,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52488.793209876494,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 3.1435281687701853,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.6092975529573352,
+            3.714911064473171
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 9
+    },
+    {
+      "acquired_total": 132,
+      "cohort": "B",
+      "day_end": 70,
+      "day_start": 63,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52442.48456790124,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.5170432157746006,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.040607617758995,
+            3.03087668613987
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 10
+    },
+    {
+      "acquired_total": 135,
+      "cohort": "B",
+      "day_end": 77,
+      "day_start": 70,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52473.47337962956,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.5727284912762722,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.0567790682655027,
+            3.1423573481203446
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 11
+    },
+    {
+      "acquired_total": 133,
+      "cohort": "B",
+      "day_end": 84,
+      "day_start": 77,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52496.8036265432,
+      "phase": "warmup",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.5334875804277184,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.057038537793394,
+            3.0469630275006474
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 12
+    },
+    {
+      "acquired_total": 148,
+      "cohort": "B",
+      "day_end": 91,
+      "day_start": 84,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52471.70871913581,
+      "phase": "mixed",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.8205675708446325,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.30630216776644,
+            3.372018468989555
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 13
+    },
+    {
+      "acquired_total": 145,
+      "cohort": "B",
+      "day_end": 98,
+      "day_start": 91,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52455.750385802465,
+      "phase": "observation",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.7642345964656205,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.249221399688065,
+            3.3165575982833677
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 14
+    },
+    {
+      "acquired_total": 152,
+      "cohort": "B",
+      "day_end": 105,
+      "day_start": 98,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52488.495370370336,
+      "phase": "observation",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.8958726846226903,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.382684774313488,
+            3.4281085413397787
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 15
+    },
+    {
+      "acquired_total": 159,
+      "cohort": "B",
+      "day_end": 112,
+      "day_start": 105,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52473.630787037044,
+      "phase": "observation",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 3.0300933557522947,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.515858900287095,
+            3.563613087260426
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 16
+    },
+    {
+      "acquired_total": 159,
+      "cohort": "B",
+      "day_end": 119,
+      "day_start": 112,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52483.29320987654,
+      "phase": "observation",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 3.029535501215055,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.496086548679291,
+            3.6010801533610852
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 17
+    },
+    {
+      "acquired_total": 113,
+      "cohort": "B",
+      "day_end": 126,
+      "day_start": 119,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52438.800154321034,
+      "phase": "observation",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.1548929355258832,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.753647331125998,
+            2.5749317018627615
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 18
+    },
+    {
+      "acquired_total": 143,
+      "cohort": "B",
+      "day_end": 133,
+      "day_start": 126,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52484.60725308642,
+      "phase": "observation",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.724608365847888,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.210851996164576,
+            3.2578652351342217
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 19
+    },
+    {
+      "acquired_total": 147,
+      "cohort": "B",
+      "day_end": 140,
+      "day_start": 133,
+      "days": 7,
+      "n_seeds": 256,
+      "partial_week": false,
+      "patient_days_total": 52499.46103395065,
+      "phase": "observation",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.8000287451510637,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.324056165724255,
+            3.2951555547154423
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 20
+    },
+    {
+      "acquired_total": 114,
+      "cohort": "B",
+      "day_end": 146,
+      "day_start": 140,
+      "days": 6,
+      "n_seeds": 256,
+      "partial_week": true,
+      "patient_days_total": 44976.444830246925,
+      "phase": "observation",
+      "profile": "imperfect_target_candidate",
+      "rate_per_1000_patient_days": {
+        "estimate": 2.5346600966409496,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            2.0233063481515736,
+            3.0696811967833693
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "week": 21
+    }
+  ],
+  "schema_version": 1,
+  "task": "weekly",
+  "uncertainty_scope": "Synthetic-model Monte Carlo uncertainty; excludes clinical-input uncertainty."
+}

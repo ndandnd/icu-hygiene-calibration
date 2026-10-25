@@ -1,0 +1,26 @@
+\paragraph{Crossing and completion ranges.} Prediction 1 held: $\Delta(e)$
+changes sign between .93 and .94 and its interpolated root is .93361, with
+bootstrap interval [.93358, .93365]. All 20,000 draws had exactly one crossing
+on the evaluated grid. This supersedes the earlier two-point interpolation
+between $e=.9$ and 1 as a numerical location in the original workflow, but the
+bootstrap interval is not a bound on the true root: interpolation error is not
+included, and it is larger than the interval. $\Delta(e)$ is concave near the
+root (second differences $-0.30$ and $-0.33$ points at .93 and .94 on the
+0.01 grid), so the linear root lies to the left of the smooth one; quadratic,
+cubic and quartic fits to neighbouring grid values give .93379 to .93382
+(post hoc), outside the bootstrap interval. On the isolated bridge, where the
+root is known exactly, the same linear method on the same grid gives .92331
+against .92353, a miss of $2.2\times10^{-4}$, about three times the interval's
+width; a quadratic through neighbouring grid values comes within
+$2\times10^{-5}$. The crossing is therefore best stated as about .934 (smooth
+fits .9338); Prediction 1 holds under either estimate. $\Delta(e)$ is strongly
+nonlinear in $e$: $+3.9$ points at $e=.5$,
+largest ($+9.0$) at $e=.8$, and $\mn21.5$ at $e=1$
+(Table~\ref{tab:extension-crossing}), which is why the two-point interpolation
+understated the root. The fine-grid crossing lies above the isolated
+two-opportunity root .92353 and near the renewal comparator's .936. Per-length
+isolated roots (.845 for four opportunities) do not bound it, because the two
+arms weight bridge lengths differently: 26.2\% of the clustered baseline
+coefficient, but 1.0\% of the independent one, comes from bridges with four or
+more opportunities.
+

@@ -1,0 +1,35 @@
+A background $\omega$ is a complete transmission-free ($p=0$) ICU history: 146
+days (90 warmup and 56 observation days) with admissions, 3\% imported carriage,
+turnover, staff schedules, screening and isolation, clean hands and clean sites,
+and the care-zone opportunity rule. Because no transmission occurs, hand
+contamination never changes movement, screening or isolation, and the history
+is the same in both hygiene arms. For each background and hygiene arm the
+engine enumerates every \emph{bridge}: a contact of worker $u$ with an imported
+carrier at contact $i$, followed by a contact of the same worker with an
+initially susceptible patient at contact $j$ during the observation window,
+with no role reset between them. The bridge contributes $c_id_js_h(i,j)$, where
+$c_i,d_j\in\{1,.6\}$ are the pickup and transfer weights (the isolation
+multiplier applies to isolation locations) and $s_h(i,j)$ is the exact
+probability that no intervening opportunity clears the hand. That probability
+is the ordered product $\nu_i\prod_m[P(h_m,\rho)\Gamma(e_m)]\boldsymbol 1$ over the
+intervening opportunities, started from the actual preceding completion-state
+law $\nu_i$ (Section~\ref{sec:s-hygiene}); the policy arm switches $h$ from .90
+to .95 at day 90 and keeps completion memory. A pickup in warmup counts when its
+transfer falls in the observation window. $K_h(\omega)$ is the sum over bridges;
+Proposition~\ref{prop:icu} shows that $\E[K_h]$ is the coefficient of $p^2$ in
+expected acquisitions.
+
+The leading-order limit is the ratio of means
+$F^*=1-\overline K_{h_1}/\overline K_{h_0}$ over backgrounds (not a mean of
+ratios; no background is dropped). $K$ intervals are seed-level normal
+approximations; the $F^*$ interval is a normal/delta interval that keeps the
+within-background covariance of $K_{h_0}$ and $K_{h_1}$. Paired between-workflow
+differences use whole-seed bootstrap resampling (20,000 draws, NumPy seed
+20261021, one index matrix shared by every statistic). All 256 backgrounds come
+from the original coefficient study's seedbook (banks A and B, 128 each).
+Because washing is integrated exactly rather than sampled, the Monte Carlo
+intervals reflect only variation between backgrounds; they are narrow because
+$K_{h_0}$ and $K_{h_1}$ are computed on the same history and move together.
+They do not describe uncertainty about staff behaviour, and the limit provides
+no finite-$p$ error bound.
+

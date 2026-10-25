@@ -1,0 +1,4939 @@
+{
+  "scope": "Finite-grid stationary controlled-assay confidence-set projection; no ICU or clinical validation",
+  "design": {
+    "baseline_h": 0.9,
+    "grid_size": 4141,
+    "seed": 2026101703,
+    "experiments_per_case": 1000,
+    "sample_sizes_per_assay": [
+      500,
+      2000,
+      8000
+    ],
+    "targets": [
+      "h=0.925,k=2",
+      "h=0.925,k=6",
+      "h=0.950,k=2",
+      "h=0.950,k=6",
+      "h=0.975,k=2",
+      "h=0.975,k=6"
+    ],
+    "assay_marginal_coverage_lower_bound": 0.975,
+    "joint_parameter_and_all_target_coverage_lower_bound": 0.95,
+    "comparison_tolerance": 2e-12
+  },
+  "unconstrained_grid_prediction_bounds": [
+    [
+      -2.220446049250313e-16,
+      0.43750000000000033
+    ],
+    [
+      -6.661338147750939e-16,
+      0.8220214843750003
+    ],
+    [
+      -2.220446049250313e-16,
+      0.7499999999999994
+    ],
+    [
+      -6.661338147750939e-16,
+      0.9843749999999999
+    ],
+    [
+      -2.220446049250313e-16,
+      0.9374999999999999
+    ],
+    [
+      -6.661338147750939e-16,
+      0.999755859375
+    ]
+  ],
+  "non_markov_alternative_predictions": [
+    0.16231343283582111,
+    0.3002781892210531,
+    0.3208955223880593,
+    0.5642359065084821,
+    0.4757462686567162,
+    0.7948429735351507
+  ],
+  "cases": [
+    {
+      "truth": "independent",
+      "rho": 0.0,
+      "e": 1.0,
+      "n_per_assay": 500,
+      "true_q1": 0.09999999999999998,
+      "true_q2": 0.009999999999999995,
+      "true_predictions": [
+        0.43750000000000033,
+        0.8220214843750003,
+        0.7499999999999994,
+        0.9843749999999999,
+        0.9374999999999999,
+        0.999755859375
+      ],
+      "information_sets": {
+        "q1_only": {
+          "empty_sets": 7,
+          "candidate_count_quantiles_10_50_90": [
+            82.0,
+            164.0,
+            246.0
+          ],
+          "parameter_coverage": {
+            "covered": 983,
+            "total": 1000,
+            "fraction": 0.983,
+            "monte_carlo_95_interval": [
+              0.9729205031351487,
+              0.9900664874072834
+            ]
+          },
+          "simultaneous_prediction_coverage": {
+            "covered": 983,
+            "total": 1000,
+            "fraction": 0.983,
+            "monte_carlo_95_interval": [
+              0.9729205031351487,
+              0.9900664874072834
+            ]
+          },
+          "targets": [
+            {
+              "target": "h=0.925,k=2",
+              "coverage": {
+                "covered": 983,
+                "total": 1000,
+                "fraction": 0.983,
+                "monte_carlo_95_interval": [
+                  0.9729205031351487,
+                  0.9900664874072834
+                ]
+              },
+              "width": {
+                "defined": 993,
+                "undefined": 7,
+                "quantiles_10_50_90": [
+                  0.18774977520231784,
+                  0.1897319214363654,
+                  0.19361246943765298
+                ]
+              }
+            },
+            {
+              "target": "h=0.925,k=6",
+              "coverage": {
+                "covered": 983,
+                "total": 1000,
+                "fraction": 0.983,
+                "monte_carlo_95_interval": [
+                  0.9729205031351487,
+                  0.9900664874072834
+                ]
+              },
+              "width": {
+                "defined": 993,
+                "undefined": 7,
+                "quantiles_10_50_90": [
+                  0.5720214843775,
+                  0.5720214861975,
+                  0.5720215234374946
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=2",
+              "coverage": {
+                "covered": 983,
+                "total": 1000,
+                "fraction": 0.983,
+                "monte_carlo_95_interval": [
+                  0.9729205031351487,
+                  0.9900664874072834
+                ]
+              },
+              "width": {
+                "defined": 993,
+                "undefined": 7,
+                "quantiles_10_50_90": [
+                  0.2504995504046358,
+                  0.2544638428727308,
+                  0.2622249388753056
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=6",
+              "coverage": {
+                "covered": 983,
+                "total": 1000,
+                "fraction": 0.983,
+                "monte_carlo_95_interval": [
+                  0.9729205031351487,
+                  0.9900664874072834
+                ]
+              },
+              "width": {
+                "defined": 993,
+                "undefined": 7,
+                "quantiles_10_50_90": [
+                  0.48437500000500044,
+                  0.4843750036450005,
+                  0.4843750781249895
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=2",
+              "coverage": {
+                "covered": 983,
+                "total": 1000,
+                "fraction": 0.983,
+                "monte_carlo_95_interval": [
+                  0.9729205031351487,
+                  0.9900664874072834
+                ]
+              },
+              "width": {
+                "defined": 993,
+                "undefined": 7,
+                "quantiles_10_50_90": [
+                  0.18824932560695384,
+                  0.19419576430909646,
+                  0.20583740831295871
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=6",
+              "coverage": {
+                "covered": 983,
+                "total": 1000,
+                "fraction": 0.983,
+                "monte_carlo_95_interval": [
+                  0.9729205031351487,
+                  0.9900664874072834
+                ]
+              },
+              "width": {
+                "defined": 993,
+                "undefined": 7,
+                "quantiles_10_50_90": [
+                  0.24975585938250022,
+                  0.24975586484250023,
+                  0.24975597656248383
+                ]
+              }
+            }
+          ]
+        },
+        "q1_and_q2": {
+          "empty_sets": 15,
+          "candidate_count_quantiles_10_50_90": [
+            8.0,
+            21.0,
+            42.0
+          ],
+          "parameter_coverage": {
+            "covered": 972,
+            "total": 1000,
+            "fraction": 0.972,
+            "monte_carlo_95_interval": [
+              0.9597851126261567,
+              0.9813153138044625
+            ]
+          },
+          "simultaneous_prediction_coverage": {
+            "covered": 972,
+            "total": 1000,
+            "fraction": 0.972,
+            "monte_carlo_95_interval": [
+              0.9597851126261567,
+              0.9813153138044625
+            ]
+          },
+          "targets": [
+            {
+              "target": "h=0.925,k=2",
+              "coverage": {
+                "covered": 972,
+                "total": 1000,
+                "fraction": 0.972,
+                "monte_carlo_95_interval": [
+                  0.9597851126261567,
+                  0.9813153138044625
+                ]
+              },
+              "width": {
+                "defined": 985,
+                "undefined": 15,
+                "quantiles_10_50_90": [
+                  0.0920701841403685,
+                  0.1339285714285715,
+                  0.15559116208466872
+                ]
+              }
+            },
+            {
+              "target": "h=0.925,k=6",
+              "coverage": {
+                "covered": 972,
+                "total": 1000,
+                "fraction": 0.972,
+                "monte_carlo_95_interval": [
+                  0.9597851126261567,
+                  0.9813153138044625
+                ]
+              },
+              "width": {
+                "defined": 985,
+                "undefined": 15,
+                "quantiles_10_50_90": [
+                  0.12866231918610305,
+                  0.29165190586386824,
+                  0.3792392383150742
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=2",
+              "coverage": {
+                "covered": 972,
+                "total": 1000,
+                "fraction": 0.972,
+                "monte_carlo_95_interval": [
+                  0.9597851126261567,
+                  0.9813153138044625
+                ]
+              },
+              "width": {
+                "defined": 985,
+                "undefined": 15,
+                "quantiles_10_50_90": [
+                  0.1320602641205283,
+                  0.18222676657004278,
+                  0.21913245903150713
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=6",
+              "coverage": {
+                "covered": 972,
+                "total": 1000,
+                "fraction": 0.972,
+                "monte_carlo_95_interval": [
+                  0.9597851126261567,
+                  0.9813153138044625
+                ]
+              },
+              "width": {
+                "defined": 985,
+                "undefined": 15,
+                "quantiles_10_50_90": [
+                  0.0531060647187539,
+                  0.17063242316324467,
+                  0.2552334847411618
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=2",
+              "coverage": {
+                "covered": 972,
+                "total": 1000,
+                "fraction": 0.972,
+                "monte_carlo_95_interval": [
+                  0.9597851126261567,
+                  0.9813153138044625
+                ]
+              },
+              "width": {
+                "defined": 985,
+                "undefined": 15,
+                "quantiles_10_50_90": [
+                  0.11123073244484816,
+                  0.1549829678119724,
+                  0.19892191209348442
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=6",
+              "coverage": {
+                "covered": 972,
+                "total": 1000,
+                "fraction": 0.972,
+                "monte_carlo_95_interval": [
+                  0.9597851126261567,
+                  0.9813153138044625
+                ]
+              },
+              "width": {
+                "defined": 985,
+                "undefined": 15,
+                "quantiles_10_50_90": [
+                  0.008265478469744347,
+                  0.05168700773687018,
+                  0.0964200387543499
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "contraction": [
+        {
+          "target": "h=0.925,k=2",
+          "both_defined": 985,
+          "strictly_narrower_count": 985,
+          "median_absolute_width_reduction": 0.05687049559698687
+        },
+        {
+          "target": "h=0.925,k=6",
+          "both_defined": 985,
+          "strictly_narrower_count": 985,
+          "median_absolute_width_reduction": 0.2803695887511314
+        },
+        {
+          "target": "h=0.950,k=2",
+          "both_defined": 985,
+          "strictly_narrower_count": 983,
+          "median_absolute_width_reduction": 0.07132487617130878
+        },
+        {
+          "target": "h=0.950,k=6",
+          "both_defined": 985,
+          "strictly_narrower_count": 985,
+          "median_absolute_width_reduction": 0.313742597316755
+        },
+        {
+          "target": "h=0.975,k=2",
+          "both_defined": 985,
+          "strictly_narrower_count": 942,
+          "median_absolute_width_reduction": 0.043801855133480005
+        },
+        {
+          "target": "h=0.975,k=6",
+          "both_defined": 985,
+          "strictly_narrower_count": 985,
+          "median_absolute_width_reduction": 0.19806888235812892
+        }
+      ]
+    },
+    {
+      "truth": "independent",
+      "rho": 0.0,
+      "e": 1.0,
+      "n_per_assay": 2000,
+      "true_q1": 0.09999999999999998,
+      "true_q2": 0.009999999999999995,
+      "true_predictions": [
+        0.43750000000000033,
+        0.8220214843750003,
+        0.7499999999999994,
+        0.9843749999999999,
+        0.9374999999999999,
+        0.999755859375
+      ],
+      "information_sets": {
+        "q1_only": {
+          "empty_sets": 11,
+          "candidate_count_quantiles_10_50_90": [
+            41.0,
+            82.0,
+            123.0
+          ],
+          "parameter_coverage": {
+            "covered": 974,
+            "total": 1000,
+            "fraction": 0.974,
+            "monte_carlo_95_interval": [
+              0.9621348775210785,
+              0.9829472136543705
+            ]
+          },
+          "simultaneous_prediction_coverage": {
+            "covered": 974,
+            "total": 1000,
+            "fraction": 0.974,
+            "monte_carlo_95_interval": [
+              0.9621348775210785,
+              0.9829472136543705
+            ]
+          },
+          "targets": [
+            {
+              "target": "h=0.925,k=2",
+              "coverage": {
+                "covered": 974,
+                "total": 1000,
+                "fraction": 0.974,
+                "monte_carlo_95_interval": [
+                  0.9621348775210785,
+                  0.9829472136543705
+                ]
+              },
+              "width": {
+                "defined": 989,
+                "undefined": 11,
+                "quantiles_10_50_90": [
+                  0.1875,
+                  0.18774977520231784,
+                  0.18849641291351138
+                ]
+              }
+            },
+            {
+              "target": "h=0.925,k=6",
+              "coverage": {
+                "covered": 974,
+                "total": 1000,
+                "fraction": 0.974,
+                "monte_carlo_95_interval": [
+                  0.9621348775210785,
+                  0.9829472136543705
+                ]
+              },
+              "width": {
+                "defined": 989,
+                "undefined": 11,
+                "quantiles_10_50_90": [
+                  0.572021484375,
+                  0.5720214843775,
+                  0.5720214845350001
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=2",
+              "coverage": {
+                "covered": 974,
+                "total": 1000,
+                "fraction": 0.974,
+                "monte_carlo_95_interval": [
+                  0.9621348775210785,
+                  0.9829472136543705
+                ]
+              },
+              "width": {
+                "defined": 989,
+                "undefined": 11,
+                "quantiles_10_50_90": [
+                  0.25,
+                  0.2504995504046358,
+                  0.25199282582702276
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=6",
+              "coverage": {
+                "covered": 974,
+                "total": 1000,
+                "fraction": 0.974,
+                "monte_carlo_95_interval": [
+                  0.9621348775210785,
+                  0.9829472136543705
+                ]
+              },
+              "width": {
+                "defined": 989,
+                "undefined": 11,
+                "quantiles_10_50_90": [
+                  0.48437500000000044,
+                  0.48437500000500044,
+                  0.48437500032000047
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=2",
+              "coverage": {
+                "covered": 974,
+                "total": 1000,
+                "fraction": 0.974,
+                "monte_carlo_95_interval": [
+                  0.9621348775210785,
+                  0.9829472136543705
+                ]
+              },
+              "width": {
+                "defined": 989,
+                "undefined": 11,
+                "quantiles_10_50_90": [
+                  0.1875000000000001,
+                  0.18824932560695384,
+                  0.19048923874053425
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=6",
+              "coverage": {
+                "covered": 974,
+                "total": 1000,
+                "fraction": 0.974,
+                "monte_carlo_95_interval": [
+                  0.9621348775210785,
+                  0.9829472136543705
+                ]
+              },
+              "width": {
+                "defined": 989,
+                "undefined": 11,
+                "quantiles_10_50_90": [
+                  0.24975585937500022,
+                  0.24975585938250022,
+                  0.24975585985500026
+                ]
+              }
+            }
+          ]
+        },
+        "q1_and_q2": {
+          "empty_sets": 16,
+          "candidate_count_quantiles_10_50_90": [
+            2.0,
+            5.0,
+            10.0
+          ],
+          "parameter_coverage": {
+            "covered": 963,
+            "total": 1000,
+            "fraction": 0.963,
+            "monte_carlo_95_interval": [
+              0.9493588769400751,
+              0.9738172911562627
+            ]
+          },
+          "simultaneous_prediction_coverage": {
+            "covered": 963,
+            "total": 1000,
+            "fraction": 0.963,
+            "monte_carlo_95_interval": [
+              0.9493588769400751,
+              0.9738172911562627
+            ]
+          },
+          "targets": [
+            {
+              "target": "h=0.925,k=2",
+              "coverage": {
+                "covered": 963,
+                "total": 1000,
+                "fraction": 0.963,
+                "monte_carlo_95_interval": [
+                  0.9493588769400751,
+                  0.9738172911562627
+                ]
+              },
+              "width": {
+                "defined": 984,
+                "undefined": 16,
+                "quantiles_10_50_90": [
+                  0.03826530612244894,
+                  0.06535478310830234,
+                  0.09922146466584103
+                ]
+              }
+            },
+            {
+              "target": "h=0.925,k=6",
+              "coverage": {
+                "covered": 963,
+                "total": 1000,
+                "fraction": 0.963,
+                "monte_carlo_95_interval": [
+                  0.9493588769400751,
+                  0.9738172911562627
+                ]
+              },
+              "width": {
+                "defined": 984,
+                "undefined": 16,
+                "quantiles_10_50_90": [
+                  0.06935283475097209,
+                  0.12866231918610305,
+                  0.22138401485278603
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=2",
+              "coverage": {
+                "covered": 963,
+                "total": 1000,
+                "fraction": 0.963,
+                "monte_carlo_95_interval": [
+                  0.9493588769400751,
+                  0.9738172911562627
+                ]
+              },
+              "width": {
+                "defined": 984,
+                "undefined": 16,
+                "quantiles_10_50_90": [
+                  0.05102040816326525,
+                  0.0919276070094801,
+                  0.1359490951342227
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=6",
+              "coverage": {
+                "covered": 963,
+                "total": 1000,
+                "fraction": 0.963,
+                "monte_carlo_95_interval": [
+                  0.9493588769400751,
+                  0.9738172911562627
+                ]
+              },
+              "width": {
+                "defined": 984,
+                "undefined": 16,
+                "quantiles_10_50_90": [
+                  0.02392073794136218,
+                  0.0531060647187539,
+                  0.11380710393647453
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=2",
+              "coverage": {
+                "covered": 963,
+                "total": 1000,
+                "fraction": 0.963,
+                "monte_carlo_95_interval": [
+                  0.9493588769400751,
+                  0.9738172911562627
+                ]
+              },
+              "width": {
+                "defined": 984,
+                "undefined": 16,
+                "quantiles_10_50_90": [
+                  0.03913811968689507,
+                  0.07971847170353363,
+                  0.11018289140514548
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=6",
+              "coverage": {
+                "covered": 963,
+                "total": 1000,
+                "fraction": 0.963,
+                "monte_carlo_95_interval": [
+                  0.9493588769400751,
+                  0.9738172911562627
+                ]
+              },
+              "width": {
+                "defined": 984,
+                "undefined": 16,
+                "quantiles_10_50_90": [
+                  0.002415329452720383,
+                  0.008265478469744347,
+                  0.02760760675581586
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "contraction": [
+        {
+          "target": "h=0.925,k=2",
+          "both_defined": 984,
+          "strictly_narrower_count": 984,
+          "median_absolute_width_reduction": 0.12284482758620685
+        },
+        {
+          "target": "h=0.925,k=6",
+          "both_defined": 984,
+          "strictly_narrower_count": 984,
+          "median_absolute_width_reduction": 0.44335916519139695
+        },
+        {
+          "target": "h=0.950,k=2",
+          "both_defined": 984,
+          "strictly_narrower_count": 984,
+          "median_absolute_width_reduction": 0.16006521881754265
+        },
+        {
+          "target": "h=0.950,k=6",
+          "both_defined": 984,
+          "strictly_narrower_count": 984,
+          "median_absolute_width_reduction": 0.43126893528624655
+        },
+        {
+          "target": "h=0.975,k=2",
+          "both_defined": 984,
+          "strictly_narrower_count": 984,
+          "median_absolute_width_reduction": 0.11077076703700062
+        },
+        {
+          "target": "h=0.975,k=6",
+          "both_defined": 984,
+          "strictly_narrower_count": 984,
+          "median_absolute_width_reduction": 0.24149038091275588
+        }
+      ]
+    },
+    {
+      "truth": "independent",
+      "rho": 0.0,
+      "e": 1.0,
+      "n_per_assay": 8000,
+      "true_q1": 0.09999999999999998,
+      "true_q2": 0.009999999999999995,
+      "true_predictions": [
+        0.43750000000000033,
+        0.8220214843750003,
+        0.7499999999999994,
+        0.9843749999999999,
+        0.9374999999999999,
+        0.999755859375
+      ],
+      "information_sets": {
+        "q1_only": {
+          "empty_sets": 6,
+          "candidate_count_quantiles_10_50_90": [
+            41.0,
+            41.0,
+            82.0
+          ],
+          "parameter_coverage": {
+            "covered": 982,
+            "total": 1000,
+            "fraction": 0.982,
+            "monte_carlo_95_interval": [
+              0.9717009587509808,
+              0.9892980520705853
+            ]
+          },
+          "simultaneous_prediction_coverage": {
+            "covered": 982,
+            "total": 1000,
+            "fraction": 0.982,
+            "monte_carlo_95_interval": [
+              0.9717009587509808,
+              0.9892980520705853
+            ]
+          },
+          "targets": [
+            {
+              "target": "h=0.925,k=2",
+              "coverage": {
+                "covered": 982,
+                "total": 1000,
+                "fraction": 0.982,
+                "monte_carlo_95_interval": [
+                  0.9717009587509808,
+                  0.9892980520705853
+                ]
+              },
+              "width": {
+                "defined": 994,
+                "undefined": 6,
+                "quantiles_10_50_90": [
+                  0.1875,
+                  0.1875,
+                  0.18774977520231784
+                ]
+              }
+            },
+            {
+              "target": "h=0.925,k=6",
+              "coverage": {
+                "covered": 982,
+                "total": 1000,
+                "fraction": 0.982,
+                "monte_carlo_95_interval": [
+                  0.9717009587509808,
+                  0.9892980520705853
+                ]
+              },
+              "width": {
+                "defined": 994,
+                "undefined": 6,
+                "quantiles_10_50_90": [
+                  0.572021484375,
+                  0.572021484375,
+                  0.5720214843775
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=2",
+              "coverage": {
+                "covered": 982,
+                "total": 1000,
+                "fraction": 0.982,
+                "monte_carlo_95_interval": [
+                  0.9717009587509808,
+                  0.9892980520705853
+                ]
+              },
+              "width": {
+                "defined": 994,
+                "undefined": 6,
+                "quantiles_10_50_90": [
+                  0.25,
+                  0.25,
+                  0.2504995504046358
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=6",
+              "coverage": {
+                "covered": 982,
+                "total": 1000,
+                "fraction": 0.982,
+                "monte_carlo_95_interval": [
+                  0.9717009587509808,
+                  0.9892980520705853
+                ]
+              },
+              "width": {
+                "defined": 994,
+                "undefined": 6,
+                "quantiles_10_50_90": [
+                  0.48437500000000044,
+                  0.48437500000000044,
+                  0.48437500000500044
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=2",
+              "coverage": {
+                "covered": 982,
+                "total": 1000,
+                "fraction": 0.982,
+                "monte_carlo_95_interval": [
+                  0.9717009587509808,
+                  0.9892980520705853
+                ]
+              },
+              "width": {
+                "defined": 994,
+                "undefined": 6,
+                "quantiles_10_50_90": [
+                  0.1875000000000001,
+                  0.1875000000000001,
+                  0.18824932560695384
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=6",
+              "coverage": {
+                "covered": 982,
+                "total": 1000,
+                "fraction": 0.982,
+                "monte_carlo_95_interval": [
+                  0.9717009587509808,
+                  0.9892980520705853
+                ]
+              },
+              "width": {
+                "defined": 994,
+                "undefined": 6,
+                "quantiles_10_50_90": [
+                  0.24975585937500022,
+                  0.24975585937500022,
+                  0.24975585938250022
+                ]
+              }
+            }
+          ]
+        },
+        "q1_and_q2": {
+          "empty_sets": 26,
+          "candidate_count_quantiles_10_50_90": [
+            1.0,
+            2.0,
+            3.0
+          ],
+          "parameter_coverage": {
+            "covered": 952,
+            "total": 1000,
+            "fraction": 0.952,
+            "monte_carlo_95_interval": [
+              0.9368598845984908,
+              0.9643997346571167
+            ]
+          },
+          "simultaneous_prediction_coverage": {
+            "covered": 952,
+            "total": 1000,
+            "fraction": 0.952,
+            "monte_carlo_95_interval": [
+              0.9368598845984908,
+              0.9643997346571167
+            ]
+          },
+          "targets": [
+            {
+              "target": "h=0.925,k=2",
+              "coverage": {
+                "covered": 952,
+                "total": 1000,
+                "fraction": 0.952,
+                "monte_carlo_95_interval": [
+                  0.9368598845984908,
+                  0.9643997346571167
+                ]
+              },
+              "width": {
+                "defined": 974,
+                "undefined": 26,
+                "quantiles_10_50_90": [
+                  0.0,
+                  0.03826530612244894,
+                  0.03826530612244894
+                ]
+              }
+            },
+            {
+              "target": "h=0.925,k=6",
+              "coverage": {
+                "covered": 952,
+                "total": 1000,
+                "fraction": 0.952,
+                "monte_carlo_95_interval": [
+                  0.9368598845984908,
+                  0.9643997346571167
+                ]
+              },
+              "width": {
+                "defined": 974,
+                "undefined": 26,
+                "quantiles_10_50_90": [
+                  0.0,
+                  0.06935283475097209,
+                  0.06935283475097209
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=2",
+              "coverage": {
+                "covered": 952,
+                "total": 1000,
+                "fraction": 0.952,
+                "monte_carlo_95_interval": [
+                  0.9368598845984908,
+                  0.9643997346571167
+                ]
+              },
+              "width": {
+                "defined": 974,
+                "undefined": 26,
+                "quantiles_10_50_90": [
+                  0.0,
+                  0.05102040816326525,
+                  0.05102040816326525
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=6",
+              "coverage": {
+                "covered": 952,
+                "total": 1000,
+                "fraction": 0.952,
+                "monte_carlo_95_interval": [
+                  0.9368598845984908,
+                  0.9643997346571167
+                ]
+              },
+              "width": {
+                "defined": 974,
+                "undefined": 26,
+                "quantiles_10_50_90": [
+                  0.0,
+                  0.02392073794136218,
+                  0.027605950126583095
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=2",
+              "coverage": {
+                "covered": 952,
+                "total": 1000,
+                "fraction": 0.952,
+                "monte_carlo_95_interval": [
+                  0.9368598845984908,
+                  0.9643997346571167
+                ]
+              },
+              "width": {
+                "defined": 974,
+                "undefined": 26,
+                "quantiles_10_50_90": [
+                  0.0,
+                  0.03826530612244905,
+                  0.03913811968689507
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=6",
+              "coverage": {
+                "covered": 952,
+                "total": 1000,
+                "fraction": 0.952,
+                "monte_carlo_95_interval": [
+                  0.9368598845984908,
+                  0.9643997346571167
+                ]
+              },
+              "width": {
+                "defined": 974,
+                "undefined": 26,
+                "quantiles_10_50_90": [
+                  0.0,
+                  0.002415329452720383,
+                  0.003517273893033638
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "contraction": [
+        {
+          "target": "h=0.925,k=2",
+          "both_defined": 974,
+          "strictly_narrower_count": 974,
+          "median_absolute_width_reduction": 0.1494844690798689
+        },
+        {
+          "target": "h=0.925,k=6",
+          "both_defined": 974,
+          "strictly_narrower_count": 974,
+          "median_absolute_width_reduction": 0.5026686496265279
+        },
+        {
+          "target": "h=0.950,k=2",
+          "both_defined": 974,
+          "strictly_narrower_count": 974,
+          "median_absolute_width_reduction": 0.19947914224137053
+        },
+        {
+          "target": "h=0.950,k=6",
+          "both_defined": 974,
+          "strictly_narrower_count": 974,
+          "median_absolute_width_reduction": 0.46045426206363826
+        },
+        {
+          "target": "h=0.975,k=2",
+          "both_defined": 974,
+          "strictly_narrower_count": 974,
+          "median_absolute_width_reduction": 0.14923469387755106
+        },
+        {
+          "target": "h=0.975,k=6",
+          "both_defined": 974,
+          "strictly_narrower_count": 974,
+          "median_absolute_width_reduction": 0.24734052992977984
+        }
+      ]
+    },
+    {
+      "truth": "clustered",
+      "rho": 0.5,
+      "e": 1.0,
+      "n_per_assay": 500,
+      "true_q1": 0.09999999999999998,
+      "true_q2": 0.05499999999999999,
+      "true_predictions": [
+        0.2670454545454549,
+        0.3314403545281277,
+        0.5227272727272723,
+        0.6037647818082468,
+        0.7670454545454544,
+        0.8243711288829897
+      ],
+      "information_sets": {
+        "q1_only": {
+          "empty_sets": 14,
+          "candidate_count_quantiles_10_50_90": [
+            82.0,
+            164.0,
+            246.0
+          ],
+          "parameter_coverage": {
+            "covered": 985,
+            "total": 1000,
+            "fraction": 0.985,
+            "monte_carlo_95_interval": [
+              0.9753802999029588,
+              0.9915809502499656
+            ]
+          },
+          "simultaneous_prediction_coverage": {
+            "covered": 986,
+            "total": 1000,
+            "fraction": 0.986,
+            "monte_carlo_95_interval": [
+              0.9766218439896855,
+              0.9923254984349792
+            ]
+          },
+          "targets": [
+            {
+              "target": "h=0.925,k=2",
+              "coverage": {
+                "covered": 986,
+                "total": 1000,
+                "fraction": 0.986,
+                "monte_carlo_95_interval": [
+                  0.9766218439896855,
+                  0.9923254984349792
+                ]
+              },
+              "width": {
+                "defined": 986,
+                "undefined": 14,
+                "quantiles_10_50_90": [
+                  0.18774977520231784,
+                  0.1897319214363654,
+                  0.19361246943765298
+                ]
+              }
+            },
+            {
+              "target": "h=0.925,k=6",
+              "coverage": {
+                "covered": 986,
+                "total": 1000,
+                "fraction": 0.986,
+                "monte_carlo_95_interval": [
+                  0.9766218439896855,
+                  0.9923254984349792
+                ]
+              },
+              "width": {
+                "defined": 986,
+                "undefined": 14,
+                "quantiles_10_50_90": [
+                  0.5720214843775,
+                  0.5720214861975,
+                  0.5720215234374946
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=2",
+              "coverage": {
+                "covered": 986,
+                "total": 1000,
+                "fraction": 0.986,
+                "monte_carlo_95_interval": [
+                  0.9766218439896855,
+                  0.9923254984349792
+                ]
+              },
+              "width": {
+                "defined": 986,
+                "undefined": 14,
+                "quantiles_10_50_90": [
+                  0.2504995504046358,
+                  0.2544638428727308,
+                  0.2622249388753056
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=6",
+              "coverage": {
+                "covered": 986,
+                "total": 1000,
+                "fraction": 0.986,
+                "monte_carlo_95_interval": [
+                  0.9766218439896855,
+                  0.9923254984349792
+                ]
+              },
+              "width": {
+                "defined": 986,
+                "undefined": 14,
+                "quantiles_10_50_90": [
+                  0.48437500000500044,
+                  0.4843750036450005,
+                  0.4843750781249895
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=2",
+              "coverage": {
+                "covered": 986,
+                "total": 1000,
+                "fraction": 0.986,
+                "monte_carlo_95_interval": [
+                  0.9766218439896855,
+                  0.9923254984349792
+                ]
+              },
+              "width": {
+                "defined": 986,
+                "undefined": 14,
+                "quantiles_10_50_90": [
+                  0.18824932560695384,
+                  0.19419576430909646,
+                  0.20583740831295871
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=6",
+              "coverage": {
+                "covered": 986,
+                "total": 1000,
+                "fraction": 0.986,
+                "monte_carlo_95_interval": [
+                  0.9766218439896855,
+                  0.9923254984349792
+                ]
+              },
+              "width": {
+                "defined": 986,
+                "undefined": 14,
+                "quantiles_10_50_90": [
+                  0.24975585938250022,
+                  0.24975586484250023,
+                  0.24975597656248383
+                ]
+              }
+            }
+          ]
+        },
+        "q1_and_q2": {
+          "empty_sets": 14,
+          "candidate_count_quantiles_10_50_90": [
+            43.0,
+            92.0,
+            142.0
+          ],
+          "parameter_coverage": {
+            "covered": 954,
+            "total": 1000,
+            "fraction": 0.954,
+            "monte_carlo_95_interval": [
+              0.9391164472862573,
+              0.9661285014523221
+            ]
+          },
+          "simultaneous_prediction_coverage": {
+            "covered": 955,
+            "total": 1000,
+            "fraction": 0.955,
+            "monte_carlo_95_interval": [
+              0.9402471673065922,
+              0.9669903745688513
+            ]
+          },
+          "targets": [
+            {
+              "target": "h=0.925,k=2",
+              "coverage": {
+                "covered": 965,
+                "total": 1000,
+                "fraction": 0.965,
+                "monte_carlo_95_interval": [
+                  0.9516576183857783,
+                  0.9755024721052413
+                ]
+              },
+              "width": {
+                "defined": 986,
+                "undefined": 14,
+                "quantiles_10_50_90": [
+                  0.025614429240384817,
+                  0.03776552152329393,
+                  0.0561540995537666
+                ]
+              }
+            },
+            {
+              "target": "h=0.925,k=6",
+              "coverage": {
+                "covered": 965,
+                "total": 1000,
+                "fraction": 0.965,
+                "monte_carlo_95_interval": [
+                  0.9516576183857783,
+                  0.9755024721052413
+                ]
+              },
+              "width": {
+                "defined": 986,
+                "undefined": 14,
+                "quantiles_10_50_90": [
+                  0.12290034720605225,
+                  0.18663596980102848,
+                  0.2847101463997018
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=2",
+              "coverage": {
+                "covered": 965,
+                "total": 1000,
+                "fraction": 0.965,
+                "monte_carlo_95_interval": [
+                  0.9516576183857783,
+                  0.9755024721052413
+                ]
+              },
+              "width": {
+                "defined": 986,
+                "undefined": 14,
+                "quantiles_10_50_90": [
+                  0.035640226105672246,
+                  0.05260983254913487,
+                  0.07823732767260694
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=6",
+              "coverage": {
+                "covered": 965,
+                "total": 1000,
+                "fraction": 0.965,
+                "monte_carlo_95_interval": [
+                  0.9516576183857783,
+                  0.9755024721052413
+                ]
+              },
+              "width": {
+                "defined": 986,
+                "undefined": 14,
+                "quantiles_10_50_90": [
+                  0.15307370114711472,
+                  0.21398812337346795,
+                  0.2942637111654304
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=2",
+              "coverage": {
+                "covered": 966,
+                "total": 1000,
+                "fraction": 0.966,
+                "monte_carlo_95_interval": [
+                  0.9528105613842925,
+                  0.9763413518924032
+                ]
+              },
+              "width": {
+                "defined": 986,
+                "undefined": 14,
+                "quantiles_10_50_90": [
+                  0.028737064345836116,
+                  0.04520202563752329,
+                  0.0744072902817482
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=6",
+              "coverage": {
+                "covered": 965,
+                "total": 1000,
+                "fraction": 0.965,
+                "monte_carlo_95_interval": [
+                  0.9516576183857783,
+                  0.9755024721052413
+                ]
+              },
+              "width": {
+                "defined": 986,
+                "undefined": 14,
+                "quantiles_10_50_90": [
+                  0.10635189780128917,
+                  0.14029368186359237,
+                  0.17237283986270702
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "contraction": [
+        {
+          "target": "h=0.925,k=2",
+          "both_defined": 986,
+          "strictly_narrower_count": 986,
+          "median_absolute_width_reduction": 0.15256449904932012
+        },
+        {
+          "target": "h=0.925,k=6",
+          "both_defined": 986,
+          "strictly_narrower_count": 986,
+          "median_absolute_width_reduction": 0.38538552481397115
+        },
+        {
+          "target": "h=0.950,k=2",
+          "both_defined": 986,
+          "strictly_narrower_count": 986,
+          "median_absolute_width_reduction": 0.2035152357207195
+        },
+        {
+          "target": "h=0.950,k=6",
+          "both_defined": 986,
+          "strictly_narrower_count": 986,
+          "median_absolute_width_reduction": 0.27038689710653174
+        },
+        {
+          "target": "h=0.975,k=2",
+          "both_defined": 986,
+          "strictly_narrower_count": 986,
+          "median_absolute_width_reduction": 0.15264553517981483
+        },
+        {
+          "target": "h=0.975,k=6",
+          "both_defined": 986,
+          "strictly_narrower_count": 986,
+          "median_absolute_width_reduction": 0.10946220823140673
+        }
+      ]
+    },
+    {
+      "truth": "clustered",
+      "rho": 0.5,
+      "e": 1.0,
+      "n_per_assay": 2000,
+      "true_q1": 0.09999999999999998,
+      "true_q2": 0.05499999999999999,
+      "true_predictions": [
+        0.2670454545454549,
+        0.3314403545281277,
+        0.5227272727272723,
+        0.6037647818082468,
+        0.7670454545454544,
+        0.8243711288829897
+      ],
+      "information_sets": {
+        "q1_only": {
+          "empty_sets": 10,
+          "candidate_count_quantiles_10_50_90": [
+            41.0,
+            82.0,
+            123.0
+          ],
+          "parameter_coverage": {
+            "covered": 979,
+            "total": 1000,
+            "fraction": 0.979,
+            "monte_carlo_95_interval": [
+              0.9680776648195845,
+              0.9869548077096123
+            ]
+          },
+          "simultaneous_prediction_coverage": {
+            "covered": 990,
+            "total": 1000,
+            "fraction": 0.99,
+            "monte_carlo_95_interval": [
+              0.9816867569448875,
+              0.9951944893089507
+            ]
+          },
+          "targets": [
+            {
+              "target": "h=0.925,k=2",
+              "coverage": {
+                "covered": 990,
+                "total": 1000,
+                "fraction": 0.99,
+                "monte_carlo_95_interval": [
+                  0.9816867569448875,
+                  0.9951944893089507
+                ]
+              },
+              "width": {
+                "defined": 990,
+                "undefined": 10,
+                "quantiles_10_50_90": [
+                  0.1875,
+                  0.18774977520231784,
+                  0.18849641291351138
+                ]
+              }
+            },
+            {
+              "target": "h=0.925,k=6",
+              "coverage": {
+                "covered": 990,
+                "total": 1000,
+                "fraction": 0.99,
+                "monte_carlo_95_interval": [
+                  0.9816867569448875,
+                  0.9951944893089507
+                ]
+              },
+              "width": {
+                "defined": 990,
+                "undefined": 10,
+                "quantiles_10_50_90": [
+                  0.572021484375,
+                  0.5720214843775,
+                  0.5720214845350001
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=2",
+              "coverage": {
+                "covered": 990,
+                "total": 1000,
+                "fraction": 0.99,
+                "monte_carlo_95_interval": [
+                  0.9816867569448875,
+                  0.9951944893089507
+                ]
+              },
+              "width": {
+                "defined": 990,
+                "undefined": 10,
+                "quantiles_10_50_90": [
+                  0.25,
+                  0.2504995504046358,
+                  0.25199282582702276
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=6",
+              "coverage": {
+                "covered": 990,
+                "total": 1000,
+                "fraction": 0.99,
+                "monte_carlo_95_interval": [
+                  0.9816867569448875,
+                  0.9951944893089507
+                ]
+              },
+              "width": {
+                "defined": 990,
+                "undefined": 10,
+                "quantiles_10_50_90": [
+                  0.48437500000000044,
+                  0.48437500000500044,
+                  0.48437500032000047
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=2",
+              "coverage": {
+                "covered": 990,
+                "total": 1000,
+                "fraction": 0.99,
+                "monte_carlo_95_interval": [
+                  0.9816867569448875,
+                  0.9951944893089507
+                ]
+              },
+              "width": {
+                "defined": 990,
+                "undefined": 10,
+                "quantiles_10_50_90": [
+                  0.1875000000000001,
+                  0.18824932560695384,
+                  0.19048923874053425
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=6",
+              "coverage": {
+                "covered": 990,
+                "total": 1000,
+                "fraction": 0.99,
+                "monte_carlo_95_interval": [
+                  0.9816867569448875,
+                  0.9951944893089507
+                ]
+              },
+              "width": {
+                "defined": 990,
+                "undefined": 10,
+                "quantiles_10_50_90": [
+                  0.24975585937500022,
+                  0.24975585938250022,
+                  0.24975585985500026
+                ]
+              }
+            }
+          ]
+        },
+        "q1_and_q2": {
+          "empty_sets": 10,
+          "candidate_count_quantiles_10_50_90": [
+            11.0,
+            22.0,
+            34.0
+          ],
+          "parameter_coverage": {
+            "covered": 960,
+            "total": 1000,
+            "fraction": 0.96,
+            "monte_carlo_95_interval": [
+              0.9459273031806316,
+              0.9712723747141092
+            ]
+          },
+          "simultaneous_prediction_coverage": {
+            "covered": 970,
+            "total": 1000,
+            "fraction": 0.97,
+            "monte_carlo_95_interval": [
+              0.9574485975299709,
+              0.9796695143168904
+            ]
+          },
+          "targets": [
+            {
+              "target": "h=0.925,k=2",
+              "coverage": {
+                "covered": 977,
+                "total": 1000,
+                "fraction": 0.977,
+                "monte_carlo_95_interval": [
+                  0.9656876623871457,
+                  0.9853654176748232
+                ]
+              },
+              "width": {
+                "defined": 990,
+                "undefined": 10,
+                "quantiles_10_50_90": [
+                  0.013272543399709957,
+                  0.015989842072039462,
+                  0.01950796640453878
+                ]
+              }
+            },
+            {
+              "target": "h=0.925,k=6",
+              "coverage": {
+                "covered": 971,
+                "total": 1000,
+                "fraction": 0.971,
+                "monte_carlo_95_interval": [
+                  0.958615280883598,
+                  0.9804940626756153
+                ]
+              },
+              "width": {
+                "defined": 990,
+                "undefined": 10,
+                "quantiles_10_50_90": [
+                  0.06293468545115333,
+                  0.07311257036375696,
+                  0.09260126705019922
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=2",
+              "coverage": {
+                "covered": 977,
+                "total": 1000,
+                "fraction": 0.977,
+                "monte_carlo_95_interval": [
+                  0.9656876623871457,
+                  0.9853654176748232
+                ]
+              },
+              "width": {
+                "defined": 990,
+                "undefined": 10,
+                "quantiles_10_50_90": [
+                  0.017923089844001927,
+                  0.02156334231805923,
+                  0.0267828548677298
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=6",
+              "coverage": {
+                "covered": 971,
+                "total": 1000,
+                "fraction": 0.971,
+                "monte_carlo_95_interval": [
+                  0.958615280883598,
+                  0.9804940626756153
+                ]
+              },
+              "width": {
+                "defined": 990,
+                "undefined": 10,
+                "quantiles_10_50_90": [
+                  0.07731548702937907,
+                  0.08803447581342061,
+                  0.1077484362738319
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=2",
+              "coverage": {
+                "covered": 978,
+                "total": 1000,
+                "fraction": 0.978,
+                "monte_carlo_95_interval": [
+                  0.9668803354850122,
+                  0.9861625858279262
+                ]
+              },
+              "width": {
+                "defined": 990,
+                "undefined": 10,
+                "quantiles_10_50_90": [
+                  0.01384331419196061,
+                  0.016916976510343518,
+                  0.022880482757027365
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=6",
+              "coverage": {
+                "covered": 971,
+                "total": 1000,
+                "fraction": 0.971,
+                "monte_carlo_95_interval": [
+                  0.958615280883598,
+                  0.9804940626756153
+                ]
+              },
+              "width": {
+                "defined": 990,
+                "undefined": 10,
+                "quantiles_10_50_90": [
+                  0.05324977060635594,
+                  0.06013364893186213,
+                  0.07029999430612133
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "contraction": [
+        {
+          "target": "h=0.925,k=2",
+          "both_defined": 990,
+          "strictly_narrower_count": 990,
+          "median_absolute_width_reduction": 0.1721145285727509
+        },
+        {
+          "target": "h=0.925,k=6",
+          "both_defined": 990,
+          "strictly_narrower_count": 990,
+          "median_absolute_width_reduction": 0.49890891401124304
+        },
+        {
+          "target": "h=0.950,k=2",
+          "both_defined": 990,
+          "strictly_narrower_count": 990,
+          "median_absolute_width_reduction": 0.22955835334565122
+        },
+        {
+          "target": "h=0.950,k=6",
+          "both_defined": 990,
+          "strictly_narrower_count": 990,
+          "median_absolute_width_reduction": 0.39634052450657986
+        },
+        {
+          "target": "h=0.975,k=2",
+          "both_defined": 990,
+          "strictly_narrower_count": 990,
+          "median_absolute_width_reduction": 0.17164894795465846
+        },
+        {
+          "target": "h=0.975,k=6",
+          "both_defined": 990,
+          "strictly_narrower_count": 990,
+          "median_absolute_width_reduction": 0.18962221092313813
+        }
+      ]
+    },
+    {
+      "truth": "clustered",
+      "rho": 0.5,
+      "e": 1.0,
+      "n_per_assay": 8000,
+      "true_q1": 0.09999999999999998,
+      "true_q2": 0.05499999999999999,
+      "true_predictions": [
+        0.2670454545454549,
+        0.3314403545281277,
+        0.5227272727272723,
+        0.6037647818082468,
+        0.7670454545454544,
+        0.8243711288829897
+      ],
+      "information_sets": {
+        "q1_only": {
+          "empty_sets": 15,
+          "candidate_count_quantiles_10_50_90": [
+            41.0,
+            41.0,
+            82.0
+          ],
+          "parameter_coverage": {
+            "covered": 967,
+            "total": 1000,
+            "fraction": 0.967,
+            "monte_carlo_95_interval": [
+              0.9539660181829768,
+              0.9771776166505404
+            ]
+          },
+          "simultaneous_prediction_coverage": {
+            "covered": 985,
+            "total": 1000,
+            "fraction": 0.985,
+            "monte_carlo_95_interval": [
+              0.9753802999029588,
+              0.9915809502499656
+            ]
+          },
+          "targets": [
+            {
+              "target": "h=0.925,k=2",
+              "coverage": {
+                "covered": 985,
+                "total": 1000,
+                "fraction": 0.985,
+                "monte_carlo_95_interval": [
+                  0.9753802999029588,
+                  0.9915809502499656
+                ]
+              },
+              "width": {
+                "defined": 985,
+                "undefined": 15,
+                "quantiles_10_50_90": [
+                  0.1875,
+                  0.1875,
+                  0.18774977520231784
+                ]
+              }
+            },
+            {
+              "target": "h=0.925,k=6",
+              "coverage": {
+                "covered": 985,
+                "total": 1000,
+                "fraction": 0.985,
+                "monte_carlo_95_interval": [
+                  0.9753802999029588,
+                  0.9915809502499656
+                ]
+              },
+              "width": {
+                "defined": 985,
+                "undefined": 15,
+                "quantiles_10_50_90": [
+                  0.572021484375,
+                  0.572021484375,
+                  0.5720214843775
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=2",
+              "coverage": {
+                "covered": 985,
+                "total": 1000,
+                "fraction": 0.985,
+                "monte_carlo_95_interval": [
+                  0.9753802999029588,
+                  0.9915809502499656
+                ]
+              },
+              "width": {
+                "defined": 985,
+                "undefined": 15,
+                "quantiles_10_50_90": [
+                  0.25,
+                  0.25,
+                  0.2504995504046358
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=6",
+              "coverage": {
+                "covered": 985,
+                "total": 1000,
+                "fraction": 0.985,
+                "monte_carlo_95_interval": [
+                  0.9753802999029588,
+                  0.9915809502499656
+                ]
+              },
+              "width": {
+                "defined": 985,
+                "undefined": 15,
+                "quantiles_10_50_90": [
+                  0.48437500000000044,
+                  0.48437500000000044,
+                  0.48437500000500044
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=2",
+              "coverage": {
+                "covered": 985,
+                "total": 1000,
+                "fraction": 0.985,
+                "monte_carlo_95_interval": [
+                  0.9753802999029588,
+                  0.9915809502499656
+                ]
+              },
+              "width": {
+                "defined": 985,
+                "undefined": 15,
+                "quantiles_10_50_90": [
+                  0.1875000000000001,
+                  0.1875000000000001,
+                  0.18824932560695384
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=6",
+              "coverage": {
+                "covered": 985,
+                "total": 1000,
+                "fraction": 0.985,
+                "monte_carlo_95_interval": [
+                  0.9753802999029588,
+                  0.9915809502499656
+                ]
+              },
+              "width": {
+                "defined": 985,
+                "undefined": 15,
+                "quantiles_10_50_90": [
+                  0.24975585937500022,
+                  0.24975585937500022,
+                  0.24975585938250022
+                ]
+              }
+            }
+          ]
+        },
+        "q1_and_q2": {
+          "empty_sets": 15,
+          "candidate_count_quantiles_10_50_90": [
+            5.0,
+            5.0,
+            11.0
+          ],
+          "parameter_coverage": {
+            "covered": 947,
+            "total": 1000,
+            "fraction": 0.947,
+            "monte_carlo_95_interval": [
+              0.9312448167100368,
+              0.9600507476399807
+            ]
+          },
+          "simultaneous_prediction_coverage": {
+            "covered": 961,
+            "total": 1000,
+            "fraction": 0.961,
+            "monte_carlo_95_interval": [
+              0.947069064214555,
+              0.9721228512046636
+            ]
+          },
+          "targets": [
+            {
+              "target": "h=0.925,k=2",
+              "coverage": {
+                "covered": 964,
+                "total": 1000,
+                "fraction": 0.964,
+                "monte_carlo_95_interval": [
+                  0.9505070882819876,
+                  0.9746610850701622
+                ]
+              },
+              "width": {
+                "defined": 985,
+                "undefined": 15,
+                "quantiles_10_50_90": [
+                  0.0057562791411630565,
+                  0.006787791026540146,
+                  0.007773482107079621
+                ]
+              }
+            },
+            {
+              "target": "h=0.925,k=6",
+              "coverage": {
+                "covered": 964,
+                "total": 1000,
+                "fraction": 0.964,
+                "monte_carlo_95_interval": [
+                  0.9505070882819876,
+                  0.9746610850701622
+                ]
+              },
+              "width": {
+                "defined": 985,
+                "undefined": 15,
+                "quantiles_10_50_90": [
+                  0.0264349134340367,
+                  0.030637892080229823,
+                  0.03691636233460138
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=2",
+              "coverage": {
+                "covered": 964,
+                "total": 1000,
+                "fraction": 0.964,
+                "monte_carlo_95_interval": [
+                  0.9505070882819876,
+                  0.9746610850701622
+                ]
+              },
+              "width": {
+                "defined": 985,
+                "undefined": 15,
+                "quantiles_10_50_90": [
+                  0.007675038854884297,
+                  0.009050388035387047,
+                  0.01065105729674265
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=6",
+              "coverage": {
+                "covered": 964,
+                "total": 1000,
+                "fraction": 0.964,
+                "monte_carlo_95_interval": [
+                  0.9505070882819876,
+                  0.9746610850701622
+                ]
+              },
+              "width": {
+                "defined": 985,
+                "undefined": 15,
+                "quantiles_10_50_90": [
+                  0.03231534595049135,
+                  0.036781697473847186,
+                  0.04454494376167906
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=2",
+              "coverage": {
+                "covered": 964,
+                "total": 1000,
+                "fraction": 0.964,
+                "monte_carlo_95_interval": [
+                  0.9505070882819876,
+                  0.9746610850701622
+                ]
+              },
+              "width": {
+                "defined": 985,
+                "undefined": 15,
+                "quantiles_10_50_90": [
+                  0.0057562791411631675,
+                  0.0067877910265402575,
+                  0.008124576844955933
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=6",
+              "coverage": {
+                "covered": 964,
+                "total": 1000,
+                "fraction": 0.964,
+                "monte_carlo_95_interval": [
+                  0.9505070882819876,
+                  0.9746610850701622
+                ]
+              },
+              "width": {
+                "defined": 985,
+                "undefined": 15,
+                "quantiles_10_50_90": [
+                  0.022179749125141868,
+                  0.024771066717836354,
+                  0.030155101543006158
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "contraction": [
+        {
+          "target": "h=0.925,k=2",
+          "both_defined": 985,
+          "strictly_narrower_count": 985,
+          "median_absolute_width_reduction": 0.18071400075099808
+        },
+        {
+          "target": "h=0.925,k=6",
+          "both_defined": 985,
+          "strictly_narrower_count": 985,
+          "median_absolute_width_reduction": 0.5413835922947702
+        },
+        {
+          "target": "h=0.950,k=2",
+          "both_defined": 985,
+          "strictly_narrower_count": 985,
+          "median_absolute_width_reduction": 0.24117543578812295
+        },
+        {
+          "target": "h=0.950,k=6",
+          "both_defined": 985,
+          "strictly_narrower_count": 985,
+          "median_absolute_width_reduction": 0.44759330252615326
+        },
+        {
+          "target": "h=0.975,k=2",
+          "both_defined": 985,
+          "strictly_narrower_count": 985,
+          "median_absolute_width_reduction": 0.18086620631042372
+        },
+        {
+          "target": "h=0.975,k=6",
+          "both_defined": 985,
+          "strictly_narrower_count": 985,
+          "median_absolute_width_reduction": 0.22498479265716387
+        }
+      ]
+    },
+    {
+      "truth": "imperfect",
+      "rho": 0.0,
+      "e": 0.8,
+      "n_per_assay": 500,
+      "true_q1": 0.2799999999999999,
+      "true_q2": 0.07839999999999997,
+      "true_predictions": [
+        0.13775510204081642,
+        0.35895000701238455,
+        0.26530612244897933,
+        0.6034305433960335,
+        0.3826530612244896,
+        0.7647184368332922
+      ],
+      "information_sets": {
+        "q1_only": {
+          "empty_sets": 0,
+          "candidate_count_quantiles_10_50_90": [
+            410.0,
+            410.0,
+            451.0
+          ],
+          "parameter_coverage": {
+            "covered": 976,
+            "total": 1000,
+            "fraction": 0.976,
+            "monte_carlo_95_interval": [
+              0.9644993614686408,
+              0.9845636167664915
+            ]
+          },
+          "simultaneous_prediction_coverage": {
+            "covered": 989,
+            "total": 1000,
+            "fraction": 0.989,
+            "monte_carlo_95_interval": [
+              0.9804033717779835,
+              0.9944964058076864
+            ]
+          },
+          "targets": [
+            {
+              "target": "h=0.925,k=2",
+              "coverage": {
+                "covered": 990,
+                "total": 1000,
+                "fraction": 0.99,
+                "monte_carlo_95_interval": [
+                  0.9816867569448875,
+                  0.9951944893089507
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.08370407615473174,
+                  0.08658449456198225,
+                  0.0890802710616675
+                ]
+              }
+            },
+            {
+              "target": "h=0.925,k=6",
+              "coverage": {
+                "covered": 999,
+                "total": 1000,
+                "fraction": 0.999,
+                "monte_carlo_95_interval": [
+                  0.9944410757201734,
+                  0.9999746825125088
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.154217994965964,
+                  0.17928586786952394,
+                  0.22399202956130349
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=2",
+              "coverage": {
+                "covered": 990,
+                "total": 1000,
+                "fraction": 0.99,
+                "monte_carlo_95_interval": [
+                  0.9816867569448875,
+                  0.9951944893089507
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.17307012138697342,
+                  0.18039940091694584,
+                  0.18382251120084503
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=6",
+              "coverage": {
+                "covered": 1000,
+                "total": 1000,
+                "fraction": 1.0,
+                "monte_carlo_95_interval": [
+                  0.9963179161031344,
+                  1.0
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.18619260188175746,
+                  0.20529705224867012,
+                  0.2518777889972028
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=2",
+              "coverage": {
+                "covered": 990,
+                "total": 1000,
+                "fraction": 0.99,
+                "monte_carlo_95_interval": [
+                  0.9816867569448875,
+                  0.9951944893089507
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.2680981356967256,
+                  0.281444719064892,
+                  0.28638842649299934
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=6",
+              "coverage": {
+                "covered": 1000,
+                "total": 1000,
+                "fraction": 1.0,
+                "monte_carlo_95_interval": [
+                  0.9963179161031344,
+                  1.0
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.17476474618967341,
+                  0.194632812555256,
+                  0.21725535436851118
+                ]
+              }
+            }
+          ]
+        },
+        "q1_and_q2": {
+          "empty_sets": 2,
+          "candidate_count_quantiles_10_50_90": [
+            80.0,
+            209.0,
+            325.1
+          ],
+          "parameter_coverage": {
+            "covered": 960,
+            "total": 1000,
+            "fraction": 0.96,
+            "monte_carlo_95_interval": [
+              0.9459273031806316,
+              0.9712723747141092
+            ]
+          },
+          "simultaneous_prediction_coverage": {
+            "covered": 981,
+            "total": 1000,
+            "fraction": 0.981,
+            "monte_carlo_95_interval": [
+              0.9704875983749022,
+              0.988522963006899
+            ]
+          },
+          "targets": [
+            {
+              "target": "h=0.925,k=2",
+              "coverage": {
+                "covered": 982,
+                "total": 1000,
+                "fraction": 0.982,
+                "monte_carlo_95_interval": [
+                  0.9717009587509808,
+                  0.9892980520705853
+                ]
+              },
+              "width": {
+                "defined": 998,
+                "undefined": 2,
+                "quantiles_10_50_90": [
+                  0.05927722162438931,
+                  0.08303558846753167,
+                  0.08687207405507169
+                ]
+              }
+            },
+            {
+              "target": "h=0.925,k=6",
+              "coverage": {
+                "covered": 992,
+                "total": 1000,
+                "fraction": 0.992,
+                "monte_carlo_95_interval": [
+                  0.9842979508239253,
+                  0.9965400238346707
+                ]
+              },
+              "width": {
+                "defined": 998,
+                "undefined": 2,
+                "quantiles_10_50_90": [
+                  0.09235518273561967,
+                  0.1630214535498682,
+                  0.19779073033087055
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=2",
+              "coverage": {
+                "covered": 982,
+                "total": 1000,
+                "fraction": 0.982,
+                "monte_carlo_95_interval": [
+                  0.9717009587509808,
+                  0.9892980520705853
+                ]
+              },
+              "width": {
+                "defined": 998,
+                "undefined": 2,
+                "quantiles_10_50_90": [
+                  0.12188613824263805,
+                  0.1713752580395359,
+                  0.18160762676774178
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=6",
+              "coverage": {
+                "covered": 992,
+                "total": 1000,
+                "fraction": 0.992,
+                "monte_carlo_95_interval": [
+                  0.9842979508239253,
+                  0.9965400238346707
+                ]
+              },
+              "width": {
+                "defined": 998,
+                "undefined": 2,
+                "quantiles_10_50_90": [
+                  0.13297581458609697,
+                  0.18430450257097641,
+                  0.22717037776595905
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=2",
+              "coverage": {
+                "covered": 982,
+                "total": 1000,
+                "fraction": 0.982,
+                "monte_carlo_95_interval": [
+                  0.9717009587509808,
+                  0.9892980520705853
+                ]
+              },
+              "width": {
+                "defined": 998,
+                "undefined": 2,
+                "quantiles_10_50_90": [
+                  0.1878016028115139,
+                  0.2650190087160129,
+                  0.2842066581380105
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=6",
+              "coverage": {
+                "covered": 989,
+                "total": 1000,
+                "fraction": 0.989,
+                "monte_carlo_95_interval": [
+                  0.9804033717779835,
+                  0.9944964058076864
+                ]
+              },
+              "width": {
+                "defined": 998,
+                "undefined": 2,
+                "quantiles_10_50_90": [
+                  0.1417353397148614,
+                  0.18145406036848322,
+                  0.20110821905188758
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "contraction": [
+        {
+          "target": "h=0.925,k=2",
+          "both_defined": 998,
+          "strictly_narrower_count": 786,
+          "median_absolute_width_reduction": 0.0029598707902148136
+        },
+        {
+          "target": "h=0.925,k=6",
+          "both_defined": 998,
+          "strictly_narrower_count": 998,
+          "median_absolute_width_reduction": 0.030136726853773055
+        },
+        {
+          "target": "h=0.950,k=2",
+          "both_defined": 998,
+          "strictly_narrower_count": 785,
+          "median_absolute_width_reduction": 0.008187170541768096
+        },
+        {
+          "target": "h=0.950,k=6",
+          "both_defined": 998,
+          "strictly_narrower_count": 962,
+          "median_absolute_width_reduction": 0.029060663234023676
+        },
+        {
+          "target": "h=0.975,k=2",
+          "both_defined": 998,
+          "strictly_narrower_count": 785,
+          "median_absolute_width_reduction": 0.014243639244439388
+        },
+        {
+          "target": "h=0.975,k=6",
+          "both_defined": 998,
+          "strictly_narrower_count": 562,
+          "median_absolute_width_reduction": 0.007557843116728247
+        }
+      ]
+    },
+    {
+      "truth": "imperfect",
+      "rho": 0.0,
+      "e": 0.8,
+      "n_per_assay": 2000,
+      "true_q1": 0.2799999999999999,
+      "true_q2": 0.07839999999999997,
+      "true_predictions": [
+        0.13775510204081642,
+        0.35895000701238455,
+        0.26530612244897933,
+        0.6034305433960335,
+        0.3826530612244896,
+        0.7647184368332922
+      ],
+      "information_sets": {
+        "q1_only": {
+          "empty_sets": 0,
+          "candidate_count_quantiles_10_50_90": [
+            205.0,
+            205.0,
+            205.0
+          ],
+          "parameter_coverage": {
+            "covered": 979,
+            "total": 1000,
+            "fraction": 0.979,
+            "monte_carlo_95_interval": [
+              0.9680776648195845,
+              0.9869548077096123
+            ]
+          },
+          "simultaneous_prediction_coverage": {
+            "covered": 989,
+            "total": 1000,
+            "fraction": 0.989,
+            "monte_carlo_95_interval": [
+              0.9804033717779835,
+              0.9944964058076864
+            ]
+          },
+          "targets": [
+            {
+              "target": "h=0.925,k=2",
+              "coverage": {
+                "covered": 989,
+                "total": 1000,
+                "fraction": 0.989,
+                "monte_carlo_95_interval": [
+                  0.9804033717779835,
+                  0.9944964058076864
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.05983262957482327,
+                  0.0606553126360706,
+                  0.060696504279735164
+                ]
+              }
+            },
+            {
+              "target": "h=0.925,k=6",
+              "coverage": {
+                "covered": 1000,
+                "total": 1000,
+                "fraction": 1.0,
+                "monte_carlo_95_interval": [
+                  0.9963179161031344,
+                  1.0
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.14083376422264954,
+                  0.15353596995563534,
+                  0.16576598532070086
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=2",
+              "coverage": {
+                "covered": 989,
+                "total": 1000,
+                "fraction": 0.989,
+                "monte_carlo_95_interval": [
+                  0.9804033717779835,
+                  0.9944964058076864
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.12689567094262777,
+                  0.1299568119917479,
+                  0.13066266818821126
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=6",
+              "coverage": {
+                "covered": 1000,
+                "total": 1000,
+                "fraction": 1.0,
+                "monte_carlo_95_interval": [
+                  0.9963179161031344,
+                  1.0
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.16128575050363164,
+                  0.1757531747589578,
+                  0.1893975095555801
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=2",
+              "coverage": {
+                "covered": 989,
+                "total": 1000,
+                "fraction": 0.989,
+                "monte_carlo_95_interval": [
+                  0.9804033717779835,
+                  0.9944964058076864
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.20118912410341483,
+                  0.2077809231360388,
+                  0.2113001247312969
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=6",
+              "coverage": {
+                "covered": 1000,
+                "total": 1000,
+                "fraction": 1.0,
+                "monte_carlo_95_interval": [
+                  0.9963179161031344,
+                  1.0
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.11743817575722859,
+                  0.12481581271905462,
+                  0.13995329613014518
+                ]
+              }
+            }
+          ]
+        },
+        "q1_and_q2": {
+          "empty_sets": 3,
+          "candidate_count_quantiles_10_50_90": [
+            17.0,
+            49.0,
+            82.0
+          ],
+          "parameter_coverage": {
+            "covered": 948,
+            "total": 1000,
+            "fraction": 0.948,
+            "monte_carlo_95_interval": [
+              0.9323649859494927,
+              0.9609234650560196
+            ]
+          },
+          "simultaneous_prediction_coverage": {
+            "covered": 965,
+            "total": 1000,
+            "fraction": 0.965,
+            "monte_carlo_95_interval": [
+              0.9516576183857783,
+              0.9755024721052413
+            ]
+          },
+          "targets": [
+            {
+              "target": "h=0.925,k=2",
+              "coverage": {
+                "covered": 965,
+                "total": 1000,
+                "fraction": 0.965,
+                "monte_carlo_95_interval": [
+                  0.9516576183857783,
+                  0.9755024721052413
+                ]
+              },
+              "width": {
+                "defined": 997,
+                "undefined": 3,
+                "quantiles_10_50_90": [
+                  0.023672095943461535,
+                  0.04335433432879421,
+                  0.050283644500480285
+                ]
+              }
+            },
+            {
+              "target": "h=0.925,k=6",
+              "coverage": {
+                "covered": 979,
+                "total": 1000,
+                "fraction": 0.979,
+                "monte_carlo_95_interval": [
+                  0.9680776648195845,
+                  0.9869548077096123
+                ]
+              },
+              "width": {
+                "defined": 997,
+                "undefined": 3,
+                "quantiles_10_50_90": [
+                  0.04547481222950378,
+                  0.06952795433669212,
+                  0.10459471121273156
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=2",
+              "coverage": {
+                "covered": 965,
+                "total": 1000,
+                "fraction": 0.965,
+                "monte_carlo_95_interval": [
+                  0.9516576183857783,
+                  0.9755024721052413
+                ]
+              },
+              "width": {
+                "defined": 997,
+                "undefined": 3,
+                "quantiles_10_50_90": [
+                  0.0489885416974567,
+                  0.08952113775292858,
+                  0.10593965276450568
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=6",
+              "coverage": {
+                "covered": 980,
+                "total": 1000,
+                "fraction": 0.98,
+                "monte_carlo_95_interval": [
+                  0.9692799673173909,
+                  0.9877417320275936
+                ]
+              },
+              "width": {
+                "defined": 997,
+                "undefined": 3,
+                "quantiles_10_50_90": [
+                  0.07582877261326715,
+                  0.10300323552168367,
+                  0.11600385815378722
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=2",
+              "coverage": {
+                "covered": 965,
+                "total": 1000,
+                "fraction": 0.965,
+                "monte_carlo_95_interval": [
+                  0.9516576183857783,
+                  0.9755024721052413
+                ]
+              },
+              "width": {
+                "defined": 997,
+                "undefined": 3,
+                "quantiles_10_50_90": [
+                  0.07594933726198583,
+                  0.138500410272404,
+                  0.16711639549832677
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=6",
+              "coverage": {
+                "covered": 966,
+                "total": 1000,
+                "fraction": 0.966,
+                "monte_carlo_95_interval": [
+                  0.9528105613842925,
+                  0.9763413518924032
+                ]
+              },
+              "width": {
+                "defined": 997,
+                "undefined": 3,
+                "quantiles_10_50_90": [
+                  0.0940433657540618,
+                  0.11743817575722859,
+                  0.13232136267916095
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "contraction": [
+        {
+          "target": "h=0.925,k=2",
+          "both_defined": 997,
+          "strictly_narrower_count": 997,
+          "median_absolute_width_reduction": 0.017342169950940955
+        },
+        {
+          "target": "h=0.925,k=6",
+          "both_defined": 997,
+          "strictly_narrower_count": 997,
+          "median_absolute_width_reduction": 0.08400801561894322
+        },
+        {
+          "target": "h=0.950,k=2",
+          "both_defined": 997,
+          "strictly_narrower_count": 997,
+          "median_absolute_width_reduction": 0.04043567423881933
+        },
+        {
+          "target": "h=0.950,k=6",
+          "both_defined": 997,
+          "strictly_narrower_count": 997,
+          "median_absolute_width_reduction": 0.0697156440970248
+        },
+        {
+          "target": "h=0.975,k=2",
+          "both_defined": 997,
+          "strictly_narrower_count": 997,
+          "median_absolute_width_reduction": 0.06928051286363479
+        },
+        {
+          "target": "h=0.975,k=6",
+          "both_defined": 997,
+          "strictly_narrower_count": 484,
+          "median_absolute_width_reduction": 0.0
+        }
+      ]
+    },
+    {
+      "truth": "imperfect",
+      "rho": 0.0,
+      "e": 0.8,
+      "n_per_assay": 8000,
+      "true_q1": 0.2799999999999999,
+      "true_q2": 0.07839999999999997,
+      "true_predictions": [
+        0.13775510204081642,
+        0.35895000701238455,
+        0.26530612244897933,
+        0.6034305433960335,
+        0.3826530612244896,
+        0.7647184368332922
+      ],
+      "information_sets": {
+        "q1_only": {
+          "empty_sets": 0,
+          "candidate_count_quantiles_10_50_90": [
+            82.0,
+            123.0,
+            123.0
+          ],
+          "parameter_coverage": {
+            "covered": 975,
+            "total": 1000,
+            "fraction": 0.975,
+            "monte_carlo_95_interval": [
+              0.963315176948077,
+              0.9837574643031177
+            ]
+          },
+          "simultaneous_prediction_coverage": {
+            "covered": 989,
+            "total": 1000,
+            "fraction": 0.989,
+            "monte_carlo_95_interval": [
+              0.9804033717779835,
+              0.9944964058076864
+            ]
+          },
+          "targets": [
+            {
+              "target": "h=0.925,k=2",
+              "coverage": {
+                "covered": 989,
+                "total": 1000,
+                "fraction": 0.989,
+                "monte_carlo_95_interval": [
+                  0.9804033717779835,
+                  0.9944964058076864
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.04412654940457583,
+                  0.04953198374425649,
+                  0.04987368338945419
+                ]
+              }
+            },
+            {
+              "target": "h=0.925,k=6",
+              "coverage": {
+                "covered": 1000,
+                "total": 1000,
+                "fraction": 1.0,
+                "monte_carlo_95_interval": [
+                  0.9963179161031344,
+                  1.0
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.13092939271541593,
+                  0.14168069793096116,
+                  0.1417350399619436
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=2",
+              "coverage": {
+                "covered": 989,
+                "total": 1000,
+                "fraction": 0.989,
+                "monte_carlo_95_interval": [
+                  0.9804033717779835,
+                  0.9944964058076864
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.09826570563091896,
+                  0.10832381689219073,
+                  0.10908783205111494
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=6",
+              "coverage": {
+                "covered": 1000,
+                "total": 1000,
+                "fraction": 1.0,
+                "monte_carlo_95_interval": [
+                  0.9963179161031344,
+                  1.0
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.14926430550466951,
+                  0.16211436258519907,
+                  0.16222304664716358
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=2",
+              "coverage": {
+                "covered": 989,
+                "total": 1000,
+                "fraction": 0.989,
+                "monte_carlo_95_interval": [
+                  0.9804033717779835,
+                  0.9944964058076864
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.16140925635468917,
+                  0.17533143048670308,
+                  0.17764244598498313
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=6",
+              "coverage": {
+                "covered": 1000,
+                "total": 1000,
+                "fraction": 1.0,
+                "monte_carlo_95_interval": [
+                  0.9963179161031344,
+                  1.0
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.08922333333680654,
+                  0.09834922376678279,
+                  0.10580996215671579
+                ]
+              }
+            }
+          ]
+        },
+        "q1_and_q2": {
+          "empty_sets": 9,
+          "candidate_count_quantiles_10_50_90": [
+            4.0,
+            13.0,
+            22.0
+          ],
+          "parameter_coverage": {
+            "covered": 955,
+            "total": 1000,
+            "fraction": 0.955,
+            "monte_carlo_95_interval": [
+              0.9402471673065922,
+              0.9669903745688513
+            ]
+          },
+          "simultaneous_prediction_coverage": {
+            "covered": 962,
+            "total": 1000,
+            "fraction": 0.962,
+            "monte_carlo_95_interval": [
+              0.9482128963780359,
+              0.9729711840170161
+            ]
+          },
+          "targets": [
+            {
+              "target": "h=0.925,k=2",
+              "coverage": {
+                "covered": 962,
+                "total": 1000,
+                "fraction": 0.962,
+                "monte_carlo_95_interval": [
+                  0.9482128963780359,
+                  0.9729711840170161
+                ]
+              },
+              "width": {
+                "defined": 991,
+                "undefined": 9,
+                "quantiles_10_50_90": [
+                  0.004773911498835437,
+                  0.016630025397908477,
+                  0.026131931834372346
+                ]
+              }
+            },
+            {
+              "target": "h=0.925,k=6",
+              "coverage": {
+                "covered": 963,
+                "total": 1000,
+                "fraction": 0.963,
+                "monte_carlo_95_interval": [
+                  0.9493588769400751,
+                  0.9738172911562627
+                ]
+              },
+              "width": {
+                "defined": 991,
+                "undefined": 9,
+                "quantiles_10_50_90": [
+                  0.015568959537861415,
+                  0.03384067418988357,
+                  0.04547481222950378
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=2",
+              "coverage": {
+                "covered": 962,
+                "total": 1000,
+                "fraction": 0.962,
+                "monte_carlo_95_interval": [
+                  0.9482128963780359,
+                  0.9729711840170161
+                ]
+              },
+              "width": {
+                "defined": 991,
+                "undefined": 9,
+                "quantiles_10_50_90": [
+                  0.01080606323767408,
+                  0.0353876590473754,
+                  0.05463073386367212
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=6",
+              "coverage": {
+                "covered": 964,
+                "total": 1000,
+                "fraction": 0.964,
+                "monte_carlo_95_interval": [
+                  0.9505070882819876,
+                  0.9746610850701622
+                ]
+              },
+              "width": {
+                "defined": 991,
+                "undefined": 9,
+                "quantiles_10_50_90": [
+                  0.027270209866617212,
+                  0.05836400340305781,
+                  0.07582877261326715
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=2",
+              "coverage": {
+                "covered": 962,
+                "total": 1000,
+                "fraction": 0.962,
+                "monte_carlo_95_interval": [
+                  0.9482128963780359,
+                  0.9729711840170161
+                ]
+              },
+              "width": {
+                "defined": 991,
+                "undefined": 9,
+                "quantiles_10_50_90": [
+                  0.01809645521651604,
+                  0.056272900948401094,
+                  0.08549640608790054
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=6",
+              "coverage": {
+                "covered": 964,
+                "total": 1000,
+                "fraction": 0.964,
+                "monte_carlo_95_interval": [
+                  0.9505070882819876,
+                  0.9746610850701622
+                ]
+              },
+              "width": {
+                "defined": 991,
+                "undefined": 9,
+                "quantiles_10_50_90": [
+                  0.033932979156023335,
+                  0.0797135275058043,
+                  0.09824936713043075
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "contraction": [
+        {
+          "target": "h=0.925,k=2",
+          "both_defined": 991,
+          "strictly_narrower_count": 991,
+          "median_absolute_width_reduction": 0.027496524006667356
+        },
+        {
+          "target": "h=0.925,k=6",
+          "both_defined": 991,
+          "strictly_narrower_count": 991,
+          "median_absolute_width_reduction": 0.10910991490543775
+        },
+        {
+          "target": "h=0.950,k=2",
+          "both_defined": 991,
+          "strictly_narrower_count": 991,
+          "median_absolute_width_reduction": 0.06306952139442912
+        },
+        {
+          "target": "h=0.950,k=6",
+          "both_defined": 991,
+          "strictly_narrower_count": 991,
+          "median_absolute_width_reduction": 0.10375035918214126
+        },
+        {
+          "target": "h=0.975,k=2",
+          "both_defined": 991,
+          "strictly_narrower_count": 991,
+          "median_absolute_width_reduction": 0.10671899216328551
+        },
+        {
+          "target": "h=0.975,k=6",
+          "both_defined": 991,
+          "strictly_narrower_count": 926,
+          "median_absolute_width_reduction": 0.016682457615211033
+        }
+      ]
+    },
+    {
+      "truth": "combined",
+      "rho": 0.5,
+      "e": 0.8,
+      "n_per_assay": 500,
+      "true_q1": 0.2799999999999999,
+      "true_q2": 0.10719999999999996,
+      "true_predictions": [
+        0.16231343283582111,
+        0.3188366003855696,
+        0.3208955223880594,
+        0.5873222313066863,
+        0.4757462686567162,
+        0.8103167768312411
+      ],
+      "information_sets": {
+        "q1_only": {
+          "empty_sets": 0,
+          "candidate_count_quantiles_10_50_90": [
+            410.0,
+            410.0,
+            451.0
+          ],
+          "parameter_coverage": {
+            "covered": 979,
+            "total": 1000,
+            "fraction": 0.979,
+            "monte_carlo_95_interval": [
+              0.9680776648195845,
+              0.9869548077096123
+            ]
+          },
+          "simultaneous_prediction_coverage": {
+            "covered": 1000,
+            "total": 1000,
+            "fraction": 1.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031344,
+              1.0
+            ]
+          },
+          "targets": [
+            {
+              "target": "h=0.925,k=2",
+              "coverage": {
+                "covered": 1000,
+                "total": 1000,
+                "fraction": 1.0,
+                "monte_carlo_95_interval": [
+                  0.9963179161031344,
+                  1.0
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.08370407615473174,
+                  0.08658449456198225,
+                  0.0890802710616675
+                ]
+              }
+            },
+            {
+              "target": "h=0.925,k=6",
+              "coverage": {
+                "covered": 1000,
+                "total": 1000,
+                "fraction": 1.0,
+                "monte_carlo_95_interval": [
+                  0.9963179161031344,
+                  1.0
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.154217994965964,
+                  0.19313725440719431,
+                  0.22399202956130349
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=2",
+              "coverage": {
+                "covered": 1000,
+                "total": 1000,
+                "fraction": 1.0,
+                "monte_carlo_95_interval": [
+                  0.9963179161031344,
+                  1.0
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.17307012138697342,
+                  0.18039940091694584,
+                  0.18382251120084503
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=6",
+              "coverage": {
+                "covered": 1000,
+                "total": 1000,
+                "fraction": 1.0,
+                "monte_carlo_95_interval": [
+                  0.9963179161031344,
+                  1.0
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.18619260188175746,
+                  0.21989546305798857,
+                  0.2518777889972028
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=2",
+              "coverage": {
+                "covered": 1000,
+                "total": 1000,
+                "fraction": 1.0,
+                "monte_carlo_95_interval": [
+                  0.9963179161031344,
+                  1.0
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.2680981356967256,
+                  0.281444719064892,
+                  0.28638842649299934
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=6",
+              "coverage": {
+                "covered": 1000,
+                "total": 1000,
+                "fraction": 1.0,
+                "monte_carlo_95_interval": [
+                  0.9963179161031344,
+                  1.0
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.17476474618967341,
+                  0.194632812555256,
+                  0.21725535436851118
+                ]
+              }
+            }
+          ],
+          "non_markov_alternative_no_coverage_guarantee": {
+            "targets": [
+              {
+                "target": "h=0.925,k=2",
+                "coverage": {
+                  "covered": 1000,
+                  "total": 1000,
+                  "fraction": 1.0,
+                  "monte_carlo_95_interval": [
+                    0.9963179161031344,
+                    1.0
+                  ]
+                }
+              },
+              {
+                "target": "h=0.925,k=6",
+                "coverage": {
+                  "covered": 1000,
+                  "total": 1000,
+                  "fraction": 1.0,
+                  "monte_carlo_95_interval": [
+                    0.9963179161031344,
+                    1.0
+                  ]
+                }
+              },
+              {
+                "target": "h=0.950,k=2",
+                "coverage": {
+                  "covered": 1000,
+                  "total": 1000,
+                  "fraction": 1.0,
+                  "monte_carlo_95_interval": [
+                    0.9963179161031344,
+                    1.0
+                  ]
+                }
+              },
+              {
+                "target": "h=0.950,k=6",
+                "coverage": {
+                  "covered": 1000,
+                  "total": 1000,
+                  "fraction": 1.0,
+                  "monte_carlo_95_interval": [
+                    0.9963179161031344,
+                    1.0
+                  ]
+                }
+              },
+              {
+                "target": "h=0.975,k=2",
+                "coverage": {
+                  "covered": 1000,
+                  "total": 1000,
+                  "fraction": 1.0,
+                  "monte_carlo_95_interval": [
+                    0.9963179161031344,
+                    1.0
+                  ]
+                }
+              },
+              {
+                "target": "h=0.975,k=6",
+                "coverage": {
+                  "covered": 1000,
+                  "total": 1000,
+                  "fraction": 1.0,
+                  "monte_carlo_95_interval": [
+                    0.9963179161031344,
+                    1.0
+                  ]
+                }
+              }
+            ],
+            "simultaneous_prediction_coverage": {
+              "covered": 1000,
+              "total": 1000,
+              "fraction": 1.0,
+              "monte_carlo_95_interval": [
+                0.9963179161031344,
+                1.0
+              ]
+            }
+          }
+        },
+        "q1_and_q2": {
+          "empty_sets": 0,
+          "candidate_count_quantiles_10_50_90": [
+            238.9,
+            329.0,
+            362.0
+          ],
+          "parameter_coverage": {
+            "covered": 957,
+            "total": 1000,
+            "fraction": 0.957,
+            "monte_carlo_95_interval": [
+              0.9425137420380276,
+              0.9687088295439074
+            ]
+          },
+          "simultaneous_prediction_coverage": {
+            "covered": 993,
+            "total": 1000,
+            "fraction": 0.993,
+            "monte_carlo_95_interval": [
+              0.9856308050210814,
+              0.9971811412403795
+            ]
+          },
+          "targets": [
+            {
+              "target": "h=0.925,k=2",
+              "coverage": {
+                "covered": 995,
+                "total": 1000,
+                "fraction": 0.995,
+                "monte_carlo_95_interval": [
+                  0.9883705294401879,
+                  0.9983745804824372
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.08106588520935669,
+                  0.08612234355879311,
+                  0.0890802710616675
+                ]
+              }
+            },
+            {
+              "target": "h=0.925,k=6",
+              "coverage": {
+                "covered": 999,
+                "total": 1000,
+                "fraction": 0.999,
+                "monte_carlo_95_interval": [
+                  0.9944410757201734,
+                  0.9999746825125088
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.11993505049496656,
+                  0.14644103453147395,
+                  0.1768829047891426
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=2",
+              "coverage": {
+                "covered": 995,
+                "total": 1000,
+                "fraction": 0.995,
+                "monte_carlo_95_interval": [
+                  0.9883705294401879,
+                  0.9983745804824372
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.16837871172499363,
+                  0.18039940091694584,
+                  0.18382251120084503
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=6",
+              "coverage": {
+                "covered": 1000,
+                "total": 1000,
+                "fraction": 1.0,
+                "monte_carlo_95_interval": [
+                  0.9963179161031344,
+                  1.0
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.14271933079023927,
+                  0.178583623906437,
+                  0.20387741739831378
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=2",
+              "coverage": {
+                "covered": 996,
+                "total": 1000,
+                "fraction": 0.996,
+                "monte_carlo_95_interval": [
+                  0.9897903353160701,
+                  0.9989090920122741
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.26164331449103945,
+                  0.28020905008532515,
+                  0.28638842649299934
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=6",
+              "coverage": {
+                "covered": 997,
+                "total": 1000,
+                "fraction": 0.997,
+                "monte_carlo_95_interval": [
+                  0.9912579767615217,
+                  0.9993809000683505
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.1241521288710572,
+                  0.17476474618967341,
+                  0.21408050198430284
+                ]
+              }
+            }
+          ],
+          "non_markov_alternative_no_coverage_guarantee": {
+            "targets": [
+              {
+                "target": "h=0.925,k=2",
+                "coverage": {
+                  "covered": 995,
+                  "total": 1000,
+                  "fraction": 0.995,
+                  "monte_carlo_95_interval": [
+                    0.9883705294401879,
+                    0.9983745804824372
+                  ]
+                }
+              },
+              {
+                "target": "h=0.925,k=6",
+                "coverage": {
+                  "covered": 994,
+                  "total": 1000,
+                  "fraction": 0.994,
+                  "monte_carlo_95_interval": [
+                    0.9869865767290255,
+                    0.9977950175148487
+                  ]
+                }
+              },
+              {
+                "target": "h=0.950,k=2",
+                "coverage": {
+                  "covered": 995,
+                  "total": 1000,
+                  "fraction": 0.995,
+                  "monte_carlo_95_interval": [
+                    0.9883705294401879,
+                    0.9983745804824372
+                  ]
+                }
+              },
+              {
+                "target": "h=0.950,k=6",
+                "coverage": {
+                  "covered": 998,
+                  "total": 1000,
+                  "fraction": 0.998,
+                  "monte_carlo_95_interval": [
+                    0.9927941610885425,
+                    0.9997576988831227
+                  ]
+                }
+              },
+              {
+                "target": "h=0.975,k=2",
+                "coverage": {
+                  "covered": 996,
+                  "total": 1000,
+                  "fraction": 0.996,
+                  "monte_carlo_95_interval": [
+                    0.9897903353160701,
+                    0.9989090920122741
+                  ]
+                }
+              },
+              {
+                "target": "h=0.975,k=6",
+                "coverage": {
+                  "covered": 999,
+                  "total": 1000,
+                  "fraction": 0.999,
+                  "monte_carlo_95_interval": [
+                    0.9944410757201734,
+                    0.9999746825125088
+                  ]
+                }
+              }
+            ],
+            "simultaneous_prediction_coverage": {
+              "covered": 991,
+              "total": 1000,
+              "fraction": 0.991,
+              "monte_carlo_95_interval": [
+                0.9829842169301054,
+                0.9958766043396575
+              ]
+            }
+          }
+        }
+      },
+      "contraction": [
+        {
+          "target": "h=0.925,k=2",
+          "both_defined": 1000,
+          "strictly_narrower_count": 186,
+          "median_absolute_width_reduction": 0.0
+        },
+        {
+          "target": "h=0.925,k=6",
+          "both_defined": 1000,
+          "strictly_narrower_count": 998,
+          "median_absolute_width_reduction": 0.03701987688371089
+        },
+        {
+          "target": "h=0.950,k=2",
+          "both_defined": 1000,
+          "strictly_narrower_count": 186,
+          "median_absolute_width_reduction": 0.0
+        },
+        {
+          "target": "h=0.950,k=6",
+          "both_defined": 1000,
+          "strictly_narrower_count": 901,
+          "median_absolute_width_reduction": 0.03626589905900213
+        },
+        {
+          "target": "h=0.975,k=2",
+          "both_defined": 1000,
+          "strictly_narrower_count": 186,
+          "median_absolute_width_reduction": 0.0
+        },
+        {
+          "target": "h=0.975,k=6",
+          "both_defined": 1000,
+          "strictly_narrower_count": 757,
+          "median_absolute_width_reduction": 0.019936935280106538
+        }
+      ]
+    },
+    {
+      "truth": "combined",
+      "rho": 0.5,
+      "e": 0.8,
+      "n_per_assay": 2000,
+      "true_q1": 0.2799999999999999,
+      "true_q2": 0.10719999999999996,
+      "true_predictions": [
+        0.16231343283582111,
+        0.3188366003855696,
+        0.3208955223880594,
+        0.5873222313066863,
+        0.4757462686567162,
+        0.8103167768312411
+      ],
+      "information_sets": {
+        "q1_only": {
+          "empty_sets": 0,
+          "candidate_count_quantiles_10_50_90": [
+            205.0,
+            205.0,
+            205.0
+          ],
+          "parameter_coverage": {
+            "covered": 980,
+            "total": 1000,
+            "fraction": 0.98,
+            "monte_carlo_95_interval": [
+              0.9692799673173909,
+              0.9877417320275936
+            ]
+          },
+          "simultaneous_prediction_coverage": {
+            "covered": 1000,
+            "total": 1000,
+            "fraction": 1.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031344,
+              1.0
+            ]
+          },
+          "targets": [
+            {
+              "target": "h=0.925,k=2",
+              "coverage": {
+                "covered": 1000,
+                "total": 1000,
+                "fraction": 1.0,
+                "monte_carlo_95_interval": [
+                  0.9963179161031344,
+                  1.0
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.06022929327777937,
+                  0.0606553126360706,
+                  0.060696504279735164
+                ]
+              }
+            },
+            {
+              "target": "h=0.925,k=6",
+              "coverage": {
+                "covered": 1000,
+                "total": 1000,
+                "fraction": 1.0,
+                "monte_carlo_95_interval": [
+                  0.9963179161031344,
+                  1.0
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.14189038733742443,
+                  0.15353596995563534,
+                  0.16576598532070086
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=2",
+              "coverage": {
+                "covered": 1000,
+                "total": 1000,
+                "fraction": 1.0,
+                "monte_carlo_95_interval": [
+                  0.9963179161031344,
+                  1.0
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.12867592795842409,
+                  0.1299568119917479,
+                  0.13066266818821126
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=6",
+              "coverage": {
+                "covered": 1000,
+                "total": 1000,
+                "fraction": 1.0,
+                "monte_carlo_95_interval": [
+                  0.9963179161031344,
+                  1.0
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.16253374139812538,
+                  0.1757531747589578,
+                  0.1893975095555801
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=2",
+              "coverage": {
+                "covered": 1000,
+                "total": 1000,
+                "fraction": 1.0,
+                "monte_carlo_95_interval": [
+                  0.9963179161031344,
+                  1.0
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.204809109924034,
+                  0.2077809231360388,
+                  0.2113001247312969
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=6",
+              "coverage": {
+                "covered": 1000,
+                "total": 1000,
+                "fraction": 1.0,
+                "monte_carlo_95_interval": [
+                  0.9963179161031344,
+                  1.0
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.11743817575722859,
+                  0.12481581271905462,
+                  0.13995329613014518
+                ]
+              }
+            }
+          ],
+          "non_markov_alternative_no_coverage_guarantee": {
+            "targets": [
+              {
+                "target": "h=0.925,k=2",
+                "coverage": {
+                  "covered": 1000,
+                  "total": 1000,
+                  "fraction": 1.0,
+                  "monte_carlo_95_interval": [
+                    0.9963179161031344,
+                    1.0
+                  ]
+                }
+              },
+              {
+                "target": "h=0.925,k=6",
+                "coverage": {
+                  "covered": 1000,
+                  "total": 1000,
+                  "fraction": 1.0,
+                  "monte_carlo_95_interval": [
+                    0.9963179161031344,
+                    1.0
+                  ]
+                }
+              },
+              {
+                "target": "h=0.950,k=2",
+                "coverage": {
+                  "covered": 1000,
+                  "total": 1000,
+                  "fraction": 1.0,
+                  "monte_carlo_95_interval": [
+                    0.9963179161031344,
+                    1.0
+                  ]
+                }
+              },
+              {
+                "target": "h=0.950,k=6",
+                "coverage": {
+                  "covered": 1000,
+                  "total": 1000,
+                  "fraction": 1.0,
+                  "monte_carlo_95_interval": [
+                    0.9963179161031344,
+                    1.0
+                  ]
+                }
+              },
+              {
+                "target": "h=0.975,k=2",
+                "coverage": {
+                  "covered": 1000,
+                  "total": 1000,
+                  "fraction": 1.0,
+                  "monte_carlo_95_interval": [
+                    0.9963179161031344,
+                    1.0
+                  ]
+                }
+              },
+              {
+                "target": "h=0.975,k=6",
+                "coverage": {
+                  "covered": 1000,
+                  "total": 1000,
+                  "fraction": 1.0,
+                  "monte_carlo_95_interval": [
+                    0.9963179161031344,
+                    1.0
+                  ]
+                }
+              }
+            ],
+            "simultaneous_prediction_coverage": {
+              "covered": 1000,
+              "total": 1000,
+              "fraction": 1.0,
+              "monte_carlo_95_interval": [
+                0.9963179161031344,
+                1.0
+              ]
+            }
+          }
+        },
+        "q1_and_q2": {
+          "empty_sets": 0,
+          "candidate_count_quantiles_10_50_90": [
+            98.0,
+            107.0,
+            115.0
+          ],
+          "parameter_coverage": {
+            "covered": 959,
+            "total": 1000,
+            "fraction": 0.959,
+            "monte_carlo_95_interval": [
+              0.9447875406847007,
+              0.9704198314659639
+            ]
+          },
+          "simultaneous_prediction_coverage": {
+            "covered": 986,
+            "total": 1000,
+            "fraction": 0.986,
+            "monte_carlo_95_interval": [
+              0.9766218439896855,
+              0.9923254984349792
+            ]
+          },
+          "targets": [
+            {
+              "target": "h=0.925,k=2",
+              "coverage": {
+                "covered": 989,
+                "total": 1000,
+                "fraction": 0.989,
+                "monte_carlo_95_interval": [
+                  0.9804033717779835,
+                  0.9944964058076864
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.04468411213097134,
+                  0.0530812682125551,
+                  0.05689379167251828
+                ]
+              }
+            },
+            {
+              "target": "h=0.925,k=6",
+              "coverage": {
+                "covered": 997,
+                "total": 1000,
+                "fraction": 0.997,
+                "monte_carlo_95_interval": [
+                  0.9912579767615217,
+                  0.9993809000683505
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.09895876665057285,
+                  0.11054974949746932,
+                  0.11822626670869496
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=2",
+              "coverage": {
+                "covered": 989,
+                "total": 1000,
+                "fraction": 0.989,
+                "monte_carlo_95_interval": [
+                  0.9804033717779835,
+                  0.9944964058076864
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.09442710436168533,
+                  0.11241665103239429,
+                  0.12030694867263658
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=6",
+              "coverage": {
+                "covered": 997,
+                "total": 1000,
+                "fraction": 0.997,
+                "monte_carlo_95_interval": [
+                  0.9912579767615217,
+                  0.9993809000683505
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.11501411001144915,
+                  0.1280469709678832,
+                  0.13866154567422062
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=2",
+              "coverage": {
+                "covered": 991,
+                "total": 1000,
+                "fraction": 0.991,
+                "monte_carlo_95_interval": [
+                  0.9829842169301054,
+                  0.9958766043396575
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.1493540189306568,
+                  0.17777236402561902,
+                  0.19116746086835934
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=6",
+              "coverage": {
+                "covered": 997,
+                "total": 1000,
+                "fraction": 0.997,
+                "monte_carlo_95_interval": [
+                  0.9912579767615217,
+                  0.9993809000683505
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.07701948153042537,
+                  0.08609999204132723,
+                  0.13232136267916095
+                ]
+              }
+            }
+          ],
+          "non_markov_alternative_no_coverage_guarantee": {
+            "targets": [
+              {
+                "target": "h=0.925,k=2",
+                "coverage": {
+                  "covered": 989,
+                  "total": 1000,
+                  "fraction": 0.989,
+                  "monte_carlo_95_interval": [
+                    0.9804033717779835,
+                    0.9944964058076864
+                  ]
+                }
+              },
+              {
+                "target": "h=0.925,k=6",
+                "coverage": {
+                  "covered": 984,
+                  "total": 1000,
+                  "fraction": 0.984,
+                  "monte_carlo_95_interval": [
+                    0.9741467509186266,
+                    0.9908276807307779
+                  ]
+                }
+              },
+              {
+                "target": "h=0.950,k=2",
+                "coverage": {
+                  "covered": 989,
+                  "total": 1000,
+                  "fraction": 0.989,
+                  "monte_carlo_95_interval": [
+                    0.9804033717779835,
+                    0.9944964058076864
+                  ]
+                }
+              },
+              {
+                "target": "h=0.950,k=6",
+                "coverage": {
+                  "covered": 995,
+                  "total": 1000,
+                  "fraction": 0.995,
+                  "monte_carlo_95_interval": [
+                    0.9883705294401879,
+                    0.9983745804824372
+                  ]
+                }
+              },
+              {
+                "target": "h=0.975,k=2",
+                "coverage": {
+                  "covered": 991,
+                  "total": 1000,
+                  "fraction": 0.991,
+                  "monte_carlo_95_interval": [
+                    0.9829842169301054,
+                    0.9958766043396575
+                  ]
+                }
+              },
+              {
+                "target": "h=0.975,k=6",
+                "coverage": {
+                  "covered": 1000,
+                  "total": 1000,
+                  "fraction": 1.0,
+                  "monte_carlo_95_interval": [
+                    0.9963179161031344,
+                    1.0
+                  ]
+                }
+              }
+            ],
+            "simultaneous_prediction_coverage": {
+              "covered": 973,
+              "total": 1000,
+              "fraction": 0.973,
+              "monte_carlo_95_interval": [
+                0.9609582531940298,
+                0.9821330940747504
+              ]
+            }
+          }
+        }
+      },
+      "contraction": [
+        {
+          "target": "h=0.925,k=2",
+          "both_defined": 1000,
+          "strictly_narrower_count": 1000,
+          "median_absolute_width_reduction": 0.0075740444235155024
+        },
+        {
+          "target": "h=0.925,k=6",
+          "both_defined": 1000,
+          "strictly_narrower_count": 1000,
+          "median_absolute_width_reduction": 0.042919857390966265
+        },
+        {
+          "target": "h=0.950,k=2",
+          "both_defined": 1000,
+          "strictly_narrower_count": 1000,
+          "median_absolute_width_reduction": 0.01736166164579034
+        },
+        {
+          "target": "h=0.950,k=6",
+          "both_defined": 1000,
+          "strictly_narrower_count": 1000,
+          "median_absolute_width_reduction": 0.04727784408393987
+        },
+        {
+          "target": "h=0.975,k=2",
+          "both_defined": 1000,
+          "strictly_narrower_count": 1000,
+          "median_absolute_width_reduction": 0.029074837482162774
+        },
+        {
+          "target": "h=0.975,k=6",
+          "both_defined": 1000,
+          "strictly_narrower_count": 871,
+          "median_absolute_width_reduction": 0.032397114002767236
+        }
+      ]
+    },
+    {
+      "truth": "combined",
+      "rho": 0.5,
+      "e": 0.8,
+      "n_per_assay": 8000,
+      "true_q1": 0.2799999999999999,
+      "true_q2": 0.10719999999999996,
+      "true_predictions": [
+        0.16231343283582111,
+        0.3188366003855696,
+        0.3208955223880594,
+        0.5873222313066863,
+        0.4757462686567162,
+        0.8103167768312411
+      ],
+      "information_sets": {
+        "q1_only": {
+          "empty_sets": 0,
+          "candidate_count_quantiles_10_50_90": [
+            82.0,
+            123.0,
+            123.0
+          ],
+          "parameter_coverage": {
+            "covered": 977,
+            "total": 1000,
+            "fraction": 0.977,
+            "monte_carlo_95_interval": [
+              0.9656876623871457,
+              0.9853654176748232
+            ]
+          },
+          "simultaneous_prediction_coverage": {
+            "covered": 1000,
+            "total": 1000,
+            "fraction": 1.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031344,
+              1.0
+            ]
+          },
+          "targets": [
+            {
+              "target": "h=0.925,k=2",
+              "coverage": {
+                "covered": 1000,
+                "total": 1000,
+                "fraction": 1.0,
+                "monte_carlo_95_interval": [
+                  0.9963179161031344,
+                  1.0
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.04412654940457583,
+                  0.04953198374425649,
+                  0.04987368338945419
+                ]
+              }
+            },
+            {
+              "target": "h=0.925,k=6",
+              "coverage": {
+                "covered": 1000,
+                "total": 1000,
+                "fraction": 1.0,
+                "monte_carlo_95_interval": [
+                  0.9963179161031344,
+                  1.0
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.13092939271541593,
+                  0.14168069793096116,
+                  0.1417350399619436
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=2",
+              "coverage": {
+                "covered": 1000,
+                "total": 1000,
+                "fraction": 1.0,
+                "monte_carlo_95_interval": [
+                  0.9963179161031344,
+                  1.0
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.09826570563091896,
+                  0.10832381689219073,
+                  0.10908783205111494
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=6",
+              "coverage": {
+                "covered": 1000,
+                "total": 1000,
+                "fraction": 1.0,
+                "monte_carlo_95_interval": [
+                  0.9963179161031344,
+                  1.0
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.14926430550466951,
+                  0.16211436258519907,
+                  0.16222304664716358
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=2",
+              "coverage": {
+                "covered": 1000,
+                "total": 1000,
+                "fraction": 1.0,
+                "monte_carlo_95_interval": [
+                  0.9963179161031344,
+                  1.0
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.16140925635468917,
+                  0.17533143048670308,
+                  0.17764244598498313
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=6",
+              "coverage": {
+                "covered": 1000,
+                "total": 1000,
+                "fraction": 1.0,
+                "monte_carlo_95_interval": [
+                  0.9963179161031344,
+                  1.0
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.08922333333680654,
+                  0.09834922376678279,
+                  0.10580996215671579
+                ]
+              }
+            }
+          ],
+          "non_markov_alternative_no_coverage_guarantee": {
+            "targets": [
+              {
+                "target": "h=0.925,k=2",
+                "coverage": {
+                  "covered": 1000,
+                  "total": 1000,
+                  "fraction": 1.0,
+                  "monte_carlo_95_interval": [
+                    0.9963179161031344,
+                    1.0
+                  ]
+                }
+              },
+              {
+                "target": "h=0.925,k=6",
+                "coverage": {
+                  "covered": 1000,
+                  "total": 1000,
+                  "fraction": 1.0,
+                  "monte_carlo_95_interval": [
+                    0.9963179161031344,
+                    1.0
+                  ]
+                }
+              },
+              {
+                "target": "h=0.950,k=2",
+                "coverage": {
+                  "covered": 1000,
+                  "total": 1000,
+                  "fraction": 1.0,
+                  "monte_carlo_95_interval": [
+                    0.9963179161031344,
+                    1.0
+                  ]
+                }
+              },
+              {
+                "target": "h=0.950,k=6",
+                "coverage": {
+                  "covered": 1000,
+                  "total": 1000,
+                  "fraction": 1.0,
+                  "monte_carlo_95_interval": [
+                    0.9963179161031344,
+                    1.0
+                  ]
+                }
+              },
+              {
+                "target": "h=0.975,k=2",
+                "coverage": {
+                  "covered": 1000,
+                  "total": 1000,
+                  "fraction": 1.0,
+                  "monte_carlo_95_interval": [
+                    0.9963179161031344,
+                    1.0
+                  ]
+                }
+              },
+              {
+                "target": "h=0.975,k=6",
+                "coverage": {
+                  "covered": 1000,
+                  "total": 1000,
+                  "fraction": 1.0,
+                  "monte_carlo_95_interval": [
+                    0.9963179161031344,
+                    1.0
+                  ]
+                }
+              }
+            ],
+            "simultaneous_prediction_coverage": {
+              "covered": 1000,
+              "total": 1000,
+              "fraction": 1.0,
+              "monte_carlo_95_interval": [
+                0.9963179161031344,
+                1.0
+              ]
+            }
+          }
+        },
+        "q1_and_q2": {
+          "empty_sets": 0,
+          "candidate_count_quantiles_10_50_90": [
+            21.0,
+            31.0,
+            33.0
+          ],
+          "parameter_coverage": {
+            "covered": 960,
+            "total": 1000,
+            "fraction": 0.96,
+            "monte_carlo_95_interval": [
+              0.9459273031806316,
+              0.9712723747141092
+            ]
+          },
+          "simultaneous_prediction_coverage": {
+            "covered": 973,
+            "total": 1000,
+            "fraction": 0.973,
+            "monte_carlo_95_interval": [
+              0.9609582531940298,
+              0.9821330940747504
+            ]
+          },
+          "targets": [
+            {
+              "target": "h=0.925,k=2",
+              "coverage": {
+                "covered": 974,
+                "total": 1000,
+                "fraction": 0.974,
+                "monte_carlo_95_interval": [
+                  0.9621348775210785,
+                  0.9829472136543705
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.01644621497077514,
+                  0.023078732279242176,
+                  0.027615538438265363
+                ]
+              }
+            },
+            {
+              "target": "h=0.925,k=6",
+              "coverage": {
+                "covered": 990,
+                "total": 1000,
+                "fraction": 0.99,
+                "monte_carlo_95_interval": [
+                  0.9816867569448875,
+                  0.9951944893089507
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.05724392694158176,
+                  0.06499176461622547,
+                  0.0739715227534663
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=2",
+              "coverage": {
+                "covered": 975,
+                "total": 1000,
+                "fraction": 0.975,
+                "monte_carlo_95_interval": [
+                  0.963315176948077,
+                  0.9837574643031177
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.0356220874325085,
+                  0.04913474089695802,
+                  0.05873144757798632
+                ]
+              }
+            },
+            {
+              "target": "h=0.950,k=6",
+              "coverage": {
+                "covered": 990,
+                "total": 1000,
+                "fraction": 0.99,
+                "monte_carlo_95_interval": [
+                  0.9816867569448875,
+                  0.9951944893089507
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.06580546532509712,
+                  0.07567991289202225,
+                  0.08510812247005295
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=2",
+              "coverage": {
+                "covered": 978,
+                "total": 1000,
+                "fraction": 0.978,
+                "monte_carlo_95_interval": [
+                  0.9668803354850122,
+                  0.9861625858279262
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.0575276173852004,
+                  0.07816802585314775,
+                  0.09334772741916353
+                ]
+              }
+            },
+            {
+              "target": "h=0.975,k=6",
+              "coverage": {
+                "covered": 995,
+                "total": 1000,
+                "fraction": 0.995,
+                "monte_carlo_95_interval": [
+                  0.9883705294401879,
+                  0.9983745804824372
+                ]
+              },
+              "width": {
+                "defined": 1000,
+                "undefined": 0,
+                "quantiles_10_50_90": [
+                  0.03680723366958372,
+                  0.04365469299918556,
+                  0.05128584686416593
+                ]
+              }
+            }
+          ],
+          "non_markov_alternative_no_coverage_guarantee": {
+            "targets": [
+              {
+                "target": "h=0.925,k=2",
+                "coverage": {
+                  "covered": 974,
+                  "total": 1000,
+                  "fraction": 0.974,
+                  "monte_carlo_95_interval": [
+                    0.9621348775210785,
+                    0.9829472136543705
+                  ]
+                }
+              },
+              {
+                "target": "h=0.925,k=6",
+                "coverage": {
+                  "covered": 868,
+                  "total": 1000,
+                  "fraction": 0.868,
+                  "monte_carlo_95_interval": [
+                    0.8454345533915462,
+                    0.8883719870272047
+                  ]
+                }
+              },
+              {
+                "target": "h=0.950,k=2",
+                "coverage": {
+                  "covered": 975,
+                  "total": 1000,
+                  "fraction": 0.975,
+                  "monte_carlo_95_interval": [
+                    0.963315176948077,
+                    0.9837574643031177
+                  ]
+                }
+              },
+              {
+                "target": "h=0.950,k=6",
+                "coverage": {
+                  "covered": 868,
+                  "total": 1000,
+                  "fraction": 0.868,
+                  "monte_carlo_95_interval": [
+                    0.8454345533915462,
+                    0.8883719870272047
+                  ]
+                }
+              },
+              {
+                "target": "h=0.975,k=2",
+                "coverage": {
+                  "covered": 978,
+                  "total": 1000,
+                  "fraction": 0.978,
+                  "monte_carlo_95_interval": [
+                    0.9668803354850122,
+                    0.9861625858279262
+                  ]
+                }
+              },
+              {
+                "target": "h=0.975,k=6",
+                "coverage": {
+                  "covered": 846,
+                  "total": 1000,
+                  "fraction": 0.846,
+                  "monte_carlo_95_interval": [
+                    0.8221145194721244,
+                    0.8678269716273468
+                  ]
+                }
+              }
+            ],
+            "simultaneous_prediction_coverage": {
+              "covered": 807,
+              "total": 1000,
+              "fraction": 0.807,
+              "monte_carlo_95_interval": [
+                0.7811499964179454,
+                0.8310278967302052
+              ]
+            }
+          }
+        }
+      },
+      "contraction": [
+        {
+          "target": "h=0.925,k=2",
+          "both_defined": 1000,
+          "strictly_narrower_count": 1000,
+          "median_absolute_width_reduction": 0.02522315167504674
+        },
+        {
+          "target": "h=0.925,k=6",
+          "both_defined": 1000,
+          "strictly_narrower_count": 1000,
+          "median_absolute_width_reduction": 0.07154106373607849
+        },
+        {
+          "target": "h=0.950,k=2",
+          "both_defined": 1000,
+          "strictly_narrower_count": 1000,
+          "median_absolute_width_reduction": 0.05676630487077172
+        },
+        {
+          "target": "h=0.950,k=6",
+          "both_defined": 1000,
+          "strictly_narrower_count": 1000,
+          "median_absolute_width_reduction": 0.08141299320648498
+        },
+        {
+          "target": "h=0.975,k=2",
+          "both_defined": 1000,
+          "strictly_narrower_count": 1000,
+          "median_absolute_width_reduction": 0.0953972894448093
+        },
+        {
+          "target": "h=0.975,k=6",
+          "both_defined": 1000,
+          "strictly_narrower_count": 1000,
+          "median_absolute_width_reduction": 0.052416099667222826
+        }
+      ]
+    }
+  ]
+}

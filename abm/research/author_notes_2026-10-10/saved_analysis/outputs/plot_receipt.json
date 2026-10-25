@@ -1,0 +1,16 @@
+{
+  "input_hashes": {
+    "outputs/weekly.json": "6fa1841b7a89215d34b8bcc9a9fe00a8b1715080fdef19581fdbc9d820db357f"
+  },
+  "output_hashes": {
+    "weekly_control.png": "113fd0f61f1e5aa017126cf116b7f8221b5e800b4398ae878798bfab0e900abd"
+  },
+  "plot_freeze_identity": "5e95e58a624708dbe6f38c6b92ea4c29d8f7bc49872c45fd2a35935d019e7d81",
+  "plot_freeze_sha256": "9bea93ebb6e808c071134f6798269de5c42f2bb8f56df437f2758b3066ce9167",
+  "schema_version": 1,
+  "software": {
+    "matplotlib": "3.8.3"
+  },
+  "source_sha256": "c88ea5b394ccf18bc87e83c39ec8c1fea287d30d258db3c6e10403bab0c0d938",
+  "status": "complete"
+}

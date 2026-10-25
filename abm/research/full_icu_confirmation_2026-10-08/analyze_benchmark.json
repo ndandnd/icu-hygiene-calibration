@@ -1,0 +1,11 @@
+{
+  "scope": "Synthetic numerical bootstrap benchmark only; no ICU simulation or scientific outcomes",
+  "conditions": 6,
+  "seeds": 512,
+  "draws": 200000,
+  "chunk_size": 256,
+  "elapsed_seconds": 74.0286173755303,
+  "derived_samples_bytes": 115200000,
+  "peak_process_rss_bytes": 78659584,
+  "finite_samples": true
+}

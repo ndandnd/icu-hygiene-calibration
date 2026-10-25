@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "bootstrap_draws": 50000,
+  "bootstrap_seed": 20261010,
+  "chunk_size": 256,
+  "descriptive_interval_level": 0.95,
+  "week_length_days": 7,
+  "warmup_days": 90,
+  "observation_days": 56,
+  "calibration_target_rate": 3.0,
+  "calibration_fallback_p": 0.15,
+  "stream_ordinals": {"weekly": 1, "slopes": 2, "calibration": 3},
+  "interpretation": "New exploratory descriptive saved-data follow-ups; prior prespecified 200000-draw analyses remain unchanged."
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-24",
+  "exact_arithmetic_checks": 1659,
+  "exact_arithmetic_status": "PASS",
+  "worker_profiles": 8,
+  "worker_boxes": 16,
+  "worker_contrasts": 24,
+  "worker_pooled_replay_status": "PASS",
+  "supplement_number_assertions": 237,
+  "supplement_table_generation_status": "PASS",
+  "full_simulations_rerun": false,
+  "long_bootstrap_reanalysis_rerun": false,
+  "expanded_table_generation_status": "PASS",
+  "expanded_tables": 6,
+  "simulation_runner_plan_status": "PASS",
+  "simulation_runner_plan_seeds": 256,
+  "simulation_runner_plan_pairs": 182
+}

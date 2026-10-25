@@ -1,0 +1,1005 @@
+{
+  "actual_clinical_validation": false,
+  "actual_report_sha256": "9189e84179ca027e54ec03d2214137cfe55889ebaf11b9bd6276e0c56510f30f",
+  "actual_result_review": true,
+  "bootstrap_draws": 50000,
+  "bootstrap_seed": 20261011,
+  "canonical_paper_revision_accepted": false,
+  "chunk_size": 500,
+  "compared_floating_differences": [
+    {
+      "absolute_difference": 3.3306690738754696e-16,
+      "path": "report.primary_contrasts[0].estimate"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "report.primary_contrasts[1].estimate"
+    },
+    {
+      "absolute_difference": 1.1102230246251565e-16,
+      "path": "report.primary_contrasts[2].estimate"
+    },
+    {
+      "absolute_difference": 8.881784197001252e-16,
+      "path": "report.primary_contrasts[3].estimate"
+    },
+    {
+      "absolute_difference": 1.1102230246251565e-15,
+      "path": "report.primary_contrasts[4].estimate"
+    },
+    {
+      "absolute_difference": 1.1102230246251565e-16,
+      "path": "report.primary_contrasts[5].estimate"
+    },
+    {
+      "absolute_difference": 1.9984014443252818e-15,
+      "path": "report.scenarios[0].absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 1.1102230246251565e-16,
+      "path": "report.scenarios[0].banks.A.F"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "report.scenarios[0].banks.A.control_rate"
+    },
+    {
+      "absolute_difference": 2.220446049250313e-16,
+      "path": "report.scenarios[0].banks.A.policy_rate"
+    },
+    {
+      "absolute_difference": 2.220446049250313e-16,
+      "path": "report.scenarios[0].banks.B.F"
+    },
+    {
+      "absolute_difference": 1.1102230246251565e-15,
+      "path": "report.scenarios[0].banks.B.absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 1.3322676295501878e-15,
+      "path": "report.scenarios[0].banks.B.control_rate"
+    },
+    {
+      "absolute_difference": 1.1102230246251565e-16,
+      "path": "report.scenarios[0].banks.B.policy_rate"
+    },
+    {
+      "absolute_difference": 8.149072527885437e-10,
+      "path": "report.scenarios[0].control_patient_days"
+    },
+    {
+      "absolute_difference": 2.6645352591003757e-15,
+      "path": "report.scenarios[0].control_rate"
+    },
+    {
+      "absolute_difference": 2.6645352591003757e-15,
+      "path": "report.scenarios[0].observation_halves.baseline.first28_rate"
+    },
+    {
+      "absolute_difference": 8.881784197001252e-16,
+      "path": "report.scenarios[0].observation_halves.baseline.last28_rate"
+    },
+    {
+      "absolute_difference": 5.551115123125783e-16,
+      "path": "report.scenarios[0].observation_halves.policy.first28_rate"
+    },
+    {
+      "absolute_difference": 3.3306690738754696e-16,
+      "path": "report.scenarios[0].observation_halves.policy.last28_rate"
+    },
+    {
+      "absolute_difference": 6.984919309616089e-10,
+      "path": "report.scenarios[0].policy_patient_days"
+    },
+    {
+      "absolute_difference": 7.771561172376096e-16,
+      "path": "report.scenarios[0].policy_rate"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "report.scenarios[1].F"
+    },
+    {
+      "absolute_difference": 2.220446049250313e-15,
+      "path": "report.scenarios[1].absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 1.1102230246251565e-16,
+      "path": "report.scenarios[1].banks.A.F"
+    },
+    {
+      "absolute_difference": 2.220446049250313e-16,
+      "path": "report.scenarios[1].banks.A.absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 8.881784197001252e-16,
+      "path": "report.scenarios[1].banks.A.control_rate"
+    },
+    {
+      "absolute_difference": 6.661338147750939e-16,
+      "path": "report.scenarios[1].banks.A.policy_rate"
+    },
+    {
+      "absolute_difference": 1.3322676295501878e-15,
+      "path": "report.scenarios[1].banks.B.absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 1.3322676295501878e-15,
+      "path": "report.scenarios[1].banks.B.control_rate"
+    },
+    {
+      "absolute_difference": 6.984919309616089e-10,
+      "path": "report.scenarios[1].control_patient_days"
+    },
+    {
+      "absolute_difference": 2.220446049250313e-15,
+      "path": "report.scenarios[1].control_rate"
+    },
+    {
+      "absolute_difference": 1.3322676295501878e-15,
+      "path": "report.scenarios[1].observation_halves.baseline.last28_rate"
+    },
+    {
+      "absolute_difference": 8.881784197001252e-16,
+      "path": "report.scenarios[1].observation_halves.policy.first28_rate"
+    },
+    {
+      "absolute_difference": 6.661338147750939e-16,
+      "path": "report.scenarios[1].observation_halves.policy.last28_rate"
+    },
+    {
+      "absolute_difference": 1.1641532182693481e-10,
+      "path": "report.scenarios[1].policy_patient_days"
+    },
+    {
+      "absolute_difference": 6.661338147750939e-16,
+      "path": "report.scenarios[2].F"
+    },
+    {
+      "absolute_difference": 2.6645352591003757e-15,
+      "path": "report.scenarios[2].absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 3.3306690738754696e-16,
+      "path": "report.scenarios[2].banks.A.F"
+    },
+    {
+      "absolute_difference": 1.3322676295501878e-15,
+      "path": "report.scenarios[2].banks.A.absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "report.scenarios[2].banks.A.control_rate"
+    },
+    {
+      "absolute_difference": 8.881784197001252e-16,
+      "path": "report.scenarios[2].banks.A.policy_rate"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "report.scenarios[2].banks.B.F"
+    },
+    {
+      "absolute_difference": 1.1102230246251565e-15,
+      "path": "report.scenarios[2].banks.B.absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "report.scenarios[2].banks.B.control_rate"
+    },
+    {
+      "absolute_difference": 6.661338147750939e-16,
+      "path": "report.scenarios[2].banks.B.policy_rate"
+    },
+    {
+      "absolute_difference": 6.984919309616089e-10,
+      "path": "report.scenarios[2].control_patient_days"
+    },
+    {
+      "absolute_difference": 2.220446049250313e-15,
+      "path": "report.scenarios[2].control_rate"
+    },
+    {
+      "absolute_difference": 8.881784197001252e-16,
+      "path": "report.scenarios[2].observation_halves.baseline.first28_rate"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "report.scenarios[2].observation_halves.baseline.last28_rate"
+    },
+    {
+      "absolute_difference": 8.881784197001252e-16,
+      "path": "report.scenarios[2].observation_halves.policy.first28_rate"
+    },
+    {
+      "absolute_difference": 2.220446049250313e-15,
+      "path": "report.scenarios[2].observation_halves.policy.last28_rate"
+    },
+    {
+      "absolute_difference": 1.1641532182693481e-10,
+      "path": "report.scenarios[2].policy_patient_days"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "report.scenarios[2].policy_rate"
+    },
+    {
+      "absolute_difference": 1.1102230246251565e-16,
+      "path": "report.scenarios[3].F"
+    },
+    {
+      "absolute_difference": 6.661338147750939e-16,
+      "path": "report.scenarios[3].absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 1.1102230246251565e-16,
+      "path": "report.scenarios[3].banks.A.F"
+    },
+    {
+      "absolute_difference": 2.220446049250313e-16,
+      "path": "report.scenarios[3].banks.A.absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 2.220446049250313e-16,
+      "path": "report.scenarios[3].banks.A.control_rate"
+    },
+    {
+      "absolute_difference": 2.7755575615628914e-17,
+      "path": "report.scenarios[3].banks.A.policy_rate"
+    },
+    {
+      "absolute_difference": 1.1102230246251565e-16,
+      "path": "report.scenarios[3].banks.B.F"
+    },
+    {
+      "absolute_difference": 3.3306690738754696e-16,
+      "path": "report.scenarios[3].banks.B.absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 3.3306690738754696e-16,
+      "path": "report.scenarios[3].banks.B.control_rate"
+    },
+    {
+      "absolute_difference": 5.551115123125783e-17,
+      "path": "report.scenarios[3].banks.B.policy_rate"
+    },
+    {
+      "absolute_difference": 8.149072527885437e-10,
+      "path": "report.scenarios[3].control_patient_days"
+    },
+    {
+      "absolute_difference": 6.661338147750939e-16,
+      "path": "report.scenarios[3].control_rate"
+    },
+    {
+      "absolute_difference": 2.220446049250313e-16,
+      "path": "report.scenarios[3].observation_halves.baseline.first28_rate"
+    },
+    {
+      "absolute_difference": 1.1102230246251565e-16,
+      "path": "report.scenarios[3].observation_halves.baseline.last28_rate"
+    },
+    {
+      "absolute_difference": 8.326672684688674e-17,
+      "path": "report.scenarios[3].observation_halves.policy.first28_rate"
+    },
+    {
+      "absolute_difference": 3.4924596548080444e-10,
+      "path": "report.scenarios[3].policy_patient_days"
+    },
+    {
+      "absolute_difference": 8.326672684688674e-17,
+      "path": "report.scenarios[3].policy_rate"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "report.scenarios[4].F"
+    },
+    {
+      "absolute_difference": 8.881784197001252e-16,
+      "path": "report.scenarios[4].absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 2.220446049250313e-16,
+      "path": "report.scenarios[4].banks.A.F"
+    },
+    {
+      "absolute_difference": 5.551115123125783e-16,
+      "path": "report.scenarios[4].banks.A.absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 2.220446049250313e-16,
+      "path": "report.scenarios[4].banks.A.control_rate"
+    },
+    {
+      "absolute_difference": 3.3306690738754696e-16,
+      "path": "report.scenarios[4].banks.A.policy_rate"
+    },
+    {
+      "absolute_difference": 3.3306690738754696e-16,
+      "path": "report.scenarios[4].banks.B.absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 6.661338147750939e-16,
+      "path": "report.scenarios[4].banks.B.control_rate"
+    },
+    {
+      "absolute_difference": 3.3306690738754696e-16,
+      "path": "report.scenarios[4].banks.B.policy_rate"
+    },
+    {
+      "absolute_difference": 2.3283064365386963e-10,
+      "path": "report.scenarios[4].control_patient_days"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "report.scenarios[4].control_rate"
+    },
+    {
+      "absolute_difference": 6.661338147750939e-16,
+      "path": "report.scenarios[4].observation_halves.baseline.first28_rate"
+    },
+    {
+      "absolute_difference": 2.220446049250313e-16,
+      "path": "report.scenarios[4].observation_halves.baseline.last28_rate"
+    },
+    {
+      "absolute_difference": 9.992007221626409e-16,
+      "path": "report.scenarios[4].observation_halves.policy.first28_rate"
+    },
+    {
+      "absolute_difference": 1.1102230246251565e-16,
+      "path": "report.scenarios[4].observation_halves.policy.last28_rate"
+    },
+    {
+      "absolute_difference": 5.820766091346741e-10,
+      "path": "report.scenarios[4].policy_patient_days"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "report.scenarios[4].policy_rate"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "report.scenarios[5].F"
+    },
+    {
+      "absolute_difference": 8.881784197001252e-16,
+      "path": "report.scenarios[5].absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 3.3306690738754696e-16,
+      "path": "report.scenarios[5].banks.A.F"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "report.scenarios[5].banks.A.absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "report.scenarios[5].banks.A.policy_rate"
+    },
+    {
+      "absolute_difference": 9.992007221626409e-16,
+      "path": "report.scenarios[5].banks.B.F"
+    },
+    {
+      "absolute_difference": 1.9984014443252818e-15,
+      "path": "report.scenarios[5].banks.B.absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 6.661338147750939e-16,
+      "path": "report.scenarios[5].banks.B.control_rate"
+    },
+    {
+      "absolute_difference": 1.3322676295501878e-15,
+      "path": "report.scenarios[5].banks.B.policy_rate"
+    },
+    {
+      "absolute_difference": 3.4924596548080444e-10,
+      "path": "report.scenarios[5].control_patient_days"
+    },
+    {
+      "absolute_difference": 6.661338147750939e-16,
+      "path": "report.scenarios[5].control_rate"
+    },
+    {
+      "absolute_difference": 6.661338147750939e-16,
+      "path": "report.scenarios[5].observation_halves.baseline.first28_rate"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "report.scenarios[5].observation_halves.baseline.last28_rate"
+    },
+    {
+      "absolute_difference": 2.220446049250313e-16,
+      "path": "report.scenarios[5].observation_halves.policy.first28_rate"
+    },
+    {
+      "absolute_difference": 2.220446049250313e-16,
+      "path": "report.scenarios[5].observation_halves.policy.last28_rate"
+    },
+    {
+      "absolute_difference": 1.1641532182693481e-10,
+      "path": "report.scenarios[5].policy_patient_days"
+    },
+    {
+      "absolute_difference": 2.220446049250313e-16,
+      "path": "report.scenarios[5].policy_rate"
+    },
+    {
+      "absolute_difference": 2.220446049250313e-16,
+      "path": "report.scenarios[6].F"
+    },
+    {
+      "absolute_difference": 8.881784197001252e-16,
+      "path": "report.scenarios[6].absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 1.1102230246251565e-16,
+      "path": "report.scenarios[6].banks.A.F"
+    },
+    {
+      "absolute_difference": 8.881784197001252e-16,
+      "path": "report.scenarios[6].banks.A.control_rate"
+    },
+    {
+      "absolute_difference": 8.881784197001252e-16,
+      "path": "report.scenarios[6].banks.A.policy_rate"
+    },
+    {
+      "absolute_difference": 1.1102230246251565e-16,
+      "path": "report.scenarios[6].banks.B.F"
+    },
+    {
+      "absolute_difference": 1.7763568394002505e-15,
+      "path": "report.scenarios[6].banks.B.absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 8.881784197001252e-16,
+      "path": "report.scenarios[6].banks.B.control_rate"
+    },
+    {
+      "absolute_difference": 8.881784197001252e-16,
+      "path": "report.scenarios[6].banks.B.policy_rate"
+    },
+    {
+      "absolute_difference": 1.7462298274040222e-10,
+      "path": "report.scenarios[6].control_patient_days"
+    },
+    {
+      "absolute_difference": 2.6645352591003757e-15,
+      "path": "report.scenarios[6].control_rate"
+    },
+    {
+      "absolute_difference": 8.881784197001252e-16,
+      "path": "report.scenarios[6].observation_halves.baseline.first28_rate"
+    },
+    {
+      "absolute_difference": 2.6645352591003757e-15,
+      "path": "report.scenarios[6].observation_halves.baseline.last28_rate"
+    },
+    {
+      "absolute_difference": 8.881784197001252e-16,
+      "path": "report.scenarios[6].observation_halves.policy.first28_rate"
+    },
+    {
+      "absolute_difference": 3.4924596548080444e-10,
+      "path": "report.scenarios[6].policy_patient_days"
+    },
+    {
+      "absolute_difference": 1.7763568394002505e-15,
+      "path": "report.scenarios[6].policy_rate"
+    },
+    {
+      "absolute_difference": 1.1102230246251565e-16,
+      "path": "report.scenarios[7].F"
+    },
+    {
+      "absolute_difference": 1.1102230246251565e-16,
+      "path": "report.scenarios[7].banks.A.F"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "report.scenarios[7].banks.A.absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 3.3306690738754696e-16,
+      "path": "report.scenarios[7].banks.A.policy_rate"
+    },
+    {
+      "absolute_difference": 3.3306690738754696e-16,
+      "path": "report.scenarios[7].banks.B.F"
+    },
+    {
+      "absolute_difference": 1.7763568394002505e-15,
+      "path": "report.scenarios[7].banks.B.absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 1.7763568394002505e-15,
+      "path": "report.scenarios[7].banks.B.control_rate"
+    },
+    {
+      "absolute_difference": 5.820766091346741e-11,
+      "path": "report.scenarios[7].control_patient_days"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "report.scenarios[7].control_rate"
+    },
+    {
+      "absolute_difference": 1.3322676295501878e-15,
+      "path": "report.scenarios[7].observation_halves.baseline.last28_rate"
+    },
+    {
+      "absolute_difference": 1.1102230246251565e-16,
+      "path": "report.scenarios[7].observation_halves.policy.first28_rate"
+    },
+    {
+      "absolute_difference": 7.771561172376096e-16,
+      "path": "report.scenarios[7].observation_halves.policy.last28_rate"
+    },
+    {
+      "absolute_difference": 2.3283064365386963e-10,
+      "path": "report.scenarios[7].policy_patient_days"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "report.scenarios[7].policy_rate"
+    },
+    {
+      "absolute_difference": 1.1102230246251565e-16,
+      "path": "report.scenarios[8].F"
+    },
+    {
+      "absolute_difference": 1.3322676295501878e-15,
+      "path": "report.scenarios[8].absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 8.881784197001252e-16,
+      "path": "report.scenarios[8].banks.A.absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 8.881784197001252e-16,
+      "path": "report.scenarios[8].banks.A.control_rate"
+    },
+    {
+      "absolute_difference": 1.1102230246251565e-16,
+      "path": "report.scenarios[8].banks.B.F"
+    },
+    {
+      "absolute_difference": 1.3322676295501878e-15,
+      "path": "report.scenarios[8].banks.B.absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 1.7763568394002505e-15,
+      "path": "report.scenarios[8].banks.B.control_rate"
+    },
+    {
+      "absolute_difference": 1.1102230246251565e-16,
+      "path": "report.scenarios[8].banks.B.policy_rate"
+    },
+    {
+      "absolute_difference": 3.4924596548080444e-10,
+      "path": "report.scenarios[8].control_patient_days"
+    },
+    {
+      "absolute_difference": 1.3322676295501878e-15,
+      "path": "report.scenarios[8].control_rate"
+    },
+    {
+      "absolute_difference": 8.881784197001252e-16,
+      "path": "report.scenarios[8].observation_halves.baseline.first28_rate"
+    },
+    {
+      "absolute_difference": 3.3306690738754696e-16,
+      "path": "report.scenarios[8].observation_halves.policy.first28_rate"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "report.scenarios[8].observation_halves.policy.last28_rate"
+    },
+    {
+      "absolute_difference": 1.1641532182693481e-10,
+      "path": "report.scenarios[8].policy_patient_days"
+    },
+    {
+      "absolute_difference": 1.1102230246251565e-16,
+      "path": "report.scenarios[8].policy_rate"
+    },
+    {
+      "absolute_difference": 2.220446049250313e-16,
+      "path": "report.scenarios[9].F"
+    },
+    {
+      "absolute_difference": 1.1102230246251565e-15,
+      "path": "report.scenarios[9].absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 2.220446049250313e-16,
+      "path": "report.scenarios[9].banks.A.F"
+    },
+    {
+      "absolute_difference": 6.661338147750939e-16,
+      "path": "report.scenarios[9].banks.A.absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "report.scenarios[9].banks.A.control_rate"
+    },
+    {
+      "absolute_difference": 2.220446049250313e-16,
+      "path": "report.scenarios[9].banks.A.policy_rate"
+    },
+    {
+      "absolute_difference": 2.220446049250313e-16,
+      "path": "report.scenarios[9].banks.B.F"
+    },
+    {
+      "absolute_difference": 8.881784197001252e-16,
+      "path": "report.scenarios[9].banks.B.absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 8.881784197001252e-16,
+      "path": "report.scenarios[9].banks.B.control_rate"
+    },
+    {
+      "absolute_difference": 2.220446049250313e-16,
+      "path": "report.scenarios[9].banks.B.policy_rate"
+    },
+    {
+      "absolute_difference": 2.3283064365386963e-10,
+      "path": "report.scenarios[9].control_patient_days"
+    },
+    {
+      "absolute_difference": 8.881784197001252e-16,
+      "path": "report.scenarios[9].control_rate"
+    },
+    {
+      "absolute_difference": 2.220446049250313e-15,
+      "path": "report.scenarios[9].observation_halves.baseline.first28_rate"
+    },
+    {
+      "absolute_difference": 1.3322676295501878e-15,
+      "path": "report.scenarios[9].observation_halves.baseline.last28_rate"
+    },
+    {
+      "absolute_difference": 6.661338147750939e-16,
+      "path": "report.scenarios[9].observation_halves.policy.first28_rate"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "report.scenarios[9].observation_halves.policy.last28_rate"
+    },
+    {
+      "absolute_difference": 1.1641532182693481e-10,
+      "path": "report.scenarios[9].policy_patient_days"
+    },
+    {
+      "absolute_difference": 2.220446049250313e-16,
+      "path": "report.scenarios[9].policy_rate"
+    },
+    {
+      "absolute_difference": 1.1102230246251565e-16,
+      "path": "report.scenarios[10].F"
+    },
+    {
+      "absolute_difference": 2.4424906541753444e-15,
+      "path": "report.scenarios[10].absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 1.5543122344752192e-15,
+      "path": "report.scenarios[10].absolute_rate_reduction95.interval[0]"
+    },
+    {
+      "absolute_difference": 2.220446049250313e-16,
+      "path": "report.scenarios[10].banks.A.absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "report.scenarios[10].banks.A.control_rate"
+    },
+    {
+      "absolute_difference": 3.469446951953614e-18,
+      "path": "report.scenarios[10].banks.A.policy_rate"
+    },
+    {
+      "absolute_difference": 8.881784197001252e-16,
+      "path": "report.scenarios[10].banks.B.absolute_rate_reduction"
+    },
+    {
+      "absolute_difference": 8.881784197001252e-16,
+      "path": "report.scenarios[10].banks.B.control_rate"
+    },
+    {
+      "absolute_difference": 3.122502256758253e-17,
+      "path": "report.scenarios[10].banks.B.policy_rate"
+    },
+    {
+      "absolute_difference": 1.280568540096283e-09,
+      "path": "report.scenarios[10].control_patient_days"
+    },
+    {
+      "absolute_difference": 2.4424906541753444e-15,
+      "path": "report.scenarios[10].control_rate"
+    },
+    {
+      "absolute_difference": 1.5543122344752192e-15,
+      "path": "report.scenarios[10].control_rate95.interval[0]"
+    },
+    {
+      "absolute_difference": 1.3322676295501878e-15,
+      "path": "report.scenarios[10].control_rate95.interval[1]"
+    },
+    {
+      "absolute_difference": 2.220446049250313e-16,
+      "path": "report.scenarios[10].observation_halves.baseline.first28_rate"
+    },
+    {
+      "absolute_difference": 4.440892098500626e-16,
+      "path": "report.scenarios[10].observation_halves.baseline.last28_rate"
+    },
+    {
+      "absolute_difference": 6.886852199627924e-16,
+      "path": "report.scenarios[10].observation_halves.baseline.last_minus_first95.interval[0]"
+    },
+    {
+      "absolute_difference": 2.220446049250313e-16,
+      "path": "report.scenarios[10].observation_halves.baseline.last_minus_first95.interval[1]"
+    },
+    {
+      "absolute_difference": 1.734723475976807e-17,
+      "path": "report.scenarios[10].observation_halves.policy.first28_rate"
+    },
+    {
+      "absolute_difference": 6.938893903907228e-18,
+      "path": "report.scenarios[10].observation_halves.policy.last28_rate"
+    },
+    {
+      "absolute_difference": 3.8163916471489756e-17,
+      "path": "report.scenarios[10].observation_halves.policy.last_minus_first95.interval[0]"
+    },
+    {
+      "absolute_difference": 2.42861286636753e-17,
+      "path": "report.scenarios[10].observation_halves.policy.last_minus_first95.interval[1]"
+    },
+    {
+      "absolute_difference": 1.1641532182693481e-10,
+      "path": "report.scenarios[10].policy_patient_days"
+    },
+    {
+      "absolute_difference": 3.469446951953614e-18,
+      "path": "report.scenarios[10].policy_rate"
+    },
+    {
+      "absolute_difference": 3.469446951953614e-18,
+      "path": "report.scenarios[10].policy_rate95.interval[0]"
+    },
+    {
+      "absolute_difference": 1.3877787807814457e-17,
+      "path": "report.scenarios[10].policy_rate95.interval[1]"
+    }
+  ],
+  "complete_omitted_field_inventory_sha256": "dadd2489ac305ec4297674346439ba796e0a57a51821a1a2e1d473dc215b2c01",
+  "complete_omitted_pointer_inventory_sha256": "e5560b37530f19d3cf7bf62c2b1361d340f57fa487efc2461beb05bce6922ca7",
+  "full_independent_selector_review_sha256": "65676c46e371a1b6779026fa97030e26bbad3c96267a1cb0db1e19d371b4fb22",
+  "identity_sha256": "89c5422c15cdc22090eb17fd310e451f2fa16fe8dfccc545f69c2d9f663c797e",
+  "independent_review_identity": "b8ae9cd0f1de5064b390101524fbfc73df76f098c60c64f7c1459eaf12ac68e6",
+  "independent_review_sha256": "24844d86260a22ca6dc00f9d7452da7ac6d9fb3ae65d358d9e5dff6c9b614a6f",
+  "input_files": 7368,
+  "kind": "public_full_analysis_scientific_acceptance_projection",
+  "limitations": [
+    "Both fresh selected-clock baseline target gates failed; selecting a point does not establish matching or a common baseline.",
+    "Old original matching failures and point forecasts are unchanged; new four-stratum old intervals do not replace archived original two-bank intervals.",
+    "Policy intervals condition on each once-selected probability; clustered had one failed selector resample and its unconditional selection interval remains unavailable.",
+    "Surface removal includes feedback; contrasts are not causal route fractions. The unfitted p=1 boundary is not a global feasibility proof.",
+    "Intervals including zero do not establish equivalence. Actual arithmetic acceptance does not certify clinical assumptions, authorship or declarations."
+  ],
+  "new_records": 5760,
+  "new_sampled_target_gates": {
+    "clustered_selected_clock": {
+      "family_interval": {
+        "interval": [
+          2.8483425699177056,
+          3.334826071323157
+        ],
+        "level": 0.9916666666666667,
+        "undefined_draws": 0
+      },
+      "passed": false,
+      "point": 3.0889471855846193
+    },
+    "imperfect_selected_clock": {
+      "family_interval": {
+        "interval": [
+          2.6162311560026743,
+          3.09220451383996
+        ],
+        "level": 0.9916666666666667,
+        "undefined_draws": 0
+      },
+      "passed": false,
+      "point": 2.8495297365348526
+    }
+  },
+  "numerical_auditor_sha256": "a17829b0fce07010b279ef37448013c0e056a37a6a03947f73c6130cd08063e7",
+  "numerical_comparator": {
+    "abs_tol": 5e-12,
+    "rel_tol": 5e-12,
+    "scope": "Computed arithmetic floating leaves only; every design/scenario/interval-level/target-band constant exact; producer report byte identity unchanged."
+  },
+  "old_matching_failures_unchanged": true,
+  "old_records": 1536,
+  "omission_pointer_scope": "Named pointers remove the entire original field value. Whole-map pointers remove every nested member name and value. Sensitive control field/pointer names are represented only by hashes; exhaustive original accounting is preserved privately.",
+  "omitted_entire_map_entry_counts": {
+    "actual_thread_limits": 3,
+    "external_pins": 14,
+    "files_sha256": 28
+  },
+  "omitted_original_field_name_sha256": [
+    "e1859d5287fe65fbd0121278a08db100766a9040c785d2e4b7651f1cdbd21401"
+  ],
+  "omitted_original_fields": [
+    "actual_execution_receipt_identity",
+    "actual_execution_receipt_sha256",
+    "actual_imported_numpy_release",
+    "actual_process_niceness",
+    "actual_python_full",
+    "actual_request_sha256",
+    "actual_runtime_pre_post_stable",
+    "actual_thread_limits",
+    "created_at_utc",
+    "external_pins",
+    "files_sha256",
+    "identity_sha256",
+    "invocation_static_review_sha256",
+    "kind",
+    "producer_execution_receipt_sha256",
+    "schema_version"
+  ],
+  "omitted_original_json_pointers": [
+    "/actual_execution_receipt_identity",
+    "/actual_execution_receipt_sha256",
+    "/actual_imported_numpy_release",
+    "/actual_process_niceness",
+    "/actual_python_full",
+    "/actual_request_sha256",
+    "/actual_runtime_pre_post_stable",
+    "/actual_thread_limits",
+    "/created_at_utc",
+    "/external_pins",
+    "/files_sha256",
+    "/identity_sha256",
+    "/invocation_static_review_sha256",
+    "/kind",
+    "/producer_execution_receipt_sha256",
+    "/schema_version"
+  ],
+  "omitted_sensitive_pointer_sha256": [
+    "2fce1df5194b51ffbb2550867a6f7f71f7e15858c5221a175dec0c4444c280dc"
+  ],
+  "original_receipt_identity": "bd501753030de04c772b498336731e53d9a69e6d703a6107fb4d00eef2bc75f6",
+  "original_receipt_kind": "complete_rule_surface_analysis_arithmetic_acceptance",
+  "original_receipt_sha256": "af2c825de679bbf84291864e9c61dcee13ee7a6b450493004880195a7113b128",
+  "original_selector_full_runtime_recorded": false,
+  "original_top_level_field_count": 46,
+  "parent_freeze_identity": "7661d846c9665ab7a7aea0c562939c25eee9818891d14f2e6874ced4a46bad81",
+  "primary_contrasts": [
+    {
+      "estimate": 0.1625710506731849,
+      "name": "clock_minus_zone_clustered_F",
+      "uncertainty": {
+        "interval": [
+          0.1019384078542971,
+          0.22326475160298145
+        ],
+        "level": 0.9916666666666667,
+        "undefined_draws": 0
+      }
+    },
+    {
+      "estimate": 0.37020063871531883,
+      "name": "clock_minus_zone_imperfect_F",
+      "uncertainty": {
+        "interval": [
+          0.28469524715988576,
+          0.4569061677826697
+        ],
+        "level": 0.9916666666666667,
+        "undefined_draws": 0
+      }
+    },
+    {
+      "estimate": 0.096844822777297,
+      "name": "surfaces_off_minus_full_independent_F",
+      "uncertainty": {
+        "interval": [
+          0.02871177705231436,
+          0.16431539685061083
+        ],
+        "level": 0.9916666666666667,
+        "undefined_draws": 0
+      }
+    },
+    {
+      "estimate": -0.04521032443914441,
+      "name": "surfaces_off_minus_full_persistent_F",
+      "uncertainty": {
+        "interval": [
+          -0.13068138293188009,
+          0.03574998448801332
+        ],
+        "level": 0.9916666666666667,
+        "undefined_draws": 0
+      }
+    },
+    {
+      "estimate": 0.006118076250417048,
+      "name": "surfaces_off_minus_full_imperfect_F",
+      "uncertainty": {
+        "interval": [
+          -0.10569311679803807,
+          0.11539299302201352
+        ],
+        "level": 0.9916666666666667,
+        "undefined_draws": 0
+      }
+    },
+    {
+      "estimate": 0.047200277175908245,
+      "name": "upper_minus_center_independent_F",
+      "uncertainty": {
+        "interval": [
+          -0.037247277056609775,
+          0.1368314124999496
+        ],
+        "level": 0.9916666666666667,
+        "undefined_draws": 0
+      }
+    }
+  ],
+  "primary_family_size": 6,
+  "primary_interval_level": 0.9916666666666667,
+  "projection_notice": "Scientific fields copied exactly from the sealed original acceptance. Entire operational/control/runtime maps and fields are omitted as declared; the original private receipt remains unchanged. This is a projection, not the original receipt or a broader acceptance.",
+  "retained_original_fields": [
+    "actual_clinical_validation",
+    "actual_report_sha256",
+    "actual_result_review",
+    "bootstrap_draws",
+    "bootstrap_seed",
+    "canonical_paper_revision_accepted",
+    "chunk_size",
+    "compared_floating_differences",
+    "full_independent_selector_review_sha256",
+    "independent_review_identity",
+    "independent_review_sha256",
+    "input_files",
+    "limitations",
+    "new_records",
+    "new_sampled_target_gates",
+    "numerical_auditor_sha256",
+    "numerical_comparator",
+    "old_matching_failures_unchanged",
+    "old_records",
+    "original_selector_full_runtime_recorded",
+    "parent_freeze_identity",
+    "primary_contrasts",
+    "primary_family_size",
+    "primary_interval_level",
+    "scope",
+    "secondary_freeze_identity",
+    "static_review_sha256",
+    "status",
+    "weight_stream_sha256_int64LE"
+  ],
+  "schema_version": 1,
+  "scope": "Independent complete-input numerical review of the once-frozen six-contrast report. Producer9189... bytes remain immutable; all computed floating values compare only under fixed5e-12 relative-or-absolute tolerance. Scientific/clinical prose and exact fresh byte replay are separate review scopes.",
+  "secondary_freeze_identity": "0be89a835bb123ea2698cc18f304de88374366f6c3379ff5e347a0190725f5cc",
+  "static_review_sha256": "826362b0804dd6073b2ebe14e2f943186f2483d3693b5c436a12775fa1d25e7c",
+  "status": "pass",
+  "weight_stream_sha256_int64LE": {
+    "clock_boundary": "56ddd29d985234eb24ff61563dc81274d243a1d9f9ae68d7f1db0282d77687c0",
+    "clock_policy": "a3f9ecd60748e9aee208d18f3f20b1e9ba6e5cfe77a1417b9911e7965a12065c",
+    "old_four_strata": "63e1a65e11ef4b93a2726f42cebbd72881d1a95e12b7afe6c436fbffa06e5d34"
+  }
+}

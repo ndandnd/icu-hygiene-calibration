@@ -1,0 +1,990 @@
+{
+  "adapter_sha256": "939aabd55a64ce59f1c9111052cdd36b7545fbc848578b48eef1dbb37d2e8c67",
+  "archived_config_sha256": "f4ee1d2f9578b982b296b76da558fcf843bbc7de782beff9ba1ace823d095574",
+  "archived_record": "results/full_icu_confirmation_2026-10-08/bridge_cluster/part_01/completed/2312492055.json",
+  "archived_record_sha256": "30138efd0d9d22f864ea5e3b0f654d98b44d74105fd36f85e66e420f5f2dde92",
+  "bank": "A",
+  "cpu_seconds": 224.272956,
+  "exact_field_equal": {
+    "event_counts": true,
+    "executed_ticks": true,
+    "model_kwargs": true,
+    "observation_admissions": true,
+    "observation_imported_colonizations": true,
+    "observation_patient_days": true,
+    "observation_susceptible_patient_days": true,
+    "ordered_bridge_events_sha256": true,
+    "seed": true,
+    "status": true,
+    "total_admissions": true,
+    "total_imported_colonizations": true
+  },
+  "frozen_sha256": {
+    "research/full_icu_confirmation_2026-10-08/bridge/background.py": "4613669a9ffd9fbf749bcc5d27bb1e62844590a49ddfb23eda579b11c3e0ca04",
+    "research/full_icu_confirmation_2026-10-08/bridge/coefficient.py": "da9b21c5c95ea208b08ef577e2305a151ee7173c139b0e17cefcdf20a4c52898",
+    "research/full_icu_confirmation_2026-10-08/bridge/configs/bridge_all.json": "8e9f0f431ded41e2e2d35a60414851798572ce6a3a6784cc65edad14d582015c",
+    "research/full_icu_confirmation_2026-10-08/bridge/run.py": "9a0959a91007425abf9cf270d3be2142209d7e2f92dbe27f5ebc6bbb2025526b",
+    "research/full_icu_confirmation_2026-10-08/bridge/seedbook.json": "7f38db102597f653b70f35560a5aeebe1b01231be49b4802bd7bb209991a518c",
+    "research/full_icu_response_2026-10-08/instrumented_model.py": "5dcbe23b392694c1baffa7cd2475588ab12d8a3333778c17e73e0b5e6131888b",
+    "research/robustness_uq_2026-10-17/workflow_variant.py": "a1037d7cfa83889e6da010671cfa54ade6c599a8de4c45f34113744aa693ef74",
+    "src/CPEmodel.py": "5659a207818cdc8f1dcd40dd41b2900fa9d02a302a92b9dc6c5f6b376213ff53",
+    "src/agents.py": "bb4d52252f2c4d4fba599245fa1abc07254afe12fc2165e692ad1279504fc656",
+    "src/routes.py": "48c1ce8440cf71a82996afd92ede83b1237744db56b439bd9163ce7b60f0dcd5"
+  },
+  "frozen_simulate_elapsed_seconds": 615.7930621244013,
+  "gate": "gate1_original_mode_reproduction",
+  "gate_script_sha256": "6aff1d0e2f2b9d442eb66313465fca3ccb96c878d58b3eb4d00a945b81560f02",
+  "load_average_after": [
+    48.4140625,
+    48.48779296875,
+    34.5048828125
+  ],
+  "load_average_before": [
+    35.1962890625,
+    20.87451171875,
+    12.31494140625
+  ],
+  "max_K_relative_error": 0.0,
+  "ordered_bridge_events_sha256": {
+    "archived": "c0de3df45f3f0dfcdcfc382f6fe129df1579eacd5275d83c226998993c6299d1",
+    "new": "c0de3df45f3f0dfcdcfc382f6fe129df1579eacd5275d83c226998993c6299d1"
+  },
+  "partition_config": "research/full_icu_confirmation_2026-10-08/bridge/configs/cluster_part_01.json",
+  "pass": true,
+  "profiles": {
+    "iid_imperfect": {
+      "baseline": {
+        "K_archived": 817.9191433835973,
+        "K_from_warmup_relative_error": 0.0,
+        "K_new": 817.9191433835973,
+        "K_relative_error": 0.0,
+        "arm_result_bitwise_equal": true
+      },
+      "policy": {
+        "K_archived": 589.0895477224302,
+        "K_from_warmup_relative_error": 0.0,
+        "K_new": 589.0895477224302,
+        "K_relative_error": 0.0,
+        "arm_result_bitwise_equal": true
+      }
+    },
+    "iid_perfect": {
+      "baseline": {
+        "K_archived": 97.67611688088543,
+        "K_from_warmup_relative_error": 0.0,
+        "K_new": 97.67611688088543,
+        "K_relative_error": 0.0,
+        "arm_result_bitwise_equal": true
+      },
+      "policy": {
+        "K_archived": 24.240492932382203,
+        "K_from_warmup_relative_error": 0.0,
+        "K_new": 24.240492932382203,
+        "K_relative_error": 0.0,
+        "arm_result_bitwise_equal": true
+      }
+    },
+    "persistent_perfect": {
+      "baseline": {
+        "K_archived": 717.0258308522997,
+        "K_from_warmup_relative_error": 0.0,
+        "K_new": 717.0258308522997,
+        "K_relative_error": 0.0,
+        "arm_result_bitwise_equal": true
+      },
+      "policy": {
+        "K_archived": 332.511456955242,
+        "K_from_warmup_relative_error": 0.0,
+        "K_new": 332.511456955242,
+        "K_relative_error": 0.0,
+        "arm_result_bitwise_equal": true
+      }
+    }
+  },
+  "profiles_bitwise_equal": true,
+  "runtime": {
+    "dont_write_bytecode": true,
+    "executable": "$PROJECT_ROOT/abm/.venv/bin/python",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "python": "3.12.2 (v3.12.2:6abddd9f6a, Feb  6 2024, 17:02:06) [Clang 13.0.0 (clang-1300.0.29.30)]"
+  },
+  "seed": 2312492055,
+  "site": "cluster",
+  "surface": {
+    "all_shared_keys_bitwise_equal": true,
+    "extended_record": "$PROJECT_ROOT/research/author_notes_2026-10-10/collections/bridge_20261011_061144_utc/results/bridge/part_17/completed/2312492055.json",
+    "extended_record_sha256": "c7d7a78d39327c1b577adde3f4c070875c15d4afbfd0491c50d1761bd10802ea",
+    "max_K_relative_error": 0.0,
+    "ordered_hash_equal": true,
+    "pairs": {
+      "h0.8_to_0.9_rho0.5_e1": {
+        "baseline": {
+          "K_archived": 1669.7999876601064,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 1669.7999876601064,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        },
+        "policy": {
+          "K_archived": 717.0544397681789,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 717.0544397681789,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        }
+      },
+      "h0.8_to_0.9_rho0_e0.8": {
+        "baseline": {
+          "K_archived": 1419.7614482809824,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 1419.7614482809824,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        },
+        "policy": {
+          "K_archived": 817.9191433835973,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 817.9191433835973,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        }
+      },
+      "h0.8_to_0.9_rho0_e1": {
+        "baseline": {
+          "K_archived": 402.2328887377899,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 402.2328887377899,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        },
+        "policy": {
+          "K_archived": 97.67611688088543,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 97.67611688088543,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        }
+      },
+      "h0.95_to_0.99_rho0.5_e1": {
+        "baseline": {
+          "K_archived": 332.4980908434291,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 332.4980908434291,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        },
+        "policy": {
+          "K_archived": 62.61577165293501,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 62.61577165293501,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        }
+      },
+      "h0.95_to_0.99_rho0_e0.8": {
+        "baseline": {
+          "K_archived": 589.0895477224302,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 589.0895477224302,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        },
+        "policy": {
+          "K_archived": 436.4242027059256,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 436.4242027059256,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        }
+      },
+      "h0.95_to_0.99_rho0_e1": {
+        "baseline": {
+          "K_archived": 24.240492932382203,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 24.240492932382203,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        },
+        "policy": {
+          "K_archived": 0.9673389849990183,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 0.9673389849990183,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        }
+      },
+      "h0.9_to_0.95_rho0.25_e0.6": {
+        "baseline": {
+          "K_archived": 2676.7225679809508,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 2676.7225679809508,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        },
+        "policy": {
+          "K_archived": 2218.116984700079,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 2218.116984700079,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        }
+      },
+      "h0.9_to_0.95_rho0.25_e0.8": {
+        "baseline": {
+          "K_archived": 1020.5850862238052,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 1020.5850862238052,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        },
+        "policy": {
+          "K_archived": 689.3989203623743,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 689.3989203623743,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        }
+      },
+      "h0.9_to_0.95_rho0.25_e0.9": {
+        "baseline": {
+          "K_archived": 585.8087710225936,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 585.8087710225936,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        },
+        "policy": {
+          "K_archived": 319.33115808495694,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 319.33115808495694,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        }
+      },
+      "h0.9_to_0.95_rho0.25_e1": {
+        "baseline": {
+          "K_archived": 347.97839184561485,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 347.97839184561485,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        },
+        "policy": {
+          "K_archived": 150.58096866891756,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 150.58096866891756,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        }
+      },
+      "h0.9_to_0.95_rho0.5_e0.6": {
+        "baseline": {
+          "K_archived": 2960.00513546356,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 2960.00513546356,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        },
+        "policy": {
+          "K_archived": 2355.149448965037,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 2355.149448965037,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        }
+      },
+      "h0.9_to_0.95_rho0.5_e0.8": {
+        "baseline": {
+          "K_archived": 1342.696491793832,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 1342.696491793832,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        },
+        "policy": {
+          "K_archived": 846.806711916579,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 846.806711916579,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        }
+      },
+      "h0.9_to_0.95_rho0.5_e0.9": {
+        "baseline": {
+          "K_archived": 929.983026455408,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 929.983026455408,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        },
+        "policy": {
+          "K_archived": 488.1850602650384,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 488.1850602650384,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        }
+      },
+      "h0.9_to_0.95_rho0.5_e1": {
+        "baseline": {
+          "K_archived": 717.0258308522997,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 717.0258308522997,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        },
+        "policy": {
+          "K_archived": 332.511456955242,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 332.511456955242,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        }
+      },
+      "h0.9_to_0.95_rho0.75_e0.6": {
+        "baseline": {
+          "K_archived": 3709.5174098437765,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 3709.5174098437765,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        },
+        "policy": {
+          "K_archived": 2712.8909651995423,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 2712.8909651995423,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        }
+      },
+      "h0.9_to_0.95_rho0.75_e0.8": {
+        "baseline": {
+          "K_archived": 2131.322694203633,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 2131.322694203633,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        },
+        "policy": {
+          "K_archived": 1225.2867808716062,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 1225.2867808716062,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        }
+      },
+      "h0.9_to_0.95_rho0.75_e0.9": {
+        "baseline": {
+          "K_archived": 1741.6011927398736,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 1741.6011927398736,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        },
+        "policy": {
+          "K_archived": 878.7783114446506,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 878.7783114446506,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        }
+      },
+      "h0.9_to_0.95_rho0.75_e1": {
+        "baseline": {
+          "K_archived": 1554.074157881231,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 1554.074157881231,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        },
+        "policy": {
+          "K_archived": 736.4874534172066,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 736.4874534172066,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        }
+      },
+      "h0.9_to_0.95_rho0_e0.6": {
+        "baseline": {
+          "K_archived": 2510.394235790669,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 2510.394235790669,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        },
+        "policy": {
+          "K_archived": 2136.6523545708733,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 2136.6523545708733,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        }
+      },
+      "h0.9_to_0.95_rho0_e0.8": {
+        "baseline": {
+          "K_archived": 817.9191433835973,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 817.9191433835973,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        },
+        "policy": {
+          "K_archived": 589.0895477224302,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 589.0895477224302,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        }
+      },
+      "h0.9_to_0.95_rho0_e0.9": {
+        "baseline": {
+          "K_archived": 361.6531139057869,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 361.6531139057869,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        },
+        "policy": {
+          "K_archived": 207.58021554077885,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 207.58021554077885,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        }
+      },
+      "h0.9_to_0.95_rho0_e1": {
+        "baseline": {
+          "K_archived": 97.67611688088543,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 97.67611688088543,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        },
+        "policy": {
+          "K_archived": 24.240492932382203,
+          "K_from_warmup_relative_error": 0.0,
+          "K_new": 24.240492932382203,
+          "K_relative_error": 0.0,
+          "arm_result_bitwise_equal": true,
+          "shared_keys": [
+            "K",
+            "K_by_opportunities",
+            "K_by_worker",
+            "K_from_warmup_pickups",
+            "completion_law_endpoint",
+            "event_counts",
+            "raw_pairs_without_reset",
+            "raw_pairs_without_reset_by_opportunities"
+          ],
+          "shared_keys_bitwise_equal": true
+        }
+      }
+    }
+  },
+  "surface_attached": true,
+  "wall_seconds": 615.7963412916288,
+  "workflow": {
+    "alternative": false,
+    "counters_observation": {
+      "audit.moves": 16,
+      "audit.moves_from_isolation_bed": 8,
+      "audit.moves_into_isolation_bed": 8,
+      "audit.moves_into_occupied_bed": 8,
+      "audit.moves_shared_to_isolation": 8,
+      "audit.swaps": 8
+    },
+    "counters_total": {
+      "audit.moves": 34,
+      "audit.moves_from_isolation_bed": 17,
+      "audit.moves_into_isolation_bed": 17,
+      "audit.moves_into_occupied_bed": 17,
+      "audit.moves_shared_to_isolation": 17,
+      "audit.swaps": 17
+    },
+    "name": "original_swap_isolation",
+    "patient_contacts_by_period_status_bed": {
+      "observation|carrier|isolation_bed": 23148,
+      "observation|carrier|shared_bed": 8,
+      "observation|susceptible|isolation_bed": 73391,
+      "observation|susceptible|shared_bed": 68152,
+      "warmup|carrier|isolation_bed": 38595,
+      "warmup|carrier|shared_bed": 9,
+      "warmup|susceptible|isolation_bed": 117150,
+      "warmup|susceptible|shared_bed": 110338
+    }
+  }
+}

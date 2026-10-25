@@ -1,0 +1,31 @@
+\paragraph{ICU projection through the computed coefficient grid (prespecified extension).}
+The secondary analysis in the 23 October protocol reused all saved 8,000-per-assay
+confidence limits. It replaced the round-1 renewal-plus-residual surrogate with
+bilinear interpolation of the 132 directly computed ICU limit values from
+Section~\ref{sec:s-coef-extension}, on $\rho\in[0,.95]$, $e\in[.5,1]$.
+The feasible-set search remained 81 efficacy slices and 61 correlation points
+per nonempty slice. Any set reaching outside the computed domain was to be
+counted and excluded, without clipping or extrapolation. The four truths gave
+978, 985, 999 and 1,000 retained sets; 22, 15, 1 and 0 were empty, respectively,
+and none was out of domain. An independent analytic domain check agreed with
+all 4,000 classifications.
+
+Median widths were 5.26, 0.98, 6.66 and 11.62 percentage points
+(Table~\ref{tab:extension-projection}), conditional on nonempty retained sets.
+As the protocol specified, the superseded round-1 surrogate was evaluated on
+exactly these sets for comparison only (6.17, 0.92, 6.66 and 11.67 points).
+The protocol called this an ``exact ICU projection'', but that label
+is too strong: coefficient values integrate survival on sampled histories,
+then the projection interpolates a finite parameter grid and samples the
+feasible set. It does not certify continuous ICU extrema or bound interpolation
+error, and it does not propagate background uncertainty in the coefficient
+surface. A post hoc check against ten separately computed crossing nodes,
+not used as interpolation nodes, found discrepancies up to 0.656 percentage
+points in $F^*$; this is a diagnostic at those points, not a global error bound
+or a bound on interval widths. No new measurements or coverage guarantee are added;
+in particular, these widths do not inherit the isolated-bridge continuous
+optimization certificate. Empty sets remain reported, and no new $q_1$-only
+ICU projection was computed, so these widths cannot show whether adding $q_2$
+narrows the ICU forecast; the combined-truth joint width (11.62 points) is close
+to the isolated $q_1$-only width (11.4 points).
+

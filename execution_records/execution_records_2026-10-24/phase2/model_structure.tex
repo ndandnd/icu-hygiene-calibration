@@ -1,0 +1,19 @@
+The simulator revisits the ICU agent-based model of an IDWeek 2022 conference
+abstract \citep{baek2022}, with clinician-informed schedules recovered from that
+project: 30 beds (16 isolation, 14 shared), 30 bedside sites and 19 staff role
+slots. Organisms move between patients only through workers' hands and bedside
+sites; there is no direct patient-to-patient contact. Patients are admitted and
+discharged, some arrive carrying the organism, and acquired carriers can become
+later sources. The outcome is newly acquired colonization (carriage), not
+infection; the model does not represent progression to infection or death. A
+single probability $p$ governs pickup onto hands, transfer to a patient and
+exchange between hands and sites. This shared probability is a simplifying
+assumption, not a measured biological constant. Pickup and transfer trials at a
+contact have probabilities $pc$ and $pd$ with location weights $c,d\in\{1,.6\}$:
+the isolation multiplier .6 applies to contacts with patients and sites in
+the 16 isolation locations, whatever the patient's carriage status, so it also
+protects susceptible patients in single rooms: it is a single-room effect, not
+contact precautions applied to carriers. It scales specified contact-transfer
+trials; it is not an observed 40\% reduction in acquisition, and we have not
+recovered a clinical source for it. Table~\ref{tab:params} lists the settings.
+

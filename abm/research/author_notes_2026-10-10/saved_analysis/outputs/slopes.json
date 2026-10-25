@@ -1,0 +1,144 @@
+{
+  "analysis_freeze_identity": "9ef86ef81700b85788e42e7184e84110b769f8e631e7b5660555563f4c4ce525",
+  "bootstrap_draws": 50000,
+  "bootstrap_seed": 20261010,
+  "cohorts": {
+    "A": {
+      "env_off_log_slope": {
+        "estimate": 2.023567036578548,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.5299971667593952,
+            2.569325197858546
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "env_off_rates": [
+        0.2000886963577592,
+        0.3977684797194314,
+        0.5573653486412663
+      ],
+      "full_minus_off_log_slope": {
+        "estimate": 4.321901803751056,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            3.5436464752110393,
+            5.463061815556161
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "full_minus_off_rates": [
+        0.18101141129640483,
+        0.5621071360678807,
+        1.662351341756648
+      ],
+      "n_seeds": 256,
+      "p": [
+        0.08097942812593639,
+        0.10797257083458187,
+        0.13496571354322734
+      ]
+    },
+    "B": {
+      "env_off_log_slope": {
+        "estimate": 2.030773741036985,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.5250012739603895,
+            2.5956119635873676
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "env_off_rates": [
+        0.2215310997674509,
+        0.4049619000827052,
+        0.6240699341643176
+      ],
+      "full_minus_off_log_slope": {
+        "estimate": 4.339752563237888,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            3.533826281303028,
+            5.613793011507011
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "full_minus_off_rates": [
+        0.18814528997656682,
+        0.6359363483200882,
+        1.7315299478186108
+      ],
+      "n_seeds": 256,
+      "p": [
+        0.08097942812593639,
+        0.10797257083458187,
+        0.13496571354322734
+      ]
+    },
+    "pooled": {
+      "env_off_log_slope": {
+        "estimate": 2.0275270177132625,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            1.6697386294476542,
+            2.417952871090697
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "env_off_rates": [
+        0.21080979331345118,
+        0.4013649772682393,
+        0.5907173395544296
+      ],
+      "full_minus_off_log_slope": {
+        "estimate": 4.3311435901412185,
+        "uncertainty": {
+          "bootstrap_draws": 50000,
+          "conditional_on_defined_draws": false,
+          "interval95": [
+            3.746879227634632,
+            5.102798662677193
+          ],
+          "interval_unavailable_if_any_draw_undefined": true,
+          "undefined_bootstrap_draws": 0
+        }
+      },
+      "full_minus_off_rates": [
+        0.18457856395555833,
+        0.5990211653135165,
+        1.6969391008582355
+      ],
+      "n_seeds": 512,
+      "p": [
+        0.08097942812593639,
+        0.10797257083458187,
+        0.13496571354322734
+      ]
+    }
+  },
+  "descriptive_interval_level": 0.95,
+  "interpretation": "Exploratory finite-p log slopes; not evidence of an asymptotic mechanism. Environmental ablation includes feedback and is not route counts.",
+  "schema_version": 1,
+  "task": "slopes",
+  "uncertainty_scope": "Synthetic-model Monte Carlo uncertainty; excludes clinical-input uncertainty."
+}

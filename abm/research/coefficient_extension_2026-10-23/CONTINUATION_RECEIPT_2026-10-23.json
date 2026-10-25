@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-10-23T16:56:41.370593+00:00",
+  "study": "coefficient_extension_2026-10-23",
+  "summary_sha256": "ab0444c387806d61b24e927c0aeb161382327f7b4b26973b2b9681152b1f1c8b",
+  "records": 256,
+  "pairs_per_seed": 182,
+  "prediction_decisions": [
+    true,
+    false,
+    true,
+    false
+  ],
+  "native_compilation": {
+    "main": "success",
+    "supplement": "success after one stale-project retry"
+  },
+  "pdf_qa": {
+    "main_pages": 17,
+    "supplement_pages": 62,
+    "all_pages_passed": true
+  },
+  "word_count_approximate": 7986,
+  "abstract_words": 250,
+  "frozen_science_changed": false,
+  "new_simulations_launched": false,
+  "finite_p_study": "pending user cluster/local/defer choice",
+  "external_contact_or_submission": false,
+  "files": {
+    "abm/research/manuscript_v2_2026-10-21/manuscript_v2.tex": "c0d4e3effe6c7eba223d05d2782b944e9e838446a423dc6e8879639c456b3a6c",
+    "abm/research/manuscript_v2_2026-10-21/supplement_v2.tex": "b8b60075a22a1ff6beed1564fcd197ae76359fbccbeb6ba764a7ebaecb5e3908",
+    "abm/research/manuscript_v2_2026-10-21/manuscript_v2.pdf": "03e26a35e0dcaf2f5d71869e9d5566e7c39cebbb59f963232426a28b56dcc960",
+    "abm/research/manuscript_v2_2026-10-21/supplement_v2.pdf": "ee951f05d90d3fb8784a437e039e8c60a0212de3288fc79252fb2c1e5bd0bf58",
+    "abm/research/manuscript_v2_2026-10-21/NUMBERS_SOURCE.md": "087449f3d41eca2ed48b03aabb391a7e8843f738d06b5aaaf8eef300a4b03a0f",
+    "abm/research/manuscript_v2_2026-10-21/REVISION_2026-10-23.diff": "50b51bf73dca75a916f36f39f08f87eddf1fc5a1ff49469d15d93277e0254edf",
+    "abm/research/coefficient_extension_2026-10-23/RESULTS.md": "dd9086ffadae058ed83d407f92ddd50d30429b083bc3651460647f154f0e515c",
+    "abm/research/coefficient_extension_2026-10-23/release_2026-10-23_01/abm_coefficient_extension_review.zip": "797cd12d5b83765a4df6cf512efc42d919b59a825ef1f2e7dd5b983356b3e154"
+  },
+  "older_open_source_sha256": "887e5125332cb4636ca3e8c059d014f3bba540d77c660c0958a4765a9667303e",
+  "older_open_source_unchanged": true,
+  "portable_bundle_reanalysis": "passed",
+  "portable_bundle_reanalysis_receipt_sha256": "01908cf568ac4cc3c6a98a8a955ff9a7c8061d4029cc4cce33005fcbc1027daa"
+}

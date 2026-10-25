@@ -1,0 +1,21 @@
+{
+  "started_utc": "2026-10-17T20:16:51.605374+00:00",
+  "finished_utc": "2026-10-17T20:16:58.761784+00:00",
+  "python": "3.12.2 (v3.12.2:6abddd9f6a, Feb  6 2024, 17:02:06) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "inputs": {
+    "PROTOCOL.md": "079cd9cbe609fd78aa5835b61c93b6a2999aa3551914466db1d4d4b819f9714a",
+    "run_benchmark.py": "69452bf7e3fa258081c83cd2890681df03382197e6dd558f89cf7bb127139940"
+  },
+  "outputs": {
+    "raw_benchmark.npz": "b5468a0f2a6a16929cc86655cbecf8b68656570d15bdded0425b624a8191d219",
+    "results.json": "19a9732b4a96d04dee8f5b6f6536556eca8e98b7f795a864739fb3efe3f52de0"
+  },
+  "status": "completed",
+  "replicate_experiments": 12000,
+  "all_grid_predictions_finite": true,
+  "nestedness_checked_every_experiment_target": true,
+  "extrema_witness_checked_every_defined_experiment_target": true
+}
