@@ -1,0 +1,958 @@
+{
+  "old_sections": {
+    "S1": "S1",
+    "S2": "S2",
+    "S3": "S3",
+    "S4": "S4",
+    "S5": "S4",
+    "S6": "S4",
+    "S7": "S4",
+    "S8": "S4",
+    "S9": "S4",
+    "S10": "S4",
+    "S11": "S4",
+    "S12": "S4",
+    "S13": "S4",
+    "S14": "S3/S4"
+  },
+  "labels": {
+    "tab:flow": {
+      "kind": "table",
+      "old_number": "S1",
+      "report_number": "T1",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "sec:s-model": {
+      "kind": "section",
+      "old_number": "S1",
+      "report_number": "T1",
+      "destination": "core",
+      "core_number": "S1",
+      "core_section": "S1"
+    },
+    "tab:params": {
+      "kind": "table",
+      "old_number": "S2",
+      "report_number": "T2",
+      "destination": "core",
+      "core_number": "S1",
+      "core_section": "S1"
+    },
+    "sec:s-contacts": {
+      "kind": "subsection",
+      "old_number": "S1.2",
+      "report_number": "T1.2",
+      "destination": "core",
+      "core_number": "S1.1",
+      "core_section": "S1"
+    },
+    "sec:s-workflows": {
+      "kind": "subsection",
+      "old_number": "S1.3",
+      "report_number": "T1.3",
+      "destination": "core",
+      "core_number": "S1.2",
+      "core_section": "S1"
+    },
+    "tab:workflows": {
+      "kind": "table",
+      "old_number": "S3",
+      "report_number": "T3",
+      "destination": "core",
+      "core_number": "S2",
+      "core_section": "S1"
+    },
+    "sec:s-outcomes": {
+      "kind": "subsection",
+      "old_number": "S1.4",
+      "report_number": "T1.4",
+      "destination": "core",
+      "core_number": "S1.3",
+      "core_section": "S1"
+    },
+    "sec:s-hygiene": {
+      "kind": "section",
+      "old_number": "S2",
+      "report_number": "T2",
+      "destination": "core",
+      "core_number": "S2",
+      "core_section": "S2"
+    },
+    "eq:P": {
+      "kind": "equation",
+      "old_number": "S1",
+      "report_number": "T1",
+      "destination": "core",
+      "core_number": "S1",
+      "core_section": "S2"
+    },
+    "eq:qk": {
+      "kind": "equation",
+      "old_number": "S2",
+      "report_number": "T2",
+      "destination": "core",
+      "core_number": "S2",
+      "core_section": "S2"
+    },
+    "eq:q12": {
+      "kind": "equation",
+      "old_number": "S3",
+      "report_number": "T3",
+      "destination": "core",
+      "core_number": "S3",
+      "core_section": "S2"
+    },
+    "tab:qtable": {
+      "kind": "table",
+      "old_number": "S4",
+      "report_number": "T4",
+      "destination": "core",
+      "core_number": "S3",
+      "core_section": "S2"
+    },
+    "tab:who": {
+      "kind": "table",
+      "old_number": "S5",
+      "report_number": "T5",
+      "destination": "core",
+      "core_number": "S4",
+      "core_section": "S2"
+    },
+    "sec:s-proofs": {
+      "kind": "section",
+      "old_number": "S3",
+      "report_number": "T3",
+      "destination": "core",
+      "core_number": "S3",
+      "core_section": "S3"
+    },
+    "sec:s-proof-fixed": {
+      "kind": "subsection",
+      "old_number": "S3.1",
+      "report_number": "T3.1",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "prop:fixed": {
+      "kind": "proposition",
+      "old_number": "S1",
+      "report_number": "T1",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "eq:rare": {
+      "kind": "equation",
+      "old_number": "S4",
+      "report_number": "T4",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "sec:s-proof-icu": {
+      "kind": "subsection",
+      "old_number": "S3.2",
+      "report_number": "T3.2",
+      "destination": "core",
+      "core_number": "S3.1",
+      "core_section": "S3"
+    },
+    "prop:icu": {
+      "kind": "proposition",
+      "old_number": "S2",
+      "report_number": "T2",
+      "destination": "core",
+      "core_number": "S1",
+      "core_section": "S3"
+    },
+    "sec:s-proof-calibration": {
+      "kind": "subsection",
+      "old_number": "S3.3",
+      "report_number": "T3.3",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "lem:branch": {
+      "kind": "lemma",
+      "old_number": "S1",
+      "report_number": "T1",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "sec:s-proof-ident": {
+      "kind": "subsection",
+      "old_number": "S3.4",
+      "report_number": "T3.4",
+      "destination": "core",
+      "core_number": "S3.2",
+      "core_section": "S3"
+    },
+    "eq:weights": {
+      "kind": "equation",
+      "old_number": "S6",
+      "report_number": "T6",
+      "destination": "core",
+      "core_number": "S5",
+      "core_section": "S3"
+    },
+    "prop:ident": {
+      "kind": "proposition",
+      "old_number": "S3",
+      "report_number": "T3",
+      "destination": "core",
+      "core_number": "S2",
+      "core_section": "S3"
+    },
+    "sec:s-proof-bounds": {
+      "kind": "subsection",
+      "old_number": "S3.5",
+      "report_number": "T3.5",
+      "destination": "core",
+      "core_number": "S3.3",
+      "core_section": "S3"
+    },
+    "prop:moment": {
+      "kind": "proposition",
+      "old_number": "S4",
+      "report_number": "T4",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "sec:s-proof-q12": {
+      "kind": "subsection",
+      "old_number": "S3.6",
+      "report_number": "T3.6",
+      "destination": "core",
+      "core_number": "S3.4",
+      "core_section": "S3"
+    },
+    "prop:q12": {
+      "kind": "proposition",
+      "old_number": "S5",
+      "report_number": "T5",
+      "destination": "core",
+      "core_number": "S3",
+      "core_section": "S3"
+    },
+    "sec:s-proof-interaction": {
+      "kind": "subsection",
+      "old_number": "S3.7",
+      "report_number": "T3.7",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "prop:interaction": {
+      "kind": "proposition",
+      "old_number": "S6",
+      "report_number": "T6",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:estar": {
+      "kind": "table",
+      "old_number": "S6",
+      "report_number": "T6",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "prop:stationary-spectrum-local": {
+      "kind": "proposition",
+      "old_number": "S7",
+      "report_number": "T7",
+      "destination": "core",
+      "core_number": "S4",
+      "core_section": "S3"
+    },
+    "eq:stationary-spectrum-local": {
+      "kind": "equation",
+      "old_number": "S10",
+      "report_number": "T10",
+      "destination": "core",
+      "core_number": "S7",
+      "core_section": "S3"
+    },
+    "prop:stationary-fixed-k-crossing": {
+      "kind": "proposition",
+      "old_number": "S8",
+      "report_number": "T8",
+      "destination": "core",
+      "core_number": "S5",
+      "core_section": "S3"
+    },
+    "sec:s-coefficient": {
+      "kind": "section",
+      "old_number": "S4",
+      "report_number": "T4",
+      "destination": "core",
+      "core_number": "S4.1",
+      "core_section": "S4"
+    },
+    "sec:s-coef-method": {
+      "kind": "subsection",
+      "old_number": "S4.1",
+      "report_number": "T4.1",
+      "destination": "core",
+      "core_number": "S4.1",
+      "core_section": "S4"
+    },
+    "tab:coef-primary": {
+      "kind": "table",
+      "old_number": "S7",
+      "report_number": "T7",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "sec:s-coef-surface": {
+      "kind": "subsection",
+      "old_number": "S4.2",
+      "report_number": "T4.2",
+      "destination": "core",
+      "core_number": "S4.1",
+      "core_section": "S4"
+    },
+    "tab:surface-coef": {
+      "kind": "table",
+      "old_number": "S8",
+      "report_number": "T8",
+      "destination": "core",
+      "core_number": "S5",
+      "core_section": "S4"
+    },
+    "tab:surface-diff": {
+      "kind": "table",
+      "old_number": "S9",
+      "report_number": "T9",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:compliance": {
+      "kind": "table",
+      "old_number": "S10",
+      "report_number": "T10",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:raw-bridges": {
+      "kind": "table",
+      "old_number": "S11",
+      "report_number": "T11",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "sec:s-coef-alt": {
+      "kind": "subsection",
+      "old_number": "S4.3",
+      "report_number": "T4.3",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "fig:surface-diff": {
+      "kind": "figure",
+      "old_number": "S1",
+      "report_number": "T1",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:predictions": {
+      "kind": "table",
+      "old_number": "S12",
+      "report_number": "T12",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:kmix": {
+      "kind": "table",
+      "old_number": "S13",
+      "report_number": "T13",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:posthoc": {
+      "kind": "table",
+      "old_number": "S14",
+      "report_number": "T14",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "sec:s-coef-extension": {
+      "kind": "subsection",
+      "old_number": "S4.4",
+      "report_number": "T4.4",
+      "destination": "core",
+      "core_number": "S4.2",
+      "core_section": "S4"
+    },
+    "tab:extension-predictions": {
+      "kind": "table",
+      "old_number": "S15",
+      "report_number": "T15",
+      "destination": "core",
+      "core_number": "S6",
+      "core_section": "S4"
+    },
+    "tab:extension-crossing": {
+      "kind": "table",
+      "old_number": "S16",
+      "report_number": "T16",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:extension-ranges": {
+      "kind": "table",
+      "old_number": "S17",
+      "report_number": "T17",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:extension-transition": {
+      "kind": "table",
+      "old_number": "S18",
+      "report_number": "T18",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:extension-grid": {
+      "kind": "table",
+      "old_number": "S19",
+      "report_number": "T19",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "sec:s-calibration": {
+      "kind": "section",
+      "old_number": "S5",
+      "report_number": "T5",
+      "destination": "core",
+      "core_number": "S4.3",
+      "core_section": "S4"
+    },
+    "sec:s-selection": {
+      "kind": "subsection",
+      "old_number": "S5.1",
+      "report_number": "T5.1",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "sec:s-gates": {
+      "kind": "subsection",
+      "old_number": "S5.2",
+      "report_number": "T5.2",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:gates": {
+      "kind": "table",
+      "old_number": "S20",
+      "report_number": "T20",
+      "destination": "core",
+      "core_number": "S7",
+      "core_section": "S4"
+    },
+    "sec:s-selection-uncertainty": {
+      "kind": "subsection",
+      "old_number": "S5.3",
+      "report_number": "T5.3",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:sel-independent": {
+      "kind": "table",
+      "old_number": "S21",
+      "report_number": "T21",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:sel-exploratory": {
+      "kind": "table",
+      "old_number": "S22",
+      "report_number": "T22",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "sec:s-bias": {
+      "kind": "subsection",
+      "old_number": "S5.4",
+      "report_number": "T5.4",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:slope-inputs": {
+      "kind": "table",
+      "old_number": "S23",
+      "report_number": "T23",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:slopes": {
+      "kind": "table",
+      "old_number": "S24",
+      "report_number": "T24",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:bias": {
+      "kind": "table",
+      "old_number": "S25",
+      "report_number": "T25",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:contrast-bias": {
+      "kind": "table",
+      "old_number": "S26",
+      "report_number": "T26",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "sec:s-selprop": {
+      "kind": "subsection",
+      "old_number": "S5.5",
+      "report_number": "T5.5",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:selprop": {
+      "kind": "table",
+      "old_number": "S27",
+      "report_number": "T27",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:selprop-alt": {
+      "kind": "table",
+      "old_number": "S28",
+      "report_number": "T28",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "sec:s-common": {
+      "kind": "section",
+      "old_number": "S6",
+      "report_number": "T6",
+      "destination": "core",
+      "core_number": "S4.3",
+      "core_section": "S4"
+    },
+    "tab:common": {
+      "kind": "table",
+      "old_number": "S29",
+      "report_number": "T29",
+      "destination": "core",
+      "core_number": "S8",
+      "core_section": "S4"
+    },
+    "sec:s-alternative": {
+      "kind": "section",
+      "old_number": "S7",
+      "report_number": "T7",
+      "destination": "core",
+      "core_number": "S4.4",
+      "core_section": "S4"
+    },
+    "sec:s-alt-protocol": {
+      "kind": "subsection",
+      "old_number": "S7.1",
+      "report_number": "T7.1",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "sec:s-alt-selection": {
+      "kind": "subsection",
+      "old_number": "S7.2",
+      "report_number": "T7.2",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:alt-grid": {
+      "kind": "table",
+      "old_number": "S30",
+      "report_number": "T30",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "sec:s-alt-results": {
+      "kind": "subsection",
+      "old_number": "S7.3",
+      "report_number": "T7.3",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:holdout-both": {
+      "kind": "table",
+      "old_number": "S31",
+      "report_number": "T31",
+      "destination": "main_and_technical_report",
+      "core_number": null,
+      "core_section": null,
+      "main_location": "Main Table 1 and main Results"
+    },
+    "tab:contrasts-both": {
+      "kind": "table",
+      "old_number": "S32",
+      "report_number": "T32",
+      "destination": "main_and_technical_report",
+      "core_number": null,
+      "core_section": null,
+      "main_location": "Main Table 1 and main Results"
+    },
+    "tab:face": {
+      "kind": "table",
+      "old_number": "S33",
+      "report_number": "T33",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "sec:s-alt-verification": {
+      "kind": "subsection",
+      "old_number": "S7.4",
+      "report_number": "T7.4",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:alt-verif": {
+      "kind": "table",
+      "old_number": "S34",
+      "report_number": "T34",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "sec:s-alt-provenance": {
+      "kind": "subsection",
+      "old_number": "S7.5",
+      "report_number": "T7.5",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "sec:s-alt-limits": {
+      "kind": "subsection",
+      "old_number": "S7.6",
+      "report_number": "T7.6",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "sec:s-routes": {
+      "kind": "section",
+      "old_number": "S8",
+      "report_number": "T8",
+      "destination": "core",
+      "core_number": "S4.5",
+      "core_section": "S4"
+    },
+    "tab:routes-orig": {
+      "kind": "table",
+      "old_number": "S35",
+      "report_number": "T35",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:routes-alt": {
+      "kind": "table",
+      "old_number": "S36",
+      "report_number": "T36",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:source": {
+      "kind": "table",
+      "old_number": "S37",
+      "report_number": "T37",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:gap": {
+      "kind": "table",
+      "old_number": "S38",
+      "report_number": "T38",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "sec:s-environment": {
+      "kind": "section",
+      "old_number": "S9",
+      "report_number": "T9",
+      "destination": "core",
+      "core_number": "S4.4",
+      "core_section": "S4"
+    },
+    "tab:env": {
+      "kind": "table",
+      "old_number": "S39",
+      "report_number": "T39",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:env-slopes": {
+      "kind": "table",
+      "old_number": "S40",
+      "report_number": "T40",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:leading": {
+      "kind": "table",
+      "old_number": "S41",
+      "report_number": "T41",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "sec:s-clock": {
+      "kind": "section",
+      "old_number": "S10",
+      "report_number": "T10",
+      "destination": "core",
+      "core_number": "S4.4",
+      "core_section": "S4"
+    },
+    "fig:clock": {
+      "kind": "figure",
+      "old_number": "S2",
+      "report_number": "T2",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:clock-sweep": {
+      "kind": "table",
+      "old_number": "S42",
+      "report_number": "T42",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:clock-grid": {
+      "kind": "table",
+      "old_number": "S43",
+      "report_number": "T43",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:clock-selection": {
+      "kind": "table",
+      "old_number": "S44",
+      "report_number": "T44",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:rule-conditions": {
+      "kind": "table",
+      "old_number": "S45",
+      "report_number": "T45",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:rule-absolute": {
+      "kind": "table",
+      "old_number": "S46",
+      "report_number": "T46",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:rule-contrasts": {
+      "kind": "table",
+      "old_number": "S47",
+      "report_number": "T47",
+      "destination": "core",
+      "core_number": "S9",
+      "core_section": "S4"
+    },
+    "tab:p-sensitivity": {
+      "kind": "table",
+      "old_number": "S48",
+      "report_number": "T48",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:roles": {
+      "kind": "table",
+      "old_number": "S49",
+      "report_number": "T49",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "sec:s-uq": {
+      "kind": "section",
+      "old_number": "S11",
+      "report_number": "T11",
+      "destination": "core",
+      "core_number": "S4.6",
+      "core_section": "S4"
+    },
+    "fig:uq-grid": {
+      "kind": "figure",
+      "old_number": "S3",
+      "report_number": "T3",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:uq-cont": {
+      "kind": "table",
+      "old_number": "S50",
+      "report_number": "T50",
+      "destination": "core",
+      "core_number": "S10",
+      "core_section": "S4"
+    },
+    "fig:uq-k6": {
+      "kind": "figure",
+      "old_number": "S4",
+      "report_number": "T4",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "fig:uq-cont": {
+      "kind": "figure",
+      "old_number": "S5",
+      "report_number": "T5",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:icuproj": {
+      "kind": "table",
+      "old_number": "S51",
+      "report_number": "T51",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:extension-projection": {
+      "kind": "table",
+      "old_number": "S52",
+      "report_number": "T52",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "sec:s-stability": {
+      "kind": "section",
+      "old_number": "S12",
+      "report_number": "T12",
+      "destination": "core",
+      "core_number": "S4.7",
+      "core_section": "S4"
+    },
+    "tab:alt-halves": {
+      "kind": "table",
+      "old_number": "S53",
+      "report_number": "T53",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:halves": {
+      "kind": "table",
+      "old_number": "S54",
+      "report_number": "T54",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "tab:banks": {
+      "kind": "table",
+      "old_number": "S55",
+      "report_number": "T55",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "fig:weekly": {
+      "kind": "figure",
+      "old_number": "S6",
+      "report_number": "T6",
+      "destination": "core",
+      "core_number": "S1",
+      "core_section": "S4"
+    },
+    "tab:weekly": {
+      "kind": "table",
+      "old_number": "S56",
+      "report_number": "T56",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    },
+    "sec:s-repro": {
+      "kind": "section",
+      "old_number": "S13",
+      "report_number": "T13",
+      "destination": "core",
+      "core_number": "S4.7",
+      "core_section": "S4"
+    },
+    "sec:s-directional": {
+      "kind": "section",
+      "old_number": "S14",
+      "report_number": "T14",
+      "destination": "core",
+      "core_number": "S3.5",
+      "core_section": "S3"
+    },
+    "tab:worker-reweighting": {
+      "kind": "table",
+      "old_number": "S57",
+      "report_number": "T57",
+      "destination": "technical_report",
+      "core_number": null,
+      "core_section": null
+    }
+  }
+}

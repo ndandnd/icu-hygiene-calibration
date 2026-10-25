@@ -1,0 +1,116 @@
+\begin{thebibliography}{99}
+\bibitem[Austin et~al.(1999)]{austin1999}
+Austin DJ, Bonten MJM, Weinstein RA, Slaughter S, Anderson RM.
+  Vancomycin-resistant enterococci in intensive-care hospital settings:
+  transmission dynamics, persistence, and the impact of infection control
+  programs. \emph{Proceedings of the National Academy of Sciences}.
+  1999;96(12):6908--6913.
+  \href{https://doi.org/10.1073/pnas.96.12.6908}{doi:10.1073/pnas.96.12.6908}.
+
+\bibitem[Baek et~al.(2022)]{baek2022}
+Baek YJ, Cho N, Kim C, Lee J, Choi JY. 425. Spread of carbapenem-resistant
+  Enterobacteriaceae in intensive care unit and effective preventative
+  strategies: agent-based model study. \emph{Open Forum Infectious Diseases}.
+  2022;9(Supplement 2):ofac492.500. IDWeek conference abstract.
+  \href{https://doi.org/10.1093/ofid/ofac492.500}{doi:10.1093/ofid/ofac492.500}.
+
+\bibitem[Barnes et~al.(2014)]{barnes2014}
+Barnes SL, Morgan DJ, Harris AD, Carling PC, Thom KA. Preventing the
+  transmission of multidrug-resistant organisms: modeling the relative
+  importance of hand hygiene and environmental cleaning interventions.
+  \emph{Infection Control \& Hospital Epidemiology}. 2014;35(9):1156--1162.
+  \href{https://doi.org/10.1086/677632}{doi:10.1086/677632}.
+
+\bibitem[Beggs et~al.(2009)]{beggs2009}
+Beggs CB, Shepherd SJ, Kerr KG. How does healthcare worker hand hygiene
+  behaviour impact upon the transmission of MRSA between patients?: an analysis
+  using a Monte Carlo model. \emph{BMC Infectious Diseases}. 2009;9:64.
+  \href{https://doi.org/10.1186/1471-2334-9-64}{doi:10.1186/1471-2334-9-64}.
+
+\bibitem[Bertsimas and Popescu(2005)]{bertsimas2005}
+Bertsimas D, Popescu I. Optimal inequalities in probability theory: a convex
+  optimization approach. \emph{SIAM Journal on Optimization}.
+  2005;15(3):780--804.
+  \href{https://doi.org/10.1137/S1052623401399903}{doi:10.1137/S1052623401399903}.
+
+\bibitem[Chan et~al.(2026)]{chan2026}
+Chan D, Robertson S, Poon A, Bearman G. Approximating the cost-benefit analysis
+  to a badge system to track hand hygiene in the hospital setting.
+  \emph{Antimicrobial Stewardship \& Healthcare Epidemiology}. 2026;6(1):e43.
+  \href{https://doi.org/10.1017/ash.2026.10304}{doi:10.1017/ash.2026.10304}.
+
+\bibitem[Clopper and Pearson(1934)]{clopper1934}
+Clopper CJ, Pearson ES. The use of confidence or fiducial limits illustrated in
+  the case of the binomial. \emph{Biometrika}. 1934;26(4):404--413.
+  \href{https://doi.org/10.1093/biomet/26.4.404}{doi:10.1093/biomet/26.4.404}.
+
+\bibitem[De Geyter et~al.(2017)]{degeyter2017}
+De Geyter D, Blommaert L, Verbraeken N, Sevenois M, Huyghens L, Martini H,
+  Covens L, Pi\'erard D, Wybo I. The sink as a potential source of transmission
+  of carbapenemase-producing Enterobacteriaceae in the intensive care unit.
+  \emph{Antimicrobial Resistance \& Infection Control}. 2017;6:24.
+  \href{https://doi.org/10.1186/s13756-017-0182-3}{doi:10.1186/s13756-017-0182-3}.
+
+\bibitem[Grimm et~al.(2020)]{grimm2020}
+Grimm V, Railsback SF, Vincenot CE, Berger U, Gallagher C, DeAngelis DL, et~al.
+  The ODD protocol for describing agent-based and other simulation models: a
+  second update to improve clarity, replication, and structural realism.
+  \emph{Journal of Artificial Societies and Social Simulation}. 2020;23(2):7.
+  \href{https://doi.org/10.18564/jasss.4259}{doi:10.18564/jasss.4259}.
+
+\bibitem[Kraay et~al.(2018)]{kraay2018}
+Kraay ANM, Hayashi MAL, Hernandez-Ceron N, Spicknall IH, Eisenberg MC, Meza R,
+  Eisenberg JNS. Fomite-mediated transmission as a sufficient pathway: a
+  comparative analysis across three viral pathogens. \emph{BMC Infectious
+  Diseases}. 2018;18:540.
+  \href{https://doi.org/10.1186/s12879-018-3425-x}{doi:10.1186/s12879-018-3425-x}.
+
+\bibitem[Madansky(1959)]{madansky1959}
+Madansky A. Bounds on the expectation of a convex function of a multivariate
+  random variable. \emph{The Annals of Mathematical Statistics}.
+  1959;30(3):743--746.
+  \href{https://doi.org/10.1214/aoms/1177706203}{doi:10.1214/aoms/1177706203}.
+
+\bibitem[Manski(2003)]{manski2003}
+Manski CF. \emph{Partial Identification of Probability Distributions}. Springer
+  Series in Statistics. New York: Springer; 2003.
+  \href{https://doi.org/10.1007/b97478}{doi:10.1007/b97478}.
+
+\bibitem[Mitchell et~al.(2015)]{mitchell2015}
+Mitchell BG, Dancer SJ, Anderson M, Dehn E. Risk of organism acquisition from
+  prior room occupants: a systematic review and meta-analysis. \emph{Journal of
+  Hospital Infection}. 2015;91(3):211--217.
+  \href{https://doi.org/10.1016/j.jhin.2015.08.005}{doi:10.1016/j.jhin.2015.08.005}.
+
+\bibitem[Spicknall et~al.(2010)]{spicknall2010}
+Spicknall IH, Koopman JS, Nicas M, Pujol JM, Li S, Eisenberg JNS. Informing
+  optimal environmental influenza interventions: how the host, agent, and
+  environment alter dominant routes of transmission. \emph{PLoS Computational
+  Biology}. 2010;6(10):e1000969.
+  \href{https://doi.org/10.1371/journal.pcbi.1000969}{doi:10.1371/journal.pcbi.1000969}.
+
+\bibitem[Tamer(2010)]{tamer2010}
+Tamer E. Partial identification in econometrics. \emph{Annual Review of
+  Economics}. 2010;2:167--195.
+  \href{https://doi.org/10.1146/annurev.economics.050708.143401}{doi:10.1146/annurev.economics.050708.143401}.
+
+\bibitem[Wei et~al.(2021)]{wei2021}
+Wei L, Wu L, Wen H, Feng Y, Zhu S, Liu Y, Tang L, Doughty E, van Schaik W,
+  McNally A, Zong Z. Spread of carbapenem-resistant \emph{Klebsiella
+  pneumoniae} in an intensive care unit: a whole-genome sequence-based
+  prospective observational study. \emph{Microbiology Spectrum}.
+  2021;9(1):e00058-21.
+  \href{https://doi.org/10.1128/Spectrum.00058-21}{doi:10.1128/Spectrum.00058-21}.
+
+\bibitem[WHO(2009a)]{who2009}
+World Health Organization. \emph{Hand Hygiene Technical Reference Manual: To Be
+  Used by Health-Care Workers, Trainers and Observers of Hand Hygiene
+  Practices}. Geneva: World Health Organization; 2009. ISBN 978-92-4-159860-6.
+  \url{https://iris.who.int/handle/10665/44196}.
+
+\bibitem[WHO(2009b)]{whoguidelines2009}
+World Health Organization. \emph{WHO Guidelines on Hand Hygiene in Health Care:
+  First Global Patient Safety Challenge. Clean Care Is Safer Care}. Geneva:
+  World Health Organization; 2009. ISBN 978-92-4-159790-6.
+
+\end{thebibliography}

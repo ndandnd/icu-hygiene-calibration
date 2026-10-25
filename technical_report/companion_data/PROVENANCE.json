@@ -1,0 +1,13 @@
+{
+  "source": "abm/research/coefficient_extension_2026-10-23/summary.json",
+  "source_field": "predictions.prediction_4_renewal_comparator.rows",
+  "rows": 132,
+  "units": "F_star, F_geo and their confidence limits are fractions; multiply by100 for percent prevention. F_geo_minus_F_star is a difference of fractions; multiply by100 for percentage points.",
+  "note": "Direct full-precision export, no estimation, rounding, bootstrap or generator rerun.",
+  "accepted_archived_summary_sha256": "ab0444c387806d61b24e927c0aeb161382327f7b4b26973b2b9681152b1f1c8b",
+  "rows_identical_to_accepted_archived_summary": true,
+  "canonical_working_summary_sha256": "18e2f5b362f3fb5efbd29bd29c6603292a612da30e74d8963229c3eb28271d46",
+  "deposited_source_sha256": "e623f267c5115c74123cf74c48d81e87465bedfb47f4e7330518dc3daca416c9",
+  "deposited_source_kind": "Portable public projection of the working summary; all 132 exported rows are exactly identical.",
+  "rows_identical_to_deposited_source": true
+}

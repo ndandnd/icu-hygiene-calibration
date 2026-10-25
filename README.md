@@ -2,9 +2,20 @@
 
 Nathan Cho · Cornell Tech · nc437@cornell.edu
 
-Code and synthetic data release **v1.0.1**: research software, plots and **17,920 completed synthetic simulation records** supporting the study named above. These are simulator-generated histories and numerical outputs, not patient records. Funding: none. Conflicts of interest: none.
+Code and synthetic data release **v1.0.2**: research software, plots and **17,920 completed synthetic simulation records** supporting the study named above. These are simulator-generated histories and numerical outputs, not patient records. Funding: none. Conflicts of interest: none.
 
 The study tests how clustered hand-hygiene lapses and incomplete clearing affect transmission under two ICU workflow rules. All failed checks and predictions remain in the deposited results: the original finite-transmission holdout failed all six baseline-matching interval checks; two of the extension's four prespecified predictions failed; its finite-transmission reversal remains untested. The conclusions are conditional model results, not clinical validation. Full publication documents are preserved outside this repository.
+
+## Technical report and detailed tables
+
+The [technical reproducibility report](TECHNICAL_REPRODUCIBILITY_REPORT.pdf) retains the complete technical record, including the detailed calibration checks, historical sweeps, coefficient grids and uncertainty qualifications. It is supporting documentation, separate from the main paper and shorter journal supplement. The main paper and core supplement PDFs are reserved for a preprint/journal deposit.
+
+- [Full 132-point coefficient grid, CSV](technical_report/companion_data/coefficient_grid132.csv)
+- [Original row fields and full precision, JSON](technical_report/companion_data/coefficient_grid132_original_fields.json)
+- [Grid provenance and units](technical_report/companion_data/PROVENANCE.json)
+- [Rebuild the technical report](technical_report/source/README.txt)
+
+All old synthetic simulation banks are unchanged. The report states the assumption that hand contamination alone leaves movement, screening and exposure unchanged before acquisition, and explains why irrelevant-event cancellations do not supply a horizon-independent error bound.
 
 ## Start here
 
